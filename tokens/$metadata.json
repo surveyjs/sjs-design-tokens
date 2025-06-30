@@ -1,0 +1,13 @@
+{
+  "tokenSetOrder": [
+    "base-unit",
+    "common",
+    "common-typo",
+    "palette",
+    "typo/ctr",
+    "typo/lbr",
+    "ctr/light",
+    "ctr/dark",
+    "ctr/contrast"
+  ]
+}

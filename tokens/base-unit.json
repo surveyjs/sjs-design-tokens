@@ -1,0 +1,36 @@
+{
+  "base-unit": {
+    "size": {
+      "value": "8",
+      "type": "baseUnit"
+    },
+    "spacing": {
+      "value": "8",
+      "type": "baseUnit"
+    },
+    "radius": {
+      "value": "8",
+      "type": "baseUnit"
+    },
+    "border-width": {
+      "value": "1",
+      "type": "baseUnit"
+    },
+    "font-size": {
+      "value": "8",
+      "type": "baseUnit"
+    },
+    "line-height": {
+      "value": "8",
+      "type": "baseUnit"
+    },
+    "opacity": {
+      "value": "1%",
+      "type": "baseUnit"
+    },
+    "scale": {
+      "value": "1%",
+      "type": "baseUnit"
+    }
+  }
+}
