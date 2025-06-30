@@ -91,7 +91,7 @@
     "bg": {
       "basic": {
         "primary": {
-          "value": "{palette.gray.000}",
+          "value": "{palette.gray.900}",
           "type": "color"
         },
         "secondary": {
