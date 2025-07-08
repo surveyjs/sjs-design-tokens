@@ -1033,12 +1033,8 @@
       "value": "{radius.form}",
       "type": "borderRadius"
     },
-    "card": {
-      "value": "{radius.static.x200}",
-      "type": "borderRadius"
-    },
-    "snack": {
-      "value": "{radius.static.x200}",
+    "area": {
+      "value": "{radius.form}",
       "type": "borderRadius"
     },
     "panel": {
@@ -1046,11 +1042,35 @@
       "type": "borderRadius"
     },
     "drop": {
+      "value": "{radius.form}",
+      "type": "borderRadius"
+    },
+    "menu": {
       "value": "{radius.static.x250}",
       "type": "borderRadius"
     },
     "modal": {
       "value": "{radius.static.x300}",
+      "type": "borderRadius"
+    },
+    "snack": {
+      "value": "{radius.static.x200}",
+      "type": "borderRadius"
+    },
+    "toggle": {
+      "value": "{radius.static.round}",
+      "type": "borderRadius"
+    },
+    "thumb": {
+      "value": "{radius.static.round}",
+      "type": "borderRadius"
+    },
+    "track": {
+      "value": "{radius.static.round}",
+      "type": "borderRadius"
+    },
+    "rate": {
+      "value": "{radius.static.round}",
       "type": "borderRadius"
     }
   },
