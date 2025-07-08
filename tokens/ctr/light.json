@@ -1019,5 +1019,103 @@
       },
       "type": "boxShadow"
     }
+  },
+  "radius": {
+    "item": {
+      "value": "{radius.static.x050}",
+      "type": "borderRadius"
+    },
+    "form": {
+      "value": "{radius.static.x100}",
+      "type": "borderRadius"
+    },
+    "action": {
+      "value": "{radius.form}",
+      "type": "borderRadius"
+    },
+    "card": {
+      "value": "{radius.static.x200}",
+      "type": "borderRadius"
+    },
+    "snack": {
+      "value": "{radius.static.x200}",
+      "type": "borderRadius"
+    },
+    "panel": {
+      "value": "{radius.static.x250}",
+      "type": "borderRadius"
+    },
+    "drop": {
+      "value": "{radius.static.x250}",
+      "type": "borderRadius"
+    },
+    "modal": {
+      "value": "{radius.static.x300}",
+      "type": "borderRadius"
+    }
+  },
+  "size": {
+    "icon": {
+      "small": {
+        "value": "{size.static.x200}",
+        "type": "sizing"
+      },
+      "medium": {
+        "value": "{size.static.x300}",
+        "type": "sizing"
+      }
+    },
+    "action": {
+      "small": {
+        "value": "{size.static.x500}",
+        "type": "sizing"
+      },
+      "medium": {
+        "value": "{size.static.x600}",
+        "type": "sizing"
+      }
+    }
+  },
+  "spacing": {
+    "action-stack": {
+      "horizontal": {
+        "small": {
+          "value": "{spacing.static.x000}",
+          "type": "spacing"
+        },
+        "medium": {
+          "value": "{spacing.static.x150}",
+          "type": "spacing"
+        }
+      },
+      "vertical": {
+        "medium": {
+          "value": "{spacing.static.x150}",
+          "type": "spacing"
+        }
+      }
+    },
+    "form-stack": {
+      "vertical": {
+        "small": {
+          "value": "{spacing.static.x100}",
+          "type": "spacing"
+        },
+        "medium": {
+          "value": "{spacing.static.x200}",
+          "type": "spacing"
+        },
+        "large": {
+          "value": "{spacing.static.x400}",
+          "type": "spacing"
+        }
+      },
+      "horizontal": {
+        "medium": {
+          "value": "{spacing.static.x200}",
+          "type": "spacing"
+        }
+      }
+    }
   }
 }

@@ -187,28 +187,6 @@
         "value": "9999",
         "type": "borderRadius"
       }
-    },
-    "semantic": {
-      "item": {
-        "value": "{radius.static.x050}",
-        "type": "borderRadius"
-      },
-      "form": {
-        "value": "{radius.static.x100}",
-        "type": "borderRadius"
-      },
-      "panel": {
-        "value": "{radius.static.x150}",
-        "type": "borderRadius"
-      },
-      "drop": {
-        "value": "{radius.static.x150}",
-        "type": "borderRadius"
-      },
-      "modal": {
-        "value": "{radius.static.x300}",
-        "type": "borderRadius"
-      }
     }
   },
   "spacing": {
@@ -231,6 +209,10 @@
       },
       "x100": {
         "value": "{base-unit.spacing} * 1",
+        "type": "spacing"
+      },
+      "x150": {
+        "value": "{base-unit.spacing} * 1.5",
         "type": "spacing"
       },
       "x200": {
@@ -280,6 +262,10 @@
         },
         "x100": {
           "value": "{base-unit.spacing} * -1",
+          "type": "spacing"
+        },
+        "x150": {
+          "value": "{base-unit.spacing} * -1.5",
           "type": "spacing"
         },
         "x200": {
@@ -495,6 +481,66 @@
           "minWidth": "1600"
         },
         "type": "composition"
+      }
+    }
+  },
+  "padding": {
+    "static": {
+      "x000": {
+        "value": "{base-unit.spacing} * 0",
+        "type": "spacing"
+      },
+      "x025": {
+        "value": "{base-unit.spacing} * 0.25",
+        "type": "spacing"
+      },
+      "x050": {
+        "value": "{base-unit.spacing} * 0.50",
+        "type": "spacing"
+      },
+      "x075": {
+        "value": "{base-unit.spacing} * 0.75",
+        "type": "spacing"
+      },
+      "x100": {
+        "value": "{base-unit.spacing} * 1",
+        "type": "spacing"
+      },
+      "x150": {
+        "value": "{base-unit.spacing} * 1.5",
+        "type": "spacing"
+      },
+      "x200": {
+        "value": "{base-unit.spacing} * 2",
+        "type": "spacing"
+      },
+      "x250": {
+        "value": "{base-unit.spacing} * 2.50",
+        "type": "spacing"
+      },
+      "x300": {
+        "value": "{base-unit.spacing} * 3",
+        "type": "spacing"
+      },
+      "x400": {
+        "value": "{base-unit.spacing} * 4",
+        "type": "spacing"
+      },
+      "x500": {
+        "value": "{base-unit.spacing} * 5",
+        "type": "spacing"
+      },
+      "x600": {
+        "value": "{base-unit.spacing} * 6",
+        "type": "spacing"
+      },
+      "x700": {
+        "value": "{base-unit.spacing} * 7",
+        "type": "spacing"
+      },
+      "x800": {
+        "value": "{base-unit.spacing} * 8",
+        "type": "spacing"
       }
     }
   }
