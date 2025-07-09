@@ -80,11 +80,19 @@
         "type": "color"
       },
       "overlay": {
-        "value": "rgba( {palette.gray.700}, {opacity.semantic.overlay} )",
+        "value": "rgba( {palette.gray.700}, {opacity.overlay} )",
         "type": "color"
       },
       "scrollbar": {
         "value": "rgba( {palette.gray.999}, {opacity.static.x015} )",
+        "type": "color"
+      },
+      "shadow": {
+        "value": "rgba( {palette.gray.999}, {opacity.static.x030} )",
+        "type": "color"
+      },
+      "glow": {
+        "value": "rgba( #240A6D, {opacity.static.x010} )",
         "type": "color"
       }
     },
@@ -476,7 +484,7 @@
       }
     },
     "control": {
-      "input": {
+      "editor": {
         "default": {
           "bg": {
             "value": "{color.bg.basic.secondary}",
@@ -981,7 +989,7 @@
         "y": "2",
         "blur": "4",
         "spread": "1",
-        "color": "rgba( {palette.gray.900}, {opacity.static.x015} )",
+        "color": "{color.utility.shadow}",
         "type": "dropShadow"
       },
       "type": "boxShadow"
@@ -992,7 +1000,7 @@
         "y": "4",
         "blur": "8",
         "spread": "2",
-        "color": "rgba( {palette.gray.900}, {opacity.static.x015} )",
+        "color": "{color.utility.glow}",
         "type": "dropShadow"
       },
       "type": "boxShadow"
@@ -1003,7 +1011,7 @@
         "y": "6",
         "blur": "12",
         "spread": "4",
-        "color": "rgba( {palette.gray.900}, {opacity.static.x015} )",
+        "color": "{color.utility.glow}",
         "type": "dropShadow"
       },
       "type": "boxShadow"
@@ -1018,6 +1026,24 @@
         "type": "innerShadow"
       },
       "type": "boxShadow"
+    }
+  },
+  "opacity": {
+    "visible": {
+      "value": "{opacity.static.x100}",
+      "type": "opacity"
+    },
+    "overlay": {
+      "value": "{opacity.static.x060}",
+      "type": "opacity"
+    },
+    "disabled": {
+      "value": "{opacity.static.x025}",
+      "type": "opacity"
+    },
+    "hidden": {
+      "value": "{opacity.static.x000}",
+      "type": "opacity"
     }
   }
 }

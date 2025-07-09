@@ -2,12 +2,12 @@
   "tokenSetOrder": [
     "base-unit",
     "common",
-    "common-typo",
     "palette",
-    "typo/ctr",
-    "typo/lbr",
-    "ctr/light",
-    "ctr/dark",
-    "ctr/contrast"
+    "typography/ctr-default",
+    "typography/lbr-default",
+    "size/ctr-default",
+    "color/ctr-light",
+    "color/ctr-dark",
+    "color/ctr-contrast"
   ]
 }
