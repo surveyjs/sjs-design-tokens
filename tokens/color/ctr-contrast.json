@@ -1026,6 +1026,50 @@
         "type": "innerShadow"
       },
       "type": "boxShadow"
+    },
+    "small-reset": {
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "0",
+        "color": "{color.utility.shadow}",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "medium-reset": {
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "0",
+        "color": "{color.utility.glow}",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "large-reset": {
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "0",
+        "color": "{color.utility.glow}",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "inner-reset": {
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "0",
+        "color": "{color.border.basic.secondary}",
+        "type": "innerShadow"
+      },
+      "type": "boxShadow"
     }
   },
   "opacity": {

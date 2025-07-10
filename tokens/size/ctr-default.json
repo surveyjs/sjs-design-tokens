@@ -12,10 +12,6 @@
       "value": "{radius.form}",
       "type": "borderRadius"
     },
-    "action-textonly": {
-      "value": "{radius.form}",
-      "type": "borderRadius"
-    },
     "checkbox": {
       "value": "{radius.form-item}",
       "type": "borderRadius"
@@ -532,5 +528,9 @@
         "type": "sizing"
       }
     }
+  },
+  "panelless": {
+    "value": "false",
+    "type": "boolean"
   }
 }
