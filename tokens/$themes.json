@@ -6,8 +6,7 @@
     "selectedTokenSets": {
       "base-unit": "source",
       "common": "source",
-      "typography/ctr-default": "enabled",
-      "typography/lbr-default": "disabled"
+      "typography/ctr-default": "enabled"
     },
     "$figmaVariableReferences": {},
     "group": "typography"
@@ -19,7 +18,6 @@
     "selectedTokenSets": {
       "base-unit": "source",
       "common": "source",
-      "typography/ctr-default": "disabled",
       "typography/lbr-default": "enabled"
     },
     "$figmaVariableReferences": {},
@@ -32,12 +30,7 @@
     "selectedTokenSets": {
       "base-unit": "source",
       "common": "source",
-      "color/ctr-light": "disabled",
-      "color/ctr-dark": "disabled",
-      "color/ctr-contrast": "disabled",
-      "size/ctr-default": "enabled",
-      "typography/ctr-default": "disabled",
-      "typography/lbr-default": "disabled"
+      "size/ctr-default": "enabled"
     },
     "$figmaVariableReferences": {},
     "group": "size"
@@ -50,12 +43,7 @@
       "base-unit": "source",
       "common": "source",
       "palette": "source",
-      "color/ctr-light": "enabled",
-      "color/ctr-dark": "disabled",
-      "color/ctr-contrast": "disabled",
-      "size/ctr-default": "disabled",
-      "typography/ctr-default": "disabled",
-      "typography/lbr-default": "disabled"
+      "color/ctr-light": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:2661",
     "$figmaModeId": "77:17",
@@ -262,12 +250,7 @@
       "base-unit": "source",
       "common": "source",
       "palette": "source",
-      "color/ctr-light": "disabled",
-      "color/ctr-dark": "enabled",
-      "color/ctr-contrast": "disabled",
-      "size/ctr-default": "disabled",
-      "typography/ctr-default": "disabled",
-      "typography/lbr-default": "disabled"
+      "color/ctr-dark": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:2661",
     "$figmaModeId": "77:18",
@@ -474,12 +457,7 @@
       "base-unit": "source",
       "common": "source",
       "palette": "source",
-      "color/ctr-light": "disabled",
-      "color/ctr-dark": "disabled",
-      "color/ctr-contrast": "enabled",
-      "size/ctr-default": "disabled",
-      "typography/ctr-default": "disabled",
-      "typography/lbr-default": "disabled"
+      "color/ctr-contrast": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:2661",
     "$figmaModeId": "77:19",
