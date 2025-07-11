@@ -103,23 +103,23 @@
           "type": "color"
         },
         "secondary": {
-          "value": "rgba( {palette.gray.900}, {opacity.static.x005} )",
+          "value": "rgba( {palette.gray.000}, {opacity.static.x005} )",
           "type": "color"
         },
         "tertiary": {
-          "value": "rgba( {palette.gray.900}, {opacity.static.x010} )",
+          "value": "rgba( {palette.gray.000}, {opacity.static.x010} )",
           "type": "color"
         },
         "primary-dim": {
-          "value": "rgba( {palette.gray.900}, {opacity.static.x005} )",
+          "value": "rgba( {palette.gray.000}, {opacity.static.x005} )",
           "type": "color"
         },
         "secondary-dim": {
-          "value": "rgba( {palette.gray.900}, {opacity.static.x010} )",
+          "value": "rgba( {palette.gray.000}, {opacity.static.x010} )",
           "type": "color"
         },
         "tertiary-dim": {
-          "value": "rgba( {palette.gray.900}, {opacity.static.x015} )",
+          "value": "rgba( {palette.gray.000}, {opacity.static.x015} )",
           "type": "color"
         }
       },
@@ -203,7 +203,7 @@
       },
       "inverse": {
         "primary": {
-          "value": "{palette.gray.900}",
+          "value": "{palette.gray.000}",
           "type": "color"
         },
         "secondary": {
@@ -215,7 +215,7 @@
           "type": "color"
         },
         "primary-dim": {
-          "value": "{palette.gray.700}",
+          "value": "{palette.gray.100}",
           "type": "color"
         },
         "secondary-dim": {
@@ -223,7 +223,7 @@
           "type": "color"
         },
         "tertiary-dim": {
-          "value": "rgba( {palette.gray.900}, {opacity.static.x010} )",
+          "value": "rgba( {palette.gray.000}, {opacity.static.x010} )",
           "type": "color"
         }
       },
