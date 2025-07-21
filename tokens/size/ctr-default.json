@@ -12,6 +12,14 @@
       "value": "{radius.form}",
       "type": "borderRadius"
     },
+    "action-icon": {
+      "value": "{radius.form}",
+      "type": "borderRadius"
+    },
+    "button": {
+      "value": "{radius.form}",
+      "type": "borderRadius"
+    },
     "checkbox": {
       "value": "{radius.form-item}",
       "type": "borderRadius"
@@ -29,6 +37,14 @@
       "type": "borderRadius"
     },
     "rating": {
+      "value": "{radius.static.round}",
+      "type": "borderRadius"
+    },
+    "ranking": {
+      "value": "{radius.static.round}",
+      "type": "borderRadius"
+    },
+    "ranking-item": {
       "value": "{radius.static.round}",
       "type": "borderRadius"
     },
