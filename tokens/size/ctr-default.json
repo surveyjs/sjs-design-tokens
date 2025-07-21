@@ -114,20 +114,6 @@
     },
     "editor": {
       "small": {
-        "box": {
-          "horizontal": {
-            "value": "{spacing.static.x000}",
-            "type": "spacing"
-          },
-          "vertical": {
-            "value": "{spacing.static.x000}",
-            "type": "spacing"
-          },
-          "gap": {
-            "value": "{spacing.static.x000}",
-            "type": "spacing"
-          }
-        },
         "text": {
           "vertical": {
             "value": "{spacing.static.x050}",
@@ -168,20 +154,6 @@
         }
       },
       "medium": {
-        "box": {
-          "horizontal": {
-            "value": "{spacing.static.x000}",
-            "type": "spacing"
-          },
-          "vertical": {
-            "value": "{spacing.static.x000}",
-            "type": "spacing"
-          },
-          "gap": {
-            "value": "{spacing.static.x000}",
-            "type": "spacing"
-          }
-        },
         "text": {
           "vertical": {
             "value": "{spacing.static.x100}",
