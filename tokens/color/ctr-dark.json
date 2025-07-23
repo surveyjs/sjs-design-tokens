@@ -980,6 +980,92 @@
           }
         }
       }
+    },
+    "chart": {
+      "bg": {
+        "color-1": {
+          "value": "#85E1FB",
+          "type": "color"
+        },
+        "color-2": {
+          "value": "#3A99FB",
+          "type": "color"
+        },
+        "color-3": {
+          "value": "#FF6771",
+          "type": "color"
+        },
+        "color-4": {
+          "value": "#1DB496",
+          "type": "color"
+        },
+        "color-5": {
+          "value": "#FFC152",
+          "type": "color"
+        },
+        "color-6": {
+          "value": "#ABA1FF",
+          "type": "color"
+        },
+        "color-7": {
+          "value": "#7D8CA5",
+          "type": "color"
+        },
+        "color-8": {
+          "value": "#4FC46C",
+          "type": "color"
+        },
+        "color-9": {
+          "value": "#E87BCB",
+          "type": "color"
+        },
+        "color-10": {
+          "value": "#4E6198",
+          "type": "color"
+        }
+      },
+      "fg": {
+        "on-color-1": {
+          "value": "{palette.gray.000}",
+          "type": "color"
+        },
+        "on-color-2": {
+          "value": "{palette.gray.000}",
+          "type": "color"
+        },
+        "on-color-3": {
+          "value": "{palette.gray.000}",
+          "type": "color"
+        },
+        "on-color-4": {
+          "value": "{palette.gray.000}",
+          "type": "color"
+        },
+        "on-color-5": {
+          "value": "{palette.gray.000}",
+          "type": "color"
+        },
+        "on-color-6": {
+          "value": "{palette.gray.000}",
+          "type": "color"
+        },
+        "on-color-7": {
+          "value": "{palette.gray.000}",
+          "type": "color"
+        },
+        "on-color-8": {
+          "value": "{palette.gray.000}",
+          "type": "color"
+        },
+        "on-color-9": {
+          "value": "{palette.gray.000}",
+          "type": "color"
+        },
+        "on-color-10": {
+          "value": "{palette.gray.000}",
+          "type": "color"
+        }
+      }
     }
   },
   "shadow": {

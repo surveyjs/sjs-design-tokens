@@ -8,6 +8,7 @@
     "size/ctr-default",
     "color/ctr-light",
     "color/ctr-dark",
-    "color/ctr-contrast"
+    "color/ctr-contrast",
+    "color/dsb-light"
   ]
 }

@@ -655,5 +655,17 @@
       "color.control.editor.invalid.placeholder": "70a1849b776b8af3455005498fb7bd01a4bca2e5"
     },
     "group": "color"
+  },
+  {
+    "id": "acb297e4a6becb44fcb32044e188c74696c674d5",
+    "name": "dsb-light",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "base-unit": "source",
+      "common": "source",
+      "palette": "source",
+      "color/dsb-light": "enabled"
+    },
+    "group": "color"
   }
 ]
