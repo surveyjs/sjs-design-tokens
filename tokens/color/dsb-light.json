@@ -381,13 +381,13 @@
         },
         "brand": {
           "primary": {
-            "value": "{sjs2.color.project.accent.700}",
+            "value": "{sjs2.color.project.accent.600}",
             "type": "color"
           }
         },
         "accent": {
           "primary": {
-            "value": "{sjs2.color.project.accent.700}",
+            "value": "{sjs2.color.project.accent.600}",
             "type": "color"
           }
         },
@@ -399,7 +399,7 @@
         },
         "positive": {
           "primary": {
-            "value": "{sjs2.palette.green.700}",
+            "value": "{sjs2.palette.green.600}",
             "type": "color"
           }
         },
