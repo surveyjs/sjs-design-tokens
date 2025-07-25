@@ -458,6 +458,36 @@
             "type": "spacing"
           }
         }
+      },
+      "tooltip": {
+        "box": {
+          "vertical": {
+            "value": "{sjs2.spacing.static.x100}",
+            "type": "spacing"
+          },
+          "horizontal": {
+            "value": "{sjs2.spacing.static.x100}",
+            "type": "spacing"
+          },
+          "gap": {
+            "value": "{sjs2.spacing.static.x000}",
+            "type": "spacing"
+          }
+        },
+        "text": {
+          "vertical": {
+            "value": "{sjs2.spacing.static.x050}",
+            "type": "spacing"
+          },
+          "horizontal": {
+            "value": "{sjs2.spacing.static.x150}",
+            "type": "spacing"
+          },
+          "gap": {
+            "value": "{sjs2.spacing.static.x000}",
+            "type": "spacing"
+          }
+        }
       }
     },
     "size": {
