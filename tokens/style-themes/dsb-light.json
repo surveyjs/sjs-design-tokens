@@ -1080,7 +1080,7 @@
     "shadow": {
       "color": {
         "small": {
-          "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.static.x025} )",
+          "value": "{sjs2.color.border.basic.secondary}",
           "type": "color"
         },
         "medium": {

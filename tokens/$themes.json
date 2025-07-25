@@ -108,8 +108,6 @@
       "sjs2.size.form.large": "1e030d3aa50de1ed0a8e487b93cd6bfa85d95321",
       "sjs2.size.icon.small": "1f3335cc26c5122a2e1f11d1a091bbb22ea4473c",
       "sjs2.size.icon.medium": "856f10fa54b29ea58b78bddf19d01467d7dd8192",
-      "sjs2.size.track.small": "ff6ea7e35cdb0f06d7ce9f0d79120a1b9b73fc3d",
-      "sjs2.size.track.medium": "e1bc3eb8b9c0ff29a4b34624d65fde1fbefe6366",
       "sjs2.is-panelless": "8e40408cba79da3c8a0b300f5018a9c187b35f16",
       "sjs2.radius.tooltip": "59eb10026b7a4a5b8d8a524545722a5704cfee8f"
     },
@@ -1348,8 +1346,6 @@
       "sjs2.size.form.large": "1e030d3aa50de1ed0a8e487b93cd6bfa85d95321",
       "sjs2.size.icon.small": "1f3335cc26c5122a2e1f11d1a091bbb22ea4473c",
       "sjs2.size.icon.medium": "856f10fa54b29ea58b78bddf19d01467d7dd8192",
-      "sjs2.size.track.small": "ff6ea7e35cdb0f06d7ce9f0d79120a1b9b73fc3d",
-      "sjs2.size.track.medium": "e1bc3eb8b9c0ff29a4b34624d65fde1fbefe6366",
       "sjs2.is-panelless": "8e40408cba79da3c8a0b300f5018a9c187b35f16"
     },
     "group": "size-themes"
