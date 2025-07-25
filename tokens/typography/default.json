@@ -1,106 +1,104 @@
 {
   "sjs2": {
     "typography": {
-      "ctr": {
-        "large": {
-          "value": {
-            "fontFamily": "{sjs2.font-family.semantic.default}",
-            "fontWeight": "{sjs2.font-weight.static.regular}",
-            "fontSize": "{sjs2.font-size.semantic.large}",
-            "lineHeight": "{sjs2.line-height.semantic.large}",
-            "textCase": "{sjs2.text-case.static.default}",
-            "textDecoration": "{sjs2.text-decoration.semantic.default}"
-          },
-          "type": "typography"
+      "large": {
+        "value": {
+          "fontFamily": "{sjs2.font-family.semantic.default}",
+          "fontWeight": "{sjs2.font-weight.static.regular}",
+          "fontSize": "{sjs2.font-size.semantic.large}",
+          "lineHeight": "{sjs2.line-height.semantic.large}",
+          "textCase": "{sjs2.text-case.static.default}",
+          "textDecoration": "{sjs2.text-decoration.semantic.default}"
         },
-        "large-strong": {
-          "value": {
-            "fontFamily": "{sjs2.font-family.semantic.default}",
-            "fontWeight": "{sjs2.font-weight.static.semibold}",
-            "fontSize": "{sjs2.font-size.semantic.large}",
-            "lineHeight": "{sjs2.line-height.semantic.large}",
-            "textCase": "{sjs2.text-case.static.default}",
-            "textDecoration": "{sjs2.text-decoration.semantic.default}"
-          },
-          "type": "typography"
+        "type": "typography"
+      },
+      "large-strong": {
+        "value": {
+          "fontFamily": "{sjs2.font-family.semantic.default}",
+          "fontWeight": "{sjs2.font-weight.static.semibold}",
+          "fontSize": "{sjs2.font-size.semantic.large}",
+          "lineHeight": "{sjs2.line-height.semantic.large}",
+          "textCase": "{sjs2.text-case.static.default}",
+          "textDecoration": "{sjs2.text-decoration.semantic.default}"
         },
-        "medium": {
-          "value": {
-            "fontFamily": "{sjs2.font-family.semantic.default}",
-            "fontWeight": "{sjs2.font-weight.static.regular}",
-            "fontSize": "{sjs2.font-size.semantic.medium}",
-            "lineHeight": "{sjs2.line-height.semantic.medium}",
-            "textCase": "{sjs2.text-case.static.default}",
-            "textDecoration": "{sjs2.text-decoration.semantic.default}"
-          },
-          "type": "typography"
+        "type": "typography"
+      },
+      "medium": {
+        "value": {
+          "fontFamily": "{sjs2.font-family.semantic.default}",
+          "fontWeight": "{sjs2.font-weight.static.regular}",
+          "fontSize": "{sjs2.font-size.semantic.medium}",
+          "lineHeight": "{sjs2.line-height.semantic.medium}",
+          "textCase": "{sjs2.text-case.static.default}",
+          "textDecoration": "{sjs2.text-decoration.semantic.default}"
         },
-        "medium-strong": {
-          "value": {
-            "fontFamily": "{sjs2.font-family.semantic.default}",
-            "fontWeight": "{sjs2.font-weight.static.semibold}",
-            "fontSize": "{sjs2.font-size.semantic.medium}",
-            "lineHeight": "{sjs2.line-height.semantic.medium}",
-            "textCase": "{sjs2.text-case.static.default}",
-            "textDecoration": "{sjs2.text-decoration.semantic.default}"
-          },
-          "type": "typography"
+        "type": "typography"
+      },
+      "medium-strong": {
+        "value": {
+          "fontFamily": "{sjs2.font-family.semantic.default}",
+          "fontWeight": "{sjs2.font-weight.static.semibold}",
+          "fontSize": "{sjs2.font-size.semantic.medium}",
+          "lineHeight": "{sjs2.line-height.semantic.medium}",
+          "textCase": "{sjs2.text-case.static.default}",
+          "textDecoration": "{sjs2.text-decoration.semantic.default}"
         },
-        "default": {
-          "value": {
-            "fontFamily": "{sjs2.font-family.semantic.default}",
-            "fontWeight": "{sjs2.font-weight.static.regular}",
-            "fontSize": "{sjs2.font-size.semantic.default}",
-            "lineHeight": "{sjs2.line-height.semantic.default}",
-            "textCase": "{sjs2.text-case.static.default}",
-            "textDecoration": "{sjs2.text-decoration.semantic.default}"
-          },
-          "type": "typography"
+        "type": "typography"
+      },
+      "default": {
+        "value": {
+          "fontFamily": "{sjs2.font-family.semantic.default}",
+          "fontWeight": "{sjs2.font-weight.static.regular}",
+          "fontSize": "{sjs2.font-size.semantic.default}",
+          "lineHeight": "{sjs2.line-height.semantic.default}",
+          "textCase": "{sjs2.text-case.static.default}",
+          "textDecoration": "{sjs2.text-decoration.semantic.default}"
         },
-        "default-strong": {
-          "value": {
-            "fontFamily": "{sjs2.font-family.semantic.default}",
-            "fontWeight": "{sjs2.font-weight.static.semibold}",
-            "fontSize": "{sjs2.font-size.semantic.default}",
-            "lineHeight": "{sjs2.line-height.semantic.default}",
-            "textCase": "{sjs2.text-case.static.default}",
-            "textDecoration": "{sjs2.text-decoration.semantic.default}"
-          },
-          "type": "typography"
+        "type": "typography"
+      },
+      "default-strong": {
+        "value": {
+          "fontFamily": "{sjs2.font-family.semantic.default}",
+          "fontWeight": "{sjs2.font-weight.static.semibold}",
+          "fontSize": "{sjs2.font-size.semantic.default}",
+          "lineHeight": "{sjs2.line-height.semantic.default}",
+          "textCase": "{sjs2.text-case.static.default}",
+          "textDecoration": "{sjs2.text-decoration.semantic.default}"
         },
-        "small": {
-          "value": {
-            "fontFamily": "{sjs2.font-family.semantic.default}",
-            "fontWeight": "{sjs2.font-weight.static.regular}",
-            "fontSize": "{sjs2.font-size.semantic.small}",
-            "lineHeight": "{sjs2.line-height.semantic.small}",
-            "textCase": "{sjs2.text-case.static.default}",
-            "textDecoration": "{sjs2.text-decoration.semantic.default}"
-          },
-          "type": "typography"
+        "type": "typography"
+      },
+      "small": {
+        "value": {
+          "fontFamily": "{sjs2.font-family.semantic.default}",
+          "fontWeight": "{sjs2.font-weight.static.regular}",
+          "fontSize": "{sjs2.font-size.semantic.small}",
+          "lineHeight": "{sjs2.line-height.semantic.small}",
+          "textCase": "{sjs2.text-case.static.default}",
+          "textDecoration": "{sjs2.text-decoration.semantic.default}"
         },
-        "small-strong": {
-          "value": {
-            "fontFamily": "{sjs2.font-family.semantic.default}",
-            "fontWeight": "{sjs2.font-weight.static.semibold}",
-            "fontSize": "{sjs2.font-size.semantic.small}",
-            "lineHeight": "{sjs2.line-height.semantic.small}",
-            "textCase": "{sjs2.text-case.static.default}",
-            "textDecoration": "{sjs2.text-decoration.semantic.default}"
-          },
-          "type": "typography"
+        "type": "typography"
+      },
+      "small-strong": {
+        "value": {
+          "fontFamily": "{sjs2.font-family.semantic.default}",
+          "fontWeight": "{sjs2.font-weight.static.semibold}",
+          "fontSize": "{sjs2.font-size.semantic.small}",
+          "lineHeight": "{sjs2.line-height.semantic.small}",
+          "textCase": "{sjs2.text-case.static.default}",
+          "textDecoration": "{sjs2.text-decoration.semantic.default}"
         },
-        "default-code": {
-          "value": {
-            "fontFamily": "{sjs2.font-family.semantic.code}",
-            "fontWeight": "{sjs2.font-weight.static.regular}",
-            "fontSize": "{sjs2.font-size.semantic.default}",
-            "lineHeight": "{sjs2.line-height.semantic.default}",
-            "textCase": "{sjs2.text-case.static.default}",
-            "textDecoration": "{sjs2.text-decoration.semantic.default}"
-          },
-          "type": "typography"
-        }
+        "type": "typography"
+      },
+      "default-code": {
+        "value": {
+          "fontFamily": "{sjs2.font-family.semantic.code}",
+          "fontWeight": "{sjs2.font-weight.static.regular}",
+          "fontSize": "{sjs2.font-size.semantic.default}",
+          "lineHeight": "{sjs2.line-height.semantic.default}",
+          "textCase": "{sjs2.text-case.static.default}",
+          "textDecoration": "{sjs2.text-decoration.semantic.default}"
+        },
+        "type": "typography"
       }
     }
   }

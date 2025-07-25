@@ -87,14 +87,6 @@
         "scrollbar": {
           "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.static.x015} )",
           "type": "color"
-        },
-        "shadow": {
-          "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.static.x025} )",
-          "type": "color"
-        },
-        "glow": {
-          "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.static.x025} )",
-          "type": "color"
         }
       },
       "bg": {
@@ -433,11 +425,11 @@
       "border": {
         "basic": {
           "primary": {
-            "value": "{sjs2.palette.gray.900}",
+            "value": "{sjs2.palette.gray.000}",
             "type": "color"
           },
           "secondary": {
-            "value": "{sjs2.palette.gray.250}",
+            "value": "{sjs2.palette.gray.750}",
             "type": "color"
           }
         },
@@ -479,7 +471,7 @@
         },
         "inverse": {
           "primary": {
-            "value": "{sjs2.palette.gray.000}",
+            "value": "{sjs2.palette.gray.900}",
             "type": "color"
           }
         }
@@ -1078,7 +1070,7 @@
           },
           "border": {
             "line": {
-              "value": "#DCDCDC",
+              "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
             }
           }
@@ -1086,93 +1078,257 @@
       }
     },
     "shadow": {
+      "color": {
+        "small": {
+          "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.static.x025} )",
+          "type": "color"
+        },
+        "medium": {
+          "value": "rgba( #004C44, {sjs2.opacity.static.x010} )",
+          "type": "color"
+        },
+        "large": {
+          "value": "rgba( #004C44, {sjs2.opacity.static.x010} )",
+          "type": "color"
+        },
+        "inner": {
+          "value": "{sjs2.color.border.basic.secondary}",
+          "type": "color"
+        }
+      },
       "small": {
         "value": {
-          "x": "0",
-          "y": "2",
-          "blur": "4",
-          "spread": "1",
-          "color": "{sjs2.color.utility.shadow}",
+          "x": "{sjs2.shadow.size.small.offset-x}",
+          "y": "{sjs2.shadow.size.small.offset-y}",
+          "blur": "{sjs2.shadow.size.small.blur}",
+          "spread": "{sjs2.shadow.size.small.spread}",
+          "color": "{sjs2.shadow.color.small}",
           "type": "dropShadow"
         },
         "type": "boxShadow"
       },
       "medium": {
         "value": {
-          "x": "0",
-          "y": "4",
-          "blur": "8",
-          "spread": "2",
-          "color": "{sjs2.color.utility.glow}",
+          "x": "{sjs2.shadow.size.medium.offset-x}",
+          "y": "{sjs2.shadow.size.medium.offset-y}",
+          "blur": "{sjs2.shadow.size.medium.blur}",
+          "spread": "{sjs2.shadow.size.medium.spread}",
+          "color": "{sjs2.shadow.color.medium}",
           "type": "dropShadow"
         },
         "type": "boxShadow"
       },
       "large": {
         "value": {
-          "x": "0",
-          "y": "6",
-          "blur": "12",
-          "spread": "4",
-          "color": "{sjs2.color.utility.glow}",
+          "x": "{sjs2.shadow.size.large.offset-x}",
+          "y": "{sjs2.shadow.size.large.offset-y}",
+          "blur": "{sjs2.shadow.size.large.blur}",
+          "spread": "{sjs2.shadow.size.large.spread}",
+          "color": "{sjs2.shadow.color.large}",
           "type": "dropShadow"
         },
         "type": "boxShadow"
       },
       "inner": {
         "value": {
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "1",
-          "color": "{sjs2.color.border.basic.secondary}",
+          "x": "{sjs2.shadow.size.inner.offset-x}",
+          "y": "{sjs2.shadow.size.inner.offset-y}",
+          "blur": "{sjs2.shadow.size.inner.blur}",
+          "spread": "{sjs2.shadow.size.inner.spread}",
+          "color": "{sjs2.shadow.color.inner}",
           "type": "innerShadow"
         },
         "type": "boxShadow"
       },
       "small-reset": {
         "value": {
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "0",
-          "color": "{sjs2.color.utility.shadow}",
+          "x": "{sjs2.shadow.size.small-reset.offset-x}",
+          "y": "{sjs2.shadow.size.small-reset.offset-y}",
+          "blur": "{sjs2.shadow.size.small-reset.blur}",
+          "spread": "{sjs2.shadow.size.small-reset.spread}",
+          "color": "{sjs2.shadow.color.small}",
           "type": "dropShadow"
         },
         "type": "boxShadow"
       },
       "medium-reset": {
         "value": {
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "0",
-          "color": "{sjs2.color.utility.glow}",
+          "x": "{sjs2.shadow.size.medium-reset.offset-x}",
+          "y": "{sjs2.shadow.size.medium-reset.offset-y}",
+          "blur": "{sjs2.shadow.size.medium-reset.blur}",
+          "spread": "{sjs2.shadow.size.medium-reset.spread}",
+          "color": "{sjs2.shadow.color.medium}",
           "type": "dropShadow"
         },
         "type": "boxShadow"
       },
       "large-reset": {
         "value": {
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "0",
-          "color": "{sjs2.color.utility.glow}",
+          "x": "{sjs2.shadow.size.large-reset.offset-x}",
+          "y": "{sjs2.shadow.size.large-reset.offset-y}",
+          "blur": "{sjs2.shadow.size.large-reset.blur}",
+          "spread": "{sjs2.shadow.size.large-reset.spread}",
+          "color": "{sjs2.shadow.color.large}",
           "type": "dropShadow"
         },
         "type": "boxShadow"
       },
       "inner-reset": {
         "value": {
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "0",
-          "color": "{sjs2.color.border.basic.secondary}",
+          "x": "{sjs2.shadow.size.inner-reset.offset-x}",
+          "y": "{sjs2.shadow.size.inner-reset.offset-y}",
+          "blur": "{sjs2.shadow.size.inner-reset.blur}",
+          "spread": "{sjs2.shadow.size.inner-reset.spread}",
+          "color": "{sjs2.shadow.color.inner}",
           "type": "innerShadow"
         },
         "type": "boxShadow"
+      },
+      "size": {
+        "small": {
+          "offset-x": {
+            "value": "0",
+            "type": "number"
+          },
+          "offset-y": {
+            "value": "2",
+            "type": "number"
+          },
+          "blur": {
+            "value": "4",
+            "type": "number"
+          },
+          "spread": {
+            "value": "1",
+            "type": "number"
+          }
+        },
+        "medium": {
+          "offset-x": {
+            "value": "0",
+            "type": "number"
+          },
+          "offset-y": {
+            "value": "4",
+            "type": "number"
+          },
+          "blur": {
+            "value": "8",
+            "type": "number"
+          },
+          "spread": {
+            "value": "2",
+            "type": "number"
+          }
+        },
+        "large": {
+          "offset-x": {
+            "value": "0",
+            "type": "number"
+          },
+          "offset-y": {
+            "value": "6",
+            "type": "number"
+          },
+          "blur": {
+            "value": "12",
+            "type": "number"
+          },
+          "spread": {
+            "value": "4",
+            "type": "number"
+          }
+        },
+        "inner": {
+          "offset-x": {
+            "value": "0",
+            "type": "number"
+          },
+          "offset-y": {
+            "value": "0",
+            "type": "number"
+          },
+          "blur": {
+            "value": "0",
+            "type": "number"
+          },
+          "spread": {
+            "value": "1",
+            "type": "number"
+          }
+        },
+        "small-reset": {
+          "offset-x": {
+            "value": "0",
+            "type": "number"
+          },
+          "offset-y": {
+            "value": "0",
+            "type": "number"
+          },
+          "blur": {
+            "value": "0",
+            "type": "number"
+          },
+          "spread": {
+            "value": "0",
+            "type": "number"
+          }
+        },
+        "medium-reset": {
+          "offset-x": {
+            "value": "0",
+            "type": "number"
+          },
+          "offset-y": {
+            "value": "0",
+            "type": "number"
+          },
+          "blur": {
+            "value": "0",
+            "type": "number"
+          },
+          "spread": {
+            "value": "0",
+            "type": "number"
+          }
+        },
+        "large-reset": {
+          "offset-x": {
+            "value": "0",
+            "type": "number"
+          },
+          "offset-y": {
+            "value": "0",
+            "type": "number"
+          },
+          "blur": {
+            "value": "0",
+            "type": "number"
+          },
+          "spread": {
+            "value": "0",
+            "type": "number"
+          }
+        },
+        "inner-reset": {
+          "offset-x": {
+            "value": "0",
+            "type": "number"
+          },
+          "offset-y": {
+            "value": "0",
+            "type": "number"
+          },
+          "blur": {
+            "value": "0",
+            "type": "number"
+          },
+          "spread": {
+            "value": "0",
+            "type": "number"
+          }
+        }
       }
     },
     "opacity": {
@@ -1191,6 +1347,24 @@
       "hidden": {
         "value": "{sjs2.opacity.static.x000}",
         "type": "opacity"
+      }
+    },
+    "border-width": {
+      "default": {
+        "value": "{sjs2.border-width.static.x100}",
+        "type": "borderWidth"
+      },
+      "focused": {
+        "value": "{sjs2.border-width.static.x200}",
+        "type": "borderWidth"
+      },
+      "selected": {
+        "value": "{sjs2.border-width.static.x200}",
+        "type": "borderWidth"
+      },
+      "a11y": {
+        "value": "{sjs2.border-width.static.x400}",
+        "type": "borderWidth"
       }
     }
   }

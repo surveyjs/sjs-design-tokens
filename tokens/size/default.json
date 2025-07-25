@@ -29,12 +29,12 @@
         "value": "{sjs2.radius.form-item}",
         "type": "borderRadius"
       },
-      "area": {
-        "value": "{sjs2.radius.form}",
-        "type": "borderRadius"
-      },
       "panel": {
         "value": "{sjs2.radius.static.x250}",
+        "type": "borderRadius"
+      },
+      "area": {
+        "value": "{sjs2.radius.form}",
         "type": "borderRadius"
       },
       "rating": {
@@ -79,6 +79,10 @@
       },
       "track": {
         "value": "{sjs2.radius.static.round}",
+        "type": "borderRadius"
+      },
+      "tooltip": {
+        "value": "{sjs2.radius.static.x100}",
         "type": "borderRadius"
       }
     },
@@ -454,24 +458,6 @@
             "type": "spacing"
           }
         }
-      }
-    },
-    "border-width": {
-      "default": {
-        "value": "{sjs2.border-width.static.x100}",
-        "type": "borderWidth"
-      },
-      "focused": {
-        "value": "{sjs2.border-width.static.x200}",
-        "type": "borderWidth"
-      },
-      "selected": {
-        "value": "{sjs2.border-width.static.x200}",
-        "type": "borderWidth"
-      },
-      "a11y": {
-        "value": "{sjs2.border-width.static.x400}",
-        "type": "borderWidth"
       }
     },
     "size": {

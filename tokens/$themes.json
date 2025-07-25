@@ -6,7 +6,11 @@
     "selectedTokenSets": {
       "base-unit": "source",
       "common": "source",
-      "size/default": "enabled"
+      "size/default": "enabled",
+      "color/ctr-light": "disabled",
+      "color/ctr-dark": "disabled",
+      "color/ctr-contrast": "disabled",
+      "color/dsb-light": "disabled"
     },
     "$figmaVariableReferences": {
       "sjs2.radius.form": "2ff63d17d5a42b294e04722e4ec1cd914acef256",
@@ -127,7 +131,11 @@
     "selectedTokenSets": {
       "base-unit": "source",
       "common": "source",
-      "typography/default": "enabled"
+      "typography/default": "enabled",
+      "color/ctr-light": "disabled",
+      "color/ctr-dark": "disabled",
+      "color/ctr-contrast": "disabled",
+      "color/dsb-light": "disabled"
     },
     "$figmaVariableReferences": {},
     "group": "typography"
@@ -140,7 +148,10 @@
       "base-unit": "source",
       "common": "source",
       "palette": "source",
-      "color/ctr-light": "enabled"
+      "color/ctr-light": "enabled",
+      "color/ctr-dark": "disabled",
+      "color/ctr-contrast": "disabled",
+      "color/dsb-light": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:174:1020",
     "$figmaModeId": "174:2",
@@ -156,8 +167,6 @@
       "sjs2.color.utility.sheet": "f324b03620031e86676cffc5de16c5f37313398a",
       "sjs2.color.utility.overlay": "2bdd59a6b9059ed9a6ab5cdb64481f007b344717",
       "sjs2.color.utility.scrollbar": "81b248db084f0b194570ec6241697973317e53cc",
-      "sjs2.color.utility.shadow": "770da80384f03b04c759a116d73d7f9d22cbd2be",
-      "sjs2.color.utility.glow": "7663c1fa5bf1959a15be043746fcd4e3d851ecd1",
       "sjs2.color.bg.basic.primary": "b5cf210383807b48fa1a6ce10791ac2032bf27e3",
       "sjs2.color.bg.basic.secondary": "2570e9fd626d3b6731ad862a39251832ab9c32ac",
       "sjs2.color.bg.basic.tertiary": "b50acd359c41f1d69afb4cedd003e7d15a14547f",
@@ -361,7 +370,9 @@
       "sjs2.color.data.chart.fg.on-color-7": "ef1cd38569ed0198baac188d05f5bb293d5802fc",
       "sjs2.color.data.chart.fg.on-color-8": "4a847fa7a9d92550e42ff6bd6572223526687109",
       "sjs2.color.data.chart.fg.on-color-9": "ef8dee0f45e099d3fcd6004436476fe9cd9026f7",
-      "sjs2.color.data.chart.fg.on-color-10": "26f0220eef30842e97bc0d718a7e192b348aa5a9"
+      "sjs2.color.data.chart.fg.on-color-10": "26f0220eef30842e97bc0d718a7e192b348aa5a9",
+      "sjs2.shadow.color.small": "770da80384f03b04c759a116d73d7f9d22cbd2be",
+      "sjs2.shadow.color.medium": "7663c1fa5bf1959a15be043746fcd4e3d851ecd1"
     },
     "group": "color"
   },
@@ -373,7 +384,10 @@
       "base-unit": "source",
       "common": "source",
       "palette": "source",
-      "color/ctr-dark": "enabled"
+      "color/ctr-light": "disabled",
+      "color/ctr-dark": "enabled",
+      "color/ctr-contrast": "disabled",
+      "color/dsb-light": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:174:1020",
     "$figmaModeId": "174:3",
@@ -389,8 +403,6 @@
       "sjs2.color.utility.sheet": "f324b03620031e86676cffc5de16c5f37313398a",
       "sjs2.color.utility.overlay": "2bdd59a6b9059ed9a6ab5cdb64481f007b344717",
       "sjs2.color.utility.scrollbar": "81b248db084f0b194570ec6241697973317e53cc",
-      "sjs2.color.utility.shadow": "770da80384f03b04c759a116d73d7f9d22cbd2be",
-      "sjs2.color.utility.glow": "7663c1fa5bf1959a15be043746fcd4e3d851ecd1",
       "sjs2.color.bg.basic.primary": "b5cf210383807b48fa1a6ce10791ac2032bf27e3",
       "sjs2.color.bg.basic.secondary": "2570e9fd626d3b6731ad862a39251832ab9c32ac",
       "sjs2.color.bg.basic.tertiary": "b50acd359c41f1d69afb4cedd003e7d15a14547f",
@@ -594,7 +606,9 @@
       "sjs2.color.data.chart.fg.on-color-7": "ef1cd38569ed0198baac188d05f5bb293d5802fc",
       "sjs2.color.data.chart.fg.on-color-8": "4a847fa7a9d92550e42ff6bd6572223526687109",
       "sjs2.color.data.chart.fg.on-color-9": "ef8dee0f45e099d3fcd6004436476fe9cd9026f7",
-      "sjs2.color.data.chart.fg.on-color-10": "26f0220eef30842e97bc0d718a7e192b348aa5a9"
+      "sjs2.color.data.chart.fg.on-color-10": "26f0220eef30842e97bc0d718a7e192b348aa5a9",
+      "sjs2.shadow.color.small": "770da80384f03b04c759a116d73d7f9d22cbd2be",
+      "sjs2.shadow.color.medium": "7663c1fa5bf1959a15be043746fcd4e3d851ecd1"
     },
     "group": "color"
   },
@@ -606,7 +620,10 @@
       "base-unit": "source",
       "common": "source",
       "palette": "source",
-      "color/ctr-contrast": "enabled"
+      "color/ctr-light": "disabled",
+      "color/ctr-dark": "disabled",
+      "color/ctr-contrast": "enabled",
+      "color/dsb-light": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:174:1020",
     "$figmaModeId": "174:4",
@@ -622,8 +639,6 @@
       "sjs2.color.utility.sheet": "f324b03620031e86676cffc5de16c5f37313398a",
       "sjs2.color.utility.overlay": "2bdd59a6b9059ed9a6ab5cdb64481f007b344717",
       "sjs2.color.utility.scrollbar": "81b248db084f0b194570ec6241697973317e53cc",
-      "sjs2.color.utility.shadow": "770da80384f03b04c759a116d73d7f9d22cbd2be",
-      "sjs2.color.utility.glow": "7663c1fa5bf1959a15be043746fcd4e3d851ecd1",
       "sjs2.color.bg.basic.primary": "b5cf210383807b48fa1a6ce10791ac2032bf27e3",
       "sjs2.color.bg.basic.secondary": "2570e9fd626d3b6731ad862a39251832ab9c32ac",
       "sjs2.color.bg.basic.tertiary": "b50acd359c41f1d69afb4cedd003e7d15a14547f",
@@ -827,7 +842,9 @@
       "sjs2.color.data.chart.fg.on-color-7": "ef1cd38569ed0198baac188d05f5bb293d5802fc",
       "sjs2.color.data.chart.fg.on-color-8": "4a847fa7a9d92550e42ff6bd6572223526687109",
       "sjs2.color.data.chart.fg.on-color-9": "ef8dee0f45e099d3fcd6004436476fe9cd9026f7",
-      "sjs2.color.data.chart.fg.on-color-10": "26f0220eef30842e97bc0d718a7e192b348aa5a9"
+      "sjs2.color.data.chart.fg.on-color-10": "26f0220eef30842e97bc0d718a7e192b348aa5a9",
+      "sjs2.shadow.color.small": "770da80384f03b04c759a116d73d7f9d22cbd2be",
+      "sjs2.shadow.color.medium": "7663c1fa5bf1959a15be043746fcd4e3d851ecd1"
     },
     "group": "color"
   },
@@ -839,6 +856,9 @@
       "base-unit": "source",
       "common": "source",
       "palette": "source",
+      "color/ctr-light": "disabled",
+      "color/ctr-dark": "disabled",
+      "color/ctr-contrast": "disabled",
       "color/dsb-light": "enabled"
     },
     "group": "color",
@@ -856,8 +876,6 @@
       "sjs2.color.utility.sheet": "f324b03620031e86676cffc5de16c5f37313398a",
       "sjs2.color.utility.overlay": "2bdd59a6b9059ed9a6ab5cdb64481f007b344717",
       "sjs2.color.utility.scrollbar": "81b248db084f0b194570ec6241697973317e53cc",
-      "sjs2.color.utility.shadow": "770da80384f03b04c759a116d73d7f9d22cbd2be",
-      "sjs2.color.utility.glow": "7663c1fa5bf1959a15be043746fcd4e3d851ecd1",
       "sjs2.color.bg.basic.primary": "b5cf210383807b48fa1a6ce10791ac2032bf27e3",
       "sjs2.color.bg.basic.secondary": "2570e9fd626d3b6731ad862a39251832ab9c32ac",
       "sjs2.color.bg.basic.tertiary": "b50acd359c41f1d69afb4cedd003e7d15a14547f",
@@ -1061,7 +1079,9 @@
       "sjs2.color.data.chart.fg.on-color-7": "ef1cd38569ed0198baac188d05f5bb293d5802fc",
       "sjs2.color.data.chart.fg.on-color-8": "4a847fa7a9d92550e42ff6bd6572223526687109",
       "sjs2.color.data.chart.fg.on-color-9": "ef8dee0f45e099d3fcd6004436476fe9cd9026f7",
-      "sjs2.color.data.chart.fg.on-color-10": "26f0220eef30842e97bc0d718a7e192b348aa5a9"
+      "sjs2.color.data.chart.fg.on-color-10": "26f0220eef30842e97bc0d718a7e192b348aa5a9",
+      "sjs2.shadow.color.small": "770da80384f03b04c759a116d73d7f9d22cbd2be",
+      "sjs2.shadow.color.medium": "7663c1fa5bf1959a15be043746fcd4e3d851ecd1"
     }
   },
   {
@@ -1071,7 +1091,11 @@
     "selectedTokenSets": {
       "base-unit": "source",
       "common": "source",
-      "size/default-panelless": "enabled"
+      "size/default-panelless": "enabled",
+      "color/ctr-light": "disabled",
+      "color/ctr-dark": "disabled",
+      "color/ctr-contrast": "disabled",
+      "color/dsb-light": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:174:1018",
     "$figmaModeId": "174:6",
