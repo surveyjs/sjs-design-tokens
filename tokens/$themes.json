@@ -7,7 +7,11 @@
       "base-unit": "source",
       "common": "source",
       "size/default": "enabled",
-      "typography/default": "disabled"
+      "size/compact": "disabled",
+      "color/ctr-light": "disabled",
+      "color/ctr-dark": "disabled",
+      "color/ctr-contrast": "disabled",
+      "color/dsb-light": "disabled"
     },
     "$figmaVariableReferences": {},
     "group": "size"
@@ -19,7 +23,12 @@
     "selectedTokenSets": {
       "base-unit": "source",
       "common": "source",
-      "typography/default": "enabled"
+      "typography/default": "enabled",
+      "size/compact": "disabled",
+      "color/ctr-light": "disabled",
+      "color/ctr-dark": "disabled",
+      "color/ctr-contrast": "disabled",
+      "color/dsb-light": "disabled"
     },
     "$figmaVariableReferences": {},
     "group": "typography"
@@ -32,9 +41,11 @@
       "base-unit": "source",
       "common": "source",
       "palette": "source",
+      "size/compact": "disabled",
       "color/ctr-light": "enabled",
-      "size/default": "disabled",
-      "typography/default": "disabled"
+      "color/ctr-dark": "disabled",
+      "color/ctr-contrast": "disabled",
+      "color/dsb-light": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:2661",
     "$figmaModeId": "77:17",
@@ -241,9 +252,11 @@
       "base-unit": "source",
       "common": "source",
       "palette": "source",
+      "size/compact": "disabled",
+      "color/ctr-light": "disabled",
       "color/ctr-dark": "enabled",
-      "size/default": "disabled",
-      "typography/default": "disabled"
+      "color/ctr-contrast": "disabled",
+      "color/dsb-light": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:2661",
     "$figmaModeId": "77:18",
@@ -450,9 +463,11 @@
       "base-unit": "source",
       "common": "source",
       "palette": "source",
+      "size/compact": "disabled",
+      "color/ctr-light": "disabled",
+      "color/ctr-dark": "disabled",
       "color/ctr-contrast": "enabled",
-      "size/default": "disabled",
-      "typography/default": "disabled"
+      "color/dsb-light": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:2661",
     "$figmaModeId": "77:19",
@@ -659,10 +674,19 @@
       "base-unit": "source",
       "common": "source",
       "palette": "source",
-      "color/dsb-light": "enabled",
-      "size/default": "disabled",
-      "typography/default": "disabled"
+      "color/dsb-light": "enabled"
     },
     "group": "color"
+  },
+  {
+    "id": "6bb127e7853541bf8b38b5c22a6f07b807a95e49",
+    "name": "compact",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "base-unit": "source",
+      "common": "source",
+      "size/compact": "enabled"
+    },
+    "group": "size"
   }
 ]

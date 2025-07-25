@@ -4,6 +4,7 @@
     "common",
     "palette",
     "size/default",
+    "size/compact",
     "typography/default",
     "color/ctr-light",
     "color/ctr-dark",
