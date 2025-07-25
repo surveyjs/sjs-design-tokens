@@ -1,0 +1,151 @@
+{
+  "sjs2": {
+    "typography": {
+      "large": {
+        "value": {
+          "fontFamily": "{sjs2.typography.font-family.semantic.default}",
+          "fontWeight": "{sjs2.typography.font-weight.semantic.default}",
+          "fontSize": "{sjs2.typography.font-size.semantic.large}",
+          "lineHeight": "{sjs2.typography.line-height.semantic.large}"
+        },
+        "type": "typography"
+      },
+      "large-strong": {
+        "value": {
+          "fontFamily": "{sjs2.typography.font-family.semantic.default}",
+          "fontWeight": "{sjs2.typography.font-weight.semantic.strong}",
+          "fontSize": "{sjs2.typography.font-size.semantic.large}",
+          "lineHeight": "{sjs2.typography.line-height.semantic.large}"
+        },
+        "type": "typography"
+      },
+      "medium": {
+        "value": {
+          "fontFamily": "{sjs2.typography.font-family.semantic.default}",
+          "fontWeight": "{sjs2.typography.font-weight.semantic.default}",
+          "fontSize": "{sjs2.typography.font-size.semantic.medium}",
+          "lineHeight": "{sjs2.typography.line-height.semantic.medium}"
+        },
+        "type": "typography"
+      },
+      "medium-strong": {
+        "value": {
+          "fontFamily": "{sjs2.typography.font-family.semantic.default}",
+          "fontWeight": "{sjs2.typography.font-weight.semantic.strong}",
+          "fontSize": "{sjs2.typography.font-size.semantic.medium}",
+          "lineHeight": "{sjs2.typography.line-height.semantic.medium}"
+        },
+        "type": "typography"
+      },
+      "default": {
+        "value": {
+          "fontFamily": "{sjs2.typography.font-family.semantic.default}",
+          "fontWeight": "{sjs2.typography.font-weight.semantic.default}",
+          "fontSize": "{sjs2.typography.font-size.semantic.default}",
+          "lineHeight": "{sjs2.typography.line-height.semantic.default}"
+        },
+        "type": "typography"
+      },
+      "default-strong": {
+        "value": {
+          "fontFamily": "{sjs2.typography.font-family.semantic.default}",
+          "fontWeight": "{sjs2.typography.font-weight.semantic.strong}",
+          "fontSize": "{sjs2.typography.font-size.semantic.default}",
+          "lineHeight": "{sjs2.typography.line-height.semantic.default}"
+        },
+        "type": "typography"
+      },
+      "small": {
+        "value": {
+          "fontFamily": "{sjs2.typography.font-family.semantic.default}",
+          "fontWeight": "{sjs2.typography.font-weight.semantic.default}",
+          "fontSize": "{sjs2.typography.font-size.semantic.small}",
+          "lineHeight": "{sjs2.typography.line-height.semantic.small}"
+        },
+        "type": "typography"
+      },
+      "small-strong": {
+        "value": {
+          "fontFamily": "{sjs2.typography.font-family.semantic.default}",
+          "fontWeight": "{sjs2.typography.font-weight.semantic.strong}",
+          "fontSize": "{sjs2.typography.font-size.semantic.small}",
+          "lineHeight": "{sjs2.typography.line-height.semantic.small}"
+        },
+        "type": "typography"
+      },
+      "default-code": {
+        "value": {
+          "fontFamily": "{sjs2.typography.font-family.semantic.code}",
+          "fontWeight": "{sjs2.typography.font-weight.semantic.default}",
+          "fontSize": "{sjs2.typography.font-size.semantic.default}",
+          "lineHeight": "{sjs2.typography.line-height.semantic.default}"
+        },
+        "type": "typography"
+      },
+      "font-family": {
+        "semantic": {
+          "default": {
+            "value": "Open Sans",
+            "type": "fontFamilies"
+          },
+          "code": {
+            "value": "DM Mono",
+            "type": "fontFamilies"
+          }
+        }
+      },
+      "font-size": {
+        "semantic": {
+          "small": {
+            "value": "{sjs2.font-size.static.x150}",
+            "type": "fontSizes"
+          },
+          "default": {
+            "value": "{sjs2.font-size.static.x200}",
+            "type": "fontSizes"
+          },
+          "medium": {
+            "value": "{sjs2.font-size.static.x300}",
+            "type": "fontSizes"
+          },
+          "large": {
+            "value": "{sjs2.font-size.static.x400}",
+            "type": "fontSizes"
+          }
+        }
+      },
+      "line-height": {
+        "semantic": {
+          "small": {
+            "value": "{sjs2.line-height.static.x200}",
+            "type": "lineHeights"
+          },
+          "default": {
+            "value": "{sjs2.line-height.static.x300}",
+            "type": "lineHeights"
+          },
+          "medium": {
+            "value": "{sjs2.line-height.static.x400}",
+            "type": "lineHeights"
+          },
+          "large": {
+            "value": "{sjs2.line-height.static.x500}",
+            "type": "lineHeights"
+          }
+        }
+      },
+      "font-weight": {
+        "semantic": {
+          "default": {
+            "value": "{sjs2.font-weight.static.regular}",
+            "type": "fontWeights"
+          },
+          "strong": {
+            "value": "{sjs2.font-weight.static.semibold}",
+            "type": "fontWeights"
+          }
+        }
+      }
+    }
+  }
+}

@@ -3,12 +3,12 @@
     "base-unit",
     "common",
     "palette",
-    "size/default",
-    "size/default-panelless",
-    "typography/default",
-    "color/ctr-light",
-    "color/ctr-dark",
-    "color/ctr-contrast",
-    "color/dsb-light"
+    "size-themes/default",
+    "size-themes/default-panelless",
+    "typography-themes/default",
+    "style-themes/ctr-light",
+    "style-themes/ctr-dark",
+    "style-themes/ctr-contrast",
+    "style-themes/dsb-light"
   ]
 }

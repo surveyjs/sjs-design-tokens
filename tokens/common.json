@@ -416,15 +416,56 @@
         }
       }
     },
-    "font-family": {
-      "semantic": {
-        "default": {
-          "value": "Open Sans",
-          "type": "fontFamilies"
+    "animation": {
+      "time": {
+        "xs": {
+          "value": {
+            "duration": "100"
+          },
+          "type": "animationTime"
         },
-        "code": {
-          "value": "DM Mono",
-          "type": "fontFamilies"
+        "s": {
+          "value": {
+            "duration": "200"
+          },
+          "type": "animationTime"
+        },
+        "m": {
+          "value": {
+            "duration": "400"
+          },
+          "type": "animationTime"
+        },
+        "l": {
+          "value": {
+            "duration": "600"
+          },
+          "type": "animationTime"
+        },
+        "xl": {
+          "value": {
+            "duration": "800"
+          },
+          "type": "animationTime"
+        }
+      },
+      "ease": {
+        "base": {
+          "value": {
+            "x1": "0.4",
+            "y1": "0.24",
+            "x2": "0",
+            "y2": "1"
+          },
+          "type": "animationEaseBase"
+        },
+        "spring": {
+          "value": {
+            "stiffness": "400",
+            "damping": "30",
+            "mass": "1"
+          },
+          "type": "animationEaseSpring"
         }
       }
     },
@@ -490,36 +531,6 @@
           "value": "{sjs2.base-unit.font-size} * 6",
           "type": "fontSizes"
         }
-      },
-      "semantic": {
-        "small": {
-          "value": "{sjs2.font-size.static.x150}",
-          "type": "fontSizes"
-        },
-        "default": {
-          "value": "{sjs2.font-size.static.x200}",
-          "type": "fontSizes"
-        },
-        "medium": {
-          "value": "{sjs2.font-size.static.x300}",
-          "type": "fontSizes"
-        },
-        "large": {
-          "value": "{sjs2.font-size.static.x400}",
-          "type": "fontSizes"
-        }
-      }
-    },
-    "text-decoration": {
-      "semantic": {
-        "default": {
-          "value": "none",
-          "type": "textDecoration"
-        },
-        "link": {
-          "value": "underline",
-          "type": "textDecoration"
-        }
       }
     },
     "line-height": {
@@ -552,24 +563,6 @@
           "value": "{sjs2.base-unit.line-height} * 6",
           "type": "lineHeights"
         }
-      },
-      "semantic": {
-        "small": {
-          "value": "{sjs2.line-height.static.x200}",
-          "type": "lineHeights"
-        },
-        "default": {
-          "value": "{sjs2.line-height.static.x300}",
-          "type": "lineHeights"
-        },
-        "medium": {
-          "value": "{sjs2.line-height.static.x400}",
-          "type": "lineHeights"
-        },
-        "large": {
-          "value": "{sjs2.line-height.static.x500}",
-          "type": "lineHeights"
-        }
       }
     },
     "text-case": {
@@ -581,59 +574,6 @@
         "uppercase": {
           "value": "uppercase",
           "type": "textCase"
-        }
-      }
-    },
-    "animation": {
-      "time": {
-        "xs": {
-          "value": {
-            "duration": "100"
-          },
-          "type": "animationTime"
-        },
-        "s": {
-          "value": {
-            "duration": "200"
-          },
-          "type": "animationTime"
-        },
-        "m": {
-          "value": {
-            "duration": "400"
-          },
-          "type": "animationTime"
-        },
-        "l": {
-          "value": {
-            "duration": "600"
-          },
-          "type": "animationTime"
-        },
-        "xl": {
-          "value": {
-            "duration": "800"
-          },
-          "type": "animationTime"
-        }
-      },
-      "ease": {
-        "base": {
-          "value": {
-            "x1": "0.4",
-            "y1": "0.24",
-            "x2": "0",
-            "y2": "1"
-          },
-          "type": "animationEaseBase"
-        },
-        "spring": {
-          "value": {
-            "stiffness": "400",
-            "damping": "30",
-            "mass": "1"
-          },
-          "type": "animationEaseSpring"
         }
       }
     }
