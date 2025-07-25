@@ -982,89 +982,105 @@
           }
         }
       },
-      "chart": {
-        "bg": {
-          "color-1": {
-            "value": "#85E1FB",
-            "type": "color"
+      "data": {
+        "chart": {
+          "bg": {
+            "color-1": {
+              "value": "#85E1FB",
+              "type": "color"
+            },
+            "color-2": {
+              "value": "#3A99FB",
+              "type": "color"
+            },
+            "color-3": {
+              "value": "#FF6771",
+              "type": "color"
+            },
+            "color-4": {
+              "value": "#1DB496",
+              "type": "color"
+            },
+            "color-5": {
+              "value": "#FFC152",
+              "type": "color"
+            },
+            "color-6": {
+              "value": "#ABA1FF",
+              "type": "color"
+            },
+            "color-7": {
+              "value": "#7D8CA5",
+              "type": "color"
+            },
+            "color-8": {
+              "value": "#4FC46C",
+              "type": "color"
+            },
+            "color-9": {
+              "value": "#E87BCB",
+              "type": "color"
+            },
+            "color-10": {
+              "value": "#4E6198",
+              "type": "color"
+            }
           },
-          "color-2": {
-            "value": "#3A99FB",
-            "type": "color"
-          },
-          "color-3": {
-            "value": "#FF6771",
-            "type": "color"
-          },
-          "color-4": {
-            "value": "#1DB496",
-            "type": "color"
-          },
-          "color-5": {
-            "value": "#FFC152",
-            "type": "color"
-          },
-          "color-6": {
-            "value": "#ABA1FF",
-            "type": "color"
-          },
-          "color-7": {
-            "value": "#7D8CA5",
-            "type": "color"
-          },
-          "color-8": {
-            "value": "#4FC46C",
-            "type": "color"
-          },
-          "color-9": {
-            "value": "#E87BCB",
-            "type": "color"
-          },
-          "color-10": {
-            "value": "#4E6198",
-            "type": "color"
+          "fg": {
+            "on-color-1": {
+              "value": "{sjs2.palette.gray.000}",
+              "type": "color"
+            },
+            "on-color-2": {
+              "value": "{sjs2.palette.gray.000}",
+              "type": "color"
+            },
+            "on-color-3": {
+              "value": "{sjs2.palette.gray.000}",
+              "type": "color"
+            },
+            "on-color-4": {
+              "value": "{sjs2.palette.gray.000}",
+              "type": "color"
+            },
+            "on-color-5": {
+              "value": "{sjs2.palette.gray.000}",
+              "type": "color"
+            },
+            "on-color-6": {
+              "value": "{sjs2.palette.gray.000}",
+              "type": "color"
+            },
+            "on-color-7": {
+              "value": "{sjs2.palette.gray.000}",
+              "type": "color"
+            },
+            "on-color-8": {
+              "value": "{sjs2.palette.gray.000}",
+              "type": "color"
+            },
+            "on-color-9": {
+              "value": "{sjs2.palette.gray.000}",
+              "type": "color"
+            },
+            "on-color-10": {
+              "value": "{sjs2.palette.gray.000}",
+              "type": "color"
+            }
           }
         },
-        "fg": {
-          "on-color-1": {
-            "value": "{sjs2.palette.gray.000}",
-            "type": "color"
+        "grid": {
+          "fg": {
+            "label": {
+              "value": "{sjs2.color.fg.basic.primary}",
+              "type": "color"
+            }
           },
-          "on-color-2": {
-            "value": "{sjs2.palette.gray.000}",
-            "type": "color"
-          },
-          "on-color-3": {
-            "value": "{sjs2.palette.gray.000}",
-            "type": "color"
-          },
-          "on-color-4": {
-            "value": "{sjs2.palette.gray.000}",
-            "type": "color"
-          },
-          "on-color-5": {
-            "value": "{sjs2.palette.gray.000}",
-            "type": "color"
-          },
-          "on-color-6": {
-            "value": "{sjs2.palette.gray.000}",
-            "type": "color"
-          },
-          "on-color-7": {
-            "value": "{sjs2.palette.gray.000}",
-            "type": "color"
-          },
-          "on-color-8": {
-            "value": "{sjs2.palette.gray.000}",
-            "type": "color"
-          },
-          "on-color-9": {
-            "value": "{sjs2.palette.gray.000}",
-            "type": "color"
-          },
-          "on-color-10": {
-            "value": "{sjs2.palette.gray.000}",
-            "type": "color"
+          "border": {
+            "line": {
+              "value": "#DCDCDC",
+              "type": "color"
+            }
           }
         }
       }
