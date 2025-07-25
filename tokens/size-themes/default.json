@@ -492,16 +492,6 @@
           "value": "{sjs2.size.static.x300}",
           "type": "sizing"
         }
-      },
-      "track": {
-        "small": {
-          "value": "{sjs2.size.static.x050}",
-          "type": "sizing"
-        },
-        "medium": {
-          "value": "{sjs2.size.static.x100}",
-          "type": "sizing"
-        }
       }
     },
     "is-panelless": {

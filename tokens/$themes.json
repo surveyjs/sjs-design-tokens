@@ -129,16 +129,16 @@
     "$figmaVariableReferences": {
       "sjs2.typography.font-family.default": "361614a3514ccd34938eed62fdd3aa06baffc9e5",
       "sjs2.typography.font-family.code": "6ceb3e1eec327749fe0454b33fc0ee896e383878",
-      "sjs2.typography.font-weight.default": "492995f4f14f68a5b5ac62d39d382d2c6c83a1b7",
-      "sjs2.typography.font-weight.strong": "dee1cf1e3a061f2c99dfbaa89badcd9c48938ccc",
+      "sjs2.typography.font-size.small": "6198e920c1bda58ba018318429d41ed2144abde4",
+      "sjs2.typography.font-size.default": "63854b9287884b268887523de77bfe607b427b8f",
+      "sjs2.typography.font-size.medium": "806bd9e3364462b1ff7832a7c44231366d03d1ba",
+      "sjs2.typography.font-size.large": "d4f80f03722b5268475882dacfe85a97c0793e48",
       "sjs2.typography.line-height.small": "751f3a9411bc705f4fffec204b04e70cdefb90d0",
       "sjs2.typography.line-height.default": "0f65d467429b472c78e1b7c21c8e0d200f6787fd",
       "sjs2.typography.line-height.medium": "ab1cc4c38102714f3dad2f570bcc95da128fe5f3",
       "sjs2.typography.line-height.large": "225fb1d5cac250cee13fea45c15dc0195c88ba4a",
-      "sjs2.typography.font-size.small": "6198e920c1bda58ba018318429d41ed2144abde4",
-      "sjs2.typography.font-size.default": "63854b9287884b268887523de77bfe607b427b8f",
-      "sjs2.typography.font-size.medium": "806bd9e3364462b1ff7832a7c44231366d03d1ba",
-      "sjs2.typography.font-size.large": "d4f80f03722b5268475882dacfe85a97c0793e48"
+      "sjs2.typography.font-weight.default": "492995f4f14f68a5b5ac62d39d382d2c6c83a1b7",
+      "sjs2.typography.font-weight.strong": "dee1cf1e3a061f2c99dfbaa89badcd9c48938ccc"
     },
     "group": "typography-themes",
     "$figmaCollectionId": "VariableCollectionId:184:1255",

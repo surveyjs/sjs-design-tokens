@@ -1191,11 +1191,11 @@
             "type": "number"
           },
           "offset-y": {
-            "value": "2",
+            "value": "0",
             "type": "number"
           },
           "blur": {
-            "value": "4",
+            "value": "0",
             "type": "number"
           },
           "spread": {
