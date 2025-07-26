@@ -1344,6 +1344,10 @@
         "value": "{sjs2.opacity.static.x060}",
         "type": "opacity"
       },
+      "hovered": {
+        "value": "{sjs2.opacity.static.x050}",
+        "type": "opacity"
+      },
       "pressed": {
         "value": "{sjs2.opacity.static.x050}",
         "type": "opacity"
