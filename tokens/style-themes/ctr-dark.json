@@ -433,7 +433,7 @@
             "type": "color"
           },
           "secondary-overlay": {
-            "value": "rgba({sjs2.palette.gray.000}, {sjs2.opacity.static.x040})",
+            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.static.x020})",
             "type": "color"
           }
         },
