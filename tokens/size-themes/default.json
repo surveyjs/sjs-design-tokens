@@ -61,10 +61,6 @@
         "value": "{sjs2.radius.static.x200}",
         "type": "borderRadius"
       },
-      "notifier-item": {
-        "value": "{sjs2.radius.form}",
-        "type": "borderRadius"
-      },
       "toggle": {
         "value": "{sjs2.radius.static.round}",
         "type": "borderRadius"
