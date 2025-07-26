@@ -1347,6 +1347,10 @@
       "hidden": {
         "value": "{sjs2.opacity.static.x000}",
         "type": "opacity"
+      },
+      "pressed": {
+        "value": "{sjs2.opacity.static.x050}",
+        "type": "opacity"
       }
     },
     "border-width": {

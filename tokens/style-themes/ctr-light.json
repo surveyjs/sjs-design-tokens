@@ -1340,6 +1340,10 @@
         "value": "{sjs2.opacity.static.x060}",
         "type": "opacity"
       },
+      "pressed": {
+        "value": "{sjs2.opacity.static.x050}",
+        "type": "opacity"
+      },
       "disabled": {
         "value": "{sjs2.opacity.static.x025}",
         "type": "opacity"
