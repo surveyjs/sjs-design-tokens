@@ -431,6 +431,10 @@
           "secondary": {
             "value": "{sjs2.palette.gray.750}",
             "type": "color"
+          },
+          "secondary-overlay": {
+            "value": "rgba({sjs2.palette.gray.500}, {sjs2.opacity.overlay})",
+            "type": "color"
           }
         },
         "brand": {
