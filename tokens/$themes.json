@@ -389,13 +389,14 @@
       "sjs2.shadow.size.inner-reset.spread": "00e0787d0b1e0eb85dac2913336b0db516effd2c",
       "sjs2.opacity.visible": "b7761b68365a42224aac6a96f0db98f840c93748",
       "sjs2.opacity.overlay": "a2337f7cf2baf1e917b98b0ba53521020274d679",
+      "sjs2.opacity.hovered": "08773c11cb944674db9798d6a860c4a33441c820",
+      "sjs2.opacity.pressed": "c404308ed81bb86e10a1e2039fa1906e28fd70c9",
       "sjs2.opacity.disabled": "ead32d98c868e6bde562c8a8781a291fa6f340ba",
       "sjs2.opacity.hidden": "f7dd48ed7382def63ebe6cc7561c09095173b3a8",
       "sjs2.border-width.default": "1e9d4a7d441d1e8ae2812253878d310f3f3e6007",
       "sjs2.border-width.focused": "90493df83751899d2a6f71d4fcb580fef5b60ffb",
       "sjs2.border-width.selected": "85d20ebcf29f72b7c3d5bc60ff8f53634e64aeac",
-      "sjs2.border-width.a11y": "8e2028ada08dc5e8317609a686cf63f09706c237",
-      "sjs2.opacity.pressed": "c404308ed81bb86e10a1e2039fa1906e28fd70c9"
+      "sjs2.border-width.a11y": "8e2028ada08dc5e8317609a686cf63f09706c237"
     },
     "group": "style-themes"
   },
@@ -664,13 +665,14 @@
       "sjs2.shadow.size.inner-reset.spread": "00e0787d0b1e0eb85dac2913336b0db516effd2c",
       "sjs2.opacity.visible": "b7761b68365a42224aac6a96f0db98f840c93748",
       "sjs2.opacity.overlay": "a2337f7cf2baf1e917b98b0ba53521020274d679",
+      "sjs2.opacity.hovered": "08773c11cb944674db9798d6a860c4a33441c820",
+      "sjs2.opacity.pressed": "c404308ed81bb86e10a1e2039fa1906e28fd70c9",
       "sjs2.opacity.disabled": "ead32d98c868e6bde562c8a8781a291fa6f340ba",
       "sjs2.opacity.hidden": "f7dd48ed7382def63ebe6cc7561c09095173b3a8",
       "sjs2.border-width.default": "1e9d4a7d441d1e8ae2812253878d310f3f3e6007",
       "sjs2.border-width.focused": "90493df83751899d2a6f71d4fcb580fef5b60ffb",
       "sjs2.border-width.selected": "85d20ebcf29f72b7c3d5bc60ff8f53634e64aeac",
-      "sjs2.border-width.a11y": "8e2028ada08dc5e8317609a686cf63f09706c237",
-      "sjs2.opacity.pressed": "c404308ed81bb86e10a1e2039fa1906e28fd70c9"
+      "sjs2.border-width.a11y": "8e2028ada08dc5e8317609a686cf63f09706c237"
     },
     "group": "style-themes"
   },
@@ -939,13 +941,14 @@
       "sjs2.shadow.size.inner-reset.spread": "00e0787d0b1e0eb85dac2913336b0db516effd2c",
       "sjs2.opacity.visible": "b7761b68365a42224aac6a96f0db98f840c93748",
       "sjs2.opacity.overlay": "a2337f7cf2baf1e917b98b0ba53521020274d679",
+      "sjs2.opacity.hovered": "08773c11cb944674db9798d6a860c4a33441c820",
+      "sjs2.opacity.pressed": "c404308ed81bb86e10a1e2039fa1906e28fd70c9",
       "sjs2.opacity.disabled": "ead32d98c868e6bde562c8a8781a291fa6f340ba",
       "sjs2.opacity.hidden": "f7dd48ed7382def63ebe6cc7561c09095173b3a8",
       "sjs2.border-width.default": "1e9d4a7d441d1e8ae2812253878d310f3f3e6007",
       "sjs2.border-width.focused": "90493df83751899d2a6f71d4fcb580fef5b60ffb",
       "sjs2.border-width.selected": "85d20ebcf29f72b7c3d5bc60ff8f53634e64aeac",
-      "sjs2.border-width.a11y": "8e2028ada08dc5e8317609a686cf63f09706c237",
-      "sjs2.opacity.pressed": "c404308ed81bb86e10a1e2039fa1906e28fd70c9"
+      "sjs2.border-width.a11y": "8e2028ada08dc5e8317609a686cf63f09706c237"
     },
     "group": "style-themes"
   },
@@ -1215,13 +1218,14 @@
       "sjs2.shadow.size.inner-reset.spread": "00e0787d0b1e0eb85dac2913336b0db516effd2c",
       "sjs2.opacity.visible": "b7761b68365a42224aac6a96f0db98f840c93748",
       "sjs2.opacity.overlay": "a2337f7cf2baf1e917b98b0ba53521020274d679",
+      "sjs2.opacity.hovered": "08773c11cb944674db9798d6a860c4a33441c820",
+      "sjs2.opacity.pressed": "c404308ed81bb86e10a1e2039fa1906e28fd70c9",
       "sjs2.opacity.disabled": "ead32d98c868e6bde562c8a8781a291fa6f340ba",
       "sjs2.opacity.hidden": "f7dd48ed7382def63ebe6cc7561c09095173b3a8",
       "sjs2.border-width.default": "1e9d4a7d441d1e8ae2812253878d310f3f3e6007",
       "sjs2.border-width.focused": "90493df83751899d2a6f71d4fcb580fef5b60ffb",
       "sjs2.border-width.selected": "85d20ebcf29f72b7c3d5bc60ff8f53634e64aeac",
-      "sjs2.border-width.a11y": "8e2028ada08dc5e8317609a686cf63f09706c237",
-      "sjs2.opacity.pressed": "c404308ed81bb86e10a1e2039fa1906e28fd70c9"
+      "sjs2.border-width.a11y": "8e2028ada08dc5e8317609a686cf63f09706c237"
     }
   },
   {
