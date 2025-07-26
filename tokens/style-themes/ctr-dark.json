@@ -506,7 +506,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{sjs2.palette.gray.250}",
+              "value": "{sjs2.palette.gray.800}",
               "type": "color"
             },
             "value": {
@@ -514,7 +514,7 @@
               "type": "color"
             },
             "placeholder": {
-              "value": "{sjs2.palette.gray.250}",
+              "value": "{sjs2.palette.gray.600}",
               "type": "color"
             }
           },
@@ -524,7 +524,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{sjs2.palette.gray.250}",
+              "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
             },
             "value": {
@@ -703,11 +703,11 @@
           "false": {
             "default": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.secondary}",
+                "value": "rgba( {sjs2.color.bg.basic.primary}, {sjs2.opacity.hidden} )",
                 "type": "color"
               },
               "border": {
-                "value": "{sjs2.color.border.basic.secondary}",
+                "value": "rgba( {sjs2.color.border.basic.secondary}, {sjs2.opacity.hidden} )",
                 "type": "color"
               },
               "value": {
@@ -717,7 +717,7 @@
             },
             "disabled": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.primary}",
+                "value": "rgba( {sjs2.color.bg.basic.primary}, {sjs2.opacity.hidden} )",
                 "type": "color"
               },
               "border": {
@@ -731,7 +731,7 @@
             },
             "readonly": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.primary}",
+                "value": "rgba( {sjs2.color.bg.basic.primary}, {sjs2.opacity.hidden} )",
                 "type": "color"
               },
               "border": {
@@ -793,7 +793,7 @@
                 "type": "color"
               },
               "border": {
-                "value": "rgba({sjs2.color.border.basic.secondary},{opacity.semantic.hidden})",
+                "value": "rgba( {sjs2.color.border.basic.secondary}, {sjs2.opacity.hidden} )",
                 "type": "color"
               },
               "value": {
