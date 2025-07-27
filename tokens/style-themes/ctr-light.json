@@ -359,14 +359,6 @@
           "common-disabled": {
             "value": "{sjs2.palette.gray.250}",
             "type": "color"
-          },
-          "static-main-disabled": {
-            "value": "{sjs2.palette.gray.250}",
-            "type": "color"
-          },
-          "static-sub-disabled": {
-            "value": "{sjs2.palette.gray.250}",
-            "type": "color"
           }
         }
       },
@@ -447,15 +439,7 @@
         },
         "state": {
           "common-disabled": {
-            "value": "{sjs2.palette.gray.000}",
-            "type": "color"
-          },
-          "static-main-disabled": {
-            "value": "{sjs2.palette.gray.000}",
-            "type": "color"
-          },
-          "static-sub-disabled": {
-            "value": "{sjs2.palette.gray.000}",
+            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x040} )",
             "type": "color"
           }
         }
