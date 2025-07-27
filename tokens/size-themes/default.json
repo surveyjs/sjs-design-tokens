@@ -324,11 +324,11 @@
             },
             "icon": {
               "vertical": {
-                "value": "{sjs2.spacing.x000}",
+                "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
               },
               "horizontal": {
-                "value": "{sjs2.spacing.x000}",
+                "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
               }
             },
