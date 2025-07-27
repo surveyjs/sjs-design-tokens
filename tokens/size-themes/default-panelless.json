@@ -100,10 +100,6 @@
               "value": "{sjs2.spacing.x050}",
               "type": "spacing"
             },
-            "spacer-top": {
-              "value": "{sjs2.spacing.x000}",
-              "type": "spacing"
-            },
             "spacer-bottom": {
               "value": "{sjs2.spacing.x100}",
               "type": "spacing"
@@ -120,10 +116,6 @@
             },
             "gap": {
               "value": "{sjs2.spacing.x050}",
-              "type": "spacing"
-            },
-            "spacer-top": {
-              "value": "{sjs2.spacing.x000}",
               "type": "spacing"
             },
             "spacer-bottom": {
