@@ -354,6 +354,26 @@
               "type": "color"
             }
           }
+        },
+        "state": {
+          "primary-disabled": {
+            "value": "{sjs2.palette.gray.250}",
+            "type": "color"
+          },
+          "static": {
+            "main": {
+              "primary-disabled": {
+                "value": "{sjs2.palette.gray.250}",
+                "type": "color"
+              }
+            },
+            "sub": {
+              "primary-disabled": {
+                "value": "{sjs2.palette.gray.250}",
+                "type": "color"
+              }
+            }
+          }
         }
       },
       "fg": {
