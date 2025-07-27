@@ -182,7 +182,7 @@
                 "type": "spacing"
               }
             },
-            "action-group": {
+            "group": {
               "gap": {
                 "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
@@ -252,7 +252,7 @@
                 "type": "spacing"
               }
             },
-            "action-group": {
+            "group": {
               "gap": {
                 "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
@@ -309,6 +309,16 @@
                 "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               }
+            },
+            "addon": {
+              "vertical": {
+                "value": "{sjs2.spacing.x000}",
+                "type": "spacing"
+              },
+              "horizontal": {
+                "value": "{sjs2.spacing.x000}",
+                "type": "spacing"
+              }
             }
           },
           "x-small": {
@@ -343,6 +353,16 @@
               },
               "gap": {
                 "value": "{sjs2.spacing.x000}",
+                "type": "spacing"
+              }
+            },
+            "addon": {
+              "vertical": {
+                "value": "{sjs2.spacing.x050}",
+                "type": "spacing"
+              },
+              "horizontal": {
+                "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
               }
             }
@@ -381,6 +401,16 @@
                 "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               }
+            },
+            "addon": {
+              "vertical": {
+                "value": "{sjs2.spacing.x050}",
+                "type": "spacing"
+              },
+              "horizontal": {
+                "value": "{sjs2.spacing.x050}",
+                "type": "spacing"
+              }
             }
           },
           "medium": {
@@ -417,6 +447,16 @@
                 "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               }
+            },
+            "addon": {
+              "vertical": {
+                "value": "{sjs2.spacing.x050}",
+                "type": "spacing"
+              },
+              "horizontal": {
+                "value": "{sjs2.spacing.x050}",
+                "type": "spacing"
+              }
             }
           },
           "large": {
@@ -451,6 +491,16 @@
               },
               "gap": {
                 "value": "{sjs2.spacing.x000}",
+                "type": "spacing"
+              }
+            },
+            "addon": {
+              "vertical": {
+                "value": "{sjs2.spacing.x050}",
+                "type": "spacing"
+              },
+              "horizontal": {
+                "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
               }
             }
