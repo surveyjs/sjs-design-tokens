@@ -99,10 +99,6 @@
             "gap": {
               "value": "{sjs2.spacing.x050}",
               "type": "spacing"
-            },
-            "spacer-bottom": {
-              "value": "{sjs2.spacing.x100}",
-              "type": "spacing"
             }
           },
           "medium": {
@@ -117,8 +113,42 @@
             "gap": {
               "value": "{sjs2.spacing.x050}",
               "type": "spacing"
+            }
+          }
+        },
+        "message": {
+          "small": {
+            "spacer": {
+              "value": "{sjs2.spacing.x100}",
+              "type": "spacing"
             },
-            "spacer-bottom": {
+            "horizontal": {
+              "value": "{sjs2.spacing.x150}",
+              "type": "spacing"
+            },
+            "vertical": {
+              "value": "{sjs2.spacing.x100}",
+              "type": "spacing"
+            },
+            "gap": {
+              "value": "{sjs2.spacing.x100}",
+              "type": "spacing"
+            }
+          },
+          "medium": {
+            "spacer": {
+              "value": "{sjs2.spacing.x100}",
+              "type": "spacing"
+            },
+            "horizontal": {
+              "value": "{sjs2.spacing.x150}",
+              "type": "spacing"
+            },
+            "vertical": {
+              "value": "{sjs2.spacing.x100}",
+              "type": "spacing"
+            },
+            "gap": {
               "value": "{sjs2.spacing.x100}",
               "type": "spacing"
             }
@@ -498,36 +528,6 @@
             }
           }
         },
-        "message": {
-          "small": {
-            "horizontal": {
-              "value": "{sjs2.spacing.x150}",
-              "type": "spacing"
-            },
-            "vertical": {
-              "value": "{sjs2.spacing.x100}",
-              "type": "spacing"
-            },
-            "gap": {
-              "value": "{sjs2.spacing.x100}",
-              "type": "spacing"
-            }
-          },
-          "medium": {
-            "horizontal": {
-              "value": "{sjs2.spacing.x150}",
-              "type": "spacing"
-            },
-            "vertical": {
-              "value": "{sjs2.spacing.x100}",
-              "type": "spacing"
-            },
-            "gap": {
-              "value": "{sjs2.spacing.x100}",
-              "type": "spacing"
-            }
-          }
-        },
         "caption": {
           "small": {
             "box": {
@@ -548,7 +548,7 @@
                 "type": "spacing"
               }
             },
-            "action-group": {
+            "group": {
               "gap": {
                 "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
@@ -598,7 +598,7 @@
                 "type": "spacing"
               }
             },
-            "action-group": {
+            "group": {
               "gap": {
                 "value": "{sjs2.spacing.x000}",
                 "type": "spacing"

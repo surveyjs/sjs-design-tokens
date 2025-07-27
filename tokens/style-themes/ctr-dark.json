@@ -582,6 +582,10 @@
             "limit": {
               "value": "{sjs2.color.fg.basic.secondary}",
               "type": "color"
+            },
+            "icon": {
+              "value": "{sjs2.color.fg.basic.tertiary}",
+              "type": "color"
             }
           },
           "disabled": {
@@ -604,6 +608,10 @@
             "limit": {
               "value": "{sjs2.palette.gray.600}",
               "type": "color"
+            },
+            "icon": {
+              "value": "{sjs2.palette.gray.250}",
+              "type": "color"
             }
           },
           "readonly": {
@@ -625,6 +633,10 @@
             },
             "limit": {
               "value": "{sjs2.color.fg.basic.secondary}",
+              "type": "color"
+            },
+            "icon": {
+              "value": "{sjs2.color.fg.basic.tertiary}",
               "type": "color"
             }
           }
@@ -1031,6 +1043,20 @@
                 "type": "color"
               }
             }
+          }
+        },
+        "message": {
+          "bg": {
+            "value": "{sjs2.color.bg.alert.secondary}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{sjs2.color.fg.alert.primary}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{sjs2.color.fg.basic.primary}",
+            "type": "color"
           }
         }
       },
