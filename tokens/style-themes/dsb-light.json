@@ -747,11 +747,11 @@
           "false": {
             "default": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.secondary}",
+                "value": "rgba({sjs2.color.bg.basic.secondary},{sjs2.opacity.hidden})",
                 "type": "color"
               },
               "border": {
-                "value": "{sjs2.color.border.basic.secondary}",
+                "value": "rgba({sjs2.color.border.basic.secondary},{sjs2.opacity.hidden})",
                 "type": "color"
               },
               "value": {
@@ -761,11 +761,11 @@
             },
             "disabled": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.primary}",
+                "value": "rgba({sjs2.color.bg.basic.secondary},{sjs2.opacity.hidden})",
                 "type": "color"
               },
               "border": {
-                "value": "{sjs2.color.border.basic.secondary}",
+                "value": "rgba({sjs2.color.border.basic.secondary},{sjs2.opacity.hidden})",
                 "type": "color"
               },
               "value": {
@@ -775,11 +775,11 @@
             },
             "readonly": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.primary}",
+                "value": "rgba({sjs2.color.bg.basic.secondary},{sjs2.opacity.hidden})",
                 "type": "color"
               },
               "border": {
-                "value": "{sjs2.color.border.basic.secondary}",
+                "value": "rgba({sjs2.color.border.basic.secondary},{sjs2.opacity.hidden})",
                 "type": "color"
               },
               "value": {
@@ -833,11 +833,11 @@
             },
             "disabled": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.primary-dim}",
+                "value": "{sjs2.color.bg.basic.primary}",
                 "type": "color"
               },
               "border": {
-                "value": "rgba({sjs2.color.border.basic.secondary},{opacity.semantic.hidden})",
+                "value": "{sjs2.color.border.basic.secondary}",
                 "type": "color"
               },
               "value": {
