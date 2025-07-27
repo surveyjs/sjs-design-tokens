@@ -1,419 +1,397 @@
 {
   "sjs2": {
     "scale": {
-      "static": {
-        "x000": {
-          "value": "{sjs2.base-unit.scale} * 0",
-          "type": "scaling"
-        },
-        "x025": {
-          "value": "{sjs2.base-unit.scale} * 25",
-          "type": "scaling"
-        },
-        "x050": {
-          "value": "{sjs2.base-unit.scale} * 50",
-          "type": "scaling"
-        },
-        "x075": {
-          "value": "{sjs2.base-unit.scale} * 75",
-          "type": "scaling"
-        },
-        "x095": {
-          "value": "{sjs2.base-unit.scale} * 95",
-          "type": "scaling"
-        },
-        "x100": {
-          "value": "{sjs2.base-unit.scale} * 100",
-          "type": "scaling"
-        },
-        "x200": {
-          "value": "{sjs2.base-unit.scale} * 200",
-          "type": "scaling"
-        }
+      "x000": {
+        "value": "{sjs2.base-unit.scale} * 0",
+        "type": "scaling"
       },
-      "semantic": {
-        "default": {
-          "value": "{sjs2.scale.static.x100}",
-          "type": "scaling"
-        },
-        "pressed": {
-          "value": "{sjs2.scale.static.x095}",
-          "type": "scaling"
-        }
+      "x025": {
+        "value": "{sjs2.base-unit.scale} * 25",
+        "type": "scaling"
+      },
+      "x050": {
+        "value": "{sjs2.base-unit.scale} * 50",
+        "type": "scaling"
+      },
+      "x075": {
+        "value": "{sjs2.base-unit.scale} * 75",
+        "type": "scaling"
+      },
+      "x095": {
+        "value": "{sjs2.base-unit.scale} * 95",
+        "type": "scaling"
+      },
+      "x100": {
+        "value": "{sjs2.base-unit.scale} * 100",
+        "type": "scaling"
+      },
+      "x200": {
+        "value": "{sjs2.base-unit.scale} * 200",
+        "type": "scaling"
       }
     },
     "size": {
-      "static": {
-        "x000": {
-          "value": "{sjs2.base-unit.size} * 0",
-          "type": "sizing"
-        },
-        "x025": {
-          "value": "{sjs2.base-unit.size} * 0.25",
-          "type": "sizing"
-        },
-        "x050": {
-          "value": "{sjs2.base-unit.size} * 0.50",
-          "type": "sizing"
-        },
-        "x075": {
-          "value": "{sjs2.base-unit.size} * 0.75",
-          "type": "sizing"
-        },
-        "x100": {
-          "value": "{sjs2.base-unit.size} * 1",
-          "type": "sizing"
-        },
-        "x150": {
-          "value": "{sjs2.base-unit.size} * 1.50",
-          "type": "sizing"
-        },
-        "x200": {
-          "value": "{sjs2.base-unit.size} * 2",
-          "type": "sizing"
-        },
-        "x250": {
-          "value": "{sjs2.base-unit.size} * 2.50",
-          "type": "sizing"
-        },
-        "x300": {
-          "value": "{sjs2.base-unit.size} * 3",
-          "type": "sizing"
-        },
-        "x350": {
-          "value": "{sjs2.base-unit.size} * 3.50",
-          "type": "sizing"
-        },
-        "x400": {
-          "value": "{sjs2.base-unit.size} * 4",
-          "type": "sizing"
-        },
-        "x500": {
-          "value": "{sjs2.base-unit.size} * 5",
-          "type": "sizing"
-        },
-        "x600": {
-          "value": "{sjs2.base-unit.size} * 6",
-          "type": "sizing"
-        },
-        "x700": {
-          "value": "{sjs2.base-unit.size} * 7",
-          "type": "sizing"
-        },
-        "x800": {
-          "value": "{sjs2.base-unit.size} * 8",
-          "type": "sizing"
-        },
-        "x900": {
-          "value": "{sjs2.base-unit.size} * 9",
-          "type": "sizing"
-        },
-        "x1000": {
-          "value": "{sjs2.base-unit.size} * 10",
-          "type": "sizing"
-        },
-        "x1100": {
-          "value": "{sjs2.base-unit.size} * 11",
-          "type": "sizing"
-        },
-        "x1200": {
-          "value": "{sjs2.base-unit.size} * 12",
-          "type": "sizing"
-        },
-        "x1300": {
-          "value": "{sjs2.base-unit.size} * 13",
-          "type": "sizing"
-        },
-        "x1400": {
-          "value": "{sjs2.base-unit.size} * 14",
-          "type": "sizing"
-        },
-        "x1500": {
-          "value": "{sjs2.base-unit.size} * 15",
-          "type": "sizing"
-        }
+      "x000": {
+        "value": "{sjs2.base-unit.size} * 0",
+        "type": "sizing"
+      },
+      "x025": {
+        "value": "{sjs2.base-unit.size} * 0.25",
+        "type": "sizing"
+      },
+      "x050": {
+        "value": "{sjs2.base-unit.size} * 0.50",
+        "type": "sizing"
+      },
+      "x075": {
+        "value": "{sjs2.base-unit.size} * 0.75",
+        "type": "sizing"
+      },
+      "x100": {
+        "value": "{sjs2.base-unit.size} * 1",
+        "type": "sizing"
+      },
+      "x150": {
+        "value": "{sjs2.base-unit.size} * 1.50",
+        "type": "sizing"
+      },
+      "x200": {
+        "value": "{sjs2.base-unit.size} * 2",
+        "type": "sizing"
+      },
+      "x250": {
+        "value": "{sjs2.base-unit.size} * 2.50",
+        "type": "sizing"
+      },
+      "x300": {
+        "value": "{sjs2.base-unit.size} * 3",
+        "type": "sizing"
+      },
+      "x350": {
+        "value": "{sjs2.base-unit.size} * 3.50",
+        "type": "sizing"
+      },
+      "x400": {
+        "value": "{sjs2.base-unit.size} * 4",
+        "type": "sizing"
+      },
+      "x500": {
+        "value": "{sjs2.base-unit.size} * 5",
+        "type": "sizing"
+      },
+      "x600": {
+        "value": "{sjs2.base-unit.size} * 6",
+        "type": "sizing"
+      },
+      "x700": {
+        "value": "{sjs2.base-unit.size} * 7",
+        "type": "sizing"
+      },
+      "x800": {
+        "value": "{sjs2.base-unit.size} * 8",
+        "type": "sizing"
+      },
+      "x900": {
+        "value": "{sjs2.base-unit.size} * 9",
+        "type": "sizing"
+      },
+      "x1000": {
+        "value": "{sjs2.base-unit.size} * 10",
+        "type": "sizing"
+      },
+      "x1100": {
+        "value": "{sjs2.base-unit.size} * 11",
+        "type": "sizing"
+      },
+      "x1200": {
+        "value": "{sjs2.base-unit.size} * 12",
+        "type": "sizing"
+      },
+      "x1300": {
+        "value": "{sjs2.base-unit.size} * 13",
+        "type": "sizing"
+      },
+      "x1400": {
+        "value": "{sjs2.base-unit.size} * 14",
+        "type": "sizing"
+      },
+      "x1500": {
+        "value": "{sjs2.base-unit.size} * 15",
+        "type": "sizing"
       }
     },
     "radius": {
-      "static": {
-        "x000": {
-          "value": "{sjs2.base-unit.radius} * 0",
-          "type": "borderRadius"
-        },
-        "x050": {
-          "value": "{sjs2.base-unit.radius} * 0.50",
-          "type": "borderRadius"
-        },
-        "x075": {
-          "value": "{sjs2.base-unit.radius} * 0.75",
-          "type": "borderRadius"
-        },
-        "x100": {
-          "value": "{sjs2.base-unit.radius} * 1",
-          "type": "borderRadius"
-        },
-        "x150": {
-          "value": "{sjs2.base-unit.radius} * 1.50",
-          "type": "borderRadius"
-        },
-        "x200": {
-          "value": "{sjs2.base-unit.radius} * 2",
-          "type": "borderRadius"
-        },
-        "x250": {
-          "value": "{sjs2.base-unit.radius} * 2.50",
-          "type": "borderRadius"
-        },
-        "x300": {
-          "value": "{sjs2.base-unit.radius} * 3",
-          "type": "borderRadius"
-        },
-        "x400": {
-          "value": "{sjs2.base-unit.radius} * 4",
-          "type": "borderRadius"
-        },
-        "x500": {
-          "value": "{sjs2.base-unit.radius} * 5",
-          "type": "borderRadius"
-        },
-        "x600": {
-          "value": "{sjs2.base-unit.radius} * 6",
-          "type": "borderRadius"
-        },
-        "x700": {
-          "value": "{sjs2.base-unit.radius} * 7",
-          "type": "borderRadius"
-        },
-        "x800": {
-          "value": "{sjs2.base-unit.radius} * 8",
-          "type": "borderRadius"
-        },
-        "round": {
-          "value": "9999",
-          "type": "borderRadius"
-        }
+      "x000": {
+        "value": "{sjs2.base-unit.radius} * 0",
+        "type": "borderRadius"
+      },
+      "x050": {
+        "value": "{sjs2.base-unit.radius} * 0.50",
+        "type": "borderRadius"
+      },
+      "x075": {
+        "value": "{sjs2.base-unit.radius} * 0.75",
+        "type": "borderRadius"
+      },
+      "x100": {
+        "value": "{sjs2.base-unit.radius} * 1",
+        "type": "borderRadius"
+      },
+      "x150": {
+        "value": "{sjs2.base-unit.radius} * 1.50",
+        "type": "borderRadius"
+      },
+      "x200": {
+        "value": "{sjs2.base-unit.radius} * 2",
+        "type": "borderRadius"
+      },
+      "x250": {
+        "value": "{sjs2.base-unit.radius} * 2.50",
+        "type": "borderRadius"
+      },
+      "x300": {
+        "value": "{sjs2.base-unit.radius} * 3",
+        "type": "borderRadius"
+      },
+      "x400": {
+        "value": "{sjs2.base-unit.radius} * 4",
+        "type": "borderRadius"
+      },
+      "x500": {
+        "value": "{sjs2.base-unit.radius} * 5",
+        "type": "borderRadius"
+      },
+      "x600": {
+        "value": "{sjs2.base-unit.radius} * 6",
+        "type": "borderRadius"
+      },
+      "x700": {
+        "value": "{sjs2.base-unit.radius} * 7",
+        "type": "borderRadius"
+      },
+      "x800": {
+        "value": "{sjs2.base-unit.radius} * 8",
+        "type": "borderRadius"
+      },
+      "round": {
+        "value": "9999",
+        "type": "borderRadius"
       }
     },
     "spacing": {
-      "static": {
-        "x000": {
-          "value": "{sjs2.base-unit.spacing} * 0",
-          "type": "spacing"
-        },
+      "x000": {
+        "value": "{sjs2.base-unit.spacing} * 0",
+        "type": "spacing"
+      },
+      "x025": {
+        "value": "{sjs2.base-unit.spacing} * 0.25",
+        "type": "spacing"
+      },
+      "x050": {
+        "value": "{sjs2.base-unit.spacing} * 0.50",
+        "type": "spacing"
+      },
+      "x075": {
+        "value": "{sjs2.base-unit.spacing} * 0.75",
+        "type": "spacing"
+      },
+      "x100": {
+        "value": "{sjs2.base-unit.spacing} * 1",
+        "type": "spacing"
+      },
+      "x150": {
+        "value": "{sjs2.base-unit.spacing} * 1.5",
+        "type": "spacing"
+      },
+      "x200": {
+        "value": "{sjs2.base-unit.spacing} * 2",
+        "type": "spacing"
+      },
+      "x250": {
+        "value": "{sjs2.base-unit.spacing} * 2.50",
+        "type": "spacing"
+      },
+      "x300": {
+        "value": "{sjs2.base-unit.spacing} * 3",
+        "type": "spacing"
+      },
+      "x400": {
+        "value": "{sjs2.base-unit.spacing} * 4",
+        "type": "spacing"
+      },
+      "x500": {
+        "value": "{sjs2.base-unit.spacing} * 5",
+        "type": "spacing"
+      },
+      "x600": {
+        "value": "{sjs2.base-unit.spacing} * 6",
+        "type": "spacing"
+      },
+      "x700": {
+        "value": "{sjs2.base-unit.spacing} * 7",
+        "type": "spacing"
+      },
+      "x800": {
+        "value": "{sjs2.base-unit.spacing} * 8",
+        "type": "spacing"
+      },
+      "negative": {
         "x025": {
-          "value": "{sjs2.base-unit.spacing} * 0.25",
+          "value": "{sjs2.base-unit.spacing} * -0.25",
           "type": "spacing"
         },
         "x050": {
-          "value": "{sjs2.base-unit.spacing} * 0.50",
+          "value": "{sjs2.base-unit.spacing} * -0.50",
           "type": "spacing"
         },
         "x075": {
-          "value": "{sjs2.base-unit.spacing} * 0.75",
+          "value": "{sjs2.base-unit.spacing} * -0.75",
           "type": "spacing"
         },
         "x100": {
-          "value": "{sjs2.base-unit.spacing} * 1",
+          "value": "{sjs2.base-unit.spacing} * -1",
           "type": "spacing"
         },
         "x150": {
-          "value": "{sjs2.base-unit.spacing} * 1.5",
+          "value": "{sjs2.base-unit.spacing} * -1.5",
           "type": "spacing"
         },
         "x200": {
-          "value": "{sjs2.base-unit.spacing} * 2",
+          "value": "{sjs2.base-unit.spacing} * -2",
           "type": "spacing"
         },
         "x250": {
-          "value": "{sjs2.base-unit.spacing} * 2.50",
+          "value": "{sjs2.base-unit.spacing} * -2.50",
           "type": "spacing"
         },
         "x300": {
-          "value": "{sjs2.base-unit.spacing} * 3",
+          "value": "{sjs2.base-unit.spacing} * -3",
           "type": "spacing"
         },
         "x400": {
-          "value": "{sjs2.base-unit.spacing} * 4",
+          "value": "{sjs2.base-unit.spacing} * -4",
           "type": "spacing"
         },
         "x500": {
-          "value": "{sjs2.base-unit.spacing} * 5",
+          "value": "{sjs2.base-unit.spacing} * -5",
           "type": "spacing"
         },
         "x600": {
-          "value": "{sjs2.base-unit.spacing} * 6",
+          "value": "{sjs2.base-unit.spacing} * -6",
           "type": "spacing"
         },
         "x700": {
-          "value": "{sjs2.base-unit.spacing} * 7",
+          "value": "{sjs2.base-unit.spacing} * -7",
           "type": "spacing"
         },
         "x800": {
-          "value": "{sjs2.base-unit.spacing} * 8",
+          "value": "{sjs2.base-unit.spacing} * -8",
           "type": "spacing"
-        },
-        "negative": {
-          "x025": {
-            "value": "{sjs2.base-unit.spacing} * -0.25",
-            "type": "spacing"
-          },
-          "x050": {
-            "value": "{sjs2.base-unit.spacing} * -0.50",
-            "type": "spacing"
-          },
-          "x075": {
-            "value": "{sjs2.base-unit.spacing} * -0.75",
-            "type": "spacing"
-          },
-          "x100": {
-            "value": "{sjs2.base-unit.spacing} * -1",
-            "type": "spacing"
-          },
-          "x150": {
-            "value": "{sjs2.base-unit.spacing} * -1.5",
-            "type": "spacing"
-          },
-          "x200": {
-            "value": "{sjs2.base-unit.spacing} * -2",
-            "type": "spacing"
-          },
-          "x250": {
-            "value": "{sjs2.base-unit.spacing} * -2.50",
-            "type": "spacing"
-          },
-          "x300": {
-            "value": "{sjs2.base-unit.spacing} * -3",
-            "type": "spacing"
-          },
-          "x400": {
-            "value": "{sjs2.base-unit.spacing} * -4",
-            "type": "spacing"
-          },
-          "x500": {
-            "value": "{sjs2.base-unit.spacing} * -5",
-            "type": "spacing"
-          },
-          "x600": {
-            "value": "{sjs2.base-unit.spacing} * -6",
-            "type": "spacing"
-          },
-          "x700": {
-            "value": "{sjs2.base-unit.spacing} * -7",
-            "type": "spacing"
-          },
-          "x800": {
-            "value": "{sjs2.base-unit.spacing} * -8",
-            "type": "spacing"
-          }
         }
       }
     },
     "opacity": {
-      "static": {
-        "x000": {
-          "value": "{sjs2.base-unit.opacity} * 0",
-          "type": "opacity"
-        },
-        "x005": {
-          "value": "{sjs2.base-unit.opacity} * 5",
-          "type": "opacity"
-        },
-        "x010": {
-          "value": "{sjs2.base-unit.opacity} * 10",
-          "type": "opacity"
-        },
-        "x015": {
-          "value": "{sjs2.base-unit.opacity} * 15",
-          "type": "opacity"
-        },
-        "x020": {
-          "value": "{sjs2.base-unit.opacity} * 20",
-          "type": "opacity"
-        },
-        "x025": {
-          "value": "{sjs2.base-unit.opacity} * 25",
-          "type": "opacity"
-        },
-        "x030": {
-          "value": "{sjs2.base-unit.opacity} * 30",
-          "type": "opacity"
-        },
-        "x035": {
-          "value": "{sjs2.base-unit.opacity} * 35",
-          "type": "opacity"
-        },
-        "x040": {
-          "value": "{sjs2.base-unit.opacity} * 40",
-          "type": "opacity"
-        },
-        "x045": {
-          "value": "{sjs2.base-unit.opacity} * 45",
-          "type": "opacity"
-        },
-        "x050": {
-          "value": "{sjs2.base-unit.opacity} * 50",
-          "type": "opacity"
-        },
-        "x055": {
-          "value": "{sjs2.base-unit.opacity} * 55",
-          "type": "opacity"
-        },
-        "x060": {
-          "value": "{sjs2.base-unit.opacity} * 60",
-          "type": "opacity"
-        },
-        "x065": {
-          "value": "{sjs2.base-unit.opacity} * 65",
-          "type": "opacity"
-        },
-        "x070": {
-          "value": "{sjs2.base-unit.opacity} * 70",
-          "type": "opacity"
-        },
-        "x075": {
-          "value": "{sjs2.base-unit.opacity} * 75",
-          "type": "opacity"
-        },
-        "x080": {
-          "value": "{sjs2.base-unit.opacity} * 80",
-          "type": "opacity"
-        },
-        "x085": {
-          "value": "{sjs2.base-unit.opacity} * 85",
-          "type": "opacity"
-        },
-        "x090": {
-          "value": "{sjs2.base-unit.opacity} * 90",
-          "type": "opacity"
-        },
-        "x095": {
-          "value": "{sjs2.base-unit.opacity} * 95",
-          "type": "opacity"
-        },
-        "x100": {
-          "value": "{sjs2.base-unit.opacity} * 100",
-          "type": "opacity"
-        }
+      "x000": {
+        "value": "{sjs2.base-unit.opacity} * 0",
+        "type": "opacity"
+      },
+      "x005": {
+        "value": "{sjs2.base-unit.opacity} * 5",
+        "type": "opacity"
+      },
+      "x010": {
+        "value": "{sjs2.base-unit.opacity} * 10",
+        "type": "opacity"
+      },
+      "x015": {
+        "value": "{sjs2.base-unit.opacity} * 15",
+        "type": "opacity"
+      },
+      "x020": {
+        "value": "{sjs2.base-unit.opacity} * 20",
+        "type": "opacity"
+      },
+      "x025": {
+        "value": "{sjs2.base-unit.opacity} * 25",
+        "type": "opacity"
+      },
+      "x030": {
+        "value": "{sjs2.base-unit.opacity} * 30",
+        "type": "opacity"
+      },
+      "x035": {
+        "value": "{sjs2.base-unit.opacity} * 35",
+        "type": "opacity"
+      },
+      "x040": {
+        "value": "{sjs2.base-unit.opacity} * 40",
+        "type": "opacity"
+      },
+      "x045": {
+        "value": "{sjs2.base-unit.opacity} * 45",
+        "type": "opacity"
+      },
+      "x050": {
+        "value": "{sjs2.base-unit.opacity} * 50",
+        "type": "opacity"
+      },
+      "x055": {
+        "value": "{sjs2.base-unit.opacity} * 55",
+        "type": "opacity"
+      },
+      "x060": {
+        "value": "{sjs2.base-unit.opacity} * 60",
+        "type": "opacity"
+      },
+      "x065": {
+        "value": "{sjs2.base-unit.opacity} * 65",
+        "type": "opacity"
+      },
+      "x070": {
+        "value": "{sjs2.base-unit.opacity} * 70",
+        "type": "opacity"
+      },
+      "x075": {
+        "value": "{sjs2.base-unit.opacity} * 75",
+        "type": "opacity"
+      },
+      "x080": {
+        "value": "{sjs2.base-unit.opacity} * 80",
+        "type": "opacity"
+      },
+      "x085": {
+        "value": "{sjs2.base-unit.opacity} * 85",
+        "type": "opacity"
+      },
+      "x090": {
+        "value": "{sjs2.base-unit.opacity} * 90",
+        "type": "opacity"
+      },
+      "x095": {
+        "value": "{sjs2.base-unit.opacity} * 95",
+        "type": "opacity"
+      },
+      "x100": {
+        "value": "{sjs2.base-unit.opacity} * 100",
+        "type": "opacity"
       }
     },
     "border-width": {
-      "static": {
-        "x000": {
-          "value": "{sjs2.base-unit.border-width} * 0",
-          "type": "borderWidth"
-        },
-        "x100": {
-          "value": "{sjs2.base-unit.border-width} * 1",
-          "type": "borderWidth"
-        },
-        "x200": {
-          "value": "{sjs2.base-unit.border-width} * 2",
-          "type": "borderWidth"
-        },
-        "x400": {
-          "value": "{sjs2.base-unit.border-width} * 4",
-          "type": "borderWidth"
-        }
+      "x000": {
+        "value": "{sjs2.base-unit.border-width} * 0",
+        "type": "borderWidth"
+      },
+      "x100": {
+        "value": "{sjs2.base-unit.border-width} * 1",
+        "type": "borderWidth"
+      },
+      "x200": {
+        "value": "{sjs2.base-unit.border-width} * 2",
+        "type": "borderWidth"
+      },
+      "x400": {
+        "value": "{sjs2.base-unit.border-width} * 4",
+        "type": "borderWidth"
       }
     },
     "animation": {
@@ -470,111 +448,103 @@
       }
     },
     "font-weight": {
-      "static": {
-        "regular": {
-          "value": "Regular",
-          "type": "fontWeights"
-        },
-        "medium": {
-          "value": "Medium",
-          "type": "fontWeights"
-        },
-        "semibold": {
-          "value": "SemiBold",
-          "type": "fontWeights"
-        },
-        "bold": {
-          "value": "Bold",
-          "type": "fontWeights"
-        }
+      "regular": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "medium": {
+        "value": "Medium",
+        "type": "fontWeights"
+      },
+      "semibold": {
+        "value": "SemiBold",
+        "type": "fontWeights"
+      },
+      "bold": {
+        "value": "Bold",
+        "type": "fontWeights"
       }
     },
     "font-size": {
-      "static": {
-        "x000": {
-          "value": "{sjs2.base-unit.font-size} * 0",
-          "type": "fontSizes"
-        },
-        "x100": {
-          "value": "{sjs2.base-unit.font-size} * 1",
-          "type": "fontSizes"
-        },
-        "x150": {
-          "value": "{sjs2.base-unit.font-size} * 1.5",
-          "type": "fontSizes"
-        },
-        "x200": {
-          "value": "{sjs2.base-unit.font-size} * 2",
-          "type": "fontSizes"
-        },
-        "x250": {
-          "value": "{sjs2.base-unit.font-size} * 2.5",
-          "type": "fontSizes"
-        },
-        "x300": {
-          "value": "{sjs2.base-unit.font-size} * 3",
-          "type": "fontSizes"
-        },
-        "x350": {
-          "value": "{sjs2.base-unit.font-size} * 3.5",
-          "type": "fontSizes"
-        },
-        "x400": {
-          "value": "{sjs2.base-unit.font-size} * 4",
-          "type": "fontSizes"
-        },
-        "x500": {
-          "value": "{sjs2.base-unit.font-size} * 5",
-          "type": "fontSizes"
-        },
-        "x600": {
-          "value": "{sjs2.base-unit.font-size} * 6",
-          "type": "fontSizes"
-        }
+      "x000": {
+        "value": "{sjs2.base-unit.font-size} * 0",
+        "type": "fontSizes"
+      },
+      "x100": {
+        "value": "{sjs2.base-unit.font-size} * 1",
+        "type": "fontSizes"
+      },
+      "x150": {
+        "value": "{sjs2.base-unit.font-size} * 1.5",
+        "type": "fontSizes"
+      },
+      "x200": {
+        "value": "{sjs2.base-unit.font-size} * 2",
+        "type": "fontSizes"
+      },
+      "x250": {
+        "value": "{sjs2.base-unit.font-size} * 2.5",
+        "type": "fontSizes"
+      },
+      "x300": {
+        "value": "{sjs2.base-unit.font-size} * 3",
+        "type": "fontSizes"
+      },
+      "x350": {
+        "value": "{sjs2.base-unit.font-size} * 3.5",
+        "type": "fontSizes"
+      },
+      "x400": {
+        "value": "{sjs2.base-unit.font-size} * 4",
+        "type": "fontSizes"
+      },
+      "x500": {
+        "value": "{sjs2.base-unit.font-size} * 5",
+        "type": "fontSizes"
+      },
+      "x600": {
+        "value": "{sjs2.base-unit.font-size} * 6",
+        "type": "fontSizes"
       }
     },
     "line-height": {
-      "static": {
-        "x000": {
-          "value": "{sjs2.base-unit.line-height} * 0",
-          "type": "lineHeights"
-        },
-        "x100": {
-          "value": "{sjs2.base-unit.line-height} * 1",
-          "type": "lineHeights"
-        },
-        "x200": {
-          "value": "{sjs2.base-unit.line-height} * 2",
-          "type": "lineHeights"
-        },
-        "x300": {
-          "value": "{sjs2.base-unit.line-height} * 3",
-          "type": "lineHeights"
-        },
-        "x400": {
-          "value": "{sjs2.base-unit.line-height} * 4",
-          "type": "lineHeights"
-        },
-        "x500": {
-          "value": "{sjs2.base-unit.line-height} * 5",
-          "type": "lineHeights"
-        },
-        "x600": {
-          "value": "{sjs2.base-unit.line-height} * 6",
-          "type": "lineHeights"
-        }
+      "x000": {
+        "value": "{sjs2.base-unit.line-height} * 0",
+        "type": "lineHeights"
+      },
+      "x100": {
+        "value": "{sjs2.base-unit.line-height} * 1",
+        "type": "lineHeights"
+      },
+      "x200": {
+        "value": "{sjs2.base-unit.line-height} * 2",
+        "type": "lineHeights"
+      },
+      "x300": {
+        "value": "{sjs2.base-unit.line-height} * 3",
+        "type": "lineHeights"
+      },
+      "x400": {
+        "value": "{sjs2.base-unit.line-height} * 4",
+        "type": "lineHeights"
+      },
+      "x500": {
+        "value": "{sjs2.base-unit.line-height} * 5",
+        "type": "lineHeights"
+      },
+      "x600": {
+        "value": "{sjs2.base-unit.line-height} * 6",
+        "type": "lineHeights"
       }
     },
     "text-case": {
-      "static": {
-        "default": {
-          "value": "none",
-          "type": "textCase"
-        },
-        "uppercase": {
-          "value": "uppercase",
-          "type": "textCase"
-        }
+      "default": {
+        "value": "none",
+        "type": "textCase"
+      },
+      "uppercase": {
+        "value": "uppercase",
+        "type": "textCase"
       }
     }
   }

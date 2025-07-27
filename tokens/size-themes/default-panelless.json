@@ -3,11 +3,11 @@
     "radius": {
       "semantic": {
         "form": {
-          "value": "{sjs2.radius.static.x100}",
+          "value": "{sjs2.radius.x100}",
           "type": "borderRadius"
         },
         "form-item": {
-          "value": "{sjs2.radius.static.x050}",
+          "value": "{sjs2.radius.x050}",
           "type": "borderRadius"
         }
       },
@@ -29,57 +29,57 @@
           "type": "borderRadius"
         },
         "rating": {
-          "value": "{sjs2.radius.static.round}",
+          "value": "{sjs2.radius.round}",
           "type": "borderRadius"
         },
         "ranking": {
-          "value": "{sjs2.radius.static.round}",
+          "value": "{sjs2.radius.round}",
           "type": "borderRadius"
         },
         "ranking-item": {
-          "value": "{sjs2.radius.static.round}",
+          "value": "{sjs2.radius.round}",
           "type": "borderRadius"
         },
         "toggle": {
-          "value": "{sjs2.radius.static.round}",
+          "value": "{sjs2.radius.round}",
           "type": "borderRadius"
         },
         "toggle-item": {
-          "value": "{sjs2.radius.static.round}",
+          "value": "{sjs2.radius.round}",
           "type": "borderRadius"
         },
         "track": {
-          "value": "{sjs2.radius.static.round}",
+          "value": "{sjs2.radius.round}",
           "type": "borderRadius"
         },
         "track-item": {
-          "value": "{sjs2.radius.static.round}",
+          "value": "{sjs2.radius.round}",
           "type": "borderRadius"
         },
         "track-thumb": {
-          "value": "{sjs2.radius.static.round}",
+          "value": "{sjs2.radius.round}",
           "type": "borderRadius"
         }
       },
       "container": {
         "panel": {
-          "value": "{sjs2.radius.static.x250}",
+          "value": "{sjs2.radius.x250}",
           "type": "borderRadius"
         },
         "drop": {
-          "value": "{sjs2.radius.static.x250}",
+          "value": "{sjs2.radius.x250}",
           "type": "borderRadius"
         },
         "modal": {
-          "value": "{sjs2.radius.static.x300}",
+          "value": "{sjs2.radius.x300}",
           "type": "borderRadius"
         },
         "notifier": {
-          "value": "{sjs2.radius.static.x200}",
+          "value": "{sjs2.radius.x200}",
           "type": "borderRadius"
         },
         "tooltip": {
-          "value": "{sjs2.radius.static.x100}",
+          "value": "{sjs2.radius.x100}",
           "type": "borderRadius"
         }
       }
@@ -89,45 +89,45 @@
         "formbox": {
           "small": {
             "horizontal": {
-              "value": "{sjs2.spacing.static.x050}",
+              "value": "{sjs2.spacing.x050}",
               "type": "spacing"
             },
             "vertical": {
-              "value": "{sjs2.spacing.static.x050}",
+              "value": "{sjs2.spacing.x050}",
               "type": "spacing"
             },
             "gap": {
-              "value": "{sjs2.spacing.static.x050}",
+              "value": "{sjs2.spacing.x050}",
               "type": "spacing"
             },
             "spacer-top": {
-              "value": "{sjs2.spacing.static.x000}",
+              "value": "{sjs2.spacing.x000}",
               "type": "spacing"
             },
             "spacer-bottom": {
-              "value": "{sjs2.spacing.static.x100}",
+              "value": "{sjs2.spacing.x100}",
               "type": "spacing"
             }
           },
           "medium": {
             "horizontal": {
-              "value": "{sjs2.spacing.static.x050}",
+              "value": "{sjs2.spacing.x050}",
               "type": "spacing"
             },
             "vertical": {
-              "value": "{sjs2.spacing.static.x050}",
+              "value": "{sjs2.spacing.x050}",
               "type": "spacing"
             },
             "gap": {
-              "value": "{sjs2.spacing.static.x050}",
+              "value": "{sjs2.spacing.x050}",
               "type": "spacing"
             },
             "spacer-top": {
-              "value": "{sjs2.spacing.static.x000}",
+              "value": "{sjs2.spacing.x000}",
               "type": "spacing"
             },
             "spacer-bottom": {
-              "value": "{sjs2.spacing.static.x100}",
+              "value": "{sjs2.spacing.x100}",
               "type": "spacing"
             }
           }
@@ -136,69 +136,69 @@
           "small": {
             "content": {
               "vertical": {
-                "value": "{sjs2.spacing.static.x050}",
+                "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
               },
               "horizontal": {
-                "value": "{sjs2.spacing.static.x100}",
+                "value": "{sjs2.spacing.x100}",
                 "type": "spacing"
               }
             },
             "swatch": {
               "vertical": {
-                "value": "{sjs2.spacing.static.x050}",
+                "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
               },
               "left": {
-                "value": "{sjs2.spacing.static.x100}",
+                "value": "{sjs2.spacing.x100}",
                 "type": "spacing"
               },
               "right": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               }
             },
             "icon": {
               "vertical": {
-                "value": "{sjs2.spacing.static.x050}",
+                "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
               },
               "left": {
-                "value": "{sjs2.spacing.static.x050}",
+                "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
               },
               "right": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               }
             },
             "label": {
               "vertical": {
-                "value": "{sjs2.spacing.static.x050}",
+                "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
               },
               "horizontal": {
-                "value": "{sjs2.spacing.static.x100}",
+                "value": "{sjs2.spacing.x100}",
                 "type": "spacing"
               }
             },
             "action-group": {
               "gap": {
-                "value": "{sjs2.spacing.static.x050}",
+                "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
               }
             },
             "limit": {
               "vertical": {
-                "value": "{sjs2.spacing.static.x150}",
+                "value": "{sjs2.spacing.x150}",
                 "type": "spacing"
               },
               "left": {
-                "value": "{sjs2.spacing.static.x100}",
+                "value": "{sjs2.spacing.x100}",
                 "type": "spacing"
               },
               "right": {
-                "value": "{sjs2.spacing.static.x100}",
+                "value": "{sjs2.spacing.x100}",
                 "type": "spacing"
               }
             }
@@ -206,69 +206,69 @@
           "medium": {
             "content": {
               "vertical": {
-                "value": "{sjs2.spacing.static.x100}",
+                "value": "{sjs2.spacing.x100}",
                 "type": "spacing"
               },
               "horizontal": {
-                "value": "{sjs2.spacing.static.x150}",
+                "value": "{sjs2.spacing.x150}",
                 "type": "spacing"
               }
             },
             "swatch": {
               "vertical": {
-                "value": "{sjs2.spacing.static.x100}",
+                "value": "{sjs2.spacing.x100}",
                 "type": "spacing"
               },
               "left": {
-                "value": "{sjs2.spacing.static.x150}",
+                "value": "{sjs2.spacing.x150}",
                 "type": "spacing"
               },
               "right": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               }
             },
             "icon": {
               "vertical": {
-                "value": "{sjs2.spacing.static.x100}",
+                "value": "{sjs2.spacing.x100}",
                 "type": "spacing"
               },
               "left": {
-                "value": "{sjs2.spacing.static.x100}",
+                "value": "{sjs2.spacing.x100}",
                 "type": "spacing"
               },
               "right": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               }
             },
             "label": {
               "vertical": {
-                "value": "{sjs2.spacing.static.x100}",
+                "value": "{sjs2.spacing.x100}",
                 "type": "spacing"
               },
               "horizontal": {
-                "value": "{sjs2.spacing.static.x150}",
+                "value": "{sjs2.spacing.x150}",
                 "type": "spacing"
               }
             },
             "action-group": {
               "gap": {
-                "value": "{sjs2.spacing.static.x050}",
+                "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
               }
             },
             "limit": {
               "vertical": {
-                "value": "{sjs2.spacing.static.x150}",
+                "value": "{sjs2.spacing.x150}",
                 "type": "spacing"
               },
               "left": {
-                "value": "{sjs2.spacing.static.x100}",
+                "value": "{sjs2.spacing.x100}",
                 "type": "spacing"
               },
               "right": {
-                "value": "{sjs2.spacing.static.x100}",
+                "value": "{sjs2.spacing.x100}",
                 "type": "spacing"
               }
             }
@@ -278,35 +278,35 @@
           "xx-small": {
             "label": {
               "vertical": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               },
               "horizontal": {
-                "value": "{sjs2.spacing.static.x050}",
+                "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
               }
             },
             "icon": {
               "vertical": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               },
               "horizontal": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               }
             },
             "box": {
               "vertical": {
-                "value": "{sjs2.spacing.static.x050}",
+                "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
               },
               "horizontal": {
-                "value": "{sjs2.spacing.static.x050}",
+                "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
               },
               "gap": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               }
             }
@@ -314,35 +314,35 @@
           "x-small": {
             "label": {
               "horizontal": {
-                "value": "{sjs2.spacing.static.x050}",
+                "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
               },
               "vertical": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               }
             },
             "icon": {
               "vertical": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               },
               "horizontal": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               }
             },
             "box": {
               "vertical": {
-                "value": "{sjs2.spacing.static.x050}",
+                "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
               },
               "horizontal": {
-                "value": "{sjs2.spacing.static.x050}",
+                "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
               },
               "gap": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               }
             }
@@ -350,35 +350,35 @@
           "small": {
             "label": {
               "horizontal": {
-                "value": "{sjs2.spacing.static.x100}",
+                "value": "{sjs2.spacing.x100}",
                 "type": "spacing"
               },
               "vertical": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               }
             },
             "icon": {
               "vertical": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               },
               "horizontal": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               }
             },
             "box": {
               "vertical": {
-                "value": "{sjs2.spacing.static.x100}",
+                "value": "{sjs2.spacing.x100}",
                 "type": "spacing"
               },
               "horizontal": {
-                "value": "{sjs2.spacing.static.x100}",
+                "value": "{sjs2.spacing.x100}",
                 "type": "spacing"
               },
               "gap": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               }
             }
@@ -386,35 +386,35 @@
           "medium": {
             "label": {
               "horizontal": {
-                "value": "{sjs2.spacing.static.x150}",
+                "value": "{sjs2.spacing.x150}",
                 "type": "spacing"
               },
               "vertical": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               }
             },
             "icon": {
               "vertical": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               },
               "horizontal": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               }
             },
             "box": {
               "vertical": {
-                "value": "{sjs2.spacing.static.x150}",
+                "value": "{sjs2.spacing.x150}",
                 "type": "spacing"
               },
               "horizontal": {
-                "value": "{sjs2.spacing.static.x150}",
+                "value": "{sjs2.spacing.x150}",
                 "type": "spacing"
               },
               "gap": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               }
             }
@@ -422,35 +422,35 @@
           "large": {
             "label": {
               "horizontal": {
-                "value": "{sjs2.spacing.static.x200}",
+                "value": "{sjs2.spacing.x200}",
                 "type": "spacing"
               },
               "vertical": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               }
             },
             "icon": {
               "vertical": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               },
               "horizontal": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               }
             },
             "box": {
               "vertical": {
-                "value": "{sjs2.spacing.static.x200}",
+                "value": "{sjs2.spacing.x200}",
                 "type": "spacing"
               },
               "horizontal": {
-                "value": "{sjs2.spacing.static.x200}",
+                "value": "{sjs2.spacing.x200}",
                 "type": "spacing"
               },
               "gap": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               }
             }
@@ -459,29 +459,29 @@
         "message": {
           "small": {
             "horizontal": {
-              "value": "{sjs2.spacing.static.x150}",
+              "value": "{sjs2.spacing.x150}",
               "type": "spacing"
             },
             "vertical": {
-              "value": "{sjs2.spacing.static.x100}",
+              "value": "{sjs2.spacing.x100}",
               "type": "spacing"
             },
             "gap": {
-              "value": "{sjs2.spacing.static.x100}",
+              "value": "{sjs2.spacing.x100}",
               "type": "spacing"
             }
           },
           "medium": {
             "horizontal": {
-              "value": "{sjs2.spacing.static.x150}",
+              "value": "{sjs2.spacing.x150}",
               "type": "spacing"
             },
             "vertical": {
-              "value": "{sjs2.spacing.static.x100}",
+              "value": "{sjs2.spacing.x100}",
               "type": "spacing"
             },
             "gap": {
-              "value": "{sjs2.spacing.static.x100}",
+              "value": "{sjs2.spacing.x100}",
               "type": "spacing"
             }
           }
@@ -490,49 +490,49 @@
           "small": {
             "box": {
               "left": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               },
               "right": {
-                "value": "{sjs2.spacing.static.x050}",
+                "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
               },
               "vertical": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               },
               "gap": {
-                "value": "{sjs2.spacing.static.x050}",
+                "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
               }
             },
             "action-group": {
               "gap": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               }
             },
             "description": {
               "horizontal": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               },
               "top": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               },
               "bottom": {
-                "value": "{sjs2.spacing.static.x100}",
+                "value": "{sjs2.spacing.x100}",
                 "type": "spacing"
               }
             },
             "caption": {
               "horizontal": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               },
               "vertical": {
-                "value": "{sjs2.spacing.static.x100}",
+                "value": "{sjs2.spacing.x100}",
                 "type": "spacing"
               }
             }
@@ -540,49 +540,49 @@
           "medium": {
             "box": {
               "left": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               },
               "right": {
-                "value": "{sjs2.spacing.static.x050}",
+                "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
               },
               "vertical": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               },
               "gap": {
-                "value": "{sjs2.spacing.static.x050}",
+                "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
               }
             },
             "action-group": {
               "gap": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               }
             },
             "description": {
               "horizontal": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               },
               "top": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               },
               "bottom": {
-                "value": "{sjs2.spacing.static.x100}",
+                "value": "{sjs2.spacing.x100}",
                 "type": "spacing"
               }
             },
             "caption": {
               "horizontal": {
-                "value": "{sjs2.spacing.static.x000}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               },
               "vertical": {
-                "value": "{sjs2.spacing.static.x100}",
+                "value": "{sjs2.spacing.x100}",
                 "type": "spacing"
               }
             }
@@ -593,37 +593,37 @@
     "size": {
       "semantic": {
         "xx-small": {
-          "value": "{sjs2.size.static.x300}",
+          "value": "{sjs2.size.x300}",
           "type": "sizing"
         },
         "x-small": {
-          "value": "{sjs2.size.static.x400}",
+          "value": "{sjs2.size.x400}",
           "type": "sizing"
         },
         "small": {
-          "value": "{sjs2.size.static.x500}",
+          "value": "{sjs2.size.x500}",
           "type": "sizing"
         },
         "medium": {
-          "value": "{sjs2.size.static.x600}",
+          "value": "{sjs2.size.x600}",
           "type": "sizing"
         },
         "large": {
-          "value": "{sjs2.size.static.x700}",
+          "value": "{sjs2.size.x700}",
           "type": "sizing"
         }
       },
       "icon": {
         "small": {
-          "value": "{sjs2.size.static.x200}",
+          "value": "{sjs2.size.x200}",
           "type": "sizing"
         },
         "medium": {
-          "value": "{sjs2.size.static.x300}",
+          "value": "{sjs2.size.x300}",
           "type": "sizing"
         },
         "large": {
-          "value": "{sjs2.size.static.x400}",
+          "value": "{sjs2.size.x400}",
           "type": "sizing"
         }
       }

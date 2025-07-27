@@ -81,20 +81,20 @@
           "type": "color"
         },
         "scrollbar": {
-          "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.static.x015} )",
+          "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x015} )",
           "type": "color"
         },
         "a11y": {
-          "value": "rgba( {sjs2.palette.blue.400}, {sjs2.opacity.static.x040} )",
+          "value": "rgba( {sjs2.palette.blue.400}, {sjs2.opacity.x040} )",
           "type": "color"
         },
         "overlay": {
           "screen": {
-            "value": "rgba( {sjs2.palette.gray.700}, {sjs2.opacity.static.x060} )",
+            "value": "rgba( {sjs2.palette.gray.700}, {sjs2.opacity.x060} )",
             "type": "color"
           },
           "border": {
-            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.static.x020})",
+            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x020})",
             "type": "color"
           }
         }
@@ -106,23 +106,23 @@
             "type": "color"
           },
           "secondary": {
-            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.static.x005} )",
+            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x005} )",
             "type": "color"
           },
           "tertiary": {
-            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.static.x010} )",
+            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x010} )",
             "type": "color"
           },
           "primary-dim": {
-            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.static.x005} )",
+            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x005} )",
             "type": "color"
           },
           "secondary-dim": {
-            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.static.x010} )",
+            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x010} )",
             "type": "color"
           },
           "tertiary-dim": {
-            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.static.x015} )",
+            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x015} )",
             "type": "color"
           }
         },
@@ -132,11 +132,11 @@
             "type": "color"
           },
           "secondary": {
-            "value": "rgba( {sjs2.color.project.brand.600}, {sjs2.opacity.static.x010} )",
+            "value": "rgba( {sjs2.color.project.brand.600}, {sjs2.opacity.x010} )",
             "type": "color"
           },
           "tertiary": {
-            "value": "rgba( {sjs2.color.project.brand.600}, {sjs2.opacity.static.x000} )",
+            "value": "rgba( {sjs2.color.project.brand.600}, {sjs2.opacity.x000} )",
             "type": "color"
           },
           "primary-dim": {
@@ -144,11 +144,11 @@
             "type": "color"
           },
           "secondary-dim": {
-            "value": "rgba( {sjs2.color.project.brand.600}, {sjs2.opacity.static.x015} )",
+            "value": "rgba( {sjs2.color.project.brand.600}, {sjs2.opacity.x015} )",
             "type": "color"
           },
           "tertiary-dim": {
-            "value": "rgba( {sjs2.color.project.brand.600}, {sjs2.opacity.static.x010} )",
+            "value": "rgba( {sjs2.color.project.brand.600}, {sjs2.opacity.x010} )",
             "type": "color"
           }
         },
@@ -158,11 +158,11 @@
             "type": "color"
           },
           "secondary": {
-            "value": "rgba( {sjs2.color.project.accent.600}, {sjs2.opacity.static.x010} )",
+            "value": "rgba( {sjs2.color.project.accent.600}, {sjs2.opacity.x010} )",
             "type": "color"
           },
           "tertiary": {
-            "value": "rgba( {sjs2.color.project.accent.600}, {sjs2.opacity.static.x000} )",
+            "value": "rgba( {sjs2.color.project.accent.600}, {sjs2.opacity.x000} )",
             "type": "color"
           },
           "primary-dim": {
@@ -170,11 +170,11 @@
             "type": "color"
           },
           "secondary-dim": {
-            "value": "rgba( {sjs2.color.project.accent.600}, {sjs2.opacity.static.x015} )",
+            "value": "rgba( {sjs2.color.project.accent.600}, {sjs2.opacity.x015} )",
             "type": "color"
           },
           "tertiary-dim": {
-            "value": "rgba( {sjs2.color.project.accent.600}, {sjs2.opacity.static.x010} )",
+            "value": "rgba( {sjs2.color.project.accent.600}, {sjs2.opacity.x010} )",
             "type": "color"
           }
         },
@@ -184,11 +184,11 @@
             "type": "color"
           },
           "secondary": {
-            "value": "rgba( {sjs2.palette.blue.600}, {sjs2.opacity.static.x010} )",
+            "value": "rgba( {sjs2.palette.blue.600}, {sjs2.opacity.x010} )",
             "type": "color"
           },
           "tertiary": {
-            "value": "rgba( {sjs2.palette.blue.600}, {sjs2.opacity.static.x000} )",
+            "value": "rgba( {sjs2.palette.blue.600}, {sjs2.opacity.x000} )",
             "type": "color"
           },
           "primary-dim": {
@@ -196,11 +196,11 @@
             "type": "color"
           },
           "secondary-dim": {
-            "value": "rgba( {sjs2.palette.blue.600}, {sjs2.opacity.static.x015} )",
+            "value": "rgba( {sjs2.palette.blue.600}, {sjs2.opacity.x015} )",
             "type": "color"
           },
           "tertiary-dim": {
-            "value": "rgba( {sjs2.palette.blue.600}, {sjs2.opacity.static.x010} )",
+            "value": "rgba( {sjs2.palette.blue.600}, {sjs2.opacity.x010} )",
             "type": "color"
           }
         },
@@ -210,11 +210,11 @@
             "type": "color"
           },
           "secondary": {
-            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.static.x010} )",
+            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x015} )",
             "type": "color"
           },
           "tertiary": {
-            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.static.x000} )",
+            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x000} )",
             "type": "color"
           },
           "primary-dim": {
@@ -222,11 +222,11 @@
             "type": "color"
           },
           "secondary-dim": {
-            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.static.x015} )",
+            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x020} )",
             "type": "color"
           },
           "tertiary-dim": {
-            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.static.x010} )",
+            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x020} )",
             "type": "color"
           }
         },
@@ -236,11 +236,11 @@
             "type": "color"
           },
           "secondary": {
-            "value": "rgba( {sjs2.palette.green.600}, {sjs2.opacity.static.x010} )",
+            "value": "rgba( {sjs2.palette.green.600}, {sjs2.opacity.x010} )",
             "type": "color"
           },
           "tertiary": {
-            "value": "rgba( {sjs2.palette.green.600}, {sjs2.opacity.static.x000} )",
+            "value": "rgba( {sjs2.palette.green.600}, {sjs2.opacity.x000} )",
             "type": "color"
           },
           "primary-dim": {
@@ -248,11 +248,11 @@
             "type": "color"
           },
           "secondary-dim": {
-            "value": "rgba( {sjs2.palette.green.600}, {sjs2.opacity.static.x015} )",
+            "value": "rgba( {sjs2.palette.green.600}, {sjs2.opacity.x015} )",
             "type": "color"
           },
           "tertiary-dim": {
-            "value": "rgba( {sjs2.palette.green.600}, {sjs2.opacity.static.x010} )",
+            "value": "rgba( {sjs2.palette.green.600}, {sjs2.opacity.x010} )",
             "type": "color"
           }
         },
@@ -262,11 +262,11 @@
             "type": "color"
           },
           "secondary": {
-            "value": "rgba( {sjs2.palette.yellow.600}, {sjs2.opacity.static.x010} )",
+            "value": "rgba( {sjs2.palette.yellow.600}, {sjs2.opacity.x010} )",
             "type": "color"
           },
           "tertiary": {
-            "value": "rgba( {sjs2.palette.yellow.600}, {sjs2.opacity.static.x000} )",
+            "value": "rgba( {sjs2.palette.yellow.600}, {sjs2.opacity.x000} )",
             "type": "color"
           },
           "primary-dim": {
@@ -274,11 +274,11 @@
             "type": "color"
           },
           "secondary-dim": {
-            "value": "rgba( {sjs2.palette.yellow.600}, {sjs2.opacity.static.x015} )",
+            "value": "rgba( {sjs2.palette.yellow.600}, {sjs2.opacity.x015} )",
             "type": "color"
           },
           "tertiary-dim": {
-            "value": "rgba( {sjs2.palette.yellow.600}, {sjs2.opacity.static.x010} )",
+            "value": "rgba( {sjs2.palette.yellow.600}, {sjs2.opacity.x010} )",
             "type": "color"
           }
         },
@@ -288,11 +288,11 @@
             "type": "color"
           },
           "secondary": {
-            "value": "rgba( {sjs2.palette.red.600} , {sjs2.opacity.static.x010} )",
+            "value": "rgba( {sjs2.palette.red.600} , {sjs2.opacity.x010} )",
             "type": "color"
           },
           "tertiary": {
-            "value": "rgba( {sjs2.palette.red.600} , {sjs2.opacity.static.x000} )",
+            "value": "rgba( {sjs2.palette.red.600} , {sjs2.opacity.x000} )",
             "type": "color"
           },
           "primary-dim": {
@@ -300,11 +300,11 @@
             "type": "color"
           },
           "secondary-dim": {
-            "value": "rgba( {sjs2.palette.red.600} , {sjs2.opacity.static.x015} )",
+            "value": "rgba( {sjs2.palette.red.600} , {sjs2.opacity.x015} )",
             "type": "color"
           },
           "tertiary-dim": {
-            "value": "rgba( {sjs2.palette.red.600} , {sjs2.opacity.static.x010} )",
+            "value": "rgba( {sjs2.palette.red.600} , {sjs2.opacity.x010} )",
             "type": "color"
           }
         },
@@ -315,7 +315,7 @@
               "type": "color"
             },
             "secondary": {
-              "value": "rgba( {sjs2.palette.gray.900} , {sjs2.opacity.static.x010} )",
+              "value": "rgba( {sjs2.palette.gray.900} , {sjs2.opacity.x010} )",
               "type": "color"
             },
             "primary-dim": {
@@ -323,7 +323,7 @@
               "type": "color"
             },
             "secondary-dim": {
-              "value": "rgba( {sjs2.palette.gray.900} , {sjs2.opacity.static.x015} )",
+              "value": "rgba( {sjs2.palette.gray.900} , {sjs2.opacity.x015} )",
               "type": "color"
             }
           },
@@ -333,7 +333,7 @@
               "type": "color"
             },
             "secondary": {
-              "value": "rgba( {sjs2.palette.gray.000} , {sjs2.opacity.static.x010} )",
+              "value": "rgba( {sjs2.palette.gray.000} , {sjs2.opacity.x010} )",
               "type": "color"
             },
             "primary-dim": {
@@ -350,7 +350,7 @@
               }
             },
             "secondary-dim": {
-              "value": "rgba( {sjs2.palette.gray.000} , {sjs2.opacity.static.x015} )",
+              "value": "rgba( {sjs2.palette.gray.000} , {sjs2.opacity.x015} )",
               "type": "color"
             }
           }
@@ -367,11 +367,11 @@
             "type": "color"
           },
           "secondary": {
-            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.static.x060} )",
+            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x060} )",
             "type": "color"
           },
           "tertiary": {
-            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.static.x040} )",
+            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x040} )",
             "type": "color"
           }
         },
@@ -1128,15 +1128,15 @@
     "shadow": {
       "color": {
         "small": {
-          "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.static.x025} )",
+          "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x025} )",
           "type": "color"
         },
         "medium": {
-          "value": "rgba( #004C44, {sjs2.opacity.static.x010} )",
+          "value": "rgba( #004C44, {sjs2.opacity.x010} )",
           "type": "color"
         },
         "large": {
-          "value": "rgba( #004C44, {sjs2.opacity.static.x010} )",
+          "value": "rgba( #004C44, {sjs2.opacity.x010} )",
           "type": "color"
         },
         "inner": {
@@ -1381,41 +1381,41 @@
     },
     "opacity": {
       "visible": {
-        "value": "{sjs2.opacity.static.x100}",
+        "value": "{sjs2.opacity.x100}",
         "type": "opacity"
       },
       "hovered": {
-        "value": "{sjs2.opacity.static.x050}",
+        "value": "{sjs2.opacity.x050}",
         "type": "opacity"
       },
       "pressed": {
-        "value": "{sjs2.opacity.static.x050}",
+        "value": "{sjs2.opacity.x050}",
         "type": "opacity"
       },
       "disabled": {
-        "value": "{sjs2.opacity.static.x025}",
+        "value": "{sjs2.opacity.x025}",
         "type": "opacity"
       },
       "hidden": {
-        "value": "{sjs2.opacity.static.x000}",
+        "value": "{sjs2.opacity.x000}",
         "type": "opacity"
       }
     },
     "border-width": {
       "default": {
-        "value": "{sjs2.border-width.static.x100}",
+        "value": "{sjs2.border-width.x100}",
         "type": "borderWidth"
       },
       "focused": {
-        "value": "{sjs2.border-width.static.x200}",
+        "value": "{sjs2.border-width.x200}",
         "type": "borderWidth"
       },
       "selected": {
-        "value": "{sjs2.border-width.static.x200}",
+        "value": "{sjs2.border-width.x200}",
         "type": "borderWidth"
       },
       "a11y": {
-        "value": "{sjs2.border-width.static.x400}",
+        "value": "{sjs2.border-width.x400}",
         "type": "borderWidth"
       }
     }

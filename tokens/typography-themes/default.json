@@ -94,47 +94,47 @@
       },
       "font-size": {
         "small": {
-          "value": "{sjs2.font-size.static.x150}",
+          "value": "{sjs2.font-size.x150}",
           "type": "fontSizes"
         },
         "default": {
-          "value": "{sjs2.font-size.static.x200}",
+          "value": "{sjs2.font-size.x200}",
           "type": "fontSizes"
         },
         "medium": {
-          "value": "{sjs2.font-size.static.x300}",
+          "value": "{sjs2.font-size.x300}",
           "type": "fontSizes"
         },
         "large": {
-          "value": "{sjs2.font-size.static.x400}",
+          "value": "{sjs2.font-size.x400}",
           "type": "fontSizes"
         }
       },
       "line-height": {
         "small": {
-          "value": "{sjs2.line-height.static.x200}",
+          "value": "{sjs2.line-height.x200}",
           "type": "lineHeights"
         },
         "default": {
-          "value": "{sjs2.line-height.static.x300}",
+          "value": "{sjs2.line-height.x300}",
           "type": "lineHeights"
         },
         "medium": {
-          "value": "{sjs2.line-height.static.x400}",
+          "value": "{sjs2.line-height.x400}",
           "type": "lineHeights"
         },
         "large": {
-          "value": "{sjs2.line-height.static.x500}",
+          "value": "{sjs2.line-height.x500}",
           "type": "lineHeights"
         }
       },
       "font-weight": {
         "default": {
-          "value": "{sjs2.font-weight.static.regular}",
+          "value": "{sjs2.font-weight.regular}",
           "type": "fontWeights"
         },
         "strong": {
-          "value": "{sjs2.font-weight.static.semibold}",
+          "value": "{sjs2.font-weight.semibold}",
           "type": "fontWeights"
         }
       }
