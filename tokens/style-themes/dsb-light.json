@@ -222,11 +222,11 @@
             "type": "color"
           },
           "secondary-dim": {
-            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x015} )",
+            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x010} )",
             "type": "color"
           },
           "tertiary-dim": {
-            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x010} )",
+            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x005} )",
             "type": "color"
           }
         },
