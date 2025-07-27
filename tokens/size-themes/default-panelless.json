@@ -572,7 +572,7 @@
                 "type": "spacing"
               },
               "bottom": {
-                "value": "{sjs2.spacing.x100}",
+                "value": "{sjs2.spacing.x200}",
                 "type": "spacing"
               }
             },
@@ -622,7 +622,7 @@
                 "type": "spacing"
               },
               "bottom": {
-                "value": "{sjs2.spacing.x100}",
+                "value": "{sjs2.spacing.x200}",
                 "type": "spacing"
               }
             },
