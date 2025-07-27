@@ -80,13 +80,23 @@
           "value": "{sjs2.palette.gray.000}",
           "type": "color"
         },
-        "overlay": {
-          "value": "rgba( {sjs2.palette.gray.700}, {sjs2.opacity.overlay} )",
-          "type": "color"
-        },
         "scrollbar": {
           "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.static.x015} )",
           "type": "color"
+        },
+        "a11y": {
+          "value": "rgba( {sjs2.palette.blue.400}, {sjs2.opacity.static.x040} )",
+          "type": "color"
+        },
+        "overlay": {
+          "screen": {
+            "value": "rgba( {sjs2.palette.gray.700}, {sjs2.opacity.static.x060} )",
+            "type": "color"
+          },
+          "border": {
+            "value": "rgba({sjs2.palette.gray.900}, {sjs2.opacity.static.x040})",
+            "type": "color"
+          }
         }
       },
       "bg": {
@@ -194,7 +204,7 @@
             "type": "color"
           }
         },
-        "inverse": {
+        "neutral": {
           "primary": {
             "value": "{sjs2.palette.gray.900}",
             "type": "color"
@@ -365,7 +375,7 @@
             "type": "color"
           }
         },
-        "inverse": {
+        "neutral": {
           "primary": {
             "value": "{sjs2.palette.gray.000}",
             "type": "color"
@@ -431,10 +441,6 @@
           "secondary": {
             "value": "{sjs2.palette.gray.250}",
             "type": "color"
-          },
-          "secondary-overlay": {
-            "value": "rgba({sjs2.palette.gray.900}, {sjs2.opacity.static.x040})",
-            "type": "color"
           }
         },
         "brand": {
@@ -473,7 +479,7 @@
             "type": "color"
           }
         },
-        "inverse": {
+        "neutral": {
           "primary": {
             "value": "{sjs2.palette.gray.000}",
             "type": "color"
@@ -481,7 +487,7 @@
         }
       },
       "control": {
-        "editor": {
+        "formbox": {
           "default": {
             "bg": {
               "value": "{sjs2.color.bg.basic.secondary}",
@@ -489,14 +495,6 @@
             },
             "border": {
               "value": "{sjs2.color.border.basic.secondary}",
-              "type": "color"
-            },
-            "value": {
-              "value": "{sjs2.color.fg.basic.primary}",
-              "type": "color"
-            },
-            "placeholder": {
-              "value": "{sjs2.color.fg.basic.secondary}",
               "type": "color"
             }
           },
@@ -506,14 +504,6 @@
               "type": "color"
             },
             "border": {
-              "value": "{sjs2.palette.gray.250}",
-              "type": "color"
-            },
-            "value": {
-              "value": "{sjs2.palette.gray.250}",
-              "type": "color"
-            },
-            "placeholder": {
               "value": "{sjs2.palette.gray.250}",
               "type": "color"
             }
@@ -526,14 +516,6 @@
             "border": {
               "value": "{sjs2.palette.gray.250}",
               "type": "color"
-            },
-            "value": {
-              "value": "{sjs2.color.fg.basic.primary}",
-              "type": "color"
-            },
-            "placeholder": {
-              "value": "{sjs2.color.fg.basic.secondary}",
-              "type": "color"
             }
           },
           "focused": {
@@ -543,14 +525,6 @@
             },
             "border": {
               "value": "{sjs2.color.border.brand.primary}",
-              "type": "color"
-            },
-            "value": {
-              "value": "{sjs2.color.fg.basic.primary}",
-              "type": "color"
-            },
-            "placeholder": {
-              "value": "{sjs2.color.fg.basic.secondary}",
               "type": "color"
             }
           },
@@ -562,12 +536,82 @@
             "border": {
               "value": "{sjs2.color.border.alert.primary}",
               "type": "color"
+            }
+          },
+          "highlighted": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.secondary}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{sjs2.color.border.basic.primary}",
+              "type": "color"
+            }
+          }
+        },
+        "input": {
+          "default": {
+            "line": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
             },
             "value": {
               "value": "{sjs2.color.fg.basic.primary}",
               "type": "color"
             },
             "placeholder": {
+              "value": "{sjs2.color.fg.basic.secondary}",
+              "type": "color"
+            },
+            "label": {
+              "value": "{sjs2.color.fg.basic.secondary}",
+              "type": "color"
+            },
+            "limit": {
+              "value": "{sjs2.color.fg.basic.secondary}",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "line": {
+              "value": "{sjs2.palette.gray.250}",
+              "type": "color"
+            },
+            "value": {
+              "value": "{sjs2.palette.gray.250}",
+              "type": "color"
+            },
+            "placeholder": {
+              "value": "{sjs2.palette.gray.250}",
+              "type": "color"
+            },
+            "label": {
+              "value": "{sjs2.palette.gray.250}",
+              "type": "color"
+            },
+            "limit": {
+              "value": "{sjs2.palette.gray.250}",
+              "type": "color"
+            }
+          },
+          "readonly": {
+            "line": {
+              "value": "{sjs2.palette.gray.250}",
+              "type": "color"
+            },
+            "value": {
+              "value": "{sjs2.color.fg.basic.primary}",
+              "type": "color"
+            },
+            "placeholder": {
+              "value": "{sjs2.color.fg.basic.secondary}",
+              "type": "color"
+            },
+            "label": {
+              "value": "{sjs2.color.fg.basic.secondary}",
+              "type": "color"
+            },
+            "limit": {
               "value": "{sjs2.color.fg.basic.secondary}",
               "type": "color"
             }
@@ -1338,10 +1382,6 @@
     "opacity": {
       "visible": {
         "value": "{sjs2.opacity.static.x100}",
-        "type": "opacity"
-      },
-      "overlay": {
-        "value": "{sjs2.opacity.static.x060}",
         "type": "opacity"
       },
       "hovered": {
