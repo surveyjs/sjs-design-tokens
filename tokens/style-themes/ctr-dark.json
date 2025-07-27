@@ -226,7 +226,7 @@
             "type": "color"
           },
           "tertiary-dim": {
-            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x020} )",
+            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x010} )",
             "type": "color"
           }
         },
