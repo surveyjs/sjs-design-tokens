@@ -1397,11 +1397,11 @@
         "type": "opacity"
       },
       "hovered": {
-        "value": "{sjs2.opacity.x050}",
+        "value": "{sjs2.opacity.x100}",
         "type": "opacity"
       },
       "pressed": {
-        "value": "{sjs2.opacity.x050}",
+        "value": "{sjs2.opacity.x100}",
         "type": "opacity"
       },
       "disabled": {
