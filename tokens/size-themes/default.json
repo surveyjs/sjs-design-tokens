@@ -29,7 +29,7 @@
           "type": "borderRadius"
         },
         "drop-item": {
-          "value": "{sjs2.radius.x075}",
+          "value": "{sjs2.radius.x100}",
           "type": "borderRadius"
         },
         "checkbox": {
@@ -83,7 +83,7 @@
           "type": "borderRadius"
         },
         "drop": {
-          "value": "{sjs2.radius.x150}",
+          "value": "{sjs2.radius.x200}",
           "type": "borderRadius"
         },
         "modal": {
@@ -644,6 +644,18 @@
                 "type": "spacing"
               }
             }
+          }
+        }
+      },
+      "container": {
+        "drop": {
+          "horizontal": {
+            "value": "{sjs2.spacing.x100}",
+            "type": "spacing"
+          },
+          "vertical": {
+            "value": "{sjs2.spacing.x100}",
+            "type": "spacing"
           }
         }
       }

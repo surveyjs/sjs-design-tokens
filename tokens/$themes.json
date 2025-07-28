@@ -147,7 +147,9 @@
       "sjs2.size.icon.small": "1f3335cc26c5122a2e1f11d1a091bbb22ea4473c",
       "sjs2.size.icon.medium": "856f10fa54b29ea58b78bddf19d01467d7dd8192",
       "sjs2.size.icon.large": "dd53dbaa7fc4fee651d768f9665e18d7b34b72eb",
-      "sjs2.is-panelless": "8e40408cba79da3c8a0b300f5018a9c187b35f16"
+      "sjs2.is-panelless": "8e40408cba79da3c8a0b300f5018a9c187b35f16",
+      "sjs2.layout.container.drop.horizontal": "0a86ffd9dc9e2884cb42121a2b9a11079b147c16",
+      "sjs2.layout.container.drop.vertical": "86d97a48ff349556ea710b9cb3fb7eb979dd5228"
     },
     "group": "size-themes",
     "$figmaCollectionId": "VariableCollectionId:174:1018",
@@ -1494,7 +1496,9 @@
       "sjs2.size.icon.small": "1f3335cc26c5122a2e1f11d1a091bbb22ea4473c",
       "sjs2.size.icon.medium": "856f10fa54b29ea58b78bddf19d01467d7dd8192",
       "sjs2.size.icon.large": "dd53dbaa7fc4fee651d768f9665e18d7b34b72eb",
-      "sjs2.is-panelless": "8e40408cba79da3c8a0b300f5018a9c187b35f16"
+      "sjs2.is-panelless": "8e40408cba79da3c8a0b300f5018a9c187b35f16",
+      "sjs2.layout.container.drop.horizontal": "0a86ffd9dc9e2884cb42121a2b9a11079b147c16",
+      "sjs2.layout.container.drop.vertical": "86d97a48ff349556ea710b9cb3fb7eb979dd5228"
     },
     "group": "size-themes"
   }
