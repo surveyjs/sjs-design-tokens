@@ -24,6 +24,14 @@
           "value": "{sjs2.radius.semantic.form}",
           "type": "borderRadius"
         },
+        "menu-item": {
+          "value": "{sjs2.radius.semantic.form}",
+          "type": "borderRadius"
+        },
+        "drop-item": {
+          "value": "{sjs2.radius.semantic.form}",
+          "type": "borderRadius"
+        },
         "checkbox": {
           "value": "{sjs2.radius.semantic.form-item}",
           "type": "borderRadius"
@@ -70,8 +78,12 @@
           "value": "{sjs2.radius.x100}",
           "type": "borderRadius"
         },
-        "drop": {
+        "menu": {
           "value": "{sjs2.radius.x250}",
+          "type": "borderRadius"
+        },
+        "drop": {
+          "value": "{sjs2.radius.x150}",
           "type": "borderRadius"
         },
         "modal": {
