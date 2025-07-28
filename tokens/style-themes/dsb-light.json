@@ -97,6 +97,10 @@
             "value": "rgba({sjs2.palette.gray.900}, {sjs2.opacity.x040})",
             "type": "color"
           }
+        },
+        "plain": {
+          "value": "{sjs2.color.bg.basic.secondary}",
+          "type": "color"
         }
       },
       "bg": {

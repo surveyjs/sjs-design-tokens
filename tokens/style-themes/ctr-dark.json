@@ -76,6 +76,10 @@
           "value": "{sjs2.palette.gray.999}",
           "type": "color"
         },
+        "plain": {
+          "value": "{sjs2.palette.gray.999}",
+          "type": "color"
+        },
         "sheet": {
           "value": "{sjs2.palette.gray.900}",
           "type": "color"

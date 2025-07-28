@@ -76,6 +76,10 @@
           "value": "#EDF9F7",
           "type": "color"
         },
+        "plain": {
+          "value": "{sjs2.color.bg.basic.secondary}",
+          "type": "color"
+        },
         "sheet": {
           "value": "{sjs2.palette.gray.000}",
           "type": "color"
