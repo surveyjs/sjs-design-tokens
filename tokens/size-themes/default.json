@@ -63,7 +63,11 @@
       },
       "container": {
         "panel": {
-          "value": "{sjs2.radius.x250}",
+          "value": "{sjs2.radius.x200}",
+          "type": "borderRadius"
+        },
+        "panel-nested": {
+          "value": "{sjs2.radius.x100}",
           "type": "borderRadius"
         },
         "drop": {
