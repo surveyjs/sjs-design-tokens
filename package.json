@@ -1,0 +1,29 @@
+{
+  "name": "sjs-design-tokens-converter",
+  "version": "1.0.0",
+  "description": "Convert design tokens to CSS variables",
+  "main": "convert.js",
+  "scripts": {
+    "convert": "node convert.js",
+    "build": "node convert.js && webpack --config ./webpack.themes.config.js --env buildType=dev --env emitDeclarations && webpack --config ./webpack.themes.config.js --env buildType=prod"
+  },
+  "dependencies": {
+    "style-dictionary": "^3.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "merge-files": "^0.1.2",
+    "ts-loader": "^9.5.0",
+    "typescript": "^5.3.0",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-remove-empty-scripts": "^1.1.1"
+  },
+  "keywords": [
+    "design-tokens",
+    "css-variables",
+    "converter"
+  ],
+  "author": "",
+  "license": "MIT"
+}
