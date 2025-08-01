@@ -1,6 +1,58 @@
 const fs = require('fs');
 const path = require('path');
 
+// Configuration for theme generation
+const THEME_CONFIG = [
+  {
+    objectName: "defaultTheme",
+    themeName: "default-light",
+    tokenPaths: [
+      "base-unit",
+      "common",
+      "palette",
+      "size-themes/default",
+      "typography-themes/default",
+      "style-themes/ctr-dark"
+    ]
+  },
+  {
+    objectName: "darkTheme",
+    themeName: "default-dark",
+    tokenPaths: [
+      "base-unit",
+      "common",
+      "palette",
+      "size-themes/default",
+      "typography-themes/default",
+      "style-themes/ctr-dark"
+    ]
+  },
+  {
+    objectName: "contrastTheme",
+    themeName: "default-contrast",
+    tokenPaths: [
+      "base-unit",
+      "common",
+      "palette",
+      "size-themes/default",
+      "typography-themes/default",
+      "style-themes/ctr-contrast"
+    ]
+  },
+  {
+    objectName: "dsbLightTheme",
+    themeName: "dsb-light",
+    tokenPaths: [
+      "base-unit",
+      "common",
+      "palette",
+      "size-themes/default",
+      "typography-themes/default",
+      "style-themes/dsb-light"
+    ]
+  }
+];
+
 // Cache for storing all tokens
 let allTokensCache = {};
 
@@ -200,16 +252,25 @@ function evaluateTokenValue(value, type, visited = new Set()) {
     if (processedValue.includes('*')) {
       const parts = processedValue.split('*').map(part => part.trim());
       if (parts.length === 2) {
-        const left = parseFloat(parts[0]);
-        const right = parseFloat(parts[1]);
-        if (!isNaN(left) && !isNaN(right)) {
-          processedValue = (left * right).toString();
+        const left = parts[0];
+        const right = parts[1];
+        
+        // Check if both parts are numbers
+        const leftNum = parseFloat(left);
+        const rightNum = parseFloat(right);
+        
+        if (!isNaN(leftNum) && !isNaN(rightNum)) {
+          // Both are numbers, calculate the result
+          processedValue = (leftNum * rightNum).toString();
+        } else {
+          // At least one part is a CSS variable or complex expression, wrap in calc()
+          processedValue = `calc(${left} * ${right})`;
         }
       }
     }
     
     // Add units for certain types
-    if (type === 'sizing' || type === 'spacing' || type === 'borderRadius' || type === 'borderWidth') {
+    if (type === 'sizing' || type === 'spacing' || type === 'borderRadius' || type === 'borderWidth' || type === 'baseUnit') {
       if (!processedValue.includes('px') && !processedValue.includes('%') && !processedValue.includes('em') && !processedValue.includes('rem')) {
         // If it's a number, add px
         if (!isNaN(parseFloat(processedValue))) {
@@ -237,27 +298,28 @@ function tokenToCSSVariable(tokenName) {
 // Function for loading all tokens
 function loadAllTokens() {
   const tokensDir = path.join(__dirname, 'tokens');
-  const metadataPath = path.join(tokensDir, '$metadata.json');
   
-  if (!fs.existsSync(metadataPath)) {
-    console.error('$metadata.json file not found');
-    return {};
+  // Collect all unique token paths from all theme configurations
+  const allTokenPaths = new Set();
+  for (const themeConfig of THEME_CONFIG) {
+    for (const tokenPath of themeConfig.tokenPaths) {
+      allTokenPaths.add(tokenPath);
+    }
   }
-  
-  const metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf8'));
-  const tokenSetOrder = metadata.tokenSetOrder;
   
   // Collect all tokens
   const allTokens = {};
   
-  for (const tokenSet of tokenSetOrder) {
-    const tokenFilePath = path.join(tokensDir, `${tokenSet}.json`);
+  for (const tokenPath of allTokenPaths) {
+    const tokenFilePath = path.join(tokensDir, `${tokenPath}.json`);
     
     if (fs.existsSync(tokenFilePath)) {
       const tokenData = JSON.parse(fs.readFileSync(tokenFilePath, 'utf8'));
       
       // Merge tokens from all files
       Object.assign(allTokens, tokenData);
+    } else {
+      console.warn(`Token file not found: ${tokenFilePath}`);
     }
   }
   
@@ -274,36 +336,35 @@ function createTypeScriptFiles() {
     fs.mkdirSync(buildDir, { recursive: true });
   }
   
-  // Load metadata to get token set order
-  const metadataPath = path.join(tokensDir, '$metadata.json');
-  if (!fs.existsSync(metadataPath)) {
-    console.error('$metadata.json file not found');
-    return;
-  }
-  
-  const metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf8'));
-  const tokenSetOrder = metadata.tokenSetOrder;
-  
   // Load all tokens into cache
   allTokensCache = loadAllTokens();
   
-  // Track used export names to avoid conflicts
-  const usedExportNames = new Set();
-  
-  for (const tokenSet of tokenSetOrder) {
-    const tokenFilePath = path.join(tokensDir, `${tokenSet}.json`);
-    
-    if (!fs.existsSync(tokenFilePath)) {
-      console.warn(`Token file not found: ${tokenFilePath}`);
-      continue;
-    }
+  // Process each theme configuration
+  for (const themeConfig of THEME_CONFIG) {
+    const { objectName, themeName, tokenPaths } = themeConfig;
     
     try {
-      const tokenData = JSON.parse(fs.readFileSync(tokenFilePath, 'utf8'));
-      const flattenedTokens = flattenTokens(tokenData);
+      // Collect all tokens for this theme
+      const allThemeTokens = {};
       
+      for (const tokenPath of tokenPaths) {
+        const tokenFilePath = path.join(tokensDir, `${tokenPath}.json`);
+        
+        if (!fs.existsSync(tokenFilePath)) {
+          console.warn(`Token file not found: ${tokenFilePath}`);
+          continue;
+        }
+        
+        const tokenData = JSON.parse(fs.readFileSync(tokenFilePath, 'utf8'));
+        const flattenedTokens = flattenTokens(tokenData);
+        
+        // Merge tokens into theme collection
+        Object.assign(allThemeTokens, flattenedTokens);
+      }
+      
+      // Convert tokens to CSS variables
       const cssVariables = {};
-      for (const [tokenName, tokenData] of Object.entries(flattenedTokens)) {
+      for (const [tokenName, tokenData] of Object.entries(allThemeTokens)) {
         if (tokenData.value !== undefined) {
           const cssVarName = tokenToCSSVariable(tokenName);
           const cssValue = evaluateTokenValue(tokenData.value, tokenData.type);
@@ -316,58 +377,25 @@ function createTypeScriptFiles() {
       
       // Create output object
       const outputObject = {
-        fileName: tokenSet,
+        themeName: themeName,
         cssVariables: filteredCssVariables
       };
       
-      // Determine output path based on token set structure
-      const outputPathParts = tokenSet.split('/');
-      const fileName = outputPathParts.pop(); // Get the filename
-      const subDir = outputPathParts.join('/'); // Get the subdirectory path
-      
-      // Determine export name
-      let exportName = fileName.replace(/-/g, '_');
-      
-      // Avoid using 'default' as export name (reserved word)
-      if (exportName === 'default') {
-        const prefix = subDir.replace(/-/g, '_').replace(/\//g, '_');
-        exportName = `${prefix}_default`;
-      }
-      
-      // Add prefix if export name is already used
-      if (usedExportNames.has(exportName)) {
-        const prefix = subDir.replace(/-/g, '_').replace(/\//g, '_');
-        exportName = `${prefix}_${exportName}`;
-      }
-      usedExportNames.add(exportName);
-      
-      let outputPath;
-      if (subDir) {
-        // Create subdirectory structure in build folder
-        const buildSubDir = path.join(buildDir, subDir);
-        if (!fs.existsSync(buildSubDir)) {
-          fs.mkdirSync(buildSubDir, { recursive: true });
-        }
-        outputPath = path.join(buildSubDir, `${fileName}.ts`);
-      } else {
-        // File is in root tokens directory
-        outputPath = path.join(buildDir, `${fileName}.ts`);
-      }
-      
       // Generate TypeScript content with embedded data
-      const tsContent = `// Auto-generated from ${tokenSet}.json
-export const ${exportName} = ${JSON.stringify(outputObject, null, 2)} as const;
+      const tsContent = `// Auto-generated theme: ${themeName}
+export const ${objectName} = ${JSON.stringify(outputObject, null, 2)} as const;
 
-export default ${exportName};
+export default ${objectName};
 `;
       
       // Save to file
+      const outputPath = path.join(buildDir, `${objectName}.ts`);
       fs.writeFileSync(outputPath, tsContent);
       
       console.log(`Created TypeScript file: ${outputPath}`);
       
     } catch (error) {
-      console.error(`Error processing token set ${tokenSet}:`, error.message);
+      console.error(`Error processing theme ${themeName}:`, error.message);
     }
   }
 }
@@ -377,47 +405,15 @@ function generateIndexFile() {
   console.log('Generating index.ts file...');
   
   const buildDir = path.join(__dirname, 'prebuild');
-  const tokensDir = path.join(__dirname, 'tokens');
-  const metadataPath = path.join(tokensDir, '$metadata.json');
   const indexPath = path.join(buildDir, 'index.ts');
   
-  if (!fs.existsSync(metadataPath)) {
-    console.error('$metadata.json file not found');
-    return;
-  }
-  
-  const metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf8'));
-  const tokenSetOrder = metadata.tokenSetOrder;
-  
-  // Track used export names to avoid conflicts
-  const usedExportNames = new Set();
-  
   // Generate index content
-  let indexContent = '// Re-export all modules for convenience\n';
+  let indexContent = '// Re-export all theme modules for convenience\n';
   
-  for (const tokenSet of tokenSetOrder) {
-    const tokenSetParts = tokenSet.split('/');
-    const fileName = tokenSetParts.pop(); // Get the filename
-    const subDir = tokenSetParts.join('/'); // Get the subdirectory path
-    let exportName = fileName.replace(/-/g, '_');
+  for (const themeConfig of THEME_CONFIG) {
+    const { objectName } = themeConfig;
     
-    // Avoid using 'default' as export name (reserved word)
-    if (exportName === 'default') {
-      const prefix = subDir.replace(/-/g, '_').replace(/\//g, '_');
-      exportName = `${prefix}_default`;
-    }
-    
-    // Add prefix if export name is already used
-    if (usedExportNames.has(exportName)) {
-      const prefix = subDir.replace(/-/g, '_').replace(/\//g, '_');
-      exportName = `${prefix}_${exportName}`;
-    }
-    usedExportNames.add(exportName);
-    
-    // Determine import path
-    const importPath = subDir ? `${subDir}/${fileName}` : fileName;
-    
-    indexContent += `export { ${exportName} } from './${importPath}';\n`;
+    indexContent += `export { ${objectName} } from './${objectName}';\n`;
   }
   
   fs.writeFileSync(indexPath, indexContent);
