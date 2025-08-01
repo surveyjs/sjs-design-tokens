@@ -20,9 +20,7 @@ const config = {
     },
   },
 };
-const umdNames = {
-  "sc2020": "SC2020",
-};
+const umdNames = {};
 function patchEntries(config) {
   Object.keys(config.entry).forEach(key => {
     if (key == "index") return;
