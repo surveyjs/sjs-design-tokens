@@ -226,22 +226,6 @@ function evaluateTokenValue(value, type, visited = new Set()) {
     
     // Process references to other tokens
     processedValue = processedValue.replace(/\{([^}]+)\}/g, (match, tokenPath) => {
-      // Check for circular references
-      if (visited.has(tokenPath)) {
-        console.warn(`Circular reference detected: ${tokenPath}`);
-        return match;
-      }
-      
-      const resolvedToken = resolveTokenReference(tokenPath);
-      if (resolvedToken && resolvedToken.value !== undefined) {
-        // Recursively evaluate the value
-        visited.add(tokenPath);
-        const resolvedValue = evaluateTokenValue(resolvedToken.value, resolvedToken.type, visited);
-        visited.delete(tokenPath);
-        return resolvedValue;
-      }
-      
-      // If token is not found, convert path to CSS variable
       return `var(--${tokenPath.replace(/\./g, '-').toLowerCase()})`;
     });
     
