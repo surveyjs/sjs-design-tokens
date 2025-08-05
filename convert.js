@@ -117,20 +117,20 @@ function processRgbaValue(value) {
   let processedValue = value.replace(/rgba\s*\(\s*\{([^}]+)\}\s*,\s*\{([^}]+)\}\s*\)/g, (match, colorToken, opacityToken) => {
     const colorVar = `var(--${colorToken.replace(/\./g, '-').toLowerCase()})`;
     const opacityVar = `var(--${opacityToken.replace(/\./g, '-').toLowerCase()})`;
-    return `rgba(${colorVar}, ${opacityVar})`;
+    return `rgba(from ${colorVar} r g b / ${opacityVar})`;
   });
   
   // Process rgba values like "rgba( #19B394, {sjs2.opacity.x010} )"
   processedValue = processedValue.replace(/rgba\s*\(\s*([^,]+)\s*,\s*\{([^}]+)\}\s*\)/g, (match, color, opacityToken) => {
     const opacityVar = `var(--${opacityToken.replace(/\./g, '-').toLowerCase()})`;
-    return `rgba(${color}, ${opacityVar})`;
+    return `rgba(from ${color} r g b / ${opacityVar})`;
   });
   
   // Process rgba values like "rgba({sjs2.palette.gray.900}, {sjs2.opacity.x040})"
   processedValue = processedValue.replace(/rgba\s*\(\s*\{([^}]+)\}\s*,\s*\{([^}]+)\}\s*\)/g, (match, colorToken, opacityToken) => {
     const colorVar = `var(--${colorToken.replace(/\./g, '-').toLowerCase()})`;
     const opacityVar = `var(--${opacityToken.replace(/\./g, '-').toLowerCase()})`;
-    return `rgba(${colorVar}, ${opacityVar})`;
+    return `rgba(from ${colorVar} r g b / ${opacityVar})`;
   });
   
   return processedValue;
@@ -223,14 +223,15 @@ function processShadowValueWithResolution(shadowObj, visited = new Set()) {
 function evaluateTokenValue(value, type, visited = new Set()) {
   if (typeof value === 'string') {
     let processedValue = value;
+
+    // Process rgba values
+    processedValue = processRgbaValue(processedValue);
     
     // Process references to other tokens
     processedValue = processedValue.replace(/\{([^}]+)\}/g, (match, tokenPath) => {
       return `var(--${tokenPath.replace(/\./g, '-').toLowerCase()})`;
     });
     
-    // Process rgba values
-    processedValue = processRgbaValue(processedValue);
     
     // Process mathematical operations
     if (processedValue.includes('*')) {
