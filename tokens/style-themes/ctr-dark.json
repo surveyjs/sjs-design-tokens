@@ -1170,7 +1170,7 @@
     "shadow": {
       "color": {
         "small": {
-          "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x025} )",
+          "value": "rgba( {sjs2.color.project.accent.600}, {sjs2.opacity.x005} )",
           "type": "color"
         },
         "medium": {
