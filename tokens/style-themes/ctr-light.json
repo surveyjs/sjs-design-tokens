@@ -1181,7 +1181,7 @@
           "value": "rgba( #004C44, {sjs2.opacity.x010} )",
           "type": "color"
         },
-        "inner": {
+        "control": {
           "value": "{sjs2.color.border.basic.secondary}",
           "type": "color"
         }
@@ -1219,13 +1219,13 @@
         },
         "type": "boxShadow"
       },
-      "inner": {
+      "control": {
         "value": {
-          "x": "{sjs2.shadow.size.inner.offset-x}",
-          "y": "{sjs2.shadow.size.inner.offset-y}",
-          "blur": "{sjs2.shadow.size.inner.blur}",
-          "spread": "{sjs2.shadow.size.inner.spread}",
-          "color": "{sjs2.shadow.color.inner}",
+          "x": "{sjs2.shadow.size.control.offset-x}",
+          "y": "{sjs2.shadow.size.control.offset-y}",
+          "blur": "{sjs2.shadow.size.control.blur}",
+          "spread": "{sjs2.shadow.size.control.spread}",
+          "color": "{sjs2.shadow.color.control}",
           "type": "innerShadow"
         },
         "type": "boxShadow"
@@ -1263,13 +1263,13 @@
         },
         "type": "boxShadow"
       },
-      "inner-reset": {
+      "control-reset": {
         "value": {
-          "x": "{sjs2.shadow.size.inner-reset.offset-x}",
-          "y": "{sjs2.shadow.size.inner-reset.offset-y}",
-          "blur": "{sjs2.shadow.size.inner-reset.blur}",
-          "spread": "{sjs2.shadow.size.inner-reset.spread}",
-          "color": "{sjs2.shadow.color.inner}",
+          "x": "{sjs2.shadow.size.control-reset.offset-x}",
+          "y": "{sjs2.shadow.size.control-reset.offset-y}",
+          "blur": "{sjs2.shadow.size.control-reset.blur}",
+          "spread": "{sjs2.shadow.size.control-reset.spread}",
+          "color": "{sjs2.shadow.color.control}",
           "type": "innerShadow"
         },
         "type": "boxShadow"
@@ -1329,7 +1329,7 @@
             "type": "number"
           }
         },
-        "inner": {
+        "control": {
           "offset-x": {
             "value": "0",
             "type": "number"
@@ -1401,7 +1401,7 @@
             "type": "number"
           }
         },
-        "inner-reset": {
+        "control-reset": {
           "offset-x": {
             "value": "0",
             "type": "number"
