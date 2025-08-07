@@ -12,7 +12,7 @@ const THEME_CONFIG = [
       "palette",
       "size-themes/default",
       "typography-themes/default",
-      "style-themes/ctr-dark"
+      "style-themes/ctr-light"
     ]
   },
   {
