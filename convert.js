@@ -50,6 +50,30 @@ const THEME_CONFIG = [
       "typography-themes/default",
       "style-themes/dsb-light"
     ]
+  },
+  {
+    objectName: "dsbDarkTheme",
+    themeName: "dsb-dark",
+    tokenPaths: [
+      "base-unit",
+      "common",
+      "palette",
+      "size-themes/default",
+      "typography-themes/default",
+      "style-themes/ctr-dark"
+    ]
+  },
+  {
+    objectName: "dsbContrastTheme",
+    themeName: "dsb-contrast",
+    tokenPaths: [
+      "base-unit",
+      "common",
+      "palette",
+      "size-themes/default",
+      "typography-themes/default",
+      "style-themes/ctr-contrast"
+    ]
   }
 ];
 
