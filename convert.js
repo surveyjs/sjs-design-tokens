@@ -4,6 +4,23 @@ const path = require('path');
 // Configuration for theme generation
 const THEME_CONFIG = [
   {
+    objectName: "testTheme",
+    themeName: "test",
+    tokenPaths: [
+      "base-unit",
+      "common",
+      "palette",
+      "size-themes/default",
+      "typography-themes/default",
+      "style-themes/ctr-light"
+    ],
+    patch: {
+      "--sjs2-color-fg-basic-primary": "#000000e6",
+      "--sjs2-color-fg-basic-secondary": "#00000080",
+      "--sjs2-color-fg-basic-primary-alt": "#000000bf",
+    }
+  },
+  {
     objectName: "defaultTheme",
     themeName: "default-light",
     tokenPaths: [
@@ -87,10 +104,10 @@ function flattenTokens(obj, prefix = '', result = {}) {
       const value = obj[key];
       const newPrefix = prefix ? `${prefix}-${key}` : key;
       
-      if (typeof value === 'object' && value !== null && !value.value && !value.type) {
+      if (typeof value === 'object' && value !== null && typeof value.value !== 'string' && !value.type) {
         // Recursively traverse nested objects
         flattenTokens(value, newPrefix, result);
-      } else if (value && typeof value === 'object' && value.value !== undefined) {
+      } else if (value && typeof value === 'object' && typeof value.value === 'string') {
         // This is a token with a value
         result[newPrefix] = value;
       } else if (value && typeof value === 'object' && (value.x !== undefined || value.y !== undefined || value.blur !== undefined || value.spread !== undefined || value.color !== undefined)) {
@@ -374,7 +391,7 @@ function createTypeScriptFiles() {
       // Convert tokens to CSS variables
       const cssVariables = {};
       for (const [tokenName, tokenData] of Object.entries(allThemeTokens)) {
-        if (tokenData.value !== undefined) {
+        if (tokenData.value !== undefined && typeof(tokenData.value) === "string") {
           const cssVarName = tokenToCSSVariable(tokenName);
           const cssValue = evaluateTokenValue(tokenData.value, tokenData.type);
           cssVariables[cssVarName] = cssValue;
@@ -384,10 +401,15 @@ function createTypeScriptFiles() {
       // Filter complex objects
       const filteredCssVariables = filterComplexTokens(cssVariables);
       
+      // patch variables
+      const patch = themeConfig.patch || {};
+      const patchedCssVariables = {...filteredCssVariables, ...patch};
+      
+
       // Create output object
       const outputObject = {
         themeName: themeName,
-        cssVariables: filteredCssVariables
+        cssVariables: patchedCssVariables
       };
       
       // Generate TypeScript content with embedded data
