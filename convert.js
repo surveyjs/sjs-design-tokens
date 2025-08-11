@@ -18,10 +18,13 @@ const THEME_CONFIG = [
       "--sjs2-color-fg-basic-primary": "#000000e6",
       "--sjs2-color-fg-basic-secondary": "#00000080",
       "--sjs2-color-fg-basic-primary-alt": "#000000bf",
-      "--sjs2-color-border-basic-secondary-for-tests-only": "#d4d4d4",
-      "--sjs2-color-border-basic-secondary": "#dcdcdcff",
+      "--sjs2-color-utility-scrollbar": "#00000026",
       "--sjs2-color-utility-overlay-screen": "color(srgb 0.800112 0.933371 0.933371 / 0.35)",
-      "--sjs2-color-utility-scrollbar": "#00000026"
+      "--sjs2-color-border-basic-secondary": "#dcdcdcff",
+      "--sjs2-color-border-basic-secondary-for-tests-only": "#d4d4d4",
+      "--sjs2-color-utility-shadow-medium": "#004c441a",
+      "--sjs2-color-bg-basic-secondary-dim": "#eaeaeaff",
+      "--sjs2-color-bg-basic-secondary": "#f4f4f4ff"
     }
   },
   {
