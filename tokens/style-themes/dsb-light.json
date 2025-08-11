@@ -1085,40 +1085,80 @@
               "value": "#84CAD4",
               "type": "color"
             },
+            "color-1-tinted": {
+              "value": "rgba( #84CAD4, {sjs2.opacity.x060} )",
+              "type": "color"
+            },
             "color-2": {
               "value": "#3A99FB",
+              "type": "color"
+            },
+            "color-2-tinted": {
+              "value": "rgba( #3A99FB, {sjs2.opacity.x060} )",
               "type": "color"
             },
             "color-3": {
               "value": "#FF6771",
               "type": "color"
             },
+            "color-3-tinted": {
+              "value": "rgba( #FF6771, {sjs2.opacity.x060} )",
+              "type": "color"
+            },
             "color-4": {
               "value": "#1DB496",
+              "type": "color"
+            },
+            "color-4-tinted": {
+              "value": "rgba( #1DB496, {sjs2.opacity.x060} )",
               "type": "color"
             },
             "color-5": {
               "value": "#FFC152",
               "type": "color"
             },
+            "color-5-tinted": {
+              "value": "rgba( #FFC152, {sjs2.opacity.x060} )",
+              "type": "color"
+            },
             "color-6": {
               "value": "#ABA1FF",
+              "type": "color"
+            },
+            "color-6-tinted": {
+              "value": "rgba( #ABA1FF, {sjs2.opacity.x060} )",
               "type": "color"
             },
             "color-7": {
               "value": "#7D8CA5",
               "type": "color"
             },
+            "color-7-tinted": {
+              "value": "rgba( #7D8CA5, {sjs2.opacity.x060} )",
+              "type": "color"
+            },
             "color-8": {
               "value": "#4FC46C",
+              "type": "color"
+            },
+            "color-8-tinted": {
+              "value": "rgba(#4FC46C, {sjs2.opacity.x060} )",
               "type": "color"
             },
             "color-9": {
               "value": "#E87BCB",
               "type": "color"
             },
+            "color-9-tinted": {
+              "value": "rgba(#E87BCB, {sjs2.opacity.x060} )",
+              "type": "color"
+            },
             "color-10": {
               "value": "#4E6198",
+              "type": "color"
+            },
+            "color-10-tinted": {
+              "value": "rgba(#4E6198, {sjs2.opacity.x060} )",
               "type": "color"
             }
           },
@@ -1175,6 +1215,10 @@
           "border": {
             "line": {
               "value": "#DCDCDC",
+              "type": "color"
+            },
+            "axis": {
+              "value": "{sjs2.color.border.basic.primary}",
               "type": "color"
             }
           }
