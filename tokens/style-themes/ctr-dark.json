@@ -1203,6 +1203,48 @@
               "value": "{sjs2.palette.gray.000}",
               "type": "color"
             }
+          },
+          "border": {
+            "color-1": {
+              "value": "#84CAD4",
+              "type": "color"
+            },
+            "color-2": {
+              "value": "#3A99FB",
+              "type": "color"
+            },
+            "color-3": {
+              "value": "#FF6771",
+              "type": "color"
+            },
+            "color-4": {
+              "value": "#1DB496",
+              "type": "color"
+            },
+            "color-5": {
+              "value": "#FFC152",
+              "type": "color"
+            },
+            "color-6": {
+              "value": "#ABA1FF",
+              "type": "color"
+            },
+            "color-7": {
+              "value": "#7D8CA5",
+              "type": "color"
+            },
+            "color-8": {
+              "value": "#4FC46C",
+              "type": "color"
+            },
+            "color-9": {
+              "value": "#E87BCB",
+              "type": "color"
+            },
+            "color-10": {
+              "value": "#4E6198",
+              "type": "color"
+            }
           }
         },
         "grid": {
