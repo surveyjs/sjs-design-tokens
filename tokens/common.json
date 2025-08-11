@@ -125,6 +125,10 @@
         "value": "{sjs2.base-unit.radius} * 0",
         "type": "borderRadius"
       },
+      "x025": {
+        "value": "{sjs2.base-unit.radius} * 0.25",
+        "type": "borderRadius"
+      },
       "x050": {
         "value": "{sjs2.base-unit.radius} * 0.50",
         "type": "borderRadius"
