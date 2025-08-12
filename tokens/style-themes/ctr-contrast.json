@@ -1268,7 +1268,7 @@
       }
     },
     "border-effect": {
-      "on-surface": {
+      "surface": {
         "default": {
           "value": {
             "x": "0",
@@ -1336,7 +1336,7 @@
           "type": "boxShadow"
         }
       },
-      "floating-low": {
+      "elevated": {
         "default": {
           "value": {
             "x": "0",
@@ -1360,7 +1360,7 @@
           "type": "boxShadow"
         }
       },
-      "floating-high": {
+      "floating": {
         "default": {
           "value": {
             "x": "0",
