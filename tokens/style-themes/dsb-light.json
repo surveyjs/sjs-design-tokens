@@ -1410,39 +1410,39 @@
     "border-width": {
       "default": {
         "value": "{sjs2.border-width.x100}",
-        "type": "borderWidth"
+        "type": "size"
       },
       "a11y": {
         "value": "{sjs2.border-width.x400}",
-        "type": "borderWidth"
+        "type": "size"
       },
       "hovered": {
         "value": "{sjs2.border-width.x100}",
-        "type": "borderWidth"
+        "type": "size"
       },
       "pressed": {
         "value": "{sjs2.border-width.x100}",
-        "type": "borderWidth"
+        "type": "size"
       },
       "focused": {
         "value": "{sjs2.border-width.x200}",
-        "type": "borderWidth"
+        "type": "size"
       },
       "highlighted": {
         "value": "{sjs2.border-width.x200}",
-        "type": "borderWidth"
+        "type": "size"
       },
       "disabled": {
         "value": "{sjs2.border-width.x100}",
-        "type": "borderWidth"
+        "type": "size"
       },
       "invalid": {
         "value": "{sjs2.border-width.x100}",
-        "type": "borderWidth"
+        "type": "size"
       },
       "readonly": {
         "value": "{sjs2.border-width.x100}",
-        "type": "borderWidth"
+        "type": "size"
       }
     }
   }
