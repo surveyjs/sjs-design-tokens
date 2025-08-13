@@ -1289,124 +1289,6 @@
         "type": "opacity"
       }
     },
-    "border-effect": {
-      "surface": {
-        "default": {
-          "value": {
-            "x": "0",
-            "y": "0",
-            "blur": "0",
-            "spread": "1",
-            "color": "{sjs2.color.utility.shadow.small}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        },
-        "hovered": {
-          "value": {
-            "x": "0",
-            "y": "0",
-            "blur": "0",
-            "spread": "1",
-            "color": "{sjs2.color.utility.shadow.small}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        },
-        "pressed": {
-          "value": {
-            "x": "0",
-            "y": "0",
-            "blur": "0",
-            "spread": "1",
-            "color": "{sjs2.color.utility.shadow.small}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        },
-        "focused": {
-          "value": {
-            "x": "0",
-            "y": "0",
-            "blur": "0",
-            "spread": "2",
-            "color": "{sjs2.color.utility.shadow.small}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        },
-        "disabled": {
-          "value": {
-            "x": "0",
-            "y": "0",
-            "blur": "0",
-            "spread": "1",
-            "color": "{sjs2.color.utility.shadow.small}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        },
-        "reset": {
-          "value": {
-            "x": "0",
-            "y": "0",
-            "blur": "0",
-            "spread": "0",
-            "color": "{sjs2.color.utility.shadow.small}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        }
-      },
-      "elevated": {
-        "default": {
-          "value": {
-            "x": "0",
-            "y": "4",
-            "blur": "8",
-            "spread": "2",
-            "color": "{sjs2.color.utility.shadow.medium}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        },
-        "reset": {
-          "value": {
-            "x": "0",
-            "y": "0",
-            "blur": "0",
-            "spread": "0",
-            "color": "{sjs2.color.utility.shadow.medium}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        }
-      },
-      "floating": {
-        "default": {
-          "value": {
-            "x": "0",
-            "y": "6",
-            "blur": "12",
-            "spread": "4",
-            "color": "{sjs2.color.utility.shadow.large}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        },
-        "reset": {
-          "value": {
-            "x": "0",
-            "y": "0",
-            "blur": "0",
-            "spread": "0",
-            "color": "{sjs2.color.utility.shadow.large}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        }
-      }
-    },
     "border-width": {
       "default": {
         "value": "{sjs2.border-width.x100}",
@@ -1473,6 +1355,40 @@
           "value": "{sjs2.border-width.x100}",
           "type": "size"
         }
+      },
+      "surface": {
+        "default": {
+          "value": "{sjs2.border-width.x100}",
+          "type": "size"
+        },
+        "hovered": {
+          "value": "{sjs2.border-width.x100}",
+          "type": "size"
+        },
+        "pressed": {
+          "value": "{sjs2.border-width.x100}",
+          "type": "size"
+        },
+        "focused": {
+          "value": "{sjs2.border-width.x200}",
+          "type": "size"
+        },
+        "disabled": {
+          "value": "{sjs2.border-width.x100}",
+          "type": "size"
+        }
+      },
+      "elevated": {
+        "default": {
+          "value": "{sjs2.border-width.x100}",
+          "type": "size"
+        }
+      },
+      "floating": {
+        "default": {
+          "value": "{sjs2.border-width.x100}",
+          "type": "size"
+        }
       }
     },
     "border-blur": {
@@ -1528,6 +1444,40 @@
           "type": "size"
         },
         "disabled": {
+          "value": "0",
+          "type": "size"
+        }
+      },
+      "surface": {
+        "default": {
+          "value": "0",
+          "type": "size"
+        },
+        "hovered": {
+          "value": "0",
+          "type": "size"
+        },
+        "pressed": {
+          "value": "0",
+          "type": "size"
+        },
+        "focused": {
+          "value": "0",
+          "type": "size"
+        },
+        "disabled": {
+          "value": "0",
+          "type": "size"
+        }
+      },
+      "elevated": {
+        "default": {
+          "value": "0",
+          "type": "size"
+        }
+      },
+      "floating": {
+        "default": {
           "value": "0",
           "type": "size"
         }
@@ -1590,6 +1540,40 @@
             "value": "0",
             "type": "size"
           }
+        },
+        "surface": {
+          "default": {
+            "value": "0",
+            "type": "size"
+          },
+          "hovered": {
+            "value": "0",
+            "type": "size"
+          },
+          "pressed": {
+            "value": "0",
+            "type": "size"
+          },
+          "focused": {
+            "value": "0",
+            "type": "size"
+          },
+          "disabled": {
+            "value": "0",
+            "type": "size"
+          }
+        },
+        "elevated": {
+          "default": {
+            "value": "0",
+            "type": "size"
+          }
+        },
+        "floating": {
+          "default": {
+            "value": "0",
+            "type": "size"
+          }
         }
       },
       "y": {
@@ -1645,6 +1629,40 @@
             "type": "size"
           },
           "disabled": {
+            "value": "0",
+            "type": "size"
+          }
+        },
+        "surface": {
+          "default": {
+            "value": "0",
+            "type": "size"
+          },
+          "hovered": {
+            "value": "0",
+            "type": "size"
+          },
+          "pressed": {
+            "value": "0",
+            "type": "size"
+          },
+          "focused": {
+            "value": "0",
+            "type": "size"
+          },
+          "disabled": {
+            "value": "0",
+            "type": "size"
+          }
+        },
+        "elevated": {
+          "default": {
+            "value": "0",
+            "type": "size"
+          }
+        },
+        "floating": {
+          "default": {
             "value": "0",
             "type": "size"
           }
