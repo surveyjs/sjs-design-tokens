@@ -536,7 +536,9 @@
       "sjs2.border-offset.y.surface.focused": "8c9f99f373d20979b9906192e4bbab43ddd59463",
       "sjs2.border-offset.y.surface.disabled": "cfa7dcbb85702a3c8499608fddfd228cf4127d1a",
       "sjs2.border-offset.y.elevated.default": "e3def2b24e612c26a411d0224308a3dd2cd8dbcf",
-      "sjs2.border-offset.y.floating.default": "4b425cb388103d2dfdbb02ac79f34a798f7bedb4"
+      "sjs2.border-offset.y.floating.default": "4b425cb388103d2dfdbb02ac79f34a798f7bedb4",
+      "sjs2.color.border.static.main.primary": "4cb4e9e15ac28164c0cc3179bc76b993178e4971",
+      "sjs2.color.border.static.sub.primary": "46bb5e13376de885a21a376371ca08355ab8c658"
     },
     "group": "style-themes"
   },
@@ -894,7 +896,9 @@
       "sjs2.border-offset.y.surface.focused": "8c9f99f373d20979b9906192e4bbab43ddd59463",
       "sjs2.border-offset.y.surface.disabled": "cfa7dcbb85702a3c8499608fddfd228cf4127d1a",
       "sjs2.border-offset.y.elevated.default": "e3def2b24e612c26a411d0224308a3dd2cd8dbcf",
-      "sjs2.border-offset.y.floating.default": "4b425cb388103d2dfdbb02ac79f34a798f7bedb4"
+      "sjs2.border-offset.y.floating.default": "4b425cb388103d2dfdbb02ac79f34a798f7bedb4",
+      "sjs2.color.border.static.main.primary": "4cb4e9e15ac28164c0cc3179bc76b993178e4971",
+      "sjs2.color.border.static.sub.primary": "46bb5e13376de885a21a376371ca08355ab8c658"
     },
     "group": "style-themes"
   },
@@ -1252,7 +1256,9 @@
       "sjs2.border-offset.y.surface.focused": "8c9f99f373d20979b9906192e4bbab43ddd59463",
       "sjs2.border-offset.y.surface.disabled": "cfa7dcbb85702a3c8499608fddfd228cf4127d1a",
       "sjs2.border-offset.y.elevated.default": "e3def2b24e612c26a411d0224308a3dd2cd8dbcf",
-      "sjs2.border-offset.y.floating.default": "4b425cb388103d2dfdbb02ac79f34a798f7bedb4"
+      "sjs2.border-offset.y.floating.default": "4b425cb388103d2dfdbb02ac79f34a798f7bedb4",
+      "sjs2.color.border.static.main.primary": "4cb4e9e15ac28164c0cc3179bc76b993178e4971",
+      "sjs2.color.border.static.sub.primary": "46bb5e13376de885a21a376371ca08355ab8c658"
     },
     "group": "style-themes"
   },
@@ -1611,7 +1617,9 @@
       "sjs2.border-offset.y.surface.focused": "8c9f99f373d20979b9906192e4bbab43ddd59463",
       "sjs2.border-offset.y.surface.disabled": "cfa7dcbb85702a3c8499608fddfd228cf4127d1a",
       "sjs2.border-offset.y.elevated.default": "e3def2b24e612c26a411d0224308a3dd2cd8dbcf",
-      "sjs2.border-offset.y.floating.default": "4b425cb388103d2dfdbb02ac79f34a798f7bedb4"
+      "sjs2.border-offset.y.floating.default": "4b425cb388103d2dfdbb02ac79f34a798f7bedb4",
+      "sjs2.color.border.static.main.primary": "4cb4e9e15ac28164c0cc3179bc76b993178e4971",
+      "sjs2.color.border.static.sub.primary": "46bb5e13376de885a21a376371ca08355ab8c658"
     }
   },
   {

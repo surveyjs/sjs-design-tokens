@@ -514,6 +514,20 @@
             "value": "{sjs2.palette.gray.000}",
             "type": "color"
           }
+        },
+        "static": {
+          "main": {
+            "primary": {
+              "value": "{sjs2.palette.gray.000}",
+              "type": "color"
+            }
+          },
+          "sub": {
+            "primary": {
+              "value": "{sjs2.palette.gray.900}",
+              "type": "color"
+            }
+          }
         }
       },
       "control": {

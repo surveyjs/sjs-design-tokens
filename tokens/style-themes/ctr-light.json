@@ -514,13 +514,27 @@
             "value": "{sjs2.palette.gray.000}",
             "type": "color"
           }
+        },
+        "static": {
+          "main": {
+            "primary": {
+              "value": "{sjs2.palette.gray.000}",
+              "type": "color"
+            }
+          },
+          "sub": {
+            "primary": {
+              "value": "{sjs2.palette.gray.900}",
+              "type": "color"
+            }
+          }
         }
       },
       "control": {
         "formbox": {
           "default": {
             "bg": {
-              "value": "{sjs2.color.bg.basic.secondary}",
+              "value": "{sjs2.palette.gray.100}",
               "type": "color"
             },
             "border": {
@@ -550,7 +564,7 @@
           },
           "focused": {
             "bg": {
-              "value": "{sjs2.color.bg.basic.secondary}",
+              "value": "{sjs2.palette.gray.100}",
               "type": "color"
             },
             "border": {
@@ -560,7 +574,7 @@
           },
           "invalid": {
             "bg": {
-              "value": "{sjs2.color.bg.basic.secondary}",
+              "value": "{sjs2.palette.gray.100}",
               "type": "color"
             },
             "border": {
@@ -570,7 +584,7 @@
           },
           "highlighted": {
             "bg": {
-              "value": "{sjs2.color.bg.basic.secondary}",
+              "value": "{sjs2.palette.gray.100}",
               "type": "color"
             },
             "border": {
@@ -663,7 +677,7 @@
           "false": {
             "default": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.secondary}",
+                "value": "{sjs2.palette.gray.100}",
                 "type": "color"
               },
               "border": {
@@ -693,7 +707,7 @@
             },
             "focused": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.secondary}",
+                "value": "{sjs2.palette.gray.100}",
                 "type": "color"
               },
               "border": {
@@ -921,7 +935,7 @@
           "false": {
             "default": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.secondary}",
+                "value": "{sjs2.palette.gray.100}",
                 "type": "color"
               },
               "border": {
@@ -935,7 +949,7 @@
             },
             "disabled": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.secondary}",
+                "value": "{sjs2.palette.gray.100}",
                 "type": "color"
               },
               "border": {
@@ -949,7 +963,7 @@
             },
             "readonly": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.secondary}",
+                "value": "{sjs2.palette.gray.100}",
                 "type": "color"
               },
               "border": {
@@ -963,7 +977,7 @@
             },
             "focused": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.secondary}",
+                "value": "{sjs2.palette.gray.100}",
                 "type": "color"
               },
               "border": {
