@@ -89,7 +89,7 @@
           "type": "color"
         },
         "a11y": {
-          "value": "rgba( {sjs2.palette.blue.400}, {sjs2.opacity.x040} )",
+          "value": "rgba( {sjs2.palette.blue.400}, {sjs2.opacity.x060} )",
           "type": "color"
         },
         "overlay": {
