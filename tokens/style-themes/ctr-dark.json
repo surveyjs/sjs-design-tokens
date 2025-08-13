@@ -383,11 +383,11 @@
       "fg": {
         "basic": {
           "primary": {
-            "value": "{sjs2.palette.gray.000}",
+            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x090} )",
             "type": "color"
           },
           "primary-alt": {
-            "value": "{sjs2.palette.gray.100}",
+            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x085} )",
             "type": "color"
           },
           "secondary": {
@@ -1267,124 +1267,6 @@
         }
       }
     },
-    "border-effect": {
-      "on-surface": {
-        "default": {
-          "value": {
-            "x": "0",
-            "y": "2",
-            "blur": "4",
-            "spread": "1",
-            "color": "{sjs2.color.utility.shadow.small}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        },
-        "hovered": {
-          "value": {
-            "x": "0",
-            "y": "2",
-            "blur": "4",
-            "spread": "1",
-            "color": "{sjs2.color.utility.shadow.small}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        },
-        "pressed": {
-          "value": {
-            "x": "0",
-            "y": "2",
-            "blur": "4",
-            "spread": "1",
-            "color": "{sjs2.color.utility.shadow.small}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        },
-        "focused": {
-          "value": {
-            "x": "0",
-            "y": "2",
-            "blur": "4",
-            "spread": "1",
-            "color": "{sjs2.color.utility.shadow.small}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        },
-        "disabled": {
-          "value": {
-            "x": "0",
-            "y": "2",
-            "blur": "4",
-            "spread": "1",
-            "color": "{sjs2.color.utility.shadow.small}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        },
-        "reset": {
-          "value": {
-            "x": "0",
-            "y": "0",
-            "blur": "0",
-            "spread": "0",
-            "color": "{sjs2.color.utility.shadow.small}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        }
-      },
-      "floating-low": {
-        "default": {
-          "value": {
-            "x": "0",
-            "y": "4",
-            "blur": "8",
-            "spread": "2",
-            "color": "{sjs2.color.utility.shadow.medium}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        },
-        "reset": {
-          "value": {
-            "x": "0",
-            "y": "0",
-            "blur": "0",
-            "spread": "0",
-            "color": "{sjs2.color.utility.shadow.medium}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        }
-      },
-      "floating-high": {
-        "default": {
-          "value": {
-            "x": "0",
-            "y": "6",
-            "blur": "12",
-            "spread": "4",
-            "color": "{sjs2.color.utility.shadow.large}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        },
-        "reset": {
-          "value": {
-            "x": "0",
-            "y": "0",
-            "blur": "0",
-            "spread": "0",
-            "color": "{sjs2.color.utility.shadow.large}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        }
-      }
-    },
     "opacity": {
       "visible": {
         "value": "{sjs2.opacity.x100}",
@@ -1415,34 +1297,376 @@
       "a11y": {
         "value": "{sjs2.border-width.x400}",
         "type": "borderWidth"
+      }
+    },
+    "border-spread": {
+      "form": {
+        "default": {
+          "value": "{sjs2.border-width.x100}",
+          "type": "number"
+        },
+        "hovered": {
+          "value": "{sjs2.border-width.x100}",
+          "type": "number"
+        },
+        "pressed": {
+          "value": "{sjs2.border-width.x100}",
+          "type": "number"
+        },
+        "focused": {
+          "value": "{sjs2.border-width.x200}",
+          "type": "number"
+        },
+        "highlighted": {
+          "value": "{sjs2.border-width.x200}",
+          "type": "number"
+        },
+        "disabled": {
+          "value": "{sjs2.border-width.x100}",
+          "type": "number"
+        },
+        "invalid": {
+          "value": "{sjs2.border-width.x200}",
+          "type": "number"
+        },
+        "readonly": {
+          "value": "{sjs2.border-width.x100}",
+          "type": "number"
+        }
       },
-      "hovered": {
-        "value": "{sjs2.border-width.x100}",
-        "type": "borderWidth"
+      "trigger": {
+        "default": {
+          "value": "{sjs2.border-width.x100}",
+          "type": "number"
+        },
+        "hovered": {
+          "value": "{sjs2.border-width.x100}",
+          "type": "number"
+        },
+        "pressed": {
+          "value": "{sjs2.border-width.x100}",
+          "type": "number"
+        },
+        "focused": {
+          "value": "{sjs2.border-width.x200}",
+          "type": "number"
+        },
+        "disabled": {
+          "value": "{sjs2.border-width.x100}",
+          "type": "number"
+        }
       },
-      "pressed": {
-        "value": "{sjs2.border-width.x100}",
-        "type": "borderWidth"
+      "surface": {
+        "default": {
+          "value": "{sjs2.border-width.x100}",
+          "type": "number"
+        },
+        "hovered": {
+          "value": "{sjs2.border-width.x100}",
+          "type": "number"
+        },
+        "pressed": {
+          "value": "{sjs2.border-width.x100}",
+          "type": "number"
+        },
+        "focused": {
+          "value": "{sjs2.border-width.x200}",
+          "type": "number"
+        },
+        "disabled": {
+          "value": "{sjs2.border-width.x100}",
+          "type": "number"
+        }
       },
-      "focused": {
-        "value": "{sjs2.border-width.x200}",
-        "type": "borderWidth"
+      "elevated": {
+        "default": {
+          "value": "2",
+          "type": "number"
+        }
       },
-      "highlighted": {
-        "value": "{sjs2.border-width.x200}",
-        "type": "borderWidth"
+      "floating": {
+        "default": {
+          "value": "4",
+          "type": "number"
+        }
+      }
+    },
+    "border-blur": {
+      "form": {
+        "default": {
+          "value": "0",
+          "type": "number"
+        },
+        "hovered": {
+          "value": "0",
+          "type": "number"
+        },
+        "pressed": {
+          "value": "0",
+          "type": "number"
+        },
+        "focused": {
+          "value": "0",
+          "type": "number"
+        },
+        "highlighted": {
+          "value": "0",
+          "type": "number"
+        },
+        "disabled": {
+          "value": "0",
+          "type": "number"
+        },
+        "invalid": {
+          "value": "0",
+          "type": "number"
+        },
+        "readonly": {
+          "value": "0",
+          "type": "number"
+        }
       },
-      "disabled": {
-        "value": "{sjs2.border-width.x100}",
-        "type": "borderWidth"
+      "trigger": {
+        "default": {
+          "value": "0",
+          "type": "number"
+        },
+        "hovered": {
+          "value": "0",
+          "type": "number"
+        },
+        "pressed": {
+          "value": "0",
+          "type": "number"
+        },
+        "focused": {
+          "value": "0",
+          "type": "number"
+        },
+        "disabled": {
+          "value": "0",
+          "type": "number"
+        }
       },
-      "invalid": {
-        "value": "{sjs2.border-width.x100}",
-        "type": "borderWidth"
+      "surface": {
+        "default": {
+          "value": "4",
+          "type": "number"
+        },
+        "hovered": {
+          "value": "4",
+          "type": "number"
+        },
+        "pressed": {
+          "value": "4",
+          "type": "number"
+        },
+        "focused": {
+          "value": "0",
+          "type": "number"
+        },
+        "disabled": {
+          "value": "0",
+          "type": "number"
+        }
       },
-      "readonly": {
-        "value": "{sjs2.border-width.x100}",
-        "type": "borderWidth"
+      "elevated": {
+        "default": {
+          "value": "8",
+          "type": "number"
+        }
+      },
+      "floating": {
+        "default": {
+          "value": "12",
+          "type": "number"
+        }
+      }
+    },
+    "border-offset": {
+      "x": {
+        "form": {
+          "default": {
+            "value": "0",
+            "type": "number"
+          },
+          "hovered": {
+            "value": "0",
+            "type": "number"
+          },
+          "pressed": {
+            "value": "0",
+            "type": "number"
+          },
+          "focused": {
+            "value": "0",
+            "type": "number"
+          },
+          "highlighted": {
+            "value": "0",
+            "type": "number"
+          },
+          "disabled": {
+            "value": "0",
+            "type": "number"
+          },
+          "invalid": {
+            "value": "0",
+            "type": "number"
+          },
+          "readonly": {
+            "value": "0",
+            "type": "number"
+          }
+        },
+        "trigger": {
+          "default": {
+            "value": "0",
+            "type": "number"
+          },
+          "hovered": {
+            "value": "0",
+            "type": "number"
+          },
+          "pressed": {
+            "value": "0",
+            "type": "number"
+          },
+          "focused": {
+            "value": "0",
+            "type": "number"
+          },
+          "disabled": {
+            "value": "0",
+            "type": "number"
+          }
+        },
+        "surface": {
+          "default": {
+            "value": "0",
+            "type": "number"
+          },
+          "hovered": {
+            "value": "0",
+            "type": "number"
+          },
+          "pressed": {
+            "value": "0",
+            "type": "number"
+          },
+          "focused": {
+            "value": "0",
+            "type": "number"
+          },
+          "disabled": {
+            "value": "0",
+            "type": "number"
+          }
+        },
+        "elevated": {
+          "default": {
+            "value": "0",
+            "type": "number"
+          }
+        },
+        "floating": {
+          "default": {
+            "value": "0",
+            "type": "number"
+          }
+        }
+      },
+      "y": {
+        "form": {
+          "default": {
+            "value": "0",
+            "type": "number"
+          },
+          "hovered": {
+            "value": "0",
+            "type": "number"
+          },
+          "pressed": {
+            "value": "0",
+            "type": "number"
+          },
+          "focused": {
+            "value": "0",
+            "type": "number"
+          },
+          "highlighted": {
+            "value": "0",
+            "type": "number"
+          },
+          "disabled": {
+            "value": "0",
+            "type": "number"
+          },
+          "invalid": {
+            "value": "0",
+            "type": "number"
+          },
+          "readonly": {
+            "value": "0",
+            "type": "number"
+          }
+        },
+        "trigger": {
+          "default": {
+            "value": "0",
+            "type": "number"
+          },
+          "hovered": {
+            "value": "0",
+            "type": "number"
+          },
+          "pressed": {
+            "value": "0",
+            "type": "number"
+          },
+          "focused": {
+            "value": "0",
+            "type": "number"
+          },
+          "disabled": {
+            "value": "0",
+            "type": "number"
+          }
+        },
+        "surface": {
+          "default": {
+            "value": "2",
+            "type": "number"
+          },
+          "hovered": {
+            "value": "2",
+            "type": "number"
+          },
+          "pressed": {
+            "value": "2",
+            "type": "number"
+          },
+          "focused": {
+            "value": "0",
+            "type": "number"
+          },
+          "disabled": {
+            "value": "0",
+            "type": "number"
+          }
+        },
+        "elevated": {
+          "default": {
+            "value": "4",
+            "type": "number"
+          }
+        },
+        "floating": {
+          "default": {
+            "value": "6",
+            "type": "number"
+          }
+        }
       }
     }
   }
