@@ -1326,7 +1326,7 @@
           "type": "number"
         },
         "invalid": {
-          "value": "{sjs2.border-width.x100}",
+          "value": "{sjs2.border-width.x200}",
           "type": "number"
         },
         "readonly": {
@@ -1380,13 +1380,13 @@
       },
       "elevated": {
         "default": {
-          "value": "{sjs2.border-width.x100}",
+          "value": "2",
           "type": "number"
         }
       },
       "floating": {
         "default": {
-          "value": "{sjs2.border-width.x100}",
+          "value": "4",
           "type": "number"
         }
       }
@@ -1450,15 +1450,15 @@
       },
       "surface": {
         "default": {
-          "value": "0",
+          "value": "4",
           "type": "number"
         },
         "hovered": {
-          "value": "0",
+          "value": "4",
           "type": "number"
         },
         "pressed": {
-          "value": "0",
+          "value": "4",
           "type": "number"
         },
         "focused": {
@@ -1472,13 +1472,13 @@
       },
       "elevated": {
         "default": {
-          "value": "0",
+          "value": "8",
           "type": "number"
         }
       },
       "floating": {
         "default": {
-          "value": "0",
+          "value": "12",
           "type": "number"
         }
       }
@@ -1635,15 +1635,15 @@
         },
         "surface": {
           "default": {
-            "value": "0",
+            "value": "2",
             "type": "number"
           },
           "hovered": {
-            "value": "0",
+            "value": "2",
             "type": "number"
           },
           "pressed": {
-            "value": "0",
+            "value": "2",
             "type": "number"
           },
           "focused": {
@@ -1657,13 +1657,13 @@
         },
         "elevated": {
           "default": {
-            "value": "0",
+            "value": "4",
             "type": "number"
           }
         },
         "floating": {
           "default": {
-            "value": "0",
+            "value": "6",
             "type": "number"
           }
         }
