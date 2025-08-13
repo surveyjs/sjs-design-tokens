@@ -76,7 +76,7 @@
           "value": "#EDF9F7",
           "type": "color"
         },
-        "plain": {
+        "surface-muted": {
           "value": "{sjs2.color.bg.basic.secondary}",
           "type": "color"
         },
@@ -104,16 +104,38 @@
         },
         "shadow": {
           "surface": {
-            "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x010} )",
-            "type": "color"
+            "default": {
+              "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x010} )",
+              "type": "color"
+            },
+            "hovered": {
+              "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x010} )",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x010} )",
+              "type": "color"
+            },
+            "focused": {
+              "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x010} )",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x010} )",
+              "type": "color"
+            }
           },
           "elevated": {
-            "value": "rgba( #004C44, {sjs2.opacity.x015} )",
-            "type": "color"
+            "default": {
+              "value": "rgba( #004C44, {sjs2.opacity.x015} )",
+              "type": "color"
+            }
           },
           "floating": {
-            "value": "rgba( #004C44, {sjs2.opacity.x020} )",
-            "type": "color"
+            "default": {
+              "value": "rgba( #004C44, {sjs2.opacity.x020} )",
+              "type": "color"
+            }
           }
         }
       },
@@ -386,7 +408,7 @@
             "value": "{sjs2.palette.gray.900}",
             "type": "color"
           },
-          "primary-alt": {
+          "primary-muted": {
             "value": "{sjs2.palette.gray.700}",
             "type": "color"
           },
