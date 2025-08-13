@@ -103,15 +103,15 @@
           }
         },
         "shadow": {
-          "small": {
+          "surface": {
             "value": "rgba( {sjs2.color.project.accent.600}, {sjs2.opacity.x005} )",
             "type": "color"
           },
-          "medium": {
+          "elevated": {
             "value": "rgba( #004C44, {sjs2.opacity.x010} )",
             "type": "color"
           },
-          "large": {
+          "floating": {
             "value": "rgba( #004C44, {sjs2.opacity.x015} )",
             "type": "color"
           }
