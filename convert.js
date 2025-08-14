@@ -267,6 +267,63 @@ function processShadowValueWithResolution(shadowObj, visited = new Set()) {
   return shadowString.trim();
 }
 
+// Function for processing color modifications via $extensions.studio.tokens.modify
+function processColorModifications(tokenData, visited = new Set()) {
+  if (!tokenData || typeof tokenData !== 'object') {
+    return tokenData;
+  }
+
+  // Check if token has color modifications
+  if (tokenData.$extensions && 
+      tokenData.$extensions['studio.tokens'] && 
+      tokenData.$extensions['studio.tokens'].modify) {
+    
+    const modify = tokenData.$extensions['studio.tokens'].modify;
+    const { type, value, space } = modify;
+    
+    // Get the base color value
+    let baseColor = tokenData.value;
+    
+    // If base color is a reference, resolve it first
+    if (typeof baseColor === 'string' && baseColor.includes('{')) {
+      baseColor = baseColor.replace(/\{([^}]+)\}/g, (match, tokenPath) => {
+        const resolvedToken = resolveTokenReference(tokenPath);
+        return resolvedToken ? resolvedToken.value : match;
+      });
+    }
+    
+    // Apply color modification based on type
+    if (type === 'darken' || type === 'lighten') {
+      const modifierValue = parseFloat(value);
+      if (!isNaN(modifierValue)) {
+        // Calculate multiplier: darken = multiply by (1 - value), lighten = multiply by (1 + value)
+        const multiplier = type === 'darken' ? (1 - modifierValue) : (1 + modifierValue);
+        
+        // Convert color to HSL if space is 'hsl'
+        if (space === 'hsl') {
+          // Modify lightness (L) component by multiplying
+          if (type === 'darken') {
+            return `hsl(from ${baseColor} h s calc(l * ${multiplier}))`;
+          } else if (type === 'lighten') {
+            return `hsl(from ${baseColor} h s calc(l * ${multiplier}))`;
+          }
+        }
+        // Convert color to LCH if space is 'lch'
+        else if (space === 'lch') {
+          // Modify lightness (L) component by multiplying
+          if (type === 'darken') {
+            return `lch(from ${baseColor} calc(l * ${multiplier}) c h)`;
+          } else if (type === 'lighten') {
+            return `lch(from ${baseColor} calc(l * ${multiplier}) c h)`;
+          }
+        }
+      }
+    }
+  }
+  
+  return tokenData.value;
+}
+
 // Function for evaluating token values with recursive reference resolution
 function evaluateTokenValue(value, type, visited = new Set()) {
   if (typeof value === 'string') {
@@ -400,8 +457,16 @@ function createTypeScriptFiles() {
       for (const [tokenName, tokenData] of Object.entries(allThemeTokens)) {
         if (tokenData.value !== undefined && typeof(tokenData.value) === "string") {
           const cssVarName = tokenToCSSVariable(tokenName);
-          const cssValue = evaluateTokenValue(tokenData.value, tokenData.type);
-          cssVariables[cssVarName] = cssValue;
+          
+          // Check for color modifications first
+          let processedValue = processColorModifications(tokenData);
+          
+          // If no modifications were applied, use the original value
+          if (processedValue === tokenData.value) {
+            processedValue = evaluateTokenValue(tokenData.value, tokenData.type);
+          }
+          
+          cssVariables[cssVarName] = processedValue;
         }
       }
       
@@ -483,6 +548,7 @@ if (require.main === module) {
 module.exports = {
   flattenTokens,
   evaluateTokenValue,
+  processColorModifications,
   tokenToCSSVariable,
   loadAllTokens,
   createTypeScriptFiles,
