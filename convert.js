@@ -518,9 +518,33 @@ function generateIndexFile() {
     
     indexContent += `export { ${objectName} } from './${objectName}';\n`;
   }
-  
+  indexContent += `export { sc2020Theme } from './sc2020Theme';\n`;
   fs.writeFileSync(indexPath, indexContent);
   console.log(`Generated TypeScript index file: ${indexPath}`);
+}
+
+// Function to copy sc2020Theme.ts to prebuild directory
+function copySc2020Theme() {
+  const sourceFile = path.join(__dirname, 'src', 'sc2020Theme.ts');
+  const targetDir = path.join(__dirname, 'prebuild');
+  const targetFile = path.join(targetDir, 'sc2020Theme.ts');
+  
+  try {
+    if (fs.existsSync(sourceFile)) {
+      // Create prebuild directory if it doesn't exist
+      if (!fs.existsSync(targetDir)) {
+        fs.mkdirSync(targetDir, { recursive: true });
+      }
+      
+      // Copy the file
+      fs.copyFileSync(sourceFile, targetFile);
+      console.log(`Copied sc2020Theme.ts to: ${targetFile}`);
+    } else {
+      console.warn(`Source file not found: ${sourceFile}`);
+    }
+  } catch (error) {
+    console.error('Error copying sc2020Theme.ts:', error.message);
+  }
 }
 
 // Main function
@@ -533,6 +557,9 @@ function main() {
     
     // Generate index.ts
     generateIndexFile();
+    
+    // Copy sc2020Theme.ts to prebuild directory
+    copySc2020Theme();
     
     console.log('Conversion completed successfully!');
   } catch (error) {
@@ -552,5 +579,6 @@ module.exports = {
   tokenToCSSVariable,
   loadAllTokens,
   createTypeScriptFiles,
-  generateIndexFile
+  generateIndexFile,
+  copySc2020Theme
 }; 
