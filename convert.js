@@ -284,11 +284,10 @@ function processColorModifications(tokenData, visited = new Set()) {
     // Get the base color value
     let baseColor = tokenData.value;
     
-    // If base color is a reference, resolve it first
+    // If base color is a reference, convert to CSS variable
     if (typeof baseColor === 'string' && baseColor.includes('{')) {
       baseColor = baseColor.replace(/\{([^}]+)\}/g, (match, tokenPath) => {
-        const resolvedToken = resolveTokenReference(tokenPath);
-        return resolvedToken ? resolvedToken.value : match;
+        return `var(--${tokenPath.replace(/\./g, '-').toLowerCase()})`;
       });
     }
     
