@@ -50,6 +50,7 @@ module.exports = function (options) {
   var config = {
     mode: isProductionBuild ? "production" : "development",
     entry: {
+      "default": path.resolve(__dirname, "./prebuild/defaultTheme.ts"),
       "index": path.resolve(__dirname, "./prebuild/index.ts"),
     },
     resolve: {
