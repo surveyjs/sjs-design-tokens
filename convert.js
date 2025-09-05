@@ -26,7 +26,8 @@ const THEME_CONFIG = [
       "--sjs2-color-border-basic-secondary-for-tests-only": "#d4d4d4",
       "--sjs2-color-utility-shadow-medium": "#004c441a",
       "--sjs2-color-bg-basic-secondary-dim": "#eaeaeaff",
-      "--sjs2-color-bg-basic-secondary": "#f4f4f4ff"
+      "--sjs2-color-bg-basic-secondary": "#f4f4f4ff",
+	    "--sjs2-color-bg-accent-secondary-dim": "#19b39440"
     },
     products: ["survey-creator"]
   },
