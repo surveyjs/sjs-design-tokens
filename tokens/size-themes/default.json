@@ -228,7 +228,7 @@
             },
             "limit": {
               "vertical": {
-                "value": "{sjs2.spacing.x150}",
+                "value": "{sjs2.spacing.x100}",
                 "type": "spacing"
               },
               "left": {
@@ -372,11 +372,11 @@
             },
             "icon": {
               "vertical": {
-                "value": "{sjs2.spacing.x050}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               },
               "horizontal": {
-                "value": "{sjs2.spacing.x050}",
+                "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               }
             },
