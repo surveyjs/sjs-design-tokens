@@ -408,7 +408,7 @@
           "small": {
             "label": {
               "horizontal": {
-                "value": "{sjs2.spacing.x100}",
+                "value": "{sjs2.spacing.x075}",
                 "type": "spacing"
               },
               "vertical": {
@@ -454,7 +454,7 @@
           "medium": {
             "label": {
               "horizontal": {
-                "value": "{sjs2.spacing.x150}",
+                "value": "{sjs2.spacing.x100}",
                 "type": "spacing"
               },
               "vertical": {
@@ -500,7 +500,7 @@
           "large": {
             "label": {
               "horizontal": {
-                "value": "{sjs2.spacing.x200}",
+                "value": "{sjs2.spacing.x150}",
                 "type": "spacing"
               },
               "vertical": {
