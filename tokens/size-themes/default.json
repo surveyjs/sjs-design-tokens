@@ -95,7 +95,7 @@
           "type": "borderRadius"
         },
         "tooltip": {
-          "value": "{sjs2.radius.x100}",
+          "value": "{sjs2.radius.x050}",
           "type": "borderRadius"
         }
       }
