@@ -837,7 +837,7 @@
                 "type": "color"
               },
               "value": {
-                "value": "{sjs2.color.fg.basic.primary}",
+                "value": "{sjs2.color.fg.basic.secondary}",
                 "type": "color"
               }
             },
