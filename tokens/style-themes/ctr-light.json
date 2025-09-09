@@ -123,6 +123,10 @@
             "disabled": {
               "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x010} )",
               "type": "color"
+            },
+            "dragging": {
+              "value": "rgba( #004C44, {sjs2.opacity.x015} )",
+              "type": "color"
             }
           },
           "elevated": {
@@ -1412,6 +1416,10 @@
         "disabled": {
           "value": "{sjs2.border-width.x100}",
           "type": "number"
+        },
+        "dragging": {
+          "value": 4,
+          "type": "number"
         }
       },
       "elevated": {
@@ -1503,6 +1511,10 @@
         },
         "disabled": {
           "value": "0",
+          "type": "number"
+        },
+        "dragging": {
+          "value": 12,
           "type": "number"
         }
       },
@@ -1597,6 +1609,10 @@
           "disabled": {
             "value": "0",
             "type": "number"
+          },
+          "dragging": {
+            "value": 0,
+            "type": "number"
           }
         },
         "elevated": {
@@ -1688,6 +1704,10 @@
           },
           "disabled": {
             "value": "0",
+            "type": "number"
+          },
+          "dragging": {
+            "value": 6,
             "type": "number"
           }
         },
