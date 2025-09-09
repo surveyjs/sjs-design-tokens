@@ -109,15 +109,15 @@
               "type": "color"
             },
             "hovered": {
-              "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x010} )",
+              "value": "rgba( {sjs2.color.project.brand.600}, {sjs2.opacity.x060} )",
               "type": "color"
             },
             "pressed": {
-              "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x010} )",
+              "value": "{sjs2.color.project.brand.600}",
               "type": "color"
             },
             "focused": {
-              "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x010} )",
+              "value": "{sjs2.color.project.brand.600}",
               "type": "color"
             },
             "disabled": {
@@ -1398,11 +1398,11 @@
           "type": "number"
         },
         "hovered": {
-          "value": "{sjs2.border-width.x100}",
+          "value": "{sjs2.border-width.x200}",
           "type": "number"
         },
         "pressed": {
-          "value": "{sjs2.border-width.x100}",
+          "value": "{sjs2.border-width.x200}",
           "type": "number"
         },
         "focused": {
@@ -1490,11 +1490,11 @@
           "type": "number"
         },
         "hovered": {
-          "value": "4",
+          "value": 0,
           "type": "number"
         },
         "pressed": {
-          "value": "4",
+          "value": 0,
           "type": "number"
         },
         "focused": {
@@ -1675,11 +1675,11 @@
             "type": "number"
           },
           "hovered": {
-            "value": "2",
+            "value": 0,
             "type": "number"
           },
           "pressed": {
-            "value": "2",
+            "value": 0,
             "type": "number"
           },
           "focused": {
