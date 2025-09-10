@@ -1136,6 +1136,116 @@
             "value": "{sjs2.color.fg.basic.primary}",
             "type": "color"
           }
+        },
+        "track": {
+          "default": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.secondary}",
+              "type": "color"
+            },
+            "fg": {
+              "value": "{sjs2.color.fg.brand.primary}",
+              "type": "color"
+            },
+            "thumb": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            },
+            "dot": {
+              "value": "{sjs2.color.fg.brand.primary}",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.secondary}",
+              "type": "color"
+            },
+            "fg": {
+              "value": "{sjs2.color.fg.basic.tertiary}",
+              "type": "color"
+            },
+            "thumb": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            },
+            "dot": {
+              "value": "{sjs2.color.fg.state.common-disabled}",
+              "type": "color"
+            }
+          },
+          "readonly": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.secondary}",
+              "type": "color"
+            },
+            "fg": {
+              "value": "{sjs2.color.fg.brand.primary}",
+              "type": "color"
+            },
+            "thumb": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            },
+            "dot": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            }
+          },
+          "focused": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.secondary}",
+              "type": "color"
+            },
+            "fg": {
+              "value": "{sjs2.color.fg.brand.primary}",
+              "type": "color"
+            },
+            "thumb": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            },
+            "dot": {
+              "value": "{sjs2.color.fg.brand.primary}",
+              "type": "color"
+            }
+          },
+          "invalid": {
+            "bg": {
+              "value": "{sjs2.color.bg.alert.secondary}",
+              "type": "color"
+            },
+            "fg": {
+              "value": "{sjs2.color.fg.alert.primary}",
+              "type": "color"
+            },
+            "thumb": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            },
+            "dot": {
+              "value": "{sjs2.color.fg.alert.primary}",
+              "type": "color"
+            }
+          },
+          "preview": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.secondary}",
+              "type": "color"
+            },
+            "fg": {
+              "value": "{sjs2.color.fg.basic.tertiary}",
+              "type": "color"
+            },
+            "thumb": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            },
+            "dot": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            }
+          }
         }
       },
       "data": {
@@ -1524,7 +1634,7 @@
           "type": "number"
         },
         "preview": {
-          "value": 0,
+          "value": "0",
           "type": "number"
         }
       },
@@ -1629,7 +1739,7 @@
             "type": "number"
           },
           "preview": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           }
         },
@@ -1733,7 +1843,7 @@
             "type": "number"
           },
           "preview": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           }
         },
