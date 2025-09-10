@@ -617,6 +617,16 @@
               "value": "{sjs2.color.border.basic.primary}",
               "type": "color"
             }
+          },
+          "preview": {
+            "bg": {
+              "value": "{sjs2.palette.gray.100}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
+            }
           }
         },
         "input": {
@@ -744,6 +754,16 @@
             "hovered": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.secondary-dim}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{sjs2.color.border.basic.secondary}",
+                "type": "color"
+              }
+            },
+            "preview": {
+              "bg": {
+                "value": "{sjs2.palette.gray.100}",
                 "type": "color"
               },
               "border": {
@@ -1372,6 +1392,10 @@
         "readonly": {
           "value": "{sjs2.border-width.x100}",
           "type": "number"
+        },
+        "preview": {
+          "value": "{sjs2.border-width.x100}",
+          "type": "number"
         }
       },
       "trigger": {
@@ -1418,7 +1442,7 @@
           "type": "number"
         },
         "dragging": {
-          "value": 4,
+          "value": "4",
           "type": "number"
         }
       },
@@ -1468,6 +1492,10 @@
         "readonly": {
           "value": "0",
           "type": "number"
+        },
+        "preview": {
+          "value": "0",
+          "type": "number"
         }
       },
       "trigger": {
@@ -1498,11 +1526,11 @@
           "type": "number"
         },
         "hovered": {
-          "value": 0,
+          "value": "0",
           "type": "number"
         },
         "pressed": {
-          "value": 0,
+          "value": "0",
           "type": "number"
         },
         "focused": {
@@ -1514,7 +1542,7 @@
           "type": "number"
         },
         "dragging": {
-          "value": 12,
+          "value": "12",
           "type": "number"
         }
       },
@@ -1565,6 +1593,10 @@
           "readonly": {
             "value": "0",
             "type": "number"
+          },
+          "preview": {
+            "value": "0",
+            "type": "number"
           }
         },
         "trigger": {
@@ -1611,7 +1643,7 @@
             "type": "number"
           },
           "dragging": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           }
         },
@@ -1661,6 +1693,10 @@
           "readonly": {
             "value": "0",
             "type": "number"
+          },
+          "preview": {
+            "value": "0",
+            "type": "number"
           }
         },
         "trigger": {
@@ -1691,11 +1727,11 @@
             "type": "number"
           },
           "hovered": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "pressed": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "focused": {
@@ -1707,7 +1743,7 @@
             "type": "number"
           },
           "dragging": {
-            "value": 6,
+            "value": "6",
             "type": "number"
           }
         },
