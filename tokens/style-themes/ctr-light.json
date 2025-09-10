@@ -109,7 +109,7 @@
               "type": "color"
             },
             "hovered": {
-              "value": "rgba( {sjs2.color.project.brand.600}, {sjs2.opacity.x060} )",
+              "value": "rgba( {sjs2.color.project.brand.600}, {sjs2.opacity.x040} )",
               "type": "color"
             },
             "pressed": {

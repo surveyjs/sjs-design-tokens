@@ -109,15 +109,15 @@
               "type": "color"
             },
             "hovered": {
-              "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x010} )",
+              "value": "rgba( {sjs2.color.project.brand.600}, {sjs2.opacity.x040} )",
               "type": "color"
             },
             "pressed": {
-              "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x010} )",
+              "value": "{sjs2.color.project.brand.600}",
               "type": "color"
             },
             "focused": {
-              "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x010} )",
+              "value": "{sjs2.color.project.brand.600}",
               "type": "color"
             },
             "disabled": {

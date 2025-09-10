@@ -125,7 +125,7 @@
               "type": "color"
             },
             "dragging": {
-              "value": "rgba( #004C44, {sjs2.opacity.x015} )",
+              "value": "rgba( #004C44, {sjs2.opacity.x025} )",
               "type": "color"
             }
           },
