@@ -617,6 +617,16 @@
               "value": "{sjs2.color.border.basic.primary}",
               "type": "color"
             }
+          },
+          "preview": {
+            "bg": {
+              "value": "{sjs2.palette.gray.800}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
+            }
           }
         },
         "input": {
@@ -744,6 +754,16 @@
             "hovered": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.secondary-dim}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{sjs2.color.border.basic.secondary}",
+                "type": "color"
+              }
+            },
+            "preview": {
+              "bg": {
+                "value": "{sjs2.palette.gray.800}",
                 "type": "color"
               },
               "border": {
