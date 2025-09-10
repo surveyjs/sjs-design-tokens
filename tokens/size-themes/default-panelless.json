@@ -75,7 +75,7 @@
       },
       "container": {
         "panel": {
-          "value": "{sjs2.radius.x200}",
+          "value": "{sjs2.radius.x150}",
           "type": "borderRadius"
         },
         "panel-nested": {
