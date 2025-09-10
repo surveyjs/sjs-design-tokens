@@ -1418,6 +1418,10 @@
         "disabled": {
           "value": "{sjs2.border-width.x100}",
           "type": "number"
+        },
+        "preview": {
+          "value": "{sjs2.border-width.x100}",
+          "type": "number"
         }
       },
       "surface": {
@@ -1517,6 +1521,10 @@
         },
         "disabled": {
           "value": "0",
+          "type": "number"
+        },
+        "preview": {
+          "value": 0,
           "type": "number"
         }
       },
@@ -1619,6 +1627,10 @@
           "disabled": {
             "value": "0",
             "type": "number"
+          },
+          "preview": {
+            "value": 0,
+            "type": "number"
           }
         },
         "surface": {
@@ -1718,6 +1730,10 @@
           },
           "disabled": {
             "value": "0",
+            "type": "number"
+          },
+          "preview": {
+            "value": 0,
             "type": "number"
           }
         },
