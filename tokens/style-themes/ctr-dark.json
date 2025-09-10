@@ -73,11 +73,11 @@
           "type": "color"
         },
         "surface": {
-          "value": "{sjs2.palette.gray.950}",
+          "value": "#161519",
           "type": "color"
         },
         "surface-muted": {
-          "value": "{sjs2.palette.gray.950}",
+          "value": "#161519",
           "type": "color"
         },
         "sheet": {
