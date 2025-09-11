@@ -73,11 +73,11 @@
           "type": "color"
         },
         "surface": {
-          "value": "{sjs2.color.bg.basic.secondary}",
+          "value": "#1c1b200d",
           "type": "color"
         },
         "surface-muted": {
-          "value": "{sjs2.color.bg.basic.secondary}",
+          "value": "#1c1b200d",
           "type": "color"
         },
         "sheet": {
@@ -122,6 +122,10 @@
             },
             "disabled": {
               "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x010} )",
+              "type": "color"
+            },
+            "dragging": {
+              "value": "rgba( #004C44, {sjs2.opacity.x015} )",
               "type": "color"
             }
           },
@@ -613,6 +617,16 @@
               "value": "{sjs2.color.border.basic.primary}",
               "type": "color"
             }
+          },
+          "design": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.secondary}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
+            }
           }
         },
         "input": {
@@ -740,6 +754,16 @@
             "hovered": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.secondary-dim}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{sjs2.color.border.basic.secondary}",
+                "type": "color"
+              }
+            },
+            "design": {
+              "bg": {
+                "value": "{sjs2.color.bg.basic.secondary}",
                 "type": "color"
               },
               "border": {
@@ -964,7 +988,7 @@
                 "value": "{sjs2.color.border.basic.secondary}",
                 "type": "color"
               },
-              "icon": {
+              "thumb": {
                 "value": "{sjs2.color.fg.basic.secondary}",
                 "type": "color"
               }
@@ -978,7 +1002,7 @@
                 "value": "{sjs2.color.border.basic.secondary}",
                 "type": "color"
               },
-              "icon": {
+              "thumb": {
                 "value": "{sjs2.color.fg.basic.tertiary}",
                 "type": "color"
               }
@@ -992,7 +1016,7 @@
                 "value": "{sjs2.color.border.basic.secondary}",
                 "type": "color"
               },
-              "icon": {
+              "thumb": {
                 "value": "{sjs2.color.fg.basic.tertiary}",
                 "type": "color"
               }
@@ -1006,7 +1030,7 @@
                 "value": "{sjs2.color.border.brand.primary}",
                 "type": "color"
               },
-              "icon": {
+              "thumb": {
                 "value": "{sjs2.color.fg.basic.secondary}",
                 "type": "color"
               }
@@ -1020,7 +1044,7 @@
                 "value": "{sjs2.color.border.basic.secondary}",
                 "type": "color"
               },
-              "icon": {
+              "thumb": {
                 "value": "{sjs2.color.fg.basic.secondary}",
                 "type": "color"
               }
@@ -1036,7 +1060,7 @@
                 "value": "{sjs2.color.border.brand.primary}",
                 "type": "color"
               },
-              "icon": {
+              "thumb": {
                 "value": "{sjs2.color.fg.static.main.primary}",
                 "type": "color"
               }
@@ -1050,7 +1074,7 @@
                 "value": "{sjs2.color.border.basic.secondary}",
                 "type": "color"
               },
-              "icon": {
+              "thumb": {
                 "value": "{sjs2.color.fg.static.main.primary}",
                 "type": "color"
               }
@@ -1064,7 +1088,7 @@
                 "value": "{sjs2.color.border.basic.secondary}",
                 "type": "color"
               },
-              "icon": {
+              "thumb": {
                 "value": "{sjs2.color.fg.static.main.primary}",
                 "type": "color"
               }
@@ -1078,7 +1102,7 @@
                 "value": "{sjs2.color.border.brand.primary}",
                 "type": "color"
               },
-              "icon": {
+              "thumb": {
                 "value": "{sjs2.color.fg.brand.primary}",
                 "type": "color"
               }
@@ -1092,7 +1116,7 @@
                 "value": "{sjs2.color.border.brand.primary}",
                 "type": "color"
               },
-              "icon": {
+              "thumb": {
                 "value": "{sjs2.color.fg.static.main.primary}",
                 "type": "color"
               }
@@ -1111,6 +1135,140 @@
           "text": {
             "value": "{sjs2.color.fg.basic.primary}",
             "type": "color"
+          }
+        },
+        "track": {
+          "default": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.secondary}",
+              "type": "color"
+            },
+            "fg": {
+              "value": "{sjs2.color.fg.brand.primary}",
+              "type": "color"
+            },
+            "thumb": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            },
+            "dot": {
+              "value": "{sjs2.color.fg.brand.primary}",
+              "type": "color"
+            },
+            "thumb-border": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.secondary}",
+              "type": "color"
+            },
+            "fg": {
+              "value": "{sjs2.color.fg.basic.tertiary}",
+              "type": "color"
+            },
+            "thumb": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            },
+            "dot": {
+              "value": "{sjs2.color.fg.state.common-disabled}",
+              "type": "color"
+            },
+            "thumb-border": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
+            }
+          },
+          "readonly": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.secondary}",
+              "type": "color"
+            },
+            "fg": {
+              "value": "{sjs2.color.fg.brand.primary}",
+              "type": "color"
+            },
+            "thumb": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            },
+            "dot": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            },
+            "thumb-border": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
+            }
+          },
+          "focused": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.secondary}",
+              "type": "color"
+            },
+            "fg": {
+              "value": "{sjs2.color.fg.brand.primary}",
+              "type": "color"
+            },
+            "thumb": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            },
+            "dot": {
+              "value": "{sjs2.color.fg.brand.primary}",
+              "type": "color"
+            },
+            "thumb-border": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
+            }
+          },
+          "invalid": {
+            "bg": {
+              "value": "{sjs2.color.bg.alert.secondary}",
+              "type": "color"
+            },
+            "fg": {
+              "value": "{sjs2.color.fg.alert.primary}",
+              "type": "color"
+            },
+            "thumb": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            },
+            "dot": {
+              "value": "{sjs2.color.fg.alert.primary}",
+              "type": "color"
+            },
+            "thumb-border": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
+            }
+          },
+          "design": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.secondary}",
+              "type": "color"
+            },
+            "fg": {
+              "value": "{sjs2.color.fg.basic.tertiary}",
+              "type": "color"
+            },
+            "thumb": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            },
+            "dot": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            },
+            "thumb-border": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
+            }
           }
         }
       },
@@ -1368,6 +1526,10 @@
         "readonly": {
           "value": "{sjs2.border-width.x100}",
           "type": "number"
+        },
+        "preview": {
+          "value": "{sjs2.border-width.x100}",
+          "type": "number"
         }
       },
       "trigger": {
@@ -1388,6 +1550,10 @@
           "type": "number"
         },
         "disabled": {
+          "value": "{sjs2.border-width.x100}",
+          "type": "number"
+        },
+        "preview": {
           "value": "{sjs2.border-width.x100}",
           "type": "number"
         }
@@ -1411,6 +1577,10 @@
         },
         "disabled": {
           "value": "{sjs2.border-width.x100}",
+          "type": "number"
+        },
+        "dragging": {
+          "value": "4",
           "type": "number"
         }
       },
@@ -1460,6 +1630,10 @@
         "readonly": {
           "value": "0",
           "type": "number"
+        },
+        "preview": {
+          "value": "0",
+          "type": "number"
         }
       },
       "trigger": {
@@ -1480,6 +1654,10 @@
           "type": "number"
         },
         "disabled": {
+          "value": "0",
+          "type": "number"
+        },
+        "preview": {
           "value": "0",
           "type": "number"
         }
@@ -1503,6 +1681,10 @@
         },
         "disabled": {
           "value": "0",
+          "type": "number"
+        },
+        "dragging": {
+          "value": "12",
           "type": "number"
         }
       },
@@ -1553,6 +1735,10 @@
           "readonly": {
             "value": "0",
             "type": "number"
+          },
+          "preview": {
+            "value": "0",
+            "type": "number"
           }
         },
         "trigger": {
@@ -1575,6 +1761,10 @@
           "disabled": {
             "value": "0",
             "type": "number"
+          },
+          "preview": {
+            "value": "0",
+            "type": "number"
           }
         },
         "surface": {
@@ -1595,6 +1785,10 @@
             "type": "number"
           },
           "disabled": {
+            "value": "0",
+            "type": "number"
+          },
+          "dragging": {
             "value": "0",
             "type": "number"
           }
@@ -1645,6 +1839,10 @@
           "readonly": {
             "value": "0",
             "type": "number"
+          },
+          "preview": {
+            "value": "0",
+            "type": "number"
           }
         },
         "trigger": {
@@ -1665,6 +1863,10 @@
             "type": "number"
           },
           "disabled": {
+            "value": "0",
+            "type": "number"
+          },
+          "preview": {
             "value": "0",
             "type": "number"
           }
@@ -1688,6 +1890,10 @@
           },
           "disabled": {
             "value": "0",
+            "type": "number"
+          },
+          "dragging": {
+            "value": "6",
             "type": "number"
           }
         },

@@ -44,15 +44,11 @@
           "value": "{sjs2.radius.round}",
           "type": "borderRadius"
         },
-        "ranking-item": {
-          "value": "{sjs2.radius.round}",
-          "type": "borderRadius"
-        },
         "toggle": {
           "value": "{sjs2.radius.round}",
           "type": "borderRadius"
         },
-        "toggle-item": {
+        "toggle-thumb": {
           "value": "{sjs2.radius.round}",
           "type": "borderRadius"
         },
@@ -67,11 +63,19 @@
         "track-thumb": {
           "value": "{sjs2.radius.round}",
           "type": "borderRadius"
+        },
+        "boolean": {
+          "value": "{sjs2.radius.round}",
+          "type": "borderRadius"
+        },
+        "boolean-item": {
+          "value": "{sjs2.radius.round}",
+          "type": "borderRadius"
         }
       },
       "container": {
         "panel": {
-          "value": "{sjs2.radius.x200}",
+          "value": "{sjs2.radius.x150}",
           "type": "borderRadius"
         },
         "panel-nested": {
@@ -95,7 +99,11 @@
           "type": "borderRadius"
         },
         "tooltip": {
-          "value": "{sjs2.radius.x100}",
+          "value": "{sjs2.radius.x050}",
+          "type": "borderRadius"
+        },
+        "drag": {
+          "value": "{sjs2.radius.semantic.form}",
           "type": "borderRadius"
         }
       }
@@ -228,7 +236,7 @@
             },
             "limit": {
               "vertical": {
-                "value": "{sjs2.spacing.x150}",
+                "value": "{sjs2.spacing.x100}",
                 "type": "spacing"
               },
               "left": {
@@ -366,7 +374,7 @@
                 "type": "spacing"
               },
               "vertical": {
-                "value": "{sjs2.spacing.x000}",
+                "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
               }
             },
@@ -408,7 +416,7 @@
           "small": {
             "label": {
               "horizontal": {
-                "value": "{sjs2.spacing.x100}",
+                "value": "{sjs2.spacing.x075}",
                 "type": "spacing"
               },
               "vertical": {
@@ -454,7 +462,7 @@
           "medium": {
             "label": {
               "horizontal": {
-                "value": "{sjs2.spacing.x150}",
+                "value": "{sjs2.spacing.x100}",
                 "type": "spacing"
               },
               "vertical": {
@@ -500,7 +508,7 @@
           "large": {
             "label": {
               "horizontal": {
-                "value": "{sjs2.spacing.x200}",
+                "value": "{sjs2.spacing.x150}",
                 "type": "spacing"
               },
               "vertical": {
