@@ -1134,13 +1134,27 @@
           }
         },
         "message": {
-          "alert": {
+          "error": {
             "bg": {
               "value": "{sjs2.color.bg.alert.secondary}",
               "type": "color"
             },
             "icon": {
               "value": "{sjs2.color.fg.alert.primary}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{sjs2.color.fg.basic.primary}",
+              "type": "color"
+            }
+          },
+          "info": {
+            "bg": {
+              "value": "{sjs2.color.bg.note.secondary}",
+              "type": "color"
+            },
+            "icon": {
+              "value": "{sjs2.color.fg.note.primary}",
               "type": "color"
             },
             "text": {
