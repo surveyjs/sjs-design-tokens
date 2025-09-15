@@ -417,9 +417,9 @@
       "sjs2.color.control.toggle.true.hovered.bg": "ac65510b0443d02344feacbd909abce27fd78831",
       "sjs2.color.control.toggle.true.hovered.border": "3333f0db9e706ecefa07d02a7d3f35971dffd82c",
       "sjs2.color.control.toggle.true.hovered.thumb": "9e72abd893f4271202c17a6f815b88525159241d",
-      "sjs2.color.control.message.bg": "e03494e8e2d0d3dcc2028ff3c6b928801f7af048",
-      "sjs2.color.control.message.icon": "582dbf3587c03c5af6341446fda370e1ff410af1",
-      "sjs2.color.control.message.text": "96a4a735b9e7f4893c8481b0442201d0e9a40a4f",
+      "sjs2.color.control.message.alert.bg": "e03494e8e2d0d3dcc2028ff3c6b928801f7af048",
+      "sjs2.color.control.message.alert.icon": "582dbf3587c03c5af6341446fda370e1ff410af1",
+      "sjs2.color.control.message.alert.text": "96a4a735b9e7f4893c8481b0442201d0e9a40a4f",
       "sjs2.color.control.track.default.bg": "ba58187f250a0b83a813266ff22ea19a81aa825f",
       "sjs2.color.control.track.default.fg": "6f190bc9b058c2184273f34f832847a85abd1127",
       "sjs2.color.control.track.default.thumb": "6992673b53ecb9685e401992438fe3e98164519d",
@@ -591,7 +591,9 @@
       "sjs2.border-offset.y.surface.disabled": "cfa7dcbb85702a3c8499608fddfd228cf4127d1a",
       "sjs2.border-offset.y.surface.dragging": "362e986f1cb1428a7e638aff44dc33ae8dae8913",
       "sjs2.border-offset.y.elevated.default": "e3def2b24e612c26a411d0224308a3dd2cd8dbcf",
-      "sjs2.border-offset.y.floating.default": "4b425cb388103d2dfdbb02ac79f34a798f7bedb4"
+      "sjs2.border-offset.y.floating.default": "4b425cb388103d2dfdbb02ac79f34a798f7bedb4",
+      "sjs2.color.control.formbox.hovered.bg": "d25e575a5cca86541f2eb1238f1fb4a3d82bacb0",
+      "sjs2.color.control.formbox.hovered.border": "4595142f6763e8e11542b96e95f364464d5c5337"
     },
     "group": "style-themes"
   },
@@ -828,9 +830,9 @@
       "sjs2.color.control.toggle.true.hovered.bg": "ac65510b0443d02344feacbd909abce27fd78831",
       "sjs2.color.control.toggle.true.hovered.border": "3333f0db9e706ecefa07d02a7d3f35971dffd82c",
       "sjs2.color.control.toggle.true.hovered.thumb": "9e72abd893f4271202c17a6f815b88525159241d",
-      "sjs2.color.control.message.bg": "e03494e8e2d0d3dcc2028ff3c6b928801f7af048",
-      "sjs2.color.control.message.icon": "582dbf3587c03c5af6341446fda370e1ff410af1",
-      "sjs2.color.control.message.text": "96a4a735b9e7f4893c8481b0442201d0e9a40a4f",
+      "sjs2.color.control.message.alert.bg": "e03494e8e2d0d3dcc2028ff3c6b928801f7af048",
+      "sjs2.color.control.message.alert.icon": "582dbf3587c03c5af6341446fda370e1ff410af1",
+      "sjs2.color.control.message.alert.text": "96a4a735b9e7f4893c8481b0442201d0e9a40a4f",
       "sjs2.color.control.track.default.bg": "ba58187f250a0b83a813266ff22ea19a81aa825f",
       "sjs2.color.control.track.default.fg": "6f190bc9b058c2184273f34f832847a85abd1127",
       "sjs2.color.control.track.default.thumb": "6992673b53ecb9685e401992438fe3e98164519d",
@@ -1002,7 +1004,9 @@
       "sjs2.border-offset.y.surface.disabled": "cfa7dcbb85702a3c8499608fddfd228cf4127d1a",
       "sjs2.border-offset.y.surface.dragging": "362e986f1cb1428a7e638aff44dc33ae8dae8913",
       "sjs2.border-offset.y.elevated.default": "e3def2b24e612c26a411d0224308a3dd2cd8dbcf",
-      "sjs2.border-offset.y.floating.default": "4b425cb388103d2dfdbb02ac79f34a798f7bedb4"
+      "sjs2.border-offset.y.floating.default": "4b425cb388103d2dfdbb02ac79f34a798f7bedb4",
+      "sjs2.color.control.formbox.hovered.bg": "d25e575a5cca86541f2eb1238f1fb4a3d82bacb0",
+      "sjs2.color.control.formbox.hovered.border": "4595142f6763e8e11542b96e95f364464d5c5337"
     },
     "group": "style-themes"
   },
@@ -1239,9 +1243,9 @@
       "sjs2.color.control.toggle.true.hovered.bg": "ac65510b0443d02344feacbd909abce27fd78831",
       "sjs2.color.control.toggle.true.hovered.border": "3333f0db9e706ecefa07d02a7d3f35971dffd82c",
       "sjs2.color.control.toggle.true.hovered.thumb": "9e72abd893f4271202c17a6f815b88525159241d",
-      "sjs2.color.control.message.bg": "e03494e8e2d0d3dcc2028ff3c6b928801f7af048",
-      "sjs2.color.control.message.icon": "582dbf3587c03c5af6341446fda370e1ff410af1",
-      "sjs2.color.control.message.text": "96a4a735b9e7f4893c8481b0442201d0e9a40a4f",
+      "sjs2.color.control.message.alert.bg": "e03494e8e2d0d3dcc2028ff3c6b928801f7af048",
+      "sjs2.color.control.message.alert.icon": "582dbf3587c03c5af6341446fda370e1ff410af1",
+      "sjs2.color.control.message.alert.text": "96a4a735b9e7f4893c8481b0442201d0e9a40a4f",
       "sjs2.color.control.track.default.bg": "ba58187f250a0b83a813266ff22ea19a81aa825f",
       "sjs2.color.control.track.default.fg": "6f190bc9b058c2184273f34f832847a85abd1127",
       "sjs2.color.control.track.default.thumb": "6992673b53ecb9685e401992438fe3e98164519d",
@@ -1413,7 +1417,9 @@
       "sjs2.border-offset.y.surface.disabled": "cfa7dcbb85702a3c8499608fddfd228cf4127d1a",
       "sjs2.border-offset.y.surface.dragging": "362e986f1cb1428a7e638aff44dc33ae8dae8913",
       "sjs2.border-offset.y.elevated.default": "e3def2b24e612c26a411d0224308a3dd2cd8dbcf",
-      "sjs2.border-offset.y.floating.default": "4b425cb388103d2dfdbb02ac79f34a798f7bedb4"
+      "sjs2.border-offset.y.floating.default": "4b425cb388103d2dfdbb02ac79f34a798f7bedb4",
+      "sjs2.color.control.formbox.hovered.bg": "d25e575a5cca86541f2eb1238f1fb4a3d82bacb0",
+      "sjs2.color.control.formbox.hovered.border": "4595142f6763e8e11542b96e95f364464d5c5337"
     },
     "group": "style-themes"
   },
@@ -1651,9 +1657,9 @@
       "sjs2.color.control.toggle.true.hovered.bg": "ac65510b0443d02344feacbd909abce27fd78831",
       "sjs2.color.control.toggle.true.hovered.border": "3333f0db9e706ecefa07d02a7d3f35971dffd82c",
       "sjs2.color.control.toggle.true.hovered.thumb": "9e72abd893f4271202c17a6f815b88525159241d",
-      "sjs2.color.control.message.bg": "e03494e8e2d0d3dcc2028ff3c6b928801f7af048",
-      "sjs2.color.control.message.icon": "582dbf3587c03c5af6341446fda370e1ff410af1",
-      "sjs2.color.control.message.text": "96a4a735b9e7f4893c8481b0442201d0e9a40a4f",
+      "sjs2.color.control.message.alert.bg": "e03494e8e2d0d3dcc2028ff3c6b928801f7af048",
+      "sjs2.color.control.message.alert.icon": "582dbf3587c03c5af6341446fda370e1ff410af1",
+      "sjs2.color.control.message.alert.text": "96a4a735b9e7f4893c8481b0442201d0e9a40a4f",
       "sjs2.color.control.track.default.bg": "ba58187f250a0b83a813266ff22ea19a81aa825f",
       "sjs2.color.control.track.default.fg": "6f190bc9b058c2184273f34f832847a85abd1127",
       "sjs2.color.control.track.default.thumb": "6992673b53ecb9685e401992438fe3e98164519d",
@@ -1825,7 +1831,9 @@
       "sjs2.border-offset.y.surface.disabled": "cfa7dcbb85702a3c8499608fddfd228cf4127d1a",
       "sjs2.border-offset.y.surface.dragging": "362e986f1cb1428a7e638aff44dc33ae8dae8913",
       "sjs2.border-offset.y.elevated.default": "e3def2b24e612c26a411d0224308a3dd2cd8dbcf",
-      "sjs2.border-offset.y.floating.default": "4b425cb388103d2dfdbb02ac79f34a798f7bedb4"
+      "sjs2.border-offset.y.floating.default": "4b425cb388103d2dfdbb02ac79f34a798f7bedb4",
+      "sjs2.color.control.formbox.hovered.bg": "d25e575a5cca86541f2eb1238f1fb4a3d82bacb0",
+      "sjs2.color.control.formbox.hovered.border": "4595142f6763e8e11542b96e95f364464d5c5337"
     }
   },
   {

@@ -627,6 +627,16 @@
               "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
             }
+          },
+          "hovered": {
+            "bg": {
+              "value": "{sjs2.palette.gray.100}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
+            }
           }
         },
         "input": {
@@ -1124,17 +1134,19 @@
           }
         },
         "message": {
-          "bg": {
-            "value": "{sjs2.color.bg.alert.secondary}",
-            "type": "color"
-          },
-          "icon": {
-            "value": "{sjs2.color.fg.alert.primary}",
-            "type": "color"
-          },
-          "text": {
-            "value": "{sjs2.color.fg.basic.primary}",
-            "type": "color"
+          "alert": {
+            "bg": {
+              "value": "{sjs2.color.bg.alert.secondary}",
+              "type": "color"
+            },
+            "icon": {
+              "value": "{sjs2.color.fg.alert.primary}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{sjs2.color.fg.basic.primary}",
+              "type": "color"
+            }
           }
         },
         "track": {
