@@ -4,8 +4,10 @@ const path = require('path');
 // Configuration for theme generation
 const THEME_CONFIG = [
   {
-    objectName: "testTheme",
+    objectName: "Test",
     themeName: "test",
+    iconSet: "v2",
+    isLight: true,
     tokenPaths: [
       "base-unit",
       "common",
@@ -24,12 +26,18 @@ const THEME_CONFIG = [
       "--sjs2-color-border-basic-secondary-for-tests-only": "#d4d4d4",
       "--sjs2-color-utility-shadow-medium": "#004c441a",
       "--sjs2-color-bg-basic-secondary-dim": "#eaeaeaff",
-      "--sjs2-color-bg-basic-secondary": "#f4f4f4ff"
-    }
+      "--sjs2-color-bg-basic-secondary": "#f4f4f4ff",
+	    "--sjs2-color-bg-accent-secondary-dim": "#19b39440",
+      "--sjs2-color-control-formbox-design-bg": "#f8f8f8ff",
+      "--sjs2-color-utility-shadow-surface-default": "#00000040"
+    },
+    products: ["survey-creator"]
   },
   {
-    objectName: "defaultTheme",
+    objectName: "Default",
     themeName: "default-light",
+    iconSet: "v2",
+    isLight: true,
     tokenPaths: [
       "base-unit",
       "common",
@@ -37,11 +45,14 @@ const THEME_CONFIG = [
       "size-themes/default",
       "typography-themes/default",
       "style-themes/ctr-light"
-    ]
+    ],
+    products: ["survey-creator"]
   },
   {
-    objectName: "darkTheme",
+    objectName: "DefaultDark",
     themeName: "default-dark",
+    iconSet: "v2",
+    isLight: false,
     tokenPaths: [
       "base-unit",
       "common",
@@ -49,11 +60,14 @@ const THEME_CONFIG = [
       "size-themes/default",
       "typography-themes/default",
       "style-themes/ctr-dark"
-    ]
+    ],
+    products: ["survey-creator", "survey-analytics"]
   },
   {
     objectName: "contrastTheme",
     themeName: "default-contrast",
+    iconSet: "v2",
+    isLight: true,
     tokenPaths: [
       "base-unit",
       "common",
@@ -61,11 +75,14 @@ const THEME_CONFIG = [
       "size-themes/default",
       "typography-themes/default",
       "style-themes/ctr-contrast"
-    ]
+    ],
+    products: ["survey-creator"]
   },
   {
-    objectName: "dsbLightTheme",
-    themeName: "dsb-light",
+    objectName: "Default",
+    themeName: "default-light",
+    iconSet: "v2",
+    isLight: true,
     tokenPaths: [
       "base-unit",
       "common",
@@ -73,7 +90,8 @@ const THEME_CONFIG = [
       "size-themes/default",
       "typography-themes/default",
       "style-themes/dsb-light"
-    ]
+    ],
+    products: ["survey-analytics"]
   }
 ];
 
@@ -394,7 +412,7 @@ function loadAllTokens() {
 // Function for creating TypeScript files with embedded data
 function createTypeScriptFiles() {
   const tokensDir = path.join(__dirname, 'tokens');
-  const buildDir = path.join(__dirname, 'prebuild');
+  const buildDir = path.join(__dirname, 'build');
   
   // Create Build directory if it doesn't exist
   if (!fs.existsSync(buildDir)) {
@@ -406,7 +424,7 @@ function createTypeScriptFiles() {
   
   // Process each theme configuration
   for (const themeConfig of THEME_CONFIG) {
-    const { objectName, themeName, tokenPaths } = themeConfig;
+    const { objectName, themeName, tokenPaths, products } = themeConfig;
     
     try {
       // Collect all tokens for this theme
@@ -456,6 +474,8 @@ function createTypeScriptFiles() {
       // Create output object
       const outputObject = {
         themeName: themeName,
+        iconSet: themeConfig.iconSet,
+        isLight: themeConfig.isLight,
         cssVariables: patchedCssVariables
       };
       
@@ -466,11 +486,18 @@ export const ${objectName} = ${JSON.stringify(outputObject, null, 2)} as const;
 export default ${objectName};
 `;
       
-      // Save to file
-      const outputPath = path.join(buildDir, `${objectName}.ts`);
-      fs.writeFileSync(outputPath, tsContent);
-      
-      console.log(`Created TypeScript file: ${outputPath}`);
+      // Save to file in each product subdirectory with theme name
+      for (const product of products) {
+        const productDir = path.join(buildDir, product);
+        if (!fs.existsSync(productDir)) {
+          fs.mkdirSync(productDir, { recursive: true });
+        }
+        
+        const outputPath = path.join(productDir, `${themeName}.ts`);
+        fs.writeFileSync(outputPath, tsContent);
+        
+        console.log(`Created TypeScript file: ${outputPath}`);
+      }
       
     } catch (error) {
       console.error(`Error processing theme ${themeName}:`, error.message);
@@ -478,49 +505,7 @@ export default ${objectName};
   }
 }
 
-// Function to generate index.ts with re-exports
-function generateIndexFile() {
-  console.log('Generating index.ts file...');
-  
-  const buildDir = path.join(__dirname, 'prebuild');
-  const indexPath = path.join(buildDir, 'index.ts');
-  
-  // Generate index content
-  let indexContent = '// Re-export all theme modules for convenience\n';
-  
-  for (const themeConfig of THEME_CONFIG) {
-    const { objectName } = themeConfig;
-    
-    indexContent += `export { ${objectName} } from './${objectName}';\n`;
-  }
-  indexContent += `export { sc2020Theme } from './sc2020Theme';\n`;
-  fs.writeFileSync(indexPath, indexContent);
-  console.log(`Generated TypeScript index file: ${indexPath}`);
-}
 
-// Function to copy sc2020Theme.ts to prebuild directory
-function copySc2020Theme() {
-  const sourceFile = path.join(__dirname, 'src', 'sc2020Theme.ts');
-  const targetDir = path.join(__dirname, 'prebuild');
-  const targetFile = path.join(targetDir, 'sc2020Theme.ts');
-  
-  try {
-    if (fs.existsSync(sourceFile)) {
-      // Create prebuild directory if it doesn't exist
-      if (!fs.existsSync(targetDir)) {
-        fs.mkdirSync(targetDir, { recursive: true });
-      }
-      
-      // Copy the file
-      fs.copyFileSync(sourceFile, targetFile);
-      console.log(`Copied sc2020Theme.ts to: ${targetFile}`);
-    } else {
-      console.warn(`Source file not found: ${sourceFile}`);
-    }
-  } catch (error) {
-    console.error('Error copying sc2020Theme.ts:', error.message);
-  }
-}
 
 // Main function
 function main() {
@@ -529,12 +514,6 @@ function main() {
   try {
     // Create TypeScript files with embedded data
     createTypeScriptFiles();
-    
-    // Generate index.ts
-    generateIndexFile();
-    
-    // Copy sc2020Theme.ts to prebuild directory
-    copySc2020Theme();
     
     console.log('Conversion completed successfully!');
   } catch (error) {
@@ -553,7 +532,5 @@ module.exports = {
   processColorModifications,
   tokenToCSSVariable,
   loadAllTokens,
-  createTypeScriptFiles,
-  generateIndexFile,
-  copySc2020Theme
+  createTypeScriptFiles
 }; 
