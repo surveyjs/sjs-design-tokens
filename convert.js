@@ -27,7 +27,9 @@ const THEME_CONFIG = [
       "--sjs2-color-utility-shadow-medium": "#004c441a",
       "--sjs2-color-bg-basic-secondary-dim": "#eaeaeaff",
       "--sjs2-color-bg-basic-secondary": "#f4f4f4ff",
-	    "--sjs2-color-bg-accent-secondary-dim": "#19b39440"
+	    "--sjs2-color-bg-accent-secondary-dim": "#19b39440",
+      "--sjs2-color-control-formbox-design-bg": "#f8f8f8ff",
+      "--sjs2-color-utility-shadow-surface-default": "#00000040"
     },
     products: ["survey-creator"]
   },
