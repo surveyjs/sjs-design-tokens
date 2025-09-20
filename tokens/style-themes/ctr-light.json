@@ -254,11 +254,11 @@
             "type": "color"
           },
           "secondary": {
-            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x010} )",
+            "value": "rgba( {sjs2.palette.gray.600}, {sjs2.opacity.x010} )",
             "type": "color"
           },
           "tertiary": {
-            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x000} )",
+            "value": "rgba( {sjs2.palette.gray.600}, {sjs2.opacity.x000} )",
             "type": "color"
           },
           "primary-dim": {
@@ -266,11 +266,11 @@
             "type": "color"
           },
           "secondary-dim": {
-            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x010} )",
+            "value": "rgba( {sjs2.palette.gray.600}, {sjs2.opacity.x010} )",
             "type": "color"
           },
           "tertiary-dim": {
-            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x005} )",
+            "value": "rgba( {sjs2.palette.gray.600}, {sjs2.opacity.x005} )",
             "type": "color"
           }
         },
