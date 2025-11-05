@@ -27,10 +27,10 @@ if exist "build\survey-creator" (
 REM Copy survey-analytics themes
 if exist "build\survey-analytics" (
     echo Copying survey-analytics themes...
-    if not exist "..\survey-analytics\src\utils\themes" (
-        echo Warning: ..\survey-analytics\src\utils\themes directory not found.
+    if not exist "..\survey-analytics\src\themes" (
+        echo Warning: ..\survey-analytics\src\themes directory not found.
     ) else (
-        xcopy "build\survey-analytics\*" "..\survey-analytics\src\utils\themes\" /Y /I
+        xcopy "build\survey-analytics\*" "..\survey-analytics\src\themes\" /Y /I
         if %errorlevel% equ 0 (
             echo Survey-analytics themes copied successfully.
         ) else (
