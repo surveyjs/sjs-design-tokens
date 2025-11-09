@@ -2436,5 +2436,16 @@
       "sjs2.border-offset.y.floating.default": "4b425cb388103d2dfdbb02ac79f34a798f7bedb4"
     },
     "group": "style-themes"
+  },
+  {
+    "id": "3f0f1a5a6385a8a344792410331c0b1cc54f01fd",
+    "name": "compact",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "base-unit": "source",
+      "common": "source",
+      "pdf-size-themes/compact": "enabled"
+    },
+    "group": "pdf-size-themes"
   }
 ]
