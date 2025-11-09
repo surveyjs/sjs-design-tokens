@@ -70,6 +70,14 @@
           "questions-gap-vertical": {
             "value": "0",
             "type": "spacing"
+          },
+          "matrix-gap-horizontal": {
+            "value": "0",
+            "type": "spacing"
+          },
+          "matrix-gap-vertical": {
+            "value": "0",
+            "type": "spacing"
           }
         },
         "title": {
@@ -109,6 +117,60 @@
           },
           "gap": {
             "value": "4",
+            "type": "spacing"
+          }
+        },
+        "check": {
+          "padding-vertical": {
+            "value": "0",
+            "type": "spacing"
+          },
+          "padding-horizontal": {
+            "value": "4",
+            "type": "spacing"
+          },
+          "gap": {
+            "value": "8",
+            "type": "spacing"
+          }
+        },
+        "matrix": {
+          "padding-vertical": {
+            "value": "0",
+            "type": "spacing"
+          },
+          "padding-horizontal": {
+            "value": "4",
+            "type": "spacing"
+          },
+          "gap": {
+            "value": "8",
+            "type": "spacing"
+          }
+        },
+        "question": {
+          "padding-vertical": {
+            "value": "8",
+            "type": "spacing"
+          },
+          "padding-horizontal": {
+            "value": "8",
+            "type": "spacing"
+          },
+          "gap": {
+            "value": "8",
+            "type": "spacing"
+          },
+          "labels-gap-vertical": {
+            "value": "4",
+            "type": "spacing"
+          },
+          "items-gap-vertical": {
+            "value": "4",
+            "type": "spacing"
+          },
+          "items-gap-horizontal": {
+            "value": "12",
             "type": "spacing"
           }
         }
