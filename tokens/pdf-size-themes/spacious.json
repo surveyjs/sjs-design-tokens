@@ -3,174 +3,174 @@
     "pdf": {
       "radius": {
         "question": {
-          "value": "8",
+          "value": "{sjs2.radius.x100}",
           "type": "borderRadius"
         },
         "matrix": {
-          "value": "8",
+          "value": "{sjs2.radius.x100}",
           "type": "borderRadius"
         },
         "checkbox": {
-          "value": "4",
+          "value": "{sjs2.radius.x050}",
           "type": "borderRadius"
         },
         "radio": {
-          "value": "9999",
+          "value": "{sjs2.radius.round}",
           "type": "borderRadius"
         },
         "section": {
-          "value": "8",
+          "value": "{sjs2.radius.x100}",
           "type": "borderRadius"
         }
       },
       "border-width": {
         "section": {
-          "value": "0",
+          "value": "{sjs2.border-width.x000}",
           "type": "borderWidth"
         },
         "question": {
-          "value": "1",
+          "value": "{sjs2.border-width.x100}",
           "type": "borderWidth"
         },
         "check": {
-          "value": "1",
+          "value": "{sjs2.border-width.x100}",
           "type": "borderWidth"
         }
       },
       "layout": {
         "page": {
           "padding-top": {
-            "value": "44",
+            "value": "{sjs2.spacing.x550}",
             "type": "spacing"
           },
           "padding-bottom": {
-            "value": "44",
+            "value": "{sjs2.spacing.x550}",
             "type": "spacing"
           },
           "padding-left": {
-            "value": "44",
+            "value": "{sjs2.spacing.x550}",
             "type": "spacing"
           },
           "padding-right": {
-            "value": "44",
+            "value": "{sjs2.spacing.x550}",
             "type": "spacing"
           },
           "gap-vertical": {
-            "value": "32",
+            "value": "{sjs2.spacing.x400}",
             "type": "spacing"
           },
           "gap-horizontal": {
-            "value": "32",
+            "value": "{sjs2.spacing.x400}",
             "type": "spacing"
           },
           "questions-gap-horizontal": {
-            "value": "8",
+            "value": "{sjs2.spacing.x100}",
             "type": "spacing"
           },
           "questions-gap-vertical": {
-            "value": "8",
+            "value": "{sjs2.spacing.x100}",
             "type": "spacing"
           },
           "matrix-gap-horizontal": {
-            "value": "8",
+            "value": "{sjs2.spacing.x100}",
             "type": "spacing"
           },
           "matrix-gap-vertical": {
-            "value": "8",
+            "value": "{sjs2.spacing.x100}",
             "type": "spacing"
           }
         },
         "title": {
           "large-gap": {
-            "value": "12",
+            "value": "{sjs2.spacing.x150}",
             "type": "spacing"
           },
           "large-padding-bottom": {
-            "value": "0",
+            "value": "{sjs2.spacing.x000}",
             "type": "spacing"
           },
           "medium-gap": {
-            "value": "8",
+            "value": "{sjs2.spacing.x100}",
             "type": "spacing"
           },
           "medium-padding-bottom": {
-            "value": "0",
+            "value": "{sjs2.spacing.x000}",
             "type": "spacing"
           },
           "default-gap": {
-            "value": "4",
+            "value": "{sjs2.spacing.x050}",
             "type": "spacing"
           },
           "default-padding-bottom": {
-            "value": "0",
+            "value": "{sjs2.spacing.x000}",
             "type": "spacing"
           }
         },
         "section": {
           "padding-vertical": {
-            "value": "8",
+            "value": "{sjs2.spacing.x100}",
             "type": "spacing"
           },
           "padding-horizontal": {
-            "value": "8",
+            "value": "{sjs2.spacing.x100}",
             "type": "spacing"
           },
           "gap": {
-            "value": "4",
+            "value": "{sjs2.spacing.x050}",
             "type": "spacing"
           }
         },
         "check": {
           "padding-vertical": {
-            "value": "0",
+            "value": "{sjs2.spacing.x000}",
             "type": "spacing"
           },
           "padding-horizontal": {
-            "value": "4",
+            "value": "{sjs2.spacing.x050}",
             "type": "spacing"
           },
           "gap": {
-            "value": "8",
+            "value": "{sjs2.spacing.x100}",
             "type": "spacing"
           }
         },
         "matrix": {
           "padding-vertical": {
-            "value": "0",
+            "value": "{sjs2.spacing.x000}",
             "type": "spacing"
           },
           "padding-horizontal": {
-            "value": "4",
+            "value": "{sjs2.spacing.x050}",
             "type": "spacing"
           },
           "gap": {
-            "value": "8",
+            "value": "{sjs2.spacing.x100}",
             "type": "spacing"
           }
         },
         "question": {
           "padding-vertical": {
-            "value": "8",
+            "value": "{sjs2.spacing.x100}",
             "type": "spacing"
           },
           "padding-horizontal": {
-            "value": "8",
+            "value": "{sjs2.spacing.x100}",
             "type": "spacing"
           },
           "gap": {
-            "value": "8",
+            "value": "{sjs2.spacing.x100}",
             "type": "spacing"
           },
           "labels-gap-vertical": {
-            "value": "4",
+            "value": "{sjs2.spacing.x050}",
             "type": "spacing"
           },
           "items-gap-vertical": {
-            "value": "4",
+            "value": "{sjs2.spacing.x050}",
             "type": "spacing"
           },
           "items-gap-horizontal": {
-            "value": "12",
+            "value": "{sjs2.spacing.x150}",
             "type": "spacing"
           }
         }
