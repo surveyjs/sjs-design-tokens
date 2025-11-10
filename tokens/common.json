@@ -227,6 +227,10 @@
         "value": "{sjs2.base-unit.spacing} * 5",
         "type": "spacing"
       },
+      "x550": {
+        "value": "{sjs2.base-unit.spacing} * 5.5",
+        "type": "spacing"
+      },
       "x600": {
         "value": "{sjs2.base-unit.spacing} * 6",
         "type": "spacing"
