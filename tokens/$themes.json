@@ -2487,7 +2487,8 @@
       "sjs2.pdf.layout.question.gap": "9dd1158e7f2d363d941d9f2ebcf6f42aa4ea4e4f",
       "sjs2.pdf.layout.question.labels-gap-vertical": "f678d88c2b8a021bd56556449a2f6ad731ef200d",
       "sjs2.pdf.layout.question.items-gap-vertical": "c3b21779da9e5d1088ae86d24d7d5803391d7745",
-      "sjs2.pdf.layout.question.items-gap-horizontal": "f6843a7c651e46a3ccc4feab9f3a682ae4610782"
+      "sjs2.pdf.layout.question.items-gap-horizontal": "f6843a7c651e46a3ccc4feab9f3a682ae4610782",
+      "sjs2.pdf.layout.image-picker.items-gap-image-check": "7226b66829ad2c2ff372f85a53c1be7a290b5c34"
     },
     "group": "pdf-size-themes"
   },
@@ -2542,7 +2543,8 @@
       "sjs2.pdf.layout.question.gap": "9dd1158e7f2d363d941d9f2ebcf6f42aa4ea4e4f",
       "sjs2.pdf.layout.question.labels-gap-vertical": "f678d88c2b8a021bd56556449a2f6ad731ef200d",
       "sjs2.pdf.layout.question.items-gap-vertical": "c3b21779da9e5d1088ae86d24d7d5803391d7745",
-      "sjs2.pdf.layout.question.items-gap-horizontal": "f6843a7c651e46a3ccc4feab9f3a682ae4610782"
+      "sjs2.pdf.layout.question.items-gap-horizontal": "f6843a7c651e46a3ccc4feab9f3a682ae4610782",
+      "sjs2.pdf.layout.image-picker.items-gap-image-check": "7226b66829ad2c2ff372f85a53c1be7a290b5c34"
     }
   }
 ]
