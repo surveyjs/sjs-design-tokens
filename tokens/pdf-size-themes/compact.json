@@ -173,6 +173,12 @@
             "value": "{sjs2.spacing.x150}",
             "type": "spacing"
           }
+        },
+        "image-picker": {
+          "items-gap-image-check": {
+            "value": "{sjs2.spacing.x000}",
+            "type": "spacing"
+          }
         }
       }
     }
