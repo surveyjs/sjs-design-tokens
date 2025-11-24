@@ -138,6 +138,49 @@ function filterComplexTokens(cssVariables) {
   return filtered;
 }
 
+// Function to check if a CSS variable name represents a size value
+function isSizeVariable(varName) {
+  const sizeKeywords = [
+    'spread', 'blur', 'offset-x', 'offset-y', 'offset',
+    'width', 'height', 'size', 'radius', 'spacing',
+    'padding', 'margin', 'gap', 'border-width'
+  ];
+  return sizeKeywords.some(keyword => varName.includes(keyword));
+}
+
+// Function to add "px" to numeric size values
+function addPxToSizeValues(cssVariables) {
+  const processed = {};
+  for (const [key, value] of Object.entries(cssVariables)) {
+    if (isSizeVariable(key)) {
+      // If it's a string that's just a number, add "px"
+      if (typeof value === 'string') {
+        const trimmedValue = value.trim();
+        // Check if the string is a valid number without units or functions
+        const numValue = parseFloat(trimmedValue);
+        const isNumericString = !isNaN(numValue) && 
+            /^-?\d+(\.\d+)?$/.test(trimmedValue) &&
+            !trimmedValue.includes('px') && !trimmedValue.includes('%') && 
+            !trimmedValue.includes('em') && !trimmedValue.includes('rem') &&
+            !trimmedValue.includes('var(') && !trimmedValue.includes('calc(') &&
+            !trimmedValue.includes('rgb') && !trimmedValue.includes('hsl');
+        if (isNumericString) {
+          processed[key] = `${trimmedValue}px`;
+        } else {
+          processed[key] = value;
+        }
+      } else if (typeof value === 'number') {
+        processed[key] = `${value}px`;
+      } else {
+        processed[key] = value;
+      }
+    } else {
+      processed[key] = value;
+    }
+  }
+  return processed;
+}
+
 // Function for resolving token references
 function resolveTokenReference(tokenPath) {
   const pathParts = tokenPath.split('.');
@@ -467,9 +510,15 @@ function createTypeScriptFiles() {
       // Filter complex objects
       const filteredCssVariables = filterComplexTokens(cssVariables);
       
+      // Add "px" to numeric size values
+      const sizeProcessedCssVariables = addPxToSizeValues(filteredCssVariables);
+      
       // patch variables
       const patch = themeConfig.patch || {};
-      const patchedCssVariables = {...filteredCssVariables, ...patch};
+      const patchedCssVariables = {...sizeProcessedCssVariables, ...patch};
+      
+      // Add "px" to numeric size values in patched variables as well
+      const finalCssVariables = addPxToSizeValues(patchedCssVariables);
       
 
       // Create output object
@@ -477,7 +526,7 @@ function createTypeScriptFiles() {
         themeName: themeName,
         iconSet: themeConfig.iconSet,
         isLight: themeConfig.isLight,
-        cssVariables: patchedCssVariables
+        cssVariables: finalCssVariables
       };
       
       // Generate TypeScript content with embedded data
