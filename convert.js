@@ -80,7 +80,7 @@ const THEME_CONFIG = [
     products: ["survey-creator"]
   },
   {
-    objectName: "Default",
+    objectName: "DefaultLight",
     themeName: "default-light",
     iconSet: "v2",
     isLight: true,
