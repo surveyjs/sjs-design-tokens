@@ -3,14 +3,16 @@
     "base-unit",
     "common",
     "palette",
-    "size-themes/default",
-    "size-themes/default-panelless",
     "pdf-size-themes/compact",
     "pdf-size-themes/spacious",
+    "size-themes/default",
+    "size-themes/default-panelless",
+    "size-themes/2020",
     "typography-themes/default",
     "style-themes/ctr-light",
     "style-themes/ctr-dark",
     "style-themes/ctr-contrast",
+    "style-themes/ctr-2020",
     "style-themes/dsb-light",
     "style-themes/pdf-light"
   ]
