@@ -3090,14 +3090,13 @@
   },
   {
     "id": "1fc93d8ef6e9072e2d65be9fb3d9c6386c62092e",
-    "name": "2020",
+    "name": "ctr-2020",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "base-unit": "source",
       "common": "source",
-      "size-themes/2020": "enabled"
+      "size-themes/ctr-2020": "enabled"
     },
-    "group": "size-themes",
     "$figmaCollectionId": "VariableCollectionId:174:1018",
     "$figmaModeId": "743:1",
     "$figmaVariableReferences": {
@@ -3244,6 +3243,7 @@
       "sjs2.size.icon.medium": "856f10fa54b29ea58b78bddf19d01467d7dd8192",
       "sjs2.size.icon.large": "dd53dbaa7fc4fee651d768f9665e18d7b34b72eb",
       "sjs2.is-panelless": "8e40408cba79da3c8a0b300f5018a9c187b35f16"
-    }
+    },
+    "group": "size-themes"
   }
 ]
