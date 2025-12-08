@@ -1278,7 +1278,7 @@
               "type": "color"
             },
             "fg": {
-              "value": "{sjs2.color.fg.basic.tertiary}",
+              "value": "{sjs2.color.fg.brand.primary-disabled}",
               "type": "color"
             },
             "thumb": {
@@ -1286,7 +1286,7 @@
               "type": "color"
             },
             "dot": {
-              "value": "{sjs2.color.fg.state.common-disabled}",
+              "value": "{sjs2.color.fg.brand.primary-disabled}",
               "type": "color"
             },
             "thumb-border": {
