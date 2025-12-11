@@ -1724,13 +1724,13 @@
       },
       "elevated": {
         "default": {
-          "value": 2,
+          "value": 0,
           "type": "number"
         }
       },
       "floating": {
         "default": {
-          "value": 4,
+          "value": 0,
           "type": "number"
         }
       }

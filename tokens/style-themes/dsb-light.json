@@ -1724,13 +1724,13 @@
       },
       "elevated": {
         "default": {
-          "value": "2",
+          "value": 0,
           "type": "number"
         }
       },
       "floating": {
         "default": {
-          "value": "4",
+          "value": 0,
           "type": "number"
         }
       }
@@ -1828,13 +1828,13 @@
       },
       "elevated": {
         "default": {
-          "value": "8",
+          "value": 12,
           "type": "number"
         }
       },
       "floating": {
         "default": {
-          "value": "12",
+          "value": 20,
           "type": "number"
         }
       }
