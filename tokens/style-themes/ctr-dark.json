@@ -119,19 +119,19 @@
               "type": "color"
             },
             "dragging": {
-              "value": "rgba( #004C44, {sjs2.opacity.x025} )",
+              "value": "rgba( #004C44, {sjs2.opacity.x010} )",
               "type": "color"
             }
           },
           "elevated": {
             "default": {
-              "value": "rgba( #004C44, {sjs2.opacity.x015} )",
+              "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x040} )",
               "type": "color"
             }
           },
           "floating": {
             "default": {
-              "value": "rgba( #004C44, {sjs2.opacity.x020} )",
+              "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x060} )",
               "type": "color"
             }
           }

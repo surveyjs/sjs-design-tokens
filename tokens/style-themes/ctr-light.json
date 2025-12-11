@@ -125,13 +125,13 @@
           },
           "elevated": {
             "default": {
-              "value": "rgba( #004C44, {sjs2.opacity.x015} )",
+              "value": "rgba( #004C44, {sjs2.opacity.x010} )",
               "type": "color"
             }
           },
           "floating": {
             "default": {
-              "value": "rgba( #004C44, {sjs2.opacity.x020} )",
+              "value": "rgba( #004C44, {sjs2.opacity.x015} )",
               "type": "color"
             }
           }
