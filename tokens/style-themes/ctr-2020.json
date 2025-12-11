@@ -577,11 +577,19 @@
           "primary": {
             "value": "{sjs2.color.project.brand.600}",
             "type": "color"
+          },
+          "on-primary": {
+            "value": "{sjs2.palette.gray.000}",
+            "type": "color"
           }
         },
         "accent": {
           "primary": {
             "value": "{sjs2.color.project.accent.600}",
+            "type": "color"
+          },
+          "on-primary": {
+            "value": "{sjs2.palette.gray.000}",
             "type": "color"
           }
         },
@@ -589,11 +597,19 @@
           "primary": {
             "value": "{sjs2.palette.blue.600}",
             "type": "color"
+          },
+          "on-primary": {
+            "value": "{sjs2.palette.gray.000}",
+            "type": "color"
           }
         },
         "positive": {
           "primary": {
             "value": "{sjs2.palette.green.600}",
+            "type": "color"
+          },
+          "on-primary": {
+            "value": "{sjs2.palette.gray.000}",
             "type": "color"
           }
         },
@@ -601,16 +617,28 @@
           "primary": {
             "value": "{sjs2.palette.yellow.600}",
             "type": "color"
+          },
+          "on-primary": {
+            "value": "{sjs2.palette.gray.000}",
+            "type": "color"
           }
         },
         "alert": {
           "primary": {
             "value": "{sjs2.palette.red.600}",
             "type": "color"
+          },
+          "on-primary": {
+            "value": "{sjs2.palette.gray.000}",
+            "type": "color"
           }
         },
         "neutral": {
           "primary": {
+            "value": "{sjs2.palette.gray.000}",
+            "type": "color"
+          },
+          "on-primary": {
             "value": "{sjs2.palette.gray.000}",
             "type": "color"
           }
