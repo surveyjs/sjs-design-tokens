@@ -144,23 +144,23 @@
             "type": "color"
           },
           "secondary": {
-            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x005} )",
+            "value": "{sjs2.palette.gray.100}",
             "type": "color"
           },
           "tertiary": {
-            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x010} )",
+            "value": "{sjs2.palette.gray.150}",
             "type": "color"
           },
           "primary-dim": {
-            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x005} )",
+            "value": "{sjs2.palette.gray.100}",
             "type": "color"
           },
           "secondary-dim": {
-            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x010} )",
+            "value": "{sjs2.palette.gray.150}",
             "type": "color"
           },
           "tertiary-dim": {
-            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x015} )",
+            "value": "{sjs2.palette.gray.200}",
             "type": "color"
           },
           "primary-disabled": {
@@ -174,7 +174,7 @@
             "type": "color"
           },
           "secondary": {
-            "value": "rgba( {sjs2.palette.gray.600}, {sjs2.opacity.x010} )",
+            "value": "{sjs2.palette.gray.100}",
             "type": "color"
           },
           "tertiary": {
@@ -186,7 +186,7 @@
             "type": "color"
           },
           "secondary-dim": {
-            "value": "rgba( {sjs2.palette.gray.600}, {sjs2.opacity.x010} )",
+            "value": "{sjs2.palette.gray.150}",
             "type": "color"
           },
           "tertiary-dim": {
