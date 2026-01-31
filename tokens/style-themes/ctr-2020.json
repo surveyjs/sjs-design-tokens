@@ -72,24 +72,16 @@
           "value": "{sjs2.palette.gray.000}",
           "type": "color"
         },
-        "surface": {
-          "value": "#F3F3F3",
-          "type": "color"
-        },
-        "surface-muted": {
-          "value": "#F3F3F3",
-          "type": "color"
-        },
         "sheet": {
           "value": "{sjs2.palette.gray.000}",
           "type": "color"
         },
-        "scrollbar": {
-          "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x015} )",
-          "type": "color"
-        },
         "a11y": {
           "value": "rgba( {sjs2.palette.blue.400}, {sjs2.opacity.x060} )",
+          "type": "color"
+        },
+        "scrollbar": {
+          "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x015} )",
           "type": "color"
         },
         "overlay": {
@@ -97,7 +89,7 @@
           "type": "color"
         },
         "shadow": {
-          "surface": {
+          "on-surface": {
             "default": {
               "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x010} )",
               "type": "color"
@@ -134,6 +126,80 @@
               "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x020} )",
               "type": "color"
             }
+          }
+        },
+        "chrome": {
+          "toolbox": {
+            "value": "{sjs2.palette.gray.000}",
+            "type": "color",
+            "description": "background color for Toolbox panel (left panel)"
+          },
+          "property-grid": {
+            "value": "{sjs2.palette.gray.000}",
+            "type": "color",
+            "description": "background color for Property Grid panel (right panel)"
+          },
+          "tabs": {
+            "value": "{sjs2.palette.gray.000}",
+            "type": "color",
+            "description": "background color for Tabs panel (top panel above all)"
+          }
+        },
+        "surface": {
+          "survey": {
+            "value": "#F3F3F3",
+            "type": "color",
+            "description": "surface color for the real Survey on the user's side"
+          },
+          "designer": {
+            "value": "#F3F3F3",
+            "type": "color",
+            "description": "surface color for Designer tab"
+          },
+          "presets-manager": {
+            "value": "#1c1b200d",
+            "type": "color",
+            "description": "surface color for Presets Configuration Manager"
+          },
+          "dashboard": {
+            "value": "{sjs2.color.utility.surface.survey}",
+            "type": "color",
+            "description": "surface color for Dashboards on the user's side"
+          },
+          "preview": {
+            "value": "{sjs2.color.utility.surface.survey}",
+            "type": "color",
+            "description": "surface color for Preview tab"
+          },
+          "themes": {
+            "value": "{sjs2.color.utility.surface.survey}",
+            "type": "color",
+            "description": "surface color for Themes tab"
+          },
+          "logic": {
+            "value": "{sjs2.color.utility.surface.designer}",
+            "type": "color",
+            "description": "surface color for Logic tab"
+          },
+          "json-editor": {
+            "value": "{sjs2.color.utility.surface.designer}",
+            "type": "color",
+            "description": "surface color for JSON Editor tab"
+          },
+          "translations": {
+            "value": "{sjs2.color.utility.surface.designer}",
+            "type": "color",
+            "description": "surface color for Translations tab"
+          },
+          "embed-survey": {
+            "value": "{sjs2.color.utility.surface.designer}",
+            "type": "color",
+            "description": "surface color for Embed Survey tab"
+          },
+          "embed-creator": {
+            "value": "{sjs2.color.utility.surface.designer}",
+            "type": "color",
+            "description": "surface color for Embed Creator tab"
           }
         }
       },

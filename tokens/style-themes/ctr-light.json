@@ -14,11 +14,13 @@
                   "space": "hsl"
                 }
               }
-            }
+            },
+            "description": "auto-generated light version of main brand color"
           },
           "600": {
             "value": "#19B394",
-            "type": "color"
+            "type": "color",
+            "description": "main brand color of your project"
           },
           "700": {
             "value": "{sjs2.color.project.brand.600}",
@@ -31,7 +33,8 @@
                   "space": "hsl"
                 }
               }
-            }
+            },
+            "description": "auto-generated dark version of main brand color"
           }
         },
         "accent": {
@@ -46,11 +49,13 @@
                   "space": "hsl"
                 }
               }
-            }
+            },
+            "description": "auto-generated light version of additional brand color"
           },
           "600": {
             "value": "#19B394",
-            "type": "color"
+            "type": "color",
+            "description": "additional brand color of your project"
           },
           "700": {
             "value": "{sjs2.color.project.accent.600}",
@@ -63,76 +68,156 @@
                   "space": "hsl"
                 }
               }
-            }
+            },
+            "description": "auto-generated dark version of additional brand color"
           }
         }
       },
       "utility": {
         "body": {
           "value": "{sjs2.palette.gray.000}",
-          "type": "color"
-        },
-        "surface": {
-          "value": "#EDF9F7",
-          "type": "color"
-        },
-        "surface-muted": {
-          "value": "#1c1b200d",
-          "type": "color"
+          "type": "color",
+          "description": "the very basic underlying page background color"
         },
         "sheet": {
           "value": "{sjs2.palette.gray.000}",
-          "type": "color"
-        },
-        "scrollbar": {
-          "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x015} )",
-          "type": "color"
+          "type": "color",
+          "description": "background color for drop, bottomsheet and modal"
         },
         "a11y": {
           "value": "rgba( {sjs2.palette.blue.400}, {sjs2.opacity.x060} )",
-          "type": "color"
+          "type": "color",
+          "description": "tab-focus border color"
+        },
+        "scrollbar": {
+          "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x015} )",
+          "type": "color",
+          "description": "scrollbar color"
         },
         "overlay": {
           "value": "rgba( {sjs2.palette.gray.700}, {sjs2.opacity.x060} )",
-          "type": "color"
+          "type": "color",
+          "description": "color for overlay behind modal and bottomsheet"
+        },
+        "chrome": {
+          "toolbox": {
+            "value": "{sjs2.palette.gray.000}",
+            "type": "color",
+            "description": "background color for Toolbox panel (left panel)"
+          },
+          "property-grid": {
+            "value": "{sjs2.palette.gray.000}",
+            "type": "color",
+            "description": "background color for Property Grid panel (right panel)"
+          },
+          "tabs": {
+            "value": "{sjs2.palette.gray.000}",
+            "type": "color",
+            "description": "background color for Tabs panel (top panel above all)"
+          }
+        },
+        "surface": {
+          "survey": {
+            "value": "#1c1b200d",
+            "type": "color",
+            "description": "surface color for the real Survey on the user's side"
+          },
+          "designer": {
+            "value": "#EDF9F7",
+            "type": "color",
+            "description": "surface color for Designer tab"
+          },
+          "presets-manager": {
+            "value": "#1c1b200d",
+            "type": "color",
+            "description": "surface color for Presets Configuration Manager"
+          },
+          "dashboard": {
+            "value": "{sjs2.color.utility.surface.survey}",
+            "type": "color",
+            "description": "surface color for Dashboards on the user's side"
+          },
+          "preview": {
+            "value": "{sjs2.color.utility.surface.survey}",
+            "type": "color",
+            "description": "surface color for Preview tab"
+          },
+          "themes": {
+            "value": "{sjs2.color.utility.surface.survey}",
+            "type": "color",
+            "description": "surface color for Themes tab"
+          },
+          "logic": {
+            "value": "{sjs2.color.utility.surface.designer}",
+            "type": "color",
+            "description": "surface color for Logic tab"
+          },
+          "json-editor": {
+            "value": "{sjs2.color.utility.surface.designer}",
+            "type": "color",
+            "description": "surface color for JSON Editor tab"
+          },
+          "translations": {
+            "value": "{sjs2.color.utility.surface.designer}",
+            "type": "color",
+            "description": "surface color for Translations tab"
+          },
+          "embed-survey": {
+            "value": "{sjs2.color.utility.surface.designer}",
+            "type": "color",
+            "description": "surface color for Embed Survey tab"
+          },
+          "embed-creator": {
+            "value": "{sjs2.color.utility.surface.designer}",
+            "type": "color",
+            "description": "surface color for Embed Creator tab"
+          }
         },
         "shadow": {
-          "surface": {
+          "on-surface": {
             "default": {
               "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x010} )",
-              "type": "color"
+              "type": "color",
+              "description": "shadow (or border effect) color for interactive and non-interactive elements located on surface, state: default"
             },
             "hovered": {
               "value": "rgba( {sjs2.color.project.brand.600}, {sjs2.opacity.x040} )",
-              "type": "color"
+              "type": "color",
+              "description": "shadow (or border effect) color for interactive elements located on surface, state: hovered"
             },
             "pressed": {
               "value": "{sjs2.color.project.brand.600}",
-              "type": "color"
+              "type": "color",
+              "description": "shadow (or border effect) color for interactive elements located on surface, state: pressed"
             },
             "focused": {
               "value": "{sjs2.color.project.brand.600}",
-              "type": "color"
+              "type": "color",
+              "description": "shadow (or border effect) color for interactive elements located on surface, state: focused"
             },
             "disabled": {
               "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x010} )",
-              "type": "color"
+              "type": "color",
+              "description": "shadow (or border effect) color for interactive elements located on surface, state: disabled"
             },
             "dragging": {
               "value": "rgba( #004C44, {sjs2.opacity.x015} )",
-              "type": "color"
+              "type": "color",
+              "description": "shadow (or border effect) color for interactive elements located on surface, state: dragging"
             }
           },
           "elevated": {
             "default": {
               "value": "rgba( #004C44, {sjs2.opacity.x010} )",
-              "type": "color"
+              "type": "color",
+              "description": "shadow (or border effect) color for elevated elements, such as tooltip"
             }
           },
           "floating": {
             "default": {
               "value": "rgba( #004C44, {sjs2.opacity.x015} )",
-              "type": "color"
+              "type": "color",
+              "description": "shadow (or border effect) color for floating elements"
             }
           }
         }
@@ -836,61 +921,73 @@
             "default": {
               "bg": {
                 "value": "{sjs2.palette.gray.100}",
-                "type": "color"
+                "type": "color",
+                "description": "checkbox & radiobutton background color, is checked: false, state: default"
               },
               "border": {
                 "value": "{sjs2.color.border.basic.secondary}",
-                "type": "color"
+                "type": "color",
+                "description": "checkbox & radiobutton border color, is checked: false, state: default"
               }
             },
             "disabled": {
               "bg": {
                 "value": "{sjs2.palette.gray.000}",
-                "type": "color"
+                "type": "color",
+                "description": "checkbox & radiobutton background color, is checked: false, state: disabled"
               },
               "border": {
                 "value": "{sjs2.palette.gray.100}",
-                "type": "color"
+                "type": "color",
+                "description": "checkbox & radiobutton border color, is checked: false, state: disabled"
               }
             },
             "readonly": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.primary}",
-                "type": "color"
+                "type": "color",
+                "description": "checkbox & radiobutton background color, is checked: false, state: readonly"
               },
               "border": {
                 "value": "{sjs2.color.border.basic.secondary}",
-                "type": "color"
+                "type": "color",
+                "description": "checkbox & radiobutton border color, is checked: false, state: readonly"
               }
             },
             "focused": {
               "bg": {
                 "value": "{sjs2.palette.gray.100}",
-                "type": "color"
+                "type": "color",
+                "description": "checkbox & radiobutton background color, is checked: false, state: focused"
               },
               "border": {
                 "value": "{sjs2.color.border.brand.primary}",
-                "type": "color"
+                "type": "color",
+                "description": "checkbox & radiobutton border color, is checked: false, state: focused"
               }
             },
             "hovered": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.secondary-dim}",
-                "type": "color"
+                "type": "color",
+                "description": "checkbox & radiobutton background color, is checked: false, state: hovered"
               },
               "border": {
                 "value": "{sjs2.color.border.basic.secondary}",
-                "type": "color"
+                "type": "color",
+                "description": "checkbox & radiobutton border color, is checked: false, state: hovered"
               }
             },
             "design": {
               "bg": {
                 "value": "{sjs2.palette.gray.100}",
-                "type": "color"
+                "type": "color",
+                "description": "checkbox & radiobutton background color, is checked: false, state: design"
               },
               "border": {
                 "value": "{sjs2.color.border.basic.secondary}",
-                "type": "color"
+                "type": "color",
+                "description": "checkbox & radiobutton border color, is checked: false, state: design"
               }
             }
           },
@@ -898,71 +995,86 @@
             "default": {
               "bg": {
                 "value": "{sjs2.color.bg.brand.primary}",
-                "type": "color"
+                "type": "color",
+                "description": "checkbox & radiobutton background color, is checked: true, state: default"
               },
               "border": {
                 "value": "{sjs2.color.border.brand.primary}",
-                "type": "color"
+                "type": "color",
+                "description": "checkbox & radiobutton border color, is checked: true, state: default"
               },
               "icon": {
                 "value": "{sjs2.color.fg.static-1.primary}",
-                "type": "color"
+                "type": "color",
+                "description": "checkbox & radiobutton icon color, is checked: true, state: default"
               }
             },
             "disabled": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.primary}",
-                "type": "color"
+                "type": "color",
+                "description": "checkbox & radiobutton background color, is checked: true, state: disabled"
               },
               "border": {
                 "value": "{sjs2.color.border.basic.secondary}",
-                "type": "color"
+                "type": "color",
+                "description": "checkbox & radiobutton border color, is checked: true, state: disabled"
               },
               "icon": {
                 "value": "{sjs2.palette.gray.400}",
-                "type": "color"
+                "type": "color",
+                "description": "checkbox & radiobutton icon color, is checked: true, state: disabled"
               }
             },
             "readonly": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.primary}",
-                "type": "color"
+                "type": "color",
+                "description": "checkbox & radiobutton background color, is checked: true, state: readonly"
               },
               "border": {
                 "value": "{sjs2.color.border.basic.secondary}",
-                "type": "color"
+                "type": "color",
+                "description": "checkbox & radiobutton border color, is checked: true, state: readonly"
               },
               "icon": {
                 "value": "{sjs2.palette.gray.400}",
-                "type": "color"
+                "type": "color",
+                "description": "checkbox & radiobutton icon color, is checked: true, state: readonly"
               }
             },
             "focused": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.primary}",
-                "type": "color"
+                "type": "color",
+                "description": "checkbox & radiobutton background color, is checked: true, state: focused"
               },
               "border": {
                 "value": "{sjs2.color.border.brand.primary}",
-                "type": "color"
+                "type": "color",
+                "description": "checkbox & radiobutton border color, is checked: true, state: focused"
               },
               "icon": {
                 "value": "{sjs2.color.fg.brand.primary}",
-                "type": "color"
+                "type": "color",
+                "description": "checkbox & radiobutton icon color, is checked: true, state: focused"
               }
             },
             "hovered": {
               "bg": {
                 "value": "{sjs2.color.bg.brand.primary-dim}",
-                "type": "color"
+                "type": "color",
+                "description": "checkbox & radiobutton background color, is checked: true, state: hovered"
               },
               "border": {
                 "value": "{sjs2.color.bg.brand.primary-dim}",
-                "type": "color"
+                "type": "color",
+                "description": "checkbox & radiobutton border color, is checked: true, state: hovered"
               },
               "icon": {
                 "value": "{sjs2.color.fg.static-1.primary}",
-                "type": "color"
+                "type": "color",
+                "description": "checkbox & radiobutton icon color, is checked: true, state: hovered"
               }
             }
           }
@@ -1408,6 +1520,84 @@
               "type": "color"
             }
           }
+        },
+        "action": {
+          "alert": {
+            "primary": {
+              "default": {
+                "bg": {
+                  "value": "{sjs2.color.bg.alert.primary}",
+                  "type": "color"
+                },
+                "border": {
+                  "value": "rgba( {sjs2.color.border.alert.primary}, {sjs2.opacity.hidden} )",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.alert.on-primary}",
+                  "type": "color"
+                },
+                "text": {
+                  "value": "{sjs2.color.fg.alert.on-primary}",
+                  "type": "color"
+                }
+              },
+              "hovered": {
+                "bg": {
+                  "value": "{sjs2.color.bg.alert.primary-dim}",
+                  "type": "color"
+                },
+                "border": {
+                  "value": "rgba( {sjs2.color.border.alert.primary}, {sjs2.opacity.hidden} )",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.alert.on-primary}",
+                  "type": "color"
+                },
+                "text": {
+                  "value": "{sjs2.color.fg.alert.on-primary}",
+                  "type": "color"
+                }
+              },
+              "pressed": {
+                "bg": {
+                  "value": "{sjs2.color.bg.alert.primary}",
+                  "type": "color"
+                },
+                "border": {
+                  "value": "rgba( {sjs2.color.border.alert.primary}, {sjs2.opacity.hidden} )",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.alert.on-primary}",
+                  "type": "color"
+                },
+                "text": {
+                  "value": "{sjs2.color.fg.alert.on-primary}",
+                  "type": "color"
+                }
+              },
+              "disabled": {
+                "bg": {
+                  "value": "{sjs2.color.bg.alert.primary-disabled}",
+                  "type": "color"
+                },
+                "border": {
+                  "value": "rgba( {sjs2.color.border.alert.primary}, {sjs2.opacity.hidden} )",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.alert.primary-disabled}",
+                  "type": "color"
+                },
+                "text": {
+                  "value": "{sjs2.color.fg.alert.primary-disabled}",
+                  "type": "color"
+                }
+              }
+            }
+          }
         }
       },
       "data": {
@@ -1718,19 +1908,19 @@
           "type": "number"
         },
         "dragging": {
-          "value": 4,
+          "value": "4",
           "type": "number"
         }
       },
       "elevated": {
         "default": {
-          "value": 0,
+          "value": "0",
           "type": "number"
         }
       },
       "floating": {
         "default": {
-          "value": 0,
+          "value": "0",
           "type": "number"
         }
       }
@@ -1738,103 +1928,103 @@
     "border-blur": {
       "form": {
         "default": {
-          "value": 0,
+          "value": "0",
           "type": "number"
         },
         "hovered": {
-          "value": 0,
+          "value": "0",
           "type": "number"
         },
         "pressed": {
-          "value": 0,
+          "value": "0",
           "type": "number"
         },
         "focused": {
-          "value": 0,
+          "value": "0",
           "type": "number"
         },
         "highlighted": {
-          "value": 0,
+          "value": "0",
           "type": "number"
         },
         "disabled": {
-          "value": 0,
+          "value": "0",
           "type": "number"
         },
         "invalid": {
-          "value": 0,
+          "value": "0",
           "type": "number"
         },
         "readonly": {
-          "value": 0,
+          "value": "0",
           "type": "number"
         },
         "preview": {
-          "value": 0,
+          "value": "0",
           "type": "number"
         }
       },
       "trigger": {
         "default": {
-          "value": 0,
+          "value": "0",
           "type": "number"
         },
         "hovered": {
-          "value": 0,
+          "value": "0",
           "type": "number"
         },
         "pressed": {
-          "value": 0,
+          "value": "0",
           "type": "number"
         },
         "focused": {
-          "value": 0,
+          "value": "0",
           "type": "number"
         },
         "disabled": {
-          "value": 0,
+          "value": "0",
           "type": "number"
         },
         "preview": {
-          "value": 0,
+          "value": "0",
           "type": "number"
         }
       },
       "surface": {
         "default": {
-          "value": 4,
+          "value": "4",
           "type": "number"
         },
         "hovered": {
-          "value": 0,
+          "value": "0",
           "type": "number"
         },
         "pressed": {
-          "value": 0,
+          "value": "0",
           "type": "number"
         },
         "focused": {
-          "value": 0,
+          "value": "0",
           "type": "number"
         },
         "disabled": {
-          "value": 0,
+          "value": "0",
           "type": "number"
         },
         "dragging": {
-          "value": 12,
+          "value": "12",
           "type": "number"
         }
       },
       "elevated": {
         "default": {
-          "value": 12,
+          "value": "12",
           "type": "number"
         }
       },
       "floating": {
         "default": {
-          "value": 20,
+          "value": "20",
           "type": "number"
         }
       }
@@ -1843,103 +2033,103 @@
       "x": {
         "form": {
           "default": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "hovered": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "pressed": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "focused": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "highlighted": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "disabled": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "invalid": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "readonly": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "preview": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           }
         },
         "trigger": {
           "default": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "hovered": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "pressed": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "focused": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "disabled": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "preview": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           }
         },
         "surface": {
           "default": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "hovered": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "pressed": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "focused": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "disabled": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "dragging": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           }
         },
         "elevated": {
           "default": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           }
         },
         "floating": {
           "default": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           }
         }
@@ -1947,103 +2137,103 @@
       "y": {
         "form": {
           "default": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "hovered": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "pressed": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "focused": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "highlighted": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "disabled": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "invalid": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "readonly": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "preview": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           }
         },
         "trigger": {
           "default": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "hovered": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "pressed": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "focused": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "disabled": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "preview": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           }
         },
         "surface": {
           "default": {
-            "value": 2,
+            "value": "2",
             "type": "number"
           },
           "hovered": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "pressed": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "focused": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "disabled": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "dragging": {
-            "value": 6,
+            "value": "6",
             "type": "number"
           }
         },
         "elevated": {
           "default": {
-            "value": 4,
+            "value": "4",
             "type": "number"
           }
         },
         "floating": {
           "default": {
-            "value": 6,
+            "value": "6",
             "type": "number"
           }
         }
