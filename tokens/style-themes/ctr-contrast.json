@@ -89,7 +89,7 @@
           "type": "color"
         },
         "shadow": {
-          "on-surface": {
+          "surface": {
             "default": {
               "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x010} )",
               "type": "color"
@@ -2629,7 +2629,7 @@
           "value": "{sjs2.border-width.x100}",
           "type": "number"
         },
-        "preview": {
+        "design": {
           "value": "{sjs2.border-width.x100}",
           "type": "number"
         }
@@ -2655,7 +2655,7 @@
           "value": "{sjs2.border-width.x100}",
           "type": "number"
         },
-        "preview": {
+        "design": {
           "value": "{sjs2.border-width.x100}",
           "type": "number"
         }
@@ -2733,7 +2733,7 @@
           "value": "0",
           "type": "number"
         },
-        "preview": {
+        "design": {
           "value": "0",
           "type": "number"
         }
@@ -2759,7 +2759,7 @@
           "value": "0",
           "type": "number"
         },
-        "preview": {
+        "design": {
           "value": "0",
           "type": "number"
         }
@@ -2838,7 +2838,7 @@
             "value": "0",
             "type": "number"
           },
-          "preview": {
+          "design": {
             "value": "0",
             "type": "number"
           }
@@ -2864,7 +2864,7 @@
             "value": "0",
             "type": "number"
           },
-          "preview": {
+          "design": {
             "value": "0",
             "type": "number"
           }
@@ -2942,7 +2942,7 @@
             "value": "0",
             "type": "number"
           },
-          "preview": {
+          "design": {
             "value": "0",
             "type": "number"
           }
@@ -2968,7 +2968,7 @@
             "value": "0",
             "type": "number"
           },
-          "preview": {
+          "design": {
             "value": "0",
             "type": "number"
           }
