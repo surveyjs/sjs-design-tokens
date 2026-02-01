@@ -1537,7 +1537,7 @@
                   "value": "{sjs2.color.fg.alert.on-primary}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.alert.on-primary}",
                   "type": "color"
                 }
@@ -1555,7 +1555,7 @@
                   "value": "{sjs2.color.fg.alert.on-primary}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.alert.on-primary}",
                   "type": "color"
                 }
@@ -1573,7 +1573,7 @@
                   "value": "{sjs2.color.fg.alert.on-primary}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.alert.on-primary}",
                   "type": "color"
                 }
@@ -1591,7 +1591,7 @@
                   "value": "{sjs2.color.fg.alert.primary-disabled}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.alert.primary-disabled}",
                   "type": "color"
                 }
@@ -1611,7 +1611,7 @@
                   "value": "{sjs2.color.fg.alert.primary}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.alert.primary}",
                   "type": "color"
                 }
@@ -1629,7 +1629,7 @@
                   "value": "{sjs2.color.fg.alert.primary}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.alert.primary}",
                   "type": "color"
                 }
@@ -1647,7 +1647,7 @@
                   "value": "{sjs2.color.fg.alert.primary}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.alert.primary}",
                   "type": "color"
                 }
@@ -1665,7 +1665,7 @@
                   "value": "{sjs2.color.fg.alert.primary-disabled}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.alert.primary-disabled}",
                   "type": "color"
                 }
@@ -1685,7 +1685,7 @@
                   "value": "{sjs2.color.fg.alert.primary}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.alert.primary}",
                   "type": "color"
                 }
@@ -1703,7 +1703,7 @@
                   "value": "{sjs2.color.fg.alert.primary}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.alert.primary}",
                   "type": "color"
                 }
@@ -1721,7 +1721,7 @@
                   "value": "{sjs2.color.fg.alert.primary}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.alert.primary}",
                   "type": "color"
                 }
@@ -1739,7 +1739,7 @@
                   "value": "{sjs2.color.fg.alert.primary-disabled}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.alert.primary-disabled}",
                   "type": "color"
                 }
@@ -1761,7 +1761,7 @@
                   "value": "{sjs2.color.fg.brand.on-primary}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.brand.on-primary}",
                   "type": "color"
                 }
@@ -1779,7 +1779,7 @@
                   "value": "{sjs2.color.fg.brand.on-primary}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.brand.on-primary}",
                   "type": "color"
                 }
@@ -1797,7 +1797,7 @@
                   "value": "{sjs2.color.fg.brand.on-primary}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.brand.on-primary}",
                   "type": "color"
                 }
@@ -1815,7 +1815,7 @@
                   "value": "{sjs2.color.fg.brand.primary-disabled}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.brand.primary-disabled}",
                   "type": "color"
                 }
@@ -1835,7 +1835,7 @@
                   "value": "{sjs2.color.fg.brand.primary}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.brand.primary}",
                   "type": "color"
                 }
@@ -1853,7 +1853,7 @@
                   "value": "{sjs2.color.fg.brand.primary}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.brand.primary}",
                   "type": "color"
                 }
@@ -1871,7 +1871,7 @@
                   "value": "{sjs2.color.fg.brand.primary}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.brand.primary}",
                   "type": "color"
                 }
@@ -1889,7 +1889,7 @@
                   "value": "{sjs2.color.fg.brand.primary-disabled}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.brand.primary-disabled}",
                   "type": "color"
                 }
@@ -1909,7 +1909,7 @@
                   "value": "{sjs2.color.fg.brand.primary}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.brand.primary}",
                   "type": "color"
                 }
@@ -1927,7 +1927,7 @@
                   "value": "{sjs2.color.fg.brand.primary}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.brand.primary}",
                   "type": "color"
                 }
@@ -1945,7 +1945,7 @@
                   "value": "{sjs2.color.fg.brand.primary}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.brand.primary}",
                   "type": "color"
                 }
@@ -1963,7 +1963,7 @@
                   "value": "{sjs2.color.fg.brand.primary-disabled}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.brand.primary-disabled}",
                   "type": "color"
                 }
@@ -1985,7 +1985,7 @@
                   "value": "{sjs2.color.fg.accent.on-primary}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.accent.on-primary}",
                   "type": "color"
                 }
@@ -2003,7 +2003,7 @@
                   "value": "{sjs2.color.fg.accent.on-primary}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.accent.on-primary}",
                   "type": "color"
                 }
@@ -2021,7 +2021,7 @@
                   "value": "{sjs2.color.fg.accent.on-primary}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.accent.on-primary}",
                   "type": "color"
                 }
@@ -2039,7 +2039,7 @@
                   "value": "{sjs2.color.fg.accent.primary-disabled}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.accent.primary-disabled}",
                   "type": "color"
                 }
@@ -2059,7 +2059,7 @@
                   "value": "{sjs2.color.fg.accent.primary}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.accent.primary}",
                   "type": "color"
                 }
@@ -2077,7 +2077,7 @@
                   "value": "{sjs2.color.fg.accent.primary}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.accent.primary}",
                   "type": "color"
                 }
@@ -2095,7 +2095,7 @@
                   "value": "{sjs2.color.fg.accent.primary}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.accent.primary}",
                   "type": "color"
                 }
@@ -2113,7 +2113,7 @@
                   "value": "{sjs2.color.fg.accent.primary-disabled}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.accent.primary-disabled}",
                   "type": "color"
                 }
@@ -2133,7 +2133,7 @@
                   "value": "{sjs2.color.fg.accent.primary}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.accent.primary}",
                   "type": "color"
                 }
@@ -2151,7 +2151,7 @@
                   "value": "{sjs2.color.fg.accent.primary}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.accent.primary}",
                   "type": "color"
                 }
@@ -2169,7 +2169,7 @@
                   "value": "{sjs2.color.fg.accent.primary}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.accent.primary}",
                   "type": "color"
                 }
@@ -2187,7 +2187,7 @@
                   "value": "{sjs2.color.fg.accent.primary-disabled}",
                   "type": "color"
                 },
-                "text": {
+                "label": {
                   "value": "{sjs2.color.fg.accent.primary-disabled}",
                   "type": "color"
                 }
