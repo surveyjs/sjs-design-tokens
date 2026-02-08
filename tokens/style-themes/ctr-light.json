@@ -1567,73 +1567,89 @@
               "default": {
                 "bg": {
                   "value": "{sjs2.color.bg.alert.primary}",
-                  "type": "color"
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: primary, state: default."
                 },
                 "border": {
                   "value": "rgba( {sjs2.color.border.alert.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
+                  "type": "color",
+                  "description": "Button / action border color, style: alert, mode: primary, state: default."
                 },
                 "icon": {
                   "value": "{sjs2.color.fg.alert.on-primary}",
-                  "type": "color"
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: primary, state: default."
                 },
                 "label": {
                   "value": "{sjs2.color.fg.alert.on-primary}",
-                  "type": "color"
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: primary, state: default."
                 }
               },
               "hovered": {
                 "bg": {
                   "value": "{sjs2.color.bg.alert.primary-dim}",
-                  "type": "color"
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: primary, state: hovered."
                 },
                 "border": {
                   "value": "rgba( {sjs2.color.border.alert.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
+                  "type": "color",
+                  "description": "Button / action border color, style: alert, mode: primary, state: hovered."
                 },
                 "icon": {
                   "value": "{sjs2.color.fg.alert.on-primary}",
-                  "type": "color"
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: primary, state: hovered."
                 },
                 "label": {
                   "value": "{sjs2.color.fg.alert.on-primary}",
-                  "type": "color"
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: primary, state: hovered."
                 }
               },
               "pressed": {
                 "bg": {
                   "value": "{sjs2.color.bg.alert.primary}",
-                  "type": "color"
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: primary, state: pressed."
                 },
                 "border": {
                   "value": "rgba( {sjs2.color.border.alert.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
+                  "type": "color",
+                  "description": "Button / action border color, style: alert, mode: primary, state: pressed."
                 },
                 "icon": {
                   "value": "{sjs2.color.fg.alert.on-primary}",
-                  "type": "color"
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: primary, state: pressed."
                 },
                 "label": {
                   "value": "{sjs2.color.fg.alert.on-primary}",
-                  "type": "color"
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: primary, state: pressed."
                 }
               },
               "disabled": {
                 "bg": {
                   "value": "{sjs2.color.bg.alert.primary-disabled}",
-                  "type": "color"
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: primary, state: disabled."
                 },
                 "border": {
                   "value": "rgba( {sjs2.color.border.alert.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
+                  "type": "color",
+                  "description": "Button / action border color, style: alert, mode: primary, state: disabled."
                 },
                 "icon": {
                   "value": "{sjs2.color.fg.alert.primary-disabled}",
-                  "type": "color"
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: primary, state: disabled."
                 },
                 "label": {
                   "value": "{sjs2.color.fg.alert.primary-disabled}",
-                  "type": "color"
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: primary, state: disabled."
                 }
               }
             },
