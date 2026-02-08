@@ -111,19 +111,19 @@
               "type": "color"
             },
             "dragging": {
-              "value": "rgba( #004C44, {sjs2.opacity.x015} )",
+              "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x015} )",
               "type": "color"
             }
           },
           "elevated": {
             "default": {
-              "value": "rgba( #004C44, {sjs2.opacity.x015} )",
+              "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x015} )",
               "type": "color"
             }
           },
           "floating": {
             "default": {
-              "value": "rgba( #004C44, {sjs2.opacity.x020} )",
+              "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x020} )",
               "type": "color"
             }
           }
@@ -152,7 +152,7 @@
             "description": "surface color for the real Survey on the user's side"
           },
           "designer": {
-            "value": "#EDF9F7",
+            "value": "#1c1b200d",
             "type": "color",
             "description": "surface color for Designer tab"
           },
