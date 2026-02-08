@@ -2670,7 +2670,7 @@
           "type": "number"
         },
         "hovered": {
-          "value": "{sjs2.border-width.x100}",
+          "value": "{sjs2.border-width.x200}",
           "type": "number"
         },
         "pressed": {
