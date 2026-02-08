@@ -1324,57 +1324,69 @@
             "disabled": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.secondary}",
-                "type": "color"
+                "type": "color",
+                "description": "Switch / toggle background color, is checked: true, state: disabled."
               },
               "border": {
                 "value": "{sjs2.color.border.basic.secondary}",
-                "type": "color"
+                "type": "color",
+                "description": "Switch / toggle border color, is checked: true, state: disabled."
               },
               "thumb": {
                 "value": "{sjs2.color.fg.static-1.primary}",
-                "type": "color"
+                "type": "color",
+                "description": "Switch / toggle thumb color, is checked: true, state: disabled."
               }
             },
             "readonly": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.secondary}",
-                "type": "color"
+                "type": "color",
+                "description": "Switch / toggle background color, is checked: true, state: readonly."
               },
               "border": {
                 "value": "{sjs2.color.border.basic.secondary}",
-                "type": "color"
+                "type": "color",
+                "description": "Switch / toggle border color, is checked: true, state: readonly."
               },
               "thumb": {
                 "value": "{sjs2.color.fg.static-1.primary}",
-                "type": "color"
+                "type": "color",
+                "description": "Switch / toggle thumb color, is checked: true, state: readonly."
               }
             },
             "focused": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.primary}",
-                "type": "color"
+                "type": "color",
+                "description": "Switch / toggle background color, is checked: true, state: focused."
               },
               "border": {
                 "value": "{sjs2.color.border.brand.primary}",
-                "type": "color"
+                "type": "color",
+                "description": "Switch / toggle border color, is checked: true, state: focused."
               },
               "thumb": {
                 "value": "{sjs2.color.fg.brand.primary}",
-                "type": "color"
+                "type": "color",
+                "description": "Switch / toggle thumb color, is checked: true, state: focused."
               }
             },
             "hovered": {
               "bg": {
                 "value": "{sjs2.color.bg.brand.primary-dim}",
-                "type": "color"
+                "type": "color",
+                "description": "Switch / toggle background color, is checked: true, state: hovered."
               },
               "border": {
                 "value": "{sjs2.color.border.brand.primary}",
-                "type": "color"
+                "type": "color",
+                "description": "Switch / toggle border color, is checked: true, state: hovered."
               },
               "thumb": {
                 "value": "{sjs2.color.fg.static-1.primary}",
-                "type": "color"
+                "type": "color",
+                "description": "Switch / toggle thumb color, is checked: true, state: hovered."
               }
             }
           }
