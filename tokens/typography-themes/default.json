@@ -3,8 +3,8 @@
     "typography": {
       "large": {
         "value": {
-          "fontFamily": "{sjs2.typography.font-family.default}",
-          "fontWeight": "{sjs2.typography.font-weight.default}",
+          "fontFamily": "{sjs2.typography.font-family.text}",
+          "fontWeight": "{sjs2.typography.font-weight.basic}",
           "fontSize": "{sjs2.typography.font-size.large}",
           "lineHeight": "{sjs2.typography.line-height.large}"
         },
@@ -12,7 +12,7 @@
       },
       "large-strong": {
         "value": {
-          "fontFamily": "{sjs2.typography.font-family.default}",
+          "fontFamily": "{sjs2.typography.font-family.text}",
           "fontWeight": "{sjs2.typography.font-weight.strong}",
           "fontSize": "{sjs2.typography.font-size.large}",
           "lineHeight": "{sjs2.typography.line-height.large}"
@@ -21,8 +21,8 @@
       },
       "medium": {
         "value": {
-          "fontFamily": "{sjs2.typography.font-family.default}",
-          "fontWeight": "{sjs2.typography.font-weight.default}",
+          "fontFamily": "{sjs2.typography.font-family.text}",
+          "fontWeight": "{sjs2.typography.font-weight.basic}",
           "fontSize": "{sjs2.typography.font-size.medium}",
           "lineHeight": "{sjs2.typography.line-height.medium}"
         },
@@ -30,7 +30,7 @@
       },
       "medium-strong": {
         "value": {
-          "fontFamily": "{sjs2.typography.font-family.default}",
+          "fontFamily": "{sjs2.typography.font-family.text}",
           "fontWeight": "{sjs2.typography.font-weight.strong}",
           "fontSize": "{sjs2.typography.font-size.medium}",
           "lineHeight": "{sjs2.typography.line-height.medium}"
@@ -39,8 +39,8 @@
       },
       "default": {
         "value": {
-          "fontFamily": "{sjs2.typography.font-family.default}",
-          "fontWeight": "{sjs2.typography.font-weight.default}",
+          "fontFamily": "{sjs2.typography.font-family.text}",
+          "fontWeight": "{sjs2.typography.font-weight.basic}",
           "fontSize": "{sjs2.typography.font-size.default}",
           "lineHeight": "{sjs2.typography.line-height.default}"
         },
@@ -48,7 +48,7 @@
       },
       "default-strong": {
         "value": {
-          "fontFamily": "{sjs2.typography.font-family.default}",
+          "fontFamily": "{sjs2.typography.font-family.text}",
           "fontWeight": "{sjs2.typography.font-weight.strong}",
           "fontSize": "{sjs2.typography.font-size.default}",
           "lineHeight": "{sjs2.typography.line-height.default}"
@@ -57,8 +57,8 @@
       },
       "small": {
         "value": {
-          "fontFamily": "{sjs2.typography.font-family.default}",
-          "fontWeight": "{sjs2.typography.font-weight.default}",
+          "fontFamily": "{sjs2.typography.font-family.text}",
+          "fontWeight": "{sjs2.typography.font-weight.basic}",
           "fontSize": "{sjs2.typography.font-size.small}",
           "lineHeight": "{sjs2.typography.line-height.small}"
         },
@@ -66,7 +66,7 @@
       },
       "small-strong": {
         "value": {
-          "fontFamily": "{sjs2.typography.font-family.default}",
+          "fontFamily": "{sjs2.typography.font-family.text}",
           "fontWeight": "{sjs2.typography.font-weight.strong}",
           "fontSize": "{sjs2.typography.font-size.small}",
           "lineHeight": "{sjs2.typography.line-height.small}"
@@ -76,14 +76,14 @@
       "default-code": {
         "value": {
           "fontFamily": "{sjs2.typography.font-family.code}",
-          "fontWeight": "{sjs2.typography.font-weight.default}",
+          "fontWeight": "{sjs2.typography.font-weight.basic}",
           "fontSize": "{sjs2.typography.font-size.default}",
           "lineHeight": "{sjs2.typography.line-height.default}"
         },
         "type": "typography"
       },
       "font-family": {
-        "default": {
+        "text": {
           "value": "Open Sans",
           "type": "fontFamilies"
         },
@@ -129,7 +129,7 @@
         }
       },
       "font-weight": {
-        "default": {
+        "basic": {
           "value": "{sjs2.font-weight.regular}",
           "type": "fontWeights"
         },
