@@ -2674,7 +2674,7 @@
           "type": "number"
         },
         "pressed": {
-          "value": "{sjs2.border-width.x100}",
+          "value": "{sjs2.border-width.x200}",
           "type": "number"
         },
         "focused": {
@@ -2774,7 +2774,7 @@
           "type": "number"
         },
         "hovered": {
-          "value": "4",
+          "value": 0,
           "type": "number"
         },
         "pressed": {
@@ -2983,11 +2983,11 @@
             "type": "number"
           },
           "hovered": {
-            "value": "2",
+            "value": 0,
             "type": "number"
           },
           "pressed": {
-            "value": "2",
+            "value": 0,
             "type": "number"
           },
           "focused": {
