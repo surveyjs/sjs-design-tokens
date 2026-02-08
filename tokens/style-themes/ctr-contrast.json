@@ -111,19 +111,19 @@
               "type": "color"
             },
             "dragging": {
-              "value": "rgba( #004C44, {sjs2.opacity.x015} )",
+              "value": "rgba( {sjs2.color.project.brand.600}, {sjs2.opacity.x015} )",
               "type": "color"
             }
           },
           "elevated": {
             "default": {
-              "value": "rgba( #004C44, {sjs2.opacity.x015} )",
+              "value": "rgba( {sjs2.color.project.brand.600}, {sjs2.opacity.x015} )",
               "type": "color"
             }
           },
           "floating": {
             "default": {
-              "value": "rgba( #004C44, {sjs2.opacity.x020} )",
+              "value": "rgba( {sjs2.color.project.brand.600}, {sjs2.opacity.x020} )",
               "type": "color"
             }
           }
@@ -1382,7 +1382,7 @@
               "type": "color"
             },
             "dot": {
-              "value": "{sjs2.color.fg.state.common-disabled}",
+              "value": "{sjs2.color.fg.basic.primary-disabled}",
               "type": "color"
             },
             "thumb-border": {
@@ -2778,7 +2778,7 @@
           "type": "number"
         },
         "pressed": {
-          "value": "4",
+          "value": 0,
           "type": "number"
         },
         "focused": {
