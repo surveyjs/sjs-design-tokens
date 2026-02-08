@@ -15,12 +15,12 @@
                 }
               }
             },
-            "description": "auto-generated light version of main brand color"
+            "description": "Auto-generated light version of main brand color."
           },
           "600": {
             "value": "#19B394",
             "type": "color",
-            "description": "main brand color of your project"
+            "description": "Main brand color of your project."
           },
           "700": {
             "value": "{sjs2.color.project.brand.600}",
@@ -34,7 +34,7 @@
                 }
               }
             },
-            "description": "auto-generated dark version of main brand color"
+            "description": "Auto-generated dark version of main brand color."
           }
         },
         "accent": {
@@ -50,12 +50,12 @@
                 }
               }
             },
-            "description": "auto-generated light version of additional brand color"
+            "description": "Auto-generated light version of additional brand color."
           },
           "600": {
             "value": "#19B394",
             "type": "color",
-            "description": "additional brand color of your project"
+            "description": "Additional brand color of your project."
           },
           "700": {
             "value": "{sjs2.color.project.accent.600}",
@@ -69,7 +69,7 @@
                 }
               }
             },
-            "description": "auto-generated dark version of additional brand color"
+            "description": "Auto-generated dark version of additional brand color."
           }
         }
       },
@@ -77,100 +77,100 @@
         "body": {
           "value": "{sjs2.palette.gray.000}",
           "type": "color",
-          "description": "the very basic underlying page background color"
+          "description": "The very basic underlying page background color."
         },
         "sheet": {
           "value": "{sjs2.palette.gray.000}",
           "type": "color",
-          "description": "background color for drop, bottomsheet and modal"
+          "description": "Background color for drop, bottomsheet and modal."
         },
         "a11y": {
           "value": "rgba( {sjs2.palette.blue.400}, {sjs2.opacity.x060} )",
           "type": "color",
-          "description": "tab-focus border color"
+          "description": "Tab-focus border color."
         },
         "scrollbar": {
           "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x015} )",
           "type": "color",
-          "description": "scrollbar color"
+          "description": "Scrollbar color."
         },
         "overlay": {
           "value": "rgba( {sjs2.palette.gray.700}, {sjs2.opacity.x060} )",
           "type": "color",
-          "description": "color for overlay behind modal and bottomsheet"
+          "description": "Color for overlay behind modal and bottomsheet."
         },
         "chrome": {
           "toolbox": {
             "value": "{sjs2.palette.gray.000}",
             "type": "color",
-            "description": "background color for Toolbox panel (left panel)"
+            "description": "Background color for Toolbox panel (left panel)."
           },
           "property-grid": {
             "value": "{sjs2.palette.gray.000}",
             "type": "color",
-            "description": "background color for Property Grid panel (right panel)"
+            "description": "Background color for Property Grid panel (right panel)."
           },
           "tabs": {
             "value": "{sjs2.palette.gray.000}",
             "type": "color",
-            "description": "background color for Tabs panel (top panel above all)"
+            "description": "Background color for Tabs panel (top panel above all)."
           }
         },
         "surface": {
           "survey": {
             "value": "#1c1b200d",
             "type": "color",
-            "description": "surface color for the real Survey on the user's side"
+            "description": "Surface color for the real Survey on the user's side."
           },
           "designer": {
             "value": "#EDF9F7",
             "type": "color",
-            "description": "surface color for Designer tab"
+            "description": "Surface color for Designer tab."
           },
           "presets-manager": {
             "value": "#1c1b200d",
             "type": "color",
-            "description": "surface color for Presets Configuration Manager"
+            "description": "Surface color for Presets Configuration Manager."
           },
           "dashboard": {
             "value": "{sjs2.color.utility.surface.survey}",
             "type": "color",
-            "description": "surface color for Dashboards on the user's side"
+            "description": "Surface color for Dashboards on the user's side."
           },
           "preview": {
             "value": "{sjs2.color.utility.surface.survey}",
             "type": "color",
-            "description": "surface color for Preview tab"
+            "description": "Surface color for Preview tab."
           },
           "themes": {
             "value": "{sjs2.color.utility.surface.survey}",
             "type": "color",
-            "description": "surface color for Themes tab"
+            "description": "Surface color for Themes tab."
           },
           "logic": {
             "value": "{sjs2.color.utility.surface.designer}",
             "type": "color",
-            "description": "surface color for Logic tab"
+            "description": "Surface color for Logic tab."
           },
           "json-editor": {
             "value": "{sjs2.color.utility.surface.designer}",
             "type": "color",
-            "description": "surface color for JSON Editor tab"
+            "description": "Surface color for JSON Editor tab."
           },
           "translations": {
             "value": "{sjs2.color.utility.surface.designer}",
             "type": "color",
-            "description": "surface color for Translations tab"
+            "description": "Surface color for Translations tab."
           },
           "embed-survey": {
             "value": "{sjs2.color.utility.surface.designer}",
             "type": "color",
-            "description": "surface color for Embed Survey tab"
+            "description": "Surface color for Embed Survey tab."
           },
           "embed-creator": {
             "value": "{sjs2.color.utility.surface.designer}",
             "type": "color",
-            "description": "surface color for Embed Creator tab"
+            "description": "Surface color for Embed Creator tab."
           }
         },
         "shadow": {
@@ -178,46 +178,46 @@
             "default": {
               "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x010} )",
               "type": "color",
-              "description": "shadow (or border effect) color for interactive and non-interactive elements located on surface, state: default"
+              "description": "Shadow (or border effect) color for interactive and non-interactive elements located on surface, state: default."
             },
             "hovered": {
               "value": "rgba( {sjs2.color.project.brand.600}, {sjs2.opacity.x040} )",
               "type": "color",
-              "description": "shadow (or border effect) color for interactive elements located on surface, state: hovered"
+              "description": "Shadow (or border effect) color for interactive elements located on surface, state: hovered."
             },
             "pressed": {
               "value": "{sjs2.color.project.brand.600}",
               "type": "color",
-              "description": "shadow (or border effect) color for interactive elements located on surface, state: pressed"
+              "description": "Shadow (or border effect) color for interactive elements located on surface, state: pressed."
             },
             "focused": {
               "value": "{sjs2.color.project.brand.600}",
               "type": "color",
-              "description": "shadow (or border effect) color for interactive elements located on surface, state: focused"
+              "description": "Shadow (or border effect) color for interactive elements located on surface, state: focused."
             },
             "disabled": {
               "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x010} )",
               "type": "color",
-              "description": "shadow (or border effect) color for interactive elements located on surface, state: disabled"
+              "description": "Shadow (or border effect) color for interactive elements located on surface, state: disabled."
             },
             "dragging": {
               "value": "rgba( #004C44, {sjs2.opacity.x015} )",
               "type": "color",
-              "description": "shadow (or border effect) color for interactive elements located on surface, state: dragging"
+              "description": "Shadow (or border effect) color for interactive elements located on surface, state: dragging."
             }
           },
           "elevated": {
             "default": {
               "value": "rgba( #004C44, {sjs2.opacity.x010} )",
               "type": "color",
-              "description": "shadow (or border effect) color for elevated elements, such as tooltip"
+              "description": "Shadow (or border effect) color for elevated elements, such as tooltip."
             }
           },
           "floating": {
             "default": {
               "value": "rgba( #004C44, {sjs2.opacity.x015} )",
               "type": "color",
-              "description": "shadow (or border effect) color for floating elements"
+              "description": "Shadow (or border effect) color for floating elements."
             }
           }
         }
@@ -535,6 +535,10 @@
         "neutral": {
           "primary": {
             "value": "{sjs2.palette.gray.900}",
+            "type": "color"
+          },
+          "primary-muted": {
+            "value": "{sjs2.palette.gray.700}",
             "type": "color"
           },
           "on-primary": {
@@ -922,72 +926,72 @@
               "bg": {
                 "value": "{sjs2.palette.gray.100}",
                 "type": "color",
-                "description": "checkbox & radiobutton background color, is checked: false, state: default"
+                "description": "Checkbox & radiobutton background color, is checked: false, state: default."
               },
               "border": {
                 "value": "{sjs2.color.border.basic.secondary}",
                 "type": "color",
-                "description": "checkbox & radiobutton border color, is checked: false, state: default"
+                "description": "Checkbox & radiobutton border color, is checked: false, state: default."
               }
             },
             "disabled": {
               "bg": {
                 "value": "{sjs2.palette.gray.000}",
                 "type": "color",
-                "description": "checkbox & radiobutton background color, is checked: false, state: disabled"
+                "description": "Checkbox & radiobutton background color, is checked: false, state: disabled."
               },
               "border": {
                 "value": "{sjs2.palette.gray.100}",
                 "type": "color",
-                "description": "checkbox & radiobutton border color, is checked: false, state: disabled"
+                "description": "Checkbox & radiobutton border color, is checked: false, state: disabled."
               }
             },
             "readonly": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.primary}",
                 "type": "color",
-                "description": "checkbox & radiobutton background color, is checked: false, state: readonly"
+                "description": "Checkbox & radiobutton background color, is checked: false, state: readonly."
               },
               "border": {
                 "value": "{sjs2.color.border.basic.secondary}",
                 "type": "color",
-                "description": "checkbox & radiobutton border color, is checked: false, state: readonly"
+                "description": "Checkbox & radiobutton border color, is checked: false, state: readonly."
               }
             },
             "focused": {
               "bg": {
                 "value": "{sjs2.palette.gray.100}",
                 "type": "color",
-                "description": "checkbox & radiobutton background color, is checked: false, state: focused"
+                "description": "Checkbox & radiobutton background color, is checked: false, state: focused."
               },
               "border": {
                 "value": "{sjs2.color.border.brand.primary}",
                 "type": "color",
-                "description": "checkbox & radiobutton border color, is checked: false, state: focused"
+                "description": "Checkbox & radiobutton border color, is checked: false, state: focused."
               }
             },
             "hovered": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.secondary-dim}",
                 "type": "color",
-                "description": "checkbox & radiobutton background color, is checked: false, state: hovered"
+                "description": "Checkbox & radiobutton background color, is checked: false, state: hovered."
               },
               "border": {
                 "value": "{sjs2.color.border.basic.secondary}",
                 "type": "color",
-                "description": "checkbox & radiobutton border color, is checked: false, state: hovered"
+                "description": "Checkbox & radiobutton border color, is checked: false, state: hovered."
               }
             },
             "design": {
               "bg": {
                 "value": "{sjs2.palette.gray.100}",
                 "type": "color",
-                "description": "checkbox & radiobutton background color, is checked: false, state: design"
+                "description": "Checkbox & radiobutton background color, is checked: false, state: design."
               },
               "border": {
                 "value": "{sjs2.color.border.basic.secondary}",
                 "type": "color",
-                "description": "checkbox & radiobutton border color, is checked: false, state: design"
+                "description": "Checkbox & radiobutton border color, is checked: false, state: design."
               }
             }
           },
@@ -996,85 +1000,85 @@
               "bg": {
                 "value": "{sjs2.color.bg.brand.primary}",
                 "type": "color",
-                "description": "checkbox & radiobutton background color, is checked: true, state: default"
+                "description": "Checkbox & radiobutton background color, is checked: true, state: default."
               },
               "border": {
                 "value": "{sjs2.color.border.brand.primary}",
                 "type": "color",
-                "description": "checkbox & radiobutton border color, is checked: true, state: default"
+                "description": "Checkbox & radiobutton border color, is checked: true, state: default."
               },
               "icon": {
                 "value": "{sjs2.color.fg.static-1.primary}",
                 "type": "color",
-                "description": "checkbox & radiobutton icon color, is checked: true, state: default"
+                "description": "Checkbox & radiobutton icon color, is checked: true, state: default."
               }
             },
             "disabled": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.primary}",
                 "type": "color",
-                "description": "checkbox & radiobutton background color, is checked: true, state: disabled"
+                "description": "Checkbox & radiobutton background color, is checked: true, state: disabled."
               },
               "border": {
                 "value": "{sjs2.color.border.basic.secondary}",
                 "type": "color",
-                "description": "checkbox & radiobutton border color, is checked: true, state: disabled"
+                "description": "Checkbox & radiobutton border color, is checked: true, state: disabled."
               },
               "icon": {
                 "value": "{sjs2.palette.gray.400}",
                 "type": "color",
-                "description": "checkbox & radiobutton icon color, is checked: true, state: disabled"
+                "description": "Checkbox & radiobutton icon color, is checked: true, state: disabled."
               }
             },
             "readonly": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.primary}",
                 "type": "color",
-                "description": "checkbox & radiobutton background color, is checked: true, state: readonly"
+                "description": "Checkbox & radiobutton background color, is checked: true, state: readonly."
               },
               "border": {
                 "value": "{sjs2.color.border.basic.secondary}",
                 "type": "color",
-                "description": "checkbox & radiobutton border color, is checked: true, state: readonly"
+                "description": "Checkbox & radiobutton border color, is checked: true, state: readonly."
               },
               "icon": {
                 "value": "{sjs2.palette.gray.400}",
                 "type": "color",
-                "description": "checkbox & radiobutton icon color, is checked: true, state: readonly"
+                "description": "Checkbox & radiobutton icon color, is checked: true, state: readonly."
               }
             },
             "focused": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.primary}",
                 "type": "color",
-                "description": "checkbox & radiobutton background color, is checked: true, state: focused"
+                "description": "Checkbox & radiobutton background color, is checked: true, state: focused."
               },
               "border": {
                 "value": "{sjs2.color.border.brand.primary}",
                 "type": "color",
-                "description": "checkbox & radiobutton border color, is checked: true, state: focused"
+                "description": "Checkbox & radiobutton border color, is checked: true, state: focused."
               },
               "icon": {
                 "value": "{sjs2.color.fg.brand.primary}",
                 "type": "color",
-                "description": "checkbox & radiobutton icon color, is checked: true, state: focused"
+                "description": "Checkbox & radiobutton icon color, is checked: true, state: focused."
               }
             },
             "hovered": {
               "bg": {
                 "value": "{sjs2.color.bg.brand.primary-dim}",
                 "type": "color",
-                "description": "checkbox & radiobutton background color, is checked: true, state: hovered"
+                "description": "Checkbox & radiobutton background color, is checked: true, state: hovered."
               },
               "border": {
                 "value": "{sjs2.color.bg.brand.primary-dim}",
                 "type": "color",
-                "description": "checkbox & radiobutton border color, is checked: true, state: hovered"
+                "description": "Checkbox & radiobutton border color, is checked: true, state: hovered."
               },
               "icon": {
                 "value": "{sjs2.color.fg.static-1.primary}",
                 "type": "color",
-                "description": "checkbox & radiobutton icon color, is checked: true, state: hovered"
+                "description": "Checkbox & radiobutton icon color, is checked: true, state: hovered."
               }
             }
           }
@@ -1216,71 +1220,86 @@
             "default": {
               "bg": {
                 "value": "{sjs2.palette.gray.100}",
-                "type": "color"
+                "type": "color",
+                "description": "Switch / toggle background color, is checked: false, state: default."
               },
               "border": {
                 "value": "{sjs2.color.border.basic.secondary}",
-                "type": "color"
+                "type": "color",
+                "description": "Switch / toggle border color, is checked: false, state: default."
               },
               "thumb": {
                 "value": "{sjs2.color.fg.basic.secondary}",
-                "type": "color"
+                "type": "color",
+                "description": "Switch / toggle thumb color, is checked: false, state: default."
               }
             },
             "disabled": {
               "bg": {
                 "value": "{sjs2.palette.gray.100}",
-                "type": "color"
+                "type": "color",
+                "description": "Switch / toggle background color, is checked: false, state: disabled."
               },
               "border": {
                 "value": "{sjs2.color.border.basic.secondary}",
-                "type": "color"
+                "type": "color",
+                "description": "Switch / toggle border color, is checked: false, state: disabled."
               },
               "thumb": {
                 "value": "{sjs2.color.fg.basic.tertiary}",
-                "type": "color"
+                "type": "color",
+                "description": "Switch / toggle thumb color, is checked: false, state: disabled."
               }
             },
             "readonly": {
               "bg": {
                 "value": "{sjs2.palette.gray.100}",
-                "type": "color"
+                "type": "color",
+                "description": "Switch / toggle background color, is checked: false, state: readonly."
               },
               "border": {
                 "value": "{sjs2.color.border.basic.secondary}",
-                "type": "color"
+                "type": "color",
+                "description": "Switch / toggle border color, is checked: false, state: readonly."
               },
               "thumb": {
                 "value": "{sjs2.color.fg.basic.tertiary}",
-                "type": "color"
+                "type": "color",
+                "description": "Switch / toggle thumb color, is checked: false, state: readonly."
               }
             },
             "focused": {
               "bg": {
                 "value": "{sjs2.palette.gray.100}",
-                "type": "color"
+                "type": "color",
+                "description": "Switch / toggle background color, is checked: false, state: focused."
               },
               "border": {
                 "value": "{sjs2.color.border.brand.primary}",
-                "type": "color"
+                "type": "color",
+                "description": "Switch / toggle border color, is checked: false, state: focused."
               },
               "thumb": {
                 "value": "{sjs2.color.fg.basic.secondary}",
-                "type": "color"
+                "type": "color",
+                "description": "Switch / toggle thumb color, is checked: false, state: focused."
               }
             },
             "hovered": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.secondary-dim}",
-                "type": "color"
+                "type": "color",
+                "description": "Switch / toggle background color, is checked: false, state: hovered."
               },
               "border": {
                 "value": "{sjs2.color.border.basic.secondary}",
-                "type": "color"
+                "type": "color",
+                "description": "Switch / toggle border color, is checked: false, state: hovered."
               },
               "thumb": {
                 "value": "{sjs2.color.fg.basic.secondary}",
-                "type": "color"
+                "type": "color",
+                "description": "Switch / toggle thumb color, is checked: false, state: hovered."
               }
             }
           },
@@ -1288,15 +1307,18 @@
             "default": {
               "bg": {
                 "value": "{sjs2.color.bg.brand.primary}",
-                "type": "color"
+                "type": "color",
+                "description": "Switch / toggle background color, is checked: true, state: default."
               },
               "border": {
                 "value": "{sjs2.color.border.brand.primary}",
-                "type": "color"
+                "type": "color",
+                "description": "Switch / toggle border color, is checked: true, state: default."
               },
               "thumb": {
                 "value": "{sjs2.color.fg.static-1.primary}",
-                "type": "color"
+                "type": "color",
+                "description": "Switch / toggle thumb color, is checked: true, state: default."
               }
             },
             "disabled": {
@@ -1361,29 +1383,35 @@
           "error": {
             "bg": {
               "value": "{sjs2.color.bg.alert.secondary}",
-              "type": "color"
+              "type": "color",
+              "description": "Error message background color. This message appears when input state is invalid."
             },
             "icon": {
               "value": "{sjs2.color.fg.alert.primary}",
-              "type": "color"
+              "type": "color",
+              "description": "Error message icon color. This message appears when input state is invalid."
             },
             "text": {
               "value": "{sjs2.color.fg.basic.primary}",
-              "type": "color"
+              "type": "color",
+              "description": "Error message text color. This message appears when input state is invalid."
             }
           },
           "info": {
             "bg": {
               "value": "{sjs2.color.bg.note.secondary}",
-              "type": "color"
+              "type": "color",
+              "description": "Information message background color."
             },
             "icon": {
               "value": "{sjs2.color.fg.note.primary}",
-              "type": "color"
+              "type": "color",
+              "description": "Information message background color."
             },
             "text": {
               "value": "{sjs2.color.fg.basic.primary}",
-              "type": "color"
+              "type": "color",
+              "description": "Information message background color."
             }
           }
         },

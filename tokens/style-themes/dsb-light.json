@@ -623,6 +623,10 @@
           "primary-disabled": {
             "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x040} )",
             "type": "color"
+          },
+          "primary-muted": {
+            "value": "{sjs2.palette.gray.700}",
+            "type": "color"
           }
         },
         "brand": {

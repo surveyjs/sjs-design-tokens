@@ -4364,8 +4364,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "base-unit": "source",
-      "common": "source",
-      "size-themes/ctr-2020": "enabled"
+      "common": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:174:1018",
     "$figmaModeId": "743:1",

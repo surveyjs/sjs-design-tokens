@@ -616,6 +616,10 @@
             "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x085} )",
             "type": "color"
           },
+          "primary-muted": {
+            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x085} )",
+            "type": "color"
+          },
           "on-primary": {
             "value": "{sjs2.palette.gray.900}",
             "type": "color"

@@ -1,0 +1,114 @@
+{
+  "sjs2": {
+    "radius": {
+      "semantic": {
+        "form": {
+          "value": "{sjs2.radius.x100}",
+          "type": "borderRadius",
+          "description": "Basic corner radius for controls, such as: button / action, textbox, dropdown, button-group, etc. \n\nWe also use it to set corner radius for matrix / table / list.\n\nNote: checkbox and radiobutton have different radius tokens."
+        },
+        "form-item": {
+          "value": "{sjs2.radius.x050}",
+          "type": "borderRadius"
+        }
+      },
+      "control": {
+        "action": {
+          "value": "{sjs2.radius.semantic.form}",
+          "type": "borderRadius"
+        },
+        "action-icon": {
+          "value": "{sjs2.radius.semantic.form}",
+          "type": "borderRadius"
+        },
+        "button": {
+          "value": "{sjs2.radius.semantic.form}",
+          "type": "borderRadius"
+        },
+        "menu-item": {
+          "value": "{sjs2.radius.semantic.form}",
+          "type": "borderRadius"
+        },
+        "drop-item": {
+          "value": "{sjs2.radius.x100}",
+          "type": "borderRadius"
+        },
+        "checkbox": {
+          "value": "{sjs2.radius.semantic.form-item}",
+          "type": "borderRadius"
+        },
+        "rating": {
+          "value": "{sjs2.radius.round}",
+          "type": "borderRadius"
+        },
+        "ranking": {
+          "value": "{sjs2.radius.round}",
+          "type": "borderRadius"
+        },
+        "boolean": {
+          "value": "{sjs2.radius.round}",
+          "type": "borderRadius"
+        },
+        "boolean-item": {
+          "value": "{sjs2.radius.round}",
+          "type": "borderRadius"
+        },
+        "toggle": {
+          "value": "{sjs2.radius.round}",
+          "type": "borderRadius"
+        },
+        "toggle-thumb": {
+          "value": "{sjs2.radius.round}",
+          "type": "borderRadius"
+        },
+        "track": {
+          "value": "{sjs2.radius.round}",
+          "type": "borderRadius"
+        },
+        "track-item": {
+          "value": "{sjs2.radius.round}",
+          "type": "borderRadius"
+        },
+        "track-thumb": {
+          "value": "{sjs2.radius.round}",
+          "type": "borderRadius"
+        }
+      },
+      "container": {
+        "panel": {
+          "value": "{sjs2.radius.x150}",
+          "type": "borderRadius",
+          "description": "Corner radius of question-box."
+        },
+        "panel-nested": {
+          "value": "{sjs2.radius.x100}",
+          "type": "borderRadius",
+          "description": "Corner radius of nested panel inside the question-box."
+        },
+        "drop": {
+          "value": "{sjs2.radius.x200}",
+          "type": "borderRadius",
+          "description": "Corner radius of dropdown list container."
+        },
+        "modal": {
+          "value": "{sjs2.radius.x300}",
+          "type": "borderRadius",
+          "description": "Corner radius of modal sheet."
+        },
+        "notifier": {
+          "value": "{sjs2.radius.x200}",
+          "type": "borderRadius"
+        },
+        "tooltip": {
+          "value": "{sjs2.radius.x050}",
+          "type": "borderRadius"
+        },
+        "drag": {
+          "value": "{sjs2.radius.semantic.form}",
+          "type": "borderRadius",
+          "description": "Corner radius of items inside list / table / matrix — in dragging state only."
+        }
+      }
+    }
+  }
+}
