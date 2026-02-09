@@ -210,7 +210,7 @@
             "type": "color"
           },
           "secondary": {
-            "value": "{sjs2.palette.gray.250}",
+            "value": "{sjs2.palette.gray.900}",
             "type": "color"
           },
           "secondary-overlay": {
