@@ -20,13 +20,6 @@ if exist "build\survey-creator" (
             echo Error copying survey-creator themes.
         )
     )
-) else (
-    echo Warning: build\survey-creator directory not found.
-)
-
-REM Copy survey-analytics themes
-if exist "build\survey-analytics" (
-    echo Copying survey-analytics themes...
     if not exist "..\survey-analytics\src\themes" (
         echo Warning: ..\survey-analytics\src\themes directory not found.
     ) else (
@@ -38,7 +31,7 @@ if exist "build\survey-analytics" (
         )
     )
 ) else (
-    echo Warning: build\survey-analytics directory not found.
+    echo Warning: build\survey-creator directory not found.
 )
 
 echo Redistribution completed!
