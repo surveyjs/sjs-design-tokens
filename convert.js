@@ -13,6 +13,7 @@ const THEME_CONFIG = [
       "common",
       "palette",
       "size-themes/default",
+      "radius-themes/default",
       "typography-themes/default",
       "style-themes/ctr-light"
     ],
@@ -44,6 +45,7 @@ const THEME_CONFIG = [
       "common",
       "palette",
       "size-themes/default",
+      "radius-themes/default",
       "typography-themes/default",
       "style-themes/ctr-light"
     ],
@@ -59,6 +61,7 @@ const THEME_CONFIG = [
       "common",
       "palette",
       "size-themes/default",
+      "radius-themes/default",
       "typography-themes/default",
       "style-themes/ctr-dark"
     ],
@@ -74,8 +77,25 @@ const THEME_CONFIG = [
       "common",
       "palette",
       "size-themes/default",
+      "radius-themes/default",
       "typography-themes/default",
       "style-themes/ctr-contrast"
+    ],
+    products: ["survey-creator"]
+  },
+  {
+    objectName: "SC2020",
+    themeName: "sc2020",
+    iconSet: "v1",
+    isLight: true,
+    tokenPaths: [
+      "base-unit",
+      "common",
+      "palette",
+      "size-themes/ctr-2020",
+      "radius-themes/sharp",
+      "typography-themes/default",
+      "style-themes/ctr-2020"
     ],
     products: ["survey-creator"]
   },
@@ -89,8 +109,9 @@ const THEME_CONFIG = [
       "common",
       "palette",
       "size-themes/default",
+      "radius-themes/default",
       "typography-themes/default",
-      "style-themes/dsb-light"
+      "style-themes/ctr-light"
     ],
     products: ["survey-analytics"]
   }
