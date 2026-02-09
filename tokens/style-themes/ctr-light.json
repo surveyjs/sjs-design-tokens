@@ -2442,7 +2442,7 @@
                   "type": "color"
                 },
                 "icon": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
                   "type": "color"
                 },
                 "label": {
@@ -2460,7 +2460,7 @@
                   "type": "color"
                 },
                 "icon": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
                   "type": "color"
                 },
                 "label": {
@@ -2478,7 +2478,7 @@
                   "type": "color"
                 },
                 "icon": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
                   "type": "color"
                 },
                 "label": {
