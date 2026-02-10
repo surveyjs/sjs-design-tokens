@@ -65,7 +65,7 @@ const THEME_CONFIG = [
       "typography-themes/default",
       "style-themes/ctr-dark"
     ],
-    products: ["survey-creator", "survey-analytics"]
+    products: ["survey-creator"]
   },
   {
     objectName: "contrastTheme",
@@ -99,22 +99,6 @@ const THEME_CONFIG = [
     ],
     products: ["survey-creator"]
   },
-  {
-    objectName: "DefaultLight",
-    themeName: "default-light",
-    iconSet: "v2",
-    isLight: true,
-    tokenPaths: [
-      "base-unit",
-      "common",
-      "palette",
-      "size-themes/default",
-      "radius-themes/default",
-      "typography-themes/default",
-      "style-themes/ctr-light"
-    ],
-    products: ["survey-analytics"]
-  }
 ];
 
 // Cache for storing all tokens

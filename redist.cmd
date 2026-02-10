@@ -23,7 +23,8 @@ if exist "build\survey-creator" (
     if not exist "..\survey-analytics\src\themes" (
         echo Warning: ..\survey-analytics\src\themes directory not found.
     ) else (
-        xcopy "build\survey-analytics\*" "..\survey-analytics\src\themes\" /Y /I
+        xcopy "build\survey-creator\default-light.ts" "..\survey-analytics\src\themes\" /Y /I
+        xcopy "build\survey-creator\default-dark.ts" "..\survey-analytics\src\themes\" /Y /I
         if %errorlevel% equ 0 (
             echo Survey-analytics themes copied successfully.
         ) else (
