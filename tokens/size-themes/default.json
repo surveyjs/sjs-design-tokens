@@ -128,7 +128,7 @@
             },
             "limit": {
               "vertical": {
-                "value": "{sjs2.spacing.x100}",
+                "value": "{sjs2.spacing.x075}",
                 "type": "spacing"
               },
               "left": {
@@ -198,7 +198,7 @@
             },
             "limit": {
               "vertical": {
-                "value": "{sjs2.spacing.x100}",
+                "value": "{sjs2.spacing.x075}",
                 "type": "spacing"
               },
               "left": {
