@@ -2836,11 +2836,11 @@
     "border-blur": {
       "form": {
         "default": {
-          "value": "0",
+          "value": 2,
           "type": "number"
         },
         "hovered": {
-          "value": "0",
+          "value": 2,
           "type": "number"
         },
         "pressed": {
@@ -2868,17 +2868,17 @@
           "type": "number"
         },
         "design": {
-          "value": "0",
+          "value": 2,
           "type": "number"
         }
       },
       "trigger": {
         "default": {
-          "value": "0",
+          "value": 2,
           "type": "number"
         },
         "hovered": {
-          "value": "0",
+          "value": 2,
           "type": "number"
         },
         "pressed": {
@@ -2894,7 +2894,7 @@
           "type": "number"
         },
         "design": {
-          "value": "0",
+          "value": 2,
           "type": "number"
         }
       },
@@ -3045,11 +3045,11 @@
       "y": {
         "form": {
           "default": {
-            "value": "0",
+            "value": 1,
             "type": "number"
           },
           "hovered": {
-            "value": "0",
+            "value": 1,
             "type": "number"
           },
           "pressed": {
@@ -3077,17 +3077,17 @@
             "type": "number"
           },
           "design": {
-            "value": "0",
+            "value": 1,
             "type": "number"
           }
         },
         "trigger": {
           "default": {
-            "value": "0",
+            "value": 1,
             "type": "number"
           },
           "hovered": {
-            "value": "0",
+            "value": 1,
             "type": "number"
           },
           "pressed": {
@@ -3103,17 +3103,17 @@
             "type": "number"
           },
           "design": {
-            "value": "0",
+            "value": 1,
             "type": "number"
           }
         },
         "surface": {
           "default": {
-            "value": "2",
+            "value": 2,
             "type": "number"
           },
           "hovered": {
-            "value": "0",
+            "value": 0,
             "type": "number"
           },
           "pressed": {
