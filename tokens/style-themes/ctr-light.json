@@ -2900,7 +2900,7 @@
       },
       "surface": {
         "default": {
-          "value": "4",
+          "value": 0,
           "type": "number"
         },
         "hovered": {
@@ -3109,7 +3109,7 @@
         },
         "surface": {
           "default": {
-            "value": 2,
+            "value": 0,
             "type": "number"
           },
           "hovered": {
