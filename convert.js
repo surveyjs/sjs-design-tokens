@@ -99,6 +99,40 @@ const THEME_CONFIG = [
     ],
     products: ["survey-creator"]
   },
+  {
+    objectName: "DefaultLight",
+    themeName: "default-light",
+    iconSet: "v2",
+    isLight: true,
+    tokenPaths: [ 
+      "base-unit",
+      "common",
+      "palette",
+      "size-themes/default",
+      "radius-themes/default",
+      "typography-themes/default",
+      "pdf-size-themes/compact",
+      "style-themes/pdf-light"
+    ],
+    products: ["survey-pdf"]
+  },
+  {
+    objectName: "SpaciousLight",
+    themeName: "spacious-light",
+    iconSet: "v2",
+    isLight: true,
+    tokenPaths: [ 
+      "base-unit",
+      "common",
+      "palette",
+      "size-themes/default",
+      "radius-themes/default",
+      "typography-themes/default",
+      "pdf-size-themes/spacious",
+      "style-themes/pdf-light"
+    ],
+    products: ["survey-pdf"]
+  },
 ];
 
 // Cache for storing all tokens

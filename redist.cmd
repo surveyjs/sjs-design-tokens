@@ -35,4 +35,20 @@ if exist "build\survey-creator" (
     echo Warning: build\survey-creator directory not found.
 )
 
+if exist "build\survey-pdf" (
+    echo Copying survey-pdf themes...
+    if not exist "..\survey-pdf\src\themes" (
+        echo Warning: ..\survey-pdf\src\themes directory not found.
+    ) else (
+        xcopy "build\survey-pdf\*" "..\survey-pdf\src\themes\" /Y /I
+        if %errorlevel% equ 0 (
+            echo Survey-pdf themes copied successfully.
+        ) else (
+            echo Error copying survey-pdf themes.
+        )
+    )
+) else (
+    echo Warning: build\survey-pdf directory not found.
+)
+
 echo Redistribution completed!
