@@ -2732,11 +2732,11 @@
     "border-spread": {
       "form": {
         "default": {
-          "value": "{sjs2.border-width.x100}",
+          "value": 0,
           "type": "number"
         },
         "hovered": {
-          "value": "{sjs2.border-width.x100}",
+          "value": 0,
           "type": "number"
         },
         "pressed": {
@@ -2764,7 +2764,7 @@
           "type": "number"
         },
         "design": {
-          "value": "{sjs2.border-width.x100}",
+          "value": 0,
           "type": "number"
         }
       },
