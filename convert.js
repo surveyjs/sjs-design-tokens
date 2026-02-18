@@ -4,6 +4,30 @@ const path = require('path');
 // Configuration for theme generation
 const THEME_CONFIG = [
   {
+    objectName: "DefaultLight",
+    themeName: "default",
+    iconSet: "v2",
+    isLight: true,
+    tokenPaths: [
+      "base-unit",
+      "common",
+      "palette",
+      "size-themes/default",
+      "radius-themes/default",
+      "typography-themes/default",
+      "style-themes/lbr-light"
+    ],
+    patch: {
+      "--sjs-shadow-small": "0px 1px 2px 0px rgba(0, 0, 0, 0.15)",
+      "--sjs-shadow-small-reset": "0px 0px 0px 0px rgba(0, 0, 0, 0.15)",
+      "--sjs-shadow-medium": "0px 2px 6px 0px rgba(0, 0, 0, 0.1)",
+      "--sjs-shadow-large": "0px 8px 16px 0px rgba(0, 0, 0, 0.1)",
+      "--sjs-shadow-inner": "inset 0px 1px 2px 0px rgba(0, 0, 0, 0.15)",
+      "--sjs-shadow-inner-reset": "inset 0px 0px 0px 0px rgba(0, 0, 0, 0.15)",
+    },
+    products: ["survey-library"]
+  },
+  {
     objectName: "Test",
     themeName: "test",
     iconSet: "v2",
