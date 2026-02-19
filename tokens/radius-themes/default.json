@@ -13,6 +13,14 @@
         }
       },
       "control": {
+        "editor": {
+          "value": "{sjs2.radius.semantic.form}",
+          "type": "borderRadius"
+        },
+        "editor-item": {
+          "value": "{sjs2.radius.semantic.form-item}",
+          "type": "borderRadius"
+        },
         "action": {
           "value": "{sjs2.radius.semantic.form}",
           "type": "borderRadius"
@@ -35,6 +43,10 @@
         },
         "checkbox": {
           "value": "{sjs2.radius.semantic.form-item}",
+          "type": "borderRadius"
+        },
+        "radio": {
+          "value": "{sjs2.radius.round}",
           "type": "borderRadius"
         },
         "rating": {
@@ -75,6 +87,11 @@
         }
       },
       "container": {
+        "page": {
+          "value": "{sjs2.radius.x150}",
+          "type": "borderRadius",
+          "description": "Corner radius of page, visible in design mode only on state:focused."
+        },
         "panel": {
           "value": "{sjs2.radius.x150}",
           "type": "borderRadius",
