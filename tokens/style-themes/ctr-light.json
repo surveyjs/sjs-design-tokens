@@ -861,7 +861,7 @@
           },
           "disabled": {
             "line": {
-              "value": "{sjs2.palette.gray.250}",
+              "value": "{sjs2.palette.gray.100}",
               "type": "color"
             },
             "value": {
