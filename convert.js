@@ -19,6 +19,7 @@ const THEME_CONFIG = [
     ],
     patch: {
       "--sjs2-base-unit-radius": "4px",
+      "--sjs2-color-border-basic-secondary-overlay": "rgba(0, 0, 0, 0.16)",
 
       "--sjs-shadow-small": "0px 1px 2px 0px rgba(0, 0, 0, 0.15)",
       "--sjs-shadow-small-reset": "0px 0px 0px 0px rgba(0, 0, 0, 0.15)",
