@@ -202,6 +202,9 @@ function flattenTokens(obj, prefix = '', result = {}) {
       } else if (value && typeof value === 'object' && typeof value.value === 'string') {
         // This is a token with a value
         result[newPrefix] = value;
+      } else if (value && typeof value === 'object' && Array.isArray(value.value)) {
+        // This is a token with array value (e.g. boxShadow - array of shadow objects)
+        result[newPrefix] = value;
       } else if (value && typeof value === 'object' && (value.x !== undefined || value.y !== undefined || value.blur !== undefined || value.spread !== undefined || value.color !== undefined)) {
         // This is a shadow object, process it
         result[newPrefix] = {
@@ -498,7 +501,12 @@ function evaluateTokenValue(value, type, visited = new Set()) {
     
     return processedValue;
   } else if (typeof value === 'object' && value !== null) {
-    // Handle shadow objects
+    if (Array.isArray(value)) {
+      return value
+        .map(item => processShadowValueWithResolution(item, visited))
+        .filter(Boolean)
+        .join(', ');
+    }
     if (value.x !== undefined || value.y !== undefined || value.blur !== undefined || value.spread !== undefined || value.color !== undefined) {
       return processShadowValueWithResolution(value, visited);
     }
@@ -582,9 +590,8 @@ function createTypeScriptFiles() {
       // Convert tokens to CSS variables
       const cssVariables = {};
       for (const [tokenName, tokenData] of Object.entries(allThemeTokens)) {
-        if (tokenData.value !== undefined && typeof(tokenData.value) === "string") {
-          const cssVarName = tokenToCSSVariable(tokenName);
-          
+        const cssVarName = tokenToCSSVariable(tokenName);
+        if (tokenData.value !== undefined && typeof tokenData.value === "string") {
           // Check for color modifications first
           let processedValue = processColorModifications(tokenData);
           
@@ -594,6 +601,9 @@ function createTypeScriptFiles() {
           }
           
           cssVariables[cssVarName] = processedValue;
+        } else if (tokenData.value !== undefined && Array.isArray(tokenData.value)) {
+          // Array of shadows (boxShadow) -> single CSS box-shadow value
+          cssVariables[cssVarName] = evaluateTokenValue(tokenData.value, tokenData.type);
         }
       }
       
