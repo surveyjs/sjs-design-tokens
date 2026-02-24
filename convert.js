@@ -21,12 +21,11 @@ const THEME_CONFIG = [
       "--sjs2-base-unit-radius": "4px",
       "--sjs2-color-border-basic-secondary-overlay": "rgba(0, 0, 0, 0.16)",
 
-      "--sjs-shadow-small": "0px 1px 2px 0px rgba(0, 0, 0, 0.15)",
-      "--sjs-shadow-small-reset": "0px 0px 0px 0px rgba(0, 0, 0, 0.15)",
-      "--sjs-shadow-medium": "0px 2px 6px 0px rgba(0, 0, 0, 0.1)",
-      "--sjs-shadow-large": "0px 8px 16px 0px rgba(0, 0, 0, 0.1)",
-      "--sjs-shadow-inner": "inset 0px 1px 2px 0px rgba(0, 0, 0, 0.15)",
-      "--sjs-shadow-inner-reset": "inset 0px 0px 0px 0px rgba(0, 0, 0, 0.15)",
+      "--sjs2-border-effect-surface-default": "0px 1px 2px 0px rgba(0, 0, 0, 0.15)",
+      "--sjs2-border-effect-surface-focused": "0px 0px 0px 0px rgba(0, 0, 0, 0.15)",
+      "--sjs2-border-effect-floating-default": "0px 2px 6px 0px rgba(0, 0, 0, 0.1), 0px 8px 16px 0px rgba(0, 0, 0, 0.1)",
+      "--sjs2-border-effect-form-formbox-default": "inset 0px 1px 2px 0px rgba(0, 0, 0, 0.15)",
+      "--sjs2-border-effect-form-formbox-focused": "inset 0px 0px 0px 0px rgba(0, 0, 0, 0.15)"
     },
     products: ["survey-library"]
   },
