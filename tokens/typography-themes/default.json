@@ -83,7 +83,7 @@
         "type": "typography"
       },
       "component": {
-        "editor": {
+        "input": {
           "text": {
             "value": {
               "fontFamily": "{sjs2.typography.font-family.component.editor.text}",
