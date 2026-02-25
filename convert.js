@@ -19,14 +19,6 @@ const THEME_CONFIG = [
     ],
     patch: {
       "--sjs2-base-unit-radius": "4px",
-      "--sjs2-color-border-basic-secondary-overlay": "rgba(0, 0, 0, 0.16)",
-
-      "--sjs-shadow-small": "0px 1px 2px 0px rgba(0, 0, 0, 0.15)",
-      "--sjs-shadow-small-reset": "0px 0px 0px 0px rgba(0, 0, 0, 0.15)",
-      "--sjs-shadow-medium": "0px 2px 6px 0px rgba(0, 0, 0, 0.1)",
-      "--sjs-shadow-large": "0px 8px 16px 0px rgba(0, 0, 0, 0.1)",
-      "--sjs-shadow-inner": "inset 0px 1px 2px 0px rgba(0, 0, 0, 0.15)",
-      "--sjs-shadow-inner-reset": "inset 0px 0px 0px 0px rgba(0, 0, 0, 0.15)",
     },
     products: ["survey-library"]
   },
@@ -631,9 +623,7 @@ function createTypeScriptFiles() {
       
       // Generate TypeScript content with embedded data
       const tsContent = `// Auto-generated theme: ${themeName}
-export const ${objectName} = ${JSON.stringify(outputObject, null, 2)} as const;
-
-export default ${objectName};
+export default ${JSON.stringify(outputObject, null, 2)};
 `;
       
       // Save to file in each product subdirectory with theme name
