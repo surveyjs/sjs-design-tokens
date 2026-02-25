@@ -86,10 +86,10 @@
         "input": {
           "text": {
             "value": {
-              "fontFamily": "{sjs2.typography.font-family.component.editor.text}",
-              "fontWeight": "{sjs2.typography.font-weight.component.editor.text}",
-              "fontSize": "{sjs2.typography.font-size.component.editor.text}",
-              "lineHeight": "{sjs2.typography.line-height.component.editor.text}"
+              "fontFamily": "{sjs2.typography.font-family.component.input.text}",
+              "fontWeight": "{sjs2.typography.font-weight.component.input.text}",
+              "fontSize": "{sjs2.typography.font-size.component.input.text}",
+              "lineHeight": "{sjs2.typography.line-height.component.input.text}"
             },
             "type": "typography"
           }
@@ -165,7 +165,7 @@
           "type": "fontFamilies"
         },
         "component": {
-          "editor": {
+          "input": {
             "text": {
               "value": "Open Sans",
               "type": "fontFamilies"
@@ -221,7 +221,7 @@
           "type": "fontSizes"
         },
         "component": {
-          "editor": {
+          "input": {
             "text": {
               "value": "{sjs2.font-size.x200}",
               "type": "fontSizes"
@@ -277,7 +277,7 @@
           "type": "lineHeights"
         },
         "component": {
-          "editor": {
+          "input": {
             "text": {
               "value": "{sjs2.line-height.x300}",
               "type": "lineHeights"
@@ -325,7 +325,7 @@
           "type": "fontWeights"
         },
         "component": {
-          "editor": {
+          "input": {
             "text": {
               "value": "{sjs2.font-weight.regular}",
               "type": "fontWeights"
