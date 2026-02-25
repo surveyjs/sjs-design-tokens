@@ -155,26 +155,6 @@
             },
             "type": "typography"
           }
-        },
-        "survey": {
-          "title": {
-            "value": {
-              "fontFamily": "{sjs2.typography.font-family.component.survey.title}",
-              "fontWeight": "{sjs2.typography.font-weight.component.survey.title}",
-              "fontSize": "{sjs2.typography.font-size.component.survey.title}",
-              "lineHeight": "{sjs2.typography.line-height.component.survey.title}"
-            },
-            "type": "typography"
-          },
-          "description": {
-            "value": {
-              "fontFamily": "{sjs2.typography.font-family.component.survey.description}",
-              "fontWeight": "{sjs2.typography.font-weight.component.survey.description}",
-              "fontSize": "{sjs2.typography.font-size.component.survey.description}",
-              "lineHeight": "{sjs2.typography.line-height.component.survey.description}"
-            },
-            "type": "typography"
-          }
         }
       },
       "font-family": {
@@ -224,16 +204,6 @@
               "value": "Open Sans",
               "type": "fontFamilies"
             }
-          },
-          "survey": {
-            "title": {
-              "value": "Open Sans",
-              "type": "fontFamilies"
-            },
-            "description": {
-              "value": "Open Sans",
-              "type": "fontFamilies"
-            }
           }
         }
       },
@@ -275,7 +245,7 @@
           },
           "page": {
             "title": {
-              "value": "{sjs2.font-size.x200}",
+              "value": "{sjs2.font-size.x300}",
               "type": "fontSizes"
             },
             "description": {
@@ -285,21 +255,11 @@
           },
           "header": {
             "title": {
-              "value": "{sjs2.font-size.x200}",
+              "value": "{sjs2.font-size.x400}",
               "type": "fontSizes"
             },
             "description": {
-              "value": "{sjs2.font-size.x200}",
-              "type": "fontSizes"
-            }
-          },
-          "survey": {
-            "title": {
-              "value": "{sjs2.font-size.x200}",
-              "type": "fontSizes"
-            },
-            "description": {
-              "value": "{sjs2.font-size.x200}",
+              "value": "{sjs2.font-size.x300}",
               "type": "fontSizes"
             }
           }
@@ -343,7 +303,7 @@
           },
           "page": {
             "title": {
-              "value": "{sjs2.line-height.x300}",
+              "value": "{sjs2.line-height.x400}",
               "type": "lineHeights"
             },
             "description": {
@@ -353,21 +313,11 @@
           },
           "header": {
             "title": {
-              "value": "{sjs2.line-height.x300}",
+              "value": "{sjs2.line-height.x500}",
               "type": "lineHeights"
             },
             "description": {
-              "value": "{sjs2.line-height.x300}",
-              "type": "lineHeights"
-            }
-          },
-          "survey": {
-            "title": {
-              "value": "{sjs2.line-height.x300}",
-              "type": "lineHeights"
-            },
-            "description": {
-              "value": "{sjs2.line-height.x300}",
+              "value": "{sjs2.line-height.x400}",
               "type": "lineHeights"
             }
           }
@@ -412,16 +362,6 @@
             }
           },
           "header": {
-            "title": {
-              "value": "{sjs2.font-weight.semibold}",
-              "type": "fontWeights"
-            },
-            "description": {
-              "value": "{sjs2.font-weight.regular}",
-              "type": "fontWeights"
-            }
-          },
-          "survey": {
             "title": {
               "value": "{sjs2.font-weight.semibold}",
               "type": "fontWeights"
