@@ -24,14 +24,6 @@
           "value": "{sjs2.radius.semantic.form}",
           "type": "borderRadius"
         },
-        "action-icon": {
-          "value": "{sjs2.radius.semantic.form}",
-          "type": "borderRadius"
-        },
-        "button": {
-          "value": "{sjs2.radius.semantic.form}",
-          "type": "borderRadius"
-        },
         "menu-item": {
           "value": "{sjs2.radius.semantic.form}",
           "type": "borderRadius"
