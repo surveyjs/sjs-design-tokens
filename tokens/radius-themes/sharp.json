@@ -18,6 +18,10 @@
           "value": "{sjs2.radius.form-item}",
           "type": "borderRadius"
         },
+        "message": {
+          "value": "{sjs2.radius.form}",
+          "type": "borderRadius"
+        },
         "action": {
           "value": "{sjs2.radius.form}",
           "type": "borderRadius"
