@@ -12,7 +12,7 @@
           "type": "borderRadius"
         }
       },
-      "control": {
+      "component": {
         "editor": {
           "value": "{sjs2.radius.semantic.form}",
           "type": "borderRadius"
@@ -84,9 +84,7 @@
         "track-thumb": {
           "value": "{sjs2.radius.round}",
           "type": "borderRadius"
-        }
-      },
-      "container": {
+        },
         "page": {
           "value": "{sjs2.radius.x150}",
           "type": "borderRadius",

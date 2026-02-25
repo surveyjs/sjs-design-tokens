@@ -115,12 +115,6 @@
               "type": "color"
             }
           },
-          "elevated": {
-            "default": {
-              "value": "rgba( {sjs2.color.project.brand.600}, {sjs2.opacity.x015} )",
-              "type": "color"
-            }
-          },
           "floating": {
             "default": {
               "value": "rgba( {sjs2.color.project.brand.600}, {sjs2.opacity.x020} )",
@@ -2690,12 +2684,6 @@
           "type": "number"
         }
       },
-      "elevated": {
-        "default": {
-          "value": "2",
-          "type": "number"
-        }
-      },
       "floating": {
         "default": {
           "value": "4",
@@ -2791,12 +2779,6 @@
         },
         "dragging": {
           "value": "12",
-          "type": "number"
-        }
-      },
-      "elevated": {
-        "default": {
-          "value": "8",
           "type": "number"
         }
       },
@@ -2899,12 +2881,6 @@
             "type": "number"
           }
         },
-        "elevated": {
-          "default": {
-            "value": "0",
-            "type": "number"
-          }
-        },
         "floating": {
           "default": {
             "value": "0",
@@ -3000,12 +2976,6 @@
           },
           "dragging": {
             "value": "6",
-            "type": "number"
-          }
-        },
-        "elevated": {
-          "default": {
-            "value": "4",
             "type": "number"
           }
         },
@@ -3589,29 +3559,6 @@
               "blur": "{sjs2.border-blur.surface.dragging}",
               "spread": "{sjs2.border-spread.surface.dragging}",
               "color": "{sjs2.color.utility.shadow.surface.dragging}",
-              "type": "dropShadow"
-            },
-            {
-              "x": "0",
-              "y": "0",
-              "blur": "0",
-              "spread": "0",
-              "color": "rgba(0,0,0,0)",
-              "type": "dropShadow"
-            }
-          ],
-          "type": "boxShadow"
-        }
-      },
-      "elevated": {
-        "default": {
-          "value": [
-            {
-              "x": "{sjs2.border-offset.x.elevated.default}",
-              "y": "{sjs2.border-offset.y.elevated.default}",
-              "blur": "{sjs2.border-blur.elevated.default}",
-              "spread": "{sjs2.border-spread.elevated.default}",
-              "color": "{sjs2.color.utility.shadow.elevated.default}",
               "type": "dropShadow"
             },
             {
