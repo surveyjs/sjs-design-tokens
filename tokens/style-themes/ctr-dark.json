@@ -980,7 +980,7 @@
           },
           "hovered": {
             "bg": {
-              "value": "{sjs2.palette.gray.100}",
+              "value": "{sjs2.palette.gray.800}",
               "type": "color"
             },
             "border": {
