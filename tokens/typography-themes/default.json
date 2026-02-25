@@ -88,10 +88,10 @@
         "editor": {
           "text": {
             "value": {
-              "fontFamily": "{sjs2.typography.font-family.semantic.text}",
-              "fontWeight": "{sjs2.typography.font-weight.semantic.basic}",
-              "fontSize": "{sjs2.typography.font-size.semantic.default}",
-              "lineHeight": "{sjs2.typography.line-height.semantic.default}"
+              "fontFamily": "{sjs2.typography.font-family.component.editor.text}",
+              "fontWeight": "{sjs2.typography.font-weight.component.editor.text}",
+              "fontSize": "{sjs2.typography.font-size.component.editor.text}",
+              "lineHeight": "{sjs2.typography.line-height.component.editor.text}"
             },
             "type": "typography"
           }
@@ -99,19 +99,19 @@
         "question": {
           "title": {
             "value": {
-              "fontFamily": "{sjs2.typography.font-family.semantic.text}",
-              "fontWeight": "{sjs2.typography.font-weight.semantic.strong}",
-              "fontSize": "{sjs2.typography.font-size.semantic.default}",
-              "lineHeight": "{sjs2.typography.line-height.semantic.default}"
+              "fontFamily": "{sjs2.typography.font-family.component.question.title}",
+              "fontWeight": "{sjs2.typography.font-weight.component.question.title}",
+              "fontSize": "{sjs2.typography.font-size.component.question.title}",
+              "lineHeight": "{sjs2.typography.line-height.component.question.title}"
             },
             "type": "typography"
           },
           "description": {
             "value": {
-              "fontFamily": "{sjs2.typography.font-family.semantic.text}",
-              "fontWeight": "{sjs2.typography.font-weight.semantic.basic}",
-              "fontSize": "{sjs2.typography.font-size.semantic.default}",
-              "lineHeight": "{sjs2.typography.line-height.semantic.default}"
+              "fontFamily": "{sjs2.typography.font-family.component.question.description}",
+              "fontWeight": "{sjs2.typography.font-weight.component.question.description}",
+              "fontSize": "{sjs2.typography.font-size.component.question.description}",
+              "lineHeight": "{sjs2.typography.line-height.component.question.description}"
             },
             "type": "typography"
           }
@@ -119,19 +119,19 @@
         "page": {
           "title": {
             "value": {
-              "fontFamily": "{sjs2.typography.font-family.semantic.text}",
-              "fontWeight": "{sjs2.typography.font-weight.semantic.strong}",
-              "fontSize": "{sjs2.typography.font-size.semantic.default}",
-              "lineHeight": "{sjs2.typography.line-height.semantic.default}"
+              "fontFamily": "{sjs2.typography.font-family.component.page.title}",
+              "fontWeight": "{sjs2.typography.font-weight.component.page.title}",
+              "fontSize": "{sjs2.typography.font-size.component.page.title}",
+              "lineHeight": "{sjs2.typography.line-height.component.page.title}"
             },
             "type": "typography"
           },
           "description": {
             "value": {
-              "fontFamily": "{sjs2.typography.font-family.semantic.text}",
-              "fontWeight": "{sjs2.typography.font-weight.semantic.basic}",
-              "fontSize": "{sjs2.typography.font-size.semantic.default}",
-              "lineHeight": "{sjs2.typography.line-height.semantic.default}"
+              "fontFamily": "{sjs2.typography.font-family.component.page.description}",
+              "fontWeight": "{sjs2.typography.font-weight.component.page.description}",
+              "fontSize": "{sjs2.typography.font-size.component.page.description}",
+              "lineHeight": "{sjs2.typography.line-height.component.page.description}"
             },
             "type": "typography"
           }
@@ -139,10 +139,10 @@
         "header": {
           "title": {
             "value": {
-              "fontFamily": "{sjs2.typography.font-family.semantic.text}",
-              "fontWeight": "{sjs2.typography.font-weight.semantic.strong}",
-              "fontSize": "{sjs2.typography.font-size.semantic.default}",
-              "lineHeight": "{sjs2.typography.line-height.semantic.default}"
+              "fontFamily": "{sjs2.typography.font-family.component.header.title}",
+              "fontWeight": "{sjs2.typography.font-weight.component.header.title}",
+              "fontSize": "{sjs2.typography.font-size.component.header.title}",
+              "lineHeight": "{sjs2.typography.line-height.component.header.title}"
             },
             "type": "typography"
           },
@@ -159,19 +159,19 @@
         "survey": {
           "title": {
             "value": {
-              "fontFamily": "{sjs2.typography.font-family.semantic.text}",
-              "fontWeight": "{sjs2.typography.font-weight.semantic.strong}",
-              "fontSize": "{sjs2.typography.font-size.semantic.default}",
-              "lineHeight": "{sjs2.typography.line-height.semantic.default}"
+              "fontFamily": "{sjs2.typography.font-family.component.survey.title}",
+              "fontWeight": "{sjs2.typography.font-weight.component.survey.title}",
+              "fontSize": "{sjs2.typography.font-size.component.survey.title}",
+              "lineHeight": "{sjs2.typography.line-height.component.survey.title}"
             },
             "type": "typography"
           },
           "description": {
             "value": {
-              "fontFamily": "{sjs2.typography.font-family.semantic.text}",
-              "fontWeight": "{sjs2.typography.font-weight.semantic.basic}",
-              "fontSize": "{sjs2.typography.font-size.semantic.default}",
-              "lineHeight": "{sjs2.typography.line-height.semantic.default}"
+              "fontFamily": "{sjs2.typography.font-family.component.survey.description}",
+              "fontWeight": "{sjs2.typography.font-weight.component.survey.description}",
+              "fontSize": "{sjs2.typography.font-size.component.survey.description}",
+              "lineHeight": "{sjs2.typography.line-height.component.survey.description}"
             },
             "type": "typography"
           }
@@ -255,6 +255,54 @@
             "value": "{sjs2.font-size.x400}",
             "type": "fontSizes"
           }
+        },
+        "component": {
+          "editor": {
+            "text": {
+              "value": "{sjs2.font-size.x200}",
+              "type": "fontSizes"
+            }
+          },
+          "question": {
+            "title": {
+              "value": "{sjs2.font-size.x200}",
+              "type": "fontSizes"
+            },
+            "description": {
+              "value": "{sjs2.font-size.x200}",
+              "type": "fontSizes"
+            }
+          },
+          "page": {
+            "title": {
+              "value": "{sjs2.font-size.x200}",
+              "type": "fontSizes"
+            },
+            "description": {
+              "value": "{sjs2.font-size.x200}",
+              "type": "fontSizes"
+            }
+          },
+          "header": {
+            "title": {
+              "value": "{sjs2.font-size.x200}",
+              "type": "fontSizes"
+            },
+            "description": {
+              "value": "{sjs2.font-size.x200}",
+              "type": "fontSizes"
+            }
+          },
+          "survey": {
+            "title": {
+              "value": "{sjs2.font-size.x200}",
+              "type": "fontSizes"
+            },
+            "description": {
+              "value": "{sjs2.font-size.x200}",
+              "type": "fontSizes"
+            }
+          }
         }
       },
       "line-height": {
@@ -274,6 +322,54 @@
           "large": {
             "value": "{sjs2.line-height.x500}",
             "type": "lineHeights"
+          }
+        },
+        "component": {
+          "editor": {
+            "text": {
+              "value": "{sjs2.line-height.x300}",
+              "type": "lineHeights"
+            }
+          },
+          "question": {
+            "title": {
+              "value": "{sjs2.line-height.x300}",
+              "type": "lineHeights"
+            },
+            "description": {
+              "value": "{sjs2.line-height.x300}",
+              "type": "lineHeights"
+            }
+          },
+          "page": {
+            "title": {
+              "value": "{sjs2.line-height.x300}",
+              "type": "lineHeights"
+            },
+            "description": {
+              "value": "{sjs2.line-height.x300}",
+              "type": "lineHeights"
+            }
+          },
+          "header": {
+            "title": {
+              "value": "{sjs2.line-height.x300}",
+              "type": "lineHeights"
+            },
+            "description": {
+              "value": "{sjs2.line-height.x300}",
+              "type": "lineHeights"
+            }
+          },
+          "survey": {
+            "title": {
+              "value": "{sjs2.line-height.x300}",
+              "type": "lineHeights"
+            },
+            "description": {
+              "value": "{sjs2.line-height.x300}",
+              "type": "lineHeights"
+            }
           }
         }
       },
