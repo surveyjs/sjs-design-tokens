@@ -1,31 +1,29 @@
 {
   "sjs2": {
     "radius": {
-      "semantic": {
-        "form": {
-          "value": "{sjs2.radius.x000}",
-          "type": "borderRadius"
-        },
-        "form-item": {
-          "value": "{sjs2.radius.x000}",
-          "type": "borderRadius"
-        }
+      "form": {
+        "value": "{sjs2.radius.x000}",
+        "type": "borderRadius"
+      },
+      "form-item": {
+        "value": "{sjs2.radius.x000}",
+        "type": "borderRadius"
       },
       "component": {
-        "editor": {
-          "value": "{sjs2.radius.semantic.form}",
+        "formbox": {
+          "value": "{sjs2.radius.form}",
           "type": "borderRadius"
         },
-        "editor-item": {
-          "value": "{sjs2.radius.semantic.form-item}",
+        "formbox-item": {
+          "value": "{sjs2.radius.form-item}",
           "type": "borderRadius"
         },
         "action": {
-          "value": "{sjs2.radius.semantic.form}",
+          "value": "{sjs2.radius.form}",
           "type": "borderRadius"
         },
-        "menu-item": {
-          "value": "{sjs2.radius.semantic.form}",
+        "drop": {
+          "value": "{sjs2.radius.x000}",
           "type": "borderRadius"
         },
         "drop-item": {
@@ -33,7 +31,7 @@
           "type": "borderRadius"
         },
         "checkbox": {
-          "value": "{sjs2.radius.semantic.form-item}",
+          "value": "{sjs2.radius.form-item}",
           "type": "borderRadius"
         },
         "radio": {
@@ -89,10 +87,6 @@
           "value": "{sjs2.radius.x000}",
           "type": "borderRadius"
         },
-        "drop": {
-          "value": "{sjs2.radius.x000}",
-          "type": "borderRadius"
-        },
         "modal": {
           "value": "{sjs2.radius.x000}",
           "type": "borderRadius"
@@ -103,10 +97,6 @@
         },
         "tooltip": {
           "value": "{sjs2.radius.x000}",
-          "type": "borderRadius"
-        },
-        "drag": {
-          "value": "{sjs2.radius.semantic.form}",
           "type": "borderRadius"
         }
       }
