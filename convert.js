@@ -19,6 +19,7 @@ const THEME_CONFIG = [
     ],
     patch: {
       "--sjs2-base-unit-radius": "4px",
+      "--sjs2-border-effect-component-formbox-focused": "0px 0px 0px 2px var(--sjs2-color-bg-brand-primary)"
     },
     products: ["survey-library"]
   },
@@ -36,14 +37,6 @@ const THEME_CONFIG = [
       "typography-themes/default",
       "style-themes/lbr-light"
     ],
-    patch: {
-      "--sjs-shadow-small": "0px 1px 2px 0px rgba(0, 0, 0, 0.15)",
-      "--sjs-shadow-small-reset": "0px 0px 0px 0px rgba(0, 0, 0, 0.15)",
-      "--sjs-shadow-medium": "0px 2px 6px 0px rgba(0, 0, 0, 0.1)",
-      "--sjs-shadow-large": "0px 8px 16px 0px rgba(0, 0, 0, 0.1)",
-      "--sjs-shadow-inner": "inset 0px 1px 2px 0px rgba(0, 0, 0, 0.15)",
-      "--sjs-shadow-inner-reset": "inset 0px 0px 0px 0px rgba(0, 0, 0, 0.15)",
-    },
     products: ["survey-library"]
   },
   {
