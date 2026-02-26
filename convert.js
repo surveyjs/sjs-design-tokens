@@ -22,6 +22,7 @@ const THEME_CONFIG = [
       "--sjs2-border-effect-component-formbox-focused": "0px 0px 0px 2px var(--sjs2-color-bg-brand-primary)",
       "--sjs2-typography-font-weight-component-header-title": "700",
       "--sjs2-typography-font-weight-component-page-title": "700",
+      "--sjs2-typography-font-size-component-header-description": "20px"
     },
     products: ["survey-library"]
   },
