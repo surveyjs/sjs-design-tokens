@@ -19,7 +19,9 @@ const THEME_CONFIG = [
     ],
     patch: {
       "--sjs2-base-unit-radius": "4px",
-      "--sjs2-border-effect-component-formbox-focused": "0px 0px 0px 2px var(--sjs2-color-bg-brand-primary)"
+      "--sjs2-border-effect-component-formbox-focused": "0px 0px 0px 2px var(--sjs2-color-bg-brand-primary)",
+      "--sjs2-typography-font-weight-component-header-title": "700",
+      "--sjs2-typography-font-weight-component-page-title": "700",
     },
     products: ["survey-library"]
   },
