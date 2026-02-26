@@ -118,7 +118,12 @@
           "survey": {
             "value": "#1c1b200d",
             "type": "color",
-            "description": "Surface color for the real Survey on the user's side."
+            "description": "Surface color for the real Survey on the user's side + Preview & Themes tabs."
+          },
+          "survey-panelless": {
+            "value": "{sjs2.palette.gray.000}",
+            "type": "color",
+            "description": "Surface color for the real Survey on the user's side + Preview & Themes tabs, panelless."
           },
           "designer": {
             "value": "#EDF9F7",
@@ -135,16 +140,6 @@
             "type": "color",
             "description": "Surface color for Dashboards on the user's side."
           },
-          "preview": {
-            "value": "{sjs2.color.utility.surface.survey}",
-            "type": "color",
-            "description": "Surface color for Preview tab."
-          },
-          "themes": {
-            "value": "{sjs2.color.utility.surface.survey}",
-            "type": "color",
-            "description": "Surface color for Themes tab."
-          },
           "logic": {
             "value": "{sjs2.color.utility.surface.designer}",
             "type": "color",
@@ -160,15 +155,15 @@
             "type": "color",
             "description": "Surface color for Translations tab."
           },
-          "embed-survey": {
-            "value": "{sjs2.color.utility.surface.designer}",
-            "type": "color",
-            "description": "Surface color for Embed Survey tab."
-          },
           "embed-creator": {
             "value": "{sjs2.color.utility.surface.designer}",
             "type": "color",
             "description": "Surface color for Embed Creator tab."
+          },
+          "embed-survey": {
+            "value": "{sjs2.color.utility.surface.designer}",
+            "type": "color",
+            "description": "Surface color for Embed Survey tab."
           }
         },
         "shadow": {
