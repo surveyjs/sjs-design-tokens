@@ -2800,6 +2800,10 @@
             "description-placeholder": {
               "value": "{sjs2.color.fg.basic.tertiary}",
               "type": "color"
+            },
+            "bg": {
+              "value": "rgba( {sjs2.color.utility.surface.survey}, {sjs2.opacity.hidden})",
+              "type": "color"
             }
           }
         }
