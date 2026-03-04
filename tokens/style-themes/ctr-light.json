@@ -2188,36 +2188,6 @@
               "value": "{sjs2.palette.gray.250}",
               "type": "color"
             }
-          },
-          "readonly": {
-            "line": {
-              "value": "{sjs2.palette.gray.250}",
-              "type": "color"
-            },
-            "value": {
-              "value": "{sjs2.color.fg.basic.primary}",
-              "type": "color"
-            },
-            "placeholder": {
-              "value": "{sjs2.color.fg.basic.secondary}",
-              "type": "color"
-            },
-            "label": {
-              "value": "{sjs2.color.fg.basic.secondary}",
-              "type": "color"
-            },
-            "limit": {
-              "value": "{sjs2.color.fg.basic.secondary}",
-              "type": "color"
-            },
-            "icon": {
-              "value": "{sjs2.color.fg.basic.tertiary}",
-              "type": "color"
-            },
-            "description": {
-              "value": "{sjs2.color.fg.basic.secondary}",
-              "type": "color"
-            }
           }
         },
         "check": {
