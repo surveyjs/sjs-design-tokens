@@ -2999,10 +2999,6 @@
               "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
             },
-            "icon": {
-              "value": "{sjs2.color.fg.basic.primary-muted}",
-              "type": "color"
-            },
             "label": {
               "value": "{sjs2.color.fg.basic.primary}",
               "type": "color"
@@ -3017,26 +3013,18 @@
               "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
             },
-            "icon": {
-              "value": "{sjs2.color.fg.basic.primary-muted}",
-              "type": "color"
-            },
             "label": {
               "value": "{sjs2.color.fg.basic.primary}",
               "type": "color"
             }
           },
-          "pressed": {
+          "readonly": {
             "bg": {
               "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
             },
             "border": {
               "value": "{sjs2.color.border.basic.secondary}",
-              "type": "color"
-            },
-            "icon": {
-              "value": "{sjs2.color.fg.basic.primary-muted}",
               "type": "color"
             },
             "label": {
@@ -3051,10 +3039,6 @@
             },
             "border": {
               "value": "{sjs2.color.border.basic.secondary}",
-              "type": "color"
-            },
-            "icon": {
-              "value": "{sjs2.color.fg.basic.primary-disabled}",
               "type": "color"
             },
             "label": {
