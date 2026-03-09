@@ -520,7 +520,11 @@
         },
         "brand": {
           "primary": {
-            "value": "{sjs2.color.project.accent.600}",
+            "value": "{sjs2.color.project.brand.600}",
+            "type": "color"
+          },
+          "primary-dim": {
+            "value": "{sjs2.color.project.brand.700}",
             "type": "color"
           },
           "on-primary": {
