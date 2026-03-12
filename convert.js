@@ -303,6 +303,26 @@ function processRgbaValue(value) {
   return processedValue;
 }
 
+// Check if a CSS shadow string represents an invisible shadow (all dimensions are 0)
+function isShadowInvisible(shadowString) {
+  if (!shadowString || typeof shadowString !== 'string') return false;
+  const s = shadowString.trim().replace(/^inset\s+/, '');
+  const tokens = s.split(/\s+/);
+  if (tokens.length < 2) return false;
+  const dimensions = [];
+  for (let i = 0; i < 4 && i < tokens.length; i++) {
+    const t = tokens[i];
+    if (t === '0' || t === '0px') {
+      dimensions.push(0);
+    } else if (/^-?\d+(\.\d+)?(px)?$/.test(t)) {
+      dimensions.push(parseFloat(t) === 0 ? 0 : 1);
+    } else {
+      break;
+    }
+  }
+  return dimensions.length >= 2 && dimensions.every(d => d === 0);
+}
+
 // Function for processing shadow values
 function processShadowValue(shadowObj) {
   if (!shadowObj || typeof shadowObj !== 'object') {
@@ -339,7 +359,8 @@ function processShadowValue(shadowObj) {
     shadowString = `inset ${shadowString}`;
   }
   
-  return shadowString.trim();
+  const result = shadowString.trim();
+  return isShadowInvisible(result) ? null : result;
 }
 
 // Function for processing shadow values with token resolution
@@ -383,7 +404,8 @@ function processShadowValueWithResolution(shadowObj, visited = new Set()) {
     shadowString = `inset ${shadowString}`;
   }
   
-  return shadowString.trim();
+  const result = shadowString.trim();
+  return isShadowInvisible(result) ? null : result;
 }
 
 // Function for processing color modifications via $extensions.studio.tokens.modify
