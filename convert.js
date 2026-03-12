@@ -19,6 +19,8 @@ const THEME_CONFIG = [
     ],
     patch: {
       "--sjs2-base-unit-radius": "4px",
+      "--sjs2-color-bg-neutral-tertiary-dim": "#f3f3f3",
+      "--sjs2-radius-component-panel": "4px",
       "--sjs2-border-effect-component-formbox-focused": "0px 0px 0px 2px var(--sjs2-color-bg-brand-primary)",
       "--sjs2-typography-font-weight-component-header-title": "700",
       "--sjs2-typography-font-weight-component-page-title": "700",
