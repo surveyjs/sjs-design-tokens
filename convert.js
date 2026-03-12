@@ -29,6 +29,7 @@ const THEME_CONFIG = [
   {
     objectName: "DefaultLight",
     themeName: "default",
+    fileName: "default-light",
     iconSet: "v2",
     isLight: true,
     tokenPaths: [
@@ -651,7 +652,8 @@ export default ${JSON.stringify(outputObject, null, 2)};
           fs.mkdirSync(productDir, { recursive: true });
         }
         
-        const outputPath = path.join(productDir, `${themeName}.ts`);
+        const outputFileName = (themeConfig.fileName !== undefined ? themeConfig.fileName : themeName) + '.ts';
+        const outputPath = path.join(productDir, outputFileName);
         fs.writeFileSync(outputPath, tsContent);
         
         console.log(`Created TypeScript file: ${outputPath}`);
