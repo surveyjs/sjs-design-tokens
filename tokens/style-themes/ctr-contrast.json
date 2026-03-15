@@ -2910,6 +2910,14 @@
             "label": {
               "value": "{sjs2.color.fg.basic.primary}",
               "type": "color"
+            },
+            "mask-stop-1": {
+              "value": "{sjs2.color.component.tagbox-item.default.bg}",
+              "type": "color"
+            },
+            "mask-stop-2": {
+              "value": "rgba ( {sjs2.color.component.tagbox-item.default.bg}, {sjs2.opacity.hidden} )",
+              "type": "color"
             }
           },
           "hovered": {
@@ -2923,6 +2931,14 @@
             },
             "label": {
               "value": "{sjs2.color.fg.basic.primary}",
+              "type": "color"
+            },
+            "mask-stop-1": {
+              "value": "{sjs2.color.component.tagbox-item.hovered.bg}",
+              "type": "color"
+            },
+            "mask-stop-2": {
+              "value": "rgba ( {sjs2.color.component.tagbox-item.hovered.bg}, {sjs2.opacity.hidden} )",
               "type": "color"
             }
           },
