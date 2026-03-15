@@ -178,15 +178,10 @@
             "type": "color",
             "description": "surface color for Translations tab"
           },
-          "embed-survey": {
+          "embed": {
             "value": "{sjs2.color.utility.surface.designer}",
             "type": "color",
-            "description": "surface color for Embed Survey tab"
-          },
-          "embed-creator": {
-            "value": "{sjs2.color.utility.surface.designer}",
-            "type": "color",
-            "description": "surface color for Embed Creator tab"
+            "description": "Surface color for Embed Creator & Embed survey tabs."
           }
         }
       },
@@ -3163,7 +3158,7 @@
           "type": "number"
         },
         "invalid-focused": {
-          "value": 0,
+          "value": "0",
           "type": "number"
         },
         "readonly": {
@@ -3266,7 +3261,7 @@
             "type": "number"
           },
           "invalid-focused": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "readonly": {
@@ -3368,7 +3363,7 @@
             "type": "number"
           },
           "invalid-focused": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "readonly": {
