@@ -3017,7 +3017,7 @@
               "type": "color"
             },
             "mask-stop-2": {
-              "value": "rgba ( {sjs2.color.component.tagbox-item.default.bg}, {sjs2.opacity.hidden} )",
+              "value": "rgba( {sjs2.color.bg.basic.primary}, {sjs2.opacity.hidden} )",
               "type": "color"
             }
           },
@@ -3039,7 +3039,7 @@
               "type": "color"
             },
             "mask-stop-2": {
-              "value": "rgba ( {sjs2.color.component.tagbox-item.hovered.bg}, {sjs2.opacity.hidden} )",
+              "value": "rgba( {sjs2.color.bg.basic.primary}, {sjs2.opacity.hidden} )",
               "type": "color"
             }
           },
