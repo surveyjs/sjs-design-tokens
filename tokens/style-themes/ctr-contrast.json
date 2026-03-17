@@ -178,15 +178,10 @@
             "type": "color",
             "description": "surface color for Translations tab"
           },
-          "embed-survey": {
+          "embed": {
             "value": "{sjs2.color.utility.surface.designer}",
             "type": "color",
-            "description": "surface color for Embed Survey tab"
-          },
-          "embed-creator": {
-            "value": "{sjs2.color.utility.surface.designer}",
-            "type": "color",
-            "description": "surface color for Embed Creator tab"
+            "description": "Surface color for Embed Creator & Embed survey tabs."
           }
         }
       },
@@ -984,6 +979,16 @@
             },
             "border": {
               "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
+            }
+          },
+          "invalid-focused": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.secondary}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{sjs2.color.border.alert.primary}",
               "type": "color"
             }
           }
@@ -2905,6 +2910,14 @@
             "label": {
               "value": "{sjs2.color.fg.basic.primary}",
               "type": "color"
+            },
+            "mask-stop-1": {
+              "value": "{sjs2.color.component.tagbox-item.default.bg}",
+              "type": "color"
+            },
+            "mask-stop-2": {
+              "value": "rgba( {sjs2.color.bg.basic.primary}, {sjs2.opacity.hidden} )",
+              "type": "color"
             }
           },
           "hovered": {
@@ -2918,6 +2931,14 @@
             },
             "label": {
               "value": "{sjs2.color.fg.basic.primary}",
+              "type": "color"
+            },
+            "mask-stop-1": {
+              "value": "{sjs2.color.component.tagbox-item.hovered.bg}",
+              "type": "color"
+            },
+            "mask-stop-2": {
+              "value": "rgba( {sjs2.color.bg.basic.primary}, {sjs2.opacity.hidden} )",
               "type": "color"
             }
           },
@@ -3011,6 +3032,10 @@
         "value": "{sjs2.border-width.x100}",
         "type": "borderWidth"
       },
+      "focused": {
+        "value": "{sjs2.border-width.x200}",
+        "type": "borderWidth"
+      },
       "a11y": {
         "value": "{sjs2.border-width.x400}",
         "type": "borderWidth"
@@ -3043,6 +3068,10 @@
           "type": "number"
         },
         "invalid": {
+          "value": "{sjs2.border-width.x100}",
+          "type": "number"
+        },
+        "invalid-focused": {
           "value": "{sjs2.border-width.x200}",
           "type": "number"
         },
@@ -3141,6 +3170,10 @@
           "type": "number"
         },
         "invalid": {
+          "value": "0",
+          "type": "number"
+        },
+        "invalid-focused": {
           "value": "0",
           "type": "number"
         },
@@ -3243,6 +3276,10 @@
             "value": "0",
             "type": "number"
           },
+          "invalid-focused": {
+            "value": "0",
+            "type": "number"
+          },
           "readonly": {
             "value": "0",
             "type": "number"
@@ -3338,6 +3375,10 @@
             "type": "number"
           },
           "invalid": {
+            "value": "0",
+            "type": "number"
+          },
+          "invalid-focused": {
             "value": "0",
             "type": "number"
           },
@@ -3505,6 +3546,27 @@
                 "blur": "{sjs2.border-blur.form.invalid}",
                 "spread": "{sjs2.border-spread.form.invalid}",
                 "color": "{sjs2.color.component.formbox.invalid.border}",
+                "type": "innerShadow"
+              },
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(0,0,0,0)",
+                "type": "innerShadow"
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "invalid-focused": {
+            "value": [
+              {
+                "x": "{sjs2.border-offset.x.form.invalid-focused}",
+                "y": "{sjs2.border-offset.y.form.invalid-focused}",
+                "blur": "{sjs2.border-blur.form.invalid-focused}",
+                "spread": "{sjs2.border-spread.form.invalid}",
+                "color": "{sjs2.color.component.formbox.invalid-focused.border}",
                 "type": "innerShadow"
               },
               {
