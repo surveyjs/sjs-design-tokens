@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-
 // Configuration for theme generation
 const THEME_CONFIG = [
   {
@@ -21,6 +20,19 @@ const THEME_CONFIG = [
       "--sjs2-base-unit-radius": "4px",
       "--sjs2-color-bg-neutral-tertiary-dim": "#f3f3f3",
       "--sjs2-radius-component-panel": "4px",
+      "--sjs2-color-component-formbox-action-default-icon": "#909090",
+      "--sjs2-color-component-formbox-action-pressed-bg": "rgb(from #f3f3f3 r g b / 0.5)",
+      "--sjs2-color-component-formbox-action-pressed-icon": "rgb(from #909090 r g b / 0.5)",
+      "--sjs2-color-component-formbox-action-hovered-icon": "#909090",
+      "--sjs2-color-component-formbox-action-hovered-bg": "#f3f3f3",
+      "--sjs2-border-effect-component-formbox-invalid": "inset 0 1px 2px 0 rgba(0, 0, 0, 0.15)",
+      "--sjs2-color-component-formbox-invalid-bg": "rgba(230, 10, 62, .1)",
+      "--sjs2-color-component-formbox-invalid-focused-bg": "rgba(230, 10, 62, .1)",
+      "--sjs2-border-effect-component-formbox-invalid-focused": "0px 0px 0px 2px var(--sjs2-color-bg-brand-primary)",
+      "--sjs2-color-component-formbox-readonly-bg": "#f8f8f8",
+      "--sjs2-border-effect-component-formbox-readonly": "none",
+      "--sjs2-base-unit-spacing": "var(--sjs2-base-unit-size)",
+      "--sjs2-base-unit-line-height": "var(--sjs2-base-unit-font-size)",
       "--sjs2-border-effect-component-formbox-focused": "0px 0px 0px 2px var(--sjs2-color-bg-brand-primary)",
       "--sjs2-typography-font-weight-component-header-title": "700",
       "--sjs2-typography-font-weight-component-page-title": "700",
