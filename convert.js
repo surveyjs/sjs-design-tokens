@@ -72,7 +72,7 @@ const THEME_CONFIG = [
       "style-themes/ctr-light"
     ],
     patch: {
-      "--sjs2-radius-component-formbox": "var(--sjs2-radius-x050)",
+      "--sjs2-radius-component-formbox": "var(--sjs2-radius-x075)",
       "--sjs2-color-fg-basic-primary": "#000000e6",
       "--sjs2-color-fg-basic-secondary": "#00000080",
       "--sjs2-color-bg-basic-primary-dim": "#f5f5f5",
