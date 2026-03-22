@@ -3214,10 +3214,6 @@
           "value": "{sjs2.border-width.x100}",
           "type": "number"
         },
-        "focused": {
-          "value": "{sjs2.border-width.x200}",
-          "type": "number"
-        },
         "disabled": {
           "value": "{sjs2.border-width.x100}",
           "type": "number"
@@ -3313,10 +3309,6 @@
           "type": "number"
         },
         "pressed": {
-          "value": "0",
-          "type": "number"
-        },
-        "focused": {
           "value": "0",
           "type": "number"
         },
@@ -3419,10 +3411,6 @@
             "value": "0",
             "type": "number"
           },
-          "focused": {
-            "value": "0",
-            "type": "number"
-          },
           "disabled": {
             "value": "0",
             "type": "number"
@@ -3518,10 +3506,6 @@
             "type": "number"
           },
           "pressed": {
-            "value": "0",
-            "type": "number"
-          },
-          "focused": {
             "value": "0",
             "type": "number"
           },
