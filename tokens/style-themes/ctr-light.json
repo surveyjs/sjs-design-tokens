@@ -928,11 +928,6 @@
                   "type": "color",
                   "description": "Button / action background color, style: alert, mode: primary, state: default."
                 },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.alert.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color",
-                  "description": "Button / action border color, style: alert, mode: primary, state: default."
-                },
                 "icon": {
                   "value": "{sjs2.color.fg.alert.on-primary}",
                   "type": "color",
@@ -949,11 +944,6 @@
                   "value": "{sjs2.color.bg.alert.primary-dim}",
                   "type": "color",
                   "description": "Button / action background color, style: alert, mode: primary, state: hovered."
-                },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.alert.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color",
-                  "description": "Button / action border color, style: alert, mode: primary, state: hovered."
                 },
                 "icon": {
                   "value": "{sjs2.color.fg.alert.on-primary}",
@@ -972,11 +962,6 @@
                   "type": "color",
                   "description": "Button / action background color, style: alert, mode: primary, state: pressed."
                 },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.alert.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color",
-                  "description": "Button / action border color, style: alert, mode: primary, state: pressed."
-                },
                 "icon": {
                   "value": "{sjs2.color.fg.alert.on-primary}",
                   "type": "color",
@@ -993,11 +978,6 @@
                   "value": "{sjs2.color.bg.alert.primary-disabled}",
                   "type": "color",
                   "description": "Button / action background color, style: alert, mode: primary, state: disabled."
-                },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.alert.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color",
-                  "description": "Button / action border color, style: alert, mode: primary, state: disabled."
                 },
                 "icon": {
                   "value": "{sjs2.color.fg.alert.primary-disabled}",
@@ -1018,11 +998,6 @@
                   "type": "color",
                   "description": "Button / action background color, style: alert, mode: secondary, state: default."
                 },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.alert.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color",
-                  "description": "Button / action border color, style: alert, mode: secondary, state: default."
-                },
                 "icon": {
                   "value": "{sjs2.color.fg.alert.primary}",
                   "type": "color",
@@ -1039,11 +1014,6 @@
                   "value": "{sjs2.color.bg.alert.secondary-dim}",
                   "type": "color",
                   "description": "Button / action background color, style: alert, mode: secondary, state: hovered."
-                },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.alert.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color",
-                  "description": "Button / action border color, style: alert, mode: secondary, state: hovered."
                 },
                 "icon": {
                   "value": "{sjs2.color.fg.alert.primary}",
@@ -1062,11 +1032,6 @@
                   "type": "color",
                   "description": "Button / action background color, style: alert, mode: secondary, state: pressed."
                 },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.alert.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color",
-                  "description": "Button / action border color, style: alert, mode: secondary, state: pressed."
-                },
                 "icon": {
                   "value": "{sjs2.color.fg.alert.primary}",
                   "type": "color",
@@ -1083,11 +1048,6 @@
                   "value": "{sjs2.color.bg.alert.primary-disabled}",
                   "type": "color",
                   "description": "Button / action background color, style: alert, mode: secondary, state: disabled."
-                },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.alert.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color",
-                  "description": "Button / action border color, style: alert, mode: secondary, state: disabled."
                 },
                 "icon": {
                   "value": "{sjs2.color.fg.alert.primary-disabled}",
@@ -1108,11 +1068,6 @@
                   "type": "color",
                   "description": "Button / action background color, style: alert, mode: tertiary, state: default."
                 },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.alert.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color",
-                  "description": "Button / action border color, style: alert, mode: tertiary, state: default."
-                },
                 "icon": {
                   "value": "{sjs2.color.fg.alert.primary}",
                   "type": "color",
@@ -1129,11 +1084,6 @@
                   "value": "{sjs2.color.bg.alert.tertiary-dim}",
                   "type": "color",
                   "description": "Button / action background color, style: alert, mode: tertiary, state: hovered."
-                },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.alert.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color",
-                  "description": "Button / action border color, style: alert, mode: tertiary, state: hovered."
                 },
                 "icon": {
                   "value": "{sjs2.color.fg.alert.primary}",
@@ -1152,11 +1102,6 @@
                   "type": "color",
                   "description": "Button / action background color, style: alert, mode: tertiary, state: pressed."
                 },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.alert.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color",
-                  "description": "Button / action border color, style: alert, mode: tertiary, state: pressed."
-                },
                 "icon": {
                   "value": "{sjs2.color.fg.alert.primary}",
                   "type": "color",
@@ -1173,11 +1118,6 @@
                   "value": "rgba( {sjs2.color.bg.alert.tertiary}, {sjs2.opacity.hidden} )",
                   "type": "color",
                   "description": "Button / action background color, style: alert, mode: tertiary, state: disabled."
-                },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.alert.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color",
-                  "description": "Button / action border color, style: alert, mode: tertiary, state: disabled."
                 },
                 "icon": {
                   "value": "{sjs2.color.fg.alert.primary-disabled}",
@@ -1199,10 +1139,6 @@
                   "value": "{sjs2.color.bg.brand.primary}",
                   "type": "color"
                 },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.brand.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
-                },
                 "icon": {
                   "value": "{sjs2.color.fg.brand.on-primary}",
                   "type": "color"
@@ -1215,10 +1151,6 @@
               "hovered": {
                 "bg": {
                   "value": "{sjs2.color.bg.brand.primary-dim}",
-                  "type": "color"
-                },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.brand.primary}, {sjs2.opacity.hidden} )",
                   "type": "color"
                 },
                 "icon": {
@@ -1235,10 +1167,6 @@
                   "value": "{sjs2.color.bg.brand.primary}",
                   "type": "color"
                 },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.brand.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
-                },
                 "icon": {
                   "value": "{sjs2.color.fg.brand.on-primary}",
                   "type": "color"
@@ -1251,10 +1179,6 @@
               "disabled": {
                 "bg": {
                   "value": "{sjs2.color.bg.brand.primary-disabled}",
-                  "type": "color"
-                },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.brand.primary}, {sjs2.opacity.hidden} )",
                   "type": "color"
                 },
                 "icon": {
@@ -1273,10 +1197,6 @@
                   "value": "{sjs2.color.bg.brand.secondary}",
                   "type": "color"
                 },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.brand.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
-                },
                 "icon": {
                   "value": "{sjs2.color.fg.brand.primary}",
                   "type": "color"
@@ -1289,10 +1209,6 @@
               "hovered": {
                 "bg": {
                   "value": "{sjs2.color.bg.brand.secondary-dim}",
-                  "type": "color"
-                },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.brand.primary}, {sjs2.opacity.hidden} )",
                   "type": "color"
                 },
                 "icon": {
@@ -1309,10 +1225,6 @@
                   "value": "{sjs2.color.bg.brand.secondary}",
                   "type": "color"
                 },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.brand.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
-                },
                 "icon": {
                   "value": "{sjs2.color.fg.brand.primary}",
                   "type": "color"
@@ -1325,10 +1237,6 @@
               "disabled": {
                 "bg": {
                   "value": "{sjs2.color.bg.brand.primary-disabled}",
-                  "type": "color"
-                },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.brand.primary}, {sjs2.opacity.hidden} )",
                   "type": "color"
                 },
                 "icon": {
@@ -1347,10 +1255,6 @@
                   "value": "{sjs2.color.bg.brand.tertiary}",
                   "type": "color"
                 },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.brand.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
-                },
                 "icon": {
                   "value": "{sjs2.color.fg.brand.primary}",
                   "type": "color"
@@ -1363,10 +1267,6 @@
               "hovered": {
                 "bg": {
                   "value": "{sjs2.color.bg.brand.tertiary-dim}",
-                  "type": "color"
-                },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.brand.primary}, {sjs2.opacity.hidden} )",
                   "type": "color"
                 },
                 "icon": {
@@ -1383,10 +1283,6 @@
                   "value": "{sjs2.color.bg.brand.tertiary-dim}",
                   "type": "color"
                 },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.brand.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
-                },
                 "icon": {
                   "value": "{sjs2.color.fg.brand.primary}",
                   "type": "color"
@@ -1399,10 +1295,6 @@
               "disabled": {
                 "bg": {
                   "value": "rgba( {sjs2.color.bg.brand.tertiary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
-                },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.brand.primary}, {sjs2.opacity.hidden} )",
                   "type": "color"
                 },
                 "icon": {
@@ -1423,10 +1315,6 @@
                   "value": "{sjs2.color.bg.accent.primary}",
                   "type": "color"
                 },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.accent.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
-                },
                 "icon": {
                   "value": "{sjs2.color.fg.accent.on-primary}",
                   "type": "color"
@@ -1439,10 +1327,6 @@
               "hovered": {
                 "bg": {
                   "value": "{sjs2.color.bg.accent.primary-dim}",
-                  "type": "color"
-                },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.accent.primary}, {sjs2.opacity.hidden} )",
                   "type": "color"
                 },
                 "icon": {
@@ -1459,10 +1343,6 @@
                   "value": "{sjs2.color.bg.accent.primary}",
                   "type": "color"
                 },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.accent.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
-                },
                 "icon": {
                   "value": "{sjs2.color.fg.accent.on-primary}",
                   "type": "color"
@@ -1475,10 +1355,6 @@
               "disabled": {
                 "bg": {
                   "value": "{sjs2.color.bg.accent.primary-disabled}",
-                  "type": "color"
-                },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.accent.primary}, {sjs2.opacity.hidden} )",
                   "type": "color"
                 },
                 "icon": {
@@ -1497,10 +1373,6 @@
                   "value": "{sjs2.color.bg.accent.secondary}",
                   "type": "color"
                 },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.accent.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
-                },
                 "icon": {
                   "value": "{sjs2.color.fg.accent.primary}",
                   "type": "color"
@@ -1513,10 +1385,6 @@
               "hovered": {
                 "bg": {
                   "value": "{sjs2.color.bg.accent.secondary-dim}",
-                  "type": "color"
-                },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.accent.primary}, {sjs2.opacity.hidden} )",
                   "type": "color"
                 },
                 "icon": {
@@ -1533,10 +1401,6 @@
                   "value": "{sjs2.color.bg.accent.secondary}",
                   "type": "color"
                 },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.accent.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
-                },
                 "icon": {
                   "value": "{sjs2.color.fg.accent.primary}",
                   "type": "color"
@@ -1549,10 +1413,6 @@
               "disabled": {
                 "bg": {
                   "value": "{sjs2.color.bg.accent.primary-disabled}",
-                  "type": "color"
-                },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.accent.primary}, {sjs2.opacity.hidden} )",
                   "type": "color"
                 },
                 "icon": {
@@ -1571,10 +1431,6 @@
                   "value": "{sjs2.color.bg.accent.tertiary}",
                   "type": "color"
                 },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.accent.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
-                },
                 "icon": {
                   "value": "{sjs2.color.fg.accent.primary}",
                   "type": "color"
@@ -1587,10 +1443,6 @@
               "hovered": {
                 "bg": {
                   "value": "{sjs2.color.bg.accent.tertiary-dim}",
-                  "type": "color"
-                },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.accent.primary}, {sjs2.opacity.hidden} )",
                   "type": "color"
                 },
                 "icon": {
@@ -1607,10 +1459,6 @@
                   "value": "{sjs2.color.bg.accent.tertiary-dim}",
                   "type": "color"
                 },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.accent.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
-                },
                 "icon": {
                   "value": "{sjs2.color.fg.accent.primary}",
                   "type": "color"
@@ -1623,10 +1471,6 @@
               "disabled": {
                 "bg": {
                   "value": "rgba( {sjs2.color.bg.accent.tertiary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
-                },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.accent.primary}, {sjs2.opacity.hidden} )",
                   "type": "color"
                 },
                 "icon": {
@@ -1647,10 +1491,6 @@
                   "value": "{sjs2.color.bg.neutral.primary}",
                   "type": "color"
                 },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.neutral.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
-                },
                 "icon": {
                   "value": "{sjs2.color.fg.neutral.on-primary}",
                   "type": "color"
@@ -1663,10 +1503,6 @@
               "hovered": {
                 "bg": {
                   "value": "{sjs2.color.bg.neutral.primary-dim}",
-                  "type": "color"
-                },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.neutral.primary}, {sjs2.opacity.hidden} )",
                   "type": "color"
                 },
                 "icon": {
@@ -1683,10 +1519,6 @@
                   "value": "{sjs2.color.bg.neutral.primary}",
                   "type": "color"
                 },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.neutral.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
-                },
                 "icon": {
                   "value": "{sjs2.color.fg.neutral.on-primary}",
                   "type": "color"
@@ -1699,10 +1531,6 @@
               "disabled": {
                 "bg": {
                   "value": "{sjs2.color.bg.neutral.primary-disabled}",
-                  "type": "color"
-                },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.neutral.primary}, {sjs2.opacity.hidden} )",
                   "type": "color"
                 },
                 "icon": {
@@ -1721,10 +1549,6 @@
                   "value": "{sjs2.color.bg.neutral.secondary}",
                   "type": "color"
                 },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.neutral.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
-                },
                 "icon": {
                   "value": "{sjs2.color.fg.neutral.primary}",
                   "type": "color"
@@ -1737,10 +1561,6 @@
               "hovered": {
                 "bg": {
                   "value": "{sjs2.color.bg.neutral.secondary-dim}",
-                  "type": "color"
-                },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.neutral.primary}, {sjs2.opacity.hidden} )",
                   "type": "color"
                 },
                 "icon": {
@@ -1757,10 +1577,6 @@
                   "value": "{sjs2.color.bg.neutral.secondary}",
                   "type": "color"
                 },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.neutral.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
-                },
                 "icon": {
                   "value": "{sjs2.color.fg.neutral.primary}",
                   "type": "color"
@@ -1773,10 +1589,6 @@
               "disabled": {
                 "bg": {
                   "value": "{sjs2.color.bg.neutral.primary-disabled}",
-                  "type": "color"
-                },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.neutral.primary}, {sjs2.opacity.hidden} )",
                   "type": "color"
                 },
                 "icon": {
@@ -1795,10 +1607,6 @@
                   "value": "{sjs2.color.bg.neutral.tertiary}",
                   "type": "color"
                 },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.neutral.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
-                },
                 "icon": {
                   "value": "{sjs2.color.fg.neutral.primary-muted}",
                   "type": "color"
@@ -1811,10 +1619,6 @@
               "hovered": {
                 "bg": {
                   "value": "{sjs2.color.bg.neutral.tertiary-dim}",
-                  "type": "color"
-                },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.neutral.primary}, {sjs2.opacity.hidden} )",
                   "type": "color"
                 },
                 "icon": {
@@ -1831,10 +1635,6 @@
                   "value": "{sjs2.color.bg.neutral.tertiary-dim}",
                   "type": "color"
                 },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.neutral.primary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
-                },
                 "icon": {
                   "value": "{sjs2.color.fg.neutral.primary-muted}",
                   "type": "color"
@@ -1847,10 +1647,6 @@
               "disabled": {
                 "bg": {
                   "value": "rgba( {sjs2.color.bg.neutral.tertiary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
-                },
-                "border": {
-                  "value": "rgba( {sjs2.color.border.neutral.primary}, {sjs2.opacity.hidden} )",
                   "type": "color"
                 },
                 "icon": {
@@ -1871,10 +1667,6 @@
               "value": "{sjs2.color.bg.neutral.tertiary}",
               "type": "color"
             },
-            "border": {
-              "value": "rgba( {sjs2.color.border.neutral.primary}, {sjs2.opacity.hidden} )",
-              "type": "color"
-            },
             "icon": {
               "value": "{sjs2.color.fg.neutral.primary-muted}",
               "type": "color"
@@ -1887,10 +1679,6 @@
           "hovered": {
             "bg": {
               "value": "{sjs2.color.bg.neutral.tertiary-dim}",
-              "type": "color"
-            },
-            "border": {
-              "value": "rgba( {sjs2.color.border.neutral.primary}, {sjs2.opacity.hidden} )",
               "type": "color"
             },
             "icon": {
@@ -1907,10 +1695,6 @@
               "value": "{sjs2.color.bg.neutral.tertiary-dim}",
               "type": "color"
             },
-            "border": {
-              "value": "rgba( {sjs2.color.border.neutral.primary}, {sjs2.opacity.hidden} )",
-              "type": "color"
-            },
             "icon": {
               "value": "{sjs2.color.fg.neutral.primary-muted}",
               "type": "color"
@@ -1923,10 +1707,6 @@
           "disabled": {
             "bg": {
               "value": "rgba( {sjs2.color.bg.neutral.tertiary}, {sjs2.opacity.hidden} )",
-              "type": "color"
-            },
-            "border": {
-              "value": "rgba( {sjs2.color.border.neutral.primary}, {sjs2.opacity.hidden} )",
               "type": "color"
             },
             "icon": {
