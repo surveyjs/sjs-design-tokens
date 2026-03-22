@@ -4,19 +4,32 @@
       "form": {
         "value": "{sjs2.radius.x100}",
         "type": "borderRadius",
-        "description": "Basic corner radius for controls, such as: button / action, textbox, dropdown, button-group, etc. \n\nWe also use it to set corner radius for matrix / table / list.\n\nNote: checkbox and radiobutton have different radius tokens."
+        "description": "Basic corner radius of forms and actions."
       },
       "form-item": {
         "value": "{sjs2.radius.x050}",
-        "type": "borderRadius"
+        "type": "borderRadius",
+        "description": "Basic corner radius of different elements inside forms."
       },
       "component": {
         "formbox": {
           "value": "{sjs2.radius.form}",
           "type": "borderRadius"
         },
-        "formbox-item": {
+        "formbox-action": {
           "value": "{sjs2.radius.form-item}",
+          "type": "borderRadius"
+        },
+        "color-swatch": {
+          "value": "{sjs2.radius.form-item}",
+          "type": "borderRadius"
+        },
+        "tagbox-item": {
+          "value": "{sjs2.radius.form-item}",
+          "type": "borderRadius"
+        },
+        "tagbox-item-action": {
+          "value": "{sjs2.radius.round}",
           "type": "borderRadius"
         },
         "message": {
