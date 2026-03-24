@@ -37,6 +37,13 @@ const THEME_CONFIG = [
       "--sjs2-typography-font-weight-component-header-title": "700",
       "--sjs2-typography-font-weight-component-page-title": "700",
       "--sjs2-typography-font-size-component-header-description": "20px",
+      "--sjs2-color-component-buttongroup-item-false-default-value": "#1c1b20",
+      "--sjs2-color-component-action-neutral-tertiary-default-icon": "rgba(from #1c1b20 r g b / calc(1% * 60))",
+      "--sjs2-color-component-tagbox-item-default-bg": "#19b394",
+      "--sjs2-color-component-tagbox-item-action-hovered-bg": "rgba(#fff, 0.25)",
+      "--sjs2-color-component-tagbox-item-default-label": "#ffffff",
+      "--sjs2-color-component-tagbox-item-action-default-icon": "#ffffff",
+      "--sjs2-color-component-check-true-readonly-icon": "#161616",
     },
     products: ["survey-library"]
   },
