@@ -44,6 +44,8 @@ const THEME_CONFIG = [
       "--sjs2-color-component-tagbox-item-default-label": "#ffffff",
       "--sjs2-color-component-tagbox-item-action-default-icon": "#ffffff",
       "--sjs2-color-component-check-true-readonly-icon": "#161616",
+      "--sjs2-radius-component-drop": "4px",
+      "--sjs2-radius-component-modal": "8px"
     },
     products: ["survey-library"]
   },
