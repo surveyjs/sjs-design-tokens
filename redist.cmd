@@ -7,6 +7,22 @@ if not exist "build" (
     exit /b 1
 )
 
+if exist "build\survey-library" (
+    echo Copying survey-library themes...
+    if not exist "..\survey-library\packages\survey-core\src\themes" (
+        echo Warning: ..\survey-library\packages\survey-core\src\themes directory not found.
+    ) else (
+        xcopy "build\survey-library\*" "..\survey-library\packages\survey-core\src\themes\" /Y /I
+        if %errorlevel% equ 0 (
+            echo survey-library themes copied successfully.
+        ) else (
+            echo Error copying survey-library themes.
+        )
+    )
+) else (
+    echo Warning: build\survey-library directory not found.
+)
+
 REM Copy survey-creator themes
 if exist "build\survey-creator" (
     echo Copying survey-creator themes...
