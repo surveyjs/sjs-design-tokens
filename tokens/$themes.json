@@ -6,7 +6,7 @@
     "selectedTokenSets": {
       "base-unit": "source",
       "common": "source",
-      "pdf-size-themes/compact": "enabled"
+      "pdf-layout-themes/compact": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:672:3581",
     "$figmaModeId": "672:0",
@@ -52,7 +52,7 @@
       "sjs2.pdf.layout.question.items-gap-horizontal": "f6843a7c651e46a3ccc4feab9f3a682ae4610782",
       "sjs2.pdf.layout.image-picker.items-gap-image-check": "7226b66829ad2c2ff372f85a53c1be7a290b5c34"
     },
-    "group": "pdf-size-themes"
+    "group": "pdf-layout-themes"
   },
   {
     "id": "eaa1feb92f4d3b0703cc581c05310d7ee2618ed3",
@@ -61,7 +61,7 @@
     "selectedTokenSets": {
       "base-unit": "source",
       "common": "source",
-      "pdf-size-themes/spacious": "enabled"
+      "pdf-layout-themes/spacious": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:672:3581",
     "$figmaModeId": "672:1",
@@ -107,7 +107,7 @@
       "sjs2.pdf.layout.question.items-gap-horizontal": "f6843a7c651e46a3ccc4feab9f3a682ae4610782",
       "sjs2.pdf.layout.image-picker.items-gap-image-check": "7226b66829ad2c2ff372f85a53c1be7a290b5c34"
     },
-    "group": "pdf-size-themes"
+    "group": "pdf-layout-themes"
   },
   {
     "id": "9e8fa671bfa239a0d18f55247cc605aeab262639",
@@ -1732,12 +1732,12 @@
       "sjs2.border-offset.y.surface.disabled": "65a2d174dc64563130d1a1a23daca212af2e73cb",
       "sjs2.border-offset.y.surface.dragging": "fcb70f800851c14a13a33fefd8b5d1f58c9caa0a",
       "sjs2.border-offset.y.floating.default": "5d5edb97b1c0d07f5b0eb19387b66bf8678696cd",
-      "sjs2.color.component.buttongroup-item.false.focused.bg": "338dc4d8a94883dbcf86a25d42da6f997baa8bad",
-      "sjs2.color.component.buttongroup-item.false.focused.border": "de1f6d34a030890dae7ebe43453f9490588c93a3",
-      "sjs2.color.component.buttongroup-item.false.focused.value": "f803a7375bf49b325bea678a55f85deca5aa791d",
-      "sjs2.color.component.buttongroup-item.true.focused.bg": "cd68ffaae357bcf9918d5fbcde21aad99f356c69",
-      "sjs2.color.component.buttongroup-item.true.focused.border": "7b84dbb4486cdb469e041e34fdb4c5460b81d312",
-      "sjs2.color.component.buttongroup-item.true.focused.value": "91086aa81f8149ecc674d170608d56a4a4916b0e"
+      "sjs2.color.component.buttongroup-item.false.focused.bg": "61469021e0b4eefe5fa4e4b4aba380168e79b7d3",
+      "sjs2.color.component.buttongroup-item.false.focused.border": "4f323cb62d5eb10fd1615f9befae288d2939d651",
+      "sjs2.color.component.buttongroup-item.false.focused.value": "502ad231e27bc9c982675f1d92bd9a19aae1d5f9",
+      "sjs2.color.component.buttongroup-item.true.focused.bg": "7c763198e3d7f43dd84e0274df1bb7b48a3d8196",
+      "sjs2.color.component.buttongroup-item.true.focused.border": "902a91a12d19ddf71026d8fc119879dd260b71ec",
+      "sjs2.color.component.buttongroup-item.true.focused.value": "05a60f58800d51995e46ee8b3c819199a1852772"
     }
   },
   {
@@ -2463,12 +2463,12 @@
       "sjs2.border-offset.y.surface.disabled": "65a2d174dc64563130d1a1a23daca212af2e73cb",
       "sjs2.border-offset.y.surface.dragging": "fcb70f800851c14a13a33fefd8b5d1f58c9caa0a",
       "sjs2.border-offset.y.floating.default": "5d5edb97b1c0d07f5b0eb19387b66bf8678696cd",
-      "sjs2.color.component.buttongroup-item.false.focused.bg": "338dc4d8a94883dbcf86a25d42da6f997baa8bad",
-      "sjs2.color.component.buttongroup-item.false.focused.border": "de1f6d34a030890dae7ebe43453f9490588c93a3",
-      "sjs2.color.component.buttongroup-item.false.focused.value": "f803a7375bf49b325bea678a55f85deca5aa791d",
-      "sjs2.color.component.buttongroup-item.true.focused.bg": "cd68ffaae357bcf9918d5fbcde21aad99f356c69",
-      "sjs2.color.component.buttongroup-item.true.focused.border": "7b84dbb4486cdb469e041e34fdb4c5460b81d312",
-      "sjs2.color.component.buttongroup-item.true.focused.value": "91086aa81f8149ecc674d170608d56a4a4916b0e"
+      "sjs2.color.component.buttongroup-item.false.focused.bg": "61469021e0b4eefe5fa4e4b4aba380168e79b7d3",
+      "sjs2.color.component.buttongroup-item.false.focused.border": "4f323cb62d5eb10fd1615f9befae288d2939d651",
+      "sjs2.color.component.buttongroup-item.false.focused.value": "502ad231e27bc9c982675f1d92bd9a19aae1d5f9",
+      "sjs2.color.component.buttongroup-item.true.focused.bg": "7c763198e3d7f43dd84e0274df1bb7b48a3d8196",
+      "sjs2.color.component.buttongroup-item.true.focused.border": "902a91a12d19ddf71026d8fc119879dd260b71ec",
+      "sjs2.color.component.buttongroup-item.true.focused.value": "05a60f58800d51995e46ee8b3c819199a1852772"
     },
     "group": "style-themes"
   },
@@ -3195,12 +3195,12 @@
       "sjs2.border-offset.y.surface.disabled": "65a2d174dc64563130d1a1a23daca212af2e73cb",
       "sjs2.border-offset.y.surface.dragging": "fcb70f800851c14a13a33fefd8b5d1f58c9caa0a",
       "sjs2.border-offset.y.floating.default": "5d5edb97b1c0d07f5b0eb19387b66bf8678696cd",
-      "sjs2.color.component.buttongroup-item.false.focused.bg": "338dc4d8a94883dbcf86a25d42da6f997baa8bad",
-      "sjs2.color.component.buttongroup-item.false.focused.border": "de1f6d34a030890dae7ebe43453f9490588c93a3",
-      "sjs2.color.component.buttongroup-item.false.focused.value": "f803a7375bf49b325bea678a55f85deca5aa791d",
-      "sjs2.color.component.buttongroup-item.true.focused.bg": "cd68ffaae357bcf9918d5fbcde21aad99f356c69",
-      "sjs2.color.component.buttongroup-item.true.focused.border": "7b84dbb4486cdb469e041e34fdb4c5460b81d312",
-      "sjs2.color.component.buttongroup-item.true.focused.value": "91086aa81f8149ecc674d170608d56a4a4916b0e"
+      "sjs2.color.component.buttongroup-item.false.focused.bg": "61469021e0b4eefe5fa4e4b4aba380168e79b7d3",
+      "sjs2.color.component.buttongroup-item.false.focused.border": "4f323cb62d5eb10fd1615f9befae288d2939d651",
+      "sjs2.color.component.buttongroup-item.false.focused.value": "502ad231e27bc9c982675f1d92bd9a19aae1d5f9",
+      "sjs2.color.component.buttongroup-item.true.focused.bg": "7c763198e3d7f43dd84e0274df1bb7b48a3d8196",
+      "sjs2.color.component.buttongroup-item.true.focused.border": "902a91a12d19ddf71026d8fc119879dd260b71ec",
+      "sjs2.color.component.buttongroup-item.true.focused.value": "05a60f58800d51995e46ee8b3c819199a1852772"
     },
     "group": "style-themes"
   },
@@ -3927,24 +3927,24 @@
       "sjs2.border-offset.y.surface.disabled": "65a2d174dc64563130d1a1a23daca212af2e73cb",
       "sjs2.border-offset.y.surface.dragging": "fcb70f800851c14a13a33fefd8b5d1f58c9caa0a",
       "sjs2.border-offset.y.floating.default": "5d5edb97b1c0d07f5b0eb19387b66bf8678696cd",
-      "sjs2.color.component.buttongroup-item.false.focused.bg": "338dc4d8a94883dbcf86a25d42da6f997baa8bad",
-      "sjs2.color.component.buttongroup-item.false.focused.border": "de1f6d34a030890dae7ebe43453f9490588c93a3",
-      "sjs2.color.component.buttongroup-item.false.focused.value": "f803a7375bf49b325bea678a55f85deca5aa791d",
-      "sjs2.color.component.buttongroup-item.true.focused.bg": "cd68ffaae357bcf9918d5fbcde21aad99f356c69",
-      "sjs2.color.component.buttongroup-item.true.focused.border": "7b84dbb4486cdb469e041e34fdb4c5460b81d312",
-      "sjs2.color.component.buttongroup-item.true.focused.value": "91086aa81f8149ecc674d170608d56a4a4916b0e"
+      "sjs2.color.component.buttongroup-item.false.focused.bg": "61469021e0b4eefe5fa4e4b4aba380168e79b7d3",
+      "sjs2.color.component.buttongroup-item.false.focused.border": "4f323cb62d5eb10fd1615f9befae288d2939d651",
+      "sjs2.color.component.buttongroup-item.false.focused.value": "502ad231e27bc9c982675f1d92bd9a19aae1d5f9",
+      "sjs2.color.component.buttongroup-item.true.focused.bg": "7c763198e3d7f43dd84e0274df1bb7b48a3d8196",
+      "sjs2.color.component.buttongroup-item.true.focused.border": "902a91a12d19ddf71026d8fc119879dd260b71ec",
+      "sjs2.color.component.buttongroup-item.true.focused.value": "05a60f58800d51995e46ee8b3c819199a1852772"
     },
     "group": "style-themes"
   },
   {
     "id": "9119f129775800d9322f9402259bc98b004ce092",
-    "name": "pdf-light",
+    "name": "monochrome-light",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "base-unit": "source",
       "common": "source",
       "palette": "source",
-      "style-themes/pdf-light": "enabled"
+      "style-themes/monochrome-light": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:174:1020",
     "$figmaModeId": "638:0",
@@ -4659,12 +4659,12 @@
       "sjs2.border-offset.y.surface.disabled": "65a2d174dc64563130d1a1a23daca212af2e73cb",
       "sjs2.border-offset.y.surface.dragging": "fcb70f800851c14a13a33fefd8b5d1f58c9caa0a",
       "sjs2.border-offset.y.floating.default": "5d5edb97b1c0d07f5b0eb19387b66bf8678696cd",
-      "sjs2.color.component.buttongroup-item.false.focused.bg": "338dc4d8a94883dbcf86a25d42da6f997baa8bad",
-      "sjs2.color.component.buttongroup-item.false.focused.border": "de1f6d34a030890dae7ebe43453f9490588c93a3",
-      "sjs2.color.component.buttongroup-item.false.focused.value": "f803a7375bf49b325bea678a55f85deca5aa791d",
-      "sjs2.color.component.buttongroup-item.true.focused.bg": "cd68ffaae357bcf9918d5fbcde21aad99f356c69",
-      "sjs2.color.component.buttongroup-item.true.focused.border": "7b84dbb4486cdb469e041e34fdb4c5460b81d312",
-      "sjs2.color.component.buttongroup-item.true.focused.value": "91086aa81f8149ecc674d170608d56a4a4916b0e"
+      "sjs2.color.component.buttongroup-item.false.focused.bg": "61469021e0b4eefe5fa4e4b4aba380168e79b7d3",
+      "sjs2.color.component.buttongroup-item.false.focused.border": "4f323cb62d5eb10fd1615f9befae288d2939d651",
+      "sjs2.color.component.buttongroup-item.false.focused.value": "502ad231e27bc9c982675f1d92bd9a19aae1d5f9",
+      "sjs2.color.component.buttongroup-item.true.focused.bg": "7c763198e3d7f43dd84e0274df1bb7b48a3d8196",
+      "sjs2.color.component.buttongroup-item.true.focused.border": "902a91a12d19ddf71026d8fc119879dd260b71ec",
+      "sjs2.color.component.buttongroup-item.true.focused.value": "05a60f58800d51995e46ee8b3c819199a1852772"
     },
     "group": "style-themes"
   }

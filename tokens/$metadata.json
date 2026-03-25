@@ -3,8 +3,8 @@
     "base-unit",
     "common",
     "palette",
-    "pdf-size-themes/compact",
-    "pdf-size-themes/spacious",
+    "pdf-layout-themes/compact",
+    "pdf-layout-themes/spacious",
     "size-themes/default",
     "size-themes/default-panelless",
     "radius-themes/default",
@@ -15,6 +15,6 @@
     "style-themes/ctr-dark",
     "style-themes/ctr-contrast",
     "style-themes/ctr-2020",
-    "style-themes/pdf-light"
+    "style-themes/monochrome-light"
   ]
 }
