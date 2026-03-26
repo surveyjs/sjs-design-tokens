@@ -493,6 +493,14 @@
           "primary-disabled": {
             "value": "{sjs2.palette.gray.300}",
             "type": "color"
+          },
+          "secondary-disabled": {
+            "value": "{sjs2.palette.gray.300}",
+            "type": "color"
+          },
+          "tertiary-disabled": {
+            "value": "{sjs2.palette.gray.300}",
+            "type": "color"
           }
         },
         "neutral": {
