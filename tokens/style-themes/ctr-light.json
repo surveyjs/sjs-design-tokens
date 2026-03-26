@@ -2290,6 +2290,18 @@
                 "type": "color",
                 "description": "Checkbox & radiobutton border color, is checked: false, state: design."
               }
+            },
+            "invalid": {
+              "bg": {
+                "value": "{sjs2.palette.gray.100}",
+                "type": "color",
+                "description": "Checkbox & radiobutton background color, is checked: false, state: design."
+              },
+              "border": {
+                "value": "{sjs2.color.border.alert.primary}",
+                "type": "color",
+                "description": "Checkbox & radiobutton border color, is checked: false, state: invalid."
+              }
             }
           },
           "true": {
@@ -2325,23 +2337,6 @@
                 "value": "{sjs2.palette.gray.400}",
                 "type": "color",
                 "description": "Checkbox & radiobutton icon color, is checked: true, state: disabled."
-              }
-            },
-            "readonly": {
-              "bg": {
-                "value": "{sjs2.color.bg.basic.primary}",
-                "type": "color",
-                "description": "Checkbox & radiobutton background color, is checked: true, state: readonly."
-              },
-              "border": {
-                "value": "{sjs2.color.border.basic.secondary}",
-                "type": "color",
-                "description": "Checkbox & radiobutton border color, is checked: true, state: readonly."
-              },
-              "icon": {
-                "value": "{sjs2.palette.gray.400}",
-                "type": "color",
-                "description": "Checkbox & radiobutton icon color, is checked: true, state: readonly."
               }
             },
             "hovered": {
@@ -3779,6 +3774,48 @@
                   "blur": "{sjs2.border-blur.form.design}",
                   "spread": "{sjs2.border-spread.form.design}",
                   "color": "{sjs2.color.component.check.false.design.border}",
+                  "type": "innerShadow"
+                },
+                {
+                  "x": "0",
+                  "y": "0",
+                  "blur": "0",
+                  "spread": "0",
+                  "color": "rgba(0,0,0,0)",
+                  "type": "innerShadow"
+                }
+              ],
+              "type": "boxShadow"
+            },
+            "readonly": {
+              "value": [
+                {
+                  "x": "{sjs2.border-offset.x.form.readonly}",
+                  "y": "{sjs2.border-offset.y.form.readonly}",
+                  "blur": "{sjs2.border-blur.form.readonly}",
+                  "spread": "{sjs2.border-spread.form.readonly}",
+                  "color": "{sjs2.color.component.check.false.readonly.border}",
+                  "type": "innerShadow"
+                },
+                {
+                  "x": "0",
+                  "y": "0",
+                  "blur": "0",
+                  "spread": "0",
+                  "color": "rgba(0,0,0,0)",
+                  "type": "innerShadow"
+                }
+              ],
+              "type": "boxShadow"
+            },
+            "invalid": {
+              "value": [
+                {
+                  "x": "{sjs2.border-offset.x.form.invalid}",
+                  "y": "{sjs2.border-offset.y.form.invalid}",
+                  "blur": "{sjs2.border-blur.form.invalid}",
+                  "spread": "{sjs2.border-spread.form.invalid}",
+                  "color": "{sjs2.color.component.check.false.invalid.border}",
                   "type": "innerShadow"
                 },
                 {
