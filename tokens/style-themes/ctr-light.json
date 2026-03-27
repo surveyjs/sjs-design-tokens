@@ -85,7 +85,7 @@
           "description": "Background color for drop, bottomsheet and modal."
         },
         "a11y": {
-          "value": "rgba( {sjs2.palette.blue.400}, {sjs2.opacity.x060} )",
+          "value": "rgba( {sjs2.palette.blue.600}, {sjs2.opacity.x040} )",
           "type": "color",
           "description": "Tab-focus border color."
         },
