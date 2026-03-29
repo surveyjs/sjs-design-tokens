@@ -18,6 +18,22 @@
           "value": "{sjs2.radius.form-item}",
           "type": "borderRadius"
         },
+        "swatch": {
+          "value": "{sjs2.radius.form-item}",
+          "type": "borderRadius"
+        },
+        "buttongroup-item": {
+          "value": "{sjs2.radius.form-item}",
+          "type": "borderRadius"
+        },
+        "tagbox-item": {
+          "value": "{sjs2.radius.form-item}",
+          "type": "borderRadius"
+        },
+        "tagbox-item-action": {
+          "value": "{sjs2.radius.round}",
+          "type": "borderRadius"
+        },
         "message": {
           "value": "{sjs2.radius.form}",
           "type": "borderRadius"
@@ -101,18 +117,6 @@
         },
         "tooltip": {
           "value": "{sjs2.radius.x000}",
-          "type": "borderRadius"
-        },
-        "tagbox-item": {
-          "value": "{sjs2.radius.form-item}",
-          "type": "borderRadius"
-        },
-        "tagbox-item-action": {
-          "value": "{sjs2.radius.round}",
-          "type": "borderRadius"
-        },
-        "color-swatch": {
-          "value": "{sjs2.radius.form-item}",
           "type": "borderRadius"
         }
       }
