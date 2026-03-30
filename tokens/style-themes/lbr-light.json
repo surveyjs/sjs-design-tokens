@@ -511,6 +511,14 @@
           "primary-disabled": {
             "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x040} )",
             "type": "color"
+          },
+          "secondary-disabled": {
+            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x040} )",
+            "type": "color"
+          },
+          "tertiary-disabled": {
+            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x025} )",
+            "type": "color"
           }
         },
         "neutral": {
@@ -2287,18 +2295,6 @@
                 "description": "Checkbox & radiobutton border color, is checked: false, state: readonly."
               }
             },
-            "focused": {
-              "bg": {
-                "value": "{sjs2.palette.gray.100}",
-                "type": "color",
-                "description": "Checkbox & radiobutton background color, is checked: false, state: focused."
-              },
-              "border": {
-                "value": "{sjs2.color.border.brand.primary}",
-                "type": "color",
-                "description": "Checkbox & radiobutton border color, is checked: false, state: focused."
-              }
-            },
             "hovered": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.secondary-dim}",
@@ -2321,6 +2317,18 @@
                 "value": "{sjs2.color.border.basic.secondary}",
                 "type": "color",
                 "description": "Checkbox & radiobutton border color, is checked: false, state: design."
+              }
+            },
+            "invalid": {
+              "bg": {
+                "value": "{sjs2.palette.gray.100}",
+                "type": "color",
+                "description": "Checkbox & radiobutton background color, is checked: false, state: design."
+              },
+              "border": {
+                "value": "{sjs2.color.border.alert.primary}",
+                "type": "color",
+                "description": "Checkbox & radiobutton border color, is checked: false, state: invalid."
               }
             }
           },
@@ -2357,40 +2365,6 @@
                 "value": "{sjs2.palette.gray.400}",
                 "type": "color",
                 "description": "Checkbox & radiobutton icon color, is checked: true, state: disabled."
-              }
-            },
-            "readonly": {
-              "bg": {
-                "value": "{sjs2.color.bg.basic.primary}",
-                "type": "color",
-                "description": "Checkbox & radiobutton background color, is checked: true, state: readonly."
-              },
-              "border": {
-                "value": "{sjs2.color.border.basic.secondary}",
-                "type": "color",
-                "description": "Checkbox & radiobutton border color, is checked: true, state: readonly."
-              },
-              "icon": {
-                "value": "{sjs2.palette.gray.400}",
-                "type": "color",
-                "description": "Checkbox & radiobutton icon color, is checked: true, state: readonly."
-              }
-            },
-            "focused": {
-              "bg": {
-                "value": "{sjs2.color.bg.basic.primary}",
-                "type": "color",
-                "description": "Checkbox & radiobutton background color, is checked: true, state: focused."
-              },
-              "border": {
-                "value": "{sjs2.color.border.brand.primary}",
-                "type": "color",
-                "description": "Checkbox & radiobutton border color, is checked: true, state: focused."
-              },
-              "icon": {
-                "value": "{sjs2.color.fg.brand.primary}",
-                "type": "color",
-                "description": "Checkbox & radiobutton icon color, is checked: true, state: focused."
               }
             },
             "hovered": {
@@ -2465,23 +2439,6 @@
                 "description": "Switch / toggle thumb color, is checked: false, state: readonly."
               }
             },
-            "focused": {
-              "bg": {
-                "value": "{sjs2.palette.gray.100}",
-                "type": "color",
-                "description": "Switch / toggle background color, is checked: false, state: focused."
-              },
-              "border": {
-                "value": "{sjs2.color.border.brand.primary}",
-                "type": "color",
-                "description": "Switch / toggle border color, is checked: false, state: focused."
-              },
-              "thumb": {
-                "value": "{sjs2.color.fg.basic.secondary}",
-                "type": "color",
-                "description": "Switch / toggle thumb color, is checked: false, state: focused."
-              }
-            },
             "hovered": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.secondary-dim}",
@@ -2550,23 +2507,6 @@
                 "value": "{sjs2.color.fg.static-1.primary}",
                 "type": "color",
                 "description": "Switch / toggle thumb color, is checked: true, state: readonly."
-              }
-            },
-            "focused": {
-              "bg": {
-                "value": "{sjs2.color.bg.basic.primary}",
-                "type": "color",
-                "description": "Switch / toggle background color, is checked: true, state: focused."
-              },
-              "border": {
-                "value": "{sjs2.color.border.brand.primary}",
-                "type": "color",
-                "description": "Switch / toggle border color, is checked: true, state: focused."
-              },
-              "thumb": {
-                "value": "{sjs2.color.fg.brand.primary}",
-                "type": "color",
-                "description": "Switch / toggle thumb color, is checked: true, state: focused."
               }
             },
             "hovered": {
@@ -3249,6 +3189,10 @@
         "design": {
           "value": "{sjs2.border-width.x100}",
           "type": "number"
+        },
+        "readonly": {
+          "value": "{sjs2.border-width.x100}",
+          "type": "number"
         }
       },
       "surface": {
@@ -3346,6 +3290,10 @@
         },
         "design": {
           "value": "2",
+          "type": "number"
+        },
+        "readonly": {
+          "value": "0",
           "type": "number"
         }
       },
@@ -3446,6 +3394,10 @@
           "design": {
             "value": "0",
             "type": "number"
+          },
+          "readonly": {
+            "value": "0",
+            "type": "number"
           }
         },
         "surface": {
@@ -3542,6 +3494,10 @@
             "type": "number"
           },
           "design": {
+            "value": "1",
+            "type": "number"
+          },
+          "readonly": {
             "value": "1",
             "type": "number"
           }
@@ -3858,6 +3814,48 @@
                 }
               ],
               "type": "boxShadow"
+            },
+            "readonly": {
+              "value": [
+                {
+                  "x": "{sjs2.border-offset.x.form.readonly}",
+                  "y": "{sjs2.border-offset.y.form.readonly}",
+                  "blur": "{sjs2.border-blur.form.readonly}",
+                  "spread": "{sjs2.border-spread.form.readonly}",
+                  "color": "{sjs2.color.component.check.false.readonly.border}",
+                  "type": "innerShadow"
+                },
+                {
+                  "x": "0",
+                  "y": "0",
+                  "blur": "0",
+                  "spread": "0",
+                  "color": "rgba(0,0,0,0)",
+                  "type": "innerShadow"
+                }
+              ],
+              "type": "boxShadow"
+            },
+            "invalid": {
+              "value": [
+                {
+                  "x": "{sjs2.border-offset.x.form.invalid}",
+                  "y": "{sjs2.border-offset.y.form.invalid}",
+                  "blur": "{sjs2.border-blur.form.invalid}",
+                  "spread": "{sjs2.border-spread.form.invalid}",
+                  "color": "{sjs2.color.component.check.false.invalid.border}",
+                  "type": "innerShadow"
+                },
+                {
+                  "x": "0",
+                  "y": "0",
+                  "blur": "0",
+                  "spread": "0",
+                  "color": "rgba(0,0,0,0)",
+                  "type": "innerShadow"
+                }
+              ],
+              "type": "boxShadow"
             }
           },
           "true": {
@@ -4044,6 +4042,331 @@
                   "spread": "{sjs2.border-spread.form.disabled}",
                   "color": "{sjs2.color.component.toggle.true.disabled.border}",
                   "type": "innerShadow"
+                },
+                {
+                  "x": "0",
+                  "y": "0",
+                  "blur": "0",
+                  "spread": "0",
+                  "color": "rgba(0,0,0,0)",
+                  "type": "innerShadow"
+                }
+              ],
+              "type": "boxShadow"
+            }
+          }
+        },
+        "action": {
+          "default": {
+            "value": [
+              {
+                "x": "{sjs2.border-offset.x.trigger.default}",
+                "y": "{sjs2.border-offset.y.trigger.default}",
+                "blur": "{sjs2.border-blur.trigger.default}",
+                "spread": "{sjs2.border-spread.trigger.default}",
+                "color": "{sjs2.color.border.basic.secondary}",
+                "type": "dropShadow"
+              },
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(0,0,0,0)",
+                "type": "innerShadow"
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "hovered": {
+            "value": [
+              {
+                "x": "{sjs2.border-offset.x.trigger.hovered}",
+                "y": "{sjs2.border-offset.y.trigger.hovered}",
+                "blur": "{sjs2.border-blur.trigger.hovered}",
+                "spread": "{sjs2.border-spread.trigger.hovered}",
+                "color": "{sjs2.color.border.basic.secondary}",
+                "type": "dropShadow"
+              },
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(0,0,0,0)",
+                "type": "innerShadow"
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "pressed": {
+            "value": [
+              {
+                "x": "{sjs2.border-offset.x.trigger.pressed}",
+                "y": "{sjs2.border-offset.y.trigger.pressed}",
+                "blur": "{sjs2.border-blur.trigger.pressed}",
+                "spread": "{sjs2.border-spread.trigger.pressed}",
+                "color": "{sjs2.color.border.basic.secondary}",
+                "type": "dropShadow"
+              },
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(0,0,0,0)",
+                "type": "innerShadow"
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "disabled": {
+            "value": [
+              {
+                "x": "{sjs2.border-offset.x.trigger.disabled}",
+                "y": "{sjs2.border-offset.y.trigger.disabled}",
+                "blur": "{sjs2.border-blur.trigger.disabled}",
+                "spread": "{sjs2.border-spread.trigger.disabled}",
+                "color": "{sjs2.color.border.basic.secondary}",
+                "type": "dropShadow"
+              },
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(0,0,0,0)",
+                "type": "innerShadow"
+              }
+            ],
+            "type": "boxShadow"
+          }
+        },
+        "tagbox-item": {
+          "default": {
+            "value": [
+              {
+                "x": "{sjs2.border-offset.x.trigger.default}",
+                "y": "{sjs2.border-offset.y.trigger.default}",
+                "blur": "{sjs2.border-blur.trigger.default}",
+                "spread": "{sjs2.border-spread.trigger.default}",
+                "color": "{sjs2.color.component.tagbox-item.default.border}",
+                "type": "dropShadow"
+              },
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(0,0,0,0)",
+                "type": "innerShadow"
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "hovered": {
+            "value": [
+              {
+                "x": "{sjs2.border-offset.x.trigger.hovered}",
+                "y": "{sjs2.border-offset.y.trigger.hovered}",
+                "blur": "{sjs2.border-blur.trigger.hovered}",
+                "spread": "{sjs2.border-spread.trigger.hovered}",
+                "color": "{sjs2.color.component.tagbox-item.hovered.border}",
+                "type": "dropShadow"
+              },
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(0,0,0,0)",
+                "type": "innerShadow"
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "disabled": {
+            "value": [
+              {
+                "x": "{sjs2.border-offset.x.trigger.disabled}",
+                "y": "{sjs2.border-offset.y.trigger.disabled}",
+                "blur": "{sjs2.border-blur.trigger.disabled}",
+                "spread": "{sjs2.border-spread.trigger.disabled}",
+                "color": "{sjs2.color.component.tagbox-item.disabled.border}",
+                "type": "dropShadow"
+              },
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(0,0,0,0)",
+                "type": "innerShadow"
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "readonly": {
+            "value": [
+              {
+                "x": "{sjs2.border-offset.x.trigger.readonly}",
+                "y": "{sjs2.border-offset.y.trigger.readonly}",
+                "blur": "{sjs2.border-blur.trigger.readonly}",
+                "spread": "{sjs2.border-spread.trigger.readonly}",
+                "color": "{sjs2.color.component.tagbox-item.readonly.border}",
+                "type": "dropShadow"
+              },
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(0,0,0,0)",
+                "type": "innerShadow"
+              }
+            ],
+            "type": "boxShadow"
+          }
+        },
+        "buttongroup-item": {
+          "false": {
+            "default": {
+              "value": [
+                {
+                  "x": "{sjs2.border-offset.x.trigger.default}",
+                  "y": "{sjs2.border-offset.y.trigger.default}",
+                  "blur": "{sjs2.border-blur.trigger.default}",
+                  "spread": "{sjs2.border-spread.trigger.default}",
+                  "color": "{sjs2.color.component.buttongroup-item.false.default.border}",
+                  "type": "dropShadow"
+                },
+                {
+                  "x": "0",
+                  "y": "0",
+                  "blur": "0",
+                  "spread": "0",
+                  "color": "rgba(0,0,0,0)",
+                  "type": "innerShadow"
+                }
+              ],
+              "type": "boxShadow"
+            },
+            "hovered": {
+              "value": [
+                {
+                  "x": "{sjs2.border-offset.x.trigger.hovered}",
+                  "y": "{sjs2.border-offset.y.trigger.hovered}",
+                  "blur": "{sjs2.border-blur.trigger.hovered}",
+                  "spread": "{sjs2.border-spread.trigger.hovered}",
+                  "color": "{sjs2.color.component.buttongroup-item.false.hovered.border}",
+                  "type": "dropShadow"
+                },
+                {
+                  "x": "0",
+                  "y": "0",
+                  "blur": "0",
+                  "spread": "0",
+                  "color": "rgba(0,0,0,0)",
+                  "type": "innerShadow"
+                }
+              ],
+              "type": "boxShadow"
+            },
+            "disabled": {
+              "value": [
+                {
+                  "x": "{sjs2.border-offset.x.trigger.disabled}",
+                  "y": "{sjs2.border-offset.y.trigger.disabled}",
+                  "blur": "{sjs2.border-blur.trigger.disabled}",
+                  "spread": "{sjs2.border-spread.trigger.disabled}",
+                  "color": "{sjs2.color.component.buttongroup-item.false.disabled.border}",
+                  "type": "dropShadow"
+                },
+                {
+                  "x": "0",
+                  "y": "0",
+                  "blur": "0",
+                  "spread": "0",
+                  "color": "rgba(0,0,0,0)",
+                  "type": "innerShadow"
+                }
+              ],
+              "type": "boxShadow"
+            },
+            "readonly": {
+              "value": [
+                {
+                  "x": "{sjs2.border-offset.x.trigger.readonly}",
+                  "y": "{sjs2.border-offset.y.trigger.readonly}",
+                  "blur": "{sjs2.border-blur.trigger.readonly}",
+                  "spread": "{sjs2.border-spread.trigger.readonly}",
+                  "color": "{sjs2.color.component.buttongroup-item.false.readonly.border}",
+                  "type": "dropShadow"
+                },
+                {
+                  "x": "0",
+                  "y": "0",
+                  "blur": "0",
+                  "spread": "0",
+                  "color": "rgba(0,0,0,0)",
+                  "type": "innerShadow"
+                }
+              ],
+              "type": "boxShadow"
+            }
+          },
+          "true": {
+            "default": {
+              "value": [
+                {
+                  "x": "{sjs2.border-offset.x.trigger.default}",
+                  "y": "{sjs2.border-offset.y.trigger.default}",
+                  "blur": "{sjs2.border-blur.trigger.default}",
+                  "spread": "{sjs2.border-spread.trigger.default}",
+                  "color": "{sjs2.color.component.buttongroup-item.true.default.border}",
+                  "type": "dropShadow"
+                },
+                {
+                  "x": "0",
+                  "y": "0",
+                  "blur": "0",
+                  "spread": "0",
+                  "color": "rgba(0,0,0,0)",
+                  "type": "innerShadow"
+                }
+              ],
+              "type": "boxShadow"
+            },
+            "disabled": {
+              "value": [
+                {
+                  "x": "{sjs2.border-offset.x.trigger.disabled}",
+                  "y": "{sjs2.border-offset.y.trigger.disabled}",
+                  "blur": "{sjs2.border-blur.trigger.disabled}",
+                  "spread": "{sjs2.border-spread.trigger.disabled}",
+                  "color": "{sjs2.color.component.buttongroup-item.true.disabled.border}",
+                  "type": "dropShadow"
+                },
+                {
+                  "x": "0",
+                  "y": "0",
+                  "blur": "0",
+                  "spread": "0",
+                  "color": "rgba(0,0,0,0)",
+                  "type": "innerShadow"
+                }
+              ],
+              "type": "boxShadow"
+            },
+            "readonly": {
+              "value": [
+                {
+                  "x": "{sjs2.border-offset.x.trigger.readonly}",
+                  "y": "{sjs2.border-offset.y.trigger.readonly}",
+                  "blur": "{sjs2.border-blur.trigger.readonly}",
+                  "spread": "{sjs2.border-spread.trigger.readonly}",
+                  "color": "{sjs2.color.component.buttongroup-item.true.readonly.border}",
+                  "type": "dropShadow"
                 },
                 {
                   "x": "0",

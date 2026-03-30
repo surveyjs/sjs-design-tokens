@@ -14,13 +14,19 @@
       "component": {
         "formbox": {
           "value": "{sjs2.radius.form}",
-          "type": "borderRadius"
+          "type": "borderRadius",
+          "description": "Formbox is a box container used in all editors, including tagbox and buttongroup also."
         },
         "formbox-action": {
           "value": "{sjs2.radius.form-item}",
           "type": "borderRadius"
         },
-        "color-swatch": {
+        "swatch": {
+          "value": "{sjs2.radius.form-item}",
+          "type": "borderRadius",
+          "description": "Swatch radius for a color sample in the color editor."
+        },
+        "buttongroup-item": {
           "value": "{sjs2.radius.form-item}",
           "type": "borderRadius"
         },
