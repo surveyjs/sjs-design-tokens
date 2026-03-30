@@ -50,6 +50,7 @@ const THEME_CONFIG = [
       "--sjs2-color-component-tagbox-item-action-default-icon": "#ffffff",
       "--sjs2-color-component-tagbox-item-action-hovered-icon": "#ffffff",
       "--sjs2-color-component-check-true-readonly-icon": "#161616",
+      "--sjs2-radius-component-page": "8px",
       "--sjs2-radius-component-drop": "4px",
       "--sjs2-radius-component-modal": "8px",
       "--sjs2-typography-line-height-component-header-description": "calc(1.5 * var(--sjs2-typography-font-size-component-header-description))",
