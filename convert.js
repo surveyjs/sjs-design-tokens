@@ -109,6 +109,7 @@ const THEME_CONFIG = [
       "--sjs2-color-component-check-true-default-bg": "#ffffff",
       "--sjs2-color-component-check-true-default-border": "#d4d4d4",
       "--sjs2-color-component-check-true-default-icon": "#19B394",
+      "--sjs2-color-component-buttongroup-item-false-default-value": "rgb(28, 27, 32)",
     },
     products: ["survey-creator"]
   },
