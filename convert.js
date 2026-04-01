@@ -55,6 +55,7 @@ const THEME_CONFIG = [
       "--sjs2-radius-component-modal": "8px",
       "--sjs2-typography-line-height-component-header-description": "calc(1.5 * var(--sjs2-typography-font-size-component-header-description))",
       "--sjs2-typography-line-height-component-page-title": "calc(1.33 * var(--sjs2-typography-font-size-component-page-title))",
+      "--sjs2-color-component-track-default-bg": "#d4d4d4",
     },
     products: ["survey-library"]
   },
@@ -104,7 +105,10 @@ const THEME_CONFIG = [
       "--sjs2-color-bg-basic-secondary": "#f4f4f4ff",
 	    "--sjs2-color-bg-accent-secondary-dim": "#19b39440",
       "--sjs2-color-component-formbox-design-bg": "#f8f8f8ff",
-      "--sjs2-color-utility-shadow-surface-default": "#00000040"
+      "--sjs2-color-utility-shadow-surface-default": "#00000040",
+      "--sjs2-color-component-check-true-default-bg": "#ffffff",
+      "--sjs2-color-component-check-true-default-border": "#d4d4d4",
+      "--sjs2-color-component-check-true-default-icon": "#19B394",
     },
     products: ["survey-creator"]
   },
@@ -165,7 +169,6 @@ const THEME_CONFIG = [
       "base-unit",
       "common",
       "palette",
-      "size-themes/ctr-2020",
       "radius-themes/sharp",
       "typography-themes/default",
       "style-themes/ctr-2020"
@@ -184,7 +187,7 @@ const THEME_CONFIG = [
       "size-themes/default",
       "radius-themes/default",
       "typography-themes/default",
-      "pdf-size-themes/compact",
+      "pdf-layout-themes/compact",
       "style-themes/pdf-light"
     ],
     products: ["survey-pdf"]
@@ -201,7 +204,7 @@ const THEME_CONFIG = [
       "size-themes/default",
       "radius-themes/default",
       "typography-themes/default",
-      "pdf-size-themes/spacious",
+      "pdf-layout-themes/spacious",
       "style-themes/pdf-light"
     ],
     products: ["survey-pdf"]
