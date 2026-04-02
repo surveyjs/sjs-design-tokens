@@ -135,6 +135,24 @@
               "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x020} )",
               "type": "color"
             }
+          },
+          "trigger": {
+            "default": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
+            },
+            "hovered": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
+            }
           }
         },
         "surface": {
