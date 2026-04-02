@@ -561,7 +561,7 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x040} )",
+            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x020} )",
             "type": "color"
           }
         },
@@ -579,7 +579,7 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x040} )",
+            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x020} )",
             "type": "color"
           }
         },
@@ -593,7 +593,7 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x040} )",
+            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x020} )",
             "type": "color"
           }
         },
@@ -607,7 +607,7 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x040} )",
+            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x020} )",
             "type": "color"
           }
         },
@@ -621,7 +621,7 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x040} )",
+            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x020} )",
             "type": "color"
           }
         },
@@ -635,7 +635,7 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x040} )",
+            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x020} )",
             "type": "color"
           }
         },
@@ -649,7 +649,7 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x040} )",
+            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x020} )",
             "type": "color"
           }
         },

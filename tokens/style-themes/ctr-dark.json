@@ -543,7 +543,7 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "{sjs2.palette.gray.300}",
+            "value": "{sjs2.palette.gray.600}",
             "type": "color"
           }
         },
@@ -561,7 +561,7 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "{sjs2.palette.gray.300}",
+            "value": "{sjs2.palette.gray.600}",
             "type": "color"
           }
         },
@@ -575,7 +575,7 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "{sjs2.palette.gray.300}",
+            "value": "{sjs2.palette.gray.600}",
             "type": "color"
           }
         },
@@ -589,7 +589,7 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "{sjs2.palette.gray.300}",
+            "value": "{sjs2.palette.gray.600}",
             "type": "color"
           }
         },
@@ -603,7 +603,7 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "{sjs2.palette.gray.300}",
+            "value": "{sjs2.palette.gray.600}",
             "type": "color"
           }
         },
@@ -617,7 +617,7 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "{sjs2.palette.gray.300}",
+            "value": "{sjs2.palette.gray.600}",
             "type": "color"
           }
         },
@@ -631,7 +631,7 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "{sjs2.palette.gray.300}",
+            "value": "{sjs2.palette.gray.600}",
             "type": "color"
           }
         },
