@@ -2598,19 +2598,11 @@
             "bg": {
               "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
-            },
-            "border": {
-              "value": "{sjs2.color.utility.shadow.surface.default}",
-              "type": "color"
             }
           },
           "hovered": {
             "bg": {
               "value": "{sjs2.color.bg.basic.primary}",
-              "type": "color"
-            },
-            "border": {
-              "value": "{sjs2.color.utility.shadow.surface.hovered}",
               "type": "color"
             }
           },
@@ -2618,19 +2610,11 @@
             "bg": {
               "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
-            },
-            "border": {
-              "value": "{sjs2.color.utility.shadow.surface.pressed}",
-              "type": "color"
             }
           },
           "focused": {
             "bg": {
               "value": "{sjs2.color.bg.basic.primary}",
-              "type": "color"
-            },
-            "border": {
-              "value": "{sjs2.color.utility.shadow.surface.focused}",
               "type": "color"
             }
           },
@@ -2638,19 +2622,11 @@
             "bg": {
               "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
-            },
-            "border": {
-              "value": "{sjs2.color.utility.shadow.surface.disabled}",
-              "type": "color"
             }
           },
           "dragging": {
             "bg": {
               "value": "{sjs2.color.bg.basic.primary}",
-              "type": "color"
-            },
-            "border": {
-              "value": "{sjs2.color.utility.shadow.surface.dragging}",
               "type": "color"
             }
           }
