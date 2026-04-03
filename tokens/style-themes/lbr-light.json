@@ -1884,15 +1884,15 @@
               },
               "hovered": {
                 "bg": {
-                  "value": "{sjs2.color.bg.neutral.tertiary-dim}",
+                  "value": "rgba( {sjs2.color.bg.neutral.tertiary}, {sjs2.opacity.hidden} )",
                   "type": "color"
                 },
                 "icon": {
-                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "value": "rgba( {sjs2.color.fg.neutral.primary-muted}, {sjs2.opacity.hovered} )",
                   "type": "color"
                 },
                 "label": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "value": "rgba( {sjs2.color.fg.neutral.primary}, {sjs2.opacity.hovered} )",
                   "type": "color"
                 }
               },
