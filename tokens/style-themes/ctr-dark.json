@@ -935,6 +935,1142 @@
         }
       },
       "component": {
+        "action": {
+          "alert": {
+            "primary": {
+              "default": {
+                "bg": {
+                  "value": "{sjs2.color.bg.alert.primary}",
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: primary, state: default."
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.alert.on-primary}",
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: primary, state: default."
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.alert.on-primary}",
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: primary, state: default."
+                }
+              },
+              "hovered": {
+                "bg": {
+                  "value": "{sjs2.color.bg.alert.primary-dim}",
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: primary, state: hovered."
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.alert.on-primary}",
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: primary, state: hovered."
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.alert.on-primary}",
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: primary, state: hovered."
+                }
+              },
+              "disabled": {
+                "bg": {
+                  "value": "{sjs2.color.bg.alert.primary-disabled}",
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: primary, state: disabled."
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.alert.primary-disabled}",
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: primary, state: disabled."
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.alert.primary-disabled}",
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: primary, state: disabled."
+                }
+              }
+            },
+            "secondary": {
+              "default": {
+                "bg": {
+                  "value": "{sjs2.color.bg.alert.secondary}",
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: secondary, state: default."
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.alert.primary}",
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: secondary, state: default."
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.alert.primary}",
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: secondary, state: default."
+                }
+              },
+              "hovered": {
+                "bg": {
+                  "value": "{sjs2.color.bg.alert.secondary-dim}",
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: secondary, state: hovered."
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.alert.primary}",
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: secondary, state: hovered."
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.alert.primary}",
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: secondary, state: hovered."
+                }
+              },
+              "disabled": {
+                "bg": {
+                  "value": "{sjs2.color.bg.alert.primary-disabled}",
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: secondary, state: disabled."
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.alert.primary-disabled}",
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: secondary, state: disabled."
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.alert.primary-disabled}",
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: secondary, state: disabled."
+                }
+              }
+            },
+            "tertiary": {
+              "default": {
+                "bg": {
+                  "value": "{sjs2.color.bg.alert.tertiary}",
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: tertiary, state: default."
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.alert.primary}",
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: tertiary, state: default."
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.alert.primary}",
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: tertiary, state: default."
+                }
+              },
+              "hovered": {
+                "bg": {
+                  "value": "{sjs2.color.bg.alert.tertiary-dim}",
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: tertiary, state: hovered."
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.alert.primary}",
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: tertiary, state: hovered."
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.alert.primary}",
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: tertiary, state: hovered."
+                }
+              },
+              "disabled": {
+                "bg": {
+                  "value": "rgba( {sjs2.color.bg.alert.tertiary}, {sjs2.opacity.hidden} )",
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: tertiary, state: disabled."
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.alert.primary-disabled}",
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: tertiary, state: disabled."
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.alert.primary-disabled}",
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: tertiary, state: disabled."
+                }
+              }
+            },
+            "quaternary": {
+              "default": {
+                "bg": {
+                  "value": "{sjs2.color.bg.alert.tertiary}",
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: quaternary, state: default."
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: quaternary, state: default."
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: quaternary, state: default."
+                }
+              },
+              "hovered": {
+                "bg": {
+                  "value": "{sjs2.color.bg.alert.tertiary-dim}",
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: quaternary, state: hovered."
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.alert.primary}",
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: quaternary, state: hovered."
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.alert.primary}",
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: quaternary, state: hovered."
+                }
+              },
+              "disabled": {
+                "bg": {
+                  "value": "rgba( {sjs2.color.bg.alert.tertiary}, {sjs2.opacity.hidden} )",
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: quaternary, state: disabled."
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.alert.primary-disabled}",
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: quaternary, state: disabled."
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.alert.primary-disabled}",
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: quaternary, state: disabled."
+                }
+              }
+            },
+            "quinary": {
+              "default": {
+                "bg": {
+                  "value": "{sjs2.color.bg.alert.tertiary}",
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: quinary, state: default."
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.basic.tertiary}",
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: quinary, state: default."
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.basic.tertiary}",
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: quinary, state: default."
+                }
+              },
+              "hovered": {
+                "bg": {
+                  "value": "{sjs2.color.bg.alert.tertiary-dim}",
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: quinary, state: hovered."
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.alert.primary}",
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: quinary, state: hovered."
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.alert.primary}",
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: quinary, state: hovered."
+                }
+              },
+              "disabled": {
+                "bg": {
+                  "value": "rgba( {sjs2.color.bg.alert.tertiary}, {sjs2.opacity.hidden} )",
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: quinary, state: disabled."
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.alert.primary-disabled}",
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: quinary, state: disabled."
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.alert.primary-disabled}",
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: quinary, state: disabled."
+                }
+              }
+            },
+            "tertiary-alternative": {
+              "default": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary}",
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: tertiary, state: default."
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.alert.primary}",
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: tertiary, state: default."
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.alert.primary}",
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: tertiary, state: default."
+                }
+              },
+              "hovered": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary-dim}",
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: tertiary, state: hovered."
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.alert.primary}",
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: tertiary, state: hovered."
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.alert.primary}",
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: tertiary, state: hovered."
+                }
+              },
+              "disabled": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary-disabled}",
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: tertiary, state: disabled."
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.alert.primary-disabled}",
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: tertiary, state: disabled."
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.alert.primary-disabled}",
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: tertiary, state: disabled."
+                }
+              }
+            },
+            "quaternary-alternative": {
+              "default": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary}",
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: quaternary, state: default."
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: quaternary, state: default."
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: quaternary, state: default."
+                }
+              },
+              "hovered": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary-dim}",
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: quaternary, state: hovered."
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.alert.primary}",
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: quaternary, state: hovered."
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.alert.primary}",
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: quaternary, state: hovered."
+                }
+              },
+              "disabled": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary-disabled}",
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: quaternary, state: disabled."
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.alert.primary-disabled}",
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: quaternary, state: disabled."
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.alert.primary-disabled}",
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: quaternary, state: disabled."
+                }
+              }
+            },
+            "quinary-alternative": {
+              "default": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary}",
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: quinary, state: default."
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.basic.tertiary}",
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: quinary, state: default."
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.basic.tertiary}",
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: quinary, state: default."
+                }
+              },
+              "hovered": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary-dim}",
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: quinary, state: hovered."
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.alert.primary}",
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: quinary, state: hovered."
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.alert.primary}",
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: quinary, state: hovered."
+                }
+              },
+              "disabled": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary-disabled}",
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: quinary, state: disabled."
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.alert.primary-disabled}",
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: quinary, state: disabled."
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.alert.primary-disabled}",
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: quinary, state: disabled."
+                }
+              }
+            }
+          },
+          "brand": {
+            "primary": {
+              "default": {
+                "bg": {
+                  "value": "{sjs2.color.bg.brand.primary}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.brand.on-primary}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.brand.on-primary}",
+                  "type": "color"
+                }
+              },
+              "hovered": {
+                "bg": {
+                  "value": "{sjs2.color.bg.brand.primary-dim}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.brand.on-primary}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.brand.on-primary}",
+                  "type": "color"
+                }
+              },
+              "disabled": {
+                "bg": {
+                  "value": "{sjs2.color.bg.brand.primary-disabled}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.brand.primary-disabled}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.brand.primary-disabled}",
+                  "type": "color"
+                }
+              }
+            },
+            "secondary": {
+              "default": {
+                "bg": {
+                  "value": "{sjs2.color.bg.brand.secondary}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.brand.primary}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.brand.primary}",
+                  "type": "color"
+                }
+              },
+              "hovered": {
+                "bg": {
+                  "value": "{sjs2.color.bg.brand.secondary-dim}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.brand.primary}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.brand.primary}",
+                  "type": "color"
+                }
+              },
+              "disabled": {
+                "bg": {
+                  "value": "{sjs2.color.bg.brand.primary-disabled}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.brand.primary-disabled}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.brand.primary-disabled}",
+                  "type": "color"
+                }
+              }
+            },
+            "tertiary": {
+              "default": {
+                "bg": {
+                  "value": "{sjs2.color.bg.brand.tertiary}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.brand.primary}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.brand.primary}",
+                  "type": "color"
+                }
+              },
+              "hovered": {
+                "bg": {
+                  "value": "{sjs2.color.bg.brand.tertiary-dim}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.brand.primary}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.brand.primary}",
+                  "type": "color"
+                }
+              },
+              "disabled": {
+                "bg": {
+                  "value": "rgba( {sjs2.color.bg.brand.tertiary}, {sjs2.opacity.hidden} )",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.brand.primary-disabled}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.brand.primary-disabled}",
+                  "type": "color"
+                }
+              }
+            },
+            "quaternary": {
+              "default": {
+                "bg": {
+                  "value": "{sjs2.color.bg.brand.tertiary}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "type": "color"
+                }
+              },
+              "hovered": {
+                "bg": {
+                  "value": "{sjs2.color.bg.brand.tertiary-dim}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.brand.primary}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.brand.primary}",
+                  "type": "color"
+                }
+              },
+              "disabled": {
+                "bg": {
+                  "value": "rgba( {sjs2.color.bg.brand.tertiary}, {sjs2.opacity.hidden} )",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.brand.primary-disabled}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.brand.primary-disabled}",
+                  "type": "color"
+                }
+              }
+            },
+            "quinary": {
+              "default": {
+                "bg": {
+                  "value": "{sjs2.color.bg.brand.tertiary}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.basic.tertiary}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.basic.tertiary}",
+                  "type": "color"
+                }
+              },
+              "hovered": {
+                "bg": {
+                  "value": "{sjs2.color.bg.brand.tertiary-dim}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.brand.primary}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.brand.primary}",
+                  "type": "color"
+                }
+              },
+              "disabled": {
+                "bg": {
+                  "value": "rgba( {sjs2.color.bg.brand.tertiary}, {sjs2.opacity.hidden} )",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.brand.primary-disabled}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.brand.primary-disabled}",
+                  "type": "color"
+                }
+              }
+            },
+            "tertiary-alternative": {
+              "default": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.brand.primary}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.brand.primary}",
+                  "type": "color"
+                }
+              },
+              "hovered": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary-dim}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.brand.primary}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.brand.primary}",
+                  "type": "color"
+                }
+              },
+              "disabled": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary-disabled}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.brand.primary-disabled}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.brand.primary-disabled}",
+                  "type": "color"
+                }
+              }
+            },
+            "quaternary-alternative": {
+              "default": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "type": "color"
+                }
+              },
+              "hovered": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary-dim}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.brand.primary}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.brand.primary}",
+                  "type": "color"
+                }
+              },
+              "disabled": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary-disabled}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.brand.primary-disabled}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.brand.primary-disabled}",
+                  "type": "color"
+                }
+              }
+            },
+            "quinary-alternative": {
+              "default": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.basic.tertiary}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.basic.tertiary}",
+                  "type": "color"
+                }
+              },
+              "hovered": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary-dim}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.brand.primary}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.brand.primary}",
+                  "type": "color"
+                }
+              },
+              "disabled": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary-disabled}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.brand.primary-disabled}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.brand.primary-disabled}",
+                  "type": "color"
+                }
+              }
+            }
+          },
+          "neutral": {
+            "primary": {
+              "default": {
+                "bg": {
+                  "value": "{sjs2.color.bg.neutral.primary}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.neutral.on-primary}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.on-primary}",
+                  "type": "color"
+                }
+              },
+              "hovered": {
+                "bg": {
+                  "value": "{sjs2.color.bg.neutral.primary-dim}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.neutral.on-primary}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.on-primary}",
+                  "type": "color"
+                }
+              },
+              "disabled": {
+                "bg": {
+                  "value": "{sjs2.color.bg.neutral.primary-disabled}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
+                  "type": "color"
+                }
+              }
+            },
+            "secondary": {
+              "default": {
+                "bg": {
+                  "value": "{sjs2.color.bg.neutral.secondary}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "type": "color"
+                }
+              },
+              "hovered": {
+                "bg": {
+                  "value": "{sjs2.color.bg.neutral.secondary-dim}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "type": "color"
+                }
+              },
+              "disabled": {
+                "bg": {
+                  "value": "{sjs2.color.bg.neutral.primary-disabled}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
+                  "type": "color"
+                }
+              }
+            },
+            "tertiary": {
+              "default": {
+                "bg": {
+                  "value": "{sjs2.color.bg.neutral.tertiary}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "type": "color"
+                }
+              },
+              "hovered": {
+                "bg": {
+                  "value": "{sjs2.color.bg.neutral.tertiary-dim}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "type": "color"
+                }
+              },
+              "disabled": {
+                "bg": {
+                  "value": "rgba( {sjs2.color.bg.neutral.tertiary}, {sjs2.opacity.hidden} )",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
+                  "type": "color"
+                }
+              }
+            },
+            "quaternary": {
+              "default": {
+                "bg": {
+                  "value": "{sjs2.color.bg.neutral.tertiary}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "type": "color"
+                }
+              },
+              "hovered": {
+                "bg": {
+                  "value": "{sjs2.color.bg.neutral.tertiary-dim}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "type": "color"
+                }
+              },
+              "disabled": {
+                "bg": {
+                  "value": "rgba( {sjs2.color.bg.neutral.tertiary}, {sjs2.opacity.hidden} )",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
+                  "type": "color"
+                }
+              }
+            },
+            "quinary": {
+              "default": {
+                "bg": {
+                  "value": "{sjs2.color.bg.neutral.tertiary}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.basic.tertiary}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.basic.tertiary}",
+                  "type": "color"
+                }
+              },
+              "hovered": {
+                "bg": {
+                  "value": "{sjs2.color.bg.neutral.tertiary-dim}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "type": "color"
+                }
+              },
+              "disabled": {
+                "bg": {
+                  "value": "rgba( {sjs2.color.bg.neutral.tertiary}, {sjs2.opacity.hidden} )",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
+                  "type": "color"
+                }
+              }
+            },
+            "tertiary-alternative": {
+              "default": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "type": "color"
+                }
+              },
+              "hovered": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary-dim}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "type": "color"
+                }
+              },
+              "disabled": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary-disabled}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
+                  "type": "color"
+                }
+              }
+            },
+            "quaternary-alternative": {
+              "default": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "type": "color"
+                }
+              },
+              "hovered": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary-dim}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "type": "color"
+                }
+              },
+              "disabled": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary-disabled}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
+                  "type": "color"
+                }
+              }
+            },
+            "quinary-alternative": {
+              "default": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.basic.tertiary}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.basic.tertiary}",
+                  "type": "color"
+                }
+              },
+              "hovered": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary-dim}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "type": "color"
+                }
+              },
+              "disabled": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary-disabled}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
+                  "type": "color"
+                }
+              }
+            }
+          }
+        },
         "formbox": {
           "default": {
             "bg": {
@@ -1217,833 +2353,6 @@
               "value": {
                 "value": "{sjs2.color.fg.brand.primary}",
                 "type": "color"
-              }
-            }
-          }
-        },
-        "action": {
-          "alert": {
-            "primary": {
-              "default": {
-                "bg": {
-                  "value": "{sjs2.color.bg.alert.primary}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.alert.on-primary}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.alert.on-primary}",
-                  "type": "color"
-                }
-              },
-              "hovered": {
-                "bg": {
-                  "value": "{sjs2.color.bg.alert.primary-dim}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.alert.on-primary}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.alert.on-primary}",
-                  "type": "color"
-                }
-              },
-              "disabled": {
-                "bg": {
-                  "value": "{sjs2.color.bg.alert.primary-disabled}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.alert.primary-disabled}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.alert.primary-disabled}",
-                  "type": "color"
-                }
-              }
-            },
-            "secondary": {
-              "default": {
-                "bg": {
-                  "value": "{sjs2.color.bg.alert.secondary}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.alert.primary}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.alert.primary}",
-                  "type": "color"
-                }
-              },
-              "hovered": {
-                "bg": {
-                  "value": "{sjs2.color.bg.alert.secondary-dim}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.alert.primary}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.alert.primary}",
-                  "type": "color"
-                }
-              },
-              "disabled": {
-                "bg": {
-                  "value": "{sjs2.color.bg.alert.primary-disabled}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.alert.primary-disabled}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.alert.primary-disabled}",
-                  "type": "color"
-                }
-              }
-            },
-            "tertiary": {
-              "default": {
-                "bg": {
-                  "value": "{sjs2.color.bg.alert.tertiary}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.alert.primary}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.alert.primary}",
-                  "type": "color"
-                }
-              },
-              "hovered": {
-                "bg": {
-                  "value": "{sjs2.color.bg.alert.tertiary-dim}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.alert.primary}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.alert.primary}",
-                  "type": "color"
-                }
-              },
-              "disabled": {
-                "bg": {
-                  "value": "rgba( {sjs2.color.bg.alert.tertiary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.alert.primary-disabled}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.alert.primary-disabled}",
-                  "type": "color"
-                }
-              }
-            },
-            "quaternary": {
-              "default": {
-                "bg": {
-                  "value": "{sjs2.color.bg.alert.tertiary}",
-                  "type": "color",
-                  "description": "Button / action background color, style: alert, mode: quaternary, state: default."
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.basic.tertiary}",
-                  "type": "color",
-                  "description": "Button / action icon color, style: alert, mode: quaternary, state: default."
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.basic.tertiary}",
-                  "type": "color",
-                  "description": "Button / action label color, style: alert, mode: quaternary, state: default."
-                }
-              },
-              "hovered": {
-                "bg": {
-                  "value": "{sjs2.color.bg.alert.tertiary-dim}",
-                  "type": "color",
-                  "description": "Button / action background color, style: alert, mode: quaternary, state: hovered."
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.alert.primary}",
-                  "type": "color",
-                  "description": "Button / action icon color, style: alert, mode: quaternary, state: hovered."
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.alert.primary}",
-                  "type": "color",
-                  "description": "Button / action label color, style: alert, mode: quaternary, state: hovered."
-                }
-              },
-              "disabled": {
-                "bg": {
-                  "value": "rgba( {sjs2.color.bg.alert.tertiary}, {sjs2.opacity.hidden} )",
-                  "type": "color",
-                  "description": "Button / action background color, style: alert, mode: quaternary, state: disabled."
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.alert.primary-disabled}",
-                  "type": "color",
-                  "description": "Button / action icon color, style: alert, mode: quaternary, state: disabled."
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.alert.primary-disabled}",
-                  "type": "color",
-                  "description": "Button / action label color, style: alert, mode: quaternary, state: disabled."
-                }
-              }
-            },
-            "secondary-alternative": {
-              "default": {
-                "bg": {
-                  "value": "{sjs2.color.bg.basic.primary}",
-                  "type": "color",
-                  "description": "Button / action background color, style: alert, mode: secondary, state: default."
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.alert.primary}",
-                  "type": "color",
-                  "description": "Button / action icon color, style: alert, mode: secondary, state: default."
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.alert.primary}",
-                  "type": "color",
-                  "description": "Button / action label color, style: alert, mode: secondary, state: default."
-                }
-              },
-              "hovered": {
-                "bg": {
-                  "value": "{sjs2.color.bg.basic.primary-dim}",
-                  "type": "color",
-                  "description": "Button / action background color, style: alert, mode: secondary, state: hovered."
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.alert.primary}",
-                  "type": "color",
-                  "description": "Button / action icon color, style: alert, mode: secondary, state: hovered."
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.alert.primary}",
-                  "type": "color",
-                  "description": "Button / action label color, style: alert, mode: secondary, state: hovered."
-                }
-              },
-              "disabled": {
-                "bg": {
-                  "value": "{sjs2.color.bg.basic.primary-disabled}",
-                  "type": "color",
-                  "description": "Button / action background color, style: alert, mode: secondary, state: disabled."
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.alert.primary-disabled}",
-                  "type": "color",
-                  "description": "Button / action icon color, style: alert, mode: secondary, state: disabled."
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.alert.primary-disabled}",
-                  "type": "color",
-                  "description": "Button / action label color, style: alert, mode: secondary, state: disabled."
-                }
-              }
-            },
-            "tertiary-alternative": {
-              "default": {
-                "bg": {
-                  "value": "{sjs2.color.bg.alert.tertiary}",
-                  "type": "color",
-                  "description": "Button / action background color, style: alert, mode: tertiary, state: default."
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.neutral.primary-muted}",
-                  "type": "color",
-                  "description": "Button / action icon color, style: alert, mode: tertiary, state: default."
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
-                  "type": "color",
-                  "description": "Button / action label color, style: alert, mode: tertiary, state: default."
-                }
-              },
-              "hovered": {
-                "bg": {
-                  "value": "{sjs2.color.bg.alert.tertiary-dim}",
-                  "type": "color",
-                  "description": "Button / action background color, style: alert, mode: tertiary, state: hovered."
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.alert.primary}",
-                  "type": "color",
-                  "description": "Button / action icon color, style: alert, mode: tertiary, state: hovered."
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.alert.primary}",
-                  "type": "color",
-                  "description": "Button / action label color, style: alert, mode: tertiary, state: hovered."
-                }
-              },
-              "disabled": {
-                "bg": {
-                  "value": "rgba( {sjs2.color.bg.alert.tertiary}, {sjs2.opacity.hidden} )",
-                  "type": "color",
-                  "description": "Button / action background color, style: alert, mode: tertiary, state: disabled."
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.alert.primary-disabled}",
-                  "type": "color",
-                  "description": "Button / action icon color, style: alert, mode: tertiary, state: disabled."
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.alert.primary-disabled}",
-                  "type": "color",
-                  "description": "Button / action label color, style: alert, mode: tertiary, state: disabled."
-                }
-              }
-            }
-          },
-          "brand": {
-            "primary": {
-              "default": {
-                "bg": {
-                  "value": "{sjs2.color.bg.brand.primary}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.brand.on-primary}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.brand.on-primary}",
-                  "type": "color"
-                }
-              },
-              "hovered": {
-                "bg": {
-                  "value": "{sjs2.color.bg.brand.primary-dim}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.brand.on-primary}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.brand.on-primary}",
-                  "type": "color"
-                }
-              },
-              "disabled": {
-                "bg": {
-                  "value": "{sjs2.color.bg.brand.primary-disabled}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.brand.primary-disabled}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.brand.primary-disabled}",
-                  "type": "color"
-                }
-              }
-            },
-            "secondary": {
-              "default": {
-                "bg": {
-                  "value": "{sjs2.color.bg.brand.secondary}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.brand.primary}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.brand.primary}",
-                  "type": "color"
-                }
-              },
-              "hovered": {
-                "bg": {
-                  "value": "{sjs2.color.bg.brand.secondary-dim}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.brand.primary}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.brand.primary}",
-                  "type": "color"
-                }
-              },
-              "disabled": {
-                "bg": {
-                  "value": "{sjs2.color.bg.brand.primary-disabled}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.brand.primary-disabled}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.brand.primary-disabled}",
-                  "type": "color"
-                }
-              }
-            },
-            "tertiary": {
-              "default": {
-                "bg": {
-                  "value": "{sjs2.color.bg.brand.tertiary}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.brand.primary}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.brand.primary}",
-                  "type": "color"
-                }
-              },
-              "hovered": {
-                "bg": {
-                  "value": "{sjs2.color.bg.brand.tertiary-dim}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.brand.primary}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.brand.primary}",
-                  "type": "color"
-                }
-              },
-              "disabled": {
-                "bg": {
-                  "value": "rgba( {sjs2.color.bg.brand.tertiary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.brand.primary-disabled}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.brand.primary-disabled}",
-                  "type": "color"
-                }
-              }
-            },
-            "quaternary": {
-              "default": {
-                "bg": {
-                  "value": "{sjs2.color.bg.brand.tertiary}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.basic.tertiary}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.basic.tertiary}",
-                  "type": "color"
-                }
-              },
-              "hovered": {
-                "bg": {
-                  "value": "{sjs2.color.bg.brand.tertiary-dim}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.brand.primary}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.brand.primary}",
-                  "type": "color"
-                }
-              },
-              "disabled": {
-                "bg": {
-                  "value": "rgba( {sjs2.color.bg.brand.tertiary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.brand.primary-disabled}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.brand.primary-disabled}",
-                  "type": "color"
-                }
-              }
-            },
-            "secondary-alternative": {
-              "default": {
-                "bg": {
-                  "value": "{sjs2.color.bg.basic.primary}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.brand.primary}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.brand.primary}",
-                  "type": "color"
-                }
-              },
-              "hovered": {
-                "bg": {
-                  "value": "{sjs2.color.bg.basic.primary-dim}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.brand.primary}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.brand.primary}",
-                  "type": "color"
-                }
-              },
-              "disabled": {
-                "bg": {
-                  "value": "{sjs2.color.bg.basic.primary-disabled}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.brand.primary-disabled}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.brand.primary-disabled}",
-                  "type": "color"
-                }
-              }
-            },
-            "tertiary-alternative": {
-              "default": {
-                "bg": {
-                  "value": "{sjs2.color.bg.brand.tertiary}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.neutral.primary-muted}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
-                  "type": "color"
-                }
-              },
-              "hovered": {
-                "bg": {
-                  "value": "{sjs2.color.bg.brand.tertiary-dim}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.brand.primary}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.brand.primary}",
-                  "type": "color"
-                }
-              },
-              "disabled": {
-                "bg": {
-                  "value": "rgba( {sjs2.color.bg.brand.tertiary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.brand.primary-disabled}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.brand.primary-disabled}",
-                  "type": "color"
-                }
-              }
-            }
-          },
-          "neutral": {
-            "primary": {
-              "default": {
-                "bg": {
-                  "value": "{sjs2.color.bg.neutral.primary}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.neutral.on-primary}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.neutral.on-primary}",
-                  "type": "color"
-                }
-              },
-              "hovered": {
-                "bg": {
-                  "value": "{sjs2.color.bg.neutral.primary-dim}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.neutral.on-primary}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.neutral.on-primary}",
-                  "type": "color"
-                }
-              },
-              "disabled": {
-                "bg": {
-                  "value": "{sjs2.color.bg.neutral.primary-disabled}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
-                  "type": "color"
-                }
-              }
-            },
-            "secondary": {
-              "default": {
-                "bg": {
-                  "value": "{sjs2.color.bg.neutral.secondary}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
-                  "type": "color"
-                }
-              },
-              "hovered": {
-                "bg": {
-                  "value": "{sjs2.color.bg.neutral.secondary-dim}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
-                  "type": "color"
-                }
-              },
-              "disabled": {
-                "bg": {
-                  "value": "{sjs2.color.bg.neutral.primary-disabled}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
-                  "type": "color"
-                }
-              }
-            },
-            "tertiary": {
-              "default": {
-                "bg": {
-                  "value": "{sjs2.color.bg.neutral.tertiary}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
-                  "type": "color"
-                }
-              },
-              "hovered": {
-                "bg": {
-                  "value": "{sjs2.color.bg.neutral.tertiary-dim}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
-                  "type": "color"
-                }
-              },
-              "disabled": {
-                "bg": {
-                  "value": "rgba( {sjs2.color.bg.neutral.tertiary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
-                  "type": "color"
-                }
-              }
-            },
-            "quaternary": {
-              "default": {
-                "bg": {
-                  "value": "{sjs2.color.bg.neutral.tertiary}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.basic.tertiary}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.basic.tertiary}",
-                  "type": "color"
-                }
-              },
-              "hovered": {
-                "bg": {
-                  "value": "{sjs2.color.bg.neutral.tertiary-dim}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.neutral.primary-muted}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
-                  "type": "color"
-                }
-              },
-              "disabled": {
-                "bg": {
-                  "value": "rgba( {sjs2.color.bg.neutral.tertiary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
-                  "type": "color"
-                }
-              }
-            },
-            "secondary-alternative": {
-              "default": {
-                "bg": {
-                  "value": "{sjs2.color.bg.basic.primary}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
-                  "type": "color"
-                }
-              },
-              "hovered": {
-                "bg": {
-                  "value": "{sjs2.color.bg.basic.primary-dim}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
-                  "type": "color"
-                }
-              },
-              "disabled": {
-                "bg": {
-                  "value": "{sjs2.color.bg.basic.primary-disabled}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
-                  "type": "color"
-                }
-              }
-            },
-            "tertiary-alternative": {
-              "default": {
-                "bg": {
-                  "value": "{sjs2.color.bg.neutral.tertiary}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.neutral.primary-muted}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
-                  "type": "color"
-                }
-              },
-              "hovered": {
-                "bg": {
-                  "value": "{sjs2.color.bg.neutral.tertiary-dim}",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.neutral.primary-muted}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
-                  "type": "color"
-                }
-              },
-              "disabled": {
-                "bg": {
-                  "value": "rgba( {sjs2.color.bg.neutral.tertiary}, {sjs2.opacity.hidden} )",
-                  "type": "color"
-                },
-                "icon": {
-                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
-                  "type": "color"
-                },
-                "label": {
-                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
-                  "type": "color"
-                }
               }
             }
           }
@@ -2446,12 +2755,6 @@
             }
           },
           "hovered": {
-            "bg": {
-              "value": "{sjs2.color.bg.basic.primary}",
-              "type": "color"
-            }
-          },
-          "pressed": {
             "bg": {
               "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"

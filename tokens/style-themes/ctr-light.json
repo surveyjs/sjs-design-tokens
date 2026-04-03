@@ -1122,12 +1122,12 @@
                   "description": "Button / action background color, style: alert, mode: quaternary, state: default."
                 },
                 "icon": {
-                  "value": "{sjs2.color.fg.basic.tertiary}",
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
                   "type": "color",
                   "description": "Button / action icon color, style: alert, mode: quaternary, state: default."
                 },
                 "label": {
-                  "value": "{sjs2.color.fg.basic.tertiary}",
+                  "value": "{sjs2.color.fg.neutral.primary}",
                   "type": "color",
                   "description": "Button / action label color, style: alert, mode: quaternary, state: default."
                 }
@@ -1167,80 +1167,80 @@
                 }
               }
             },
-            "secondary-alternative": {
+            "quinary": {
               "default": {
                 "bg": {
-                  "value": "{sjs2.color.bg.basic.primary}",
+                  "value": "{sjs2.color.bg.alert.tertiary}",
                   "type": "color",
-                  "description": "Button / action background color, style: alert, mode: secondary, state: default."
+                  "description": "Button / action background color, style: alert, mode: quinary, state: default."
                 },
                 "icon": {
-                  "value": "{sjs2.color.fg.alert.primary}",
+                  "value": "{sjs2.color.fg.basic.tertiary}",
                   "type": "color",
-                  "description": "Button / action icon color, style: alert, mode: secondary, state: default."
+                  "description": "Button / action icon color, style: alert, mode: quinary, state: default."
                 },
                 "label": {
-                  "value": "{sjs2.color.fg.alert.primary}",
+                  "value": "{sjs2.color.fg.basic.tertiary}",
                   "type": "color",
-                  "description": "Button / action label color, style: alert, mode: secondary, state: default."
+                  "description": "Button / action label color, style: alert, mode: quinary, state: default."
                 }
               },
               "hovered": {
                 "bg": {
-                  "value": "{sjs2.color.bg.basic.primary-dim}",
+                  "value": "{sjs2.color.bg.alert.tertiary-dim}",
                   "type": "color",
-                  "description": "Button / action background color, style: alert, mode: secondary, state: hovered."
+                  "description": "Button / action background color, style: alert, mode: quinary, state: hovered."
                 },
                 "icon": {
                   "value": "{sjs2.color.fg.alert.primary}",
                   "type": "color",
-                  "description": "Button / action icon color, style: alert, mode: secondary, state: hovered."
+                  "description": "Button / action icon color, style: alert, mode: quinary, state: hovered."
                 },
                 "label": {
                   "value": "{sjs2.color.fg.alert.primary}",
                   "type": "color",
-                  "description": "Button / action label color, style: alert, mode: secondary, state: hovered."
+                  "description": "Button / action label color, style: alert, mode: quinary, state: hovered."
                 }
               },
               "disabled": {
                 "bg": {
-                  "value": "{sjs2.color.bg.basic.primary-disabled}",
+                  "value": "rgba( {sjs2.color.bg.alert.tertiary}, {sjs2.opacity.hidden} )",
                   "type": "color",
-                  "description": "Button / action background color, style: alert, mode: secondary, state: disabled."
+                  "description": "Button / action background color, style: alert, mode: quinary, state: disabled."
                 },
                 "icon": {
                   "value": "{sjs2.color.fg.alert.primary-disabled}",
                   "type": "color",
-                  "description": "Button / action icon color, style: alert, mode: secondary, state: disabled."
+                  "description": "Button / action icon color, style: alert, mode: quinary, state: disabled."
                 },
                 "label": {
                   "value": "{sjs2.color.fg.alert.primary-disabled}",
                   "type": "color",
-                  "description": "Button / action label color, style: alert, mode: secondary, state: disabled."
+                  "description": "Button / action label color, style: alert, mode: quinary, state: disabled."
                 }
               }
             },
             "tertiary-alternative": {
               "default": {
                 "bg": {
-                  "value": "{sjs2.color.bg.alert.tertiary}",
+                  "value": "{sjs2.color.bg.basic.primary}",
                   "type": "color",
                   "description": "Button / action background color, style: alert, mode: tertiary, state: default."
                 },
                 "icon": {
-                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "value": "{sjs2.color.fg.alert.primary}",
                   "type": "color",
                   "description": "Button / action icon color, style: alert, mode: tertiary, state: default."
                 },
                 "label": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "value": "{sjs2.color.fg.alert.primary}",
                   "type": "color",
                   "description": "Button / action label color, style: alert, mode: tertiary, state: default."
                 }
               },
               "hovered": {
                 "bg": {
-                  "value": "{sjs2.color.bg.alert.tertiary-dim}",
+                  "value": "{sjs2.color.bg.basic.primary-dim}",
                   "type": "color",
                   "description": "Button / action background color, style: alert, mode: tertiary, state: hovered."
                 },
@@ -1257,7 +1257,7 @@
               },
               "disabled": {
                 "bg": {
-                  "value": "rgba( {sjs2.color.bg.alert.tertiary}, {sjs2.opacity.hidden} )",
+                  "value": "{sjs2.color.bg.basic.primary-disabled}",
                   "type": "color",
                   "description": "Button / action background color, style: alert, mode: tertiary, state: disabled."
                 },
@@ -1270,6 +1270,112 @@
                   "value": "{sjs2.color.fg.alert.primary-disabled}",
                   "type": "color",
                   "description": "Button / action label color, style: alert, mode: tertiary, state: disabled."
+                }
+              }
+            },
+            "quaternary-alternative": {
+              "default": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary}",
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: quaternary, state: default."
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: quaternary, state: default."
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: quaternary, state: default."
+                }
+              },
+              "hovered": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary-dim}",
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: quaternary, state: hovered."
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.alert.primary}",
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: quaternary, state: hovered."
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.alert.primary}",
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: quaternary, state: hovered."
+                }
+              },
+              "disabled": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary-disabled}",
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: quaternary, state: disabled."
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.alert.primary-disabled}",
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: quaternary, state: disabled."
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.alert.primary-disabled}",
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: quaternary, state: disabled."
+                }
+              }
+            },
+            "quinary-alternative": {
+              "default": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary}",
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: quinary, state: default."
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.basic.tertiary}",
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: quinary, state: default."
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.basic.tertiary}",
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: quinary, state: default."
+                }
+              },
+              "hovered": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary-dim}",
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: quinary, state: hovered."
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.alert.primary}",
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: quinary, state: hovered."
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.alert.primary}",
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: quinary, state: hovered."
+                }
+              },
+              "disabled": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary-disabled}",
+                  "type": "color",
+                  "description": "Button / action background color, style: alert, mode: quinary, state: disabled."
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.alert.primary-disabled}",
+                  "type": "color",
+                  "description": "Button / action icon color, style: alert, mode: quinary, state: disabled."
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.alert.primary-disabled}",
+                  "type": "color",
+                  "description": "Button / action label color, style: alert, mode: quinary, state: disabled."
                 }
               }
             }
@@ -1414,6 +1520,50 @@
                   "type": "color"
                 },
                 "icon": {
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "type": "color"
+                }
+              },
+              "hovered": {
+                "bg": {
+                  "value": "{sjs2.color.bg.brand.tertiary-dim}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.brand.primary}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.brand.primary}",
+                  "type": "color"
+                }
+              },
+              "disabled": {
+                "bg": {
+                  "value": "rgba( {sjs2.color.bg.brand.tertiary}, {sjs2.opacity.hidden} )",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.brand.primary-disabled}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.brand.primary-disabled}",
+                  "type": "color"
+                }
+              }
+            },
+            "quinary": {
+              "default": {
+                "bg": {
+                  "value": "{sjs2.color.bg.brand.tertiary}",
+                  "type": "color"
+                },
+                "icon": {
                   "value": "{sjs2.color.fg.basic.tertiary}",
                   "type": "color"
                 },
@@ -1451,7 +1601,7 @@
                 }
               }
             },
-            "secondary-alternative": {
+            "tertiary-alternative": {
               "default": {
                 "bg": {
                   "value": "{sjs2.color.bg.basic.primary}",
@@ -1495,10 +1645,10 @@
                 }
               }
             },
-            "tertiary-alternative": {
+            "quaternary-alternative": {
               "default": {
                 "bg": {
-                  "value": "{sjs2.color.bg.brand.tertiary}",
+                  "value": "{sjs2.color.bg.basic.primary}",
                   "type": "color"
                 },
                 "icon": {
@@ -1512,7 +1662,7 @@
               },
               "hovered": {
                 "bg": {
-                  "value": "{sjs2.color.bg.brand.tertiary-dim}",
+                  "value": "{sjs2.color.bg.basic.primary-dim}",
                   "type": "color"
                 },
                 "icon": {
@@ -1526,7 +1676,51 @@
               },
               "disabled": {
                 "bg": {
-                  "value": "rgba( {sjs2.color.bg.brand.tertiary}, {sjs2.opacity.hidden} )",
+                  "value": "{sjs2.color.bg.basic.primary-disabled}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.brand.primary-disabled}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.brand.primary-disabled}",
+                  "type": "color"
+                }
+              }
+            },
+            "quinary-alternative": {
+              "default": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.basic.tertiary}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.basic.tertiary}",
+                  "type": "color"
+                }
+              },
+              "hovered": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary-dim}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.brand.primary}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.brand.primary}",
+                  "type": "color"
+                }
+              },
+              "disabled": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary-disabled}",
                   "type": "color"
                 },
                 "icon": {
@@ -1592,7 +1786,7 @@
                   "type": "color"
                 },
                 "icon": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
                   "type": "color"
                 },
                 "label": {
@@ -1606,7 +1800,7 @@
                   "type": "color"
                 },
                 "icon": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
                   "type": "color"
                 },
                 "label": {
@@ -1680,6 +1874,50 @@
                   "type": "color"
                 },
                 "icon": {
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "type": "color"
+                }
+              },
+              "hovered": {
+                "bg": {
+                  "value": "{sjs2.color.bg.neutral.tertiary-dim}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "type": "color"
+                }
+              },
+              "disabled": {
+                "bg": {
+                  "value": "rgba( {sjs2.color.bg.neutral.tertiary}, {sjs2.opacity.hidden} )",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
+                  "type": "color"
+                }
+              }
+            },
+            "quinary": {
+              "default": {
+                "bg": {
+                  "value": "{sjs2.color.bg.neutral.tertiary}",
+                  "type": "color"
+                },
+                "icon": {
                   "value": "{sjs2.color.fg.basic.tertiary}",
                   "type": "color"
                 },
@@ -1717,14 +1955,14 @@
                 }
               }
             },
-            "secondary-alternative": {
+            "tertiary-alternative": {
               "default": {
                 "bg": {
                   "value": "{sjs2.color.bg.basic.primary}",
                   "type": "color"
                 },
                 "icon": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
                   "type": "color"
                 },
                 "label": {
@@ -1738,7 +1976,7 @@
                   "type": "color"
                 },
                 "icon": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
                   "type": "color"
                 },
                 "label": {
@@ -1761,10 +1999,10 @@
                 }
               }
             },
-            "tertiary-alternative": {
+            "quaternary-alternative": {
               "default": {
                 "bg": {
-                  "value": "{sjs2.color.bg.neutral.tertiary}",
+                  "value": "{sjs2.color.bg.basic.primary}",
                   "type": "color"
                 },
                 "icon": {
@@ -1778,7 +2016,7 @@
               },
               "hovered": {
                 "bg": {
-                  "value": "{sjs2.color.bg.neutral.tertiary-dim}",
+                  "value": "{sjs2.color.bg.basic.primary-dim}",
                   "type": "color"
                 },
                 "icon": {
@@ -1792,7 +2030,51 @@
               },
               "disabled": {
                 "bg": {
-                  "value": "rgba( {sjs2.color.bg.neutral.tertiary}, {sjs2.opacity.hidden} )",
+                  "value": "{sjs2.color.bg.basic.primary-disabled}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.primary-disabled}",
+                  "type": "color"
+                }
+              }
+            },
+            "quinary-alternative": {
+              "default": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.basic.tertiary}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.basic.tertiary}",
+                  "type": "color"
+                }
+              },
+              "hovered": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary-dim}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "type": "color"
+                },
+                "label": {
+                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "type": "color"
+                }
+              },
+              "disabled": {
+                "bg": {
+                  "value": "{sjs2.color.bg.basic.primary-disabled}",
                   "type": "color"
                 },
                 "icon": {
@@ -2514,12 +2796,6 @@
             }
           },
           "hovered": {
-            "bg": {
-              "value": "{sjs2.color.bg.basic.primary}",
-              "type": "color"
-            }
-          },
-          "pressed": {
             "bg": {
               "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
