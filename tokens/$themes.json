@@ -1744,12 +1744,12 @@
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
       "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
-      "sjs2.color.component.buttongroup-item.false.focused.bg": "6f222a82534a132bd57062f5a93c6a12687609b6",
-      "sjs2.color.component.buttongroup-item.false.focused.border": "1860e1d3e3548b89892639d40c9abf10ef97ec99",
-      "sjs2.color.component.buttongroup-item.false.focused.value": "ea6512fee083da3b0f76db8a6044426bada82d56",
-      "sjs2.color.component.buttongroup-item.true.focused.bg": "10666e25e7d73835ceb903e5a64ab33f449b8015",
-      "sjs2.color.component.buttongroup-item.true.focused.border": "acb9cfecf5000dd5bc96476db032d7f0e8164c0d",
-      "sjs2.color.component.buttongroup-item.true.focused.value": "6fbfd368f1c66c03c72632ad7df6f2c7ab453bb8"
+      "sjs2.color.component.buttongroup-item.false.focused.bg": "b3969ee7456b77cc659f718acdd4d61e8aaa4266",
+      "sjs2.color.component.buttongroup-item.false.focused.border": "47243b1d3687d30c855cb71d487b756b876c1860",
+      "sjs2.color.component.buttongroup-item.false.focused.value": "48ec1f96e6ce52007c805658800215e3fe013b3d",
+      "sjs2.color.component.buttongroup-item.true.focused.bg": "860ba6477327040b78c5c68578dc5c782c7e926d",
+      "sjs2.color.component.buttongroup-item.true.focused.border": "05990fd4051876cb98263806a2f02e96eeb8e97b",
+      "sjs2.color.component.buttongroup-item.true.focused.value": "b4524b437034520273a68ed413cc9d9c6c0bb755"
     }
   },
   {
@@ -2480,12 +2480,12 @@
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
       "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
-      "sjs2.color.component.buttongroup-item.false.focused.bg": "6f222a82534a132bd57062f5a93c6a12687609b6",
-      "sjs2.color.component.buttongroup-item.false.focused.border": "1860e1d3e3548b89892639d40c9abf10ef97ec99",
-      "sjs2.color.component.buttongroup-item.false.focused.value": "ea6512fee083da3b0f76db8a6044426bada82d56",
-      "sjs2.color.component.buttongroup-item.true.focused.bg": "10666e25e7d73835ceb903e5a64ab33f449b8015",
-      "sjs2.color.component.buttongroup-item.true.focused.border": "acb9cfecf5000dd5bc96476db032d7f0e8164c0d",
-      "sjs2.color.component.buttongroup-item.true.focused.value": "6fbfd368f1c66c03c72632ad7df6f2c7ab453bb8"
+      "sjs2.color.component.buttongroup-item.false.focused.bg": "b3969ee7456b77cc659f718acdd4d61e8aaa4266",
+      "sjs2.color.component.buttongroup-item.false.focused.border": "47243b1d3687d30c855cb71d487b756b876c1860",
+      "sjs2.color.component.buttongroup-item.false.focused.value": "48ec1f96e6ce52007c805658800215e3fe013b3d",
+      "sjs2.color.component.buttongroup-item.true.focused.bg": "860ba6477327040b78c5c68578dc5c782c7e926d",
+      "sjs2.color.component.buttongroup-item.true.focused.border": "05990fd4051876cb98263806a2f02e96eeb8e97b",
+      "sjs2.color.component.buttongroup-item.true.focused.value": "b4524b437034520273a68ed413cc9d9c6c0bb755"
     },
     "group": "style-themes"
   },
@@ -3217,12 +3217,12 @@
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
       "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
-      "sjs2.color.component.buttongroup-item.false.focused.bg": "6f222a82534a132bd57062f5a93c6a12687609b6",
-      "sjs2.color.component.buttongroup-item.false.focused.border": "1860e1d3e3548b89892639d40c9abf10ef97ec99",
-      "sjs2.color.component.buttongroup-item.false.focused.value": "ea6512fee083da3b0f76db8a6044426bada82d56",
-      "sjs2.color.component.buttongroup-item.true.focused.bg": "10666e25e7d73835ceb903e5a64ab33f449b8015",
-      "sjs2.color.component.buttongroup-item.true.focused.border": "acb9cfecf5000dd5bc96476db032d7f0e8164c0d",
-      "sjs2.color.component.buttongroup-item.true.focused.value": "6fbfd368f1c66c03c72632ad7df6f2c7ab453bb8"
+      "sjs2.color.component.buttongroup-item.false.focused.bg": "b3969ee7456b77cc659f718acdd4d61e8aaa4266",
+      "sjs2.color.component.buttongroup-item.false.focused.border": "47243b1d3687d30c855cb71d487b756b876c1860",
+      "sjs2.color.component.buttongroup-item.false.focused.value": "48ec1f96e6ce52007c805658800215e3fe013b3d",
+      "sjs2.color.component.buttongroup-item.true.focused.bg": "860ba6477327040b78c5c68578dc5c782c7e926d",
+      "sjs2.color.component.buttongroup-item.true.focused.border": "05990fd4051876cb98263806a2f02e96eeb8e97b",
+      "sjs2.color.component.buttongroup-item.true.focused.value": "b4524b437034520273a68ed413cc9d9c6c0bb755"
     },
     "group": "style-themes"
   },
@@ -3954,12 +3954,12 @@
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
       "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
-      "sjs2.color.component.buttongroup-item.false.focused.bg": "6f222a82534a132bd57062f5a93c6a12687609b6",
-      "sjs2.color.component.buttongroup-item.false.focused.border": "1860e1d3e3548b89892639d40c9abf10ef97ec99",
-      "sjs2.color.component.buttongroup-item.false.focused.value": "ea6512fee083da3b0f76db8a6044426bada82d56",
-      "sjs2.color.component.buttongroup-item.true.focused.bg": "10666e25e7d73835ceb903e5a64ab33f449b8015",
-      "sjs2.color.component.buttongroup-item.true.focused.border": "acb9cfecf5000dd5bc96476db032d7f0e8164c0d",
-      "sjs2.color.component.buttongroup-item.true.focused.value": "6fbfd368f1c66c03c72632ad7df6f2c7ab453bb8"
+      "sjs2.color.component.buttongroup-item.false.focused.bg": "b3969ee7456b77cc659f718acdd4d61e8aaa4266",
+      "sjs2.color.component.buttongroup-item.false.focused.border": "47243b1d3687d30c855cb71d487b756b876c1860",
+      "sjs2.color.component.buttongroup-item.false.focused.value": "48ec1f96e6ce52007c805658800215e3fe013b3d",
+      "sjs2.color.component.buttongroup-item.true.focused.bg": "860ba6477327040b78c5c68578dc5c782c7e926d",
+      "sjs2.color.component.buttongroup-item.true.focused.border": "05990fd4051876cb98263806a2f02e96eeb8e97b",
+      "sjs2.color.component.buttongroup-item.true.focused.value": "b4524b437034520273a68ed413cc9d9c6c0bb755"
     },
     "group": "style-themes"
   }
