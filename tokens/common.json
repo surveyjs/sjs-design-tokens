@@ -21,6 +21,10 @@
         "value": "{sjs2.base-unit.scale} * 95",
         "type": "scaling"
       },
+      "x098": {
+        "value": "{sjs2.base-unit.scale} * 98",
+        "type": "scaling"
+      },
       "x100": {
         "value": "{sjs2.base-unit.scale} * 100",
         "type": "scaling"
