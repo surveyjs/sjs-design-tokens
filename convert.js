@@ -56,6 +56,8 @@ const THEME_CONFIG = [
       "--sjs2-typography-line-height-component-header-description": "calc(1.5 * var(--sjs2-typography-font-size-component-header-description))",
       "--sjs2-typography-line-height-component-page-title": "calc(1.33 * var(--sjs2-typography-font-size-component-page-title))",
       "--sjs2-color-component-track-default-bg": "#d4d4d4",
+      "--sjs2-color-component-boolean-invalid-bg": "rgba(230, 10, 62, .1)",
+      "--sjs2-border-effect-component-check-false-invalid": "inset 0 1px 2px 0 rgba(0, 0, 0, 0.15)"
     },
     products: ["survey-library"]
   },
