@@ -1996,7 +1996,7 @@
           },
           "disabled": {
             "bg": {
-              "value": "{sjs2.color.bg.basic.primary-disabled}",
+              "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
             },
             "border": {

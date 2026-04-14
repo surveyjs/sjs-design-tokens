@@ -2122,7 +2122,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{sjs2.palette.gray.100}",
+              "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
             }
           },
@@ -2132,7 +2132,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{sjs2.palette.gray.250}",
+              "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
             }
           },
@@ -2234,27 +2234,27 @@
               "type": "color"
             },
             "value": {
-              "value": "{sjs2.palette.gray.250}",
+              "value": "{sjs2.color.fg.basic.primary-disabled}",
               "type": "color"
             },
             "placeholder": {
-              "value": "{sjs2.palette.gray.250}",
+              "value": "{sjs2.color.fg.basic.secondary-disabled}",
               "type": "color"
             },
             "label": {
-              "value": "{sjs2.palette.gray.250}",
+              "value": "{sjs2.color.fg.basic.secondary-disabled}",
               "type": "color"
             },
             "limit": {
-              "value": "{sjs2.palette.gray.250}",
+              "value": "{sjs2.color.fg.basic.secondary-disabled}",
               "type": "color"
             },
             "icon": {
-              "value": "{sjs2.palette.gray.250}",
+              "value": "{sjs2.color.fg.basic.secondary-disabled}",
               "type": "color"
             },
             "description": {
-              "value": "{sjs2.palette.gray.250}",
+              "value": "{sjs2.color.fg.basic.secondary-disabled}",
               "type": "color"
             }
           }
@@ -2263,7 +2263,7 @@
           "false": {
             "default": {
               "bg": {
-                "value": "{sjs2.palette.gray.100}",
+                "value": "{sjs2.color.bg.basic.secondary}",
                 "type": "color",
                 "description": "Checkbox & radiobutton background color, is checked: false, state: default."
               },
@@ -2275,7 +2275,7 @@
             },
             "disabled": {
               "bg": {
-                "value": "{sjs2.palette.gray.000}",
+                "value": "{sjs2.color.bg.basic.primary}",
                 "type": "color",
                 "description": "Checkbox & radiobutton background color, is checked: false, state: disabled."
               },
@@ -2311,7 +2311,7 @@
             },
             "design": {
               "bg": {
-                "value": "{sjs2.palette.gray.100}",
+                "value": "{sjs2.color.bg.basic.secondary}",
                 "type": "color",
                 "description": "Checkbox & radiobutton background color, is checked: false, state: design."
               },
@@ -2323,7 +2323,7 @@
             },
             "invalid": {
               "bg": {
-                "value": "{sjs2.palette.gray.100}",
+                "value": "{sjs2.color.bg.basic.secondary}",
                 "type": "color",
                 "description": "Checkbox & radiobutton background color, is checked: false, state: design."
               },
