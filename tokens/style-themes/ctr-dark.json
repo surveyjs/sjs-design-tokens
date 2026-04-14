@@ -179,7 +179,7 @@
           },
           "surface": {
             "default": {
-              "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x010} )",
+              "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
             },
             "hovered": {
@@ -3230,15 +3230,15 @@
       },
       "surface": {
         "default": {
-          "value": "4",
+          "value": 0,
           "type": "number"
         },
         "hovered": {
-          "value": "4",
+          "value": 0,
           "type": "number"
         },
         "pressed": {
-          "value": "4",
+          "value": 0,
           "type": "number"
         },
         "focused": {
@@ -3250,7 +3250,7 @@
           "type": "number"
         },
         "dragging": {
-          "value": "12",
+          "value": 0,
           "type": "number"
         }
       },
@@ -3435,15 +3435,15 @@
         },
         "surface": {
           "default": {
-            "value": "2",
+            "value": 0,
             "type": "number"
           },
           "hovered": {
-            "value": "2",
+            "value": 0,
             "type": "number"
           },
           "pressed": {
-            "value": "2",
+            "value": 0,
             "type": "number"
           },
           "focused": {
@@ -3455,7 +3455,7 @@
             "type": "number"
           },
           "dragging": {
-            "value": "6",
+            "value": 0,
             "type": "number"
           }
         },
