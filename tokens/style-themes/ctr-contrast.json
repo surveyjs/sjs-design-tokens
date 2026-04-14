@@ -661,6 +661,10 @@
           "secondary-overlay": {
             "value": "rgba({sjs2.palette.gray.900}, {sjs2.opacity.x040})",
             "type": "color"
+          },
+          "secondary-disabled": {
+            "value": "{sjs2.palette.gray.100}",
+            "type": "color"
           }
         },
         "brand": {
