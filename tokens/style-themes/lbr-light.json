@@ -2022,7 +2022,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{sjs2.palette.gray.100}",
+              "value": "{sjs2.color.border.basic.secondary-disabled}",
               "type": "color"
             }
           },
@@ -2312,7 +2312,7 @@
                 "description": "Checkbox & radiobutton background color, is checked: false, state: disabled."
               },
               "border": {
-                "value": "{sjs2.color.border.basic.secondary}",
+                "value": "{sjs2.color.border.basic.secondary-disabled}",
                 "type": "color",
                 "description": "Checkbox & radiobutton border color, is checked: false, state: disabled."
               }
@@ -3059,7 +3059,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{sjs2.color.border.basic.secondary}",
+              "value": "{sjs2.color.border.basic.secondary-disabled}",
               "type": "color"
             },
             "label": {
