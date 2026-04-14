@@ -2112,31 +2112,31 @@
           },
           "disabled": {
             "line": {
-              "value": "{sjs2.palette.gray.100}",
+              "value": "{sjs2.color.border.basic.secondary-disabled}",
               "type": "color"
             },
             "value": {
-              "value": "{sjs2.palette.gray.250}",
+              "value": "{sjs2.color.fg.basic.primary-disabled}",
               "type": "color"
             },
             "placeholder": {
-              "value": "{sjs2.palette.gray.250}",
+              "value": "{sjs2.color.fg.basic.secondary-disabled}",
               "type": "color"
             },
             "label": {
-              "value": "{sjs2.palette.gray.250}",
+              "value": "{sjs2.color.fg.basic.secondary-disabled}",
               "type": "color"
             },
             "limit": {
-              "value": "{sjs2.palette.gray.250}",
+              "value": "{sjs2.color.fg.basic.secondary-disabled}",
               "type": "color"
             },
             "icon": {
-              "value": "{sjs2.palette.gray.250}",
+              "value": "{sjs2.color.fg.basic.tertiary-disabled}",
               "type": "color"
             },
             "description": {
-              "value": "{sjs2.palette.gray.250}",
+              "value": "{sjs2.color.fg.basic.primary-disabled}",
               "type": "color"
             }
           }

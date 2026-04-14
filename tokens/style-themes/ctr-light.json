@@ -2254,11 +2254,11 @@
               "type": "color"
             },
             "icon": {
-              "value": "{sjs2.color.fg.basic.secondary-disabled}",
+              "value": "{sjs2.color.fg.basic.tertiary-disabled}",
               "type": "color"
             },
             "description": {
-              "value": "{sjs2.color.fg.basic.secondary-disabled}",
+              "value": "{sjs2.color.fg.basic.primary-disabled}",
               "type": "color"
             }
           }
