@@ -595,7 +595,7 @@
         },
         "positive": {
           "primary": {
-            "value": "{sjs2.palette.green.600}",
+            "value": "{sjs2.palette.green.700}",
             "type": "color"
           },
           "on-primary": {
