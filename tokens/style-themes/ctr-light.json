@@ -1131,7 +1131,7 @@
                   "description": "Button / action icon color, style: alert, mode: quaternary, state: default."
                 },
                 "label": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
                   "type": "color",
                   "description": "Button / action label color, style: alert, mode: quaternary, state: default."
                 }
@@ -1290,7 +1290,7 @@
                   "description": "Button / action icon color, style: alert, mode: quaternary, state: default."
                 },
                 "label": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
                   "type": "color",
                   "description": "Button / action label color, style: alert, mode: quaternary, state: default."
                 }
@@ -1528,7 +1528,7 @@
                   "type": "color"
                 },
                 "label": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
                   "type": "color"
                 }
               },
@@ -1660,7 +1660,7 @@
                   "type": "color"
                 },
                 "label": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
                   "type": "color"
                 }
               },
@@ -1794,7 +1794,7 @@
                   "type": "color"
                 },
                 "label": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
                   "type": "color"
                 }
               },
@@ -1808,7 +1808,7 @@
                   "type": "color"
                 },
                 "label": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
                   "type": "color"
                 }
               },
@@ -1838,7 +1838,7 @@
                   "type": "color"
                 },
                 "label": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
                   "type": "color"
                 }
               },
@@ -1852,7 +1852,7 @@
                   "type": "color"
                 },
                 "label": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
                   "type": "color"
                 }
               },
@@ -1896,7 +1896,7 @@
                   "type": "color"
                 },
                 "label": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
                   "type": "color"
                 }
               },
@@ -1926,7 +1926,7 @@
                   "type": "color"
                 },
                 "label": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
                   "type": "color"
                 }
               },
@@ -1940,7 +1940,7 @@
                   "type": "color"
                 },
                 "label": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
                   "type": "color"
                 }
               },
@@ -1984,7 +1984,7 @@
                   "type": "color"
                 },
                 "label": {
-                  "value": "{sjs2.color.fg.neutral.primary}",
+                  "value": "{sjs2.color.fg.neutral.primary-muted}",
                   "type": "color"
                 }
               },

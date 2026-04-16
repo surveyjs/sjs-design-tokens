@@ -764,6 +764,9 @@
       "sjs2.color.component.check.true.hovered.bg": "d60309085e3c59c37396e8d58c875a67dce71d5e",
       "sjs2.color.component.check.true.hovered.border": "b0ac8cc8df513f3e68076d95d140fd1a358cb5ef",
       "sjs2.color.component.check.true.hovered.icon": "698ae2ee422bfa0be10ee6272eed9b2070772daa",
+      "sjs2.color.component.check.true.invalid.bg": "d41385c35165904473e8c70a7fb36152a4f71ab9",
+      "sjs2.color.component.check.true.invalid.border": "d229ede8b737de2864ad90a114bec4272ed741bc",
+      "sjs2.color.component.check.true.invalid.icon": "04c6c8a907e7d83528708ce7dbf7526ca02380c8",
       "sjs2.color.component.toggle.false.default.bg": "f27b9f2baf150a76cac08f4627f850f2aa589d7c",
       "sjs2.color.component.toggle.false.default.border": "4323bc0f0e6fb319e18f8aa75249ec08193d825f",
       "sjs2.color.component.toggle.false.default.thumb": "28a24220852c1e4d25c6edd00308f02d0407b242",
@@ -994,10 +997,7 @@
       "sjs2.border-offset.y.surface.focused": "8513262dcb73eb738162bbf33cf152b09e2b13fa",
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
-      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
-      "sjs2.color.component.check.true.invalid.bg": "d41385c35165904473e8c70a7fb36152a4f71ab9",
-      "sjs2.color.component.check.true.invalid.border": "d229ede8b737de2864ad90a114bec4272ed741bc",
-      "sjs2.color.component.check.true.invalid.icon": "04c6c8a907e7d83528708ce7dbf7526ca02380c8"
+      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
     },
     "group": "style-themes"
   },
@@ -1482,6 +1482,9 @@
       "sjs2.color.component.check.true.hovered.bg": "d60309085e3c59c37396e8d58c875a67dce71d5e",
       "sjs2.color.component.check.true.hovered.border": "b0ac8cc8df513f3e68076d95d140fd1a358cb5ef",
       "sjs2.color.component.check.true.hovered.icon": "698ae2ee422bfa0be10ee6272eed9b2070772daa",
+      "sjs2.color.component.check.true.invalid.bg": "d41385c35165904473e8c70a7fb36152a4f71ab9",
+      "sjs2.color.component.check.true.invalid.border": "d229ede8b737de2864ad90a114bec4272ed741bc",
+      "sjs2.color.component.check.true.invalid.icon": "04c6c8a907e7d83528708ce7dbf7526ca02380c8",
       "sjs2.color.component.toggle.false.default.bg": "f27b9f2baf150a76cac08f4627f850f2aa589d7c",
       "sjs2.color.component.toggle.false.default.border": "4323bc0f0e6fb319e18f8aa75249ec08193d825f",
       "sjs2.color.component.toggle.false.default.thumb": "28a24220852c1e4d25c6edd00308f02d0407b242",
@@ -1712,10 +1715,7 @@
       "sjs2.border-offset.y.surface.focused": "8513262dcb73eb738162bbf33cf152b09e2b13fa",
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
-      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
-      "sjs2.color.component.check.true.invalid.bg": "d41385c35165904473e8c70a7fb36152a4f71ab9",
-      "sjs2.color.component.check.true.invalid.border": "d229ede8b737de2864ad90a114bec4272ed741bc",
-      "sjs2.color.component.check.true.invalid.icon": "04c6c8a907e7d83528708ce7dbf7526ca02380c8"
+      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
     }
   },
   {
@@ -2198,6 +2198,9 @@
       "sjs2.color.component.check.true.hovered.bg": "d60309085e3c59c37396e8d58c875a67dce71d5e",
       "sjs2.color.component.check.true.hovered.border": "b0ac8cc8df513f3e68076d95d140fd1a358cb5ef",
       "sjs2.color.component.check.true.hovered.icon": "698ae2ee422bfa0be10ee6272eed9b2070772daa",
+      "sjs2.color.component.check.true.invalid.bg": "d41385c35165904473e8c70a7fb36152a4f71ab9",
+      "sjs2.color.component.check.true.invalid.border": "d229ede8b737de2864ad90a114bec4272ed741bc",
+      "sjs2.color.component.check.true.invalid.icon": "04c6c8a907e7d83528708ce7dbf7526ca02380c8",
       "sjs2.color.component.toggle.false.default.bg": "f27b9f2baf150a76cac08f4627f850f2aa589d7c",
       "sjs2.color.component.toggle.false.default.border": "4323bc0f0e6fb319e18f8aa75249ec08193d825f",
       "sjs2.color.component.toggle.false.default.thumb": "28a24220852c1e4d25c6edd00308f02d0407b242",
@@ -2428,10 +2431,7 @@
       "sjs2.border-offset.y.surface.focused": "8513262dcb73eb738162bbf33cf152b09e2b13fa",
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
-      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
-      "sjs2.color.component.check.true.invalid.bg": "d41385c35165904473e8c70a7fb36152a4f71ab9",
-      "sjs2.color.component.check.true.invalid.border": "d229ede8b737de2864ad90a114bec4272ed741bc",
-      "sjs2.color.component.check.true.invalid.icon": "04c6c8a907e7d83528708ce7dbf7526ca02380c8"
+      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
     },
     "group": "style-themes"
   },
@@ -2915,6 +2915,9 @@
       "sjs2.color.component.check.true.hovered.bg": "d60309085e3c59c37396e8d58c875a67dce71d5e",
       "sjs2.color.component.check.true.hovered.border": "b0ac8cc8df513f3e68076d95d140fd1a358cb5ef",
       "sjs2.color.component.check.true.hovered.icon": "698ae2ee422bfa0be10ee6272eed9b2070772daa",
+      "sjs2.color.component.check.true.invalid.bg": "d41385c35165904473e8c70a7fb36152a4f71ab9",
+      "sjs2.color.component.check.true.invalid.border": "d229ede8b737de2864ad90a114bec4272ed741bc",
+      "sjs2.color.component.check.true.invalid.icon": "04c6c8a907e7d83528708ce7dbf7526ca02380c8",
       "sjs2.color.component.toggle.false.default.bg": "f27b9f2baf150a76cac08f4627f850f2aa589d7c",
       "sjs2.color.component.toggle.false.default.border": "4323bc0f0e6fb319e18f8aa75249ec08193d825f",
       "sjs2.color.component.toggle.false.default.thumb": "28a24220852c1e4d25c6edd00308f02d0407b242",
@@ -3145,10 +3148,7 @@
       "sjs2.border-offset.y.surface.focused": "8513262dcb73eb738162bbf33cf152b09e2b13fa",
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
-      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
-      "sjs2.color.component.check.true.invalid.bg": "d41385c35165904473e8c70a7fb36152a4f71ab9",
-      "sjs2.color.component.check.true.invalid.border": "d229ede8b737de2864ad90a114bec4272ed741bc",
-      "sjs2.color.component.check.true.invalid.icon": "04c6c8a907e7d83528708ce7dbf7526ca02380c8"
+      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
     },
     "group": "style-themes"
   },
@@ -3632,6 +3632,9 @@
       "sjs2.color.component.check.true.hovered.bg": "d60309085e3c59c37396e8d58c875a67dce71d5e",
       "sjs2.color.component.check.true.hovered.border": "b0ac8cc8df513f3e68076d95d140fd1a358cb5ef",
       "sjs2.color.component.check.true.hovered.icon": "698ae2ee422bfa0be10ee6272eed9b2070772daa",
+      "sjs2.color.component.check.true.invalid.bg": "d41385c35165904473e8c70a7fb36152a4f71ab9",
+      "sjs2.color.component.check.true.invalid.border": "d229ede8b737de2864ad90a114bec4272ed741bc",
+      "sjs2.color.component.check.true.invalid.icon": "04c6c8a907e7d83528708ce7dbf7526ca02380c8",
       "sjs2.color.component.toggle.false.default.bg": "f27b9f2baf150a76cac08f4627f850f2aa589d7c",
       "sjs2.color.component.toggle.false.default.border": "4323bc0f0e6fb319e18f8aa75249ec08193d825f",
       "sjs2.color.component.toggle.false.default.thumb": "28a24220852c1e4d25c6edd00308f02d0407b242",
@@ -3862,10 +3865,7 @@
       "sjs2.border-offset.y.surface.focused": "8513262dcb73eb738162bbf33cf152b09e2b13fa",
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
-      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
-      "sjs2.color.component.check.true.invalid.bg": "d41385c35165904473e8c70a7fb36152a4f71ab9",
-      "sjs2.color.component.check.true.invalid.border": "d229ede8b737de2864ad90a114bec4272ed741bc",
-      "sjs2.color.component.check.true.invalid.icon": "04c6c8a907e7d83528708ce7dbf7526ca02380c8"
+      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
     },
     "group": "style-themes"
   }
