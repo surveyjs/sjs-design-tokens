@@ -2510,7 +2510,7 @@
                 "description": "Switch / toggle border color, is checked: true, state: disabled."
               },
               "thumb": {
-                "value": "{sjs2.color.fg.brand.on-primary}",
+                "value": "{sjs2.color.fg.basic.tertiary-disabled}",
                 "type": "color",
                 "description": "Switch / toggle thumb color, is checked: true, state: disabled."
               }
@@ -2527,7 +2527,7 @@
                 "description": "Switch / toggle border color, is checked: true, state: readonly."
               },
               "thumb": {
-                "value": "{sjs2.color.fg.brand.on-primary}",
+                "value": "{sjs2.color.fg.basic.secondary}",
                 "type": "color",
                 "description": "Switch / toggle thumb color, is checked: true, state: readonly."
               }
