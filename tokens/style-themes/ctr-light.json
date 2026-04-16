@@ -36,41 +36,6 @@
             },
             "description": "Auto-generated dark version of main brand color."
           }
-        },
-        "accent": {
-          "400": {
-            "value": "{sjs2.color.project.accent.600}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "lighten",
-                  "value": "0.1",
-                  "space": "hsl"
-                }
-              }
-            },
-            "description": "Auto-generated light version of additional brand color."
-          },
-          "600": {
-            "value": "#19B394",
-            "type": "color",
-            "description": "Additional brand color of your project."
-          },
-          "700": {
-            "value": "{sjs2.color.project.accent.600}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "darken",
-                  "value": "0.15",
-                  "space": "hsl"
-                }
-              }
-            },
-            "description": "Auto-generated dark version of additional brand color."
-          }
         }
       },
       "utility": {
@@ -320,36 +285,6 @@
             "type": "color"
           }
         },
-        "accent": {
-          "primary": {
-            "value": "{sjs2.color.project.accent.600}",
-            "type": "color"
-          },
-          "secondary": {
-            "value": "rgba( {sjs2.color.project.accent.600}, {sjs2.opacity.x010} )",
-            "type": "color"
-          },
-          "tertiary": {
-            "value": "rgba( {sjs2.color.project.accent.600}, {sjs2.opacity.x000} )",
-            "type": "color"
-          },
-          "primary-dim": {
-            "value": "{sjs2.color.project.accent.700}",
-            "type": "color"
-          },
-          "secondary-dim": {
-            "value": "rgba( {sjs2.color.project.accent.600}, {sjs2.opacity.x015} )",
-            "type": "color"
-          },
-          "tertiary-dim": {
-            "value": "rgba( {sjs2.color.project.accent.600}, {sjs2.opacity.x010} )",
-            "type": "color"
-          },
-          "primary-disabled": {
-            "value": "{sjs2.palette.gray.100}",
-            "type": "color"
-          }
-        },
         "note": {
           "primary": {
             "value": "{sjs2.palette.blue.600}",
@@ -583,20 +518,6 @@
             "type": "color"
           }
         },
-        "accent": {
-          "primary": {
-            "value": "{sjs2.color.project.accent.700}",
-            "type": "color"
-          },
-          "on-primary": {
-            "value": "{sjs2.palette.gray.000}",
-            "type": "color"
-          },
-          "primary-disabled": {
-            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x020} )",
-            "type": "color"
-          }
-        },
         "note": {
           "primary": {
             "value": "{sjs2.palette.blue.700}",
@@ -698,16 +619,6 @@
         "brand": {
           "primary": {
             "value": "{sjs2.color.project.brand.600}",
-            "type": "color"
-          },
-          "on-primary": {
-            "value": "{sjs2.palette.gray.000}",
-            "type": "color"
-          }
-        },
-        "accent": {
-          "primary": {
-            "value": "{sjs2.color.project.accent.600}",
             "type": "color"
           },
           "on-primary": {
