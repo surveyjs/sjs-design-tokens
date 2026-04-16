@@ -2185,20 +2185,6 @@
                 "type": "color"
               }
             },
-            "focused": {
-              "bg": {
-                "value": "{sjs2.color.bg.basic.secondary}",
-                "type": "color"
-              },
-              "border": {
-                "value": "{sjs2.color.border.brand.primary}",
-                "type": "color"
-              },
-              "value": {
-                "value": "{sjs2.color.fg.basic.primary}",
-                "type": "color"
-              }
-            },
             "hovered": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.secondary-dim}",
@@ -2254,20 +2240,6 @@
               },
               "value": {
                 "value": "{sjs2.color.fg.basic.primary}",
-                "type": "color"
-              }
-            },
-            "focused": {
-              "bg": {
-                "value": "{sjs2.color.bg.basic.primary}",
-                "type": "color"
-              },
-              "border": {
-                "value": "{sjs2.color.border.brand.primary}",
-                "type": "color"
-              },
-              "value": {
-                "value": "{sjs2.color.fg.brand.primary}",
                 "type": "color"
               }
             }
