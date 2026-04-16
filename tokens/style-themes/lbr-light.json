@@ -2048,7 +2048,7 @@
           },
           "invalid": {
             "bg": {
-              "value": "{sjs2.color.bg.basic.secondary}",
+              "value": "{sjs2.color.bg.alert.secondary}",
               "type": "color"
             },
             "border": {
@@ -2088,7 +2088,7 @@
           },
           "invalid-focused": {
             "bg": {
-              "value": "{sjs2.color.bg.basic.secondary}",
+              "value": "{sjs2.color.bg.alert.secondary}",
               "type": "color"
             },
             "border": {
@@ -2199,7 +2199,7 @@
                 "type": "color"
               },
               "value": {
-                "value": "{sjs2.color.fg.basic.secondary-disabled}",
+                "value": "{sjs2.color.fg.basic.tertiary}",
                 "type": "color"
               }
             },
@@ -2327,7 +2327,7 @@
             },
             "invalid": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.secondary}",
+                "value": "{sjs2.color.bg.alert.secondary}",
                 "type": "color",
                 "description": "Checkbox & radiobutton background color, is checked: false, state: design."
               },
@@ -2363,7 +2363,7 @@
                 "description": "Checkbox & radiobutton background color, is checked: true, state: disabled."
               },
               "border": {
-                "value": "{sjs2.color.border.basic.secondary}",
+                "value": "{sjs2.color.border.basic.secondary-disabled}",
                 "type": "color",
                 "description": "Checkbox & radiobutton border color, is checked: true, state: disabled."
               },
@@ -2440,7 +2440,7 @@
                 "description": "Switch / toggle border color, is checked: false, state: disabled."
               },
               "thumb": {
-                "value": "{sjs2.color.fg.basic.tertiary}",
+                "value": "{sjs2.color.fg.basic.secondary-disabled}",
                 "type": "color",
                 "description": "Switch / toggle thumb color, is checked: false, state: disabled."
               }
