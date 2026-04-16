@@ -2031,7 +2031,7 @@
                 "type": "color"
               },
               "value": {
-                "value": "{sjs2.palette.gray.250}",
+                "value": "{sjs2.color.fg.basic.secondary-disabled}",
                 "type": "color"
               }
             },
@@ -2045,7 +2045,7 @@
                 "type": "color"
               },
               "value": {
-                "value": "{sjs2.palette.gray.400}",
+                "value": "{sjs2.color.fg.basic.tertiary}",
                 "type": "color"
               }
             },
@@ -2089,7 +2089,7 @@
                 "type": "color"
               },
               "value": {
-                "value": "{sjs2.palette.gray.400}",
+                "value": "{sjs2.color.fg.basic.secondary-disabled}",
                 "type": "color"
               }
             },
@@ -2351,7 +2351,7 @@
                 "description": "Checkbox & radiobutton border color, is checked: true, state: default."
               },
               "icon": {
-                "value": "{sjs2.color.fg.static-1.primary}",
+                "value": "{sjs2.color.fg.brand.on-primary}",
                 "type": "color",
                 "description": "Checkbox & radiobutton icon color, is checked: true, state: default."
               }
@@ -2368,7 +2368,7 @@
                 "description": "Checkbox & radiobutton border color, is checked: true, state: disabled."
               },
               "icon": {
-                "value": "{sjs2.palette.gray.400}",
+                "value": "{sjs2.color.fg.basic.tertiary}",
                 "type": "color",
                 "description": "Checkbox & radiobutton icon color, is checked: true, state: disabled."
               }
@@ -2385,9 +2385,26 @@
                 "description": "Checkbox & radiobutton border color, is checked: true, state: hovered."
               },
               "icon": {
-                "value": "{sjs2.color.fg.static-1.primary}",
+                "value": "{sjs2.color.fg.brand.on-primary}",
                 "type": "color",
                 "description": "Checkbox & radiobutton icon color, is checked: true, state: hovered."
+              }
+            },
+            "invalid": {
+              "bg": {
+                "value": "{sjs2.color.bg.alert.primary}",
+                "type": "color",
+                "description": "Checkbox & radiobutton background color, is checked: true, state: invalid."
+              },
+              "border": {
+                "value": "{sjs2.color.bg.alert.primary}",
+                "type": "color",
+                "description": "Checkbox & radiobutton border color, is checked: true, state: invalid."
+              },
+              "icon": {
+                "value": "{sjs2.color.fg.alert.on-primary}",
+                "type": "color",
+                "description": "Checkbox & radiobutton icon color, is checked: true, state: invalid."
               }
             }
           }
@@ -2396,7 +2413,7 @@
           "false": {
             "default": {
               "bg": {
-                "value": "{sjs2.palette.gray.100}",
+                "value": "{sjs2.color.bg.basic.secondary}",
                 "type": "color",
                 "description": "Switch / toggle background color, is checked: false, state: default."
               },
@@ -2413,7 +2430,7 @@
             },
             "disabled": {
               "bg": {
-                "value": "{sjs2.palette.gray.100}",
+                "value": "{sjs2.color.bg.basic.secondary}",
                 "type": "color",
                 "description": "Switch / toggle background color, is checked: false, state: disabled."
               },
@@ -2430,7 +2447,7 @@
             },
             "readonly": {
               "bg": {
-                "value": "{sjs2.palette.gray.100}",
+                "value": "{sjs2.color.bg.basic.secondary}",
                 "type": "color",
                 "description": "Switch / toggle background color, is checked: false, state: readonly."
               },
@@ -2476,7 +2493,7 @@
                 "description": "Switch / toggle border color, is checked: true, state: default."
               },
               "thumb": {
-                "value": "{sjs2.color.fg.static-1.primary}",
+                "value": "{sjs2.color.fg.brand.on-primary}",
                 "type": "color",
                 "description": "Switch / toggle thumb color, is checked: true, state: default."
               }
@@ -2493,7 +2510,7 @@
                 "description": "Switch / toggle border color, is checked: true, state: disabled."
               },
               "thumb": {
-                "value": "{sjs2.color.fg.static-1.primary}",
+                "value": "{sjs2.color.fg.brand.on-primary}",
                 "type": "color",
                 "description": "Switch / toggle thumb color, is checked: true, state: disabled."
               }
@@ -2510,7 +2527,7 @@
                 "description": "Switch / toggle border color, is checked: true, state: readonly."
               },
               "thumb": {
-                "value": "{sjs2.color.fg.static-1.primary}",
+                "value": "{sjs2.color.fg.brand.on-primary}",
                 "type": "color",
                 "description": "Switch / toggle thumb color, is checked: true, state: readonly."
               }
@@ -2522,12 +2539,12 @@
                 "description": "Switch / toggle background color, is checked: true, state: hovered."
               },
               "border": {
-                "value": "{sjs2.color.border.brand.primary}",
+                "value": "{sjs2.color.bg.brand.primary-dim}",
                 "type": "color",
                 "description": "Switch / toggle border color, is checked: true, state: hovered."
               },
               "thumb": {
-                "value": "{sjs2.color.fg.static-1.primary}",
+                "value": "{sjs2.color.fg.brand.on-primary}",
                 "type": "color",
                 "description": "Switch / toggle thumb color, is checked: true, state: hovered."
               }
@@ -2826,7 +2843,7 @@
                 "type": "color"
               },
               "value": {
-                "value": "{sjs2.palette.gray.250}",
+                "value": "{sjs2.color.fg.basic.secondary-disabled}",
                 "type": "color"
               }
             },
@@ -2840,7 +2857,7 @@
                 "type": "color"
               },
               "value": {
-                "value": "{sjs2.palette.gray.400}",
+                "value": "{sjs2.color.fg.basic.secondary}",
                 "type": "color"
               }
             },
@@ -2884,7 +2901,7 @@
                 "type": "color"
               },
               "value": {
-                "value": "{sjs2.palette.gray.400}",
+                "value": "{sjs2.color.fg.basic.secondary-disabled}",
                 "type": "color"
               }
             },
@@ -2921,7 +2938,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{sjs2.palette.gray.100}",
+              "value": "{sjs2.color.border.basic.secondary-disabled}",
               "type": "color"
             }
           },
@@ -2931,7 +2948,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{sjs2.palette.gray.250}",
+              "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
             }
           },

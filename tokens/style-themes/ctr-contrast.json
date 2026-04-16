@@ -2378,6 +2378,23 @@
                 "value": "{sjs2.color.fg.static-1.primary}",
                 "type": "color"
               }
+            },
+            "invalid": {
+              "bg": {
+                "value": "{sjs2.color.bg.alert.primary}",
+                "type": "color",
+                "description": "Checkbox & radiobutton background color, is checked: true, state: invalid."
+              },
+              "border": {
+                "value": "{sjs2.color.bg.alert.primary}",
+                "type": "color",
+                "description": "Checkbox & radiobutton border color, is checked: true, state: invalid."
+              },
+              "icon": {
+                "value": "{sjs2.color.fg.alert.on-primary}",
+                "type": "color",
+                "description": "Checkbox & radiobutton icon color, is checked: true, state: invalid."
+              }
             }
           }
         },
