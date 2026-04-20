@@ -10,10 +10,10 @@
     "radius-themes/default",
     "radius-themes/sharp",
     "typography-themes/default",
-    "style-themes/ctr-light",
-    "style-themes/lbr-light",
-    "style-themes/ctr-dark",
-    "style-themes/ctr-contrast",
+    "style-themes/default-light",
+    "style-themes/default-dark",
+    "style-themes/soft-light",
+    "style-themes/contrast-light",
     "style-themes/monochrome-light"
   ]
 }
