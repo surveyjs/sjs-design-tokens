@@ -597,11 +597,11 @@
             "type": "color"
           },
           "secondary-overlay": {
-            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x020})",
+            "value": "rgba( {sjs2.color.border.basic.primary}, {sjs2.opacity.x020})",
             "type": "color"
           },
           "secondary-disabled": {
-            "value": "{sjs2.palette.gray.750}",
+            "value": "{sjs2.palette.gray.800}",
             "type": "color"
           }
         },

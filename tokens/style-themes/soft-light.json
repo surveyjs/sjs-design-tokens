@@ -612,7 +612,7 @@
             "type": "color"
           },
           "secondary-overlay": {
-            "value": "rgba({sjs2.palette.gray.900}, {sjs2.opacity.x040})",
+            "value": "rgba({sjs2.color.border.basic.primary}, {sjs2.opacity.x040})",
             "type": "color"
           },
           "secondary-disabled": {
@@ -871,7 +871,7 @@
           },
           "border": {
             "line": {
-              "value": "#DCDCDC",
+              "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
             },
             "axis": {
