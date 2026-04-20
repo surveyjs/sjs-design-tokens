@@ -32,6 +32,20 @@
                 }
               }
             }
+          },
+          "800": {
+            "value": "{sjs2.color.project.brand.600}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0.25",
+                  "space": "hsl"
+                }
+              }
+            },
+            "description": "Auto-generated dark version of main brand color."
           }
         }
       },
@@ -443,37 +457,37 @@
             "type": "color"
           },
           "primary-muted": {
-            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x085} )",
+            "value": "{sjs2.color.fg.basic.primary}",
             "type": "color"
           },
           "secondary": {
-            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x060} )",
+            "value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x060} )",
             "type": "color"
           },
           "tertiary": {
-            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x040} )",
+            "value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x040} )",
             "type": "color"
           },
           "primary-disabled": {
-            "value": "{sjs2.palette.gray.600}",
+            "value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x025} )",
             "type": "color"
           },
           "secondary-disabled": {
-            "value": "{sjs2.palette.gray.600}",
+            "value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x025} )",
             "type": "color"
           },
           "tertiary-disabled": {
-            "value": "{sjs2.palette.gray.600}",
+            "value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x025} )",
             "type": "color"
           }
         },
         "neutral": {
           "primary": {
-            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x085} )",
+            "value": "{sjs2.color.fg.basic.primary}",
             "type": "color"
           },
           "primary-muted": {
-            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x085} )",
+            "value": "{sjs2.color.fg.basic.primary-muted}",
             "type": "color"
           },
           "on-primary": {
@@ -481,7 +495,7 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "{sjs2.palette.gray.600}",
+            "value": "rgba( {sjs2.color.fg.neutral.primary}, {sjs2.opacity.x025} )",
             "type": "color"
           }
         },

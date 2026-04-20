@@ -982,7 +982,8 @@
       "sjs2.border-offset.y.surface.focused": "8513262dcb73eb738162bbf33cf152b09e2b13fa",
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
-      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
+      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
+      "sjs2.color.project.brand.800": "5a4de17b96b0427fbe3d3cf653e1c4fde8a62642"
     },
     "group": "style-themes"
   },
@@ -1003,6 +1004,7 @@
       "sjs2.color.project.brand.400": "60861424986f6df8a9654391fd1d00c30c99c151",
       "sjs2.color.project.brand.600": "df7d5b826627ecd4d3f2ed719769513f4d29da96",
       "sjs2.color.project.brand.700": "23dd790d5a15646a820863c47a8c5ecc685024b0",
+      "sjs2.color.project.brand.800": "5a4de17b96b0427fbe3d3cf653e1c4fde8a62642",
       "sjs2.color.utility.body": "f61130ec1ca32d4c0777952a0d142088aceae57a",
       "sjs2.color.utility.sheet": "a0e5ddd435abe43cce006e7455e2e8e545ea07b4",
       "sjs2.color.utility.a11y": "abe5a6661fe34262a659532fcea2a8352798425a",
@@ -1704,6 +1706,7 @@
       "sjs2.color.project.brand.400": "60861424986f6df8a9654391fd1d00c30c99c151",
       "sjs2.color.project.brand.600": "df7d5b826627ecd4d3f2ed719769513f4d29da96",
       "sjs2.color.project.brand.700": "23dd790d5a15646a820863c47a8c5ecc685024b0",
+      "sjs2.color.project.brand.800": "5a4de17b96b0427fbe3d3cf653e1c4fde8a62642",
       "sjs2.color.utility.body": "f61130ec1ca32d4c0777952a0d142088aceae57a",
       "sjs2.color.utility.sheet": "a0e5ddd435abe43cce006e7455e2e8e545ea07b4",
       "sjs2.color.utility.a11y": "abe5a6661fe34262a659532fcea2a8352798425a",
@@ -2406,6 +2409,7 @@
       "sjs2.color.project.brand.400": "60861424986f6df8a9654391fd1d00c30c99c151",
       "sjs2.color.project.brand.600": "df7d5b826627ecd4d3f2ed719769513f4d29da96",
       "sjs2.color.project.brand.700": "23dd790d5a15646a820863c47a8c5ecc685024b0",
+      "sjs2.color.project.brand.800": "5a4de17b96b0427fbe3d3cf653e1c4fde8a62642",
       "sjs2.color.utility.body": "f61130ec1ca32d4c0777952a0d142088aceae57a",
       "sjs2.color.utility.sheet": "a0e5ddd435abe43cce006e7455e2e8e545ea07b4",
       "sjs2.color.utility.a11y": "abe5a6661fe34262a659532fcea2a8352798425a",
@@ -3108,6 +3112,7 @@
       "sjs2.color.project.brand.400": "60861424986f6df8a9654391fd1d00c30c99c151",
       "sjs2.color.project.brand.600": "df7d5b826627ecd4d3f2ed719769513f4d29da96",
       "sjs2.color.project.brand.700": "23dd790d5a15646a820863c47a8c5ecc685024b0",
+      "sjs2.color.project.brand.800": "5a4de17b96b0427fbe3d3cf653e1c4fde8a62642",
       "sjs2.color.utility.body": "f61130ec1ca32d4c0777952a0d142088aceae57a",
       "sjs2.color.utility.sheet": "a0e5ddd435abe43cce006e7455e2e8e545ea07b4",
       "sjs2.color.utility.a11y": "abe5a6661fe34262a659532fcea2a8352798425a",

@@ -35,6 +35,20 @@
               }
             },
             "description": "Auto-generated dark version of main brand color."
+          },
+          "800": {
+            "value": "{sjs2.color.project.brand.600}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0.25",
+                  "space": "hsl"
+                }
+              }
+            },
+            "description": "Auto-generated dark version of main brand color."
           }
         }
       },
@@ -462,33 +476,33 @@
             "type": "color"
           },
           "secondary": {
-            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x060} )",
+            "value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x060} )",
             "type": "color"
           },
           "tertiary": {
-            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x040} )",
+            "value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x040} )",
             "type": "color"
           },
           "primary-disabled": {
-            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x020} )",
+            "value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x020} )",
             "type": "color"
           },
           "secondary-disabled": {
-            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x020} )",
+            "value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x020} )",
             "type": "color"
           },
           "tertiary-disabled": {
-            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x020} )",
+            "value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x020} )",
             "type": "color"
           }
         },
         "neutral": {
           "primary": {
-            "value": "{sjs2.palette.gray.900}",
+            "value": "{sjs2.color.fg.basic.primary}",
             "type": "color"
           },
           "primary-muted": {
-            "value": "{sjs2.palette.gray.700}",
+            "value": "{sjs2.color.fg.basic.primary-muted}",
             "type": "color"
           },
           "on-primary": {
@@ -496,7 +510,7 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "rgba( {sjs2.palette.gray.900}, {sjs2.opacity.x020} )",
+            "value": "rgba( {sjs2.color.fg.neutral.primary}, {sjs2.opacity.x020} )",
             "type": "color"
           }
         },
@@ -506,7 +520,7 @@
             "type": "color"
           },
           "primary-dim": {
-            "value": "{sjs2.color.project.brand.700}",
+            "value": "{sjs2.color.project.brand.800}",
             "type": "color"
           },
           "on-primary": {
