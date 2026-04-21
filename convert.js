@@ -14,7 +14,7 @@ const THEME_CONFIG = [
       "size-themes/default",
       "radius-themes/default",
       "typography-themes/default",
-      "style-themes/lbr-light"
+      "style-themes/soft-light"
     ],
     patch: {
       "--sjs2-base-unit-radius": "4px",
@@ -73,7 +73,7 @@ const THEME_CONFIG = [
       "size-themes/default",
       "radius-themes/default",
       "typography-themes/default",
-      "style-themes/lbr-light"
+      "style-themes/soft-light"
     ],
     products: ["survey-library"]
   },
@@ -89,7 +89,7 @@ const THEME_CONFIG = [
       "size-themes/default",
       "radius-themes/default",
       "typography-themes/default",
-      "style-themes/ctr-light"
+      "style-themes/default-light"
     ],
     patch: {
       "--sjs2-radius-component-formbox": "var(--sjs2-radius-x075)",
@@ -128,7 +128,7 @@ const THEME_CONFIG = [
       "size-themes/default",
       "radius-themes/default",
       "typography-themes/default",
-      "style-themes/ctr-light"
+      "style-themes/default-light"
     ],
     products: ["survey-creator"]
   },
@@ -144,7 +144,7 @@ const THEME_CONFIG = [
       "size-themes/default",
       "radius-themes/default",
       "typography-themes/default",
-      "style-themes/ctr-dark"
+      "style-themes/default-dark"
     ],
     products: ["survey-creator"]
   },
@@ -160,7 +160,7 @@ const THEME_CONFIG = [
       "size-themes/default",
       "radius-themes/default",
       "typography-themes/default",
-      "style-themes/ctr-contrast"
+      "style-themes/contrast-light"
     ],
     products: ["survey-creator"]
   },
