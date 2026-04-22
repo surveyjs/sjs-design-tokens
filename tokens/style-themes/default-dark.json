@@ -2446,7 +2446,7 @@
             }
           }
         },
-        "track": {
+        "slider": {
           "default": {
             "bg": {
               "value": "{sjs2.color.bg.basic.secondary}",
@@ -3151,15 +3151,15 @@
       },
       "surface": {
         "default": {
-          "value": 0,
+          "value": "0",
           "type": "number"
         },
         "hovered": {
-          "value": 0,
+          "value": "0",
           "type": "number"
         },
         "pressed": {
-          "value": 0,
+          "value": "0",
           "type": "number"
         },
         "focused": {
@@ -3171,7 +3171,7 @@
           "type": "number"
         },
         "dragging": {
-          "value": 0,
+          "value": "0",
           "type": "number"
         }
       },
@@ -3356,15 +3356,15 @@
         },
         "surface": {
           "default": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "hovered": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "pressed": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           },
           "focused": {
@@ -3376,7 +3376,7 @@
             "type": "number"
           },
           "dragging": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           }
         },

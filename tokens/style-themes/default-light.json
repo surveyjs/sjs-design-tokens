@@ -2512,7 +2512,7 @@
             }
           }
         },
-        "track": {
+        "slider": {
           "default": {
             "bg": {
               "value": "{sjs2.color.bg.basic.secondary}",
