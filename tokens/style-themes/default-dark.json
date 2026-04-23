@@ -2463,10 +2463,6 @@
             "dot": {
               "value": "{sjs2.color.fg.brand.primary}",
               "type": "color"
-            },
-            "thumb-border": {
-              "value": "{sjs2.color.border.basic.secondary}",
-              "type": "color"
             }
           },
           "disabled": {
@@ -2484,10 +2480,6 @@
             },
             "dot": {
               "value": "{sjs2.color.fg.basic.primary-disabled}",
-              "type": "color"
-            },
-            "thumb-border": {
-              "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
             }
           },
@@ -2507,13 +2499,9 @@
             "dot": {
               "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
-            },
-            "thumb-border": {
-              "value": "{sjs2.color.border.basic.secondary}",
-              "type": "color"
             }
           },
-          "focused": {
+          "hovered": {
             "bg": {
               "value": "{sjs2.color.bg.basic.secondary}",
               "type": "color"
@@ -2528,10 +2516,6 @@
             },
             "dot": {
               "value": "{sjs2.color.fg.brand.primary}",
-              "type": "color"
-            },
-            "thumb-border": {
-              "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
             }
           },
@@ -2551,10 +2535,6 @@
             "dot": {
               "value": "{sjs2.color.fg.alert.primary}",
               "type": "color"
-            },
-            "thumb-border": {
-              "value": "{sjs2.color.border.basic.secondary}",
-              "type": "color"
             }
           },
           "design": {
@@ -2573,9 +2553,23 @@
             "dot": {
               "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
+            }
+          },
+          "preview": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.secondary}",
+              "type": "color"
             },
-            "thumb-border": {
-              "value": "{sjs2.color.border.basic.secondary}",
+            "fg": {
+              "value": "{sjs2.color.bg.neutral.primary}",
+              "type": "color"
+            },
+            "thumb": {
+              "value": "{sjs2.color.bg.neutral.primary}",
+              "type": "color"
+            },
+            "dot": {
+              "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
             }
           }
