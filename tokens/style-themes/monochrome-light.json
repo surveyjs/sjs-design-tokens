@@ -3151,7 +3151,7 @@
           "type": "number"
         },
         "invalid": {
-          "value": 0,
+          "value": "0",
           "type": "number"
         }
       },
@@ -3258,7 +3258,7 @@
             "type": "number"
           },
           "invalid": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           }
         },
@@ -3364,7 +3364,7 @@
             "type": "number"
           },
           "invalid": {
-            "value": 0,
+            "value": "0",
             "type": "number"
           }
         },
