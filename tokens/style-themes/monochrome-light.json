@@ -157,6 +157,10 @@
             "readonly": {
               "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
+            },
+            "invalid": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
             }
           },
           "surface": {
@@ -3039,6 +3043,10 @@
         "readonly": {
           "value": "{sjs2.border-width.x100}",
           "type": "number"
+        },
+        "invalid": {
+          "value": "{sjs2.border-width.x100}",
+          "type": "number"
         }
       },
       "surface": {
@@ -3140,6 +3148,10 @@
         },
         "readonly": {
           "value": "0",
+          "type": "number"
+        },
+        "invalid": {
+          "value": 0,
           "type": "number"
         }
       },
@@ -3244,6 +3256,10 @@
           "readonly": {
             "value": "0",
             "type": "number"
+          },
+          "invalid": {
+            "value": 0,
+            "type": "number"
           }
         },
         "surface": {
@@ -3345,6 +3361,10 @@
           },
           "readonly": {
             "value": "0",
+            "type": "number"
+          },
+          "invalid": {
+            "value": 0,
             "type": "number"
           }
         },
@@ -4256,6 +4276,27 @@
               "blur": "{sjs2.border-blur.trigger.readonly}",
               "spread": "{sjs2.border-spread.trigger.readonly}",
               "color": "{sjs2.color.utility.shadow.trigger.readonly}",
+              "type": "dropShadow"
+            },
+            {
+              "x": "0",
+              "y": "0",
+              "blur": "0",
+              "spread": "0",
+              "color": "rgba(0,0,0,0)",
+              "type": "dropShadow"
+            }
+          ],
+          "type": "boxShadow"
+        },
+        "invalid": {
+          "value": [
+            {
+              "x": "{sjs2.border-offset.x.trigger.invalid}",
+              "y": "{sjs2.border-offset.y.trigger.invalid}",
+              "blur": "{sjs2.border-blur.trigger.invalid}",
+              "spread": "{sjs2.border-spread.trigger.invalid}",
+              "color": "{sjs2.color.utility.shadow.trigger.invalid}",
               "type": "dropShadow"
             },
             {
