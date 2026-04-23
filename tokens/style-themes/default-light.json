@@ -2559,7 +2559,7 @@
               "type": "color"
             },
             "fg": {
-              "value": "{sjs2.color.fg.neutral.primary}",
+              "value": "{sjs2.color.bg.neutral.primary}",
               "type": "color"
             },
             "thumb": {
@@ -2567,7 +2567,7 @@
               "type": "color"
             },
             "dot": {
-              "value": "{sjs2.color.bg.basic.primary}",
+              "value": "{sjs2.color.bg.neutral.primary}",
               "type": "color"
             }
           },
