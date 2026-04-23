@@ -155,7 +155,7 @@
               "type": "color"
             },
             "disabled": {
-              "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x010} )",
+              "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x005} )",
               "type": "color"
             },
             "design": {
@@ -163,7 +163,7 @@
               "type": "color"
             },
             "readonly": {
-              "value": "{sjs2.color.border.basic.secondary}",
+              "value": "{sjs2.color.border.basic.primary}",
               "type": "color"
             },
             "invalid": {
