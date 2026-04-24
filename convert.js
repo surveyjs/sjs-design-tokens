@@ -82,6 +82,15 @@ const THEME_CONFIG = [
       "--sjs2-border-effect-component-boolean-highlighted": "inset 0px 0px 0px var(--sjs2-border-width-x200) var(--sjs2-color-component-boolean-highlighted-border)",
       "--sjs2-border-effect-component-boolean-readonly": "inset 0px 0px 0px var(--sjs2-border-width-x100) var(--sjs2-color-component-boolean-readonly-border)",
       "--sjs2-border-effect-component-boolean-design": "inset 0px 1px 2px 0px var(--sjs2-color-component-boolean-design-border)",
+
+      "--sjs2-border-effect-component-boolean-item-false-default": "0px 0px 0px 0px var(--sjs2-color-component-boolean-item-false-default-border)",
+      "--sjs2-border-effect-component-boolean-item-false-disabled": "0px 0px 0px 0px var(--sjs2-color-component-boolean-item-false-disabled-border)",
+      "--sjs2-border-effect-component-boolean-item-false-readonly": "0px 0px 0px 0px var(--sjs2-color-component-boolean-item-false-readonly-border)",
+      "--sjs2-border-effect-component-boolean-item-false-hovered": "0px 0px 0px 0px var(--sjs2-color-component-boolean-item-false-hovered-border)",
+
+      "--sjs2-border-effect-component-boolean-item-true-default": "0px 1px 2px 0px var(--sjs2-color-component-boolean-item-true-default-border)",
+      "--sjs2-border-effect-component-boolean-item-true-disabled": "inset 0px 0px 0px var(--sjs2-border-width-x200) var(--sjs2-color-component-boolean-item-true-disabled-border)",
+      "--sjs2-border-effect-component-boolean-item-true-readonly": "inset 0px 0px 0px var(--sjs2-border-width-x200) var(--sjs2-color-component-boolean-item-true-readonly-border)",
     },
     products: ["survey-library"]
   },
