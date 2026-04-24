@@ -87,15 +87,11 @@
           "value": "{sjs2.radius.round}",
           "type": "borderRadius"
         },
-        "track": {
+        "slider": {
           "value": "{sjs2.radius.round}",
           "type": "borderRadius"
         },
-        "track-item": {
-          "value": "{sjs2.radius.round}",
-          "type": "borderRadius"
-        },
-        "track-thumb": {
+        "slider-thumb": {
           "value": "{sjs2.radius.round}",
           "type": "borderRadius"
         },
