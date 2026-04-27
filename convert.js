@@ -82,8 +82,24 @@ const THEME_CONFIG = [
       "--sjs2-color-component-boolean-invalid-bg": "rgba(230, 10, 62, .1)",
       "--sjs2-border-effect-component-check-false-invalid": "inset 0 1px 2px 0 rgba(0, 0, 0, 0.15)",
       "--sjs2-border-effect-component-boolean-invalid": "inset 0 1px 2px 0 rgba(0, 0, 0, 0.15)"
-    },
-    products: ["survey-library"]
+    }
+  },
+  {
+    objectName: "SoftLight",
+    themeName: "soft-light",
+    fileName: "soft-light",
+    iconSet: "v2",
+    isLight: true,
+    tokenPaths: [
+      "base-unit",
+      "common",
+      "palette",
+      "size-themes/default",
+      "radius-themes/default",
+      "typography-themes/default",
+      "style-themes/soft-light"
+    ],
+    patch: {...booleanPatch},
   },
   {
     objectName: "DefaultLight",
@@ -98,14 +114,65 @@ const THEME_CONFIG = [
       "size-themes/default",
       "radius-themes/default",
       "typography-themes/default",
-      "style-themes/soft-light"
+      "style-themes/default-light"
     ],
     patch: {...booleanPatch},
-    products: ["survey-library"]
   },
   {
-    objectName: "Test",
-    themeName: "test",
+    objectName: "DefaultDark",
+    themeName: "default",
+    fileName: "default-dark",
+    iconSet: "v2",
+    isLight: false,
+    tokenPaths: [
+      "base-unit",
+      "common",
+      "palette",
+      "size-themes/default",
+      "radius-themes/default",
+      "typography-themes/default",
+      "style-themes/default-dark"
+    ],
+    patch: {...booleanPatch},
+    
+  },
+  {
+    objectName: "ContrastLight",
+    themeName: "default",
+    fileName: "contrast-light",
+    iconSet: "v2",
+    isLight: true,
+    tokenPaths: [
+      "base-unit",
+      "common",
+      "palette",
+      "size-themes/default",
+      "radius-themes/default",
+      "typography-themes/default",
+      "style-themes/contrast-light"
+    ],
+    patch: {...booleanPatch},
+  },
+  {
+    objectName: "MonochromeLight",
+    themeName: "monochrome-light",
+    fileName: "monochrome-light",
+    iconSet: "v2",
+    isLight: true,
+    tokenPaths: [
+      "base-unit",
+      "common",
+      "palette",
+      "size-themes/default",
+      "radius-themes/default",
+      "typography-themes/default",
+      "style-themes/monochrome-light"
+    ],
+    patch: {...booleanPatch},
+  },
+  {
+    objectName: "TestCreator",
+    themeName: "test-creator",
     iconSet: "v2",
     isLight: true,
     tokenPaths: [
@@ -142,106 +209,8 @@ const THEME_CONFIG = [
       "--sjs2-radius-component-modal": "16px",
       "--sjs2-color-component-toggle-false-default-thumb": "#000000BF",
       "--sjs2-color-component-toggle-false-hovered-thumb": "#000000BF",
-    },
-    products: ["survey-creator"]
-  },
-  {
-    objectName: "DefaultLight",
-    themeName: "default-light",
-    iconSet: "v2",
-    isLight: true,
-    tokenPaths: [
-      "base-unit",
-      "common",
-      "palette",
-      "size-themes/default",
-      "radius-themes/default",
-      "typography-themes/default",
-      "style-themes/default-light"
-    ],
-    products: ["survey-creator"]
-  },
-  {
-    objectName: "DefaultDark",
-    themeName: "default-dark",
-    iconSet: "v2",
-    isLight: false,
-    tokenPaths: [
-      "base-unit",
-      "common",
-      "palette",
-      "size-themes/default",
-      "radius-themes/default",
-      "typography-themes/default",
-      "style-themes/default-dark"
-    ],
-    products: ["survey-creator"]
-  },
-  {
-    objectName: "contrastTheme",
-    themeName: "default-contrast",
-    iconSet: "v2",
-    isLight: true,
-    tokenPaths: [
-      "base-unit",
-      "common",
-      "palette",
-      "size-themes/default",
-      "radius-themes/default",
-      "typography-themes/default",
-      "style-themes/contrast-light"
-    ],
-    products: ["survey-creator"]
-  },
-  {
-    objectName: "SC2020",
-    themeName: "sc2020",
-    iconSet: "v1",
-    isLight: true,
-    tokenPaths: [
-      "base-unit",
-      "common",
-      "palette",
-      "radius-themes/sharp",
-      "typography-themes/default",
-      "style-themes/ctr-2020"
-    ],
-    products: ["survey-creator"]
-  },
-  {
-    objectName: "DefaultLight",
-    themeName: "default-light",
-    iconSet: "v2",
-    isLight: true,
-    tokenPaths: [ 
-      "base-unit",
-      "common",
-      "palette",
-      "size-themes/default",
-      "radius-themes/default",
-      "typography-themes/default",
-      "pdf-layout-themes/compact",
-      "style-themes/pdf-light"
-    ],
-    products: ["survey-pdf"]
-  },
-  {
-    objectName: "SpaciousLight",
-    themeName: "spacious-light",
-    iconSet: "v2",
-    isLight: true,
-    tokenPaths: [ 
-      "base-unit",
-      "common",
-      "palette",
-      "size-themes/default",
-      "radius-themes/default",
-      "typography-themes/default",
-      "pdf-layout-themes/spacious",
-      "style-themes/pdf-light"
-    ],
-    products: ["survey-pdf"]
-  },
+    }
+  }
 ];
 
 // Cache for storing all tokens
@@ -676,16 +645,24 @@ function createTypeScriptFiles() {
   // Load all tokens into cache
   allTokensCache = loadAllTokens();
 
-  function isBaseThemeConfig(themeConfig) {
-    // Base theme is the one user selected in convert.js (lines ~127-142):
-    // { objectName: "DefaultLight", themeName: "default-light", products: ["survey-creator"], tokenPaths include "style-themes/default-light" }
-    return themeConfig &&
-      themeConfig.objectName === "DefaultLight" &&
-      themeConfig.themeName === "default-light" &&
-      Array.isArray(themeConfig.products) &&
-      themeConfig.products.includes("survey-creator") &&
-      Array.isArray(themeConfig.tokenPaths) &&
-      themeConfig.tokenPaths.includes("style-themes/default-light");
+  function getBaseThemeConfig() {
+    // One common base for all themes so they stay compatible.
+    // Prefer DefaultLight + style-themes/default-light.
+    const candidates = THEME_CONFIG.filter(cfg =>
+      cfg &&
+      cfg.objectName === "DefaultLight" &&
+      cfg.isLight === true &&
+      Array.isArray(cfg.tokenPaths) &&
+      cfg.tokenPaths.includes("style-themes/default-light")
+    );
+
+    const byFileName = candidates.find(c => c.fileName === "default-light");
+    if (byFileName) return byFileName;
+
+    const byThemeName = candidates.find(c => c.themeName === "default-light" || c.themeName === "default");
+    if (byThemeName) return byThemeName;
+
+    return candidates[0] || THEME_CONFIG[0];
   }
 
   function buildThemeCssVariables(themeConfig) {
@@ -753,10 +730,23 @@ function createTypeScriptFiles() {
     return addPxToSizeValues(patchedCssVariables);
   }
 
-  function toRootCss(cssVariables) {
+  function chunkArray(items, chunkSize) {
+    if (!Array.isArray(items)) return [];
+    if (!Number.isFinite(chunkSize) || chunkSize <= 0) return [items];
+    const chunks = [];
+    for (let i = 0; i < items.length; i += chunkSize) {
+      chunks.push(items.slice(i, i + chunkSize));
+    }
+    return chunks;
+  }
+
+  function toRootScss(cssVariables, { selector = '.sd-theme-root', chunkSize = 50 } = {}) {
     const keys = Object.keys(cssVariables).sort();
-    const lines = keys.map(k => `  ${k}: ${cssVariables[k]};`);
-    return `:root {\n${lines.join('\n')}\n}\n`;
+    const blocks = chunkArray(keys, chunkSize).map((chunkKeys) => {
+      const lines = chunkKeys.map(k => `  ${k}: ${cssVariables[k]};`);
+      return `${selector} {\n${lines.join('\n')}\n}\n`;
+    });
+    return blocks.join('\n');
   }
 
   function diffCssVariables(themeCssVariables, baseCssVariables) {
@@ -769,55 +759,50 @@ function createTypeScriptFiles() {
     return diff;
   }
 
-  // Compute base theme first (used for diff generation of all other themes)
-  const baseThemeConfig = THEME_CONFIG.find(isBaseThemeConfig);
+  // Compute base theme once (used for diff generation of all themes)
+  const baseThemeConfig = getBaseThemeConfig();
   if (!baseThemeConfig) {
-    throw new Error('Base theme config not found (DefaultLight default-light for survey-creator).');
+    throw new Error('Base theme config not found.');
   }
   const baseCssVariables = buildThemeCssVariables(baseThemeConfig);
 
-  // Write base theme CSS file into build/
-  const baseCssPath = path.join(buildDir, `${baseThemeConfig.themeName}.css`);
-  fs.writeFileSync(baseCssPath, toRootCss(baseCssVariables));
-  console.log(`Created CSS file: ${baseCssPath}`);
+  // Write base theme SCSS file into build/ (chunked to avoid huge selectors)
+  const baseForScssVars = baseCssVariables;
+  const baseScssPath = path.join(buildDir, "base-theme.scss");
+  fs.writeFileSync(baseScssPath, toRootScss(baseForScssVars, { selector: '.sd-theme-root', chunkSize: 50 }));
+  console.log(`Created SCSS file: ${baseScssPath}`);
   
   // Process each theme configuration
   for (const themeConfig of THEME_CONFIG) {
-    const { objectName, themeName, tokenPaths, products } = themeConfig;
+    const { objectName, themeName, tokenPaths } = themeConfig;
     
     try {
       const themeCssVariables = buildThemeCssVariables(themeConfig);
-      const finalCssVariables = isBaseThemeConfig(themeConfig)
-        ? themeCssVariables
-        : diffCssVariables(themeCssVariables, baseCssVariables);
-      
 
-      // Create output object
+      const isBase = themeConfig === baseThemeConfig;
+      const finalCssVariables = isBase ? {} : diffCssVariables(themeCssVariables, baseCssVariables);
+
       const outputObject = {
         themeName: themeName,
         iconSet: themeConfig.iconSet,
         isLight: themeConfig.isLight,
         cssVariables: finalCssVariables
       };
-      
-      // Generate TypeScript content with embedded data
+
       const tsContent = `// Auto-generated theme: ${themeName}
 export default ${JSON.stringify(outputObject, null, 2)};
 `;
-      
-      // Save to file in each product subdirectory with theme name
-      for (const product of products) {
-        const productDir = path.join(buildDir, product);
-        if (!fs.existsSync(productDir)) {
-          fs.mkdirSync(productDir, { recursive: true });
-        }
-        
-        const outputFileName = (themeConfig.fileName !== undefined ? themeConfig.fileName : themeName) + '.ts';
-        const outputPath = path.join(productDir, outputFileName);
-        fs.writeFileSync(outputPath, tsContent);
-        
-        console.log(`Created TypeScript file: ${outputPath}`);
+
+      const themesDir = path.join(buildDir, "themes");
+      if (!fs.existsSync(themesDir)) {
+        fs.mkdirSync(themesDir, { recursive: true });
       }
+
+      const outputFileName = (themeConfig.fileName !== undefined ? themeConfig.fileName : themeName) + '.ts';
+      const outputPath = path.join(themesDir, outputFileName);
+      fs.writeFileSync(outputPath, tsContent);
+
+      console.log(`Created TypeScript file: ${outputPath}`);
       
     } catch (error) {
       console.error(`Error processing theme ${themeName}:`, error.message);
