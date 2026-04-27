@@ -675,72 +675,121 @@ function createTypeScriptFiles() {
   
   // Load all tokens into cache
   allTokensCache = loadAllTokens();
+
+  function isBaseThemeConfig(themeConfig) {
+    // Base theme is the one user selected in convert.js (lines ~127-142):
+    // { objectName: "DefaultLight", themeName: "default-light", products: ["survey-creator"], tokenPaths include "style-themes/default-light" }
+    return themeConfig &&
+      themeConfig.objectName === "DefaultLight" &&
+      themeConfig.themeName === "default-light" &&
+      Array.isArray(themeConfig.products) &&
+      themeConfig.products.includes("survey-creator") &&
+      Array.isArray(themeConfig.tokenPaths) &&
+      themeConfig.tokenPaths.includes("style-themes/default-light");
+  }
+
+  function buildThemeCssVariables(themeConfig) {
+    const { tokenPaths } = themeConfig;
+
+    // Collect all tokens for this theme
+    const allThemeTokens = {};
+
+    for (const tokenPath of tokenPaths) {
+      const tokenFilePath = path.join(tokensDir, `${tokenPath}.json`);
+
+      if (!fs.existsSync(tokenFilePath)) {
+        console.warn(`Token file not found: ${tokenFilePath}`);
+        continue;
+      }
+
+      const tokenData = JSON.parse(fs.readFileSync(tokenFilePath, 'utf8'));
+      const flattenedTokens = flattenTokens(tokenData);
+
+      // Merge tokens into theme collection
+      Object.assign(allThemeTokens, flattenedTokens);
+    }
+
+    // Make flattened tokens available for shadow component resolution
+    currentThemeFlatTokens = allThemeTokens;
+
+    // Convert tokens to CSS variables
+    const cssVariables = {};
+    for (const [tokenName, tokenData] of Object.entries(allThemeTokens)) {
+      const cssVarName = tokenToCSSVariable(tokenName);
+      if (tokenData.value !== undefined && typeof tokenData.value === "string") {
+        // Check for color modifications first
+        let processedValue = processColorModifications(tokenData);
+
+        // If no modifications were applied, use the original value
+        if (processedValue === tokenData.value) {
+          processedValue = evaluateTokenValue(tokenData.value, tokenData.type);
+        }
+
+        cssVariables[cssVarName] = processedValue;
+      } else if (tokenData.value !== undefined && Array.isArray(tokenData.value)) {
+        // Array of shadows (boxShadow) -> single CSS box-shadow value
+        cssVariables[cssVarName] = evaluateTokenValue(tokenData.value, tokenData.type);
+      }
+    }
+
+    // Remove shadow component variables (their values are inlined into border-effect)
+    for (const key of Object.keys(cssVariables)) {
+      if (isShadowComponentCSSVar(key)) {
+        delete cssVariables[key];
+      }
+    }
+
+    // Filter complex objects
+    const filteredCssVariables = filterComplexTokens(cssVariables);
+
+    // Add "px" to numeric size values
+    const sizeProcessedCssVariables = addPxToSizeValues(filteredCssVariables);
+
+    // patch variables
+    const patch = themeConfig.patch || {};
+    const patchedCssVariables = { ...sizeProcessedCssVariables, ...patch };
+
+    // Add "px" to numeric size values in patched variables as well
+    return addPxToSizeValues(patchedCssVariables);
+  }
+
+  function toRootCss(cssVariables) {
+    const keys = Object.keys(cssVariables).sort();
+    const lines = keys.map(k => `  ${k}: ${cssVariables[k]};`);
+    return `:root {\n${lines.join('\n')}\n}\n`;
+  }
+
+  function diffCssVariables(themeCssVariables, baseCssVariables) {
+    const diff = {};
+    for (const [key, value] of Object.entries(themeCssVariables)) {
+      if (!(key in baseCssVariables) || baseCssVariables[key] !== value) {
+        diff[key] = value;
+      }
+    }
+    return diff;
+  }
+
+  // Compute base theme first (used for diff generation of all other themes)
+  const baseThemeConfig = THEME_CONFIG.find(isBaseThemeConfig);
+  if (!baseThemeConfig) {
+    throw new Error('Base theme config not found (DefaultLight default-light for survey-creator).');
+  }
+  const baseCssVariables = buildThemeCssVariables(baseThemeConfig);
+
+  // Write base theme CSS file into build/
+  const baseCssPath = path.join(buildDir, `${baseThemeConfig.themeName}.css`);
+  fs.writeFileSync(baseCssPath, toRootCss(baseCssVariables));
+  console.log(`Created CSS file: ${baseCssPath}`);
   
   // Process each theme configuration
   for (const themeConfig of THEME_CONFIG) {
     const { objectName, themeName, tokenPaths, products } = themeConfig;
     
     try {
-      // Collect all tokens for this theme
-      const allThemeTokens = {};
-      
-      for (const tokenPath of tokenPaths) {
-        const tokenFilePath = path.join(tokensDir, `${tokenPath}.json`);
-        
-        if (!fs.existsSync(tokenFilePath)) {
-          console.warn(`Token file not found: ${tokenFilePath}`);
-          continue;
-        }
-        
-        const tokenData = JSON.parse(fs.readFileSync(tokenFilePath, 'utf8'));
-        const flattenedTokens = flattenTokens(tokenData);
-        
-        // Merge tokens into theme collection
-        Object.assign(allThemeTokens, flattenedTokens);
-      }
-      
-      // Make flattened tokens available for shadow component resolution
-      currentThemeFlatTokens = allThemeTokens;
-      
-      // Convert tokens to CSS variables
-      const cssVariables = {};
-      for (const [tokenName, tokenData] of Object.entries(allThemeTokens)) {
-        const cssVarName = tokenToCSSVariable(tokenName);
-        if (tokenData.value !== undefined && typeof tokenData.value === "string") {
-          // Check for color modifications first
-          let processedValue = processColorModifications(tokenData);
-          
-          // If no modifications were applied, use the original value
-          if (processedValue === tokenData.value) {
-            processedValue = evaluateTokenValue(tokenData.value, tokenData.type);
-          }
-          
-          cssVariables[cssVarName] = processedValue;
-        } else if (tokenData.value !== undefined && Array.isArray(tokenData.value)) {
-          // Array of shadows (boxShadow) -> single CSS box-shadow value
-          cssVariables[cssVarName] = evaluateTokenValue(tokenData.value, tokenData.type);
-        }
-      }
-      
-      // Remove shadow component variables (their values are inlined into border-effect)
-      for (const key of Object.keys(cssVariables)) {
-        if (isShadowComponentCSSVar(key)) {
-          delete cssVariables[key];
-        }
-      }
-      
-      // Filter complex objects
-      const filteredCssVariables = filterComplexTokens(cssVariables);
-      
-      // Add "px" to numeric size values
-      const sizeProcessedCssVariables = addPxToSizeValues(filteredCssVariables);
-      
-      // patch variables
-      const patch = themeConfig.patch || {};
-      const patchedCssVariables = {...sizeProcessedCssVariables, ...patch};
-      
-      // Add "px" to numeric size values in patched variables as well
-      const finalCssVariables = addPxToSizeValues(patchedCssVariables);
+      const themeCssVariables = buildThemeCssVariables(themeConfig);
+      const finalCssVariables = isBaseThemeConfig(themeConfig)
+        ? themeCssVariables
+        : diffCssVariables(themeCssVariables, baseCssVariables);
       
 
       // Create output object
