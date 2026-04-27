@@ -130,6 +130,7 @@ const THEME_CONFIG = [
       "--sjs2-color-component-buttongroup-item-false-default-value": "rgb(28, 27, 32)",
       "--sjs2-color-component-formbox-action-default-icon": "rgb(66, 65, 70)",
       "--sjs2-color-component-formbox-action-pressed-icon": "rgba(66, 65, 70, 0.5)",
+      "--sjs2-radius-component-modal": "16px",
     },
     products: ["survey-creator"]
   },
