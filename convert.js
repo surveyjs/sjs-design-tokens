@@ -20,7 +20,45 @@ const booleanPatch = {
   "--sjs2-border-effect-component-boolean-item-true-readonly": "inset 0px 0px 0px var(--sjs2-border-width-x200) var(--sjs2-color-component-boolean-item-true-readonly-border)",
 }
 
-const THEME_CONFIG = [
+const THEME_CONFIG = [];
+
+const styleThemes = ["default", "soft", "contrast", "monochrome"];
+const palletes = ["light", "dark"];
+
+for (const theme of styleThemes) {
+  for (const pallete of palletes) {
+    const fileName = `${theme}-${pallete}`;
+    const styleTokenPath = `style-themes/${fileName}`;
+    const styleTokenFilePath = path.join(__dirname, 'tokens', `${styleTokenPath}.json`);
+    if (!fs.existsSync(styleTokenFilePath)) {
+      // Style theme tokens are required for generating the theme.
+      // If missing, skip creating this theme altogether.
+      continue;
+    }
+    const defaultConfig = {
+      themeName: theme,
+      fileName: fileName,
+      isLight: pallete === "light",
+      colorPalette: pallete,
+      tokenPaths: 
+      [
+        "base-unit", 
+        "common", 
+        "palette", 
+        "size-themes/default", 
+        "radius-themes/default", 
+        "typography-themes/default",
+        styleTokenPath
+      ],
+      patch: {...booleanPatch},
+    };
+    
+    THEME_CONFIG.push(defaultConfig);
+    THEME_CONFIG.push({...defaultConfig, fileName: `${fileName}-panelless`, isPanelless: true});
+  }
+}
+
+THEME_CONFIG.push(...[
   {
     objectName: "Test",
     themeName: "test",
@@ -85,92 +123,6 @@ const THEME_CONFIG = [
     }
   },
   {
-    objectName: "SoftLight",
-    themeName: "soft-light",
-    fileName: "soft-light",
-    iconSet: "v2",
-    isLight: true,
-    tokenPaths: [
-      "base-unit",
-      "common",
-      "palette",
-      "size-themes/default",
-      "radius-themes/default",
-      "typography-themes/default",
-      "style-themes/soft-light"
-    ],
-    patch: {...booleanPatch},
-  },
-  {
-    objectName: "DefaultLight",
-    themeName: "default",
-    fileName: "default-light",
-    iconSet: "v2",
-    isLight: true,
-    tokenPaths: [
-      "base-unit",
-      "common",
-      "palette",
-      "size-themes/default",
-      "radius-themes/default",
-      "typography-themes/default",
-      "style-themes/default-light"
-    ],
-    patch: {...booleanPatch},
-  },
-  {
-    objectName: "DefaultDark",
-    themeName: "default",
-    fileName: "default-dark",
-    iconSet: "v2",
-    isLight: false,
-    tokenPaths: [
-      "base-unit",
-      "common",
-      "palette",
-      "size-themes/default",
-      "radius-themes/default",
-      "typography-themes/default",
-      "style-themes/default-dark"
-    ],
-    patch: {...booleanPatch},
-    
-  },
-  {
-    objectName: "ContrastLight",
-    themeName: "default",
-    fileName: "contrast-light",
-    iconSet: "v2",
-    isLight: true,
-    tokenPaths: [
-      "base-unit",
-      "common",
-      "palette",
-      "size-themes/default",
-      "radius-themes/default",
-      "typography-themes/default",
-      "style-themes/contrast-light"
-    ],
-    patch: {...booleanPatch},
-  },
-  {
-    objectName: "MonochromeLight",
-    themeName: "monochrome-light",
-    fileName: "monochrome-light",
-    iconSet: "v2",
-    isLight: true,
-    tokenPaths: [
-      "base-unit",
-      "common",
-      "palette",
-      "size-themes/default",
-      "radius-themes/default",
-      "typography-themes/default",
-      "style-themes/monochrome-light"
-    ],
-    patch: {...booleanPatch},
-  },
-  {
     objectName: "TestCreator",
     themeName: "test-creator",
     iconSet: "v2",
@@ -211,7 +163,7 @@ const THEME_CONFIG = [
       "--sjs2-color-component-toggle-false-hovered-thumb": "#000000BF",
     }
   }
-];
+]);
 
 // Cache for storing all tokens
 let allTokensCache = {};
@@ -648,21 +600,7 @@ function createTypeScriptFiles() {
   function getBaseThemeConfig() {
     // One common base for all themes so they stay compatible.
     // Prefer DefaultLight + style-themes/default-light.
-    const candidates = THEME_CONFIG.filter(cfg =>
-      cfg &&
-      cfg.objectName === "DefaultLight" &&
-      cfg.isLight === true &&
-      Array.isArray(cfg.tokenPaths) &&
-      cfg.tokenPaths.includes("style-themes/default-light")
-    );
-
-    const byFileName = candidates.find(c => c.fileName === "default-light");
-    if (byFileName) return byFileName;
-
-    const byThemeName = candidates.find(c => c.themeName === "default-light" || c.themeName === "default");
-    if (byThemeName) return byThemeName;
-
-    return candidates[0] || THEME_CONFIG[0];
+    return THEME_CONFIG[0];
   }
 
   function buildThemeCssVariables(themeConfig) {
@@ -785,7 +723,8 @@ function createTypeScriptFiles() {
       const outputObject = {
         themeName: themeName,
         iconSet: themeConfig.iconSet,
-        isLight: themeConfig.isLight,
+        colorPalette: themeConfig.colorPalette,
+        isPanelless: themeConfig.isPanelless,
         cssVariables: finalCssVariables
       };
 
