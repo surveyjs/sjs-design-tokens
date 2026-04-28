@@ -125,7 +125,7 @@
             "description": "Surface color for Logic tab."
           },
           "json-editor": {
-            "value": "{sjs2.color.utility.surface.designer}",
+            "value": "{sjs2.palette.gray.000}",
             "type": "color",
             "description": "Surface color for JSON Editor tab."
           },
