@@ -56,7 +56,7 @@
         "body": {
           "value": "{sjs2.palette.gray.000}",
           "type": "color",
-          "description": "The very basic underlying page background color."
+          "description": "The very basic page background color."
         },
         "sheet": {
           "value": "{sjs2.palette.gray.000}",
