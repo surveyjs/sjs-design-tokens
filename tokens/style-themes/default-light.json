@@ -4226,6 +4226,159 @@
               "type": "boxShadow"
             }
           }
+        },
+        "boolean-item": {
+          "false": {
+            "default": {
+              "value": [
+                {
+                  "x": "{sjs2.border-offset.x.trigger.default}",
+                  "y": "{sjs2.border-offset.y.trigger.default}",
+                  "blur": "{sjs2.border-blur.trigger.default}",
+                  "spread": "{sjs2.border-spread.trigger.default}",
+                  "color": "{sjs2.color.component.boolean-item.false.default.border}",
+                  "type": "innerShadow"
+                },
+                {
+                  "x": "0",
+                  "y": "0",
+                  "blur": "0",
+                  "spread": "0",
+                  "color": "rgba(0,0,0,0)",
+                  "type": "dropShadow"
+                }
+              ],
+              "type": "boxShadow"
+            },
+            "hovered": {
+              "value": [
+                {
+                  "x": "{sjs2.border-offset.x.trigger.hovered}",
+                  "y": "{sjs2.border-offset.y.trigger.hovered}",
+                  "blur": "{sjs2.border-blur.trigger.hovered}",
+                  "spread": "{sjs2.border-spread.trigger.hovered}",
+                  "color": "{sjs2.color.component.boolean-item.false.hovered.border}",
+                  "type": "innerShadow"
+                },
+                {
+                  "x": "0",
+                  "y": "0",
+                  "blur": "0",
+                  "spread": "0",
+                  "color": "rgba(0,0,0,0)",
+                  "type": "dropShadow"
+                }
+              ],
+              "type": "boxShadow"
+            },
+            "disabled": {
+              "value": [
+                {
+                  "x": "{sjs2.border-offset.x.trigger.disabled}",
+                  "y": "{sjs2.border-offset.y.trigger.disabled}",
+                  "blur": "{sjs2.border-blur.trigger.disabled}",
+                  "spread": "{sjs2.border-spread.trigger.disabled}",
+                  "color": "{sjs2.color.component.boolean-item.false.disabled.border}",
+                  "type": "innerShadow"
+                },
+                {
+                  "x": "0",
+                  "y": "0",
+                  "blur": "0",
+                  "spread": "0",
+                  "color": "rgba(0,0,0,0)",
+                  "type": "dropShadow"
+                }
+              ],
+              "type": "boxShadow"
+            },
+            "readonly": {
+              "value": [
+                {
+                  "x": "{sjs2.border-offset.x.trigger.readonly}",
+                  "y": "{sjs2.border-offset.y.trigger.readonly}",
+                  "blur": "{sjs2.border-blur.trigger.readonly}",
+                  "spread": "{sjs2.border-spread.trigger.readonly}",
+                  "color": "{sjs2.color.component.boolean-item.false.readonly.border}",
+                  "type": "innerShadow"
+                },
+                {
+                  "x": "0",
+                  "y": "0",
+                  "blur": "0",
+                  "spread": "0",
+                  "color": "rgba(0,0,0,0)",
+                  "type": "dropShadow"
+                }
+              ],
+              "type": "boxShadow"
+            }
+          },
+          "true": {
+            "default": {
+              "value": [
+                {
+                  "x": "{sjs2.border-offset.x.trigger.default}",
+                  "y": "{sjs2.border-offset.y.trigger.default}",
+                  "blur": "{sjs2.border-blur.trigger.default}",
+                  "spread": "{sjs2.border-spread.trigger.default}",
+                  "color": "{sjs2.color.component.boolean-item.true.default.border}",
+                  "type": "innerShadow"
+                },
+                {
+                  "x": "0",
+                  "y": "0",
+                  "blur": "0",
+                  "spread": "0",
+                  "color": "rgba(0,0,0,0)",
+                  "type": "dropShadow"
+                }
+              ],
+              "type": "boxShadow"
+            },
+            "disabled": {
+              "value": [
+                {
+                  "x": "{sjs2.border-offset.x.trigger.disabled}",
+                  "y": "{sjs2.border-offset.y.trigger.disabled}",
+                  "blur": "{sjs2.border-blur.trigger.disabled}",
+                  "spread": "{sjs2.border-spread.trigger.disabled}",
+                  "color": "{sjs2.color.component.boolean-item.true.disabled.border}",
+                  "type": "innerShadow"
+                },
+                {
+                  "x": "0",
+                  "y": "0",
+                  "blur": "0",
+                  "spread": "0",
+                  "color": "rgba(0,0,0,0)",
+                  "type": "dropShadow"
+                }
+              ],
+              "type": "boxShadow"
+            },
+            "readonly": {
+              "value": [
+                {
+                  "x": "{sjs2.border-offset.x.trigger.readonly}",
+                  "y": "{sjs2.border-offset.y.trigger.readonly}",
+                  "blur": "{sjs2.border-blur.trigger.readonly}",
+                  "spread": "{sjs2.border-spread.trigger.readonly}",
+                  "color": "{sjs2.color.component.boolean-item.true.readonly.border}",
+                  "type": "innerShadow"
+                },
+                {
+                  "x": "0",
+                  "y": "0",
+                  "blur": "0",
+                  "spread": "0",
+                  "color": "rgba(0,0,0,0)",
+                  "type": "dropShadow"
+                }
+              ],
+              "type": "boxShadow"
+            }
+          }
         }
       },
       "trigger": {
