@@ -14,6 +14,7 @@
     "style-themes/default-dark",
     "style-themes/soft-light",
     "style-themes/contrast-light",
+    "style-themes/contrast-dark",
     "style-themes/monochrome-light"
   ]
 }
