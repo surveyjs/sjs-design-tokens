@@ -3099,11 +3099,11 @@
     "border-blur": {
       "form": {
         "default": {
-          "value": "0",
+          "value": 2,
           "type": "number"
         },
         "hovered": {
-          "value": "0",
+          "value": 2,
           "type": "number"
         },
         "pressed": {
@@ -3135,17 +3135,17 @@
           "type": "number"
         },
         "design": {
-          "value": "0",
+          "value": 2,
           "type": "number"
         }
       },
       "trigger": {
         "default": {
-          "value": "0",
+          "value": 2,
           "type": "number"
         },
         "hovered": {
-          "value": "0",
+          "value": 2,
           "type": "number"
         },
         "pressed": {
@@ -3157,7 +3157,7 @@
           "type": "number"
         },
         "design": {
-          "value": "0",
+          "value": 2,
           "type": "number"
         },
         "readonly": {
@@ -3171,7 +3171,7 @@
       },
       "surface": {
         "default": {
-          "value": "0",
+          "value": 4,
           "type": "number"
         },
         "hovered": {
@@ -3191,7 +3191,7 @@
           "type": "number"
         },
         "dragging": {
-          "value": "0",
+          "value": 12,
           "type": "number"
         }
       },
