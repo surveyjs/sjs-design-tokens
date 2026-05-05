@@ -2,24 +2,6 @@ const fs = require('fs');
 const path = require('path');
 // Configuration for theme generation
 
-const booleanPatch = {
-  "--sjs2-border-effect-component-boolean-default": "inset 0px 1px 2px 0px var(--sjs2-color-component-boolean-default-border)",
-  "--sjs2-border-effect-component-boolean-disabled": "inset 0px 0px 0px var(--sjs2-border-width-x100) var(--sjs2-color-component-boolean-disabled-border)",
-  "--sjs2-border-effect-component-boolean-invalid": "inset 0px 0px 0px var(--sjs2-border-width-x100) var(--sjs2-color-component-boolean-invalid-border)",
-  "--sjs2-border-effect-component-boolean-highlighted": "inset 0px 0px 0px var(--sjs2-border-width-x200) var(--sjs2-color-component-boolean-highlighted-border)",
-  "--sjs2-border-effect-component-boolean-readonly": "inset 0px 0px 0px var(--sjs2-border-width-x100) var(--sjs2-color-component-boolean-readonly-border)",
-  "--sjs2-border-effect-component-boolean-design": "inset 0px 1px 2px 0px var(--sjs2-color-component-boolean-design-border)",
-
-  "--sjs2-border-effect-component-boolean-item-false-default": "0px 0px 0px 0px var(--sjs2-color-component-boolean-item-false-default-border)",
-  "--sjs2-border-effect-component-boolean-item-false-disabled": "0px 0px 0px 0px var(--sjs2-color-component-boolean-item-false-disabled-border)",
-  "--sjs2-border-effect-component-boolean-item-false-readonly": "0px 0px 0px 0px var(--sjs2-color-component-boolean-item-false-readonly-border)",
-  "--sjs2-border-effect-component-boolean-item-false-hovered": "0px 0px 0px 0px var(--sjs2-color-component-boolean-item-false-hovered-border)",
-
-  "--sjs2-border-effect-component-boolean-item-true-default": "0px 2px 4px 0px var(--sjs2-color-component-boolean-item-true-default-border)",
-  "--sjs2-border-effect-component-boolean-item-true-disabled": "inset 0px 0px 0px var(--sjs2-border-width-x200) var(--sjs2-color-component-boolean-item-true-disabled-border)",
-  "--sjs2-border-effect-component-boolean-item-true-readonly": "inset 0px 0px 0px var(--sjs2-border-width-x200) var(--sjs2-color-component-boolean-item-true-readonly-border)",
-}
-
 const THEME_CONFIG = [
   {
     objectName: "Test",
@@ -36,7 +18,6 @@ const THEME_CONFIG = [
       "style-themes/soft-light"
     ],
     patch: {
-      ...booleanPatch,
       "--sjs2-color-component-boolean-item-false-hovered-value": "rgba(0, 0, 0, 0.45)",
       "--sjs2-color-component-boolean-readonly-border": "transparent",
       "--sjs2-color-component-boolean-item-true-readonly-border": "#161616",
@@ -100,7 +81,6 @@ const THEME_CONFIG = [
       "typography-themes/default",
       "style-themes/soft-light"
     ],
-    patch: {...booleanPatch},
     products: ["survey-library"]
   },
   {
