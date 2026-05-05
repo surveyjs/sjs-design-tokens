@@ -4251,7 +4251,7 @@
                   "blur": "{sjs2.border-blur.trigger.default}",
                   "spread": "{sjs2.border-spread.trigger.default}",
                   "color": "{sjs2.color.component.boolean-item.false.default.border}",
-                  "type": "innerShadow"
+                  "type": "dropShadow"
                 },
                 {
                   "x": "0",
@@ -4272,7 +4272,7 @@
                   "blur": "{sjs2.border-blur.trigger.hovered}",
                   "spread": "{sjs2.border-spread.trigger.hovered}",
                   "color": "{sjs2.color.component.boolean-item.false.hovered.border}",
-                  "type": "innerShadow"
+                  "type": "dropShadow"
                 },
                 {
                   "x": "0",
@@ -4293,7 +4293,7 @@
                   "blur": "{sjs2.border-blur.trigger.disabled}",
                   "spread": "{sjs2.border-spread.trigger.disabled}",
                   "color": "{sjs2.color.component.boolean-item.false.disabled.border}",
-                  "type": "innerShadow"
+                  "type": "dropShadow"
                 },
                 {
                   "x": "0",
@@ -4314,7 +4314,7 @@
                   "blur": "{sjs2.border-blur.trigger.readonly}",
                   "spread": "{sjs2.border-spread.trigger.readonly}",
                   "color": "{sjs2.color.component.boolean-item.false.readonly.border}",
-                  "type": "innerShadow"
+                  "type": "dropShadow"
                 },
                 {
                   "x": "0",
@@ -4337,7 +4337,7 @@
                   "blur": "{sjs2.border-blur.trigger.default}",
                   "spread": "{sjs2.border-spread.trigger.default}",
                   "color": "{sjs2.color.component.boolean-item.true.default.border}",
-                  "type": "innerShadow"
+                  "type": "dropShadow"
                 },
                 {
                   "x": "0",
@@ -4358,7 +4358,7 @@
                   "blur": "{sjs2.border-blur.trigger.disabled}",
                   "spread": "{sjs2.border-spread.trigger.disabled}",
                   "color": "{sjs2.color.component.boolean-item.true.disabled.border}",
-                  "type": "innerShadow"
+                  "type": "dropShadow"
                 },
                 {
                   "x": "0",
@@ -4379,7 +4379,7 @@
                   "blur": "{sjs2.border-blur.trigger.readonly}",
                   "spread": "{sjs2.border-spread.trigger.readonly}",
                   "color": "{sjs2.color.component.boolean-item.true.readonly.border}",
-                  "type": "innerShadow"
+                  "type": "dropShadow"
                 },
                 {
                   "x": "0",
