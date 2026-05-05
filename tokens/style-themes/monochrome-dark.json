@@ -513,7 +513,7 @@
             "type": "color"
           },
           "on-primary": {
-            "value": "{sjs2.palette.gray.000}",
+            "value": "{sjs2.palette.gray.900}",
             "type": "color"
           },
           "primary-disabled": {
@@ -625,7 +625,7 @@
             "type": "color"
           },
           "on-primary": {
-            "value": "{sjs2.palette.gray.000}",
+            "value": "{sjs2.palette.gray.900}",
             "type": "color"
           }
         },

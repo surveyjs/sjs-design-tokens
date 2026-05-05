@@ -10,14 +10,14 @@
               "studio.tokens": {
                 "modify": {
                   "type": "lighten",
-                  "value": "0.15",
+                  "value": "0.2",
                   "space": "hsl"
                 }
               }
             }
           },
           "600": {
-            "value": "#893ced",
+            "value": "#9c40ff",
             "type": "color"
           },
           "700": {
@@ -44,8 +44,7 @@
                   "space": "hsl"
                 }
               }
-            },
-            "description": "Auto-generated dark version of main brand color."
+            }
           }
         }
       },
