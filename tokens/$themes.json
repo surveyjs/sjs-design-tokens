@@ -984,7 +984,10 @@
       "sjs2.border-offset.y.surface.focused": "8513262dcb73eb738162bbf33cf152b09e2b13fa",
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
-      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
+      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
+      "sjs2.color.component.boolean-item.false.design.bg": "73d0aa180bf60148cf965b5c5d5e577ede06e68f",
+      "sjs2.color.component.boolean-item.false.design.border": "586084c1ced872869eb97e0f76a959e084ee68bb",
+      "sjs2.color.component.boolean-item.false.design.value": "25bc63efd07323d6bcae5a3b2f6695efed1cf5cf"
     },
     "group": "style-themes"
   },
@@ -1690,7 +1693,10 @@
       "sjs2.border-offset.y.surface.focused": "8513262dcb73eb738162bbf33cf152b09e2b13fa",
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
-      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
+      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
+      "sjs2.color.component.boolean-item.false.design.bg": "73d0aa180bf60148cf965b5c5d5e577ede06e68f",
+      "sjs2.color.component.boolean-item.false.design.border": "586084c1ced872869eb97e0f76a959e084ee68bb",
+      "sjs2.color.component.boolean-item.false.design.value": "25bc63efd07323d6bcae5a3b2f6695efed1cf5cf"
     },
     "group": "style-themes"
   },
@@ -2396,7 +2402,10 @@
       "sjs2.border-offset.y.surface.focused": "8513262dcb73eb738162bbf33cf152b09e2b13fa",
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
-      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
+      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
+      "sjs2.color.component.boolean-item.false.design.bg": "73d0aa180bf60148cf965b5c5d5e577ede06e68f",
+      "sjs2.color.component.boolean-item.false.design.border": "586084c1ced872869eb97e0f76a959e084ee68bb",
+      "sjs2.color.component.boolean-item.false.design.value": "25bc63efd07323d6bcae5a3b2f6695efed1cf5cf"
     },
     "group": "style-themes"
   },
@@ -3102,7 +3111,10 @@
       "sjs2.border-offset.y.surface.focused": "8513262dcb73eb738162bbf33cf152b09e2b13fa",
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
-      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
+      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
+      "sjs2.color.component.boolean-item.false.design.bg": "73d0aa180bf60148cf965b5c5d5e577ede06e68f",
+      "sjs2.color.component.boolean-item.false.design.border": "586084c1ced872869eb97e0f76a959e084ee68bb",
+      "sjs2.color.component.boolean-item.false.design.value": "25bc63efd07323d6bcae5a3b2f6695efed1cf5cf"
     },
     "group": "style-themes"
   },
@@ -3808,7 +3820,10 @@
       "sjs2.border-offset.y.surface.focused": "8513262dcb73eb738162bbf33cf152b09e2b13fa",
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
-      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
+      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
+      "sjs2.color.component.boolean-item.false.design.bg": "73d0aa180bf60148cf965b5c5d5e577ede06e68f",
+      "sjs2.color.component.boolean-item.false.design.border": "586084c1ced872869eb97e0f76a959e084ee68bb",
+      "sjs2.color.component.boolean-item.false.design.value": "25bc63efd07323d6bcae5a3b2f6695efed1cf5cf"
     },
     "group": "style-themes"
   }
