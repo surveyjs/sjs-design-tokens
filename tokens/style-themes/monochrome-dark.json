@@ -14,13 +14,11 @@
                   "space": "hsl"
                 }
               }
-            },
-            "description": "Auto-generated light version of main brand color."
+            }
           },
           "600": {
-            "value": "#19B394",
-            "type": "color",
-            "description": "Main brand color of your project."
+            "value": "#f6f6f6",
+            "type": "color"
           },
           "700": {
             "value": "{sjs2.color.project.brand.600}",
@@ -30,11 +28,10 @@
                 "modify": {
                   "type": "darken",
                   "value": "0.15",
-                  "space": "hsl"
+                  "space": "lch"
                 }
               }
-            },
-            "description": "Auto-generated dark version of main brand color."
+            }
           },
           "800": {
             "value": "{sjs2.color.project.brand.600}",
@@ -54,85 +51,80 @@
       },
       "utility": {
         "body": {
-          "value": "{sjs2.palette.gray.000}",
-          "type": "color",
-          "description": "The very basic underlying page background color."
+          "value": "{sjs2.palette.gray.999}",
+          "type": "color"
         },
         "sheet": {
-          "value": "{sjs2.palette.gray.000}",
-          "type": "color",
-          "description": "Background color for drop, bottomsheet and modal."
+          "value": "{sjs2.palette.gray.900}",
+          "type": "color"
         },
         "a11y": {
-          "value": "rgba( {sjs2.palette.blue.400}, {sjs2.opacity.x060} )",
-          "type": "color",
-          "description": "Tab-focus border color."
+          "value": "rgba( {sjs2.palette.blue.400}, {sjs2.opacity.x040} )",
+          "type": "color"
         },
         "scrollbar": {
-          "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x015} )",
-          "type": "color",
-          "description": "Scrollbar color."
+          "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x015} )",
+          "type": "color"
         },
         "overlay": {
           "value": "rgba( {sjs2.palette.gray.700}, {sjs2.opacity.x060} )",
-          "type": "color",
-          "description": "Color for overlay behind modal and bottomsheet."
+          "type": "color"
         },
         "toolbox": {
-          "value": "{sjs2.palette.gray.000}",
+          "value": "{sjs2.palette.gray.900}",
           "type": "color",
-          "description": "Background color for Toolbox panel (left panel)."
+          "description": "background color for Toolbox panel (left panel)"
         },
         "property-grid": {
-          "value": "{sjs2.palette.gray.000}",
+          "value": "{sjs2.palette.gray.900}",
           "type": "color",
-          "description": "Background color for Property Grid panel (right panel)."
+          "description": "background color for Property Grid panel (right panel)"
         },
         "tabs": {
-          "value": "{sjs2.palette.gray.000}",
+          "value": "{sjs2.palette.gray.900}",
           "type": "color",
-          "description": "Background color for Tabs panel (top panel above all)."
+          "description": "background color for Tabs panel (top panel above all)"
         },
         "surface": {
           "survey": {
-            "value": "#1c1b200d",
+            "value": "#161519",
             "type": "color",
             "description": "Surface color for the real Survey on the user's side + Preview & Themes tabs."
           },
           "survey-panelless": {
-            "value": "{sjs2.palette.gray.000}",
+            "value": "#1c1b200d",
             "type": "color",
             "description": "Surface color for the real Survey on the user's side + Preview & Themes tabs, panelless."
           },
           "designer": {
-            "value": "#EDF9F7",
+            "value": "#161519",
             "type": "color",
-            "description": "Surface color for Designer tab."
+            "description": "surface color for Designer tab"
           },
           "presets-manager": {
             "value": "#1c1b200d",
             "type": "color",
-            "description": "Surface color for Presets Configuration Manager."
+            "description": "surface color for Presets Configuration Manager"
           },
           "dashboard": {
             "value": "{sjs2.color.utility.surface.survey}",
             "type": "color",
-            "description": "Surface color for Dashboards on the user's side."
+            "description": "surface color for Dashboards on the user's side"
           },
           "logic": {
             "value": "{sjs2.color.utility.surface.designer}",
             "type": "color",
-            "description": "Surface color for Logic tab."
+            "description": "surface color for Logic tab"
           },
           "json-editor": {
-            "value": "{sjs2.palette.gray.000}",
+            "value": "{sjs2.color.utility.surface.designer}",
             "type": "color",
-            "description": "Surface color for JSON Editor tab."
+            "description": "surface color for JSON Editor tab"
           },
           "translations": {
             "value": "{sjs2.color.utility.surface.designer}",
             "type": "color",
-            "description": "Surface color for Translations tab."
+            "description": "surface color for Translations tab"
           },
           "embed": {
             "value": "{sjs2.color.utility.surface.designer}",
@@ -143,23 +135,23 @@
         "shadow": {
           "trigger": {
             "default": {
-              "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x010} )",
+              "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
             },
             "hovered": {
-              "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x010} )",
+              "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
             },
             "pressed": {
-              "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x010} )",
+              "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
             },
             "disabled": {
-              "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x005} )",
+              "value": "{sjs2.color.border.basic.secondary-disabled}",
               "type": "color"
             },
             "design": {
-              "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x010} )",
+              "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
             },
             "readonly": {
@@ -173,41 +165,34 @@
           },
           "surface": {
             "default": {
-              "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x010} )",
-              "type": "color",
-              "description": "Shadow (or border effect) color for interactive and non-interactive elements located on surface, state: default."
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
             },
             "hovered": {
               "value": "rgba( {sjs2.color.project.brand.600}, {sjs2.opacity.x040} )",
-              "type": "color",
-              "description": "Shadow (or border effect) color for interactive elements located on surface, state: hovered."
+              "type": "color"
             },
             "pressed": {
               "value": "{sjs2.color.project.brand.600}",
-              "type": "color",
-              "description": "Shadow (or border effect) color for interactive elements located on surface, state: pressed."
+              "type": "color"
             },
             "focused": {
               "value": "{sjs2.color.project.brand.600}",
-              "type": "color",
-              "description": "Shadow (or border effect) color for interactive elements located on surface, state: focused."
+              "type": "color"
             },
             "disabled": {
               "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x010} )",
-              "type": "color",
-              "description": "Shadow (or border effect) color for interactive elements located on surface, state: disabled."
+              "type": "color"
             },
             "dragging": {
-              "value": "rgba( #004C44, {sjs2.opacity.x015} )",
-              "type": "color",
-              "description": "Shadow (or border effect) color for interactive elements located on surface, state: dragging."
+              "value": "rgba( #f6f6f6, {sjs2.opacity.x010} )",
+              "type": "color"
             }
           },
           "floating": {
             "default": {
-              "value": "rgba( #004C44, {sjs2.opacity.x015} )",
-              "type": "color",
-              "description": "Shadow (or border effect) color for floating elements."
+              "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x060} )",
+              "type": "color"
             }
           }
         }
@@ -215,61 +200,61 @@
       "bg": {
         "basic": {
           "primary": {
-            "value": "{sjs2.palette.gray.000}",
+            "value": "{sjs2.palette.gray.900}",
             "type": "color"
           },
           "secondary": {
-            "value": "{sjs2.palette.gray.100}",
+            "value": "{sjs2.palette.gray.850}",
             "type": "color"
           },
           "tertiary": {
-            "value": "{sjs2.palette.gray.150}",
+            "value": "{sjs2.palette.gray.800}",
             "type": "color"
           },
           "primary-dim": {
-            "value": "{sjs2.palette.gray.100}",
+            "value": "{sjs2.palette.gray.850}",
             "type": "color"
           },
           "secondary-dim": {
-            "value": "{sjs2.palette.gray.150}",
+            "value": "{sjs2.palette.gray.800}",
             "type": "color"
           },
           "tertiary-dim": {
-            "value": "{sjs2.palette.gray.200}",
+            "value": "{sjs2.palette.gray.750}",
             "type": "color"
           },
           "primary-disabled": {
-            "value": "{sjs2.palette.gray.100}",
+            "value": "{sjs2.palette.gray.850}",
             "type": "color"
           }
         },
         "neutral": {
           "primary": {
-            "value": "{sjs2.palette.gray.900}",
+            "value": "{sjs2.palette.gray.000}",
             "type": "color"
           },
           "secondary": {
-            "value": "{sjs2.palette.gray.100}",
+            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x015} )",
             "type": "color"
           },
           "tertiary": {
-            "value": "rgba( {sjs2.palette.gray.600}, {sjs2.opacity.x000} )",
+            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x000} )",
             "type": "color"
           },
           "primary-dim": {
-            "value": "{sjs2.palette.gray.700}",
+            "value": "{sjs2.palette.gray.100}",
             "type": "color"
           },
           "secondary-dim": {
-            "value": "{sjs2.palette.gray.150}",
+            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x020} )",
             "type": "color"
           },
           "tertiary-dim": {
-            "value": "rgba( {sjs2.palette.gray.600}, {sjs2.opacity.x010} )",
+            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x010} )",
             "type": "color"
           },
           "primary-disabled": {
-            "value": "{sjs2.palette.gray.100}",
+            "value": "{sjs2.palette.gray.750}",
             "type": "color"
           }
         },
@@ -299,7 +284,7 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "{sjs2.palette.gray.100}",
+            "value": "{sjs2.palette.gray.750}",
             "type": "color"
           }
         },
@@ -329,7 +314,7 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "{sjs2.palette.gray.100}",
+            "value": "{sjs2.palette.gray.750}",
             "type": "color"
           }
         },
@@ -359,7 +344,7 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "{sjs2.palette.gray.100}",
+            "value": "{sjs2.palette.gray.750}",
             "type": "color"
           }
         },
@@ -389,7 +374,7 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "{sjs2.palette.gray.100}",
+            "value": "{sjs2.palette.gray.750}",
             "type": "color"
           }
         },
@@ -419,7 +404,7 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "{sjs2.palette.gray.100}",
+            "value": "{sjs2.palette.gray.750}",
             "type": "color"
           }
         },
@@ -472,11 +457,11 @@
       "fg": {
         "basic": {
           "primary": {
-            "value": "{sjs2.palette.gray.900}",
+            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x085} )",
             "type": "color"
           },
           "primary-muted": {
-            "value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x080} )",
+            "value": "{sjs2.color.fg.basic.primary}",
             "type": "color"
           },
           "secondary": {
@@ -488,15 +473,15 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x020} )",
+            "value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x025} )",
             "type": "color"
           },
           "secondary-disabled": {
-            "value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x020} )",
+            "value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x025} )",
             "type": "color"
           },
           "tertiary-disabled": {
-            "value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x020} )",
+            "value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x025} )",
             "type": "color"
           }
         },
@@ -510,35 +495,35 @@
             "type": "color"
           },
           "on-primary": {
-            "value": "{sjs2.palette.gray.000}",
+            "value": "{sjs2.palette.gray.900}",
             "type": "color"
           },
           "primary-disabled": {
-            "value": "rgba( {sjs2.color.fg.neutral.primary}, {sjs2.opacity.x020} )",
+            "value": "rgba( {sjs2.color.fg.neutral.primary}, {sjs2.opacity.x025} )",
             "type": "color"
           }
         },
         "brand": {
           "primary": {
-            "value": "{sjs2.color.project.brand.700}",
+            "value": "{sjs2.color.project.brand.400}",
             "type": "color"
           },
           "primary-dim": {
-            "value": "{sjs2.color.project.brand.800}",
+            "value": "{sjs2.color.project.brand.700}",
             "type": "color"
           },
           "on-primary": {
-            "value": "{sjs2.palette.gray.000}",
+            "value": "{sjs2.palette.gray.900}",
             "type": "color"
           },
           "primary-disabled": {
-            "value": "rgba( {sjs2.color.fg.neutral.primary}, {sjs2.opacity.x020} )",
+            "value": "rgba( {sjs2.color.fg.neutral.primary}, {sjs2.opacity.x025} )",
             "type": "color"
           }
         },
         "note": {
           "primary": {
-            "value": "{sjs2.palette.blue.700}",
+            "value": "{sjs2.palette.blue.400}",
             "type": "color"
           },
           "on-primary": {
@@ -546,13 +531,13 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "rgba( {sjs2.color.fg.neutral.primary}, {sjs2.opacity.x020} )",
+            "value": "rgba( {sjs2.color.fg.neutral.primary}, {sjs2.opacity.x025} )",
             "type": "color"
           }
         },
         "positive": {
           "primary": {
-            "value": "{sjs2.palette.green.700}",
+            "value": "{sjs2.palette.green.400}",
             "type": "color"
           },
           "on-primary": {
@@ -560,13 +545,13 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "rgba( {sjs2.color.fg.neutral.primary}, {sjs2.opacity.x020} )",
+            "value": "rgba( {sjs2.color.fg.neutral.primary}, {sjs2.opacity.x025} )",
             "type": "color"
           }
         },
         "warning": {
           "primary": {
-            "value": "{sjs2.palette.yellow.700}",
+            "value": "{sjs2.palette.yellow.400}",
             "type": "color"
           },
           "on-primary": {
@@ -574,13 +559,13 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "rgba( {sjs2.color.fg.neutral.primary}, {sjs2.opacity.x020} )",
+            "value": "rgba( {sjs2.color.fg.neutral.primary}, {sjs2.opacity.x025} )",
             "type": "color"
           }
         },
         "alert": {
           "primary": {
-            "value": "{sjs2.palette.red.700}",
+            "value": "{sjs2.palette.red.400}",
             "type": "color"
           },
           "on-primary": {
@@ -588,7 +573,7 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "rgba( {sjs2.color.fg.neutral.primary}, {sjs2.opacity.x020} )",
+            "value": "rgba( {sjs2.color.fg.neutral.primary}, {sjs2.opacity.x025} )",
             "type": "color"
           }
         },
@@ -608,25 +593,25 @@
       "border": {
         "basic": {
           "primary": {
-            "value": "{sjs2.palette.gray.900}",
+            "value": "{sjs2.palette.gray.000}",
             "type": "color"
           },
           "secondary": {
-            "value": "{sjs2.palette.gray.250}",
+            "value": "{sjs2.palette.gray.750}",
             "type": "color"
           },
           "secondary-overlay": {
-            "value": "rgba({sjs2.color.border.basic.primary}, {sjs2.opacity.x040})",
+            "value": "rgba( {sjs2.color.border.basic.primary}, {sjs2.opacity.x020})",
             "type": "color"
           },
           "secondary-disabled": {
-            "value": "{sjs2.palette.gray.100}",
+            "value": "{sjs2.palette.gray.800}",
             "type": "color"
           }
         },
         "neutral": {
           "primary": {
-            "value": "{sjs2.palette.gray.000}",
+            "value": "{sjs2.palette.gray.900}",
             "type": "color"
           },
           "on-primary": {
@@ -640,7 +625,7 @@
             "type": "color"
           },
           "on-primary": {
-            "value": "{sjs2.palette.gray.000}",
+            "value": "{sjs2.palette.gray.900}",
             "type": "color"
           }
         },
@@ -1060,7 +1045,7 @@
                   "description": "Button / action icon color, style: alert, mode: quaternary, state: default."
                 },
                 "label": {
-                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "value": "{sjs2.color.fg.neutral.primary}",
                   "type": "color",
                   "description": "Button / action label color, style: alert, mode: quaternary, state: default."
                 }
@@ -1219,7 +1204,7 @@
                   "description": "Button / action icon color, style: alert, mode: quaternary, state: default."
                 },
                 "label": {
-                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "value": "{sjs2.color.fg.neutral.primary}",
                   "type": "color",
                   "description": "Button / action label color, style: alert, mode: quaternary, state: default."
                 }
@@ -1457,7 +1442,7 @@
                   "type": "color"
                 },
                 "label": {
-                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "value": "{sjs2.color.fg.neutral.primary}",
                   "type": "color"
                 }
               },
@@ -1589,7 +1574,7 @@
                   "type": "color"
                 },
                 "label": {
-                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "value": "{sjs2.color.fg.neutral.primary}",
                   "type": "color"
                 }
               },
@@ -1723,7 +1708,7 @@
                   "type": "color"
                 },
                 "label": {
-                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "value": "{sjs2.color.fg.neutral.primary}",
                   "type": "color"
                 }
               },
@@ -1737,7 +1722,7 @@
                   "type": "color"
                 },
                 "label": {
-                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "value": "{sjs2.color.fg.neutral.primary}",
                   "type": "color"
                 }
               },
@@ -1767,7 +1752,7 @@
                   "type": "color"
                 },
                 "label": {
-                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "value": "{sjs2.color.fg.neutral.primary}",
                   "type": "color"
                 }
               },
@@ -1781,7 +1766,7 @@
                   "type": "color"
                 },
                 "label": {
-                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "value": "{sjs2.color.fg.neutral.primary}",
                   "type": "color"
                 }
               },
@@ -1825,7 +1810,7 @@
                   "type": "color"
                 },
                 "label": {
-                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "value": "{sjs2.color.fg.neutral.primary}",
                   "type": "color"
                 }
               },
@@ -1855,7 +1840,7 @@
                   "type": "color"
                 },
                 "label": {
-                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "value": "{sjs2.color.fg.neutral.primary}",
                   "type": "color"
                 }
               },
@@ -1869,7 +1854,7 @@
                   "type": "color"
                 },
                 "label": {
-                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "value": "{sjs2.color.fg.neutral.primary}",
                   "type": "color"
                 }
               },
@@ -1913,7 +1898,7 @@
                   "type": "color"
                 },
                 "label": {
-                  "value": "{sjs2.color.fg.neutral.primary-muted}",
+                  "value": "{sjs2.color.fg.neutral.primary}",
                   "type": "color"
                 }
               },
@@ -1947,7 +1932,7 @@
           },
           "disabled": {
             "bg": {
-              "value": "{sjs2.color.bg.basic.primary-disabled}",
+              "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
             },
             "border": {
@@ -1977,7 +1962,7 @@
           },
           "invalid": {
             "bg": {
-              "value": "{sjs2.color.bg.alert.secondary}",
+              "value": "{sjs2.color.bg.basic.secondary}",
               "type": "color"
             },
             "border": {
@@ -2017,7 +2002,7 @@
           },
           "invalid-focused": {
             "bg": {
-              "value": "{sjs2.color.bg.alert.secondary}",
+              "value": "{sjs2.color.bg.basic.secondary}",
               "type": "color"
             },
             "border": {
@@ -2059,7 +2044,7 @@
           },
           "disabled": {
             "line": {
-              "value": "{sjs2.palette.gray.100}",
+              "value": "{sjs2.palette.gray.800}",
               "type": "color"
             },
             "value": {
@@ -2092,11 +2077,11 @@
           "false": {
             "default": {
               "bg": {
-                "value": "rgba({sjs2.color.bg.basic.secondary},{sjs2.opacity.hidden})",
+                "value": "rgba( {sjs2.color.bg.basic.primary}, {sjs2.opacity.hidden} )",
                 "type": "color"
               },
               "border": {
-                "value": "rgba({sjs2.color.border.basic.secondary},{sjs2.opacity.hidden})",
+                "value": "rgba( {sjs2.color.border.basic.secondary}, {sjs2.opacity.hidden} )",
                 "type": "color"
               },
               "value": {
@@ -2106,7 +2091,7 @@
             },
             "disabled": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.primary}",
+                "value": "rgba( {sjs2.color.bg.basic.primary}, {sjs2.opacity.hidden} )",
                 "type": "color"
               },
               "border": {
@@ -2120,7 +2105,7 @@
             },
             "readonly": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.primary}",
+                "value": "rgba( {sjs2.color.bg.basic.primary}, {sjs2.opacity.hidden} )",
                 "type": "color"
               },
               "border": {
@@ -2168,7 +2153,7 @@
                 "type": "color"
               },
               "border": {
-                "value": "rgba({sjs2.color.border.basic.secondary},{sjs2.opacity.hidden})",
+                "value": "rgba( {sjs2.color.border.basic.secondary}, {sjs2.opacity.hidden} )",
                 "type": "color"
               },
               "value": {
@@ -2197,73 +2182,61 @@
             "default": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.secondary}",
-                "type": "color",
-                "description": "Checkbox & radiobutton background color, is checked: false, state: default."
+                "type": "color"
               },
               "border": {
                 "value": "{sjs2.color.border.basic.secondary}",
-                "type": "color",
-                "description": "Checkbox & radiobutton border color, is checked: false, state: default."
+                "type": "color"
               }
             },
             "disabled": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.primary}",
-                "type": "color",
-                "description": "Checkbox & radiobutton background color, is checked: false, state: disabled."
+                "type": "color"
               },
               "border": {
                 "value": "{sjs2.color.border.basic.secondary-disabled}",
-                "type": "color",
-                "description": "Checkbox & radiobutton border color, is checked: false, state: disabled."
+                "type": "color"
               }
             },
             "readonly": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.primary}",
-                "type": "color",
-                "description": "Checkbox & radiobutton background color, is checked: false, state: readonly."
+                "type": "color"
               },
               "border": {
                 "value": "{sjs2.color.border.basic.secondary}",
-                "type": "color",
-                "description": "Checkbox & radiobutton border color, is checked: false, state: readonly."
+                "type": "color"
               }
             },
             "hovered": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.secondary-dim}",
-                "type": "color",
-                "description": "Checkbox & radiobutton background color, is checked: false, state: hovered."
+                "type": "color"
               },
               "border": {
                 "value": "{sjs2.color.border.basic.secondary}",
-                "type": "color",
-                "description": "Checkbox & radiobutton border color, is checked: false, state: hovered."
+                "type": "color"
               }
             },
             "design": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.secondary}",
-                "type": "color",
-                "description": "Checkbox & radiobutton background color, is checked: false, state: design."
+                "type": "color"
               },
               "border": {
                 "value": "{sjs2.color.border.basic.secondary}",
-                "type": "color",
-                "description": "Checkbox & radiobutton border color, is checked: false, state: design."
+                "type": "color"
               }
             },
             "invalid": {
               "bg": {
-                "value": "{sjs2.color.bg.alert.secondary}",
-                "type": "color",
-                "description": "Checkbox & radiobutton background color, is checked: false, state: design."
+                "value": "{sjs2.color.bg.basic.secondary}",
+                "type": "color"
               },
               "border": {
                 "value": "{sjs2.color.border.alert.primary}",
-                "type": "color",
-                "description": "Checkbox & radiobutton border color, is checked: false, state: invalid."
+                "type": "color"
               }
             }
           },
@@ -2271,52 +2244,43 @@
             "default": {
               "bg": {
                 "value": "{sjs2.color.bg.brand.primary}",
-                "type": "color",
-                "description": "Checkbox & radiobutton background color, is checked: true, state: default."
+                "type": "color"
               },
               "border": {
                 "value": "{sjs2.color.border.brand.primary}",
-                "type": "color",
-                "description": "Checkbox & radiobutton border color, is checked: true, state: default."
+                "type": "color"
               },
               "icon": {
                 "value": "{sjs2.color.fg.brand.on-primary}",
-                "type": "color",
-                "description": "Checkbox & radiobutton icon color, is checked: true, state: default."
+                "type": "color"
               }
             },
             "disabled": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.primary}",
-                "type": "color",
-                "description": "Checkbox & radiobutton background color, is checked: true, state: disabled."
+                "type": "color"
               },
               "border": {
                 "value": "{sjs2.color.border.basic.secondary-disabled}",
-                "type": "color",
-                "description": "Checkbox & radiobutton border color, is checked: true, state: disabled."
+                "type": "color"
               },
               "icon": {
                 "value": "{sjs2.color.fg.basic.tertiary}",
-                "type": "color",
-                "description": "Checkbox & radiobutton icon color, is checked: true, state: disabled."
+                "type": "color"
               }
             },
             "hovered": {
               "bg": {
                 "value": "{sjs2.color.bg.brand.primary-dim}",
-                "type": "color",
-                "description": "Checkbox & radiobutton background color, is checked: true, state: hovered."
+                "type": "color"
               },
               "border": {
                 "value": "{sjs2.color.bg.brand.primary-dim}",
-                "type": "color",
-                "description": "Checkbox & radiobutton border color, is checked: true, state: hovered."
+                "type": "color"
               },
               "icon": {
                 "value": "{sjs2.color.fg.brand.on-primary}",
-                "type": "color",
-                "description": "Checkbox & radiobutton icon color, is checked: true, state: hovered."
+                "type": "color"
               }
             },
             "invalid": {
@@ -2343,69 +2307,57 @@
             "default": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.secondary}",
-                "type": "color",
-                "description": "Switch / toggle background color, is checked: false, state: default."
+                "type": "color"
               },
               "border": {
                 "value": "{sjs2.color.border.basic.secondary}",
-                "type": "color",
-                "description": "Switch / toggle border color, is checked: false, state: default."
+                "type": "color"
               },
               "thumb": {
                 "value": "{sjs2.color.fg.basic.secondary}",
-                "type": "color",
-                "description": "Switch / toggle thumb color, is checked: false, state: default."
+                "type": "color"
               }
             },
             "disabled": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.secondary}",
-                "type": "color",
-                "description": "Switch / toggle background color, is checked: false, state: disabled."
+                "type": "color"
               },
               "border": {
                 "value": "{sjs2.color.border.basic.secondary}",
-                "type": "color",
-                "description": "Switch / toggle border color, is checked: false, state: disabled."
+                "type": "color"
               },
               "thumb": {
                 "value": "{sjs2.color.fg.basic.secondary-disabled}",
-                "type": "color",
-                "description": "Switch / toggle thumb color, is checked: false, state: disabled."
+                "type": "color"
               }
             },
             "readonly": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.secondary}",
-                "type": "color",
-                "description": "Switch / toggle background color, is checked: false, state: readonly."
+                "type": "color"
               },
               "border": {
                 "value": "{sjs2.color.border.basic.secondary}",
-                "type": "color",
-                "description": "Switch / toggle border color, is checked: false, state: readonly."
+                "type": "color"
               },
               "thumb": {
                 "value": "{sjs2.color.fg.basic.tertiary}",
-                "type": "color",
-                "description": "Switch / toggle thumb color, is checked: false, state: readonly."
+                "type": "color"
               }
             },
             "hovered": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.secondary-dim}",
-                "type": "color",
-                "description": "Switch / toggle background color, is checked: false, state: hovered."
+                "type": "color"
               },
               "border": {
                 "value": "{sjs2.color.border.basic.secondary}",
-                "type": "color",
-                "description": "Switch / toggle border color, is checked: false, state: hovered."
+                "type": "color"
               },
               "thumb": {
                 "value": "{sjs2.color.fg.basic.secondary}",
-                "type": "color",
-                "description": "Switch / toggle thumb color, is checked: false, state: hovered."
+                "type": "color"
               }
             }
           },
@@ -2413,69 +2365,57 @@
             "default": {
               "bg": {
                 "value": "{sjs2.color.bg.brand.primary}",
-                "type": "color",
-                "description": "Switch / toggle background color, is checked: true, state: default."
+                "type": "color"
               },
               "border": {
                 "value": "{sjs2.color.border.brand.primary}",
-                "type": "color",
-                "description": "Switch / toggle border color, is checked: true, state: default."
+                "type": "color"
               },
               "thumb": {
                 "value": "{sjs2.color.fg.brand.on-primary}",
-                "type": "color",
-                "description": "Switch / toggle thumb color, is checked: true, state: default."
+                "type": "color"
               }
             },
             "disabled": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.secondary}",
-                "type": "color",
-                "description": "Switch / toggle background color, is checked: true, state: disabled."
+                "type": "color"
               },
               "border": {
                 "value": "{sjs2.color.border.basic.secondary}",
-                "type": "color",
-                "description": "Switch / toggle border color, is checked: true, state: disabled."
+                "type": "color"
               },
               "thumb": {
                 "value": "{sjs2.color.fg.basic.tertiary-disabled}",
-                "type": "color",
-                "description": "Switch / toggle thumb color, is checked: true, state: disabled."
+                "type": "color"
               }
             },
             "readonly": {
               "bg": {
                 "value": "{sjs2.color.bg.basic.secondary}",
-                "type": "color",
-                "description": "Switch / toggle background color, is checked: true, state: readonly."
+                "type": "color"
               },
               "border": {
                 "value": "{sjs2.color.border.basic.secondary}",
-                "type": "color",
-                "description": "Switch / toggle border color, is checked: true, state: readonly."
+                "type": "color"
               },
               "thumb": {
                 "value": "{sjs2.color.fg.basic.secondary}",
-                "type": "color",
-                "description": "Switch / toggle thumb color, is checked: true, state: readonly."
+                "type": "color"
               }
             },
             "hovered": {
               "bg": {
                 "value": "{sjs2.color.bg.brand.primary-dim}",
-                "type": "color",
-                "description": "Switch / toggle background color, is checked: true, state: hovered."
+                "type": "color"
               },
               "border": {
                 "value": "{sjs2.color.bg.brand.primary-dim}",
-                "type": "color",
-                "description": "Switch / toggle border color, is checked: true, state: hovered."
+                "type": "color"
               },
               "thumb": {
                 "value": "{sjs2.color.fg.brand.on-primary}",
-                "type": "color",
-                "description": "Switch / toggle thumb color, is checked: true, state: hovered."
+                "type": "color"
               }
             }
           }
@@ -2484,35 +2424,29 @@
           "error": {
             "bg": {
               "value": "{sjs2.color.bg.alert.secondary}",
-              "type": "color",
-              "description": "Error message background color. This message appears when input state is invalid."
+              "type": "color"
             },
             "icon": {
               "value": "{sjs2.color.fg.alert.primary}",
-              "type": "color",
-              "description": "Error message icon color. This message appears when input state is invalid."
+              "type": "color"
             },
             "text": {
               "value": "{sjs2.color.fg.basic.primary}",
-              "type": "color",
-              "description": "Error message text color. This message appears when input state is invalid."
+              "type": "color"
             }
           },
           "info": {
             "bg": {
               "value": "{sjs2.color.bg.note.secondary}",
-              "type": "color",
-              "description": "Information message background color."
+              "type": "color"
             },
             "icon": {
               "value": "{sjs2.color.fg.note.primary}",
-              "type": "color",
-              "description": "Information message background color."
+              "type": "color"
             },
             "text": {
               "value": "{sjs2.color.fg.basic.primary}",
-              "type": "color",
-              "description": "Information message background color."
+              "type": "color"
             }
           }
         },
@@ -2527,7 +2461,7 @@
               "type": "color"
             },
             "thumb": {
-              "value": "{sjs2.color.bg.basic.primary}",
+              "value": "{sjs2.color.bg.neutral.primary}",
               "type": "color"
             },
             "dot": {
@@ -2545,7 +2479,7 @@
               "type": "color"
             },
             "thumb": {
-              "value": "{sjs2.color.bg.basic.primary}",
+              "value": "{sjs2.color.bg.basic.secondary}",
               "type": "color"
             },
             "dot": {
@@ -2563,7 +2497,7 @@
               "type": "color"
             },
             "thumb": {
-              "value": "{sjs2.color.bg.basic.primary}",
+              "value": "{sjs2.color.bg.basic.secondary}",
               "type": "color"
             },
             "dot": {
@@ -2581,7 +2515,7 @@
               "type": "color"
             },
             "thumb": {
-              "value": "{sjs2.color.bg.basic.primary}",
+              "value": "{sjs2.color.bg.neutral.primary}",
               "type": "color"
             },
             "dot": {
@@ -2599,7 +2533,7 @@
               "type": "color"
             },
             "thumb": {
-              "value": "{sjs2.color.bg.basic.primary}",
+              "value": "{sjs2.color.bg.neutral.primary}",
               "type": "color"
             },
             "dot": {
@@ -2617,11 +2551,11 @@
               "type": "color"
             },
             "thumb": {
-              "value": "{sjs2.color.bg.basic.primary}",
+              "value": "{sjs2.color.bg.neutral.primary}",
               "type": "color"
             },
             "dot": {
-              "value": "{sjs2.color.bg.basic.primary}",
+              "value": "{sjs2.color.bg.neutral.primary}",
               "type": "color"
             }
           },
@@ -3059,11 +2993,11 @@
     "border-spread": {
       "form": {
         "default": {
-          "value": "0",
+          "value": "{sjs2.border-width.x100}",
           "type": "number"
         },
         "hovered": {
-          "value": "0",
+          "value": "{sjs2.border-width.x100}",
           "type": "number"
         },
         "pressed": {
@@ -3095,7 +3029,7 @@
           "type": "number"
         },
         "design": {
-          "value": "0",
+          "value": "{sjs2.border-width.x100}",
           "type": "number"
         }
       },
@@ -3135,11 +3069,11 @@
           "type": "number"
         },
         "hovered": {
-          "value": "{sjs2.border-width.x200}",
+          "value": "{sjs2.border-width.x100}",
           "type": "number"
         },
         "pressed": {
-          "value": "{sjs2.border-width.x200}",
+          "value": "{sjs2.border-width.x100}",
           "type": "number"
         },
         "focused": {
@@ -3151,7 +3085,7 @@
           "type": "number"
         },
         "dragging": {
-          "value": "{sjs2.border-width.x400}",
+          "value": "4",
           "type": "number"
         }
       },
@@ -3165,11 +3099,11 @@
     "border-blur": {
       "form": {
         "default": {
-          "value": "2",
+          "value": "0",
           "type": "number"
         },
         "hovered": {
-          "value": "2",
+          "value": "0",
           "type": "number"
         },
         "pressed": {
@@ -3201,17 +3135,17 @@
           "type": "number"
         },
         "design": {
-          "value": "2",
+          "value": "0",
           "type": "number"
         }
       },
       "trigger": {
         "default": {
-          "value": "2",
+          "value": "0",
           "type": "number"
         },
         "hovered": {
-          "value": "2",
+          "value": "0",
           "type": "number"
         },
         "pressed": {
@@ -3223,7 +3157,7 @@
           "type": "number"
         },
         "design": {
-          "value": "2",
+          "value": "0",
           "type": "number"
         },
         "readonly": {
@@ -3237,7 +3171,7 @@
       },
       "surface": {
         "default": {
-          "value": "4",
+          "value": "0",
           "type": "number"
         },
         "hovered": {
@@ -3257,13 +3191,13 @@
           "type": "number"
         },
         "dragging": {
-          "value": "12",
+          "value": "0",
           "type": "number"
         }
       },
       "floating": {
         "default": {
-          "value": "20",
+          "value": "12",
           "type": "number"
         }
       }
@@ -3378,11 +3312,11 @@
       "y": {
         "form": {
           "default": {
-            "value": "1",
+            "value": "0",
             "type": "number"
           },
           "hovered": {
-            "value": "1",
+            "value": "0",
             "type": "number"
           },
           "pressed": {
@@ -3414,17 +3348,17 @@
             "type": "number"
           },
           "design": {
-            "value": "1",
+            "value": "0",
             "type": "number"
           }
         },
         "trigger": {
           "default": {
-            "value": "1",
+            "value": "0",
             "type": "number"
           },
           "hovered": {
-            "value": "1",
+            "value": "0",
             "type": "number"
           },
           "pressed": {
@@ -3436,7 +3370,7 @@
             "type": "number"
           },
           "design": {
-            "value": "1",
+            "value": "0",
             "type": "number"
           },
           "readonly": {
@@ -3450,7 +3384,7 @@
         },
         "surface": {
           "default": {
-            "value": "2",
+            "value": "0",
             "type": "number"
           },
           "hovered": {
@@ -3470,7 +3404,7 @@
             "type": "number"
           },
           "dragging": {
-            "value": "6",
+            "value": "0",
             "type": "number"
           }
         },
@@ -4011,7 +3945,7 @@
                 "blur": "{sjs2.border-blur.trigger.default}",
                 "spread": "{sjs2.border-spread.trigger.default}",
                 "color": "{sjs2.color.component.tagbox-item.default.border}",
-                "type": "dropShadow"
+                "type": "innerShadow"
               },
               {
                 "x": "0",
@@ -4019,7 +3953,7 @@
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
-                "type": "innerShadow"
+                "type": "dropShadow"
               }
             ],
             "type": "boxShadow"
@@ -4032,7 +3966,7 @@
                 "blur": "{sjs2.border-blur.trigger.hovered}",
                 "spread": "{sjs2.border-spread.trigger.hovered}",
                 "color": "{sjs2.color.component.tagbox-item.hovered.border}",
-                "type": "dropShadow"
+                "type": "innerShadow"
               },
               {
                 "x": "0",
@@ -4040,7 +3974,7 @@
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
-                "type": "innerShadow"
+                "type": "dropShadow"
               }
             ],
             "type": "boxShadow"
@@ -4053,7 +3987,7 @@
                 "blur": "{sjs2.border-blur.trigger.disabled}",
                 "spread": "{sjs2.border-spread.trigger.disabled}",
                 "color": "{sjs2.color.component.tagbox-item.disabled.border}",
-                "type": "dropShadow"
+                "type": "innerShadow"
               },
               {
                 "x": "0",
@@ -4061,7 +3995,7 @@
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
-                "type": "innerShadow"
+                "type": "dropShadow"
               }
             ],
             "type": "boxShadow"
@@ -4074,7 +4008,7 @@
                 "blur": "{sjs2.border-blur.trigger.readonly}",
                 "spread": "{sjs2.border-spread.trigger.readonly}",
                 "color": "{sjs2.color.component.tagbox-item.readonly.border}",
-                "type": "dropShadow"
+                "type": "innerShadow"
               },
               {
                 "x": "0",
@@ -4082,7 +4016,7 @@
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
-                "type": "innerShadow"
+                "type": "dropShadow"
               }
             ],
             "type": "boxShadow"
@@ -4098,7 +4032,7 @@
                   "blur": "{sjs2.border-blur.trigger.default}",
                   "spread": "{sjs2.border-spread.trigger.default}",
                   "color": "{sjs2.color.component.buttongroup-item.false.default.border}",
-                  "type": "dropShadow"
+                  "type": "innerShadow"
                 },
                 {
                   "x": "0",
@@ -4106,7 +4040,7 @@
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
-                  "type": "innerShadow"
+                  "type": "dropShadow"
                 }
               ],
               "type": "boxShadow"
@@ -4119,7 +4053,7 @@
                   "blur": "{sjs2.border-blur.trigger.hovered}",
                   "spread": "{sjs2.border-spread.trigger.hovered}",
                   "color": "{sjs2.color.component.buttongroup-item.false.hovered.border}",
-                  "type": "dropShadow"
+                  "type": "innerShadow"
                 },
                 {
                   "x": "0",
@@ -4127,7 +4061,7 @@
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
-                  "type": "innerShadow"
+                  "type": "dropShadow"
                 }
               ],
               "type": "boxShadow"
@@ -4140,7 +4074,7 @@
                   "blur": "{sjs2.border-blur.trigger.disabled}",
                   "spread": "{sjs2.border-spread.trigger.disabled}",
                   "color": "{sjs2.color.component.buttongroup-item.false.disabled.border}",
-                  "type": "dropShadow"
+                  "type": "innerShadow"
                 },
                 {
                   "x": "0",
@@ -4148,7 +4082,7 @@
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
-                  "type": "innerShadow"
+                  "type": "dropShadow"
                 }
               ],
               "type": "boxShadow"
@@ -4161,7 +4095,7 @@
                   "blur": "{sjs2.border-blur.trigger.readonly}",
                   "spread": "{sjs2.border-spread.trigger.readonly}",
                   "color": "{sjs2.color.component.buttongroup-item.false.readonly.border}",
-                  "type": "dropShadow"
+                  "type": "innerShadow"
                 },
                 {
                   "x": "0",
@@ -4169,7 +4103,7 @@
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
-                  "type": "innerShadow"
+                  "type": "dropShadow"
                 }
               ],
               "type": "boxShadow"
@@ -4184,7 +4118,7 @@
                   "blur": "{sjs2.border-blur.trigger.default}",
                   "spread": "{sjs2.border-spread.trigger.default}",
                   "color": "{sjs2.color.component.buttongroup-item.true.default.border}",
-                  "type": "dropShadow"
+                  "type": "innerShadow"
                 },
                 {
                   "x": "0",
@@ -4192,7 +4126,7 @@
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
-                  "type": "innerShadow"
+                  "type": "dropShadow"
                 }
               ],
               "type": "boxShadow"
@@ -4205,7 +4139,7 @@
                   "blur": "{sjs2.border-blur.trigger.disabled}",
                   "spread": "{sjs2.border-spread.trigger.disabled}",
                   "color": "{sjs2.color.component.buttongroup-item.true.disabled.border}",
-                  "type": "dropShadow"
+                  "type": "innerShadow"
                 },
                 {
                   "x": "0",
@@ -4213,7 +4147,7 @@
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
-                  "type": "innerShadow"
+                  "type": "dropShadow"
                 }
               ],
               "type": "boxShadow"
@@ -4226,7 +4160,7 @@
                   "blur": "{sjs2.border-blur.trigger.readonly}",
                   "spread": "{sjs2.border-spread.trigger.readonly}",
                   "color": "{sjs2.color.component.buttongroup-item.true.readonly.border}",
-                  "type": "dropShadow"
+                  "type": "innerShadow"
                 },
                 {
                   "x": "0",
@@ -4234,7 +4168,7 @@
                   "blur": "0",
                   "spread": "0",
                   "color": "rgba(0,0,0,0)",
-                  "type": "innerShadow"
+                  "type": "dropShadow"
                 }
               ],
               "type": "boxShadow"
@@ -4251,7 +4185,7 @@
                   "blur": "{sjs2.border-blur.trigger.default}",
                   "spread": "{sjs2.border-spread.trigger.default}",
                   "color": "{sjs2.color.component.boolean-item.false.default.border}",
-                  "type": "dropShadow"
+                  "type": "innerShadow"
                 },
                 {
                   "x": "0",
@@ -4272,7 +4206,7 @@
                   "blur": "{sjs2.border-blur.trigger.hovered}",
                   "spread": "{sjs2.border-spread.trigger.hovered}",
                   "color": "{sjs2.color.component.boolean-item.false.hovered.border}",
-                  "type": "dropShadow"
+                  "type": "innerShadow"
                 },
                 {
                   "x": "0",
@@ -4293,7 +4227,7 @@
                   "blur": "{sjs2.border-blur.trigger.disabled}",
                   "spread": "{sjs2.border-spread.trigger.disabled}",
                   "color": "{sjs2.color.component.boolean-item.false.disabled.border}",
-                  "type": "dropShadow"
+                  "type": "innerShadow"
                 },
                 {
                   "x": "0",
@@ -4314,7 +4248,7 @@
                   "blur": "{sjs2.border-blur.trigger.readonly}",
                   "spread": "{sjs2.border-spread.trigger.readonly}",
                   "color": "{sjs2.color.component.boolean-item.false.readonly.border}",
-                  "type": "dropShadow"
+                  "type": "innerShadow"
                 },
                 {
                   "x": "0",
@@ -4337,7 +4271,7 @@
                   "blur": "{sjs2.border-blur.trigger.default}",
                   "spread": "{sjs2.border-spread.trigger.default}",
                   "color": "{sjs2.color.component.boolean-item.true.default.border}",
-                  "type": "dropShadow"
+                  "type": "innerShadow"
                 },
                 {
                   "x": "0",
@@ -4358,7 +4292,7 @@
                   "blur": "{sjs2.border-blur.trigger.disabled}",
                   "spread": "{sjs2.border-spread.trigger.disabled}",
                   "color": "{sjs2.color.component.boolean-item.true.disabled.border}",
-                  "type": "dropShadow"
+                  "type": "innerShadow"
                 },
                 {
                   "x": "0",
@@ -4379,7 +4313,7 @@
                   "blur": "{sjs2.border-blur.trigger.readonly}",
                   "spread": "{sjs2.border-spread.trigger.readonly}",
                   "color": "{sjs2.color.component.boolean-item.true.readonly.border}",
-                  "type": "dropShadow"
+                  "type": "innerShadow"
                 },
                 {
                   "x": "0",

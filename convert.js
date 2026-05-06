@@ -2,24 +2,6 @@ const fs = require('fs');
 const path = require('path');
 // Configuration for theme generation
 
-const booleanPatch = {
-  "--sjs2-border-effect-component-boolean-default": "inset 0px 1px 2px 0px var(--sjs2-color-component-boolean-default-border)",
-  "--sjs2-border-effect-component-boolean-disabled": "inset 0px 0px 0px var(--sjs2-border-width-x100) var(--sjs2-color-component-boolean-disabled-border)",
-  "--sjs2-border-effect-component-boolean-invalid": "inset 0px 0px 0px var(--sjs2-border-width-x100) var(--sjs2-color-component-boolean-invalid-border)",
-  "--sjs2-border-effect-component-boolean-highlighted": "inset 0px 0px 0px var(--sjs2-border-width-x200) var(--sjs2-color-component-boolean-highlighted-border)",
-  "--sjs2-border-effect-component-boolean-readonly": "inset 0px 0px 0px var(--sjs2-border-width-x100) var(--sjs2-color-component-boolean-readonly-border)",
-  "--sjs2-border-effect-component-boolean-design": "inset 0px 1px 2px 0px var(--sjs2-color-component-boolean-design-border)",
-
-  "--sjs2-border-effect-component-boolean-item-false-default": "0px 0px 0px 0px var(--sjs2-color-component-boolean-item-false-default-border)",
-  "--sjs2-border-effect-component-boolean-item-false-disabled": "0px 0px 0px 0px var(--sjs2-color-component-boolean-item-false-disabled-border)",
-  "--sjs2-border-effect-component-boolean-item-false-readonly": "0px 0px 0px 0px var(--sjs2-color-component-boolean-item-false-readonly-border)",
-  "--sjs2-border-effect-component-boolean-item-false-hovered": "0px 0px 0px 0px var(--sjs2-color-component-boolean-item-false-hovered-border)",
-
-  "--sjs2-border-effect-component-boolean-item-true-default": "0px 2px 4px 0px var(--sjs2-color-component-boolean-item-true-default-border)",
-  "--sjs2-border-effect-component-boolean-item-true-disabled": "inset 0px 0px 0px var(--sjs2-border-width-x200) var(--sjs2-color-component-boolean-item-true-disabled-border)",
-  "--sjs2-border-effect-component-boolean-item-true-readonly": "inset 0px 0px 0px var(--sjs2-border-width-x200) var(--sjs2-color-component-boolean-item-true-readonly-border)",
-}
-
 const THEME_CONFIG = [];
 
 const styleThemes = ["default", "soft", "contrast", "monochrome"];
@@ -50,7 +32,6 @@ for (const theme of styleThemes) {
         "typography-themes/default",
         styleTokenPath
       ],
-      patch: {...booleanPatch},
     };
     
     THEME_CONFIG.push(defaultConfig);
@@ -74,13 +55,13 @@ THEME_CONFIG.push(...[
       "style-themes/soft-light"
     ],
     patch: {
-      ...booleanPatch,
       "--sjs2-color-component-boolean-item-false-hovered-value": "rgba(0, 0, 0, 0.45)",
       "--sjs2-color-component-boolean-readonly-border": "transparent",
       "--sjs2-color-component-boolean-item-true-readonly-border": "#161616",
       "--sjs2-color-component-boolean-invalid-border": "rgba(0, 0, 0, 0.15)",
       "--sjs2-base-unit-radius": "4px",
       "--sjs2-color-bg-neutral-tertiary-dim": "#f3f3f3",
+      "--sjs2-color-utility-surface-survey": "#f3f3f3",
       "--sjs2-radius-component-panel": "4px",
       "--sjs2-color-component-action-neutral-tertiary-default-icon": "rgba(from #1C1B20 r g b / calc(1% * 60))",
       "--sjs2-color-component-action-neutral-tertiary-hovered-icon": "#909090",
@@ -119,12 +100,38 @@ THEME_CONFIG.push(...[
       "--sjs2-color-component-check-false-invalid-bg": "rgba(230, 10, 62, .1)",
       "--sjs2-color-component-boolean-invalid-bg": "rgba(230, 10, 62, .1)",
       "--sjs2-border-effect-component-check-false-invalid": "inset 0 1px 2px 0 rgba(0, 0, 0, 0.15)",
-      "--sjs2-border-effect-component-boolean-invalid": "inset 0 1px 2px 0 rgba(0, 0, 0, 0.15)"
-    }
+      "--sjs2-border-effect-component-boolean-invalid": "inset 0 1px 2px 0 rgba(0, 0, 0, 0.15)",
+
+      "--sjs2-border-effect-component-boolean-item-false-default": "0px 0px 0px 0px var(--sjs2-color-component-boolean-item-false-default-border)",
+      "--sjs2-border-effect-component-boolean-item-false-disabled": "0px 0px 0px 0px var(--sjs2-color-component-boolean-item-false-disabled-border)",
+      "--sjs2-border-effect-component-boolean-item-false-readonly": "0px 0px 0px 0px var(--sjs2-color-component-boolean-item-false-readonly-border)",
+      "--sjs2-border-effect-component-boolean-item-false-hovered": "0px 0px 0px 0px var(--sjs2-color-component-boolean-item-false-hovered-border)",
+      "--sjs2-border-effect-component-boolean-item-true-default": "0px 2px 4px 0px var(--sjs2-color-component-boolean-item-true-default-border)",
+      "--sjs2-border-effect-component-boolean-item-true-disabled": "inset 0px 0px 0px var(--sjs2-border-width-x200) var(--sjs2-color-component-boolean-item-true-disabled-border)",
+      "--sjs2-border-effect-component-boolean-item-true-readonly": "inset 0px 0px 0px var(--sjs2-border-width-x200) var(--sjs2-color-component-boolean-item-true-readonly-border)",
+    },
+    products: ["survey-library"]
   },
   {
-    objectName: "TestCreator",
-    themeName: "test-creator",
+    objectName: "DefaultLight",
+    themeName: "default",
+    fileName: "default-light",
+    iconSet: "v2",
+    isLight: true,
+    tokenPaths: [
+      "base-unit",
+      "common",
+      "palette",
+      "size-themes/default",
+      "radius-themes/default",
+      "typography-themes/default",
+      "style-themes/soft-light"
+    ],
+    products: ["survey-library"]
+  },
+  {
+    objectName: "Test",
+    themeName: "test",
     iconSet: "v2",
     isLight: true,
     tokenPaths: [
@@ -161,7 +168,8 @@ THEME_CONFIG.push(...[
       "--sjs2-radius-component-modal": "16px",
       "--sjs2-color-component-toggle-false-default-thumb": "#000000BF",
       "--sjs2-color-component-toggle-false-hovered-thumb": "#000000BF",
-    }
+    },
+    products: ["survey-creator"]
   }
 ]);
 

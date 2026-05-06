@@ -13,7 +13,10 @@
     "style-themes/default-light",
     "style-themes/default-dark",
     "style-themes/soft-light",
+    "style-themes/soft-dark",
     "style-themes/contrast-light",
-    "style-themes/monochrome-light"
+    "style-themes/contrast-dark",
+    "style-themes/monochrome-light",
+    "style-themes/monochrome-dark"
   ]
 }
