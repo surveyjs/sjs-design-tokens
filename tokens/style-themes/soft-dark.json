@@ -3103,7 +3103,7 @@
           "type": "number"
         },
         "hovered": {
-          "value": 2,
+          "value": 4,
           "type": "number"
         },
         "pressed": {
@@ -3135,7 +3135,7 @@
           "type": "number"
         },
         "design": {
-          "value": 2,
+          "value": 4,
           "type": "number"
         }
       },
