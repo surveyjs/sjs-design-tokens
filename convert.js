@@ -24,6 +24,7 @@ const THEME_CONFIG = [
       "--sjs2-color-component-boolean-invalid-border": "rgba(0, 0, 0, 0.15)",
       "--sjs2-base-unit-radius": "4px",
       "--sjs2-color-bg-neutral-tertiary-dim": "#f3f3f3",
+      "--sjs2-color-utility-surface-survey": "#f3f3f3",
       "--sjs2-radius-component-panel": "4px",
       "--sjs2-color-component-action-neutral-tertiary-default-icon": "rgba(from #1C1B20 r g b / calc(1% * 60))",
       "--sjs2-color-component-action-neutral-tertiary-hovered-icon": "#909090",
@@ -62,7 +63,15 @@ const THEME_CONFIG = [
       "--sjs2-color-component-check-false-invalid-bg": "rgba(230, 10, 62, .1)",
       "--sjs2-color-component-boolean-invalid-bg": "rgba(230, 10, 62, .1)",
       "--sjs2-border-effect-component-check-false-invalid": "inset 0 1px 2px 0 rgba(0, 0, 0, 0.15)",
-      "--sjs2-border-effect-component-boolean-invalid": "inset 0 1px 2px 0 rgba(0, 0, 0, 0.15)"
+      "--sjs2-border-effect-component-boolean-invalid": "inset 0 1px 2px 0 rgba(0, 0, 0, 0.15)",
+
+      "--sjs2-border-effect-component-boolean-item-false-default": "0px 0px 0px 0px var(--sjs2-color-component-boolean-item-false-default-border)",
+      "--sjs2-border-effect-component-boolean-item-false-disabled": "0px 0px 0px 0px var(--sjs2-color-component-boolean-item-false-disabled-border)",
+      "--sjs2-border-effect-component-boolean-item-false-readonly": "0px 0px 0px 0px var(--sjs2-color-component-boolean-item-false-readonly-border)",
+      "--sjs2-border-effect-component-boolean-item-false-hovered": "0px 0px 0px 0px var(--sjs2-color-component-boolean-item-false-hovered-border)",
+      "--sjs2-border-effect-component-boolean-item-true-default": "0px 2px 4px 0px var(--sjs2-color-component-boolean-item-true-default-border)",
+      "--sjs2-border-effect-component-boolean-item-true-disabled": "inset 0px 0px 0px var(--sjs2-border-width-x200) var(--sjs2-color-component-boolean-item-true-disabled-border)",
+      "--sjs2-border-effect-component-boolean-item-true-readonly": "inset 0px 0px 0px var(--sjs2-border-width-x200) var(--sjs2-color-component-boolean-item-true-readonly-border)",
     },
     products: ["survey-library"]
   },
