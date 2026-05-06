@@ -592,6 +592,13 @@ function createTypeScriptFiles() {
     return THEME_CONFIG[0];
   }
 
+  function isLightenDarkenModifiedToken(tokenData) {
+    const modify = tokenData?.$extensions?.['studio.tokens']?.modify;
+    if (!modify || typeof modify !== 'object') return false;
+    const t = String(modify.type || '').toLowerCase();
+    return t === 'lighten' || t === 'darken';
+  }
+
   function buildThemeCssVariables(themeConfig) {
     const { tokenPaths } = themeConfig;
 
@@ -618,9 +625,13 @@ function createTypeScriptFiles() {
 
     // Convert tokens to CSS variables
     const cssVariables = {};
+    const modifiedCssVarNames = new Set();
     for (const [tokenName, tokenData] of Object.entries(allThemeTokens)) {
       const cssVarName = tokenToCSSVariable(tokenName);
       if (tokenData.value !== undefined && typeof tokenData.value === "string") {
+        if (isLightenDarkenModifiedToken(tokenData)) {
+          modifiedCssVarNames.add(cssVarName);
+        }
         // Check for color modifications first
         let processedValue = processColorModifications(tokenData);
 
@@ -654,7 +665,10 @@ function createTypeScriptFiles() {
     const patchedCssVariables = { ...sizeProcessedCssVariables, ...patch };
 
     // Add "px" to numeric size values in patched variables as well
-    return addPxToSizeValues(patchedCssVariables);
+    return {
+      cssVariables: addPxToSizeValues(patchedCssVariables),
+      modifiedCssVarNames
+    };
   }
 
   function chunkArray(items, chunkSize) {
@@ -691,10 +705,17 @@ function createTypeScriptFiles() {
   if (!baseThemeConfig) {
     throw new Error('Base theme config not found.');
   }
-  const baseCssVariables = buildThemeCssVariables(baseThemeConfig);
+  const baseBuilt = buildThemeCssVariables(baseThemeConfig);
+  const baseCssVariables = baseBuilt.cssVariables;
+  const baseModifiedCssVarNames = baseBuilt.modifiedCssVarNames;
 
   // Write base theme SCSS file into build/ (chunked to avoid huge selectors)
-  const baseForScssVars = baseCssVariables;
+  const baseForScssVars = { ...baseCssVariables };
+  // Tokens that use studio.tokens.modify (lighten/darken) are emitted as `hsl()/lch() from ... calc(...)`.
+  // Those rules aren't supported in some PostCSS pipelines, so we keep them out of SCSS and put them into TS per-theme.
+  for (const k of baseModifiedCssVarNames) {
+    delete baseForScssVars[k];
+  }
   const baseScssPath = path.join(buildDir, "base-theme.scss");
   fs.writeFileSync(baseScssPath, toRootScss(baseForScssVars, { selector: '.sd-theme-root', chunkSize: 50 }));
   console.log(`Created SCSS file: ${baseScssPath}`);
@@ -704,10 +725,20 @@ function createTypeScriptFiles() {
     const { objectName, themeName, tokenPaths } = themeConfig;
     
     try {
-      const themeCssVariables = buildThemeCssVariables(themeConfig);
+      const built = buildThemeCssVariables(themeConfig);
+      const themeCssVariables = built.cssVariables;
+      const modifiedCssVarNames = built.modifiedCssVarNames;
 
       const isBase = themeConfig === baseThemeConfig;
+      // For base theme we usually emit nothing (it comes from base-theme.scss),
+      // but modified tokens must be emitted per-theme even if equal to base.
       const finalCssVariables = isBase ? {} : diffCssVariables(themeCssVariables, baseCssVariables);
+      for (const k of modifiedCssVarNames) {
+        // Always include modified tokens in TS theme output, even if equal to base.
+        if (k in themeCssVariables) {
+          finalCssVariables[k] = themeCssVariables[k];
+        }
+      }
 
       const outputObject = {
         themeName: themeName,
