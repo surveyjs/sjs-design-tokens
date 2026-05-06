@@ -101,7 +101,7 @@ THEME_CONFIG.push(...[
       "--sjs2-color-component-boolean-invalid-bg": "rgba(230, 10, 62, .1)",
       "--sjs2-border-effect-component-check-false-invalid": "inset 0 1px 2px 0 rgba(0, 0, 0, 0.15)",
       "--sjs2-border-effect-component-boolean-invalid": "inset 0 1px 2px 0 rgba(0, 0, 0, 0.15)",
-
+      "--sjs2-color-component-header-default-title": "#19b394",
       "--sjs2-border-effect-component-boolean-item-false-default": "0px 0px 0px 0px var(--sjs2-color-component-boolean-item-false-default-border)",
       "--sjs2-border-effect-component-boolean-item-false-disabled": "0px 0px 0px 0px var(--sjs2-color-component-boolean-item-false-disabled-border)",
       "--sjs2-border-effect-component-boolean-item-false-readonly": "0px 0px 0px 0px var(--sjs2-color-component-boolean-item-false-readonly-border)",
