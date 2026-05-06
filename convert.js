@@ -109,29 +109,11 @@ THEME_CONFIG.push(...[
       "--sjs2-border-effect-component-boolean-item-true-default": "0px 2px 4px 0px var(--sjs2-color-component-boolean-item-true-default-border)",
       "--sjs2-border-effect-component-boolean-item-true-disabled": "inset 0px 0px 0px var(--sjs2-border-width-x200) var(--sjs2-color-component-boolean-item-true-disabled-border)",
       "--sjs2-border-effect-component-boolean-item-true-readonly": "inset 0px 0px 0px var(--sjs2-border-width-x200) var(--sjs2-color-component-boolean-item-true-readonly-border)",
-    },
-    products: ["survey-library"]
+    }
   },
   {
-    objectName: "DefaultLight",
-    themeName: "default",
-    fileName: "default-light",
-    iconSet: "v2",
-    isLight: true,
-    tokenPaths: [
-      "base-unit",
-      "common",
-      "palette",
-      "size-themes/default",
-      "radius-themes/default",
-      "typography-themes/default",
-      "style-themes/soft-light"
-    ],
-    products: ["survey-library"]
-  },
-  {
-    objectName: "Test",
-    themeName: "test",
+    objectName: "TestCreator",
+    themeName: "test-creator",
     iconSet: "v2",
     isLight: true,
     tokenPaths: [
@@ -168,8 +150,7 @@ THEME_CONFIG.push(...[
       "--sjs2-radius-component-modal": "16px",
       "--sjs2-color-component-toggle-false-default-thumb": "#000000BF",
       "--sjs2-color-component-toggle-false-hovered-thumb": "#000000BF",
-    },
-    products: ["survey-creator"]
+    }
   }
 ]);
 
