@@ -135,7 +135,7 @@
         "shadow": {
           "trigger": {
             "default": {
-              "value": "{sjs2.color.border.basic.secondary}",
+              "value": "{sjs2.color.border.neutral.primary}",
               "type": "color"
             },
             "hovered": {
@@ -165,7 +165,7 @@
           },
           "surface": {
             "default": {
-              "value": "{sjs2.color.border.basic.secondary}",
+              "value": "{sjs2.color.border.neutral.primary}",
               "type": "color"
             },
             "hovered": {
@@ -191,7 +191,7 @@
           },
           "floating": {
             "default": {
-              "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x060} )",
+              "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x075} )",
               "type": "color"
             }
           }
@@ -611,7 +611,7 @@
         },
         "neutral": {
           "primary": {
-            "value": "{sjs2.palette.gray.950}",
+            "value": "{sjs2.palette.gray.999}",
             "type": "color"
           },
           "on-primary": {
@@ -3099,7 +3099,7 @@
     "border-blur": {
       "form": {
         "default": {
-          "value": 2,
+          "value": 4,
           "type": "number"
         },
         "hovered": {
@@ -3141,7 +3141,7 @@
       },
       "trigger": {
         "default": {
-          "value": 2,
+          "value": 4,
           "type": "number"
         },
         "hovered": {
@@ -3171,7 +3171,7 @@
       },
       "surface": {
         "default": {
-          "value": 4,
+          "value": 8,
           "type": "number"
         },
         "hovered": {
@@ -3384,7 +3384,7 @@
         },
         "surface": {
           "default": {
-            "value": 2,
+            "value": 4,
             "type": "number"
           },
           "hovered": {
