@@ -611,7 +611,7 @@
         },
         "neutral": {
           "primary": {
-            "value": "{sjs2.palette.gray.900}",
+            "value": "{sjs2.palette.gray.950}",
             "type": "color"
           },
           "on-primary": {
@@ -1926,7 +1926,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{sjs2.color.border.basic.secondary}",
+              "value": "{sjs2.color.border.neutral.primary}",
               "type": "color"
             }
           },
@@ -1986,7 +1986,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{sjs2.color.border.basic.secondary}",
+              "value": "{sjs2.color.border.neutral.primary}",
               "type": "color"
             }
           },
@@ -1996,7 +1996,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{sjs2.color.border.basic.secondary}",
+              "value": "{sjs2.color.border.neutral.primary}",
               "type": "color"
             }
           },
@@ -2185,7 +2185,7 @@
                 "type": "color"
               },
               "border": {
-                "value": "{sjs2.color.border.basic.secondary}",
+                "value": "{sjs2.color.border.neutral.primary}",
                 "type": "color"
               }
             },
@@ -2215,7 +2215,7 @@
                 "type": "color"
               },
               "border": {
-                "value": "{sjs2.color.border.basic.secondary}",
+                "value": "{sjs2.color.border.neutral.primary}",
                 "type": "color"
               }
             },
@@ -2225,7 +2225,7 @@
                 "type": "color"
               },
               "border": {
-                "value": "{sjs2.color.border.basic.secondary}",
+                "value": "{sjs2.color.border.neutral.primary}",
                 "type": "color"
               }
             },
@@ -2310,7 +2310,7 @@
                 "type": "color"
               },
               "border": {
-                "value": "{sjs2.color.border.basic.secondary}",
+                "value": "{sjs2.color.border.neutral.primary}",
                 "type": "color"
               },
               "thumb": {
@@ -2352,7 +2352,7 @@
                 "type": "color"
               },
               "border": {
-                "value": "{sjs2.color.border.basic.secondary}",
+                "value": "{sjs2.color.border.neutral.primary}",
                 "type": "color"
               },
               "thumb": {
@@ -2724,7 +2724,7 @@
                 "type": "color"
               },
               "border": {
-                "value": "{sjs2.color.border.basic.secondary}",
+                "value": "{sjs2.color.border.neutral.primary}",
                 "type": "color"
               },
               "value": {
@@ -2754,7 +2754,7 @@
                 "type": "color"
               },
               "border": {
-                "value": "{sjs2.color.border.basic.secondary}",
+                "value": "{sjs2.color.border.neutral.primary}",
                 "type": "color"
               },
               "value": {
@@ -2799,7 +2799,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{sjs2.color.border.basic.secondary}",
+              "value": "{sjs2.color.border.neutral.primary}",
               "type": "color"
             }
           },
@@ -2849,7 +2849,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{sjs2.color.border.basic.secondary}",
+              "value": "{sjs2.color.border.neutral.primary}",
               "type": "color"
             }
           }
@@ -2861,7 +2861,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{sjs2.color.border.basic.secondary}",
+              "value": "{sjs2.color.border.neutral.primary}",
               "type": "color"
             },
             "label": {
@@ -2883,7 +2883,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{sjs2.color.border.basic.secondary}",
+              "value": "{sjs2.color.border.neutral.primary}",
               "type": "color"
             },
             "label": {
