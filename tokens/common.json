@@ -55,6 +55,10 @@
         "value": "{sjs2.base-unit.size} * 1",
         "type": "sizing"
       },
+      "x125": {
+        "value": "{sjs2.base-unit.size} * 1.25",
+        "type": "sizing"
+      },
       "x150": {
         "value": "{sjs2.base-unit.size} * 1.50",
         "type": "sizing"
@@ -211,6 +215,10 @@
         "value": "{sjs2.base-unit.spacing} * 1",
         "type": "spacing"
       },
+      "x125": {
+        "value": "{sjs2.base-unit.spacing} * 1.25",
+        "type": "spacing"
+      },
       "x150": {
         "value": "{sjs2.base-unit.spacing} * 1.5",
         "type": "spacing"
@@ -266,6 +274,10 @@
         },
         "x100": {
           "value": "{sjs2.base-unit.spacing} * -1",
+          "type": "spacing"
+        },
+        "x125": {
+          "value": "{sjs2.base-unit.spacing} * -1.25",
           "type": "spacing"
         },
         "x150": {
