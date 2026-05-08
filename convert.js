@@ -43,6 +43,7 @@ THEME_CONFIG.push(...[
   {
     objectName: "Test",
     themeName: "test",
+    //exportAll: true,
     iconSet: "v2",
     isLight: true,
     tokenPaths: [
@@ -114,6 +115,7 @@ THEME_CONFIG.push(...[
   {
     objectName: "TestCreator",
     themeName: "test-creator",
+    //exportAll: true,
     iconSet: "v2",
     isLight: true,
     tokenPaths: [
@@ -732,7 +734,13 @@ function createTypeScriptFiles() {
       const isBase = themeConfig === baseThemeConfig;
       // For base theme we usually emit nothing (it comes from base-theme.scss),
       // but modified tokens must be emitted per-theme even if equal to base.
-      const finalCssVariables = isBase ? {} : diffCssVariables(themeCssVariables, baseCssVariables);
+      let finalCssVariables;
+      if (themeConfig.exportAll) {
+        // Export full theme instead of diff against base.
+        finalCssVariables = { ...themeCssVariables };
+      } else {
+        finalCssVariables = isBase ? {} : diffCssVariables(themeCssVariables, baseCssVariables);
+      }
       for (const k of modifiedCssVarNames) {
         // Always include modified tokens in TS theme output, even if equal to base.
         if (k in themeCssVariables) {
