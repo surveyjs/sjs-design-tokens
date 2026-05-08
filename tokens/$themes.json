@@ -180,7 +180,8 @@
       "sjs2.radius.component.panel-nested": "be05f913b5bc580b0190b3135adc109969010ce6",
       "sjs2.radius.component.modal": "0e53dc8e68c0874763c0dbcb0b08727440095eeb",
       "sjs2.radius.component.notifier": "35bdf267bfdf4bdb3744bdb7ee54e1a6f35f915f",
-      "sjs2.radius.component.tooltip": "f1c0123793fd79588a5cfb5039d624bf0de7bdcd"
+      "sjs2.radius.component.tooltip": "f1c0123793fd79588a5cfb5039d624bf0de7bdcd",
+      "sjs2.radius.component.stepper-item": "62f3fc00d26a31d34d1709b46cdb432992c26a1f"
     },
     "group": "radius-themes"
   },
@@ -223,7 +224,8 @@
       "sjs2.radius.component.panel-nested": "be05f913b5bc580b0190b3135adc109969010ce6",
       "sjs2.radius.component.modal": "0e53dc8e68c0874763c0dbcb0b08727440095eeb",
       "sjs2.radius.component.notifier": "35bdf267bfdf4bdb3744bdb7ee54e1a6f35f915f",
-      "sjs2.radius.component.tooltip": "f1c0123793fd79588a5cfb5039d624bf0de7bdcd"
+      "sjs2.radius.component.tooltip": "f1c0123793fd79588a5cfb5039d624bf0de7bdcd",
+      "sjs2.radius.component.stepper-item": "62f3fc00d26a31d34d1709b46cdb432992c26a1f"
     },
     "group": "radius-themes"
   },
