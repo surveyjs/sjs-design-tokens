@@ -39,7 +39,7 @@ for (const theme of styleThemes) {
   }
 }
 
-THEME_CONFIG.push(...[
+const testThemeConfig = 
   {
     objectName: "Test",
     themeName: "test",
@@ -111,7 +111,9 @@ THEME_CONFIG.push(...[
       "--sjs2-border-effect-component-boolean-item-true-disabled": "inset 0px 0px 0px var(--sjs2-border-width-x200) var(--sjs2-color-component-boolean-item-true-disabled-border)",
       "--sjs2-border-effect-component-boolean-item-true-readonly": "inset 0px 0px 0px var(--sjs2-border-width-x200) var(--sjs2-color-component-boolean-item-true-readonly-border)",
     }
-  },
+  }
+
+const testCreatorThemeConfig = 
   {
     objectName: "TestCreator",
     themeName: "test-creator",
@@ -154,7 +156,67 @@ THEME_CONFIG.push(...[
       "--sjs2-color-component-toggle-false-hovered-thumb": "#000000BF",
     }
   }
-]);
+const testSurfaceThemeConfig = 
+  {
+    ...testThemeConfig,
+    objectName: "TestSurface",
+    themeName: "test-surface",
+    patch: {
+      ...testThemeConfig.patch,
+      ...(() => {
+        const overrideKeys = [
+          "--sjs2-base-unit-size",
+          "--sjs2-color-utility-surface-designer",
+          "--sjs2-color-project-brand-600",
+          "--sjs2-color-bg-brand-secondary",
+          "--sjs2-color-bg-brand-primary-dim",
+          "--sjs2-color-fg-brand-on-primary",
+          "--sjs2-color-fg-brand-primary-disabled",
+          "--sjs2-color-bg-accent-primary",
+          "--sjs2-color-bg-accent-secondary",
+          "--sjs2-color-bg-accent-secondary-dim",
+          "--sjs2-color-fg-accent-on-primary",
+          "--sjs2-color-fg-accent-primary-disabled",
+          "--sjs2-color-bg-basic-primary",
+          "--sjs2-color-bg-basic-primary-dim",
+          "--sjs2-color-fg-basic-primary",
+          "--sjs2-color-fg-basic-secondary",
+          "--sjs2-color-bg-neutral-tertiary-dim",
+          "--sjs2-color-bg-neutral-secondary",
+          "--sjs2-color-fg-neutral-primary",
+          "--sjs2-color-bg-basic-secondary",
+          "--sjs2-color-bg-basic-secondary-dim",
+          "--sjs2-color-component-input-default-line",
+          "--sjs2-color-component-formbox-default-bg",
+          "--sjs2-color-component-check-false-default-bg",
+          "--sjs2-color-border-basic-secondary",
+          "--sjs2-color-border-basic-secondary-overlay",
+          "--sjs2-color-bg-alert-primary",
+          "--sjs2-color-bg-alert-secondary",
+          "--sjs2-color-fg-alert-on-primary",
+          "--sjs2-color-bg-positive-primary",
+          "--sjs2-color-bg-positive-secondary",
+          "--sjs2-color-fg-positive-on-primary",
+          "--sjs2-color-bg-note-primary",
+          "--sjs2-color-bg-note-secondary",
+          "--sjs2-color-fg-note-on-primary",
+          "--sjs2-color-bg-warning-primary",
+          "--sjs2-color-bg-warning-secondary",
+          "--sjs2-color-fg-warning-on-primary"
+        ];
+
+        const fromCreator = testCreatorThemeConfig.patch || {};
+        const picked = {};
+        for (const k of overrideKeys) {
+          if (Object.prototype.hasOwnProperty.call(fromCreator, k)) {
+            picked[k] = fromCreator[k];
+          }
+        }
+        return picked;
+      })(),
+    }
+  }
+THEME_CONFIG.push(...[testThemeConfig, testCreatorThemeConfig, testSurfaceThemeConfig]);
 
 // Cache for storing all tokens
 let allTokensCache = {};
