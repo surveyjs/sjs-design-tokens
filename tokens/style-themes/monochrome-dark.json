@@ -2044,7 +2044,7 @@
           },
           "disabled": {
             "line": {
-              "value": "{sjs2.palette.gray.800}",
+              "value": "{sjs2.color.border.basic.secondary-disabled}",
               "type": "color"
             },
             "value": {
