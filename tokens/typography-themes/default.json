@@ -167,37 +167,37 @@
         "component": {
           "input": {
             "content": {
-              "value": "Open Sans",
+              "value": "{sjs2.typography.font-family.text}",
               "type": "fontFamilies"
             }
           },
           "question": {
             "title": {
-              "value": "Open Sans",
+              "value": "{sjs2.typography.font-family.text}",
               "type": "fontFamilies"
             },
             "description": {
-              "value": "Open Sans",
+              "value": "{sjs2.typography.font-family.text}",
               "type": "fontFamilies"
             }
           },
           "page": {
             "title": {
-              "value": "Open Sans",
+              "value": "{sjs2.typography.font-family.text}",
               "type": "fontFamilies"
             },
             "description": {
-              "value": "Open Sans",
+              "value": "{sjs2.typography.font-family.text}",
               "type": "fontFamilies"
             }
           },
           "header": {
             "title": {
-              "value": "Open Sans",
+              "value": "{sjs2.typography.font-family.text}",
               "type": "fontFamilies"
             },
             "description": {
-              "value": "Open Sans",
+              "value": "{sjs2.typography.font-family.text}",
               "type": "fontFamilies"
             }
           }
@@ -223,37 +223,37 @@
         "component": {
           "input": {
             "content": {
-              "value": "{sjs2.font-size.x200}",
+              "value": "{sjs2.typography.font-size.default}",
               "type": "fontSizes"
             }
           },
           "question": {
             "title": {
-              "value": "{sjs2.font-size.x200}",
+              "value": "{sjs2.typography.font-size.default}",
               "type": "fontSizes"
             },
             "description": {
-              "value": "{sjs2.font-size.x200}",
+              "value": "{sjs2.typography.font-size.default}",
               "type": "fontSizes"
             }
           },
           "page": {
             "title": {
-              "value": "{sjs2.font-size.x300}",
+              "value": "{sjs2.typography.font-size.medium}",
               "type": "fontSizes"
             },
             "description": {
-              "value": "{sjs2.font-size.x200}",
+              "value": "{sjs2.typography.font-size.default}",
               "type": "fontSizes"
             }
           },
           "header": {
             "title": {
-              "value": "{sjs2.font-size.x400}",
+              "value": "{sjs2.typography.font-size.large}",
               "type": "fontSizes"
             },
             "description": {
-              "value": "{sjs2.font-size.x300}",
+              "value": "{sjs2.typography.font-size.medium}",
               "type": "fontSizes"
             }
           }
@@ -279,37 +279,37 @@
         "component": {
           "input": {
             "content": {
-              "value": "{sjs2.line-height.x300}",
+              "value": "{sjs2.typography.line-height.default}",
               "type": "lineHeights"
             }
           },
           "question": {
             "title": {
-              "value": "{sjs2.line-height.x300}",
+              "value": "{sjs2.typography.line-height.default}",
               "type": "lineHeights"
             },
             "description": {
-              "value": "{sjs2.line-height.x300}",
+              "value": "{sjs2.typography.line-height.default}",
               "type": "lineHeights"
             }
           },
           "page": {
             "title": {
-              "value": "{sjs2.line-height.x400}",
+              "value": "{sjs2.typography.line-height.medium}",
               "type": "lineHeights"
             },
             "description": {
-              "value": "{sjs2.line-height.x300}",
+              "value": "{sjs2.typography.line-height.default}",
               "type": "lineHeights"
             }
           },
           "header": {
             "title": {
-              "value": "{sjs2.line-height.x500}",
+              "value": "{sjs2.typography.line-height.large}",
               "type": "lineHeights"
             },
             "description": {
-              "value": "{sjs2.line-height.x400}",
+              "value": "{sjs2.typography.line-height.medium}",
               "type": "lineHeights"
             }
           }
@@ -327,37 +327,37 @@
         "component": {
           "input": {
             "content": {
-              "value": "{sjs2.font-weight.regular}",
+              "value": "{sjs2.typography.font-weight.basic}",
               "type": "fontWeights"
             }
           },
           "question": {
             "title": {
-              "value": "{sjs2.font-weight.semibold}",
+              "value": "{sjs2.typography.font-weight.strong}",
               "type": "fontWeights"
             },
             "description": {
-              "value": "{sjs2.font-weight.regular}",
+              "value": "{sjs2.typography.font-weight.basic}",
               "type": "fontWeights"
             }
           },
           "page": {
             "title": {
-              "value": "{sjs2.font-weight.semibold}",
+              "value": "{sjs2.typography.font-weight.strong}",
               "type": "fontWeights"
             },
             "description": {
-              "value": "{sjs2.font-weight.regular}",
+              "value": "{sjs2.typography.font-weight.basic}",
               "type": "fontWeights"
             }
           },
           "header": {
             "title": {
-              "value": "{sjs2.font-weight.semibold}",
+              "value": "{sjs2.typography.font-weight.strong}",
               "type": "fontWeights"
             },
             "description": {
-              "value": "{sjs2.font-weight.regular}",
+              "value": "{sjs2.typography.font-weight.basic}",
               "type": "fontWeights"
             }
           }
