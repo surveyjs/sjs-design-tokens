@@ -10,7 +10,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "lighten",
-                  "value": "0.1",
+                  "value": "0.2",
                   "space": "hsl"
                 }
               }
