@@ -2,10 +2,48 @@ const fs = require('fs');
 const path = require('path');
 // Configuration for theme generation
 
-const THEME_CONFIG = [
+const THEME_CONFIG = [];
+
+const styleThemes = ["default", "soft", "contrast", "monochrome"];
+const palletes = ["light", "dark"];
+
+for (const theme of styleThemes) {
+  for (const pallete of palletes) {
+    const fileName = `${theme}-${pallete}`;
+    const styleTokenPath = `style-themes/${fileName}`;
+    const styleTokenFilePath = path.join(__dirname, 'tokens', `${styleTokenPath}.json`);
+    if (!fs.existsSync(styleTokenFilePath)) {
+      // Style theme tokens are required for generating the theme.
+      // If missing, skip creating this theme altogether.
+      continue;
+    }
+    const defaultConfig = {
+      themeName: theme,
+      fileName: fileName,
+      isLight: pallete === "light",
+      colorPalette: pallete,
+      tokenPaths: 
+      [
+        "base-unit", 
+        "common", 
+        "palette", 
+        "size-themes/default", 
+        "radius-themes/default", 
+        "typography-themes/default",
+        styleTokenPath
+      ],
+    };
+    
+    THEME_CONFIG.push(defaultConfig);
+    THEME_CONFIG.push({...defaultConfig, fileName: `${fileName}-panelless`, isPanelless: true});
+  }
+}
+
+const testThemeConfig = 
   {
     objectName: "Test",
     themeName: "test",
+    //exportAll: true,
     iconSet: "v2",
     isLight: true,
     tokenPaths: [
@@ -64,7 +102,7 @@ const THEME_CONFIG = [
       "--sjs2-color-component-boolean-invalid-bg": "rgba(230, 10, 62, .1)",
       "--sjs2-border-effect-component-check-false-invalid": "inset 0 1px 2px 0 rgba(0, 0, 0, 0.15)",
       "--sjs2-border-effect-component-boolean-invalid": "inset 0 1px 2px 0 rgba(0, 0, 0, 0.15)",
-
+      "--sjs2-color-component-header-default-title": "#19b394",
       "--sjs2-border-effect-component-boolean-item-false-default": "0px 0px 0px 0px var(--sjs2-color-component-boolean-item-false-default-border)",
       "--sjs2-border-effect-component-boolean-item-false-disabled": "0px 0px 0px 0px var(--sjs2-color-component-boolean-item-false-disabled-border)",
       "--sjs2-border-effect-component-boolean-item-false-readonly": "0px 0px 0px 0px var(--sjs2-color-component-boolean-item-false-readonly-border)",
@@ -72,29 +110,14 @@ const THEME_CONFIG = [
       "--sjs2-border-effect-component-boolean-item-true-default": "0px 2px 4px 0px var(--sjs2-color-component-boolean-item-true-default-border)",
       "--sjs2-border-effect-component-boolean-item-true-disabled": "inset 0px 0px 0px var(--sjs2-border-width-x200) var(--sjs2-color-component-boolean-item-true-disabled-border)",
       "--sjs2-border-effect-component-boolean-item-true-readonly": "inset 0px 0px 0px var(--sjs2-border-width-x200) var(--sjs2-color-component-boolean-item-true-readonly-border)",
-    },
-    products: ["survey-library"]
-  },
+    }
+  }
+
+const testCreatorThemeConfig = 
   {
-    objectName: "DefaultLight",
-    themeName: "default",
-    fileName: "default-light",
-    iconSet: "v2",
-    isLight: true,
-    tokenPaths: [
-      "base-unit",
-      "common",
-      "palette",
-      "size-themes/default",
-      "radius-themes/default",
-      "typography-themes/default",
-      "style-themes/soft-light"
-    ],
-    products: ["survey-library"]
-  },
-  {
-    objectName: "Test",
-    themeName: "test",
+    objectName: "TestCreator",
+    themeName: "test-creator",
+    //exportAll: true,
     iconSet: "v2",
     isLight: true,
     tokenPaths: [
@@ -131,107 +154,69 @@ const THEME_CONFIG = [
       "--sjs2-radius-component-modal": "16px",
       "--sjs2-color-component-toggle-false-default-thumb": "#000000BF",
       "--sjs2-color-component-toggle-false-hovered-thumb": "#000000BF",
-    },
-    products: ["survey-creator"]
-  },
+    }
+  }
+const testSurfaceThemeConfig = 
   {
-    objectName: "DefaultLight",
-    themeName: "default-light",
-    iconSet: "v2",
-    isLight: true,
-    tokenPaths: [
-      "base-unit",
-      "common",
-      "palette",
-      "size-themes/default",
-      "radius-themes/default",
-      "typography-themes/default",
-      "style-themes/default-light"
-    ],
-    products: ["survey-creator"]
-  },
-  {
-    objectName: "DefaultDark",
-    themeName: "default-dark",
-    iconSet: "v2",
-    isLight: false,
-    tokenPaths: [
-      "base-unit",
-      "common",
-      "palette",
-      "size-themes/default",
-      "radius-themes/default",
-      "typography-themes/default",
-      "style-themes/default-dark"
-    ],
-    products: ["survey-creator"]
-  },
-  {
-    objectName: "contrastTheme",
-    themeName: "default-contrast",
-    iconSet: "v2",
-    isLight: true,
-    tokenPaths: [
-      "base-unit",
-      "common",
-      "palette",
-      "size-themes/default",
-      "radius-themes/default",
-      "typography-themes/default",
-      "style-themes/contrast-light"
-    ],
-    products: ["survey-creator"]
-  },
-  {
-    objectName: "SC2020",
-    themeName: "sc2020",
-    iconSet: "v1",
-    isLight: true,
-    tokenPaths: [
-      "base-unit",
-      "common",
-      "palette",
-      "radius-themes/sharp",
-      "typography-themes/default",
-      "style-themes/ctr-2020"
-    ],
-    products: ["survey-creator"]
-  },
-  {
-    objectName: "DefaultLight",
-    themeName: "default-light",
-    iconSet: "v2",
-    isLight: true,
-    tokenPaths: [ 
-      "base-unit",
-      "common",
-      "palette",
-      "size-themes/default",
-      "radius-themes/default",
-      "typography-themes/default",
-      "pdf-layout-themes/compact",
-      "style-themes/pdf-light"
-    ],
-    products: ["survey-pdf"]
-  },
-  {
-    objectName: "SpaciousLight",
-    themeName: "spacious-light",
-    iconSet: "v2",
-    isLight: true,
-    tokenPaths: [ 
-      "base-unit",
-      "common",
-      "palette",
-      "size-themes/default",
-      "radius-themes/default",
-      "typography-themes/default",
-      "pdf-layout-themes/spacious",
-      "style-themes/pdf-light"
-    ],
-    products: ["survey-pdf"]
-  },
-];
+    ...testThemeConfig,
+    objectName: "TestSurface",
+    themeName: "test-surface",
+    patch: {
+      ...testThemeConfig.patch,
+      ...(() => {
+        const overrideKeys = [
+          "--sjs2-base-unit-size",
+          "--sjs2-color-utility-surface-designer",
+          "--sjs2-color-project-brand-600",
+          "--sjs2-color-bg-brand-secondary",
+          "--sjs2-color-bg-brand-primary-dim",
+          "--sjs2-color-fg-brand-on-primary",
+          "--sjs2-color-fg-brand-primary-disabled",
+          "--sjs2-color-bg-accent-primary",
+          "--sjs2-color-bg-accent-secondary",
+          "--sjs2-color-bg-accent-secondary-dim",
+          "--sjs2-color-fg-accent-on-primary",
+          "--sjs2-color-fg-accent-primary-disabled",
+          "--sjs2-color-bg-basic-primary",
+          "--sjs2-color-bg-basic-primary-dim",
+          "--sjs2-color-fg-basic-primary",
+          "--sjs2-color-fg-basic-secondary",
+          "--sjs2-color-bg-neutral-tertiary-dim",
+          "--sjs2-color-bg-neutral-secondary",
+          "--sjs2-color-fg-neutral-primary",
+          "--sjs2-color-bg-basic-secondary",
+          "--sjs2-color-bg-basic-secondary-dim",
+          "--sjs2-color-component-input-default-line",
+          "--sjs2-color-component-formbox-default-bg",
+          "--sjs2-color-component-check-false-default-bg",
+          "--sjs2-color-border-basic-secondary",
+          "--sjs2-color-border-basic-secondary-overlay",
+          "--sjs2-color-bg-alert-primary",
+          "--sjs2-color-bg-alert-secondary",
+          "--sjs2-color-fg-alert-on-primary",
+          "--sjs2-color-bg-positive-primary",
+          "--sjs2-color-bg-positive-secondary",
+          "--sjs2-color-fg-positive-on-primary",
+          "--sjs2-color-bg-note-primary",
+          "--sjs2-color-bg-note-secondary",
+          "--sjs2-color-fg-note-on-primary",
+          "--sjs2-color-bg-warning-primary",
+          "--sjs2-color-bg-warning-secondary",
+          "--sjs2-color-fg-warning-on-primary"
+        ];
+
+        const fromCreator = testCreatorThemeConfig.patch || {};
+        const picked = {};
+        for (const k of overrideKeys) {
+          if (Object.prototype.hasOwnProperty.call(fromCreator, k)) {
+            picked[k] = fromCreator[k];
+          }
+        }
+        return picked;
+      })(),
+    }
+  }
+THEME_CONFIG.push(...[testThemeConfig, testCreatorThemeConfig, testSurfaceThemeConfig]);
 
 // Cache for storing all tokens
 let allTokensCache = {};
@@ -664,100 +649,189 @@ function createTypeScriptFiles() {
   
   // Load all tokens into cache
   allTokensCache = loadAllTokens();
+
+  function getBaseThemeConfig() {
+    // One common base for all themes so they stay compatible.
+    // Prefer DefaultLight + style-themes/default-light.
+    return THEME_CONFIG[0];
+  }
+
+  function isLightenDarkenModifiedToken(tokenData) {
+    const modify = tokenData?.$extensions?.['studio.tokens']?.modify;
+    if (!modify || typeof modify !== 'object') return false;
+    const t = String(modify.type || '').toLowerCase();
+    return t === 'lighten' || t === 'darken';
+  }
+
+  function buildThemeCssVariables(themeConfig) {
+    const { tokenPaths } = themeConfig;
+
+    // Collect all tokens for this theme
+    const allThemeTokens = {};
+
+    for (const tokenPath of tokenPaths) {
+      const tokenFilePath = path.join(tokensDir, `${tokenPath}.json`);
+
+      if (!fs.existsSync(tokenFilePath)) {
+        console.warn(`Token file not found: ${tokenFilePath}`);
+        continue;
+      }
+
+      const tokenData = JSON.parse(fs.readFileSync(tokenFilePath, 'utf8'));
+      const flattenedTokens = flattenTokens(tokenData);
+
+      // Merge tokens into theme collection
+      Object.assign(allThemeTokens, flattenedTokens);
+    }
+
+    // Make flattened tokens available for shadow component resolution
+    currentThemeFlatTokens = allThemeTokens;
+
+    // Convert tokens to CSS variables
+    const cssVariables = {};
+    const modifiedCssVarNames = new Set();
+    for (const [tokenName, tokenData] of Object.entries(allThemeTokens)) {
+      const cssVarName = tokenToCSSVariable(tokenName);
+      if (tokenData.value !== undefined && typeof tokenData.value === "string") {
+        if (isLightenDarkenModifiedToken(tokenData)) {
+          modifiedCssVarNames.add(cssVarName);
+        }
+        // Check for color modifications first
+        let processedValue = processColorModifications(tokenData);
+
+        // If no modifications were applied, use the original value
+        if (processedValue === tokenData.value) {
+          processedValue = evaluateTokenValue(tokenData.value, tokenData.type);
+        }
+
+        cssVariables[cssVarName] = processedValue;
+      } else if (tokenData.value !== undefined && Array.isArray(tokenData.value)) {
+        // Array of shadows (boxShadow) -> single CSS box-shadow value
+        cssVariables[cssVarName] = evaluateTokenValue(tokenData.value, tokenData.type);
+      }
+    }
+
+    // Remove shadow component variables (their values are inlined into border-effect)
+    for (const key of Object.keys(cssVariables)) {
+      if (isShadowComponentCSSVar(key)) {
+        delete cssVariables[key];
+      }
+    }
+
+    // Filter complex objects
+    const filteredCssVariables = filterComplexTokens(cssVariables);
+
+    // Add "px" to numeric size values
+    const sizeProcessedCssVariables = addPxToSizeValues(filteredCssVariables);
+
+    // patch variables
+    const patch = themeConfig.patch || {};
+    const patchedCssVariables = { ...sizeProcessedCssVariables, ...patch };
+
+    // Add "px" to numeric size values in patched variables as well
+    return {
+      cssVariables: addPxToSizeValues(patchedCssVariables),
+      modifiedCssVarNames
+    };
+  }
+
+  function chunkArray(items, chunkSize) {
+    if (!Array.isArray(items)) return [];
+    if (!Number.isFinite(chunkSize) || chunkSize <= 0) return [items];
+    const chunks = [];
+    for (let i = 0; i < items.length; i += chunkSize) {
+      chunks.push(items.slice(i, i + chunkSize));
+    }
+    return chunks;
+  }
+
+  function toRootScss(cssVariables, { selector = '.sd-theme-root', chunkSize = 50 } = {}) {
+    const keys = Object.keys(cssVariables).sort();
+    const blocks = chunkArray(keys, chunkSize).map((chunkKeys) => {
+      const lines = chunkKeys.map(k => `  ${k}: ${cssVariables[k]};`);
+      return `${selector} {\n${lines.join('\n')}\n}\n`;
+    });
+    return blocks.join('\n');
+  }
+
+  function diffCssVariables(themeCssVariables, baseCssVariables) {
+    const diff = {};
+    for (const [key, value] of Object.entries(themeCssVariables)) {
+      if (!(key in baseCssVariables) || baseCssVariables[key] !== value) {
+        diff[key] = value;
+      }
+    }
+    return diff;
+  }
+
+  // Compute base theme once (used for diff generation of all themes)
+  const baseThemeConfig = getBaseThemeConfig();
+  if (!baseThemeConfig) {
+    throw new Error('Base theme config not found.');
+  }
+  const baseBuilt = buildThemeCssVariables(baseThemeConfig);
+  const baseCssVariables = baseBuilt.cssVariables;
+  const baseModifiedCssVarNames = baseBuilt.modifiedCssVarNames;
+
+  // Write base theme SCSS file into build/ (chunked to avoid huge selectors)
+  const baseForScssVars = { ...baseCssVariables };
+  // Tokens that use studio.tokens.modify (lighten/darken) are emitted as `hsl()/lch() from ... calc(...)`.
+  // Those rules aren't supported in some PostCSS pipelines, so we keep them out of SCSS and put them into TS per-theme.
+  for (const k of baseModifiedCssVarNames) {
+    delete baseForScssVars[k];
+  }
+  const baseScssPath = path.join(buildDir, "base-theme.scss");
+  fs.writeFileSync(baseScssPath, toRootScss(baseForScssVars, { selector: '.sd-theme-root', chunkSize: 50 }));
+  console.log(`Created SCSS file: ${baseScssPath}`);
   
   // Process each theme configuration
   for (const themeConfig of THEME_CONFIG) {
-    const { objectName, themeName, tokenPaths, products } = themeConfig;
+    const { objectName, themeName, tokenPaths } = themeConfig;
     
     try {
-      // Collect all tokens for this theme
-      const allThemeTokens = {};
-      
-      for (const tokenPath of tokenPaths) {
-        const tokenFilePath = path.join(tokensDir, `${tokenPath}.json`);
-        
-        if (!fs.existsSync(tokenFilePath)) {
-          console.warn(`Token file not found: ${tokenFilePath}`);
-          continue;
-        }
-        
-        const tokenData = JSON.parse(fs.readFileSync(tokenFilePath, 'utf8'));
-        const flattenedTokens = flattenTokens(tokenData);
-        
-        // Merge tokens into theme collection
-        Object.assign(allThemeTokens, flattenedTokens);
-      }
-      
-      // Make flattened tokens available for shadow component resolution
-      currentThemeFlatTokens = allThemeTokens;
-      
-      // Convert tokens to CSS variables
-      const cssVariables = {};
-      for (const [tokenName, tokenData] of Object.entries(allThemeTokens)) {
-        const cssVarName = tokenToCSSVariable(tokenName);
-        if (tokenData.value !== undefined && typeof tokenData.value === "string") {
-          // Check for color modifications first
-          let processedValue = processColorModifications(tokenData);
-          
-          // If no modifications were applied, use the original value
-          if (processedValue === tokenData.value) {
-            processedValue = evaluateTokenValue(tokenData.value, tokenData.type);
-          }
-          
-          cssVariables[cssVarName] = processedValue;
-        } else if (tokenData.value !== undefined && Array.isArray(tokenData.value)) {
-          // Array of shadows (boxShadow) -> single CSS box-shadow value
-          cssVariables[cssVarName] = evaluateTokenValue(tokenData.value, tokenData.type);
-        }
-      }
-      
-      // Remove shadow component variables (their values are inlined into border-effect)
-      for (const key of Object.keys(cssVariables)) {
-        if (isShadowComponentCSSVar(key)) {
-          delete cssVariables[key];
-        }
-      }
-      
-      // Filter complex objects
-      const filteredCssVariables = filterComplexTokens(cssVariables);
-      
-      // Add "px" to numeric size values
-      const sizeProcessedCssVariables = addPxToSizeValues(filteredCssVariables);
-      
-      // patch variables
-      const patch = themeConfig.patch || {};
-      const patchedCssVariables = {...sizeProcessedCssVariables, ...patch};
-      
-      // Add "px" to numeric size values in patched variables as well
-      const finalCssVariables = addPxToSizeValues(patchedCssVariables);
-      
+      const built = buildThemeCssVariables(themeConfig);
+      const themeCssVariables = built.cssVariables;
+      const modifiedCssVarNames = built.modifiedCssVarNames;
 
-      // Create output object
+      const isBase = themeConfig === baseThemeConfig;
+      // For base theme we usually emit nothing (it comes from base-theme.scss),
+      // but modified tokens must be emitted per-theme even if equal to base.
+      let finalCssVariables;
+      if (themeConfig.exportAll) {
+        // Export full theme instead of diff against base.
+        finalCssVariables = { ...themeCssVariables };
+      } else {
+        finalCssVariables = isBase ? {} : diffCssVariables(themeCssVariables, baseCssVariables);
+      }
+      for (const k of modifiedCssVarNames) {
+        // Always include modified tokens in TS theme output, even if equal to base.
+        if (k in themeCssVariables) {
+          finalCssVariables[k] = themeCssVariables[k];
+        }
+      }
+
       const outputObject = {
         themeName: themeName,
         iconSet: themeConfig.iconSet,
-        isLight: themeConfig.isLight,
+        colorPalette: themeConfig.colorPalette,
+        isPanelless: themeConfig.isPanelless,
         cssVariables: finalCssVariables
       };
-      
-      // Generate TypeScript content with embedded data
+
       const tsContent = `// Auto-generated theme: ${themeName}
 export default ${JSON.stringify(outputObject, null, 2)};
 `;
-      
-      // Save to file in each product subdirectory with theme name
-      for (const product of products) {
-        const productDir = path.join(buildDir, product);
-        if (!fs.existsSync(productDir)) {
-          fs.mkdirSync(productDir, { recursive: true });
-        }
-        
-        const outputFileName = (themeConfig.fileName !== undefined ? themeConfig.fileName : themeName) + '.ts';
-        const outputPath = path.join(productDir, outputFileName);
-        fs.writeFileSync(outputPath, tsContent);
-        
-        console.log(`Created TypeScript file: ${outputPath}`);
+
+      const themesDir = path.join(buildDir, "themes");
+      if (!fs.existsSync(themesDir)) {
+        fs.mkdirSync(themesDir, { recursive: true });
       }
+
+      const outputFileName = (themeConfig.fileName !== undefined ? themeConfig.fileName : themeName) + '.ts';
+      const outputPath = path.join(themesDir, outputFileName);
+      fs.writeFileSync(outputPath, tsContent);
+
+      console.log(`Created TypeScript file: ${outputPath}`);
       
     } catch (error) {
       console.error(`Error processing theme ${themeName}:`, error.message);
