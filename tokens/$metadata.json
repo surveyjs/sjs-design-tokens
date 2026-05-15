@@ -17,6 +17,14 @@
     "style-themes/contrast-light",
     "style-themes/contrast-dark",
     "style-themes/monochrome-light",
-    "style-themes/monochrome-dark"
+    "style-themes/monochrome-dark",
+    "style-themes/borderless-light",
+    "style-themes/borderless-dark",
+    "style-themes/flat-light",
+    "style-themes/flat-dark",
+    "style-themes/plain-light",
+    "style-themes/plain-dark",
+    "style-themes/3d-light",
+    "style-themes/3d-dark"
   ]
 }
