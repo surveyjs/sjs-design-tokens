@@ -18,7 +18,7 @@
             "description": "Auto-generated light version of main brand color."
           },
           "600": {
-            "value": "#19B394",
+            "value": "rgba(92, 214, 49, 1)",
             "type": "color",
             "description": "Main brand color of your project."
           },
@@ -54,22 +54,22 @@
       },
       "utility": {
         "body": {
-          "value": "{sjs2.palette.gray.000}",
+          "value": "{sjs2.palette.gray.999}",
           "type": "color",
           "description": "The very basic page background color."
         },
         "sheet": {
-          "value": "{sjs2.palette.gray.000}",
+          "value": "{sjs2.palette.gray.900}",
           "type": "color",
           "description": "Background color for drop, bottomsheet and modal."
         },
         "a11y": {
-          "value": "rgba( {sjs2.palette.blue.400}, {sjs2.opacity.x060} )",
+          "value": "rgba( {sjs2.palette.blue.400}, {sjs2.opacity.x040} )",
           "type": "color",
           "description": "Tab-focus border color."
         },
         "scrollbar": {
-          "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x015} )",
+          "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x015} )",
           "type": "color",
           "description": "Scrollbar color."
         },
@@ -79,33 +79,33 @@
           "description": "Color for overlay behind modal and bottomsheet."
         },
         "toolbox": {
-          "value": "{sjs2.palette.gray.000}",
+          "value": "rgba(48, 48, 48, 1)",
           "type": "color",
           "description": "Background color for Toolbox panel (left panel)."
         },
         "property-grid": {
-          "value": "{sjs2.palette.gray.000}",
+          "value": "rgba(48, 48, 48, 1)",
           "type": "color",
           "description": "Background color for Property Grid panel (right panel)."
         },
         "tabs": {
-          "value": "{sjs2.palette.gray.000}",
+          "value": "rgba(48, 48, 48, 1)",
           "type": "color",
           "description": "Background color for Tabs panel (top panel above all)."
         },
         "surface": {
           "survey": {
-            "value": "#1c1b200d",
+            "value": "rgba(36, 36, 36, 1)",
             "type": "color",
             "description": "Surface color for the real Survey on the user's side + Preview & Themes tabs."
           },
           "survey-panelless": {
-            "value": "{sjs2.palette.gray.000}",
+            "value": "rgba(36, 36, 36, 1)",
             "type": "color",
             "description": "Surface color for the real Survey on the user's side + Preview & Themes tabs, panelless."
           },
           "designer": {
-            "value": "#EDF9F7",
+            "value": "#161519",
             "type": "color",
             "description": "Surface color for Designer tab."
           },
@@ -173,7 +173,7 @@
           },
           "surface": {
             "default": {
-              "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x010} )",
+              "value": "{sjs2.color.border.basic.secondary}",
               "type": "color",
               "description": "Shadow (or border effect) color for interactive and non-interactive elements located on surface, state: default."
             },
@@ -198,14 +198,14 @@
               "description": "Shadow (or border effect) color for interactive elements located on surface, state: disabled."
             },
             "dragging": {
-              "value": "rgba( #004C44, {sjs2.opacity.x015} )",
+              "value": "rgba( #004C44, {sjs2.opacity.x010} )",
               "type": "color",
               "description": "Shadow (or border effect) color for interactive elements located on surface, state: dragging."
             }
           },
           "floating": {
             "default": {
-              "value": "rgba( #004C44, {sjs2.opacity.x015} )",
+              "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x060} )",
               "type": "color",
               "description": "Shadow (or border effect) color for floating elements, such as: tooltip, drop, floating button, notifier, ..."
             }
@@ -215,11 +215,11 @@
       "bg": {
         "basic": {
           "primary": {
-            "value": "{sjs2.palette.gray.000}",
+            "value": "rgba(48, 48, 48, 1)",
             "type": "color"
           },
           "secondary": {
-            "value": "{sjs2.palette.gray.100}",
+            "value": "rgba(43, 43, 43, 1)",
             "type": "color"
           },
           "tertiary": {
@@ -227,11 +227,11 @@
             "type": "color"
           },
           "primary-dim": {
-            "value": "{sjs2.palette.gray.100}",
+            "value": "rgba(56, 56, 56, 1)",
             "type": "color"
           },
           "secondary-dim": {
-            "value": "{sjs2.palette.gray.150}",
+            "value": "rgba(52, 52, 52, 1)",
             "type": "color"
           },
           "tertiary-dim": {
@@ -265,7 +265,7 @@
             "type": "color"
           },
           "tertiary-dim": {
-            "value": "rgba( {sjs2.palette.gray.600}, {sjs2.opacity.x010} )",
+            "value": "rgba(36, 36, 36, 1)",
             "type": "color"
           },
           "primary-disabled": {
@@ -279,7 +279,7 @@
             "type": "color"
           },
           "secondary": {
-            "value": "rgba( {sjs2.color.project.brand.600}, {sjs2.opacity.x010} )",
+            "value": "rgba(255, 255, 255, 0.07)",
             "type": "color"
           },
           "tertiary": {
@@ -287,7 +287,7 @@
             "type": "color"
           },
           "primary-dim": {
-            "value": "{sjs2.color.project.brand.700}",
+            "value": "rgba(130, 237, 92, 1)",
             "type": "color"
           },
           "secondary-dim": {
@@ -305,11 +305,11 @@
         },
         "note": {
           "primary": {
-            "value": "{sjs2.palette.blue.600}",
+            "value": "rgba(91, 151, 242, 1)",
             "type": "color"
           },
           "secondary": {
-            "value": "rgba( {sjs2.palette.blue.600}, {sjs2.opacity.x010} )",
+            "value": "rgba(91, 151, 242, 0.1)",
             "type": "color"
           },
           "tertiary": {
@@ -335,11 +335,11 @@
         },
         "positive": {
           "primary": {
-            "value": "{sjs2.palette.green.600}",
+            "value": "rgba(36, 197, 164, 1)",
             "type": "color"
           },
           "secondary": {
-            "value": "rgba( {sjs2.palette.green.600}, {sjs2.opacity.x010} )",
+            "value": "rgba(36, 197, 164, 0.1)",
             "type": "color"
           },
           "tertiary": {
@@ -369,7 +369,7 @@
             "type": "color"
           },
           "secondary": {
-            "value": "rgba( {sjs2.palette.yellow.600}, {sjs2.opacity.x010} )",
+            "value": "rgba(255, 152, 20, 0.1)",
             "type": "color"
           },
           "tertiary": {
@@ -395,11 +395,11 @@
         },
         "alert": {
           "primary": {
-            "value": "{sjs2.palette.red.600}",
+            "value": "rgba(254, 76, 108, 1)",
             "type": "color"
           },
           "secondary": {
-            "value": "rgba( {sjs2.palette.red.600} , {sjs2.opacity.x010} )",
+            "value": "rgba(254, 76, 108, 0.1)",
             "type": "color"
           },
           "tertiary": {
@@ -472,7 +472,7 @@
       "fg": {
         "basic": {
           "primary": {
-            "value": "{sjs2.palette.gray.900}",
+            "value": "rgba(255, 255, 255, 0.78)",
             "type": "color"
           },
           "primary-muted": {
@@ -480,7 +480,7 @@
             "type": "color"
           },
           "secondary": {
-            "value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x060} )",
+            "value": "rgba(255, 255, 255, 0.42)",
             "type": "color"
           },
           "tertiary": {
@@ -528,11 +528,11 @@
             "type": "color"
           },
           "on-primary": {
-            "value": "{sjs2.palette.gray.000}",
+            "value": "rgba(32, 32, 32, 1)",
             "type": "color"
           },
           "primary-disabled": {
-            "value": "rgba( {sjs2.color.fg.neutral.primary}, {sjs2.opacity.x020} )",
+            "value": "rgba(32, 32, 32, 0.25)",
             "type": "color"
           }
         },
@@ -542,7 +542,7 @@
             "type": "color"
           },
           "on-primary": {
-            "value": "{sjs2.palette.gray.000}",
+            "value": "rgba(48, 48, 48, 1)",
             "type": "color"
           },
           "primary-disabled": {
@@ -556,7 +556,7 @@
             "type": "color"
           },
           "on-primary": {
-            "value": "{sjs2.palette.gray.000}",
+            "value": "rgba(48, 48, 48, 1)",
             "type": "color"
           },
           "primary-disabled": {
@@ -570,7 +570,7 @@
             "type": "color"
           },
           "on-primary": {
-            "value": "{sjs2.palette.gray.000}",
+            "value": "rgba(48, 48, 48, 1)",
             "type": "color"
           },
           "primary-disabled": {
@@ -584,7 +584,7 @@
             "type": "color"
           },
           "on-primary": {
-            "value": "{sjs2.palette.gray.000}",
+            "value": "rgba(48, 48, 48, 1)",
             "type": "color"
           },
           "primary-disabled": {
@@ -612,11 +612,11 @@
             "type": "color"
           },
           "secondary": {
-            "value": "{sjs2.palette.gray.250}",
+            "value": "rgba(255, 255, 255, 0.07)",
             "type": "color"
           },
           "secondary-overlay": {
-            "value": "rgba({sjs2.color.border.basic.primary}, {sjs2.opacity.x040})",
+            "value": "rgba(255, 255, 255, 0.08)",
             "type": "color"
           },
           "secondary-disabled": {
@@ -3488,12 +3488,12 @@
           "default": {
             "value": [
               {
-                "x": "{sjs2.border-offset.x.form.default}",
-                "y": "{sjs2.border-offset.y.form.default}",
-                "blur": "{sjs2.border-blur.form.default}",
-                "spread": "{sjs2.border-spread.form.default}",
-                "color": "{sjs2.color.component.formbox.default.border}",
-                "type": "innerShadow"
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "1",
+                "color": "rgba(255, 255, 255, 0.07)",
+                "type": "dropShadow"
               },
               {
                 "x": "0",
@@ -3501,7 +3501,7 @@
                 "blur": "0",
                 "spread": "0",
                 "color": "rgba(0,0,0,0)",
-                "type": "innerShadow"
+                "type": "dropShadow"
               }
             ],
             "type": "boxShadow"
@@ -4676,11 +4676,11 @@
         "default": {
           "value": [
             {
-              "x": "{sjs2.border-offset.x.surface.default}",
-              "y": "{sjs2.border-offset.y.surface.default}",
-              "blur": "{sjs2.border-blur.surface.default}",
-              "spread": "{sjs2.border-spread.surface.default}",
-              "color": "{sjs2.color.utility.shadow.surface.default}",
+              "x": "0",
+              "y": "0",
+              "blur": "0",
+              "spread": "1",
+              "color": "rgba(255, 255, 255, 0.09)",
               "type": "dropShadow"
             },
             {
@@ -4804,11 +4804,27 @@
         "default": {
           "value": [
             {
-              "x": "{sjs2.border-offset.x.floating.default}",
-              "y": "{sjs2.border-offset.y.floating.default}",
-              "blur": "{sjs2.border-blur.floating.default}",
-              "spread": "{sjs2.border-spread.floating.default}",
-              "color": "{sjs2.color.utility.shadow.floating.default}",
+              "x": "0",
+              "y": "0",
+              "blur": "0",
+              "spread": "1",
+              "color": "rgba(255, 255, 255, 0.12)",
+              "type": "dropShadow"
+            },
+            {
+              "x": "0",
+              "y": "2",
+              "blur": "6",
+              "spread": "0",
+              "color": "rgba(0, 0, 0, 0.2)",
+              "type": "dropShadow"
+            },
+            {
+              "x": "0",
+              "y": "8",
+              "blur": "16",
+              "spread": "0",
+              "color": "rgba(0, 0, 0, 0.2)",
               "type": "dropShadow"
             },
             {

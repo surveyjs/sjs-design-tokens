@@ -4,10 +4,11 @@ const path = require('path');
 
 const THEME_CONFIG = [];
 
-const styleThemes = ["default", "soft", "contrast", "monochrome"];
+const styleThemes = ["default", "soft", "contrast", "monochrome", "3d", "borderless", "flat", "plain"];
 const palletes = ["light", "dark"];
 
-for (const theme of styleThemes) {
+for (const themeInList of styleThemes) {
+  const theme = themeInList === "3d" ? "threedimensional" : themeInList;
   for (const pallete of palletes) {
     const fileName = `${theme}-${pallete}`;
     const styleTokenPath = `style-themes/${fileName}`;
