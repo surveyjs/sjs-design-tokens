@@ -1922,7 +1922,7 @@
         "formbox": {
           "default": {
             "bg": {
-              "value": "{sjs2.color.bg.basic.secondary}",
+              "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
             },
             "border": {
@@ -1952,7 +1952,7 @@
           },
           "focused": {
             "bg": {
-              "value": "{sjs2.color.bg.basic.secondary}",
+              "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
             },
             "border": {
@@ -1962,7 +1962,7 @@
           },
           "invalid": {
             "bg": {
-              "value": "{sjs2.color.bg.basic.secondary}",
+              "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
             },
             "border": {
@@ -1972,7 +1972,7 @@
           },
           "highlighted": {
             "bg": {
-              "value": "{sjs2.color.bg.basic.secondary}",
+              "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
             },
             "border": {
@@ -1982,7 +1982,7 @@
           },
           "design": {
             "bg": {
-              "value": "{sjs2.color.bg.basic.secondary}",
+              "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
             },
             "border": {
@@ -1992,7 +1992,7 @@
           },
           "hovered": {
             "bg": {
-              "value": "{sjs2.color.bg.basic.secondary}",
+              "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
             },
             "border": {
@@ -2002,7 +2002,7 @@
           },
           "invalid-focused": {
             "bg": {
-              "value": "{sjs2.color.bg.basic.secondary}",
+              "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
             },
             "border": {
@@ -2181,7 +2181,7 @@
           "false": {
             "default": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.secondary}",
+                "value": "{sjs2.color.bg.basic.primary}",
                 "type": "color"
               },
               "border": {
@@ -2211,7 +2211,7 @@
             },
             "hovered": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.secondary-dim}",
+                "value": "{sjs2.color.bg.basic.primary-dim}",
                 "type": "color"
               },
               "border": {
@@ -2221,7 +2221,7 @@
             },
             "design": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.secondary}",
+                "value": "{sjs2.color.bg.basic.primary}",
                 "type": "color"
               },
               "border": {
@@ -2231,7 +2231,7 @@
             },
             "invalid": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.secondary}",
+                "value": "{sjs2.color.bg.basic.primary}",
                 "type": "color"
               },
               "border": {
