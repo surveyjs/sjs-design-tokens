@@ -472,7 +472,7 @@
       "fg": {
         "basic": {
           "primary": {
-            "value": "rgba(0, 0, 0, 0.91)",
+            "value": "#010915",
             "type": "color"
           },
           "primary-muted": {
@@ -480,7 +480,7 @@
             "type": "color"
           },
           "secondary": {
-            "value": "rgba(133, 154, 186, 1)",
+            "value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x060} )",
             "type": "color"
           },
           "tertiary": {
@@ -616,7 +616,7 @@
             "type": "color"
           },
           "secondary-overlay": {
-            "value": "rgba(0, 0, 0, 0.16)",
+            "value": "rgba(4,7,10,0.16)",
             "type": "color"
           },
           "secondary-disabled": {
@@ -3076,15 +3076,15 @@
     "border-spread": {
       "form": {
         "default": {
-          "value": "{sjs2.border-width.x100}",
+          "value": "{sjs2.border-width.x000}",
           "type": "number"
         },
         "hovered": {
-          "value": "{sjs2.border-width.x100}",
+          "value": "{sjs2.border-width.x000}",
           "type": "number"
         },
         "pressed": {
-          "value": "{sjs2.border-width.x100}",
+          "value": "{sjs2.border-width.x000}",
           "type": "number"
         },
         "focused": {
@@ -3108,11 +3108,11 @@
           "type": "number"
         },
         "readonly": {
-          "value": "{sjs2.border-width.x100}",
+          "value": "{sjs2.border-width.x000}",
           "type": "number"
         },
         "design": {
-          "value": "{sjs2.border-width.x100}",
+          "value": "{sjs2.border-width.x000}",
           "type": "number"
         }
       },
@@ -3148,7 +3148,7 @@
       },
       "surface": {
         "default": {
-          "value": "{sjs2.border-width.x100}",
+          "value": "{sjs2.border-width.x000}",
           "type": "number"
         },
         "hovered": {
@@ -3164,7 +3164,7 @@
           "type": "number"
         },
         "disabled": {
-          "value": "{sjs2.border-width.x100}",
+          "value": "{sjs2.border-width.x000}",
           "type": "number"
         },
         "dragging": {
