@@ -100,7 +100,7 @@
             "description": "Surface color for the real Survey on the user's side + Preview & Themes tabs."
           },
           "survey-panelless": {
-            "value": "rgba(231, 240, 255, 1)",
+            "value": "{sjs2.palette.gray.000}",
             "type": "color",
             "description": "Surface color for the real Survey on the user's side + Preview & Themes tabs, panelless."
           },
