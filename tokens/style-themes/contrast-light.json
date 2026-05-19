@@ -2700,7 +2700,7 @@
                 "type": "color"
               },
               "value": {
-                "value": "{sjs2.palette.gray.250}",
+                "value": "{sjs2.color.fg.basic.secondary-disabled}",
                 "type": "color"
               }
             },
@@ -2714,7 +2714,7 @@
                 "type": "color"
               },
               "value": {
-                "value": "{sjs2.palette.gray.400}",
+                "value": "{sjs2.color.fg.basic.secondary}",
                 "type": "color"
               }
             },
@@ -2772,7 +2772,7 @@
                 "type": "color"
               },
               "value": {
-                "value": "{sjs2.palette.gray.400}",
+                "value": "{sjs2.color.fg.basic.secondary-disabled}",
                 "type": "color"
               }
             },
