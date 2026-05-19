@@ -7424,25 +7424,25 @@
   },
   {
     "id": "f048d02d9aa8499229250789500a34abbd46a979",
-    "name": "3d-light",
+    "name": "threedimensional-light",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "base-unit": "source",
       "common": "source",
       "palette": "source",
-      "style-themes/3d-light": "enabled"
+      "style-themes/threedimensional-light": "enabled"
     },
     "group": "style-themes"
   },
   {
     "id": "233a1e7f2a6e83c65dd293d830d5714dad0681b9",
-    "name": "3d-dark",
+    "name": "threedimensional-dark",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "base-unit": "source",
       "common": "source",
       "palette": "source",
-      "style-themes/3d-dark": "enabled"
+      "style-themes/threedimensional-dark": "enabled"
     },
     "group": "style-themes"
   }
