@@ -56,8 +56,8 @@ function flattenTokens(obj, prefix = '', result = {}) {
       if (typeof value === 'object' && value !== null && typeof value.value !== 'string' && !value.type) {
         // Recursively traverse nested objects
         flattenTokens(value, newPrefix, result);
-      } else if (value && typeof value === 'object' && typeof value.value === 'string') {
-        // This is a token with a value
+      } else if (value && typeof value === 'object' && (typeof value.value === 'string' || typeof value.value === 'number')) {
+        // This is a token with a scalar value (string or number)
         result[newPrefix] = value;
       } else if (value && typeof value === 'object' && Array.isArray(value.value)) {
         // This is a token with array value (e.g. boxShadow - array of shadow objects)
@@ -107,13 +107,16 @@ function isShadowComponentCSSVar(cssVarName) {
 // If the token itself references another shadow component, resolve recursively.
 // Non-shadow references are kept as `{token.path}` for later conversion to var().
 function resolveShadowComponentRef(value) {
+  if (typeof value === 'number') return value;
   if (typeof value !== 'string') return value;
   const refMatch = value.match(/^\{([^}]+)\}$/);
   if (refMatch && isShadowComponentToken(refMatch[1])) {
     const flatKey = refMatch[1].replace(/\./g, '-');
     const token = currentThemeFlatTokens[flatKey];
     if (token && token.value !== undefined) {
-      return resolveShadowComponentRef(String(token.value));
+      const resolved = token.value;
+      if (typeof resolved === 'number') return resolved;
+      return resolveShadowComponentRef(String(resolved));
     }
   }
   return value;
@@ -364,6 +367,12 @@ function processColorModifications(tokenData, visited = new Set()) {
 
 // Function for evaluating token values with recursive reference resolution
 function evaluateTokenValue(value, type, visited = new Set()) {
+  if (typeof value === 'number') {
+    if (type === 'sizing' || type === 'spacing' || type === 'borderRadius' || type === 'borderWidth' || type === 'baseUnit' || type === 'number') {
+      return `${value}px`;
+    }
+    return String(value);
+  }
   if (typeof value === 'string') {
     let processedValue = value;
 
