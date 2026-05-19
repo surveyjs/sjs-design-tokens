@@ -597,7 +597,7 @@
             "type": "color"
           },
           "secondary": {
-            "value": "{sjs2.palette.gray.600}",
+            "value": "{sjs2.palette.gray.400}",
             "type": "color"
           },
           "secondary-overlay": {
@@ -1926,7 +1926,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{sjs2.color.border.basic.primary}",
+              "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
             }
           },
@@ -1946,7 +1946,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{sjs2.color.border.basic.primary}",
+              "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
             }
           },
@@ -1986,7 +1986,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{sjs2.color.border.basic.primary}",
+              "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
             }
           },
@@ -1996,7 +1996,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{sjs2.color.border.basic.primary}",
+              "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
             }
           },
@@ -2185,7 +2185,7 @@
                 "type": "color"
               },
               "border": {
-                "value": "{sjs2.color.border.basic.primary}",
+                "value": "{sjs2.color.border.basic.secondary}",
                 "type": "color"
               }
             },
@@ -2205,7 +2205,7 @@
                 "type": "color"
               },
               "border": {
-                "value": "{sjs2.color.border.basic.primary}",
+                "value": "{sjs2.color.border.basic.secondary}",
                 "type": "color"
               }
             },
@@ -2215,7 +2215,7 @@
                 "type": "color"
               },
               "border": {
-                "value": "{sjs2.color.border.basic.primary}",
+                "value": "{sjs2.color.border.basic.secondary}",
                 "type": "color"
               }
             },
@@ -2225,7 +2225,7 @@
                 "type": "color"
               },
               "border": {
-                "value": "{sjs2.color.border.basic.primary}",
+                "value": "{sjs2.color.border.basic.secondary}",
                 "type": "color"
               }
             },
@@ -2799,7 +2799,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{sjs2.color.border.basic.primary}",
+              "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
             }
           },
@@ -2819,7 +2819,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{sjs2.color.border.basic.primary}",
+              "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
             }
           },
@@ -2849,7 +2849,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{sjs2.color.border.basic.primary}",
+              "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
             }
           }
