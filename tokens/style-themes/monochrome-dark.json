@@ -2448,6 +2448,23 @@
               "value": "{sjs2.color.fg.basic.primary}",
               "type": "color"
             }
+          },
+          "warning": {
+            "bg": {
+              "value": "{sjs2.color.bg.warning.secondary}",
+              "type": "color",
+              "description": "Warning message background color."
+            },
+            "icon": {
+              "value": "{sjs2.color.fg.warning.primary}",
+              "type": "color",
+              "description": "Warning message icon color."
+            },
+            "text": {
+              "value": "{sjs2.color.fg.basic.primary}",
+              "type": "color",
+              "description": "Warning message text color."
+            }
           }
         },
         "slider": {
