@@ -198,14 +198,14 @@
               "description": "Shadow (or border effect) color for interactive elements located on surface, state: disabled."
             },
             "dragging": {
-              "value": "rgba( #004C44, {sjs2.opacity.x015} )",
+              "value": "rgba( {sjs2.color.project.brand.600}, {sjs2.opacity.x015} )",
               "type": "color",
               "description": "Shadow (or border effect) color for interactive elements located on surface, state: dragging."
             }
           },
           "floating": {
             "default": {
-              "value": "rgba( #004C44, {sjs2.opacity.x015} )",
+              "value": "rgba( {sjs2.color.project.brand.600}, {sjs2.opacity.x015} )",
               "type": "color",
               "description": "Shadow (or border effect) color for floating elements, such as: tooltip, drop, floating button, notifier, ..."
             }
