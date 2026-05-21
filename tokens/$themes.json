@@ -784,6 +784,9 @@
       "sjs2.color.component.message.info.bg": "02a84cfcf6aae1bcd05cc7f1355864d3d76113ba",
       "sjs2.color.component.message.info.icon": "42fc9d12116c8d54ac72ffacadefed5e35232d53",
       "sjs2.color.component.message.info.text": "d13d9530ea3f8eb4fe266f0935bb5e002b0f8ae2",
+      "sjs2.color.component.message.warning.bg": "eb55142542b29b0a6c3fa298b65cd3a12c40ac71",
+      "sjs2.color.component.message.warning.icon": "3d3d5e0b65dfc85855bc1f5ddb079a6bd5e81320",
+      "sjs2.color.component.message.warning.text": "0842ec5694ceac793007919d4f1527c7f347e85c",
       "sjs2.color.component.slider.default.bg": "5a7ac4b8dcfee2578859f8ff743fd55117ca7156",
       "sjs2.color.component.slider.default.fg": "788c5e4ff2c95997f3ccb61c320c1c8d32fecff8",
       "sjs2.color.component.slider.default.thumb": "a8c8fb14310495466df4d1939ef1e87bc6db5851",
@@ -989,10 +992,7 @@
       "sjs2.border-offset.y.surface.focused": "8513262dcb73eb738162bbf33cf152b09e2b13fa",
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
-      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
-      "sjs2.color.component.message.warning.bg": "eb55142542b29b0a6c3fa298b65cd3a12c40ac71",
-      "sjs2.color.component.message.warning.icon": "3d3d5e0b65dfc85855bc1f5ddb079a6bd5e81320",
-      "sjs2.color.component.message.warning.text": "0842ec5694ceac793007919d4f1527c7f347e85c"
+      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
     },
     "group": "style-themes"
   },
@@ -1496,6 +1496,9 @@
       "sjs2.color.component.message.info.bg": "02a84cfcf6aae1bcd05cc7f1355864d3d76113ba",
       "sjs2.color.component.message.info.icon": "42fc9d12116c8d54ac72ffacadefed5e35232d53",
       "sjs2.color.component.message.info.text": "d13d9530ea3f8eb4fe266f0935bb5e002b0f8ae2",
+      "sjs2.color.component.message.warning.bg": "eb55142542b29b0a6c3fa298b65cd3a12c40ac71",
+      "sjs2.color.component.message.warning.icon": "3d3d5e0b65dfc85855bc1f5ddb079a6bd5e81320",
+      "sjs2.color.component.message.warning.text": "0842ec5694ceac793007919d4f1527c7f347e85c",
       "sjs2.color.component.slider.default.bg": "5a7ac4b8dcfee2578859f8ff743fd55117ca7156",
       "sjs2.color.component.slider.default.fg": "788c5e4ff2c95997f3ccb61c320c1c8d32fecff8",
       "sjs2.color.component.slider.default.thumb": "a8c8fb14310495466df4d1939ef1e87bc6db5851",
@@ -1701,10 +1704,7 @@
       "sjs2.border-offset.y.surface.focused": "8513262dcb73eb738162bbf33cf152b09e2b13fa",
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
-      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
-      "sjs2.color.component.message.warning.bg": "eb55142542b29b0a6c3fa298b65cd3a12c40ac71",
-      "sjs2.color.component.message.warning.icon": "3d3d5e0b65dfc85855bc1f5ddb079a6bd5e81320",
-      "sjs2.color.component.message.warning.text": "0842ec5694ceac793007919d4f1527c7f347e85c"
+      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
     },
     "group": "style-themes"
   },
@@ -2208,6 +2208,9 @@
       "sjs2.color.component.message.info.bg": "02a84cfcf6aae1bcd05cc7f1355864d3d76113ba",
       "sjs2.color.component.message.info.icon": "42fc9d12116c8d54ac72ffacadefed5e35232d53",
       "sjs2.color.component.message.info.text": "d13d9530ea3f8eb4fe266f0935bb5e002b0f8ae2",
+      "sjs2.color.component.message.warning.bg": "eb55142542b29b0a6c3fa298b65cd3a12c40ac71",
+      "sjs2.color.component.message.warning.icon": "3d3d5e0b65dfc85855bc1f5ddb079a6bd5e81320",
+      "sjs2.color.component.message.warning.text": "0842ec5694ceac793007919d4f1527c7f347e85c",
       "sjs2.color.component.slider.default.bg": "5a7ac4b8dcfee2578859f8ff743fd55117ca7156",
       "sjs2.color.component.slider.default.fg": "788c5e4ff2c95997f3ccb61c320c1c8d32fecff8",
       "sjs2.color.component.slider.default.thumb": "a8c8fb14310495466df4d1939ef1e87bc6db5851",
@@ -2413,10 +2416,7 @@
       "sjs2.border-offset.y.surface.focused": "8513262dcb73eb738162bbf33cf152b09e2b13fa",
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
-      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
-      "sjs2.color.component.message.warning.bg": "eb55142542b29b0a6c3fa298b65cd3a12c40ac71",
-      "sjs2.color.component.message.warning.icon": "3d3d5e0b65dfc85855bc1f5ddb079a6bd5e81320",
-      "sjs2.color.component.message.warning.text": "0842ec5694ceac793007919d4f1527c7f347e85c"
+      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
     },
     "group": "style-themes"
   },
@@ -2921,6 +2921,9 @@
       "sjs2.color.component.message.info.bg": "02a84cfcf6aae1bcd05cc7f1355864d3d76113ba",
       "sjs2.color.component.message.info.icon": "42fc9d12116c8d54ac72ffacadefed5e35232d53",
       "sjs2.color.component.message.info.text": "d13d9530ea3f8eb4fe266f0935bb5e002b0f8ae2",
+      "sjs2.color.component.message.warning.bg": "eb55142542b29b0a6c3fa298b65cd3a12c40ac71",
+      "sjs2.color.component.message.warning.icon": "3d3d5e0b65dfc85855bc1f5ddb079a6bd5e81320",
+      "sjs2.color.component.message.warning.text": "0842ec5694ceac793007919d4f1527c7f347e85c",
       "sjs2.color.component.slider.default.bg": "5a7ac4b8dcfee2578859f8ff743fd55117ca7156",
       "sjs2.color.component.slider.default.fg": "788c5e4ff2c95997f3ccb61c320c1c8d32fecff8",
       "sjs2.color.component.slider.default.thumb": "a8c8fb14310495466df4d1939ef1e87bc6db5851",
@@ -3126,10 +3129,7 @@
       "sjs2.border-offset.y.surface.focused": "8513262dcb73eb738162bbf33cf152b09e2b13fa",
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
-      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
-      "sjs2.color.component.message.warning.bg": "eb55142542b29b0a6c3fa298b65cd3a12c40ac71",
-      "sjs2.color.component.message.warning.icon": "3d3d5e0b65dfc85855bc1f5ddb079a6bd5e81320",
-      "sjs2.color.component.message.warning.text": "0842ec5694ceac793007919d4f1527c7f347e85c"
+      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
     }
   },
   {
@@ -3632,6 +3632,9 @@
       "sjs2.color.component.message.info.bg": "02a84cfcf6aae1bcd05cc7f1355864d3d76113ba",
       "sjs2.color.component.message.info.icon": "42fc9d12116c8d54ac72ffacadefed5e35232d53",
       "sjs2.color.component.message.info.text": "d13d9530ea3f8eb4fe266f0935bb5e002b0f8ae2",
+      "sjs2.color.component.message.warning.bg": "eb55142542b29b0a6c3fa298b65cd3a12c40ac71",
+      "sjs2.color.component.message.warning.icon": "3d3d5e0b65dfc85855bc1f5ddb079a6bd5e81320",
+      "sjs2.color.component.message.warning.text": "0842ec5694ceac793007919d4f1527c7f347e85c",
       "sjs2.color.component.slider.default.bg": "5a7ac4b8dcfee2578859f8ff743fd55117ca7156",
       "sjs2.color.component.slider.default.fg": "788c5e4ff2c95997f3ccb61c320c1c8d32fecff8",
       "sjs2.color.component.slider.default.thumb": "a8c8fb14310495466df4d1939ef1e87bc6db5851",
@@ -3837,10 +3840,7 @@
       "sjs2.border-offset.y.surface.focused": "8513262dcb73eb738162bbf33cf152b09e2b13fa",
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
-      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
-      "sjs2.color.component.message.warning.bg": "eb55142542b29b0a6c3fa298b65cd3a12c40ac71",
-      "sjs2.color.component.message.warning.icon": "3d3d5e0b65dfc85855bc1f5ddb079a6bd5e81320",
-      "sjs2.color.component.message.warning.text": "0842ec5694ceac793007919d4f1527c7f347e85c"
+      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
     },
     "group": "style-themes"
   },
@@ -4344,6 +4344,9 @@
       "sjs2.color.component.message.info.bg": "02a84cfcf6aae1bcd05cc7f1355864d3d76113ba",
       "sjs2.color.component.message.info.icon": "42fc9d12116c8d54ac72ffacadefed5e35232d53",
       "sjs2.color.component.message.info.text": "d13d9530ea3f8eb4fe266f0935bb5e002b0f8ae2",
+      "sjs2.color.component.message.warning.bg": "eb55142542b29b0a6c3fa298b65cd3a12c40ac71",
+      "sjs2.color.component.message.warning.icon": "3d3d5e0b65dfc85855bc1f5ddb079a6bd5e81320",
+      "sjs2.color.component.message.warning.text": "0842ec5694ceac793007919d4f1527c7f347e85c",
       "sjs2.color.component.slider.default.bg": "5a7ac4b8dcfee2578859f8ff743fd55117ca7156",
       "sjs2.color.component.slider.default.fg": "788c5e4ff2c95997f3ccb61c320c1c8d32fecff8",
       "sjs2.color.component.slider.default.thumb": "a8c8fb14310495466df4d1939ef1e87bc6db5851",
@@ -4549,10 +4552,7 @@
       "sjs2.border-offset.y.surface.focused": "8513262dcb73eb738162bbf33cf152b09e2b13fa",
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
-      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
-      "sjs2.color.component.message.warning.bg": "eb55142542b29b0a6c3fa298b65cd3a12c40ac71",
-      "sjs2.color.component.message.warning.icon": "3d3d5e0b65dfc85855bc1f5ddb079a6bd5e81320",
-      "sjs2.color.component.message.warning.text": "0842ec5694ceac793007919d4f1527c7f347e85c"
+      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
     },
     "group": "style-themes"
   },
@@ -5056,6 +5056,9 @@
       "sjs2.color.component.message.info.bg": "02a84cfcf6aae1bcd05cc7f1355864d3d76113ba",
       "sjs2.color.component.message.info.icon": "42fc9d12116c8d54ac72ffacadefed5e35232d53",
       "sjs2.color.component.message.info.text": "d13d9530ea3f8eb4fe266f0935bb5e002b0f8ae2",
+      "sjs2.color.component.message.warning.bg": "eb55142542b29b0a6c3fa298b65cd3a12c40ac71",
+      "sjs2.color.component.message.warning.icon": "3d3d5e0b65dfc85855bc1f5ddb079a6bd5e81320",
+      "sjs2.color.component.message.warning.text": "0842ec5694ceac793007919d4f1527c7f347e85c",
       "sjs2.color.component.slider.default.bg": "5a7ac4b8dcfee2578859f8ff743fd55117ca7156",
       "sjs2.color.component.slider.default.fg": "788c5e4ff2c95997f3ccb61c320c1c8d32fecff8",
       "sjs2.color.component.slider.default.thumb": "a8c8fb14310495466df4d1939ef1e87bc6db5851",
@@ -5261,10 +5264,7 @@
       "sjs2.border-offset.y.surface.focused": "8513262dcb73eb738162bbf33cf152b09e2b13fa",
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
-      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
-      "sjs2.color.component.message.warning.bg": "eb55142542b29b0a6c3fa298b65cd3a12c40ac71",
-      "sjs2.color.component.message.warning.icon": "3d3d5e0b65dfc85855bc1f5ddb079a6bd5e81320",
-      "sjs2.color.component.message.warning.text": "0842ec5694ceac793007919d4f1527c7f347e85c"
+      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
     },
     "group": "style-themes"
   },
@@ -5768,6 +5768,9 @@
       "sjs2.color.component.message.info.bg": "02a84cfcf6aae1bcd05cc7f1355864d3d76113ba",
       "sjs2.color.component.message.info.icon": "42fc9d12116c8d54ac72ffacadefed5e35232d53",
       "sjs2.color.component.message.info.text": "d13d9530ea3f8eb4fe266f0935bb5e002b0f8ae2",
+      "sjs2.color.component.message.warning.bg": "eb55142542b29b0a6c3fa298b65cd3a12c40ac71",
+      "sjs2.color.component.message.warning.icon": "3d3d5e0b65dfc85855bc1f5ddb079a6bd5e81320",
+      "sjs2.color.component.message.warning.text": "0842ec5694ceac793007919d4f1527c7f347e85c",
       "sjs2.color.component.slider.default.bg": "5a7ac4b8dcfee2578859f8ff743fd55117ca7156",
       "sjs2.color.component.slider.default.fg": "788c5e4ff2c95997f3ccb61c320c1c8d32fecff8",
       "sjs2.color.component.slider.default.thumb": "a8c8fb14310495466df4d1939ef1e87bc6db5851",
@@ -5973,10 +5976,7 @@
       "sjs2.border-offset.y.surface.focused": "8513262dcb73eb738162bbf33cf152b09e2b13fa",
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
-      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
-      "sjs2.color.component.message.warning.bg": "eb55142542b29b0a6c3fa298b65cd3a12c40ac71",
-      "sjs2.color.component.message.warning.icon": "3d3d5e0b65dfc85855bc1f5ddb079a6bd5e81320",
-      "sjs2.color.component.message.warning.text": "0842ec5694ceac793007919d4f1527c7f347e85c"
+      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
     },
     "group": "style-themes"
   },
@@ -6481,6 +6481,9 @@
       "sjs2.color.component.message.info.bg": "02a84cfcf6aae1bcd05cc7f1355864d3d76113ba",
       "sjs2.color.component.message.info.icon": "42fc9d12116c8d54ac72ffacadefed5e35232d53",
       "sjs2.color.component.message.info.text": "d13d9530ea3f8eb4fe266f0935bb5e002b0f8ae2",
+      "sjs2.color.component.message.warning.bg": "eb55142542b29b0a6c3fa298b65cd3a12c40ac71",
+      "sjs2.color.component.message.warning.icon": "3d3d5e0b65dfc85855bc1f5ddb079a6bd5e81320",
+      "sjs2.color.component.message.warning.text": "0842ec5694ceac793007919d4f1527c7f347e85c",
       "sjs2.color.component.slider.default.bg": "5a7ac4b8dcfee2578859f8ff743fd55117ca7156",
       "sjs2.color.component.slider.default.fg": "788c5e4ff2c95997f3ccb61c320c1c8d32fecff8",
       "sjs2.color.component.slider.default.thumb": "a8c8fb14310495466df4d1939ef1e87bc6db5851",
@@ -6686,10 +6689,7 @@
       "sjs2.border-offset.y.surface.focused": "8513262dcb73eb738162bbf33cf152b09e2b13fa",
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
-      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
-      "sjs2.color.component.message.warning.bg": "eb55142542b29b0a6c3fa298b65cd3a12c40ac71",
-      "sjs2.color.component.message.warning.icon": "3d3d5e0b65dfc85855bc1f5ddb079a6bd5e81320",
-      "sjs2.color.component.message.warning.text": "0842ec5694ceac793007919d4f1527c7f347e85c"
+      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
     }
   },
   {
@@ -7193,6 +7193,9 @@
       "sjs2.color.component.message.info.bg": "02a84cfcf6aae1bcd05cc7f1355864d3d76113ba",
       "sjs2.color.component.message.info.icon": "42fc9d12116c8d54ac72ffacadefed5e35232d53",
       "sjs2.color.component.message.info.text": "d13d9530ea3f8eb4fe266f0935bb5e002b0f8ae2",
+      "sjs2.color.component.message.warning.bg": "eb55142542b29b0a6c3fa298b65cd3a12c40ac71",
+      "sjs2.color.component.message.warning.icon": "3d3d5e0b65dfc85855bc1f5ddb079a6bd5e81320",
+      "sjs2.color.component.message.warning.text": "0842ec5694ceac793007919d4f1527c7f347e85c",
       "sjs2.color.component.slider.default.bg": "5a7ac4b8dcfee2578859f8ff743fd55117ca7156",
       "sjs2.color.component.slider.default.fg": "788c5e4ff2c95997f3ccb61c320c1c8d32fecff8",
       "sjs2.color.component.slider.default.thumb": "a8c8fb14310495466df4d1939ef1e87bc6db5851",
@@ -7398,10 +7401,7 @@
       "sjs2.border-offset.y.surface.focused": "8513262dcb73eb738162bbf33cf152b09e2b13fa",
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
-      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
-      "sjs2.color.component.message.warning.bg": "eb55142542b29b0a6c3fa298b65cd3a12c40ac71",
-      "sjs2.color.component.message.warning.icon": "3d3d5e0b65dfc85855bc1f5ddb079a6bd5e81320",
-      "sjs2.color.component.message.warning.text": "0842ec5694ceac793007919d4f1527c7f347e85c"
+      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
     }
   },
   {
