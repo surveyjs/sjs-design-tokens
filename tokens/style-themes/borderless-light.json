@@ -100,7 +100,7 @@
             "description": "Surface color for the real Survey on the user's side + Preview & Themes tabs."
           },
           "survey-panelless": {
-            "value": "{sjs2.palette.gray.000}",
+            "value": "{sjs2.color.component.panel.default.bg}",
             "type": "color",
             "description": "Surface color for the real Survey on the user's side + Preview & Themes tabs, panelless."
           },
@@ -3108,7 +3108,7 @@
           "type": "number"
         },
         "readonly": {
-          "value": "{sjs2.border-width.x000}",
+          "value": "{sjs2.border-width.x100}",
           "type": "number"
         },
         "design": {
@@ -3505,11 +3505,11 @@
           "default": {
             "value": [
               {
-                "x": "0",
-                "y": "0",
-                "blur": "0",
-                "spread": "0",
-                "color": "rgba(0, 0, 0, 0.15)",
+                "x": "{sjs2.border-offset.x.form.default}",
+                "y": "{sjs2.border-offset.y.form.default}",
+                "blur": "{sjs2.border-blur.form.default}",
+                "spread": "{sjs2.border-spread.form.default}",
+                "color": "{sjs2.color.component.formbox.default.border}",
                 "type": "innerShadow"
               },
               {
@@ -3552,7 +3552,7 @@
                 "blur": "{sjs2.border-blur.form.focused}",
                 "spread": "{sjs2.border-spread.form.focused}",
                 "color": "{sjs2.color.component.formbox.focused.border}",
-                "type": "innerShadow"
+                "type": "dropShadow"
               },
               {
                 "x": "0",
@@ -3615,7 +3615,7 @@
                 "blur": "{sjs2.border-blur.form.invalid-focused}",
                 "spread": "{sjs2.border-spread.form.invalid-focused}",
                 "color": "{sjs2.color.component.formbox.invalid-focused.border}",
-                "type": "innerShadow"
+                "type": "dropShadow"
               },
               {
                 "x": "0",
@@ -3636,7 +3636,7 @@
                 "blur": "{sjs2.border-blur.form.highlighted}",
                 "spread": "{sjs2.border-spread.form.highlighted}",
                 "color": "{sjs2.color.component.formbox.highlighted.border}",
-                "type": "innerShadow"
+                "type": "dropShadow"
               },
               {
                 "x": "0",

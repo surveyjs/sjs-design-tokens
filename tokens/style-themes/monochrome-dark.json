@@ -92,7 +92,7 @@
             "description": "Surface color for the real Survey on the user's side + Preview & Themes tabs."
           },
           "survey-panelless": {
-            "value": "#1c1b200d",
+            "value": "{sjs2.color.component.panel.default.bg}",
             "type": "color",
             "description": "Surface color for the real Survey on the user's side + Preview & Themes tabs, panelless."
           },
@@ -597,7 +597,7 @@
             "type": "color"
           },
           "secondary": {
-            "value": "{sjs2.palette.gray.400}",
+            "value": "{sjs2.palette.gray.500}",
             "type": "color"
           },
           "secondary-overlay": {
