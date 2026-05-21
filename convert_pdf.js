@@ -26,19 +26,19 @@ const THEME_CONFIG = [
         objectName: "base-layout",
         themeName: "base-layout",
         tokenPaths: [
-            "size-themes/default",
             "typography-themes/default",
+            "size-themes/default",
         ],
         isConfig: true,
         output: "layouts/base.ts"
     },
     {
-        objectName: "monochrome-light",
-        themeName: "MonochromeLight",
+        objectName: "default-light",
+        themeName: "DefaultLight",
         tokenPaths: [
-            "style-themes/monochrome-light"
+            "style-themes/default-light"
         ],
-        output: "themes/monochrome-light.ts"
+        output: "themes/default-light.ts"
     },
     {
         objectName: "Compact",
