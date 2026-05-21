@@ -2243,15 +2243,15 @@
           "true": {
             "default": {
               "bg": {
-                "value": "{sjs2.color.bg.brand.primary}",
+                "value": "{sjs2.color.bg.basic.primary}",
                 "type": "color"
               },
               "border": {
-                "value": "{sjs2.color.border.brand.primary}",
+                "value": "{sjs2.color.border.basic.secondary}",
                 "type": "color"
               },
               "icon": {
-                "value": "{sjs2.color.fg.brand.on-primary}",
+                "value": "{sjs2.color.fg.basic.primary}",
                 "type": "color"
               }
             },
@@ -2271,15 +2271,15 @@
             },
             "hovered": {
               "bg": {
-                "value": "{sjs2.color.bg.brand.primary-dim}",
+                "value": "{sjs2.color.bg.basic.primary-dim}",
                 "type": "color"
               },
               "border": {
-                "value": "{sjs2.color.bg.brand.primary-dim}",
+                "value": "{sjs2.color.border.basic.secondary}",
                 "type": "color"
               },
               "icon": {
-                "value": "{sjs2.color.fg.brand.on-primary}",
+                "value": "{sjs2.color.fg.basic.primary}",
                 "type": "color"
               }
             },
