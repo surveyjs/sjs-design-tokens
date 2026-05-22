@@ -487,13 +487,6 @@ function createTypeScriptFiles() {
     return THEME_CONFIG[0];
   }
 
-  function isLightenDarkenModifiedToken(tokenData) {
-    const modify = tokenData?.$extensions?.['studio.tokens']?.modify;
-    if (!modify || typeof modify !== 'object') return false;
-    const t = String(modify.type || '').toLowerCase();
-    return t === 'lighten' || t === 'darken';
-  }
-
   function buildThemeCssVariables(themeConfig) {
     const { tokenPaths } = themeConfig;
 
@@ -520,13 +513,9 @@ function createTypeScriptFiles() {
 
     // Convert tokens to CSS variables
     const cssVariables = {};
-    const modifiedCssVarNames = new Set();
     for (const [tokenName, tokenData] of Object.entries(allThemeTokens)) {
       const cssVarName = tokenToCSSVariable(tokenName);
       if (tokenData.value !== undefined && typeof tokenData.value === "string") {
-        if (isLightenDarkenModifiedToken(tokenData)) {
-          modifiedCssVarNames.add(cssVarName);
-        }
         // Check for color modifications first
         let processedValue = processColorModifications(tokenData);
 
@@ -561,28 +550,23 @@ function createTypeScriptFiles() {
 
     // Add "px" to numeric size values in patched variables as well
     return {
-      cssVariables: addPxToSizeValues(patchedCssVariables),
-      modifiedCssVarNames
+      cssVariables: addPxToSizeValues(patchedCssVariables)
     };
   }
 
-  function chunkArray(items, chunkSize) {
-    if (!Array.isArray(items)) return [];
-    if (!Number.isFinite(chunkSize) || chunkSize <= 0) return [items];
-    const chunks = [];
-    for (let i = 0; i < items.length; i += chunkSize) {
-      chunks.push(items.slice(i, i + chunkSize));
-    }
-    return chunks;
-  }
+  function writeThemeTsFile(outputPath, label, themeConfig, cssVariables) {
+    const outputObject = {
+      themeName: themeConfig.themeName,
+      iconSet: themeConfig.iconSet,
+      colorPalette: themeConfig.colorPalette,
+      isPanelless: themeConfig.isPanelless,
+      cssVariables
+    };
 
-  function toRootScss(cssVariables, { selector = '.sd-theme-root', chunkSize = 50 } = {}) {
-    const keys = Object.keys(cssVariables).sort();
-    const blocks = chunkArray(keys, chunkSize).map((chunkKeys) => {
-      const lines = chunkKeys.map(k => `  ${k}: ${cssVariables[k]};`);
-      return `${selector} {\n${lines.join('\n')}\n}\n`;
-    });
-    return blocks.join('\n');
+    const tsContent = `// Auto-generated theme: ${label}
+export default ${JSON.stringify(outputObject, null, 2)};
+`;
+    fs.writeFileSync(outputPath, tsContent);
   }
 
   function diffCssVariables(themeCssVariables, baseCssVariables) {
@@ -602,19 +586,11 @@ function createTypeScriptFiles() {
   }
   const baseBuilt = buildThemeCssVariables(baseThemeConfig);
   const baseCssVariables = baseBuilt.cssVariables;
-  const baseModifiedCssVarNames = baseBuilt.modifiedCssVarNames;
 
-  // Write base theme SCSS file into build/ (chunked to avoid huge selectors)
-  const baseForScssVars = { ...baseCssVariables };
-  // Tokens that use studio.tokens.modify (lighten/darken) are emitted as `hsl()/lch() from ... calc(...)`.
-  // Those rules aren't supported in some PostCSS pipelines, so we keep them out of SCSS and put them into TS per-theme.
-  for (const k of baseModifiedCssVarNames) {
-    delete baseForScssVars[k];
-  }
-  const baseScssPath = path.join(buildDir, "base-theme.scss");
-  fs.writeFileSync(baseScssPath, toRootScss(baseForScssVars, { selector: '.sd-theme-root', chunkSize: 50 }));
-  console.log(`Created SCSS file: ${baseScssPath}`);
-  
+  const baseTsPath = path.join(buildDir, "base-theme.ts");
+  writeThemeTsFile(baseTsPath, "base", baseThemeConfig, baseCssVariables);
+  console.log(`Created TypeScript file: ${baseTsPath}`);
+
   // Process each theme configuration
   for (const themeConfig of THEME_CONFIG) {
     const { objectName, themeName, tokenPaths } = themeConfig;
@@ -622,36 +598,15 @@ function createTypeScriptFiles() {
     try {
       const built = buildThemeCssVariables(themeConfig);
       const themeCssVariables = built.cssVariables;
-      const modifiedCssVarNames = built.modifiedCssVarNames;
 
       const isBase = themeConfig === baseThemeConfig;
-      // For base theme we usually emit nothing (it comes from base-theme.scss),
-      // but modified tokens must be emitted per-theme even if equal to base.
+      // Base theme variables live in base-theme.ts; per-theme files store only diffs.
       let finalCssVariables;
       if (themeConfig.exportAll) {
-        // Export full theme instead of diff against base.
         finalCssVariables = { ...themeCssVariables };
       } else {
         finalCssVariables = isBase ? {} : diffCssVariables(themeCssVariables, baseCssVariables);
       }
-      for (const k of modifiedCssVarNames) {
-        // Always include modified tokens in TS theme output, even if equal to base.
-        if (k in themeCssVariables) {
-          finalCssVariables[k] = themeCssVariables[k];
-        }
-      }
-
-      const outputObject = {
-        themeName: themeName,
-        iconSet: themeConfig.iconSet,
-        colorPalette: themeConfig.colorPalette,
-        isPanelless: themeConfig.isPanelless,
-        cssVariables: finalCssVariables
-      };
-
-      const tsContent = `// Auto-generated theme: ${themeName}
-export default ${JSON.stringify(outputObject, null, 2)};
-`;
 
       const themesDir = path.join(buildDir, "themes");
       if (!fs.existsSync(themesDir)) {
@@ -660,7 +615,7 @@ export default ${JSON.stringify(outputObject, null, 2)};
 
       const outputFileName = (themeConfig.fileName !== undefined ? themeConfig.fileName : themeName) + '.ts';
       const outputPath = path.join(themesDir, outputFileName);
-      fs.writeFileSync(outputPath, tsContent);
+      writeThemeTsFile(outputPath, themeName, themeConfig, finalCssVariables);
 
       console.log(`Created TypeScript file: ${outputPath}`);
       
