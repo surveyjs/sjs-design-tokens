@@ -2133,7 +2133,7 @@
         "input": {
           "default": {
             "line": {
-              "value": "rgba(65, 72, 90, 1)",
+              "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
             },
             "value": {
