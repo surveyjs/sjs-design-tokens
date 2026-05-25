@@ -1966,7 +1966,7 @@
             },
             "readonly": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.primary}",
+                "value": "rgba({sjs2.color.bg.basic.secondary},{sjs2.opacity.hidden})",
                 "type": "color"
               },
               "border": {
@@ -2024,7 +2024,7 @@
             },
             "readonly": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.primary}",
+                "value": "rgba({sjs2.color.bg.basic.secondary},{sjs2.opacity.hidden})",
                 "type": "color"
               },
               "border": {
