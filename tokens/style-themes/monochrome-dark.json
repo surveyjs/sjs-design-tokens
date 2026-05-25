@@ -165,7 +165,7 @@
           },
           "surface": {
             "default": {
-              "value": "{sjs2.color.border.basic.secondary}",
+              "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x020} )",
               "type": "color"
             },
             "hovered": {
