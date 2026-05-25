@@ -7,15 +7,15 @@ if not exist "build" (
     exit /b 1
 )
 
-echo Copying base-theme.scss...
+echo Copying base-theme.ts...
 if not exist "..\survey-library\packages\survey-core\src\default-theme" (
     echo Warning: ..\survey-library\packages\survey-core\src\default-theme directory not found.
 ) else (
-    xcopy "build\base-theme.scss" "..\survey-library\packages\survey-core\src\default-theme\" /Y /I
+    xcopy "build\base-theme.ts" "..\survey-library\packages\survey-core\src\default-theme\" /Y /I
     if %errorlevel% equ 0 (
-        echo base-theme.scss copied successfully.
+        echo base-theme.ts copied successfully.
     ) else (
-        echo Error copying base-theme.scss.
+        echo Error copying base-theme.ts.
     )
 )
 
