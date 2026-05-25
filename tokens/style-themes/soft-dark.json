@@ -2135,11 +2135,11 @@
           "true": {
             "default": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.primary}",
+                "value": "{sjs2.color.bg.basic.tertiary}",
                 "type": "color"
               },
               "border": {
-                "value": "{sjs2.color.border.basic.secondary}",
+                "value": "rgba( {sjs2.color.border.basic.secondary}, {sjs2.opacity.hidden} )",
                 "type": "color"
               },
               "value": {
@@ -2149,7 +2149,7 @@
             },
             "disabled": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.primary-dim}",
+                "value": "{sjs2.color.bg.basic.primary}",
                 "type": "color"
               },
               "border": {
@@ -2167,7 +2167,7 @@
                 "type": "color"
               },
               "border": {
-                "value": "{sjs2.color.border.basic.secondary}",
+                "value": "rgba( {sjs2.color.border.basic.secondary}, {sjs2.opacity.hidden} )",
                 "type": "color"
               },
               "value": {
