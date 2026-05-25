@@ -2,49 +2,16 @@ const fs = require('fs');
 const path = require('path');
 // Configuration for theme generation
 
-const THEME_CONFIG = [
-    {
-        objectName: "base",
-        themeName: "base",
-        tokenPaths: [
-            "base-unit",
-            "common",
-        ],
-        isConfig: true,
-        output: "base.ts"
-    },
-    {
-        objectName: "base-theme",
-        themeName: "base-theme",
-        tokenPaths: [
-            "palette",
-        ],
-        isConfig: true,
-        output: "themes/base.ts"
-    },
-    {
-        objectName: "base-layout",
-        themeName: "base-layout",
-        tokenPaths: [
-            "typography-themes/default",
-            "size-themes/default",
-        ],
-        isConfig: true,
-        output: "layouts/base.ts"
-    },
-    {
-        objectName: "default-light",
-        themeName: "DefaultLight",
-        tokenPaths: [
-            "style-themes/default-light"
-        ],
-        output: "themes/default-light.ts"
-    },
+const LAYOUT_CONFIG = [
     {
         objectName: "Compact",
         themeName: "compact",
         isConfig: true,
         tokenPaths: [
+            "base-unit",
+            "common",
+            "typography-themes/default",
+            "size-themes/default",
             "pdf-layout-themes/compact",
         ],
         output: "layouts/compact.ts"
@@ -454,7 +421,7 @@ function loadAllTokens() {
 
     // Collect all unique token paths from all theme configurations
     const allTokenPaths = new Set();
-    for (const themeConfig of THEME_CONFIG) {
+    for (const themeConfig of LAYOUT_CONFIG) {
         for (const tokenPath of themeConfig.tokenPaths) {
             allTokenPaths.add(tokenPath);
         }
@@ -493,8 +460,8 @@ function createTypeScriptFiles() {
     allTokensCache = loadAllTokens();
 
     // Process each theme configuration
-    for (const themeConfig of THEME_CONFIG) {
-        const { objectName, themeName, tokenPaths, output } = themeConfig;
+    for (const layoutConfig of LAYOUT_CONFIG) {
+        const { objectName, themeName, tokenPaths, output } = layoutConfig;
 
         try {
             // Collect all tokens for this theme
@@ -552,7 +519,7 @@ function createTypeScriptFiles() {
             const sizeProcessedCssVariables = addPxToSizeValues(filteredCssVariables);
 
             // patch variables
-            const patch = themeConfig.patch || {};
+            const patch = layoutConfig.patch || {};
             const patchedCssVariables = { ...sizeProcessedCssVariables, ...patch };
 
             // Add "px" to numeric size values in patched variables as well
@@ -560,12 +527,7 @@ function createTypeScriptFiles() {
 
 
             // Create output object
-            const outputObject = themeConfig.isConfig ? finalCssVariables : {
-                themeName: themeName,
-                iconSet: themeConfig.iconSet,
-                isLight: themeConfig.isLight,
-                cssVariables: finalCssVariables
-            };
+            const outputObject = finalCssVariables;
 
 
             // Generate TypeScript content with embedded data
