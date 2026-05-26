@@ -3082,7 +3082,7 @@
       },
       "surface": {
         "default": {
-          "value": "{sjs2.border-width.x100}",
+          "value": "{sjs2.border-width.x000}",
           "type": "number"
         },
         "hovered": {
