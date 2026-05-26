@@ -532,7 +532,7 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "rgba(32, 32, 32, 0.25)",
+            "value": "rgba( {sjs2.color.fg.neutral.primary}, {sjs2.opacity.x020} )",
             "type": "color"
           }
         },
