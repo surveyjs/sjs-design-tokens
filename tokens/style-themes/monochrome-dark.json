@@ -2123,7 +2123,7 @@
                 "type": "color"
               },
               "border": {
-                "value": "rgba({sjs2.color.border.basic.secondary},{sjs2.opacity.hidden})",
+                "value": "{sjs2.color.border.basic.secondary}",
                 "type": "color"
               },
               "value": {
@@ -2139,7 +2139,7 @@
                 "type": "color"
               },
               "border": {
-                "value": "rgba({sjs2.color.border.basic.secondary},{sjs2.opacity.hidden})",
+                "value": "{sjs2.color.border.basic.secondary}",
                 "type": "color"
               },
               "value": {
