@@ -110,7 +110,7 @@
             "description": "Surface color for Designer tab."
           },
           "presets-manager": {
-            "value": "#1c1b200d",
+            "value": "#F4F4F4",
             "type": "color",
             "description": "Surface color for Presets Configuration Manager."
           },
