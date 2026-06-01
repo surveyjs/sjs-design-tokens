@@ -102,7 +102,7 @@
             "description": "surface color for Designer tab"
           },
           "presets-manager": {
-            "value": "#1c1b200d",
+            "value": "#161519",
             "type": "color",
             "description": "surface color for Presets Configuration Manager"
           },
@@ -2149,7 +2149,7 @@
             },
             "disabled": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.primary-dim}",
+                "value": "{sjs2.color.bg.basic.primary-disabled}",
                 "type": "color"
               },
               "border": {

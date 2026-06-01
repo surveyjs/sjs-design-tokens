@@ -110,7 +110,7 @@
             "description": "Surface color for Designer tab."
           },
           "presets-manager": {
-            "value": "#1c1b200d",
+            "value": "#161519",
             "type": "color",
             "description": "Surface color for Presets Configuration Manager."
           },
@@ -223,7 +223,7 @@
             "type": "color"
           },
           "tertiary": {
-            "value": "{sjs2.palette.gray.150}",
+            "value": "#202531",
             "type": "color"
           },
           "primary-dim": {
@@ -235,11 +235,11 @@
             "type": "color"
           },
           "tertiary-dim": {
-            "value": "{sjs2.palette.gray.200}",
+            "value": "#202531",
             "type": "color"
           },
           "primary-disabled": {
-            "value": "{sjs2.palette.gray.100}",
+            "value": "#1b1f2a",
             "type": "color"
           }
         },
@@ -249,7 +249,7 @@
             "type": "color"
           },
           "secondary": {
-            "value": "{sjs2.palette.gray.100}",
+            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x015} )",
             "type": "color"
           },
           "tertiary": {
@@ -261,15 +261,15 @@
             "type": "color"
           },
           "secondary-dim": {
-            "value": "{sjs2.palette.gray.150}",
+            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x020} )",
             "type": "color"
           },
           "tertiary-dim": {
-            "value": "rgba(33, 37, 51, 1)",
+            "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x010} )",
             "type": "color"
           },
           "primary-disabled": {
-            "value": "{sjs2.palette.gray.100}",
+            "value": "{sjs2.palette.gray.750}",
             "type": "color"
           }
         },
@@ -299,7 +299,7 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "{sjs2.palette.gray.100}",
+            "value": "{sjs2.palette.gray.750}",
             "type": "color"
           }
         },
@@ -329,7 +329,7 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "{sjs2.palette.gray.100}",
+            "value": "{sjs2.palette.gray.750}",
             "type": "color"
           }
         },
@@ -359,7 +359,7 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "{sjs2.palette.gray.100}",
+            "value": "{sjs2.palette.gray.750}",
             "type": "color"
           }
         },
@@ -389,7 +389,7 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "{sjs2.palette.gray.100}",
+            "value": "{sjs2.palette.gray.750}",
             "type": "color"
           }
         },
@@ -419,7 +419,7 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "{sjs2.palette.gray.100}",
+            "value": "{sjs2.palette.gray.750}",
             "type": "color"
           }
         },
@@ -532,7 +532,7 @@
             "type": "color"
           },
           "primary-disabled": {
-            "value": "rgba(32, 32, 32, 0.25)",
+            "value": "rgba( {sjs2.color.fg.neutral.primary}, {sjs2.opacity.x020} )",
             "type": "color"
           }
         },
@@ -620,7 +620,7 @@
             "type": "color"
           },
           "secondary-disabled": {
-            "value": "{sjs2.palette.gray.100}",
+            "value": "rgba({sjs2.color.border.basic.secondary}, {sjs2.opacity.disabled})",
             "type": "color"
           }
         },
@@ -1966,7 +1966,7 @@
             },
             "readonly": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.primary}",
+                "value": "rgba({sjs2.color.bg.basic.secondary},{sjs2.opacity.hidden})",
                 "type": "color"
               },
               "border": {
@@ -2000,7 +2000,7 @@
                 "type": "color"
               },
               "border": {
-                "value": "{sjs2.color.border.basic.secondary}",
+                "value": "rgba({sjs2.color.border.basic.secondary},{sjs2.opacity.hidden})",
                 "type": "color"
               },
               "value": {
@@ -2010,7 +2010,7 @@
             },
             "disabled": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.primary-dim}",
+                "value": "{sjs2.color.bg.basic.primary-disabled}",
                 "type": "color"
               },
               "border": {
@@ -2024,7 +2024,7 @@
             },
             "readonly": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.primary}",
+                "value": "rgba({sjs2.color.bg.basic.secondary},{sjs2.opacity.hidden})",
                 "type": "color"
               },
               "border": {

@@ -102,7 +102,7 @@
             "description": "surface color for Designer tab"
           },
           "presets-manager": {
-            "value": "#1c1b200d",
+            "value": "#161519",
             "type": "color",
             "description": "surface color for Presets Configuration Manager"
           },
@@ -165,7 +165,7 @@
           },
           "surface": {
             "default": {
-              "value": "{sjs2.color.border.basic.secondary}",
+              "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x020} )",
               "type": "color"
             },
             "hovered": {
@@ -2135,7 +2135,7 @@
           "true": {
             "default": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.primary}",
+                "value": "{sjs2.color.bg.basic.secondary}",
                 "type": "color"
               },
               "border": {
@@ -2149,7 +2149,7 @@
             },
             "disabled": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.primary-dim}",
+                "value": "{sjs2.color.bg.basic.primary-disabled}",
                 "type": "color"
               },
               "border": {

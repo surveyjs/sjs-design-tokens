@@ -105,12 +105,12 @@
             "description": "Surface color for the real Survey on the user's side + Preview & Themes tabs, panelless."
           },
           "designer": {
-            "value": "#EDF9F7",
+            "value": "#1c1b200d",
             "type": "color",
             "description": "Surface color for Designer tab."
           },
           "presets-manager": {
-            "value": "#1c1b200d",
+            "value": "#F4F4F4",
             "type": "color",
             "description": "Surface color for Presets Configuration Manager."
           },
@@ -2164,7 +2164,7 @@
             },
             "disabled": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.primary-dim}",
+                "value": "{sjs2.color.bg.basic.primary-disabled}",
                 "type": "color"
               },
               "border": {
@@ -3148,7 +3148,7 @@
       },
       "surface": {
         "default": {
-          "value": "{sjs2.border-width.x100}",
+          "value": "{sjs2.border-width.x000}",
           "type": "number"
         },
         "hovered": {
