@@ -3,6 +3,7 @@
     "base-unit",
     "common",
     "palette",
+    "layout-test",
     "pdf-layout-themes/compact",
     "pdf-layout-themes/spacious",
     "size-themes/default",

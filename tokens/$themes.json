@@ -7414,7 +7414,8 @@
       "palette": "source",
       "style-themes/flat-light": "enabled"
     },
-    "group": "style-themes"
+    "group": "style-themes",
+    "$figmaVariableReferences": {}
   },
   {
     "id": "f95967be577940edb9fedace8cb71036bc894c9d",
@@ -7426,7 +7427,8 @@
       "palette": "source",
       "style-themes/flat-dark": "enabled"
     },
-    "group": "style-themes"
+    "group": "style-themes",
+    "$figmaVariableReferences": {}
   },
   {
     "id": "dbf8b5e2545dcd6ede1909934da99951b439f7ec",
@@ -7438,7 +7440,8 @@
       "palette": "source",
       "style-themes/plain-light": "enabled"
     },
-    "group": "style-themes"
+    "group": "style-themes",
+    "$figmaVariableReferences": {}
   },
   {
     "id": "cfd91e8f4e0784ebb65e2faa6b727bf96a961910",
@@ -7450,7 +7453,8 @@
       "palette": "source",
       "style-themes/plain-dark": "enabled"
     },
-    "group": "style-themes"
+    "group": "style-themes",
+    "$figmaVariableReferences": {}
   },
   {
     "id": "f048d02d9aa8499229250789500a34abbd46a979",
@@ -7462,7 +7466,8 @@
       "palette": "source",
       "style-themes/threedimensional-light": "enabled"
     },
-    "group": "style-themes"
+    "group": "style-themes",
+    "$figmaVariableReferences": {}
   },
   {
     "id": "233a1e7f2a6e83c65dd293d830d5714dad0681b9",
@@ -7474,6 +7479,7 @@
       "palette": "source",
       "style-themes/threedimensional-dark": "enabled"
     },
-    "group": "style-themes"
+    "group": "style-themes",
+    "$figmaVariableReferences": {}
   }
 ]
