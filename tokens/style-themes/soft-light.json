@@ -2493,7 +2493,7 @@
               "description": "Error message icon color. This message appears when input state is invalid."
             },
             "text": {
-              "value": "{sjs2.color.fg.basic.primary}",
+              "value": "{sjs2.color.fg.alert.primary}",
               "type": "color",
               "description": "Error message text color. This message appears when input state is invalid."
             }
@@ -2510,7 +2510,7 @@
               "description": "Information message background color."
             },
             "text": {
-              "value": "{sjs2.color.fg.basic.primary}",
+              "value": "{sjs2.color.fg.note.primary}",
               "type": "color",
               "description": "Information message background color."
             }
@@ -2527,7 +2527,7 @@
               "description": "Warning message icon color."
             },
             "text": {
-              "value": "{sjs2.color.fg.basic.primary}",
+              "value": "{sjs2.color.fg.warning.primary}",
               "type": "color",
               "description": "Warning message text color."
             }
@@ -2908,7 +2908,7 @@
           },
           "invalid": {
             "bg": {
-              "value": "{sjs2.color.bg.basic.secondary}",
+              "value": "{sjs2.color.bg.alert.secondary}",
               "type": "color"
             },
             "border": {

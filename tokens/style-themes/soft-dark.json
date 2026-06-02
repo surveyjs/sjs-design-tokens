@@ -2231,7 +2231,7 @@
             },
             "invalid": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.secondary}",
+                "value": "{sjs2.color.bg.alert.secondary}",
                 "type": "color"
               },
               "border": {
@@ -2431,7 +2431,7 @@
               "type": "color"
             },
             "text": {
-              "value": "{sjs2.color.fg.basic.primary}",
+              "value": "{sjs2.color.fg.alert.primary}",
               "type": "color"
             }
           },
@@ -2445,7 +2445,7 @@
               "type": "color"
             },
             "text": {
-              "value": "{sjs2.color.fg.basic.primary}",
+              "value": "{sjs2.color.fg.note.primary}",
               "type": "color"
             }
           },
@@ -2461,7 +2461,7 @@
               "description": "Warning message icon color."
             },
             "text": {
-              "value": "{sjs2.color.fg.basic.primary}",
+              "value": "{sjs2.color.fg.warning.primary}",
               "type": "color",
               "description": "Warning message text color."
             }
@@ -2842,7 +2842,7 @@
           },
           "invalid": {
             "bg": {
-              "value": "{sjs2.color.bg.basic.secondary}",
+              "value": "{sjs2.color.bg.alert.secondary}",
               "type": "color"
             },
             "border": {
