@@ -1962,7 +1962,7 @@
           },
           "invalid": {
             "bg": {
-              "value": "{sjs2.color.bg.basic.secondary}",
+              "value": "{sjs2.color.bg.alert.secondary}",
               "type": "color"
             },
             "border": {
