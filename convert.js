@@ -43,9 +43,6 @@ for (const themeInList of styleThemes) {
 // Cache for storing all tokens
 let allTokensCache = {};
 
-// Current theme's flattened tokens (set per theme during processing)
-let currentThemeFlatTokens = {};
-
 // Function for recursive traversal of token objects
 function flattenTokens(obj, prefix = '', result = {}) {
   for (const key in obj) {
@@ -96,28 +93,21 @@ function isShadowComponentToken(tokenPath) {
          lower.startsWith('sjs2.border-spread.');
 }
 
-// Check if a CSS variable name is a shadow component
-function isShadowComponentCSSVar(cssVarName) {
-  return cssVarName.startsWith('--sjs2-border-offset-') || 
-         cssVarName.startsWith('--sjs2-border-blur-') || 
-         cssVarName.startsWith('--sjs2-border-spread-');
-}
-
-// Resolve a shadow component token reference to its underlying value.
-// If the token itself references another shadow component, resolve recursively.
-// Non-shadow references are kept as `{token.path}` for later conversion to var().
-function resolveShadowComponentRef(value) {
-  if (typeof value === 'number') return value;
+// Convert shadow component references to CSS var() in border-effect values.
+function shadowComponentRefToVar(value) {
+  if (typeof value === 'number') return formatShadowDimension(value);
   if (typeof value !== 'string') return value;
   const refMatch = value.match(/^\{([^}]+)\}$/);
   if (refMatch && isShadowComponentToken(refMatch[1])) {
-    const flatKey = refMatch[1].replace(/\./g, '-');
-    const token = currentThemeFlatTokens[flatKey];
-    if (token && token.value !== undefined) {
-      const resolved = token.value;
-      if (typeof resolved === 'number') return resolved;
-      return resolveShadowComponentRef(String(resolved));
-    }
+    return `var(--${refMatch[1].replace(/\./g, '-').toLowerCase()})`;
+  }
+  return formatShadowDimension(value);
+}
+
+// Convert bare zero shadow dimensions to "0px" (border-effect tokens use "0")
+function formatShadowDimension(value) {
+  if (value === 0 || value === '0') {
+    return '0px';
   }
   return value;
 }
@@ -206,24 +196,34 @@ function processRgbaValue(value) {
   return processedValue;
 }
 
-// Check if a CSS shadow string represents an invisible shadow (all dimensions are 0)
-function isShadowInvisible(shadowString) {
-  if (!shadowString || typeof shadowString !== 'string') return false;
-  const s = shadowString.trim().replace(/^inset\s+/, '');
-  const tokens = s.split(/\s+/);
-  if (tokens.length < 2) return false;
-  const dimensions = [];
-  for (let i = 0; i < 4 && i < tokens.length; i++) {
-    const t = tokens[i];
-    if (t === '0' || t === '0px') {
-      dimensions.push(0);
-    } else if (/^-?\d+(\.\d+)?(px)?$/.test(t)) {
-      dimensions.push(parseFloat(t) === 0 ? 0 : 1);
-    } else {
-      dimensions.push(1);
+function isZeroShadowDimension(value) {
+  if (value === undefined || value === null) return true;
+  if (value === 0 || value === '0' || value === '0px') return true;
+  return false;
+}
+
+function isTransparentShadowColor(color) {
+  if (color === undefined || color === null) return true;
+  if (typeof color !== 'string') return false;
+  if (color.includes('{')) return false;
+  const normalized = color.trim().toLowerCase().replace(/\s+/g, '');
+  if (normalized === 'transparent') return true;
+  const match = normalized.match(/^rgba?\(([^)]+)\)$/);
+  if (match) {
+    const parts = match[1].split(',');
+    if (parts.length === 4) {
+      return parseFloat(parts[3]) === 0;
     }
   }
-  return dimensions.length >= 2 && dimensions.every(d => d === 0);
+  return false;
+}
+
+// Drop placeholder shadows (zero size + fully transparent color), keep zero-size border-effects.
+function isShadowObjectInvisible(shadowObj) {
+  if (!shadowObj || typeof shadowObj !== 'object') return true;
+  const { x, y, blur, spread, color } = shadowObj;
+  if (![x, y, blur, spread].every(isZeroShadowDimension)) return false;
+  return isTransparentShadowColor(color);
 }
 
 // Function for processing shadow values
@@ -239,17 +239,17 @@ function processShadowValue(shadowObj) {
   
   // Add offset values
   if (x !== undefined && y !== undefined) {
-    shadowString += `${x} ${y}`;
+    shadowString += `${formatShadowDimension(x)} ${formatShadowDimension(y)}`;
   }
   
   // Add blur
   if (blur !== undefined) {
-    shadowString += ` ${blur}`;
+    shadowString += ` ${formatShadowDimension(blur)}`;
   }
   
   // Add spread
   if (spread !== undefined) {
-    shadowString += ` ${spread}`;
+    shadowString += ` ${formatShadowDimension(spread)}`;
   }
   
   // Add color
@@ -263,7 +263,7 @@ function processShadowValue(shadowObj) {
   }
   
   const result = shadowString.trim();
-  return isShadowInvisible(result) ? null : result;
+  return isShadowObjectInvisible(shadowObj) ? null : result;
 }
 
 // Function for processing shadow values with token resolution
@@ -274,25 +274,20 @@ function processShadowValueWithResolution(shadowObj, visited = new Set()) {
 
   const { x, y, blur, spread, color, type } = shadowObj;
   
-  // Convert shadow properties to CSS string with token resolution.
   // Shadow component references (border-offset, border-blur, border-spread)
-  // are resolved inline rather than emitted as separate CSS variables.
+  // are emitted as var() references to their own CSS variables.
   let shadowString = '';
   
   if (x !== undefined && y !== undefined) {
-    const resolvedX = evaluateTokenValue(resolveShadowComponentRef(x), 'sizing', visited);
-    const resolvedY = evaluateTokenValue(resolveShadowComponentRef(y), 'sizing', visited);
-    shadowString += `${resolvedX} ${resolvedY}`;
+    shadowString += `${shadowComponentRefToVar(x)} ${shadowComponentRefToVar(y)}`;
   }
   
   if (blur !== undefined) {
-    const resolvedBlur = evaluateTokenValue(resolveShadowComponentRef(blur), 'sizing', visited);
-    shadowString += ` ${resolvedBlur}`;
+    shadowString += ` ${shadowComponentRefToVar(blur)}`;
   }
   
   if (spread !== undefined) {
-    const resolvedSpread = evaluateTokenValue(resolveShadowComponentRef(spread), 'sizing', visited);
-    shadowString += ` ${resolvedSpread}`;
+    shadowString += ` ${shadowComponentRefToVar(spread)}`;
   }
   
   if (color !== undefined) {
@@ -306,7 +301,7 @@ function processShadowValueWithResolution(shadowObj, visited = new Set()) {
   }
   
   const result = shadowString.trim();
-  return isShadowInvisible(result) ? null : result;
+  return isShadowObjectInvisible(shadowObj) ? null : result;
 }
 
 // Function for processing color modifications via $extensions.studio.tokens.modify
@@ -508,9 +503,6 @@ function createTypeScriptFiles() {
       Object.assign(allThemeTokens, flattenedTokens);
     }
 
-    // Make flattened tokens available for shadow component resolution
-    currentThemeFlatTokens = allThemeTokens;
-
     // Convert tokens to CSS variables
     const cssVariables = {};
     for (const [tokenName, tokenData] of Object.entries(allThemeTokens)) {
@@ -528,13 +520,6 @@ function createTypeScriptFiles() {
       } else if (tokenData.value !== undefined && Array.isArray(tokenData.value)) {
         // Array of shadows (boxShadow) -> single CSS box-shadow value
         cssVariables[cssVarName] = evaluateTokenValue(tokenData.value, tokenData.type);
-      }
-    }
-
-    // Remove shadow component variables (their values are inlined into border-effect)
-    for (const key of Object.keys(cssVariables)) {
-      if (isShadowComponentCSSVar(key)) {
-        delete cssVariables[key];
       }
     }
 
