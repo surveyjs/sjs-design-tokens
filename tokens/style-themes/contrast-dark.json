@@ -464,11 +464,11 @@
             "type": "color"
           },
           "secondary": {
-            "value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x060} )",
+            "value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x065} )",
             "type": "color"
           },
           "tertiary": {
-            "value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x040} )",
+            "value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x045} )",
             "type": "color"
           },
           "primary-disabled": {
@@ -596,7 +596,7 @@
             "type": "color"
           },
           "secondary": {
-            "value": "{sjs2.palette.gray.750}",
+            "value": "{sjs2.palette.gray.700}",
             "type": "color"
           },
           "secondary-overlay": {
