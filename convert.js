@@ -85,20 +85,12 @@ function filterComplexTokens(cssVariables) {
   return filtered;
 }
 
-// Check if a token path refers to a shadow component (offset, blur, spread)
-function isShadowComponentToken(tokenPath) {
-  const lower = tokenPath.toLowerCase();
-  return lower.startsWith('sjs2.border-offset.') || 
-         lower.startsWith('sjs2.border-blur.') || 
-         lower.startsWith('sjs2.border-spread.');
-}
-
-// Convert shadow component references to CSS var() in border-effect values.
+// Convert token references in shadow dimensions to CSS var() in border-effect values.
 function shadowComponentRefToVar(value) {
   if (typeof value === 'number') return formatShadowDimension(value);
   if (typeof value !== 'string') return value;
   const refMatch = value.match(/^\{([^}]+)\}$/);
-  if (refMatch && isShadowComponentToken(refMatch[1])) {
+  if (refMatch) {
     return `var(--${refMatch[1].replace(/\./g, '-').toLowerCase()})`;
   }
   return formatShadowDimension(value);
