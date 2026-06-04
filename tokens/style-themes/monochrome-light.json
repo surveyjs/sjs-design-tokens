@@ -465,11 +465,11 @@
             "type": "color"
           },
           "secondary": {
-            "value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x060} )",
+            "value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x065} )",
             "type": "color"
           },
           "tertiary": {
-            "value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x040} )",
+            "value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x045} )",
             "type": "color"
           },
           "primary-disabled": {
