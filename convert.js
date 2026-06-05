@@ -59,7 +59,10 @@ function flattenTokens(obj, prefix = '', result = {}) {
       } else if (value && typeof value === 'object' && Array.isArray(value.value)) {
         // This is a token with array value (e.g. boxShadow - array of shadow objects)
         result[newPrefix] = value;
-      } else if (value && typeof value === 'object' && (value.x !== undefined || value.y !== undefined || value.blur !== undefined || value.spread !== undefined || value.color !== undefined)) {
+      } else if (value && typeof value === 'object' && isShadowObject(value.value)) {
+        // This is a token with a single shadow object value
+        result[newPrefix] = value;
+      } else if (value && typeof value === 'object' && isShadowObject(value)) {
         // This is a shadow object, process it
         result[newPrefix] = {
           value: value,
@@ -210,6 +213,11 @@ function isTransparentShadowColor(color) {
   return false;
 }
 
+function isShadowObject(obj) {
+  return obj && typeof obj === 'object' &&
+    (obj.x !== undefined || obj.y !== undefined || obj.blur !== undefined || obj.spread !== undefined || obj.color !== undefined);
+}
+
 // Drop placeholder shadows (zero size + fully transparent color), keep zero-size border-effects.
 function isShadowObjectInvisible(shadowObj) {
   if (!shadowObj || typeof shadowObj !== 'object') return true;
@@ -219,7 +227,7 @@ function isShadowObjectInvisible(shadowObj) {
 }
 
 // Function for processing shadow values
-function processShadowValue(shadowObj) {
+function processShadowValue(shadowObj, keepIfInvisible = false) {
   if (!shadowObj || typeof shadowObj !== 'object') {
     return null;
   }
@@ -255,11 +263,11 @@ function processShadowValue(shadowObj) {
   }
   
   const result = shadowString.trim();
-  return isShadowObjectInvisible(shadowObj) ? null : result;
+  return isShadowObjectInvisible(shadowObj) && !keepIfInvisible ? null : result;
 }
 
 // Function for processing shadow values with token resolution
-function processShadowValueWithResolution(shadowObj, visited = new Set()) {
+function processShadowValueWithResolution(shadowObj, visited = new Set(), keepIfInvisible = false) {
   if (!shadowObj || typeof shadowObj !== 'object') {
     return null;
   }
@@ -293,7 +301,7 @@ function processShadowValueWithResolution(shadowObj, visited = new Set()) {
   }
   
   const result = shadowString.trim();
-  return isShadowObjectInvisible(shadowObj) ? null : result;
+  return isShadowObjectInvisible(shadowObj) && !keepIfInvisible ? null : result;
 }
 
 // Function for processing color modifications via $extensions.studio.tokens.modify
@@ -406,13 +414,14 @@ function evaluateTokenValue(value, type, visited = new Set()) {
     return processedValue;
   } else if (typeof value === 'object' && value !== null) {
     if (Array.isArray(value)) {
+      const keepIfInvisible = value.length === 1;
       return value
-        .map(item => processShadowValueWithResolution(item, visited))
+        .map(item => processShadowValueWithResolution(item, visited, keepIfInvisible))
         .filter(Boolean)
         .join(', ');
     }
-    if (value.x !== undefined || value.y !== undefined || value.blur !== undefined || value.spread !== undefined || value.color !== undefined) {
-      return processShadowValueWithResolution(value, visited);
+    if (isShadowObject(value)) {
+      return processShadowValueWithResolution(value, visited, true);
     }
   }
   
@@ -509,8 +518,8 @@ function createTypeScriptFiles() {
         }
 
         cssVariables[cssVarName] = processedValue;
-      } else if (tokenData.value !== undefined && Array.isArray(tokenData.value)) {
-        // Array of shadows (boxShadow) -> single CSS box-shadow value
+      } else if (tokenData.value !== undefined && (Array.isArray(tokenData.value) || isShadowObject(tokenData.value))) {
+        // boxShadow token (array or single shadow object) -> CSS box-shadow value
         cssVariables[cssVarName] = evaluateTokenValue(tokenData.value, tokenData.type);
       }
     }
