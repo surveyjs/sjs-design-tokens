@@ -95,7 +95,7 @@
         },
         "surface": {
           "survey": {
-            "value": "#1c1b200d",
+            "value": "#EDF9F7",
             "type": "color",
             "description": "Surface color for the real Survey on the user's side + Preview & Themes tabs."
           },
