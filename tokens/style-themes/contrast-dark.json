@@ -3625,7 +3625,14 @@
             "type": "boxShadow"
           },
           "a11y": {
-            "value": "unset",
+            "value": {
+              "x": "0",
+              "y": "0",
+              "blur": "0",
+              "spread": "0",
+              "color": "transparent",
+              "type": "dropShadow"
+            },
             "type": "boxShadow"
           }
         },
