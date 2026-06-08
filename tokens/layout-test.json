@@ -322,7 +322,7 @@
             },
             "limit": {
               "padding-vertical": {
-                "value": "{sjs2.spacing.x100}",
+                "value": "{sjs2.spacing.x075}",
                 "type": "spacing"
               },
               "padding-left": {
@@ -331,6 +331,12 @@
               },
               "padding-right": {
                 "value": "{sjs2.spacing.x100}",
+                "type": "spacing"
+              }
+            },
+            "tag-group": {
+              "gap": {
+                "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
               }
             }
@@ -392,7 +398,7 @@
             },
             "limit": {
               "padding-vertical": {
-                "value": "{sjs2.spacing.x100}",
+                "value": "{sjs2.spacing.x075}",
                 "type": "spacing"
               },
               "padding-left": {
@@ -401,6 +407,12 @@
               },
               "padding-right": {
                 "value": "{sjs2.spacing.x100}",
+                "type": "spacing"
+              }
+            },
+            "tag-group": {
+              "gap": {
+                "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
               }
             }
