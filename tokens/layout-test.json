@@ -38,7 +38,7 @@
                 "type": "spacing"
               }
             },
-            "addon": {
+            "dropdown-icon": {
               "padding-vertical": {
                 "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
@@ -84,7 +84,7 @@
                 "type": "spacing"
               }
             },
-            "addon": {
+            "dropdown-icon": {
               "padding-vertical": {
                 "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
@@ -130,7 +130,7 @@
                 "type": "spacing"
               }
             },
-            "addon": {
+            "dropdown-icon": {
               "padding-vertical": {
                 "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
@@ -176,7 +176,7 @@
                 "type": "spacing"
               }
             },
-            "addon": {
+            "dropdown-icon": {
               "padding-vertical": {
                 "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
@@ -222,7 +222,7 @@
                 "type": "spacing"
               }
             },
-            "addon": {
+            "dropdown-icon": {
               "padding-vertical": {
                 "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
