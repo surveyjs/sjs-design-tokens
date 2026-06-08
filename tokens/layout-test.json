@@ -10,7 +10,7 @@
                 "type": "spacing"
               },
               "padding-horizontal": {
-                "value": "{sjs2.spacing.x050}",
+                "value": "{sjs2.spacing.x025}",
                 "type": "spacing"
               }
             },
