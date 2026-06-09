@@ -2993,6 +2993,10 @@
             "description-placeholder": {
               "value": "{sjs2.color.fg.basic.tertiary}",
               "type": "color"
+            },
+            "separator": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
             }
           }
         },
