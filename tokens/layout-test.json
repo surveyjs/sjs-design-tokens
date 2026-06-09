@@ -700,7 +700,7 @@
             "type": "sizing"
           },
           "icon": {
-            "value": "{sjs2.size.x100}",
+            "value": "{sjs2.size.x200}",
             "type": "sizing"
           }
         }
