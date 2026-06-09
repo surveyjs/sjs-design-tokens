@@ -572,7 +572,7 @@
             "type": "spacing"
           },
           "padding-vertical": {
-            "value": "{sjs2.spacing.x400}",
+            "value": "{sjs2.spacing.x500}",
             "type": "spacing"
           },
           "gap-horizontal": {
