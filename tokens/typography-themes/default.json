@@ -146,10 +146,10 @@
           },
           "description": {
             "value": {
-              "fontFamily": "{sjs2.typography.font-family.text}",
-              "fontWeight": "{sjs2.typography.font-weight.basic}",
-              "fontSize": "{sjs2.typography.font-size.default}",
-              "lineHeight": "{sjs2.typography.line-height.default}"
+              "fontFamily": "{sjs2.typography.font-family.component.header.description}",
+              "fontWeight": "{sjs2.typography.font-weight.component.header.description}",
+              "fontSize": "{sjs2.typography.font-size.component.header.description}",
+              "lineHeight": "{sjs2.typography.line-height.component.header.description}"
             },
             "type": "typography"
           }
@@ -170,6 +170,28 @@
               "fontWeight": "{sjs2.typography.font-weight.component.panel-header.description}",
               "fontSize": "{sjs2.typography.font-size.component.panel-header.description}",
               "lineHeight": "{sjs2.typography.line-height.component.panel-header.description}"
+            },
+            "type": "typography"
+          }
+        },
+        "label": {
+          "content": {
+            "value": {
+              "fontFamily": "{sjs2.typography.font-family.component.label.content}",
+              "fontWeight": "{sjs2.typography.font-weight.component.label.content}",
+              "fontSize": "{sjs2.typography.font-size.component.label.content}",
+              "lineHeight": "{sjs2.typography.line-height.component.label.content}"
+            },
+            "type": "typography"
+          }
+        },
+        "action": {
+          "content": {
+            "value": {
+              "fontFamily": "{sjs2.typography.font-family.component.action.content}",
+              "fontWeight": "{sjs2.typography.font-weight.component.action.content}",
+              "fontSize": "{sjs2.typography.font-size.component.action.content}",
+              "lineHeight": "{sjs2.typography.line-height.component.action.content}"
             },
             "type": "typography"
           }
@@ -227,6 +249,18 @@
               "type": "fontFamilies"
             },
             "description": {
+              "value": "{sjs2.typography.font-family.text}",
+              "type": "fontFamilies"
+            }
+          },
+          "label": {
+            "content": {
+              "value": "{sjs2.typography.font-family.text}",
+              "type": "fontFamilies"
+            }
+          },
+          "action": {
+            "content": {
               "value": "{sjs2.typography.font-family.text}",
               "type": "fontFamilies"
             }
@@ -296,6 +330,18 @@
               "value": "{sjs2.typography.font-size.default}",
               "type": "fontSizes"
             }
+          },
+          "label": {
+            "content": {
+              "value": "{sjs2.typography.font-size.default}",
+              "type": "fontSizes"
+            }
+          },
+          "action": {
+            "content": {
+              "value": "{sjs2.typography.font-size.default}",
+              "type": "fontSizes"
+            }
           }
         }
       },
@@ -362,6 +408,18 @@
               "value": "{sjs2.typography.line-height.default}",
               "type": "lineHeights"
             }
+          },
+          "label": {
+            "content": {
+              "value": "{sjs2.typography.line-height.default}",
+              "type": "lineHeights"
+            }
+          },
+          "action": {
+            "content": {
+              "value": "{sjs2.typography.line-height.default}",
+              "type": "lineHeights"
+            }
           }
         }
       },
@@ -418,6 +476,18 @@
             },
             "description": {
               "value": "{sjs2.typography.font-weight.basic}",
+              "type": "fontWeights"
+            }
+          },
+          "label": {
+            "content": {
+              "value": "{sjs2.typography.font-weight.basic}",
+              "type": "fontWeights"
+            }
+          },
+          "action": {
+            "content": {
+              "value": "{sjs2.typography.font-weight.strong}",
               "type": "fontWeights"
             }
           }
