@@ -154,22 +154,22 @@
             "type": "typography"
           }
         },
-        "panel": {
+        "panel-header": {
           "title": {
             "value": {
-              "fontFamily": "{sjs2.typography.font-family.component.panel.title}",
-              "fontWeight": "{sjs2.typography.font-weight.component.panel.title}",
-              "fontSize": "{sjs2.typography.font-size.component.panel.title}",
-              "lineHeight": "{sjs2.typography.line-height.component.panel.title}"
+              "fontFamily": "{sjs2.typography.font-family.component.panel-header.title}",
+              "fontWeight": "{sjs2.typography.font-weight.component.panel-header.title}",
+              "fontSize": "{sjs2.typography.font-size.component.panel-header.title}",
+              "lineHeight": "{sjs2.typography.line-height.component.panel-header.title}"
             },
             "type": "typography"
           },
           "description": {
             "value": {
-              "fontFamily": "{sjs2.typography.font-family.component.panel.description}",
-              "fontWeight": "{sjs2.typography.font-weight.component.panel.description}",
-              "fontSize": "{sjs2.typography.font-size.component.panel.description}",
-              "lineHeight": "{sjs2.typography.line-height.component.panel.description}"
+              "fontFamily": "{sjs2.typography.font-family.component.panel-header.description}",
+              "fontWeight": "{sjs2.typography.font-weight.component.panel-header.description}",
+              "fontSize": "{sjs2.typography.font-size.component.panel-header.description}",
+              "lineHeight": "{sjs2.typography.line-height.component.panel-header.description}"
             },
             "type": "typography"
           }
@@ -221,7 +221,7 @@
               "type": "fontFamilies"
             }
           },
-          "panel": {
+          "panel-header": {
             "title": {
               "value": "{sjs2.typography.font-family.text}",
               "type": "fontFamilies"
@@ -287,7 +287,7 @@
               "type": "fontSizes"
             }
           },
-          "panel": {
+          "panel-header": {
             "title": {
               "value": "{sjs2.typography.font-size.default}",
               "type": "fontSizes"
@@ -353,7 +353,7 @@
               "type": "lineHeights"
             }
           },
-          "panel": {
+          "panel-header": {
             "title": {
               "value": "{sjs2.typography.line-height.default}",
               "type": "lineHeights"
@@ -411,7 +411,7 @@
               "type": "fontWeights"
             }
           },
-          "panel": {
+          "panel-header": {
             "title": {
               "value": "{sjs2.typography.font-weight.strong}",
               "type": "fontWeights"

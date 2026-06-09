@@ -2975,6 +2975,56 @@
               "type": "color"
             }
           }
+        },
+        "panel-header": {
+          "default": {
+            "title": {
+              "value": "{sjs2.color.fg.basic.primary}",
+              "type": "color"
+            },
+            "title-placeholder": {
+              "value": "{sjs2.color.fg.basic.secondary}",
+              "type": "color"
+            },
+            "description": {
+              "value": "{sjs2.color.fg.basic.secondary}",
+              "type": "color"
+            },
+            "description-placeholder": {
+              "value": "{sjs2.color.fg.basic.tertiary}",
+              "type": "color"
+            }
+          }
+        },
+        "label": {
+          "default": {
+            "value": {
+              "value": "{sjs2.color.fg.basic.primary}",
+              "type": "color"
+            },
+            "placeholder": {
+              "value": "{sjs2.color.fg.basic.primary}",
+              "type": "color"
+            },
+            "hint": {
+              "value": "{sjs2.color.fg.basic.secondary}",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "value": {
+              "value": "{sjs2.color.fg.basic.primary-disabled}",
+              "type": "color"
+            },
+            "placeholder": {
+              "value": "{sjs2.color.fg.basic.primary-disabled}",
+              "type": "color"
+            },
+            "hint": {
+              "value": "{sjs2.color.fg.basic.secondary-disabled}",
+              "type": "color"
+            }
+          }
         }
       }
     },
