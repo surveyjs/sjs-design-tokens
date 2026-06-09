@@ -190,7 +190,7 @@
           "large": {
             "label": {
               "padding-horizontal": {
-                "value": "{sjs2.spacing.x150}",
+                "value": "{sjs2.spacing.x200}",
                 "type": "spacing"
               },
               "padding-vertical": {
