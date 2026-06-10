@@ -3065,7 +3065,7 @@
         },
         "label": {
           "default": {
-            "value": {
+            "text": {
               "value": "{sjs2.color.fg.basic.primary}",
               "type": "color"
             },
@@ -3075,7 +3075,7 @@
             }
           },
           "disabled": {
-            "value": {
+            "text": {
               "value": "{sjs2.color.fg.basic.primary-disabled}",
               "type": "color"
             },

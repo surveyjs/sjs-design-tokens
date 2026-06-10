@@ -433,58 +433,8 @@
               "type": "spacing"
             }
           },
-          "line": {
+          "content": {
             "gap-horizontal": {
-              "value": "{sjs2.spacing.x100}",
-              "type": "spacing"
-            }
-          }
-        },
-        "caption": {
-          "box": {
-            "padding-left": {
-              "value": "{sjs2.spacing.x000}",
-              "type": "spacing"
-            },
-            "padding-right": {
-              "value": "{sjs2.spacing.x050}",
-              "type": "spacing"
-            },
-            "padding-vertical": {
-              "value": "{sjs2.spacing.x000}",
-              "type": "spacing"
-            },
-            "gap": {
-              "value": "{sjs2.spacing.x050}",
-              "type": "spacing"
-            }
-          },
-          "action-group": {
-            "gap": {
-              "value": "{sjs2.spacing.x000}",
-              "type": "spacing"
-            }
-          },
-          "hint": {
-            "padding-horizontal": {
-              "value": "{sjs2.spacing.x000}",
-              "type": "spacing"
-            },
-            "padding-top": {
-              "value": "{sjs2.spacing.x000}",
-              "type": "spacing"
-            },
-            "padding-bottom": {
-              "value": "{sjs2.spacing.x200}",
-              "type": "spacing"
-            }
-          },
-          "caption": {
-            "padding-horizontal": {
-              "value": "{sjs2.spacing.x000}",
-              "type": "spacing"
-            },
-            "padding-vertical": {
               "value": "{sjs2.spacing.x100}",
               "type": "spacing"
             }
@@ -522,6 +472,30 @@
               "value": "{sjs2.spacing.x050}",
               "type": "spacing"
             }
+          },
+          "title": {
+            "padding-horizontal": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-vertical": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            }
+          },
+          "description": {
+            "padding-horizontal": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-top": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-bottom": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            }
           }
         },
         "panel": {
@@ -556,50 +530,14 @@
               "value": "{sjs2.spacing.x050}",
               "type": "spacing"
             }
-          }
-        },
-        "labeled-group": {
-          "gap-vertical": {
-            "value": "{sjs2.spacing.x300}",
-            "type": "spacing"
           },
-          "gap-horizontal": {
-            "value": "{sjs2.spacing.x300}",
-            "type": "spacing"
-          }
-        },
-        "labeled-item": {
-          "padding-vertical": {
-            "value": "{sjs2.spacing.x000}",
-            "type": "spacing"
-          },
-          "gap-horizontal": {
-            "value": "{sjs2.spacing.x100}",
-            "type": "spacing"
-          }
-        },
-        "label": {
-          "gap-vertical": {
-            "value": "{sjs2.spacing.x100}",
-            "type": "spacing"
-          },
-          "gap-horizontal": {
-            "value": "{sjs2.spacing.x050}",
-            "type": "spacing"
-          }
-        },
-        "question": {
-          "header": {
+          "title": {
             "padding-horizontal": {
               "value": "{sjs2.spacing.x000}",
               "type": "spacing"
             },
             "padding-vertical": {
               "value": "{sjs2.spacing.x000}",
-              "type": "spacing"
-            },
-            "gap": {
-              "value": "{sjs2.spacing.x050}",
               "type": "spacing"
             }
           },
@@ -613,7 +551,73 @@
               "type": "spacing"
             },
             "padding-bottom": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            }
+          }
+        },
+        "labeled-group": {
+          "box": {
+            "gap-vertical": {
+              "value": "{sjs2.spacing.x300}",
+              "type": "spacing"
+            },
+            "gap-horizontal": {
+              "value": "{sjs2.spacing.x300}",
+              "type": "spacing"
+            }
+          }
+        },
+        "labeled-item": {
+          "box": {
+            "padding-vertical": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "gap-horizontal": {
+              "value": "{sjs2.spacing.x100}",
+              "type": "spacing"
+            }
+          }
+        },
+        "label": {
+          "box": {
+            "padding-vertical": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "gap-vertical": {
+              "value": "{sjs2.spacing.x100}",
+              "type": "spacing"
+            }
+          },
+          "content": {
+            "gap-horizontal": {
+              "value": "{sjs2.spacing.x050}",
+              "type": "spacing"
+            }
+          }
+        },
+        "question": {
+          "header": {
+            "padding-left": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-right": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-top": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-bottom": {
               "value": "{sjs2.spacing.x200}",
+              "type": "spacing"
+            },
+            "gap-vertical": {
+              "value": "{sjs2.spacing.x050}",
               "type": "spacing"
             }
           },
@@ -623,7 +627,75 @@
               "type": "spacing"
             },
             "padding-vertical": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            }
+          },
+          "description": {
+            "padding-horizontal": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-top": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-bottom": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            }
+          }
+        },
+        "caption": {
+          "box": {
+            "padding-left": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-right": {
+              "value": "{sjs2.spacing.x050}",
+              "type": "spacing"
+            },
+            "padding-top": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-bottom": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "gap-vertical": {
+              "value": "{sjs2.spacing.x050}",
+              "type": "spacing"
+            }
+          },
+          "content": {
+            "padding-horizontal": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-vertical": {
               "value": "{sjs2.spacing.x100}",
+              "type": "spacing"
+            }
+          },
+          "hint": {
+            "padding-horizontal": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-top": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-bottom": {
+              "value": "{sjs2.spacing.x200}",
+              "type": "spacing"
+            }
+          },
+          "action-group": {
+            "gap": {
+              "value": "{sjs2.spacing.x000}",
               "type": "spacing"
             }
           }
