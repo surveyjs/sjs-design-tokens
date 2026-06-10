@@ -183,6 +183,15 @@
               "lineHeight": "{sjs2.typography.line-height.component.label.content}"
             },
             "type": "typography"
+          },
+          "hint": {
+            "value": {
+              "fontFamily": "{sjs2.typography.font-family.component.label.hint}",
+              "fontWeight": "{sjs2.typography.font-weight.component.label.hint}",
+              "fontSize": "{sjs2.typography.font-size.component.label.hint}",
+              "lineHeight": "{sjs2.typography.line-height.component.label.hint}"
+            },
+            "type": "typography"
           }
         },
         "action": {
@@ -192,6 +201,26 @@
               "fontWeight": "{sjs2.typography.font-weight.component.action.content}",
               "fontSize": "{sjs2.typography.font-size.component.action.content}",
               "lineHeight": "{sjs2.typography.line-height.component.action.content}"
+            },
+            "type": "typography"
+          }
+        },
+        "caption": {
+          "content": {
+            "value": {
+              "fontFamily": "{sjs2.typography.font-family.component.label.content}",
+              "fontWeight": "{sjs2.typography.font-weight.component.label.content}",
+              "fontSize": "{sjs2.typography.font-size.component.label.content}",
+              "lineHeight": "{sjs2.typography.line-height.component.label.content}"
+            },
+            "type": "typography"
+          },
+          "hint": {
+            "value": {
+              "fontFamily": "{sjs2.typography.font-family.component.label.hint}",
+              "fontWeight": "{sjs2.typography.font-weight.component.label.hint}",
+              "fontSize": "{sjs2.typography.font-size.component.label.hint}",
+              "lineHeight": "{sjs2.typography.line-height.component.label.hint}"
             },
             "type": "typography"
           }
@@ -257,10 +286,24 @@
             "content": {
               "value": "{sjs2.typography.font-family.text}",
               "type": "fontFamilies"
+            },
+            "hint": {
+              "value": "{sjs2.typography.font-family.text}",
+              "type": "fontFamilies"
             }
           },
           "action": {
             "content": {
+              "value": "{sjs2.typography.font-family.text}",
+              "type": "fontFamilies"
+            }
+          },
+          "caption": {
+            "content": {
+              "value": "{sjs2.typography.font-family.text}",
+              "type": "fontFamilies"
+            },
+            "hint": {
               "value": "{sjs2.typography.font-family.text}",
               "type": "fontFamilies"
             }
@@ -335,11 +378,25 @@
             "content": {
               "value": "{sjs2.typography.font-size.default}",
               "type": "fontSizes"
+            },
+            "hint": {
+              "value": "{sjs2.typography.font-size.small}",
+              "type": "fontSizes"
             }
           },
           "action": {
             "content": {
               "value": "{sjs2.typography.font-size.default}",
+              "type": "fontSizes"
+            }
+          },
+          "caption": {
+            "content": {
+              "value": "{sjs2.typography.font-size.default}",
+              "type": "fontSizes"
+            },
+            "hint": {
+              "value": "{sjs2.typography.font-size.small}",
               "type": "fontSizes"
             }
           }
@@ -413,11 +470,25 @@
             "content": {
               "value": "{sjs2.typography.line-height.default}",
               "type": "lineHeights"
+            },
+            "hint": {
+              "value": "{sjs2.typography.line-height.small}",
+              "type": "lineHeights"
             }
           },
           "action": {
             "content": {
               "value": "{sjs2.typography.line-height.default}",
+              "type": "lineHeights"
+            }
+          },
+          "caption": {
+            "content": {
+              "value": "{sjs2.typography.line-height.default}",
+              "type": "lineHeights"
+            },
+            "hint": {
+              "value": "{sjs2.typography.line-height.small}",
               "type": "lineHeights"
             }
           }
@@ -483,11 +554,25 @@
             "content": {
               "value": "{sjs2.typography.font-weight.basic}",
               "type": "fontWeights"
+            },
+            "hint": {
+              "value": "{sjs2.typography.font-weight.basic}",
+              "type": "fontWeights"
             }
           },
           "action": {
             "content": {
               "value": "{sjs2.typography.font-weight.strong}",
+              "type": "fontWeights"
+            }
+          },
+          "caption": {
+            "content": {
+              "value": "{sjs2.typography.font-weight.basic}",
+              "type": "fontWeights"
+            },
+            "hint": {
+              "value": "{sjs2.typography.font-weight.basic}",
               "type": "fontWeights"
             }
           }
