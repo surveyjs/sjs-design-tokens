@@ -3096,6 +3096,28 @@
               "type": "color"
             }
           }
+        },
+        "caption": {
+          "default": {
+            "caption": {
+              "value": "{sjs2.color.fg.basic.secondary}",
+              "type": "color"
+            },
+            "hint": {
+              "value": "{sjs2.color.fg.basic.secondary}",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "caption": {
+              "value": "{sjs2.color.fg.basic.secondary-disabled}",
+              "type": "color"
+            },
+            "hint": {
+              "value": "{sjs2.color.fg.basic.secondary-disabled}",
+              "type": "color"
+            }
+          }
         }
       }
     },
