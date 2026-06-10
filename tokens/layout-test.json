@@ -2,6 +2,14 @@
   "sjs2": {
     "layout": {
       "form": {
+        "x-small-gap-horizontal": {
+          "value": "{sjs2.spacing.x100}",
+          "type": "spacing"
+        },
+        "x-small-gap-vertical": {
+          "value": "{sjs2.spacing.x100}",
+          "type": "spacing"
+        },
         "small-gap-horizontal": {
           "value": "{sjs2.spacing.x150}",
           "type": "spacing"
