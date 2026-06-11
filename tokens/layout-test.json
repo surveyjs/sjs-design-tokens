@@ -773,38 +773,6 @@
               "type": "spacing"
             }
           }
-        },
-        "buttonstack": {
-          "small": {
-            "gap-horizontal": {
-              "value": "{sjs2.spacing.x150}",
-              "type": "spacing"
-            },
-            "gap-vertical": {
-              "value": "{sjs2.spacing.x150}",
-              "type": "spacing"
-            }
-          },
-          "medium": {
-            "gap-horizontal": {
-              "value": "{sjs2.spacing.x150}",
-              "type": "spacing"
-            },
-            "gap-vertical": {
-              "value": "{sjs2.spacing.x150}",
-              "type": "spacing"
-            }
-          },
-          "large": {
-            "gap-horizontal": {
-              "value": "{sjs2.spacing.x150}",
-              "type": "spacing"
-            },
-            "gap-vertical": {
-              "value": "{sjs2.spacing.x150}",
-              "type": "spacing"
-            }
-          }
         }
       }
     },
