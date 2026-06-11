@@ -595,7 +595,7 @@
               "type": "spacing"
             },
             "padding-vertical": {
-              "value": "{sjs2.layout.component.panel.box.padding-vertical}",
+              "value": "{sjs2.spacing.x300}",
               "type": "spacing"
             }
           }
