@@ -959,6 +959,38 @@
             "value": "{sjs2.size.x200}",
             "type": "sizing"
           }
+        },
+        "action": {
+          "large": {
+            "icon": {
+              "value": "{sjs2.typography.line-height.component.action.large.content}",
+              "type": "sizing"
+            }
+          },
+          "medium": {
+            "icon": {
+              "value": "{sjs2.typography.line-height.component.action.medium.content}",
+              "type": "sizing"
+            }
+          },
+          "small": {
+            "icon": {
+              "value": "{sjs2.typography.line-height.component.action.small.content}",
+              "type": "sizing"
+            }
+          },
+          "x-small": {
+            "icon": {
+              "value": "{sjs2.typography.line-height.component.action.x-small.content}",
+              "type": "sizing"
+            }
+          },
+          "xx-small": {
+            "icon": {
+              "value": "{sjs2.typography.line-height.component.action.xx-small.content}",
+              "type": "sizing"
+            }
+          }
         }
       }
     }
