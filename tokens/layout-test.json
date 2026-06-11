@@ -588,6 +588,16 @@
               "value": "{sjs2.spacing.x000}",
               "type": "spacing"
             }
+          },
+          "footer": {
+            "padding-horizontal": {
+              "value": "{sjs2.layout.component.panel.box.padding-horizontal}",
+              "type": "spacing"
+            },
+            "padding-vertical": {
+              "value": "{sjs2.layout.component.panel.box.padding-vertical}",
+              "type": "spacing"
+            }
           }
         },
         "labeled-group": {
