@@ -6380,6 +6380,10 @@
               }
             ],
             "type": "boxShadow"
+          },
+          "a11y": {
+            "value": "{sjs2.border-effect.a11y}",
+            "type": "boxShadow"
           }
         }
       },
