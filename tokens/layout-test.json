@@ -598,6 +598,12 @@
               "value": "{sjs2.spacing.x300}",
               "type": "spacing"
             }
+          },
+          "footer-action-group": {
+            "gap": {
+              "value": "{sjs2.spacing.x150}",
+              "type": "spacing"
+            }
           }
         },
         "labeled-group": {
