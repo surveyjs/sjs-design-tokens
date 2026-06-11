@@ -543,11 +543,11 @@
               "type": "spacing"
             },
             "gap-horizontal": {
-              "value": "{sjs2.spacing.x150}",
+              "value": "{sjs2.spacing.x500}",
               "type": "spacing"
             },
             "gap-vertical": {
-              "value": "{sjs2.spacing.x300}",
+              "value": "{sjs2.spacing.x400}",
               "type": "spacing"
             }
           },
