@@ -154,22 +154,22 @@
             "type": "typography"
           }
         },
-        "panel-header": {
+        "panel": {
           "title": {
             "value": {
-              "fontFamily": "{sjs2.typography.font-family.component.panel-header.title}",
-              "fontWeight": "{sjs2.typography.font-weight.component.panel-header.title}",
-              "fontSize": "{sjs2.typography.font-size.component.panel-header.title}",
-              "lineHeight": "{sjs2.typography.line-height.component.panel-header.title}"
+              "fontFamily": "{sjs2.typography.font-family.component.panel.title}",
+              "fontWeight": "{sjs2.typography.font-weight.component.panel.title}",
+              "fontSize": "{sjs2.typography.font-size.component.panel.title}",
+              "lineHeight": "{sjs2.typography.line-height.component.panel.title}"
             },
             "type": "typography"
           },
           "description": {
             "value": {
-              "fontFamily": "{sjs2.typography.font-family.component.panel-header.description}",
-              "fontWeight": "{sjs2.typography.font-weight.component.panel-header.description}",
-              "fontSize": "{sjs2.typography.font-size.component.panel-header.description}",
-              "lineHeight": "{sjs2.typography.line-height.component.panel-header.description}"
+              "fontFamily": "{sjs2.typography.font-family.component.panel.description}",
+              "fontWeight": "{sjs2.typography.font-weight.component.panel.description}",
+              "fontSize": "{sjs2.typography.font-size.component.panel.description}",
+              "lineHeight": "{sjs2.typography.line-height.component.panel.description}"
             },
             "type": "typography"
           }
@@ -195,14 +195,60 @@
           }
         },
         "action": {
-          "content": {
-            "value": {
-              "fontFamily": "{sjs2.typography.font-family.component.action.content}",
-              "fontWeight": "{sjs2.typography.font-weight.component.action.content}",
-              "fontSize": "{sjs2.typography.font-size.component.action.content}",
-              "lineHeight": "{sjs2.typography.line-height.component.action.content}"
-            },
-            "type": "typography"
+          "large": {
+            "content": {
+              "value": {
+                "fontFamily": "{sjs2.typography.font-family.component.action.large.content}",
+                "fontWeight": "{sjs2.typography.font-weight.component.action.large.content}",
+                "fontSize": "{sjs2.typography.font-size.component.action.large.content}",
+                "lineHeight": "{sjs2.typography.line-height.component.action.large.content}"
+              },
+              "type": "typography"
+            }
+          },
+          "medium": {
+            "content": {
+              "value": {
+                "fontFamily": "{sjs2.typography.font-family.component.action.medium.content}",
+                "fontWeight": "{sjs2.typography.font-weight.component.action.medium.content}",
+                "fontSize": "{sjs2.typography.font-size.component.action.medium.content}",
+                "lineHeight": "{sjs2.typography.line-height.component.action.medium.content}"
+              },
+              "type": "typography"
+            }
+          },
+          "small": {
+            "content": {
+              "value": {
+                "fontFamily": "{sjs2.typography.font-family.component.action.small.content}",
+                "fontWeight": "{sjs2.typography.font-weight.component.action.small.content}",
+                "fontSize": "{sjs2.typography.font-size.component.action.small.content}",
+                "lineHeight": "{sjs2.typography.line-height.component.action.small.content}"
+              },
+              "type": "typography"
+            }
+          },
+          "x-small": {
+            "content": {
+              "value": {
+                "fontFamily": "{sjs2.typography.font-family.component.action.x-small.content}",
+                "fontWeight": "{sjs2.typography.font-weight.component.action.x-small.content}",
+                "fontSize": "{sjs2.typography.font-size.component.action.x-small.content}",
+                "lineHeight": "{sjs2.typography.line-height.component.action.x-small.content}"
+              },
+              "type": "typography"
+            }
+          },
+          "xx-small": {
+            "content": {
+              "value": {
+                "fontFamily": "{sjs2.typography.font-family.component.action.xx-small.content}",
+                "fontWeight": "{sjs2.typography.font-weight.component.action.xx-small.content}",
+                "fontSize": "{sjs2.typography.font-size.component.action.xx-small.content}",
+                "lineHeight": "{sjs2.typography.line-height.component.action.xx-small.content}"
+              },
+              "type": "typography"
+            }
           }
         },
         "caption": {
@@ -272,7 +318,7 @@
               "type": "fontFamilies"
             }
           },
-          "panel-header": {
+          "panel": {
             "title": {
               "value": "{sjs2.typography.font-family.text}",
               "type": "fontFamilies"
@@ -293,9 +339,35 @@
             }
           },
           "action": {
-            "content": {
-              "value": "{sjs2.typography.font-family.text}",
-              "type": "fontFamilies"
+            "large": {
+              "content": {
+                "value": "{sjs2.typography.font-family.text}",
+                "type": "fontFamilies"
+              }
+            },
+            "medium": {
+              "content": {
+                "value": "{sjs2.typography.font-family.text}",
+                "type": "fontFamilies"
+              }
+            },
+            "small": {
+              "content": {
+                "value": "{sjs2.typography.font-family.text}",
+                "type": "fontFamilies"
+              }
+            },
+            "x-small": {
+              "content": {
+                "value": "{sjs2.typography.font-family.text}",
+                "type": "fontFamilies"
+              }
+            },
+            "xx-small": {
+              "content": {
+                "value": "{sjs2.typography.font-family.text}",
+                "type": "fontFamilies"
+              }
             }
           },
           "caption": {
@@ -364,7 +436,7 @@
               "type": "fontSizes"
             }
           },
-          "panel-header": {
+          "panel": {
             "title": {
               "value": "{sjs2.typography.font-size.default}",
               "type": "fontSizes"
@@ -385,9 +457,35 @@
             }
           },
           "action": {
-            "content": {
-              "value": "{sjs2.typography.font-size.default}",
-              "type": "fontSizes"
+            "large": {
+              "content": {
+                "value": "{sjs2.typography.font-size.default}",
+                "type": "fontSizes"
+              }
+            },
+            "medium": {
+              "content": {
+                "value": "{sjs2.typography.font-size.default}",
+                "type": "fontSizes"
+              }
+            },
+            "small": {
+              "content": {
+                "value": "{sjs2.typography.font-size.default}",
+                "type": "fontSizes"
+              }
+            },
+            "x-small": {
+              "content": {
+                "value": "{sjs2.typography.font-size.small}",
+                "type": "fontSizes"
+              }
+            },
+            "xx-small": {
+              "content": {
+                "value": "{sjs2.typography.font-size.small}",
+                "type": "fontSizes"
+              }
             }
           },
           "caption": {
@@ -456,7 +554,7 @@
               "type": "lineHeights"
             }
           },
-          "panel-header": {
+          "panel": {
             "title": {
               "value": "{sjs2.typography.line-height.default}",
               "type": "lineHeights"
@@ -477,9 +575,35 @@
             }
           },
           "action": {
-            "content": {
-              "value": "{sjs2.typography.line-height.default}",
-              "type": "lineHeights"
+            "large": {
+              "content": {
+                "value": "{sjs2.typography.line-height.default}",
+                "type": "lineHeights"
+              }
+            },
+            "medium": {
+              "content": {
+                "value": "{sjs2.typography.line-height.default}",
+                "type": "lineHeights"
+              }
+            },
+            "small": {
+              "content": {
+                "value": "{sjs2.typography.line-height.default}",
+                "type": "lineHeights"
+              }
+            },
+            "x-small": {
+              "content": {
+                "value": "{sjs2.typography.line-height.small}",
+                "type": "lineHeights"
+              }
+            },
+            "xx-small": {
+              "content": {
+                "value": "{sjs2.typography.line-height.small}",
+                "type": "lineHeights"
+              }
             }
           },
           "caption": {
@@ -540,7 +664,7 @@
               "type": "fontWeights"
             }
           },
-          "panel-header": {
+          "panel": {
             "title": {
               "value": "{sjs2.typography.font-weight.strong}",
               "type": "fontWeights"
@@ -561,9 +685,35 @@
             }
           },
           "action": {
-            "content": {
-              "value": "{sjs2.typography.font-weight.strong}",
-              "type": "fontWeights"
+            "large": {
+              "content": {
+                "value": "{sjs2.typography.font-weight.strong}",
+                "type": "fontWeights"
+              }
+            },
+            "medium": {
+              "content": {
+                "value": "{sjs2.typography.font-weight.strong}",
+                "type": "fontWeights"
+              }
+            },
+            "small": {
+              "content": {
+                "value": "{sjs2.typography.font-weight.strong}",
+                "type": "fontWeights"
+              }
+            },
+            "x-small": {
+              "content": {
+                "value": "{sjs2.typography.font-weight.strong}",
+                "type": "fontWeights"
+              }
+            },
+            "xx-small": {
+              "content": {
+                "value": "{sjs2.typography.font-weight.strong}",
+                "type": "fontWeights"
+              }
             }
           },
           "caption": {
