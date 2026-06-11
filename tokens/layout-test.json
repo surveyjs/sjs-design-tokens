@@ -716,6 +716,10 @@
         },
         "labeled-group": {
           "box": {
+            "padding-vertical": {
+              "value": "{sjs2.spacing.x150}",
+              "type": "spacing"
+            },
             "gap-vertical": {
               "value": "{sjs2.spacing.x300}",
               "type": "spacing"
@@ -993,6 +997,10 @@
           }
         }
       }
+    },
+    "is-panelless": {
+      "value": "false",
+      "type": "boolean"
     }
   }
 }
