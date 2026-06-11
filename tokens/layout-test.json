@@ -721,7 +721,7 @@
               "type": "spacing"
             },
             "gap-horizontal": {
-              "value": "{sjs2.spacing.x300}",
+              "value": "{sjs2.spacing.x200}",
               "type": "spacing"
             }
           }
