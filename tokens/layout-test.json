@@ -71,16 +71,6 @@
                 "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               }
-            },
-            "dropdown-icon": {
-              "padding-vertical": {
-                "value": "{sjs2.spacing.x000}",
-                "type": "spacing"
-              },
-              "padding-horizontal": {
-                "value": "{sjs2.spacing.x000}",
-                "type": "spacing"
-              }
             }
           },
           "x-small": {
@@ -115,16 +105,6 @@
               },
               "gap": {
                 "value": "{sjs2.spacing.x000}",
-                "type": "spacing"
-              }
-            },
-            "dropdown-icon": {
-              "padding-vertical": {
-                "value": "{sjs2.spacing.x050}",
-                "type": "spacing"
-              },
-              "padding-horizontal": {
-                "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
               }
             }
@@ -163,16 +143,6 @@
                 "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               }
-            },
-            "dropdown-icon": {
-              "padding-vertical": {
-                "value": "{sjs2.spacing.x050}",
-                "type": "spacing"
-              },
-              "padding-horizontal": {
-                "value": "{sjs2.spacing.x050}",
-                "type": "spacing"
-              }
             }
           },
           "medium": {
@@ -209,16 +179,6 @@
                 "value": "{sjs2.spacing.x000}",
                 "type": "spacing"
               }
-            },
-            "dropdown-icon": {
-              "padding-vertical": {
-                "value": "{sjs2.spacing.x050}",
-                "type": "spacing"
-              },
-              "padding-horizontal": {
-                "value": "{sjs2.spacing.x050}",
-                "type": "spacing"
-              }
             }
           },
           "large": {
@@ -253,16 +213,6 @@
               },
               "gap": {
                 "value": "{sjs2.spacing.x000}",
-                "type": "spacing"
-              }
-            },
-            "dropdown-icon": {
-              "padding-vertical": {
-                "value": "{sjs2.spacing.x050}",
-                "type": "spacing"
-              },
-              "padding-horizontal": {
-                "value": "{sjs2.spacing.x050}",
                 "type": "spacing"
               }
             }
