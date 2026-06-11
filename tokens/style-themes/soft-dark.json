@@ -55,7 +55,7 @@
           "type": "color"
         },
         "sheet": {
-          "value": "{sjs2.palette.gray.900}",
+          "value": "{sjs2.palette.gray.850}",
           "type": "color"
         },
         "a11y": {
@@ -71,17 +71,17 @@
           "type": "color"
         },
         "toolbox": {
-          "value": "{sjs2.palette.gray.900}",
+          "value": "{sjs2.palette.gray.850}",
           "type": "color",
           "description": "background color for Toolbox panel (left panel)"
         },
         "property-grid": {
-          "value": "{sjs2.palette.gray.900}",
+          "value": "{sjs2.palette.gray.850}",
           "type": "color",
           "description": "background color for Property Grid panel (right panel)"
         },
         "tabs": {
-          "value": "{sjs2.palette.gray.900}",
+          "value": "{sjs2.palette.gray.850}",
           "type": "color",
           "description": "background color for Tabs panel (top panel above all)"
         },
@@ -200,11 +200,11 @@
       "bg": {
         "basic": {
           "primary": {
-            "value": "{sjs2.palette.gray.900}",
+            "value": "{sjs2.palette.gray.850}",
             "type": "color"
           },
           "secondary": {
-            "value": "{sjs2.palette.gray.850}",
+            "value": "{sjs2.palette.gray.900}",
             "type": "color"
           },
           "tertiary": {
@@ -212,11 +212,11 @@
             "type": "color"
           },
           "primary-dim": {
-            "value": "{sjs2.palette.gray.850}",
+            "value": "{sjs2.palette.gray.900}",
             "type": "color"
           },
           "secondary-dim": {
-            "value": "{sjs2.palette.gray.800}",
+            "value": "{sjs2.palette.gray.950}",
             "type": "color"
           },
           "tertiary-dim": {
