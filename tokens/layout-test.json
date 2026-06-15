@@ -948,6 +948,136 @@
         }
       }
     },
+    "radius": {
+      "form": {
+        "value": "{sjs2.radius.x100}",
+        "type": "borderRadius",
+        "description": "Basic corner radius of forms and actions."
+      },
+      "form-item": {
+        "value": "{sjs2.radius.x050}",
+        "type": "borderRadius",
+        "description": "Basic corner radius of different elements inside forms."
+      },
+      "component": {
+        "formbox": {
+          "value": "{sjs2.radius.form}",
+          "type": "borderRadius",
+          "description": "Formbox is a box container used in all editors, including tagbox and buttongroup also."
+        },
+        "formbox-action": {
+          "value": "{sjs2.radius.form-item}",
+          "type": "borderRadius"
+        },
+        "swatch": {
+          "value": "{sjs2.radius.form-item}",
+          "type": "borderRadius",
+          "description": "Swatch radius for a color sample in the color editor."
+        },
+        "buttongroup-item": {
+          "value": "{sjs2.radius.form-item}",
+          "type": "borderRadius"
+        },
+        "tagbox-item": {
+          "value": "{sjs2.radius.form-item}",
+          "type": "borderRadius"
+        },
+        "tagbox-item-action": {
+          "value": "{sjs2.radius.round}",
+          "type": "borderRadius"
+        },
+        "message": {
+          "value": "{sjs2.radius.form}",
+          "type": "borderRadius"
+        },
+        "action": {
+          "value": "{sjs2.radius.form}",
+          "type": "borderRadius"
+        },
+        "drop": {
+          "value": "{sjs2.radius.x200}",
+          "type": "borderRadius",
+          "description": "Corner radius of dropdown list container."
+        },
+        "drop-item": {
+          "value": "{sjs2.radius.x100}",
+          "type": "borderRadius"
+        },
+        "checkbox": {
+          "value": "{sjs2.radius.form-item}",
+          "type": "borderRadius"
+        },
+        "radio": {
+          "value": "{sjs2.radius.round}",
+          "type": "borderRadius"
+        },
+        "rating": {
+          "value": "{sjs2.radius.round}",
+          "type": "borderRadius"
+        },
+        "ranking": {
+          "value": "{sjs2.radius.round}",
+          "type": "borderRadius"
+        },
+        "boolean": {
+          "value": "{sjs2.radius.round}",
+          "type": "borderRadius"
+        },
+        "boolean-item": {
+          "value": "{sjs2.radius.round}",
+          "type": "borderRadius"
+        },
+        "toggle": {
+          "value": "{sjs2.radius.round}",
+          "type": "borderRadius"
+        },
+        "toggle-thumb": {
+          "value": "{sjs2.radius.round}",
+          "type": "borderRadius"
+        },
+        "slider": {
+          "value": "{sjs2.radius.round}",
+          "type": "borderRadius"
+        },
+        "slider-thumb": {
+          "value": "{sjs2.radius.round}",
+          "type": "borderRadius"
+        },
+        "page": {
+          "value": "{sjs2.radius.x150}",
+          "type": "borderRadius",
+          "description": "Corner radius of page, visible in design mode only on state:focused."
+        },
+        "panel": {
+          "value": "{sjs2.radius.x150}",
+          "type": "borderRadius",
+          "description": "Corner radius of question-box."
+        },
+        "panel-nested": {
+          "value": "{sjs2.radius.x100}",
+          "type": "borderRadius",
+          "description": "Corner radius of nested panel inside the question-box."
+        },
+        "modal": {
+          "value": "{sjs2.radius.x300}",
+          "type": "borderRadius",
+          "description": "Corner radius of modal sheet."
+        },
+        "notifier": {
+          "value": "{sjs2.radius.x200}",
+          "type": "borderRadius"
+        },
+        "tooltip": {
+          "value": "{sjs2.radius.x050}",
+          "type": "borderRadius"
+        },
+        "stepper-item": {
+          "value": "{sjs2.radius.form}",
+          "type": "borderRadius",
+          "description": "Stepper (progress indicator divided into separated steps) radius."
+        }
+      }
+    },
     "is-panelless": {
       "value": "false",
       "type": "boolean"
