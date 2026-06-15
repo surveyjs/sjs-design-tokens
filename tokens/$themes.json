@@ -1,5 +1,104 @@
 [
   {
+    "id": "09d3d90b3de9984327154917047c44bbc2788a90",
+    "name": "default",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "base-unit": "source",
+      "common": "source",
+      "typography-themes/default": "enabled"
+    },
+    "$figmaVariableReferences": {
+      "sjs2.typography.font-family.text": "361614a3514ccd34938eed62fdd3aa06baffc9e5",
+      "sjs2.typography.font-family.code": "6ceb3e1eec327749fe0454b33fc0ee896e383878",
+      "sjs2.typography.font-family.component.input.content": "e5e140ebb88e9fef4b05a6c01b3e4c448e9e5c35",
+      "sjs2.typography.font-family.component.question.title": "f2321347d161e74f29ad02bf69d97f8cc2eabc9c",
+      "sjs2.typography.font-family.component.question.description": "c72beb0611c5f83e552daebbe525a9906cc41fc1",
+      "sjs2.typography.font-family.component.page.title": "61e22849a9e5710b73c54f378c4aa8cd282f174c",
+      "sjs2.typography.font-family.component.page.description": "75b002dbb0b63ff043b755e08810f332e68c9532",
+      "sjs2.typography.font-family.component.header.title": "3393df2291382fa381169a93c8b1db83a28a1301",
+      "sjs2.typography.font-family.component.header.description": "6c231ce2f51bd8c0cc2f1ca20747c73b73a24bde",
+      "sjs2.typography.font-family.component.panel.title": "504e3519870192aa32ed2741868e74851ab31f72",
+      "sjs2.typography.font-family.component.panel.description": "c2c4ec2ef7692b1a674dbe984467357c5b4e2eed",
+      "sjs2.typography.font-family.component.label.content": "e46e00baac19f6027c0399d8a0c5a8e89d0530cc",
+      "sjs2.typography.font-family.component.label.hint": "73d4e351c14246d974619b294e0c9fb47822b0ec",
+      "sjs2.typography.font-family.component.action.large.content": "97d84b6f6fd5befaa272b530fe2d78819379a89a",
+      "sjs2.typography.font-family.component.action.medium.content": "b32798edc8605ed5a62c8a6736c11cd57322f00d",
+      "sjs2.typography.font-family.component.action.small.content": "5b223552b05983a2c8e66b2168b8216363071bda",
+      "sjs2.typography.font-family.component.action.x-small.content": "9871c19d25609a604f0ca779f97a536d1810b4ae",
+      "sjs2.typography.font-family.component.action.xx-small.content": "8a2251bd35b26e1543e6d2f83bfc3d6086746f03",
+      "sjs2.typography.font-family.component.caption.content": "641000fb28b2f1a36782126a962cc7abf67392c8",
+      "sjs2.typography.font-family.component.caption.hint": "ed293c1bf8541674d822d18bbb38847201cf0a43",
+      "sjs2.typography.font-size.small": "6198e920c1bda58ba018318429d41ed2144abde4",
+      "sjs2.typography.font-size.default": "63854b9287884b268887523de77bfe607b427b8f",
+      "sjs2.typography.font-size.medium": "806bd9e3364462b1ff7832a7c44231366d03d1ba",
+      "sjs2.typography.font-size.large": "d4f80f03722b5268475882dacfe85a97c0793e48",
+      "sjs2.typography.font-size.component.input.content": "6e00493be9ea2e8267145914d3a897401bccba0d",
+      "sjs2.typography.font-size.component.question.title": "defb18ddb93768f300153668df43dce0384d610e",
+      "sjs2.typography.font-size.component.question.description": "07aeef7287958859149a57c045723582d7139573",
+      "sjs2.typography.font-size.component.page.title": "33f95a7bf005493f82eb805a30e7ed42d45c00bd",
+      "sjs2.typography.font-size.component.page.description": "6b79939adf6f9ac1ccb19d47ee520a236a633126",
+      "sjs2.typography.font-size.component.header.title": "e627bea6ec04afc0731607dbf17a682871050d25",
+      "sjs2.typography.font-size.component.header.description": "c46cb8d0c2091520143a9294aa2817f2157fbee7",
+      "sjs2.typography.font-size.component.panel.title": "040b6bb261242b9a42ad7d96572522334e2680e3",
+      "sjs2.typography.font-size.component.panel.description": "61a6be2b3192ac8c77979b98d34e280675b15d20",
+      "sjs2.typography.font-size.component.label.content": "e537c0337c287b869864762ccc67e06f4877c1e3",
+      "sjs2.typography.font-size.component.label.hint": "019d3847be53b1c05808566792e397d4264093b2",
+      "sjs2.typography.font-size.component.action.large.content": "6608567d1127241b14ba7c5abf22e3043e8701d2",
+      "sjs2.typography.font-size.component.action.medium.content": "3e70cc4a8e97750a59b90a46e2f5fb63c77d3fec",
+      "sjs2.typography.font-size.component.action.small.content": "3aed709032dce9a8ba1b87bbac608d9d1d951129",
+      "sjs2.typography.font-size.component.action.x-small.content": "22b0ab7d3181046b5721d8d0215c24466086b8ab",
+      "sjs2.typography.font-size.component.action.xx-small.content": "e40186d019ab1100afed239c3d1f4f8fc2f75e80",
+      "sjs2.typography.font-size.component.caption.content": "2000b3ab355861575ef3ebb24d0be912ebaaf8d8",
+      "sjs2.typography.font-size.component.caption.hint": "aa9c1a170a53c4662a4ca39c7c1bbb3323b1b8b7",
+      "sjs2.typography.line-height.small": "751f3a9411bc705f4fffec204b04e70cdefb90d0",
+      "sjs2.typography.line-height.default": "0f65d467429b472c78e1b7c21c8e0d200f6787fd",
+      "sjs2.typography.line-height.medium": "ab1cc4c38102714f3dad2f570bcc95da128fe5f3",
+      "sjs2.typography.line-height.large": "225fb1d5cac250cee13fea45c15dc0195c88ba4a",
+      "sjs2.typography.line-height.component.input.content": "ae8257b672b7817282d7c3b8cdba0b68edc5d408",
+      "sjs2.typography.line-height.component.question.title": "840b81a01421213c57cb8162efca5fbc27fa7ca6",
+      "sjs2.typography.line-height.component.question.description": "554a0f223f46049c1fc8cd7b3fc5710ca24d7282",
+      "sjs2.typography.line-height.component.page.title": "4f8b7f45191ba6f6527d68114fbbc3b87e1e6f8d",
+      "sjs2.typography.line-height.component.page.description": "bac61c9580f3c058a08b129db58f6692a6d000fb",
+      "sjs2.typography.line-height.component.header.title": "5a3c511cd605a552c44772f4f954a2a409e1f60a",
+      "sjs2.typography.line-height.component.header.description": "a52304486c48a2b9513e3ee226066ed189f80840",
+      "sjs2.typography.line-height.component.panel.title": "903a81a4812463be26f833bdc462d1bf5b06502d",
+      "sjs2.typography.line-height.component.panel.description": "67db3ca88e982591a6fcc2d747dca4dcc1e8c8b8",
+      "sjs2.typography.line-height.component.label.content": "d3fc08de782999f75ba24a740b05ac46955c768a",
+      "sjs2.typography.line-height.component.label.hint": "31629182abbe40155bd32f89ec7bfbeda62be947",
+      "sjs2.typography.line-height.component.action.large.content": "e3793e73c6ea4ef02d5ba26e15cdc9013df2cb90",
+      "sjs2.typography.line-height.component.action.medium.content": "c8ea4c18ddccc175b4adfd0579f758d073016d2a",
+      "sjs2.typography.line-height.component.action.small.content": "817239df06dbb3c0281d2387bf12a0d30098abaa",
+      "sjs2.typography.line-height.component.action.x-small.content": "24a22f6009646444d814d749dc34616130ba0c83",
+      "sjs2.typography.line-height.component.action.xx-small.content": "00279e55514509a102a3107f8423b7697a842780",
+      "sjs2.typography.line-height.component.caption.content": "f6eacfb6b5830339565b9ff8fbff87cf90768c82",
+      "sjs2.typography.line-height.component.caption.hint": "ed9e110a6f0947a1cf7b3c3680ba2c76a1271bac",
+      "sjs2.typography.font-weight.basic": "492995f4f14f68a5b5ac62d39d382d2c6c83a1b7",
+      "sjs2.typography.font-weight.strong": "dee1cf1e3a061f2c99dfbaa89badcd9c48938ccc",
+      "sjs2.typography.font-weight.component.input.content": "70da35d61633c1cc8cd7e122d018dd223db3b879",
+      "sjs2.typography.font-weight.component.question.title": "604aabf8f9e663c0e4f3aec49dde24bd803fbf76",
+      "sjs2.typography.font-weight.component.question.description": "4dfb00bc53d33a5dfaf0ada539767973d8823d75",
+      "sjs2.typography.font-weight.component.page.title": "2247c691b097f2c85855d81797efa244a10b0049",
+      "sjs2.typography.font-weight.component.page.description": "7e3af3c75fab0d9cd04fad666c447814c60c68d7",
+      "sjs2.typography.font-weight.component.header.title": "7ba6a16c149406d51596bd19d84726cf338143c3",
+      "sjs2.typography.font-weight.component.header.description": "783ed1c9092856a4ca0f7b5a38fcded8464955af",
+      "sjs2.typography.font-weight.component.panel.title": "69749fa1d564a4fb6b874da52b4321c90fcd5975",
+      "sjs2.typography.font-weight.component.panel.description": "c0dfa351ad68a74367cd65c6b6ab8dbda166c14b",
+      "sjs2.typography.font-weight.component.label.content": "9702046f5cbd59970027ddd10be6451e6e5b2ebc",
+      "sjs2.typography.font-weight.component.label.hint": "b25413efcf5e9a0806a97375a80a846c9f7805ff",
+      "sjs2.typography.font-weight.component.action.large.content": "47f466be4a9f96eef79305e0762dbd2bb6a4cca4",
+      "sjs2.typography.font-weight.component.action.medium.content": "3e1a3f2513bdef0d3ba485acae8a13553c78dd96",
+      "sjs2.typography.font-weight.component.action.small.content": "1fbe2be3ecc72e6bc432de65473563d247ea7dd7",
+      "sjs2.typography.font-weight.component.action.x-small.content": "5f8743244b6bd843b74758d2312e8223716e4519",
+      "sjs2.typography.font-weight.component.action.xx-small.content": "c00c3178c0102795a30342fcd7875e318bd2e5ad",
+      "sjs2.typography.font-weight.component.caption.content": "9f3a8957e4ea12c02610b711afef4daac279700a",
+      "sjs2.typography.font-weight.component.caption.hint": "326c90405a0680f8f61042e55c784c817730db1c"
+    },
+    "$figmaCollectionId": "VariableCollectionId:184:1255",
+    "$figmaModeId": "184:0",
+    "group": "typography-themes"
+  },
+  {
     "id": "3f0f1a5a6385a8a344792410331c0b1cc54f01fd",
     "name": "compact",
     "$figmaStyleReferences": {},
@@ -110,103 +209,30 @@
     "group": "pdf-layout-themes"
   },
   {
-    "id": "09d3d90b3de9984327154917047c44bbc2788a90",
+    "id": "630698309d9e8a3a08742e6b90baa58d37fc5ddb",
     "name": "default",
     "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {},
     "selectedTokenSets": {
       "base-unit": "source",
       "common": "source",
-      "typography-themes/default": "enabled"
+      "layout-themes/default": "enabled",
+      "typography-themes/default": "source"
     },
-    "$figmaVariableReferences": {
-      "sjs2.typography.font-family.text": "361614a3514ccd34938eed62fdd3aa06baffc9e5",
-      "sjs2.typography.font-family.code": "6ceb3e1eec327749fe0454b33fc0ee896e383878",
-      "sjs2.typography.font-family.component.input.content": "e5e140ebb88e9fef4b05a6c01b3e4c448e9e5c35",
-      "sjs2.typography.font-family.component.question.title": "f2321347d161e74f29ad02bf69d97f8cc2eabc9c",
-      "sjs2.typography.font-family.component.question.description": "c72beb0611c5f83e552daebbe525a9906cc41fc1",
-      "sjs2.typography.font-family.component.page.title": "61e22849a9e5710b73c54f378c4aa8cd282f174c",
-      "sjs2.typography.font-family.component.page.description": "75b002dbb0b63ff043b755e08810f332e68c9532",
-      "sjs2.typography.font-family.component.header.title": "3393df2291382fa381169a93c8b1db83a28a1301",
-      "sjs2.typography.font-family.component.header.description": "6c231ce2f51bd8c0cc2f1ca20747c73b73a24bde",
-      "sjs2.typography.font-family.component.panel.title": "504e3519870192aa32ed2741868e74851ab31f72",
-      "sjs2.typography.font-family.component.panel.description": "c2c4ec2ef7692b1a674dbe984467357c5b4e2eed",
-      "sjs2.typography.font-family.component.label.content": "e46e00baac19f6027c0399d8a0c5a8e89d0530cc",
-      "sjs2.typography.font-family.component.label.hint": "73d4e351c14246d974619b294e0c9fb47822b0ec",
-      "sjs2.typography.font-family.component.action.large.content": "97d84b6f6fd5befaa272b530fe2d78819379a89a",
-      "sjs2.typography.font-family.component.action.medium.content": "b32798edc8605ed5a62c8a6736c11cd57322f00d",
-      "sjs2.typography.font-family.component.action.small.content": "5b223552b05983a2c8e66b2168b8216363071bda",
-      "sjs2.typography.font-family.component.action.x-small.content": "9871c19d25609a604f0ca779f97a536d1810b4ae",
-      "sjs2.typography.font-family.component.action.xx-small.content": "8a2251bd35b26e1543e6d2f83bfc3d6086746f03",
-      "sjs2.typography.font-family.component.caption.content": "641000fb28b2f1a36782126a962cc7abf67392c8",
-      "sjs2.typography.font-family.component.caption.hint": "ed293c1bf8541674d822d18bbb38847201cf0a43",
-      "sjs2.typography.font-size.small": "6198e920c1bda58ba018318429d41ed2144abde4",
-      "sjs2.typography.font-size.default": "63854b9287884b268887523de77bfe607b427b8f",
-      "sjs2.typography.font-size.medium": "806bd9e3364462b1ff7832a7c44231366d03d1ba",
-      "sjs2.typography.font-size.large": "d4f80f03722b5268475882dacfe85a97c0793e48",
-      "sjs2.typography.font-size.component.input.content": "6e00493be9ea2e8267145914d3a897401bccba0d",
-      "sjs2.typography.font-size.component.question.title": "defb18ddb93768f300153668df43dce0384d610e",
-      "sjs2.typography.font-size.component.question.description": "07aeef7287958859149a57c045723582d7139573",
-      "sjs2.typography.font-size.component.page.title": "33f95a7bf005493f82eb805a30e7ed42d45c00bd",
-      "sjs2.typography.font-size.component.page.description": "6b79939adf6f9ac1ccb19d47ee520a236a633126",
-      "sjs2.typography.font-size.component.header.title": "e627bea6ec04afc0731607dbf17a682871050d25",
-      "sjs2.typography.font-size.component.header.description": "c46cb8d0c2091520143a9294aa2817f2157fbee7",
-      "sjs2.typography.font-size.component.panel.title": "040b6bb261242b9a42ad7d96572522334e2680e3",
-      "sjs2.typography.font-size.component.panel.description": "61a6be2b3192ac8c77979b98d34e280675b15d20",
-      "sjs2.typography.font-size.component.label.content": "e537c0337c287b869864762ccc67e06f4877c1e3",
-      "sjs2.typography.font-size.component.label.hint": "019d3847be53b1c05808566792e397d4264093b2",
-      "sjs2.typography.font-size.component.action.large.content": "6608567d1127241b14ba7c5abf22e3043e8701d2",
-      "sjs2.typography.font-size.component.action.medium.content": "3e70cc4a8e97750a59b90a46e2f5fb63c77d3fec",
-      "sjs2.typography.font-size.component.action.small.content": "3aed709032dce9a8ba1b87bbac608d9d1d951129",
-      "sjs2.typography.font-size.component.action.x-small.content": "22b0ab7d3181046b5721d8d0215c24466086b8ab",
-      "sjs2.typography.font-size.component.action.xx-small.content": "e40186d019ab1100afed239c3d1f4f8fc2f75e80",
-      "sjs2.typography.font-size.component.caption.content": "2000b3ab355861575ef3ebb24d0be912ebaaf8d8",
-      "sjs2.typography.font-size.component.caption.hint": "aa9c1a170a53c4662a4ca39c7c1bbb3323b1b8b7",
-      "sjs2.typography.line-height.small": "751f3a9411bc705f4fffec204b04e70cdefb90d0",
-      "sjs2.typography.line-height.default": "0f65d467429b472c78e1b7c21c8e0d200f6787fd",
-      "sjs2.typography.line-height.medium": "ab1cc4c38102714f3dad2f570bcc95da128fe5f3",
-      "sjs2.typography.line-height.large": "225fb1d5cac250cee13fea45c15dc0195c88ba4a",
-      "sjs2.typography.line-height.component.input.content": "ae8257b672b7817282d7c3b8cdba0b68edc5d408",
-      "sjs2.typography.line-height.component.question.title": "840b81a01421213c57cb8162efca5fbc27fa7ca6",
-      "sjs2.typography.line-height.component.question.description": "554a0f223f46049c1fc8cd7b3fc5710ca24d7282",
-      "sjs2.typography.line-height.component.page.title": "4f8b7f45191ba6f6527d68114fbbc3b87e1e6f8d",
-      "sjs2.typography.line-height.component.page.description": "bac61c9580f3c058a08b129db58f6692a6d000fb",
-      "sjs2.typography.line-height.component.header.title": "5a3c511cd605a552c44772f4f954a2a409e1f60a",
-      "sjs2.typography.line-height.component.header.description": "a52304486c48a2b9513e3ee226066ed189f80840",
-      "sjs2.typography.line-height.component.panel.title": "903a81a4812463be26f833bdc462d1bf5b06502d",
-      "sjs2.typography.line-height.component.panel.description": "67db3ca88e982591a6fcc2d747dca4dcc1e8c8b8",
-      "sjs2.typography.line-height.component.label.content": "d3fc08de782999f75ba24a740b05ac46955c768a",
-      "sjs2.typography.line-height.component.label.hint": "31629182abbe40155bd32f89ec7bfbeda62be947",
-      "sjs2.typography.line-height.component.action.large.content": "e3793e73c6ea4ef02d5ba26e15cdc9013df2cb90",
-      "sjs2.typography.line-height.component.action.medium.content": "c8ea4c18ddccc175b4adfd0579f758d073016d2a",
-      "sjs2.typography.line-height.component.action.small.content": "817239df06dbb3c0281d2387bf12a0d30098abaa",
-      "sjs2.typography.line-height.component.action.x-small.content": "24a22f6009646444d814d749dc34616130ba0c83",
-      "sjs2.typography.line-height.component.action.xx-small.content": "00279e55514509a102a3107f8423b7697a842780",
-      "sjs2.typography.line-height.component.caption.content": "f6eacfb6b5830339565b9ff8fbff87cf90768c82",
-      "sjs2.typography.line-height.component.caption.hint": "ed9e110a6f0947a1cf7b3c3680ba2c76a1271bac",
-      "sjs2.typography.font-weight.basic": "492995f4f14f68a5b5ac62d39d382d2c6c83a1b7",
-      "sjs2.typography.font-weight.strong": "dee1cf1e3a061f2c99dfbaa89badcd9c48938ccc",
-      "sjs2.typography.font-weight.component.input.content": "70da35d61633c1cc8cd7e122d018dd223db3b879",
-      "sjs2.typography.font-weight.component.question.title": "604aabf8f9e663c0e4f3aec49dde24bd803fbf76",
-      "sjs2.typography.font-weight.component.question.description": "4dfb00bc53d33a5dfaf0ada539767973d8823d75",
-      "sjs2.typography.font-weight.component.page.title": "2247c691b097f2c85855d81797efa244a10b0049",
-      "sjs2.typography.font-weight.component.page.description": "7e3af3c75fab0d9cd04fad666c447814c60c68d7",
-      "sjs2.typography.font-weight.component.header.title": "7ba6a16c149406d51596bd19d84726cf338143c3",
-      "sjs2.typography.font-weight.component.header.description": "783ed1c9092856a4ca0f7b5a38fcded8464955af",
-      "sjs2.typography.font-weight.component.panel.title": "69749fa1d564a4fb6b874da52b4321c90fcd5975",
-      "sjs2.typography.font-weight.component.panel.description": "c0dfa351ad68a74367cd65c6b6ab8dbda166c14b",
-      "sjs2.typography.font-weight.component.label.content": "9702046f5cbd59970027ddd10be6451e6e5b2ebc",
-      "sjs2.typography.font-weight.component.label.hint": "b25413efcf5e9a0806a97375a80a846c9f7805ff",
-      "sjs2.typography.font-weight.component.action.large.content": "47f466be4a9f96eef79305e0762dbd2bb6a4cca4",
-      "sjs2.typography.font-weight.component.action.medium.content": "3e1a3f2513bdef0d3ba485acae8a13553c78dd96",
-      "sjs2.typography.font-weight.component.action.small.content": "1fbe2be3ecc72e6bc432de65473563d247ea7dd7",
-      "sjs2.typography.font-weight.component.action.x-small.content": "5f8743244b6bd843b74758d2312e8223716e4519",
-      "sjs2.typography.font-weight.component.action.xx-small.content": "c00c3178c0102795a30342fcd7875e318bd2e5ad",
-      "sjs2.typography.font-weight.component.caption.content": "9f3a8957e4ea12c02610b711afef4daac279700a",
-      "sjs2.typography.font-weight.component.caption.hint": "326c90405a0680f8f61042e55c784c817730db1c"
+    "group": "layout-themes"
+  },
+  {
+    "id": "8ccdede82a3280a67d47d7b96a4b036cb51edfa1",
+    "name": "default-panelless",
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {},
+    "selectedTokenSets": {
+      "base-unit": "source",
+      "common": "source",
+      "layout-themes/default-panelless": "enabled",
+      "typography-themes/default": "source"
     },
-    "$figmaCollectionId": "VariableCollectionId:184:1255",
-    "$figmaModeId": "184:0",
-    "group": "typography-themes"
+    "group": "layout-themes"
   },
   {
     "id": "cbf09d5a0f73fd145837a3f80c2e5e612f30318e",
@@ -2393,7 +2419,6 @@
       "palette": "source",
       "style-themes/soft-dark": "enabled"
     },
-    "group": "style-themes",
     "$figmaCollectionId": "VariableCollectionId:174:1020",
     "$figmaModeId": "1605:1",
     "$figmaVariableReferences": {
@@ -3106,7 +3131,8 @@
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
       "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
-    }
+    },
+    "group": "style-themes"
   },
   {
     "id": "84e189ecd498e1c379b6883674523a955f60b5f0",
@@ -6018,7 +6044,6 @@
       "palette": "source",
       "style-themes/borderless-light": "enabled"
     },
-    "group": "style-themes",
     "$figmaCollectionId": "VariableCollectionId:174:1020",
     "$figmaModeId": "1678:0",
     "$figmaVariableReferences": {
@@ -6731,7 +6756,8 @@
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
       "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
-    }
+    },
+    "group": "style-themes"
   },
   {
     "id": "94e2177b045f79f65a58c63e882d7382146700ab",
@@ -6743,7 +6769,6 @@
       "palette": "source",
       "style-themes/borderless-dark": "enabled"
     },
-    "group": "style-themes",
     "$figmaCollectionId": "VariableCollectionId:174:1020",
     "$figmaModeId": "1678:1",
     "$figmaVariableReferences": {
@@ -7456,7 +7481,8 @@
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
       "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
-    }
+    },
+    "group": "style-themes"
   },
   {
     "id": "00d50876cb3d2b43196dc73bd1b9a4fb37cddc9d",
@@ -7468,8 +7494,8 @@
       "palette": "source",
       "style-themes/flat-light": "enabled"
     },
-    "group": "style-themes",
-    "$figmaVariableReferences": {}
+    "$figmaVariableReferences": {},
+    "group": "style-themes"
   },
   {
     "id": "f95967be577940edb9fedace8cb71036bc894c9d",
@@ -7481,8 +7507,8 @@
       "palette": "source",
       "style-themes/flat-dark": "enabled"
     },
-    "group": "style-themes",
-    "$figmaVariableReferences": {}
+    "$figmaVariableReferences": {},
+    "group": "style-themes"
   },
   {
     "id": "dbf8b5e2545dcd6ede1909934da99951b439f7ec",
@@ -7494,8 +7520,8 @@
       "palette": "source",
       "style-themes/plain-light": "enabled"
     },
-    "group": "style-themes",
-    "$figmaVariableReferences": {}
+    "$figmaVariableReferences": {},
+    "group": "style-themes"
   },
   {
     "id": "cfd91e8f4e0784ebb65e2faa6b727bf96a961910",
@@ -7507,8 +7533,8 @@
       "palette": "source",
       "style-themes/plain-dark": "enabled"
     },
-    "group": "style-themes",
-    "$figmaVariableReferences": {}
+    "$figmaVariableReferences": {},
+    "group": "style-themes"
   },
   {
     "id": "f048d02d9aa8499229250789500a34abbd46a979",
@@ -7520,8 +7546,8 @@
       "palette": "source",
       "style-themes/threedimensional-light": "enabled"
     },
-    "group": "style-themes",
-    "$figmaVariableReferences": {}
+    "$figmaVariableReferences": {},
+    "group": "style-themes"
   },
   {
     "id": "233a1e7f2a6e83c65dd293d830d5714dad0681b9",
@@ -7533,7 +7559,7 @@
       "palette": "source",
       "style-themes/threedimensional-dark": "enabled"
     },
-    "group": "style-themes",
-    "$figmaVariableReferences": {}
+    "$figmaVariableReferences": {},
+    "group": "style-themes"
   }
 ]
