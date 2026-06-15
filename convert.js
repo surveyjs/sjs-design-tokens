@@ -28,7 +28,7 @@ for (const themeInList of styleThemes) {
         "base-unit", 
         "common", 
         "palette", 
-        "layout-test",
+        "layout-themes/default",
         "size-themes/default", 
         "radius-themes/default", 
         "typography-themes/default",
