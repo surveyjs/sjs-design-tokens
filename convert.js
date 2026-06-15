@@ -100,10 +100,22 @@ function shadowComponentRefToVar(value) {
   return formatShadowDimension(value);
 }
 
-// Convert bare zero shadow dimensions to "0px" (border-effect tokens use "0")
+// Convert bare shadow dimensions to CSS lengths with "px" units.
 function formatShadowDimension(value) {
-  if (value === 0 || value === '0') {
-    return '0px';
+  if (typeof value === 'number') {
+    return `${value}px`;
+  }
+  if (typeof value === 'string') {
+    const trimmedValue = value.trim();
+    const numValue = parseFloat(trimmedValue);
+    const isNumericString = !isNaN(numValue) &&
+        /^-?\d+(\.\d+)?$/.test(trimmedValue) &&
+        !trimmedValue.includes('px') && !trimmedValue.includes('%') &&
+        !trimmedValue.includes('em') && !trimmedValue.includes('rem');
+    if (isNumericString) {
+      return `${trimmedValue}px`;
+    }
+    return value;
   }
   return value;
 }
