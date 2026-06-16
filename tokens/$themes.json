@@ -464,7 +464,15 @@
       "sjs2.radius.component.notifier": "6bdb61ef7e12f3cb0d210f34679b503156799198",
       "sjs2.radius.component.tooltip": "469ce04425ef58e393e8cdeb07b9b172b67a2458",
       "sjs2.radius.component.stepper-item": "77dde4f1d3e86d0ad47b032e26b2aacbe6fa3656",
-      "sjs2.is-panelless": "97aa4292479df3bbcdbf5101fc370367e53c6290"
+      "sjs2.is-panelless": "97aa4292479df3bbcdbf5101fc370367e53c6290",
+      "sjs2.layout.component.panel.header.gap-horizontal": "4ed816024a1286d699ec3a56aedeae20fde06087",
+      "sjs2.layout.component.panel-nested.header.gap-horizontal": "bd546b456a5a66005508baa486b320dde2810dba",
+      "sjs2.layout.component.panel.header-action-group.gap": "db19adc9757fcdd79db33aa0c55b18c57852eded",
+      "sjs2.layout.component.panel-nested.header-action-group.gap": "af5e325cfeab94a439d98a763c54b0438386b3ef",
+      "sjs2.layout.component.panel-collapsed.header.gap-horizontal": "0ceee5af8258daef14612c8dd62549a14a790ab4",
+      "sjs2.layout.component.panel-nested-collapsed.header.gap-horizontal": "5760346e489babf5f525789beb5aa188cc01be6e",
+      "sjs2.layout.component.panel-collapsed.header-action-group.gap": "9e6fd2dd7c892855241a5c3af5bab4fa06294123",
+      "sjs2.layout.component.panel-nested-collapsed.header-action-group.gap": "6912c123ebcf2a307f98d195278a04ac68bd0a9a"
     },
     "selectedTokenSets": {
       "base-unit": "source",
@@ -605,6 +613,7 @@
       "sjs2.layout.component.panel.header.padding-horizontal": "7becd0b14baf686869768fcc8c45070c24486288",
       "sjs2.layout.component.panel.header.padding-vertical": "8e8674d5325b47ca36092883c0def656104ee5d7",
       "sjs2.layout.component.panel.header.gap-vertical": "302a93ceca0a471fb31f64617410b85a5b13e8aa",
+      "sjs2.layout.component.panel.header.gap-horizontal": "4ed816024a1286d699ec3a56aedeae20fde06087",
       "sjs2.layout.component.panel.title.padding-horizontal": "d017199a66537cf3861340c1ae9d219de6b64805",
       "sjs2.layout.component.panel.title.padding-vertical": "331214d15195956a76db9da06925b07d291abf1a",
       "sjs2.layout.component.panel.description.padding-horizontal": "a5d0ba482ec5bec601391ee31d18d67b993ec524",
@@ -732,7 +741,14 @@
       "sjs2.radius.component.notifier": "6bdb61ef7e12f3cb0d210f34679b503156799198",
       "sjs2.radius.component.tooltip": "469ce04425ef58e393e8cdeb07b9b172b67a2458",
       "sjs2.radius.component.stepper-item": "77dde4f1d3e86d0ad47b032e26b2aacbe6fa3656",
-      "sjs2.is-panelless": "97aa4292479df3bbcdbf5101fc370367e53c6290"
+      "sjs2.is-panelless": "97aa4292479df3bbcdbf5101fc370367e53c6290",
+      "sjs2.layout.component.panel.header-action-group.gap": "db19adc9757fcdd79db33aa0c55b18c57852eded",
+      "sjs2.layout.component.panel-nested.header-action-group.gap": "af5e325cfeab94a439d98a763c54b0438386b3ef",
+      "sjs2.layout.component.panel-nested.header.gap-horizontal": "bd546b456a5a66005508baa486b320dde2810dba",
+      "sjs2.layout.component.panel-collapsed.header.gap-horizontal": "0ceee5af8258daef14612c8dd62549a14a790ab4",
+      "sjs2.layout.component.panel-nested-collapsed.header.gap-horizontal": "5760346e489babf5f525789beb5aa188cc01be6e",
+      "sjs2.layout.component.panel-collapsed.header-action-group.gap": "9e6fd2dd7c892855241a5c3af5bab4fa06294123",
+      "sjs2.layout.component.panel-nested-collapsed.header-action-group.gap": "6912c123ebcf2a307f98d195278a04ac68bd0a9a"
     },
     "selectedTokenSets": {
       "base-unit": "source",
