@@ -1465,7 +1465,17 @@
       "sjs2.border-offset.y.surface.focused": "8513262dcb73eb738162bbf33cf152b09e2b13fa",
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
-      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
+      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
+      "sjs2.color.component.panel-nested.default.bg": "93ae6ee30bbb5347a8019c0a6a2e389743c40cac",
+      "sjs2.color.component.panel-nested.default.title": "2d76a58c7b5d272e59d31c3a69e095cbcc209be5",
+      "sjs2.color.component.panel-nested.default.title-placeholder": "1dc07658d22ba0fb814e7665a24494188f035a1d",
+      "sjs2.color.component.panel-nested.default.description": "50fe5186689f5d3f8cd3b2765575ec8798fec702",
+      "sjs2.color.component.panel-nested.default.description-placeholder": "999dcc9f86436d13b23297f86dfdfe075c94cab7",
+      "sjs2.color.component.panel-nested.default.separator": "e54658cefed037b75cae63e18e3396b0fa5e7d38",
+      "sjs2.color.component.panel-nested.hovered.bg": "b2fa6af36bec1a01797674af18eb77a2ebf2034d",
+      "sjs2.color.component.panel-nested.focused.bg": "dcafc71471427d0106ae665c5f42e16d25ae62eb",
+      "sjs2.color.component.panel-nested.disabled.bg": "4fdf11f3531e262c9eb23057f289939427d6b417",
+      "sjs2.color.component.panel-nested.dragging.bg": "0595a4cd2b35e4ba0090d6914b2a613516e32b00"
     },
     "group": "style-themes"
   },
@@ -2190,7 +2200,17 @@
       "sjs2.border-offset.y.surface.focused": "8513262dcb73eb738162bbf33cf152b09e2b13fa",
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
-      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
+      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
+      "sjs2.color.component.panel-nested.default.bg": "93ae6ee30bbb5347a8019c0a6a2e389743c40cac",
+      "sjs2.color.component.panel-nested.default.title": "2d76a58c7b5d272e59d31c3a69e095cbcc209be5",
+      "sjs2.color.component.panel-nested.default.title-placeholder": "1dc07658d22ba0fb814e7665a24494188f035a1d",
+      "sjs2.color.component.panel-nested.default.description": "50fe5186689f5d3f8cd3b2765575ec8798fec702",
+      "sjs2.color.component.panel-nested.default.description-placeholder": "999dcc9f86436d13b23297f86dfdfe075c94cab7",
+      "sjs2.color.component.panel-nested.default.separator": "e54658cefed037b75cae63e18e3396b0fa5e7d38",
+      "sjs2.color.component.panel-nested.hovered.bg": "b2fa6af36bec1a01797674af18eb77a2ebf2034d",
+      "sjs2.color.component.panel-nested.focused.bg": "dcafc71471427d0106ae665c5f42e16d25ae62eb",
+      "sjs2.color.component.panel-nested.disabled.bg": "4fdf11f3531e262c9eb23057f289939427d6b417",
+      "sjs2.color.component.panel-nested.dragging.bg": "0595a4cd2b35e4ba0090d6914b2a613516e32b00"
     },
     "group": "style-themes"
   },
@@ -2915,7 +2935,17 @@
       "sjs2.border-offset.y.surface.focused": "8513262dcb73eb738162bbf33cf152b09e2b13fa",
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
-      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
+      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
+      "sjs2.color.component.panel-nested.default.bg": "93ae6ee30bbb5347a8019c0a6a2e389743c40cac",
+      "sjs2.color.component.panel-nested.default.title": "2d76a58c7b5d272e59d31c3a69e095cbcc209be5",
+      "sjs2.color.component.panel-nested.default.title-placeholder": "1dc07658d22ba0fb814e7665a24494188f035a1d",
+      "sjs2.color.component.panel-nested.default.description": "50fe5186689f5d3f8cd3b2765575ec8798fec702",
+      "sjs2.color.component.panel-nested.default.description-placeholder": "999dcc9f86436d13b23297f86dfdfe075c94cab7",
+      "sjs2.color.component.panel-nested.default.separator": "e54658cefed037b75cae63e18e3396b0fa5e7d38",
+      "sjs2.color.component.panel-nested.hovered.bg": "b2fa6af36bec1a01797674af18eb77a2ebf2034d",
+      "sjs2.color.component.panel-nested.focused.bg": "dcafc71471427d0106ae665c5f42e16d25ae62eb",
+      "sjs2.color.component.panel-nested.disabled.bg": "4fdf11f3531e262c9eb23057f289939427d6b417",
+      "sjs2.color.component.panel-nested.dragging.bg": "0595a4cd2b35e4ba0090d6914b2a613516e32b00"
     },
     "group": "style-themes"
   },
@@ -3640,7 +3670,17 @@
       "sjs2.border-offset.y.surface.focused": "8513262dcb73eb738162bbf33cf152b09e2b13fa",
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
-      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
+      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
+      "sjs2.color.component.panel-nested.default.bg": "93ae6ee30bbb5347a8019c0a6a2e389743c40cac",
+      "sjs2.color.component.panel-nested.default.title": "2d76a58c7b5d272e59d31c3a69e095cbcc209be5",
+      "sjs2.color.component.panel-nested.default.title-placeholder": "1dc07658d22ba0fb814e7665a24494188f035a1d",
+      "sjs2.color.component.panel-nested.default.description": "50fe5186689f5d3f8cd3b2765575ec8798fec702",
+      "sjs2.color.component.panel-nested.default.description-placeholder": "999dcc9f86436d13b23297f86dfdfe075c94cab7",
+      "sjs2.color.component.panel-nested.default.separator": "e54658cefed037b75cae63e18e3396b0fa5e7d38",
+      "sjs2.color.component.panel-nested.hovered.bg": "b2fa6af36bec1a01797674af18eb77a2ebf2034d",
+      "sjs2.color.component.panel-nested.focused.bg": "dcafc71471427d0106ae665c5f42e16d25ae62eb",
+      "sjs2.color.component.panel-nested.disabled.bg": "4fdf11f3531e262c9eb23057f289939427d6b417",
+      "sjs2.color.component.panel-nested.dragging.bg": "0595a4cd2b35e4ba0090d6914b2a613516e32b00"
     },
     "group": "style-themes"
   },
@@ -4365,7 +4405,17 @@
       "sjs2.border-offset.y.surface.focused": "8513262dcb73eb738162bbf33cf152b09e2b13fa",
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
-      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
+      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
+      "sjs2.color.component.panel-nested.default.bg": "93ae6ee30bbb5347a8019c0a6a2e389743c40cac",
+      "sjs2.color.component.panel-nested.default.title": "2d76a58c7b5d272e59d31c3a69e095cbcc209be5",
+      "sjs2.color.component.panel-nested.default.title-placeholder": "1dc07658d22ba0fb814e7665a24494188f035a1d",
+      "sjs2.color.component.panel-nested.default.description": "50fe5186689f5d3f8cd3b2765575ec8798fec702",
+      "sjs2.color.component.panel-nested.default.description-placeholder": "999dcc9f86436d13b23297f86dfdfe075c94cab7",
+      "sjs2.color.component.panel-nested.default.separator": "e54658cefed037b75cae63e18e3396b0fa5e7d38",
+      "sjs2.color.component.panel-nested.hovered.bg": "b2fa6af36bec1a01797674af18eb77a2ebf2034d",
+      "sjs2.color.component.panel-nested.focused.bg": "dcafc71471427d0106ae665c5f42e16d25ae62eb",
+      "sjs2.color.component.panel-nested.disabled.bg": "4fdf11f3531e262c9eb23057f289939427d6b417",
+      "sjs2.color.component.panel-nested.dragging.bg": "0595a4cd2b35e4ba0090d6914b2a613516e32b00"
     },
     "group": "style-themes"
   },
@@ -5090,7 +5140,17 @@
       "sjs2.border-offset.y.surface.focused": "8513262dcb73eb738162bbf33cf152b09e2b13fa",
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
-      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
+      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
+      "sjs2.color.component.panel-nested.default.bg": "93ae6ee30bbb5347a8019c0a6a2e389743c40cac",
+      "sjs2.color.component.panel-nested.default.title": "2d76a58c7b5d272e59d31c3a69e095cbcc209be5",
+      "sjs2.color.component.panel-nested.default.title-placeholder": "1dc07658d22ba0fb814e7665a24494188f035a1d",
+      "sjs2.color.component.panel-nested.default.description": "50fe5186689f5d3f8cd3b2765575ec8798fec702",
+      "sjs2.color.component.panel-nested.default.description-placeholder": "999dcc9f86436d13b23297f86dfdfe075c94cab7",
+      "sjs2.color.component.panel-nested.default.separator": "e54658cefed037b75cae63e18e3396b0fa5e7d38",
+      "sjs2.color.component.panel-nested.hovered.bg": "b2fa6af36bec1a01797674af18eb77a2ebf2034d",
+      "sjs2.color.component.panel-nested.focused.bg": "dcafc71471427d0106ae665c5f42e16d25ae62eb",
+      "sjs2.color.component.panel-nested.disabled.bg": "4fdf11f3531e262c9eb23057f289939427d6b417",
+      "sjs2.color.component.panel-nested.dragging.bg": "0595a4cd2b35e4ba0090d6914b2a613516e32b00"
     },
     "group": "style-themes"
   },
@@ -5815,7 +5875,17 @@
       "sjs2.border-offset.y.surface.focused": "8513262dcb73eb738162bbf33cf152b09e2b13fa",
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
-      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
+      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
+      "sjs2.color.component.panel-nested.default.bg": "93ae6ee30bbb5347a8019c0a6a2e389743c40cac",
+      "sjs2.color.component.panel-nested.default.title": "2d76a58c7b5d272e59d31c3a69e095cbcc209be5",
+      "sjs2.color.component.panel-nested.default.title-placeholder": "1dc07658d22ba0fb814e7665a24494188f035a1d",
+      "sjs2.color.component.panel-nested.default.description": "50fe5186689f5d3f8cd3b2765575ec8798fec702",
+      "sjs2.color.component.panel-nested.default.description-placeholder": "999dcc9f86436d13b23297f86dfdfe075c94cab7",
+      "sjs2.color.component.panel-nested.default.separator": "e54658cefed037b75cae63e18e3396b0fa5e7d38",
+      "sjs2.color.component.panel-nested.hovered.bg": "b2fa6af36bec1a01797674af18eb77a2ebf2034d",
+      "sjs2.color.component.panel-nested.focused.bg": "dcafc71471427d0106ae665c5f42e16d25ae62eb",
+      "sjs2.color.component.panel-nested.disabled.bg": "4fdf11f3531e262c9eb23057f289939427d6b417",
+      "sjs2.color.component.panel-nested.dragging.bg": "0595a4cd2b35e4ba0090d6914b2a613516e32b00"
     },
     "group": "style-themes"
   },
@@ -6540,7 +6610,17 @@
       "sjs2.border-offset.y.surface.focused": "8513262dcb73eb738162bbf33cf152b09e2b13fa",
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
-      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
+      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
+      "sjs2.color.component.panel-nested.default.bg": "93ae6ee30bbb5347a8019c0a6a2e389743c40cac",
+      "sjs2.color.component.panel-nested.default.title": "2d76a58c7b5d272e59d31c3a69e095cbcc209be5",
+      "sjs2.color.component.panel-nested.default.title-placeholder": "1dc07658d22ba0fb814e7665a24494188f035a1d",
+      "sjs2.color.component.panel-nested.default.description": "50fe5186689f5d3f8cd3b2765575ec8798fec702",
+      "sjs2.color.component.panel-nested.default.description-placeholder": "999dcc9f86436d13b23297f86dfdfe075c94cab7",
+      "sjs2.color.component.panel-nested.default.separator": "e54658cefed037b75cae63e18e3396b0fa5e7d38",
+      "sjs2.color.component.panel-nested.hovered.bg": "b2fa6af36bec1a01797674af18eb77a2ebf2034d",
+      "sjs2.color.component.panel-nested.focused.bg": "dcafc71471427d0106ae665c5f42e16d25ae62eb",
+      "sjs2.color.component.panel-nested.disabled.bg": "4fdf11f3531e262c9eb23057f289939427d6b417",
+      "sjs2.color.component.panel-nested.dragging.bg": "0595a4cd2b35e4ba0090d6914b2a613516e32b00"
     },
     "group": "style-themes"
   },
@@ -7265,7 +7345,17 @@
       "sjs2.border-offset.y.surface.focused": "8513262dcb73eb738162bbf33cf152b09e2b13fa",
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
-      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
+      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
+      "sjs2.color.component.panel-nested.default.bg": "93ae6ee30bbb5347a8019c0a6a2e389743c40cac",
+      "sjs2.color.component.panel-nested.default.title": "2d76a58c7b5d272e59d31c3a69e095cbcc209be5",
+      "sjs2.color.component.panel-nested.default.title-placeholder": "1dc07658d22ba0fb814e7665a24494188f035a1d",
+      "sjs2.color.component.panel-nested.default.description": "50fe5186689f5d3f8cd3b2765575ec8798fec702",
+      "sjs2.color.component.panel-nested.default.description-placeholder": "999dcc9f86436d13b23297f86dfdfe075c94cab7",
+      "sjs2.color.component.panel-nested.default.separator": "e54658cefed037b75cae63e18e3396b0fa5e7d38",
+      "sjs2.color.component.panel-nested.hovered.bg": "b2fa6af36bec1a01797674af18eb77a2ebf2034d",
+      "sjs2.color.component.panel-nested.focused.bg": "dcafc71471427d0106ae665c5f42e16d25ae62eb",
+      "sjs2.color.component.panel-nested.disabled.bg": "4fdf11f3531e262c9eb23057f289939427d6b417",
+      "sjs2.color.component.panel-nested.dragging.bg": "0595a4cd2b35e4ba0090d6914b2a613516e32b00"
     },
     "group": "style-themes"
   },
@@ -7990,7 +8080,17 @@
       "sjs2.border-offset.y.surface.focused": "8513262dcb73eb738162bbf33cf152b09e2b13fa",
       "sjs2.border-offset.y.surface.disabled": "245916c9aad9de3e340451cea03232f35feb1f40",
       "sjs2.border-offset.y.surface.dragging": "7e7787fd09cb8ce419c6e833dd5dd338b54253e1",
-      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74"
+      "sjs2.border-offset.y.floating.default": "b5f7e7c5206379838b322f5903ed292dcf28ca74",
+      "sjs2.color.component.panel-nested.default.bg": "93ae6ee30bbb5347a8019c0a6a2e389743c40cac",
+      "sjs2.color.component.panel-nested.default.title": "2d76a58c7b5d272e59d31c3a69e095cbcc209be5",
+      "sjs2.color.component.panel-nested.default.title-placeholder": "1dc07658d22ba0fb814e7665a24494188f035a1d",
+      "sjs2.color.component.panel-nested.default.description": "50fe5186689f5d3f8cd3b2765575ec8798fec702",
+      "sjs2.color.component.panel-nested.default.description-placeholder": "999dcc9f86436d13b23297f86dfdfe075c94cab7",
+      "sjs2.color.component.panel-nested.default.separator": "e54658cefed037b75cae63e18e3396b0fa5e7d38",
+      "sjs2.color.component.panel-nested.hovered.bg": "b2fa6af36bec1a01797674af18eb77a2ebf2034d",
+      "sjs2.color.component.panel-nested.focused.bg": "dcafc71471427d0106ae665c5f42e16d25ae62eb",
+      "sjs2.color.component.panel-nested.disabled.bg": "4fdf11f3531e262c9eb23057f289939427d6b417",
+      "sjs2.color.component.panel-nested.dragging.bg": "0595a4cd2b35e4ba0090d6914b2a613516e32b00"
     },
     "group": "style-themes"
   },
