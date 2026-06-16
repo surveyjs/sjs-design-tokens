@@ -679,6 +679,10 @@
             "padding-bottom": {
               "value": "{sjs2.spacing.x300}",
               "type": "spacing"
+            },
+            "gap": {
+              "value": "{sjs2.spacing.x150}",
+              "type": "spacing"
             }
           },
           "footer-action-group": {
@@ -695,6 +699,28 @@
           }
         },
         "panel-nested": {
+          "footer": {
+            "gap": {
+              "value": "{sjs2.spacing.x150}",
+              "type": "spacing"
+            },
+            "padding-left": {
+              "value": "{sjs2.layout.component.panel.content-area.padding-horizontal}",
+              "type": "spacing"
+            },
+            "padding-right": {
+              "value": "{sjs2.layout.component.panel.content-area.padding-horizontal}",
+              "type": "spacing"
+            },
+            "padding-top": {
+              "value": "{sjs2.spacing.x300}",
+              "type": "spacing"
+            },
+            "padding-bottom": {
+              "value": "{sjs2.spacing.x300}",
+              "type": "spacing"
+            }
+          },
           "box": {
             "padding-horizontal": {
               "value": "{sjs2.spacing.x000}",
@@ -782,24 +808,6 @@
             },
             "padding-bottom": {
               "value": "{sjs2.spacing.x000}",
-              "type": "spacing"
-            }
-          },
-          "footer": {
-            "padding-left": {
-              "value": "{sjs2.layout.component.panel.content-area.padding-horizontal}",
-              "type": "spacing"
-            },
-            "padding-right": {
-              "value": "{sjs2.layout.component.panel.content-area.padding-horizontal}",
-              "type": "spacing"
-            },
-            "padding-top": {
-              "value": "{sjs2.spacing.x300}",
-              "type": "spacing"
-            },
-            "padding-bottom": {
-              "value": "{sjs2.spacing.x300}",
               "type": "spacing"
             }
           },
@@ -996,6 +1004,10 @@
               "value": "{sjs2.spacing.x200}",
               "type": "spacing"
             },
+            "gap-horizontal": {
+              "value": "{sjs2.spacing.x150}",
+              "type": "spacing"
+            },
             "gap-vertical": {
               "value": "{sjs2.spacing.x050}",
               "type": "spacing"
@@ -1022,6 +1034,12 @@
             },
             "padding-bottom": {
               "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            }
+          },
+          "header-action-group": {
+            "gap": {
+              "value": "{sjs2.spacing.x150}",
               "type": "spacing"
             }
           }
