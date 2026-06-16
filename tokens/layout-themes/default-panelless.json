@@ -597,7 +597,7 @@
               "type": "spacing"
             },
             "padding-vertical": {
-              "value": "{sjs2.spacing.x400}",
+              "value": "{sjs2.spacing.x000}",
               "type": "spacing"
             },
             "gap-horizontal": {
@@ -615,7 +615,7 @@
               "type": "spacing"
             },
             "padding-vertical": {
-              "value": "{sjs2.spacing.x400}",
+              "value": "{sjs2.spacing.x000}",
               "type": "spacing"
             },
             "gap-vertical": {
@@ -689,7 +689,7 @@
               "type": "spacing"
             },
             "padding-vertical": {
-              "value": "{sjs2.spacing.x400}",
+              "value": "{sjs2.spacing.x000}",
               "type": "spacing"
             },
             "gap-horizontal": {
@@ -707,7 +707,7 @@
               "type": "spacing"
             },
             "padding-vertical": {
-              "value": "{sjs2.spacing.x400}",
+              "value": "{sjs2.spacing.x000}",
               "type": "spacing"
             },
             "gap-vertical": {
@@ -763,7 +763,7 @@
               "type": "spacing"
             },
             "padding-vertical": {
-              "value": "{sjs2.spacing.x300}",
+              "value": "{sjs2.spacing.x000}",
               "type": "spacing"
             },
             "gap-vertical": {
@@ -803,7 +803,7 @@
               "type": "spacing"
             },
             "padding-vertical": {
-              "value": "{sjs2.spacing.x300}",
+              "value": "{sjs2.spacing.x000}",
               "type": "spacing"
             },
             "gap-vertical": {
