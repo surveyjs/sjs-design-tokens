@@ -348,6 +348,7 @@
       "sjs2.layout.component.panel.footer.padding-left": "e2b41e76c6401ec001b9c44d9596cb0bfb318911",
       "sjs2.layout.component.panel.footer.padding-right": "3af1b305ae6c5b0a20ca8357d80e447204b4d22c",
       "sjs2.layout.component.panel.footer.padding-top": "82360c12d2f95ab85c16c9ba10689f54f01d01eb",
+      "sjs2.layout.component.panel.footer.padding-bottom": "351ae5ae916739338054e7f01035b96bb48132e5",
       "sjs2.layout.component.panel.footer-action-group.gap": "1f5904954405d24f4acc17bbb06f86cebcde8b7a",
       "sjs2.layout.component.panel.header-action-group.gap": "db19adc9757fcdd79db33aa0c55b18c57852eded",
       "sjs2.layout.component.panel-nested.box.padding-horizontal": "1e320b690db4f5d0db43acd8becf76fc91bff8ed",
@@ -372,6 +373,7 @@
       "sjs2.layout.component.panel-nested.footer.padding-left": "7b3b9d77f974753ed78315c1b562e4163a378166",
       "sjs2.layout.component.panel-nested.footer.padding-right": "c52a3592c27c733989277547276154aaeb2badf5",
       "sjs2.layout.component.panel-nested.footer.padding-top": "19e2a7978e29e8f638df273e0b962416c12e6621",
+      "sjs2.layout.component.panel-nested.footer.padding-bottom": "9187758daf7fd79561749b42bf67eda3a7ac6b98",
       "sjs2.layout.component.panel-nested.footer-action-group.gap": "c7d725a84ecabb8eda63695398fe30d48f8a7d62",
       "sjs2.layout.component.panel-nested.header-action-group.gap": "af5e325cfeab94a439d98a763c54b0438386b3ef",
       "sjs2.layout.component.panel-collapsed.header.padding-left": "fe0154239ebb2412d4c1584d451e6199e8862799",
@@ -482,9 +484,7 @@
       "sjs2.radius.component.notifier": "6bdb61ef7e12f3cb0d210f34679b503156799198",
       "sjs2.radius.component.tooltip": "469ce04425ef58e393e8cdeb07b9b172b67a2458",
       "sjs2.radius.component.stepper-item": "77dde4f1d3e86d0ad47b032e26b2aacbe6fa3656",
-      "sjs2.is-panelless": "97aa4292479df3bbcdbf5101fc370367e53c6290",
-      "sjs2.layout.component.panel.footer.padding-bottom": "351ae5ae916739338054e7f01035b96bb48132e5",
-      "sjs2.layout.component.panel-nested.footer.padding-bottom": "9187758daf7fd79561749b42bf67eda3a7ac6b98"
+      "sjs2.is-panelless": "97aa4292479df3bbcdbf5101fc370367e53c6290"
     },
     "selectedTokenSets": {
       "base-unit": "source",

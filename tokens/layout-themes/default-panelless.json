@@ -1309,12 +1309,12 @@
           "description": "Corner radius of page, visible in design mode only on state:focused."
         },
         "panel": {
-          "value": "{sjs2.radius.x150}",
+          "value": "{sjs2.radius.x000}",
           "type": "borderRadius",
           "description": "Corner radius of question-box."
         },
         "panel-nested": {
-          "value": "{sjs2.radius.x100}",
+          "value": "{sjs2.radius.x000}",
           "type": "borderRadius",
           "description": "Corner radius of nested panel inside the question-box."
         },
