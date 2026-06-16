@@ -621,6 +621,10 @@
             "gap-vertical": {
               "value": "{sjs2.spacing.x050}",
               "type": "spacing"
+            },
+            "gap-horizontal": {
+              "value": "{sjs2.spacing.x150}",
+              "type": "spacing"
             }
           },
           "title": {
@@ -658,6 +662,12 @@
             }
           },
           "footer-action-group": {
+            "gap": {
+              "value": "{sjs2.spacing.x150}",
+              "type": "spacing"
+            }
+          },
+          "header-action-group": {
             "gap": {
               "value": "{sjs2.spacing.x150}",
               "type": "spacing"
@@ -713,6 +723,10 @@
             "gap-vertical": {
               "value": "{sjs2.spacing.x050}",
               "type": "spacing"
+            },
+            "gap-horizontal": {
+              "value": "{sjs2.spacing.x150}",
+              "type": "spacing"
             }
           },
           "title": {
@@ -754,6 +768,12 @@
               "value": "{sjs2.spacing.x150}",
               "type": "spacing"
             }
+          },
+          "header-action-group": {
+            "gap": {
+              "value": "{sjs2.spacing.x150}",
+              "type": "spacing"
+            }
           }
         },
         "panel-collapsed": {
@@ -768,6 +788,10 @@
             },
             "gap-vertical": {
               "value": "{sjs2.spacing.x050}",
+              "type": "spacing"
+            },
+            "gap-horizontal": {
+              "value": "{sjs2.spacing.x150}",
               "type": "spacing"
             }
           },
@@ -792,6 +816,12 @@
             },
             "padding-bottom": {
               "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            }
+          },
+          "header-action-group": {
+            "gap": {
+              "value": "{sjs2.spacing.x150}",
               "type": "spacing"
             }
           }
@@ -809,6 +839,10 @@
             "gap-vertical": {
               "value": "{sjs2.spacing.x050}",
               "type": "spacing"
+            },
+            "gap-horizontal": {
+              "value": "{sjs2.spacing.x150}",
+              "type": "spacing"
             }
           },
           "title": {
@@ -832,6 +866,12 @@
             },
             "padding-bottom": {
               "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            }
+          },
+          "header-action-group": {
+            "gap": {
+              "value": "{sjs2.spacing.x150}",
               "type": "spacing"
             }
           }
