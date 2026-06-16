@@ -486,7 +486,11 @@
       "sjs2.radius.component.notifier": "6bdb61ef7e12f3cb0d210f34679b503156799198",
       "sjs2.radius.component.tooltip": "469ce04425ef58e393e8cdeb07b9b172b67a2458",
       "sjs2.radius.component.stepper-item": "77dde4f1d3e86d0ad47b032e26b2aacbe6fa3656",
-      "sjs2.is-panelless": "97aa4292479df3bbcdbf5101fc370367e53c6290"
+      "sjs2.is-panelless": "97aa4292479df3bbcdbf5101fc370367e53c6290",
+      "sjs2.layout.component.panel.footer.gap": "aadadfb24f02cbc1cd35dc696a0a707aa36a0f2e",
+      "sjs2.layout.component.panel-nested.footer.gap": "cb144892a85d0c3afa8950ebc2d093e3dfafc70e",
+      "sjs2.layout.component.question.header.gap-horizontal": "68dc1d1d63c616f8da3035699975258da60fc85c",
+      "sjs2.layout.component.question.header-action-group.gap": "9d82b0d5f2217e721c20e91cb604accefa3ee9f6"
     },
     "selectedTokenSets": {
       "base-unit": "source",
@@ -641,6 +645,8 @@
       "sjs2.layout.component.panel.footer.padding-top": "82360c12d2f95ab85c16c9ba10689f54f01d01eb",
       "sjs2.layout.component.panel.footer.padding-bottom": "351ae5ae916739338054e7f01035b96bb48132e5",
       "sjs2.layout.component.panel.footer-action-group.gap": "1f5904954405d24f4acc17bbb06f86cebcde8b7a",
+      "sjs2.layout.component.panel.footer.gap": "aadadfb24f02cbc1cd35dc696a0a707aa36a0f2e",
+      "sjs2.layout.component.panel-nested.footer.gap": "cb144892a85d0c3afa8950ebc2d093e3dfafc70e",
       "sjs2.layout.component.panel.header-action-group.gap": "db19adc9757fcdd79db33aa0c55b18c57852eded",
       "sjs2.layout.component.panel-nested.box.padding-horizontal": "1e320b690db4f5d0db43acd8becf76fc91bff8ed",
       "sjs2.layout.component.panel-nested.box.padding-top": "f47210e71c8aab8f616e0e77458971b96fd301d8",
@@ -704,6 +710,7 @@
       "sjs2.layout.component.question.header.padding-right": "f6ab8c13528213ae84b0e2ffe2491db0144a1b63",
       "sjs2.layout.component.question.header.padding-top": "3a3f78cd0e4b35562e203dae2121054b228173c1",
       "sjs2.layout.component.question.header.padding-bottom": "b405508542db201f61c43e2caa25dd79f995cd62",
+      "sjs2.layout.component.question.header.gap-horizontal": "68dc1d1d63c616f8da3035699975258da60fc85c",
       "sjs2.layout.component.question.header.gap-vertical": "cf09c225769e3ce0f7ca4ceb816c28345484d066",
       "sjs2.layout.component.question.title.padding-horizontal": "24a8f734b9b063357b2f848819d51bd5da0a3a7b",
       "sjs2.layout.component.question.title.padding-vertical": "e65d084562752548e65d957d325adbb3e939de77",
@@ -776,7 +783,8 @@
       "sjs2.radius.component.notifier": "6bdb61ef7e12f3cb0d210f34679b503156799198",
       "sjs2.radius.component.tooltip": "469ce04425ef58e393e8cdeb07b9b172b67a2458",
       "sjs2.radius.component.stepper-item": "77dde4f1d3e86d0ad47b032e26b2aacbe6fa3656",
-      "sjs2.is-panelless": "97aa4292479df3bbcdbf5101fc370367e53c6290"
+      "sjs2.is-panelless": "97aa4292479df3bbcdbf5101fc370367e53c6290",
+      "sjs2.layout.component.question.header-action-group.gap": "9d82b0d5f2217e721c20e91cb604accefa3ee9f6"
     },
     "selectedTokenSets": {
       "base-unit": "source",
