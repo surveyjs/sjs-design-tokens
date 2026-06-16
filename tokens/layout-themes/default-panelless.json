@@ -610,12 +610,20 @@
             }
           },
           "header": {
-            "padding-horizontal": {
+            "padding-left": {
               "value": "{sjs2.layout.component.panel.content-area.padding-horizontal}",
               "type": "spacing"
             },
-            "padding-vertical": {
+            "padding-right": {
+              "value": "{sjs2.layout.component.panel.content-area.padding-horizontal}",
+              "type": "spacing"
+            },
+            "padding-top": {
               "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-bottom": {
+              "value": "{sjs2.spacing.x400}",
               "type": "spacing"
             },
             "gap-vertical": {
@@ -652,11 +660,19 @@
             }
           },
           "footer": {
-            "padding-horizontal": {
+            "padding-left": {
               "value": "{sjs2.layout.component.panel.content-area.padding-horizontal}",
               "type": "spacing"
             },
-            "padding-vertical": {
+            "padding-right": {
+              "value": "{sjs2.layout.component.panel.content-area.padding-horizontal}",
+              "type": "spacing"
+            },
+            "padding-top": {
+              "value": "{sjs2.spacing.x300}",
+              "type": "spacing"
+            },
+            "padding-bottom": {
               "value": "{sjs2.spacing.x300}",
               "type": "spacing"
             }
@@ -712,12 +728,20 @@
             }
           },
           "header": {
-            "padding-horizontal": {
+            "padding-left": {
               "value": "{sjs2.layout.component.panel.content-area.padding-horizontal}",
               "type": "spacing"
             },
-            "padding-vertical": {
+            "padding-right": {
+              "value": "{sjs2.layout.component.panel.content-area.padding-horizontal}",
+              "type": "spacing"
+            },
+            "padding-top": {
               "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-bottom": {
+              "value": "{sjs2.spacing.x400}",
               "type": "spacing"
             },
             "gap-vertical": {
@@ -754,11 +778,19 @@
             }
           },
           "footer": {
-            "padding-horizontal": {
+            "padding-left": {
               "value": "{sjs2.layout.component.panel.content-area.padding-horizontal}",
               "type": "spacing"
             },
-            "padding-vertical": {
+            "padding-right": {
+              "value": "{sjs2.layout.component.panel.content-area.padding-horizontal}",
+              "type": "spacing"
+            },
+            "padding-top": {
+              "value": "{sjs2.spacing.x300}",
+              "type": "spacing"
+            },
+            "padding-bottom": {
               "value": "{sjs2.spacing.x300}",
               "type": "spacing"
             }
@@ -778,11 +810,19 @@
         },
         "panel-collapsed": {
           "header": {
-            "padding-horizontal": {
+            "padding-left": {
               "value": "{sjs2.layout.component.panel.content-area.padding-horizontal}",
               "type": "spacing"
             },
-            "padding-vertical": {
+            "padding-right": {
+              "value": "{sjs2.layout.component.panel.content-area.padding-horizontal}",
+              "type": "spacing"
+            },
+            "padding-top": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-bottom": {
               "value": "{sjs2.spacing.x000}",
               "type": "spacing"
             },
@@ -828,12 +868,20 @@
         },
         "panel-nested-collapsed": {
           "header": {
-            "padding-horizontal": {
+            "padding-left": {
               "value": "{sjs2.layout.component.panel-nested.content-area.padding-horizontal}",
               "type": "spacing"
             },
-            "padding-vertical": {
+            "padding-right": {
+              "value": "{sjs2.layout.component.panel-nested.content-area.padding-horizontal}",
+              "type": "spacing"
+            },
+            "padding-top": {
               "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-bottom": {
+              "value": "{sjs2.spacing.x300}",
               "type": "spacing"
             },
             "gap-vertical": {
