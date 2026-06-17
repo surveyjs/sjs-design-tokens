@@ -677,7 +677,7 @@
               "type": "spacing"
             },
             "padding-bottom": {
-              "value": "{sjs2.spacing.x300}",
+              "value": "{sjs2.spacing.x400}",
               "type": "spacing"
             },
             "gap": {
