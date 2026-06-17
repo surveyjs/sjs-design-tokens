@@ -457,7 +457,7 @@
               "type": "spacing"
             },
             "gap-vertical": {
-              "value": "{sjs2.spacing.x500}",
+              "value": "{sjs2.spacing.x600}",
               "type": "spacing"
             }
           },
