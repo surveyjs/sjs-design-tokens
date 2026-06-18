@@ -490,7 +490,9 @@
       "sjs2.radius.component.notifier": "6bdb61ef7e12f3cb0d210f34679b503156799198",
       "sjs2.radius.component.tooltip": "469ce04425ef58e393e8cdeb07b9b172b67a2458",
       "sjs2.radius.component.stepper-item": "77dde4f1d3e86d0ad47b032e26b2aacbe6fa3656",
-      "sjs2.is-panelless": "97aa4292479df3bbcdbf5101fc370367e53c6290"
+      "sjs2.is-panelless": "97aa4292479df3bbcdbf5101fc370367e53c6290",
+      "sjs2.layout.component.drop.box.padding-horizontal": "2fc9cb9b9dcb94c3f0334b9646609a3f02d03a61",
+      "sjs2.layout.component.drop.box.padding-vertical": "16b23315bd5326ee25cae423ec12ca85a5a542ac"
     },
     "selectedTokenSets": {
       "base-unit": "source",
@@ -784,7 +786,9 @@
       "sjs2.radius.component.notifier": "6bdb61ef7e12f3cb0d210f34679b503156799198",
       "sjs2.radius.component.tooltip": "469ce04425ef58e393e8cdeb07b9b172b67a2458",
       "sjs2.radius.component.stepper-item": "77dde4f1d3e86d0ad47b032e26b2aacbe6fa3656",
-      "sjs2.is-panelless": "97aa4292479df3bbcdbf5101fc370367e53c6290"
+      "sjs2.is-panelless": "97aa4292479df3bbcdbf5101fc370367e53c6290",
+      "sjs2.layout.component.drop.box.padding-horizontal": "2fc9cb9b9dcb94c3f0334b9646609a3f02d03a61",
+      "sjs2.layout.component.drop.box.padding-vertical": "16b23315bd5326ee25cae423ec12ca85a5a542ac"
     },
     "selectedTokenSets": {
       "base-unit": "source",

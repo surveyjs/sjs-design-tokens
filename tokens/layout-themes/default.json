@@ -1137,6 +1137,18 @@
               "type": "spacing"
             }
           }
+        },
+        "drop": {
+          "box": {
+            "padding-horizontal": {
+              "value": "{sjs2.spacing.x100}",
+              "type": "spacing"
+            },
+            "padding-vertical": {
+              "value": "{sjs2.spacing.x100}",
+              "type": "spacing"
+            }
+          }
         }
       }
     },
