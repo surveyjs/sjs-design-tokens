@@ -1399,6 +1399,22 @@
     "is-panelless": {
       "value": "true",
       "type": "boolean"
+    },
+    "breakpoint": {
+      "mobile": {
+        "value": {
+          "minWidth": "320",
+          "maxWidth": "600"
+        },
+        "type": "composition"
+      },
+      "desktop": {
+        "value": {
+          "minWidth": "600",
+          "maxWidth": "1920"
+        },
+        "type": "composition"
+      }
     }
   }
 }
