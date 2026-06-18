@@ -1147,6 +1147,26 @@
             "padding-vertical": {
               "value": "{sjs2.spacing.x100}",
               "type": "spacing"
+            },
+            "gap-vertical": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            }
+          }
+        },
+        "menu": {
+          "box": {
+            "padding-horizontal": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-vertical": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "gap-vertical": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
             }
           }
         }

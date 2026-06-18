@@ -492,7 +492,11 @@
       "sjs2.radius.component.stepper-item": "77dde4f1d3e86d0ad47b032e26b2aacbe6fa3656",
       "sjs2.is-panelless": "97aa4292479df3bbcdbf5101fc370367e53c6290",
       "sjs2.layout.component.drop.box.padding-horizontal": "2fc9cb9b9dcb94c3f0334b9646609a3f02d03a61",
-      "sjs2.layout.component.drop.box.padding-vertical": "16b23315bd5326ee25cae423ec12ca85a5a542ac"
+      "sjs2.layout.component.drop.box.padding-vertical": "16b23315bd5326ee25cae423ec12ca85a5a542ac",
+      "sjs2.layout.component.menu.box.padding-horizontal": "f006d4f61bb5838c829b30493b3dadc0c6fa0d59",
+      "sjs2.layout.component.menu.box.padding-vertical": "f20a377578b55a326e4acbe9720f13414678e179",
+      "sjs2.layout.component.menu.box.gap-vertical": "b5a19f7bb11cc88ce09081abcc079767de4756d6",
+      "sjs2.layout.component.drop.box.gap-vertical": "e9a48ad0f1abee38bb0f4cc8ae29b864e2ecc4f4"
     },
     "selectedTokenSets": {
       "base-unit": "source",
@@ -788,7 +792,11 @@
       "sjs2.radius.component.stepper-item": "77dde4f1d3e86d0ad47b032e26b2aacbe6fa3656",
       "sjs2.is-panelless": "97aa4292479df3bbcdbf5101fc370367e53c6290",
       "sjs2.layout.component.drop.box.padding-horizontal": "2fc9cb9b9dcb94c3f0334b9646609a3f02d03a61",
-      "sjs2.layout.component.drop.box.padding-vertical": "16b23315bd5326ee25cae423ec12ca85a5a542ac"
+      "sjs2.layout.component.drop.box.padding-vertical": "16b23315bd5326ee25cae423ec12ca85a5a542ac",
+      "sjs2.layout.component.menu.box.padding-horizontal": "f006d4f61bb5838c829b30493b3dadc0c6fa0d59",
+      "sjs2.layout.component.menu.box.padding-vertical": "f20a377578b55a326e4acbe9720f13414678e179",
+      "sjs2.layout.component.menu.box.gap-vertical": "b5a19f7bb11cc88ce09081abcc079767de4756d6",
+      "sjs2.layout.component.drop.box.gap-vertical": "e9a48ad0f1abee38bb0f4cc8ae29b864e2ecc4f4"
     },
     "selectedTokenSets": {
       "base-unit": "source",
