@@ -1,36 +1,12 @@
 {
   "sjs2": {
     "layout": {
-      "form": {
-        "x-small-gap-horizontal": {
-          "value": "{sjs2.spacing.x100}",
+      "adaptive": {
+        "large-padding-horizontal": {
+          "value": "{sjs2.spacing.x500}",
           "type": "spacing"
         },
-        "x-small-gap-vertical": {
-          "value": "{sjs2.spacing.x100}",
-          "type": "spacing"
-        },
-        "small-gap-horizontal": {
-          "value": "{sjs2.spacing.x150}",
-          "type": "spacing"
-        },
-        "small-gap-vertical": {
-          "value": "{sjs2.spacing.x150}",
-          "type": "spacing"
-        },
-        "medium-gap-horizontal": {
-          "value": "{sjs2.spacing.x300}",
-          "type": "spacing"
-        },
-        "medium-gap-vertical": {
-          "value": "{sjs2.spacing.x300}",
-          "type": "spacing"
-        },
-        "large-gap-horizontal": {
-          "value": "{sjs2.spacing.x400}",
-          "type": "spacing"
-        },
-        "large-gap-vertical": {
+        "large-padding-vertical": {
           "value": "{sjs2.spacing.x400}",
           "type": "spacing"
         }
@@ -1400,6 +1376,10 @@
       "value": "true",
       "type": "boolean"
     },
+    "is-mobile": {
+      "value": "false",
+      "type": "boolean"
+    },
     "breakpoint": {
       "mobile": {
         "value": {
@@ -1415,10 +1395,6 @@
         },
         "type": "composition"
       }
-    },
-    "is-mobile": {
-      "value": "false",
-      "type": "boolean"
     }
   }
 }
