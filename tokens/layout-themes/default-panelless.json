@@ -1415,6 +1415,10 @@
         },
         "type": "composition"
       }
+    },
+    "is-mobile": {
+      "value": "false",
+      "type": "boolean"
     }
   }
 }

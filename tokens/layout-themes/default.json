@@ -1400,6 +1400,10 @@
       "value": "false",
       "type": "boolean"
     },
+    "is-mobile": {
+      "value": "false",
+      "type": "boolean"
+    },
     "breakpoint": {
       "mobile": {
         "value": {
