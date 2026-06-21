@@ -403,7 +403,7 @@
         "page": {
           "box": {
             "padding-horizontal": {
-              "value": "{sjs2.spacing.x500}",
+              "value": "{sjs2.layout.adaptive.large-padding-horizontal}",
               "type": "spacing"
             },
             "padding-top": {
@@ -569,7 +569,7 @@
           },
           "content-area": {
             "padding-horizontal": {
-              "value": "{sjs2.spacing.x500}",
+              "value": "{sjs2.layout.adaptive.large-padding-horizontal}",
               "type": "spacing"
             },
             "padding-top": {
@@ -717,7 +717,7 @@
           },
           "content-area": {
             "padding-horizontal": {
-              "value": "{sjs2.spacing.x500}",
+              "value": "{sjs2.layout.adaptive.large-padding-horizontal}",
               "type": "spacing"
             },
             "padding-top": {
