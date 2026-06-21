@@ -497,13 +497,16 @@
       "sjs2.radius.component.slider-thumb": "db28e9811db060e10ba19f2c285260efb3d68cbb",
       "sjs2.radius.component.page": "dea0cbdd7e34105c3af981ea0db88cef0ed6029e",
       "sjs2.radius.component.panel": "b4e53188970aed0ad75856cd6d4548262c6e6216",
+      "sjs2.radius.component.panel-simple": "e0939896c9c89565244626e7d320b21d3691b56d",
+      "sjs2.radius.component.panel-dynamic": "497c0372840d0e5ca536aed87efe86e5fe682bec",
       "sjs2.radius.component.panel-nested": "3bc15f0361bf2b09bfdd7dd4895ab3229b56af27",
       "sjs2.radius.component.modal": "962abdd0a1a6707137860f46c00821c1492449e1",
       "sjs2.radius.component.notifier": "6bdb61ef7e12f3cb0d210f34679b503156799198",
       "sjs2.radius.component.tooltip": "469ce04425ef58e393e8cdeb07b9b172b67a2458",
       "sjs2.radius.component.stepper-item": "77dde4f1d3e86d0ad47b032e26b2aacbe6fa3656",
       "sjs2.is-panelless": "97aa4292479df3bbcdbf5101fc370367e53c6290",
-      "sjs2.is-mobile": "2ca15886b38f4353fb21246f4473295afb16772f"
+      "sjs2.is-mobile": "2ca15886b38f4353fb21246f4473295afb16772f",
+      "sjs2.layout.adaptive.medium-padding-vertical": "0a98a74ed77b162e801b90ab3590e4953628ecdc"
     },
     "selectedTokenSets": {
       "base-unit": "source",
@@ -522,6 +525,7 @@
     "$figmaVariableReferences": {
       "sjs2.layout.adaptive.large-padding-horizontal": "3ebbce65102d5f2f22c0e3dc4b0b1f463bedc548",
       "sjs2.layout.adaptive.large-padding-vertical": "5ec53e9e5f669030b538d2113c4049218fb383a8",
+      "sjs2.layout.adaptive.medium-padding-vertical": "0a98a74ed77b162e801b90ab3590e4953628ecdc",
       "sjs2.layout.component.action.xx-small.label.padding-vertical": "7daf3246e19ae374cea812707c484beda0c66af8",
       "sjs2.layout.component.action.xx-small.label.padding-horizontal": "6aa105addb9efa47c360f23083cabfc73a72856f",
       "sjs2.layout.component.action.xx-small.icon.padding-vertical": "0f51d57cecdbe7a9b91aefdf6b53276d040cc3e2",
@@ -804,6 +808,8 @@
       "sjs2.radius.component.slider-thumb": "db28e9811db060e10ba19f2c285260efb3d68cbb",
       "sjs2.radius.component.page": "dea0cbdd7e34105c3af981ea0db88cef0ed6029e",
       "sjs2.radius.component.panel": "b4e53188970aed0ad75856cd6d4548262c6e6216",
+      "sjs2.radius.component.panel-simple": "e0939896c9c89565244626e7d320b21d3691b56d",
+      "sjs2.radius.component.panel-dynamic": "497c0372840d0e5ca536aed87efe86e5fe682bec",
       "sjs2.radius.component.panel-nested": "3bc15f0361bf2b09bfdd7dd4895ab3229b56af27",
       "sjs2.radius.component.modal": "962abdd0a1a6707137860f46c00821c1492449e1",
       "sjs2.radius.component.notifier": "6bdb61ef7e12f3cb0d210f34679b503156799198",

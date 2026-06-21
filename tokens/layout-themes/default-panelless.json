@@ -7,7 +7,11 @@
           "type": "spacing"
         },
         "large-padding-vertical": {
-          "value": "{sjs2.spacing.x400}",
+          "value": "{sjs2.spacing.x500}",
+          "type": "spacing"
+        },
+        "medium-padding-vertical": {
+          "value": "{sjs2.spacing.x300}",
           "type": "spacing"
         }
       },
@@ -425,15 +429,15 @@
               "type": "spacing"
             },
             "padding-vertical": {
-              "value": "{sjs2.spacing.x400}",
-              "type": "spacing"
-            },
-            "gap-horizontal": {
               "value": "{sjs2.spacing.x500}",
               "type": "spacing"
             },
+            "gap-horizontal": {
+              "value": "{sjs2.layout.adaptive.large-padding-horizontal}",
+              "type": "spacing"
+            },
             "gap-vertical": {
-              "value": "{sjs2.spacing.x400}",
+              "value": "{sjs2.spacing.x500}",
               "type": "spacing"
             }
           },
@@ -443,7 +447,7 @@
               "type": "spacing"
             },
             "padding-vertical": {
-              "value": "{sjs2.spacing.x400}",
+              "value": "{sjs2.spacing.x500}",
               "type": "spacing"
             },
             "gap-vertical": {
@@ -481,7 +485,7 @@
               "type": "spacing"
             },
             "padding-vertical": {
-              "value": "{sjs2.spacing.x400}",
+              "value": "{sjs2.spacing.x500}",
               "type": "spacing"
             }
           },
@@ -507,43 +511,43 @@
               "type": "spacing"
             },
             "gap-vertical": {
-              "value": "{sjs2.spacing.x400}",
+              "value": "{sjs2.spacing.x000}",
               "type": "spacing"
             }
           },
           "content-area": {
             "padding-horizontal": {
-              "value": "{sjs2.spacing.x000}",
+              "value": "{sjs2.layout.adaptive.large-padding-horizontal}",
               "type": "spacing"
             },
             "padding-top": {
-              "value": "{sjs2.spacing.x000}",
+              "value": "{sjs2.spacing.x300}",
               "type": "spacing"
             },
             "padding-bottom": {
-              "value": "{sjs2.spacing.x000}",
+              "value": "{sjs2.spacing.x300}",
               "type": "spacing"
             },
             "gap-horizontal": {
-              "value": "{sjs2.spacing.x500}",
+              "value": "{sjs2.layout.adaptive.large-padding-horizontal}",
               "type": "spacing"
             },
             "gap-vertical": {
-              "value": "{sjs2.spacing.x400}",
+              "value": "{sjs2.spacing.x300}",
               "type": "spacing"
             }
           },
           "header": {
             "padding-left": {
-              "value": "{sjs2.spacing.x000}",
+              "value": "{sjs2.layout.adaptive.large-padding-horizontal}",
               "type": "spacing"
             },
             "padding-right": {
-              "value": "{sjs2.spacing.x000}",
+              "value": "{sjs2.layout.adaptive.large-padding-horizontal}",
               "type": "spacing"
             },
             "padding-top": {
-              "value": "{sjs2.spacing.x000}",
+              "value": "{sjs2.spacing.x300}",
               "type": "spacing"
             },
             "padding-bottom": {
@@ -585,11 +589,11 @@
           },
           "footer": {
             "padding-left": {
-              "value": "{sjs2.spacing.x000}",
+              "value": "{sjs2.layout.adaptive.large-padding-horizontal}",
               "type": "spacing"
             },
             "padding-right": {
-              "value": "{sjs2.spacing.x000}",
+              "value": "{sjs2.layout.adaptive.large-padding-horizontal}",
               "type": "spacing"
             },
             "padding-top": {
@@ -597,7 +601,7 @@
               "type": "spacing"
             },
             "padding-bottom": {
-              "value": "{sjs2.spacing.x400}",
+              "value": "{sjs2.spacing.x300}",
               "type": "spacing"
             },
             "gap": {
@@ -655,7 +659,7 @@
               "type": "spacing"
             },
             "gap-vertical": {
-              "value": "{sjs2.spacing.x400}",
+              "value": "{sjs2.spacing.x300}",
               "type": "spacing"
             }
           }
@@ -685,19 +689,19 @@
               "type": "spacing"
             },
             "padding-top": {
-              "value": "{sjs2.spacing.x400}",
+              "value": "{sjs2.spacing.x300}",
               "type": "spacing"
             },
             "padding-bottom": {
-              "value": "{sjs2.spacing.x400}",
+              "value": "{sjs2.spacing.x300}",
               "type": "spacing"
             },
             "gap-horizontal": {
-              "value": "{sjs2.spacing.x500}",
+              "value": "{sjs2.layout.adaptive.large-padding-horizontal}",
               "type": "spacing"
             },
             "gap-vertical": {
-              "value": "{sjs2.spacing.x400}",
+              "value": "{sjs2.spacing.x300}",
               "type": "spacing"
             }
           },
@@ -829,11 +833,11 @@
           },
           "header": {
             "padding-left": {
-              "value": "{sjs2.spacing.x000}",
+              "value": "{sjs2.layout.adaptive.large-padding-horizontal}",
               "type": "spacing"
             },
             "padding-right": {
-              "value": "{sjs2.spacing.x000}",
+              "value": "{sjs2.layout.adaptive.large-padding-horizontal}",
               "type": "spacing"
             },
             "padding-top": {
@@ -879,11 +883,11 @@
           },
           "footer": {
             "padding-left": {
-              "value": "{sjs2.spacing.x000}",
+              "value": "{sjs2.layout.adaptive.large-padding-horizontal}",
               "type": "spacing"
             },
             "padding-right": {
-              "value": "{sjs2.spacing.x000}",
+              "value": "{sjs2.layout.adaptive.large-padding-horizontal}",
               "type": "spacing"
             },
             "padding-top": {
@@ -1395,12 +1399,22 @@
           "description": "Corner radius of page, visible in design mode only on state:focused."
         },
         "panel": {
+          "value": "{sjs2.radius.x150}",
+          "type": "borderRadius",
+          "description": "Corner radius of question-box."
+        },
+        "panel-simple": {
           "value": "{sjs2.radius.x000}",
           "type": "borderRadius",
           "description": "Corner radius of question-box."
         },
+        "panel-dynamic": {
+          "value": "{sjs2.radius.x150}",
+          "type": "borderRadius",
+          "description": "Corner radius of question-box."
+        },
         "panel-nested": {
-          "value": "{sjs2.radius.x000}",
+          "value": "{sjs2.radius.x100}",
           "type": "borderRadius",
           "description": "Corner radius of nested panel inside the question-box."
         },
