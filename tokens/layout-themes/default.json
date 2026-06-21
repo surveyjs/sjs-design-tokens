@@ -492,48 +492,6 @@
             }
           }
         },
-        "panel-simple": {
-          "box": {
-            "padding-horizontal": {
-              "value": "{sjs2.spacing.x000}",
-              "type": "spacing"
-            },
-            "padding-top": {
-              "value": "{sjs2.spacing.x000}",
-              "type": "spacing"
-            },
-            "padding-bottom": {
-              "value": "{sjs2.spacing.x000}",
-              "type": "spacing"
-            },
-            "gap-vertical": {
-              "value": "{sjs2.spacing.x000}",
-              "type": "spacing"
-            }
-          },
-          "content-area": {
-            "padding-horizontal": {
-              "value": "{sjs2.layout.adaptive.large-padding-horizontal}",
-              "type": "spacing"
-            },
-            "padding-top": {
-              "value": "{sjs2.spacing.x300}",
-              "type": "spacing"
-            },
-            "padding-bottom": {
-              "value": "{sjs2.spacing.x300}",
-              "type": "spacing"
-            },
-            "gap-horizontal": {
-              "value": "{sjs2.spacing.x500}",
-              "type": "spacing"
-            },
-            "gap-vertical": {
-              "value": "{sjs2.spacing.x400}",
-              "type": "spacing"
-            }
-          }
-        },
         "panel": {
           "box": {
             "padding-horizontal": {
@@ -660,6 +618,48 @@
             }
           }
         },
+        "panel-simple": {
+          "box": {
+            "padding-horizontal": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-top": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-bottom": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "gap-vertical": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            }
+          },
+          "content-area": {
+            "padding-horizontal": {
+              "value": "{sjs2.layout.adaptive.large-padding-horizontal}",
+              "type": "spacing"
+            },
+            "padding-top": {
+              "value": "{sjs2.spacing.x300}",
+              "type": "spacing"
+            },
+            "padding-bottom": {
+              "value": "{sjs2.spacing.x300}",
+              "type": "spacing"
+            },
+            "gap-horizontal": {
+              "value": "{sjs2.spacing.x500}",
+              "type": "spacing"
+            },
+            "gap-vertical": {
+              "value": "{sjs2.spacing.x400}",
+              "type": "spacing"
+            }
+          }
+        },
         "panel-nested": {
           "footer": {
             "padding-left": {
@@ -770,6 +770,132 @@
             },
             "padding-bottom": {
               "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            }
+          },
+          "footer-action-group": {
+            "gap": {
+              "value": "{sjs2.spacing.x150}",
+              "type": "spacing"
+            }
+          },
+          "header-action-group": {
+            "gap": {
+              "value": "{sjs2.spacing.x150}",
+              "type": "spacing"
+            }
+          }
+        },
+        "panel-dynamic": {
+          "box": {
+            "padding-horizontal": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-top": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-bottom": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "gap-vertical": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            }
+          },
+          "content-area": {
+            "padding-horizontal": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-top": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-bottom": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "gap-horizontal": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "gap-vertical": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            }
+          },
+          "header": {
+            "padding-left": {
+              "value": "{sjs2.layout.adaptive.large-padding-horizontal}",
+              "type": "spacing"
+            },
+            "padding-right": {
+              "value": "{sjs2.layout.adaptive.large-padding-horizontal}",
+              "type": "spacing"
+            },
+            "padding-top": {
+              "value": "{sjs2.spacing.x300}",
+              "type": "spacing"
+            },
+            "padding-bottom": {
+              "value": "{sjs2.spacing.x300}",
+              "type": "spacing"
+            },
+            "gap-vertical": {
+              "value": "{sjs2.spacing.x050}",
+              "type": "spacing"
+            },
+            "gap-horizontal": {
+              "value": "{sjs2.spacing.x150}",
+              "type": "spacing"
+            }
+          },
+          "title": {
+            "padding-horizontal": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-vertical": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            }
+          },
+          "description": {
+            "padding-horizontal": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-top": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-bottom": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            }
+          },
+          "footer": {
+            "padding-left": {
+              "value": "{sjs2.layout.adaptive.large-padding-horizontal}",
+              "type": "spacing"
+            },
+            "padding-right": {
+              "value": "{sjs2.layout.adaptive.large-padding-horizontal}",
+              "type": "spacing"
+            },
+            "padding-top": {
+              "value": "{sjs2.spacing.x300}",
+              "type": "spacing"
+            },
+            "padding-bottom": {
+              "value": "{sjs2.spacing.x300}",
+              "type": "spacing"
+            },
+            "gap": {
+              "value": "{sjs2.spacing.x150}",
               "type": "spacing"
             }
           },
