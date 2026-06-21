@@ -492,10 +492,28 @@
             }
           }
         },
-        "modal": {
+        "panel-simple": {
           "box": {
             "padding-horizontal": {
-              "value": "{sjs2.spacing.x400}",
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-top": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-bottom": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "gap-vertical": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            }
+          },
+          "content-area": {
+            "padding-horizontal": {
+              "value": "{sjs2.layout.adaptive.large-padding-horizontal}",
               "type": "spacing"
             },
             "padding-top": {
@@ -506,44 +524,12 @@
               "value": "{sjs2.spacing.x400}",
               "type": "spacing"
             },
+            "gap-horizontal": {
+              "value": "{sjs2.spacing.x500}",
+              "type": "spacing"
+            },
             "gap-vertical": {
-              "value": "{sjs2.spacing.x000}",
-              "type": "spacing"
-            }
-          },
-          "content-area": {
-            "padding-horizontal": {
-              "value": "{sjs2.spacing.x000}",
-              "type": "spacing"
-            },
-            "padding-vertical": {
-              "value": "{sjs2.spacing.x000}",
-              "type": "spacing"
-            }
-          },
-          "header": {
-            "padding-horizontal": {
-              "value": "{sjs2.spacing.x000}",
-              "type": "spacing"
-            },
-            "padding-vertical": {
-              "value": "{sjs2.spacing.x000}",
-              "type": "spacing"
-            }
-          },
-          "footer": {
-            "padding-horizontal": {
-              "value": "{sjs2.spacing.x000}",
-              "type": "spacing"
-            },
-            "padding-vertical": {
-              "value": "{sjs2.spacing.x000}",
-              "type": "spacing"
-            }
-          },
-          "footer-action-group": {
-            "gap": {
-              "value": "{sjs2.spacing.x150}",
+              "value": "{sjs2.spacing.x400}",
               "type": "spacing"
             }
           }
@@ -1142,6 +1128,62 @@
             },
             "gap-vertical": {
               "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            }
+          }
+        },
+        "modal": {
+          "box": {
+            "padding-horizontal": {
+              "value": "{sjs2.spacing.x400}",
+              "type": "spacing"
+            },
+            "padding-top": {
+              "value": "{sjs2.spacing.x400}",
+              "type": "spacing"
+            },
+            "padding-bottom": {
+              "value": "{sjs2.spacing.x400}",
+              "type": "spacing"
+            },
+            "gap-vertical": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            }
+          },
+          "content-area": {
+            "padding-horizontal": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-vertical": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            }
+          },
+          "header": {
+            "padding-horizontal": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-vertical": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            }
+          },
+          "footer": {
+            "padding-horizontal": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-vertical": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            }
+          },
+          "footer-action-group": {
+            "gap": {
+              "value": "{sjs2.spacing.x150}",
               "type": "spacing"
             }
           }
