@@ -213,8 +213,10 @@
     "name": "default",
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
-      "sjs2.layout.adaptive.large-padding-horizontal": "3ebbce65102d5f2f22c0e3dc4b0b1f463bedc548",
-      "sjs2.layout.adaptive.large-padding-vertical": "5ec53e9e5f669030b538d2113c4049218fb383a8",
+      "sjs2.layout.medium-horizontal": "532eec7f9b6616450b6edb7ab7bf12ee76739826",
+      "sjs2.layout.medium-vertical": "0a98a74ed77b162e801b90ab3590e4953628ecdc",
+      "sjs2.layout.large-horizontal": "3ebbce65102d5f2f22c0e3dc4b0b1f463bedc548",
+      "sjs2.layout.large-vertical": "5ec53e9e5f669030b538d2113c4049218fb383a8",
       "sjs2.layout.component.action.xx-small.label.padding-vertical": "7daf3246e19ae374cea812707c484beda0c66af8",
       "sjs2.layout.component.action.xx-small.label.padding-horizontal": "6aa105addb9efa47c360f23083cabfc73a72856f",
       "sjs2.layout.component.action.xx-small.icon.padding-vertical": "0f51d57cecdbe7a9b91aefdf6b53276d040cc3e2",
@@ -505,8 +507,7 @@
       "sjs2.radius.component.tooltip": "469ce04425ef58e393e8cdeb07b9b172b67a2458",
       "sjs2.radius.component.stepper-item": "77dde4f1d3e86d0ad47b032e26b2aacbe6fa3656",
       "sjs2.is-panelless": "97aa4292479df3bbcdbf5101fc370367e53c6290",
-      "sjs2.is-mobile": "2ca15886b38f4353fb21246f4473295afb16772f",
-      "sjs2.layout.adaptive.medium-padding-vertical": "0a98a74ed77b162e801b90ab3590e4953628ecdc"
+      "sjs2.is-mobile": "2ca15886b38f4353fb21246f4473295afb16772f"
     },
     "selectedTokenSets": {
       "base-unit": "source",
@@ -523,9 +524,10 @@
     "name": "default-panelless",
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
-      "sjs2.layout.adaptive.large-padding-horizontal": "3ebbce65102d5f2f22c0e3dc4b0b1f463bedc548",
-      "sjs2.layout.adaptive.large-padding-vertical": "5ec53e9e5f669030b538d2113c4049218fb383a8",
-      "sjs2.layout.adaptive.medium-padding-vertical": "0a98a74ed77b162e801b90ab3590e4953628ecdc",
+      "sjs2.layout.medium-horizontal": "532eec7f9b6616450b6edb7ab7bf12ee76739826",
+      "sjs2.layout.medium-vertical": "0a98a74ed77b162e801b90ab3590e4953628ecdc",
+      "sjs2.layout.large-horizontal": "3ebbce65102d5f2f22c0e3dc4b0b1f463bedc548",
+      "sjs2.layout.large-vertical": "5ec53e9e5f669030b538d2113c4049218fb383a8",
       "sjs2.layout.component.action.xx-small.label.padding-vertical": "7daf3246e19ae374cea812707c484beda0c66af8",
       "sjs2.layout.component.action.xx-small.label.padding-horizontal": "6aa105addb9efa47c360f23083cabfc73a72856f",
       "sjs2.layout.component.action.xx-small.icon.padding-vertical": "0f51d57cecdbe7a9b91aefdf6b53276d040cc3e2",
