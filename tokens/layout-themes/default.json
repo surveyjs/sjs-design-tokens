@@ -1203,6 +1203,30 @@
               "type": "spacing"
             }
           }
+        },
+        "upload": {
+          "action-group": {
+            "gap": {
+              "value": "{sjs2.spacing.x100}",
+              "type": "spacing"
+            }
+          }
+        },
+        "image": {
+          "action-group": {
+            "gap": {
+              "value": "{sjs2.spacing.x100}",
+              "type": "spacing"
+            }
+          }
+        },
+        "image-picker": {
+          "action-group": {
+            "gap": {
+              "value": "{sjs2.spacing.x100}",
+              "type": "spacing"
+            }
+          }
         }
       }
     },
