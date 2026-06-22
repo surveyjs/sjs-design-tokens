@@ -700,6 +700,10 @@
       "data": {
         "chart": {
           "bg": {
+            "color-0": {
+              "value": "{sjs2.color.bg.brand.primary}",
+              "type": "color"
+            },
             "color-1": {
               "value": "#84CAD4",
               "type": "color"
@@ -738,6 +742,10 @@
             },
             "color-10": {
               "value": "#4E6198",
+              "type": "color"
+            },
+            "color-0-tinted": {
+              "value": "rgba( {sjs2.color.data.chart.bg.color-0}, {sjs2.opacity.x060} )",
               "type": "color"
             },
             "color-1-tinted": {
@@ -782,6 +790,10 @@
             }
           },
           "fg": {
+            "on-color-0": {
+              "value": "{sjs2.palette.gray.000}",
+              "type": "color"
+            },
             "on-color-1": {
               "value": "{sjs2.palette.gray.000}",
               "type": "color"
@@ -824,6 +836,10 @@
             }
           },
           "border": {
+            "color-0": {
+              "value": "{sjs2.color.data.chart.bg.color-0}",
+              "type": "color"
+            },
             "color-1": {
               "value": "{sjs2.color.data.chart.bg.color-1}",
               "type": "color"
@@ -862,6 +878,12 @@
             },
             "color-10": {
               "value": "{sjs2.color.data.chart.bg.color-10}",
+              "type": "color"
+            }
+          },
+          "track": {
+            "color-0": {
+              "value": "{sjs2.color.bg.basic.secondary}",
               "type": "color"
             }
           }

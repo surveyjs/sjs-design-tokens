@@ -763,6 +763,14 @@
             "color-10-tinted": {
               "value": "rgba({sjs2.color.data.chart.bg.color-10}, {sjs2.opacity.x060} )",
               "type": "color"
+            },
+            "color-0": {
+              "value": "{sjs2.color.bg.brand.primary}",
+              "type": "color"
+            },
+            "color-0-tinted": {
+              "value": "rgba( {sjs2.color.data.chart.bg.color-0}, {sjs2.opacity.x060} )",
+              "type": "color"
             }
           },
           "fg": {
@@ -803,6 +811,10 @@
               "type": "color"
             },
             "on-color-10": {
+              "value": "{sjs2.palette.gray.000}",
+              "type": "color"
+            },
+            "on-color-0": {
               "value": "{sjs2.palette.gray.000}",
               "type": "color"
             }
@@ -846,6 +858,16 @@
             },
             "color-10": {
               "value": "{sjs2.color.data.chart.bg.color-10}",
+              "type": "color"
+            },
+            "color-0": {
+              "value": "{sjs2.color.data.chart.bg.color-0}",
+              "type": "color"
+            }
+          },
+          "track": {
+            "color-0": {
+              "value": "{sjs2.color.bg.basic.secondary}",
               "type": "color"
             }
           }
