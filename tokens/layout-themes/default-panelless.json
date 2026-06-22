@@ -639,7 +639,7 @@
               "type": "spacing"
             },
             "gap-vertical": {
-              "value": "{sjs2.spacing.x000}",
+              "value": "{sjs2.layout.medium-vertical}",
               "type": "spacing"
             }
           },
@@ -1363,7 +1363,7 @@
           "type": "borderRadius"
         },
         "message": {
-          "value": "{sjs2.radius.form}",
+          "value": "{sjs2.radius.component.panel}",
           "type": "borderRadius"
         },
         "action": {
@@ -1374,6 +1374,11 @@
           "value": "{sjs2.radius.x200}",
           "type": "borderRadius",
           "description": "Corner radius of dropdown list container."
+        },
+        "menu": {
+          "value": "{sjs2.radius.x200}",
+          "type": "borderRadius",
+          "description": "Corner radius of menu container."
         },
         "drop-item": {
           "value": "{sjs2.radius.x100}",
@@ -1435,12 +1440,12 @@
           "description": "Corner radius of question-box."
         },
         "panel-dynamic": {
-          "value": "{sjs2.radius.x150}",
+          "value": "{sjs2.radius.component.panel}",
           "type": "borderRadius",
           "description": "Corner radius of question-box."
         },
         "panel-nested": {
-          "value": "{sjs2.radius.x100}",
+          "value": "{sjs2.radius.form}",
           "type": "borderRadius",
           "description": "Corner radius of nested panel inside the question-box."
         },

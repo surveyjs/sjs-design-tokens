@@ -3180,6 +3180,110 @@
               "type": "color"
             }
           }
+        },
+        "panel-simple": {
+          "default": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            },
+            "title": {
+              "value": "{sjs2.color.fg.basic.primary}",
+              "type": "color"
+            },
+            "title-placeholder": {
+              "value": "{sjs2.color.fg.basic.secondary}",
+              "type": "color"
+            },
+            "description": {
+              "value": "{sjs2.color.fg.basic.secondary}",
+              "type": "color"
+            },
+            "description-placeholder": {
+              "value": "{sjs2.color.fg.basic.tertiary}",
+              "type": "color"
+            },
+            "separator": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
+            }
+          },
+          "hovered": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            }
+          },
+          "focused": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            }
+          },
+          "dragging": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            }
+          }
+        },
+        "panel-dynamic": {
+          "default": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            },
+            "title": {
+              "value": "{sjs2.color.fg.basic.primary}",
+              "type": "color"
+            },
+            "title-placeholder": {
+              "value": "{sjs2.color.fg.basic.secondary}",
+              "type": "color"
+            },
+            "description": {
+              "value": "{sjs2.color.fg.basic.secondary}",
+              "type": "color"
+            },
+            "description-placeholder": {
+              "value": "{sjs2.color.fg.basic.tertiary}",
+              "type": "color"
+            },
+            "separator": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
+            }
+          },
+          "hovered": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            }
+          },
+          "focused": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            }
+          },
+          "dragging": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            }
+          }
         }
       }
     },
@@ -6461,6 +6565,270 @@
           }
         },
         "panel-nested": {
+          "default": {
+            "value": [
+              {
+                "x": "{sjs2.border-offset.x.surface.default}",
+                "y": "{sjs2.border-offset.y.surface.default}",
+                "blur": "{sjs2.border-blur.surface.default}",
+                "spread": "{sjs2.border-spread.surface.default}",
+                "color": "{sjs2.color.utility.shadow.surface.default}",
+                "type": "dropShadow"
+              },
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(0,0,0,0)",
+                "type": "dropShadow"
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "hovered": {
+            "value": [
+              {
+                "x": "{sjs2.border-offset.x.surface.hovered}",
+                "y": "{sjs2.border-offset.y.surface.hovered}",
+                "blur": "{sjs2.border-blur.surface.hovered}",
+                "spread": "{sjs2.border-spread.surface.hovered}",
+                "color": "{sjs2.color.utility.shadow.surface.hovered}",
+                "type": "dropShadow"
+              },
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(0,0,0,0)",
+                "type": "dropShadow"
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "pressed": {
+            "value": [
+              {
+                "x": "{sjs2.border-offset.x.surface.pressed}",
+                "y": "{sjs2.border-offset.y.surface.pressed}",
+                "blur": "{sjs2.border-blur.surface.pressed}",
+                "spread": "{sjs2.border-spread.surface.pressed}",
+                "color": "{sjs2.color.utility.shadow.surface.pressed}",
+                "type": "dropShadow"
+              },
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(0,0,0,0)",
+                "type": "dropShadow"
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "focused": {
+            "value": [
+              {
+                "x": "{sjs2.border-offset.x.surface.focused}",
+                "y": "{sjs2.border-offset.y.surface.focused}",
+                "blur": "{sjs2.border-blur.surface.focused}",
+                "spread": "{sjs2.border-spread.surface.focused}",
+                "color": "{sjs2.color.utility.shadow.surface.focused}",
+                "type": "dropShadow"
+              },
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(0,0,0,0)",
+                "type": "dropShadow"
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "disabled": {
+            "value": [
+              {
+                "x": "{sjs2.border-offset.x.surface.disabled}",
+                "y": "{sjs2.border-offset.y.surface.disabled}",
+                "blur": "{sjs2.border-blur.surface.disabled}",
+                "spread": "{sjs2.border-spread.surface.disabled}",
+                "color": "{sjs2.color.utility.shadow.surface.disabled}",
+                "type": "dropShadow"
+              },
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(0,0,0,0)",
+                "type": "dropShadow"
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "dragging": {
+            "value": [
+              {
+                "x": "{sjs2.border-offset.x.surface.dragging}",
+                "y": "{sjs2.border-offset.y.surface.dragging}",
+                "blur": "{sjs2.border-blur.surface.dragging}",
+                "spread": "{sjs2.border-spread.surface.dragging}",
+                "color": "{sjs2.color.utility.shadow.surface.dragging}",
+                "type": "dropShadow"
+              },
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(0,0,0,0)",
+                "type": "dropShadow"
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "a11y": {
+            "value": "{sjs2.border-effect.a11y}",
+            "type": "boxShadow"
+          }
+        },
+        "panel-simple": {
+          "default": {
+            "value": [
+              {
+                "x": "{sjs2.border-offset.x.surface.default}",
+                "y": "{sjs2.border-offset.y.surface.default}",
+                "blur": "{sjs2.border-blur.surface.default}",
+                "spread": "{sjs2.border-spread.surface.default}",
+                "color": "{sjs2.color.utility.shadow.surface.default}",
+                "type": "dropShadow"
+              },
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(0,0,0,0)",
+                "type": "dropShadow"
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "hovered": {
+            "value": [
+              {
+                "x": "{sjs2.border-offset.x.surface.hovered}",
+                "y": "{sjs2.border-offset.y.surface.hovered}",
+                "blur": "{sjs2.border-blur.surface.hovered}",
+                "spread": "{sjs2.border-spread.surface.hovered}",
+                "color": "{sjs2.color.utility.shadow.surface.hovered}",
+                "type": "dropShadow"
+              },
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(0,0,0,0)",
+                "type": "dropShadow"
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "pressed": {
+            "value": [
+              {
+                "x": "{sjs2.border-offset.x.surface.pressed}",
+                "y": "{sjs2.border-offset.y.surface.pressed}",
+                "blur": "{sjs2.border-blur.surface.pressed}",
+                "spread": "{sjs2.border-spread.surface.pressed}",
+                "color": "{sjs2.color.utility.shadow.surface.pressed}",
+                "type": "dropShadow"
+              },
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(0,0,0,0)",
+                "type": "dropShadow"
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "focused": {
+            "value": [
+              {
+                "x": "{sjs2.border-offset.x.surface.focused}",
+                "y": "{sjs2.border-offset.y.surface.focused}",
+                "blur": "{sjs2.border-blur.surface.focused}",
+                "spread": "{sjs2.border-spread.surface.focused}",
+                "color": "{sjs2.color.utility.shadow.surface.focused}",
+                "type": "dropShadow"
+              },
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(0,0,0,0)",
+                "type": "dropShadow"
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "disabled": {
+            "value": [
+              {
+                "x": "{sjs2.border-offset.x.surface.disabled}",
+                "y": "{sjs2.border-offset.y.surface.disabled}",
+                "blur": "{sjs2.border-blur.surface.disabled}",
+                "spread": "{sjs2.border-spread.surface.disabled}",
+                "color": "{sjs2.color.utility.shadow.surface.disabled}",
+                "type": "dropShadow"
+              },
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(0,0,0,0)",
+                "type": "dropShadow"
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "dragging": {
+            "value": [
+              {
+                "x": "{sjs2.border-offset.x.surface.dragging}",
+                "y": "{sjs2.border-offset.y.surface.dragging}",
+                "blur": "{sjs2.border-blur.surface.dragging}",
+                "spread": "{sjs2.border-spread.surface.dragging}",
+                "color": "{sjs2.color.utility.shadow.surface.dragging}",
+                "type": "dropShadow"
+              },
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(0,0,0,0)",
+                "type": "dropShadow"
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "a11y": {
+            "value": "{sjs2.border-effect.a11y}",
+            "type": "boxShadow"
+          }
+        },
+        "panel-dynamic": {
           "default": {
             "value": [
               {
