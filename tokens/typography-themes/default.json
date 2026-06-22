@@ -392,11 +392,11 @@
           "type": "fontSizes"
         },
         "medium": {
-          "value": "{sjs2.font-size.x300}",
+          "value": "{sjs2.font-size.x275}",
           "type": "fontSizes"
         },
         "large": {
-          "value": "{sjs2.font-size.x400}",
+          "value": "{sjs2.font-size.x350}",
           "type": "fontSizes"
         },
         "component": {
@@ -432,7 +432,7 @@
               "type": "fontSizes"
             },
             "description": {
-              "value": "{sjs2.typography.font-size.medium}",
+              "value": "{sjs2.typography.font-size.default}",
               "type": "fontSizes"
             }
           },
@@ -550,7 +550,7 @@
               "type": "lineHeights"
             },
             "description": {
-              "value": "{sjs2.typography.line-height.medium}",
+              "value": "{sjs2.typography.line-height.default}",
               "type": "lineHeights"
             }
           },

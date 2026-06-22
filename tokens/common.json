@@ -514,6 +514,10 @@
         "value": "{sjs2.base-unit.font-size} * 2.5",
         "type": "fontSizes"
       },
+      "x275": {
+        "value": "{sjs2.base-unit.font-size} * 2.75",
+        "type": "fontSizes"
+      },
       "x300": {
         "value": "{sjs2.base-unit.font-size} * 3",
         "type": "fontSizes"
@@ -548,8 +552,20 @@
         "value": "{sjs2.base-unit.line-height} * 2",
         "type": "lineHeights"
       },
+      "x250": {
+        "value": "{sjs2.base-unit.line-height} * 2.5",
+        "type": "lineHeights"
+      },
+      "x275": {
+        "value": "{sjs2.base-unit.line-height} * 2.75",
+        "type": "lineHeights"
+      },
       "x300": {
         "value": "{sjs2.base-unit.line-height} * 3",
+        "type": "lineHeights"
+      },
+      "x350": {
+        "value": "{sjs2.base-unit.line-height} * 3.5",
         "type": "lineHeights"
       },
       "x400": {
