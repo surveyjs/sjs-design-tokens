@@ -270,6 +270,17 @@
             },
             "type": "typography"
           }
+        },
+        "message": {
+          "content": {
+            "value": {
+              "fontFamily": "{sjs2.typography.font-family.component.message.content}",
+              "fontWeight": "{sjs2.typography.font-weight.component.message.content}",
+              "fontSize": "{sjs2.typography.font-size.component.message.content}",
+              "lineHeight": "{sjs2.typography.line-height.component.message.content}"
+            },
+            "type": "typography"
+          }
         }
       },
       "font-family": {
@@ -379,6 +390,12 @@
               "value": "{sjs2.typography.font-family.text}",
               "type": "fontFamilies"
             }
+          },
+          "message": {
+            "content": {
+              "value": "{sjs2.typography.font-family.text}",
+              "type": "fontFamilies"
+            }
           }
         }
       },
@@ -401,6 +418,12 @@
         },
         "component": {
           "input": {
+            "content": {
+              "value": "{sjs2.typography.font-size.default}",
+              "type": "fontSizes"
+            }
+          },
+          "message": {
             "content": {
               "value": "{sjs2.typography.font-size.default}",
               "type": "fontSizes"
@@ -615,6 +638,12 @@
               "value": "{sjs2.typography.line-height.small}",
               "type": "lineHeights"
             }
+          },
+          "message": {
+            "content": {
+              "value": "{sjs2.typography.line-height.default}",
+              "type": "lineHeights"
+            }
           }
         }
       },
@@ -722,6 +751,12 @@
               "type": "fontWeights"
             },
             "hint": {
+              "value": "{sjs2.typography.font-weight.basic}",
+              "type": "fontWeights"
+            }
+          },
+          "message": {
+            "content": {
               "value": "{sjs2.typography.font-weight.basic}",
               "type": "fontWeights"
             }
