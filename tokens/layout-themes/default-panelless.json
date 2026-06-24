@@ -1405,7 +1405,7 @@
           "type": "borderRadius"
         },
         "message": {
-          "value": "{sjs2.radius.component.panel}",
+          "value": "{sjs2.radius.form}",
           "type": "borderRadius"
         },
         "action": {
