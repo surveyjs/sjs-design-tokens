@@ -2622,6 +2622,10 @@
               "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
             },
+            "border": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
+            },
             "title": {
               "value": "{sjs2.color.fg.basic.primary}",
               "type": "color"
@@ -3068,6 +3072,10 @@
               "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
             },
+            "border": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
+            },
             "title": {
               "value": "{sjs2.color.fg.basic.primary}",
               "type": "color"
@@ -3120,6 +3128,10 @@
               "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
             },
+            "border": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
+            },
             "title": {
               "value": "{sjs2.color.fg.basic.primary}",
               "type": "color"
@@ -3170,6 +3182,10 @@
           "default": {
             "bg": {
               "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
             },
             "title": {

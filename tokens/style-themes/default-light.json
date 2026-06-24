@@ -2689,6 +2689,122 @@
               "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
             },
+            "border": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
+            },
+            "title": {
+              "value": "{sjs2.color.fg.basic.primary}",
+              "type": "color"
+            },
+            "title-placeholder": {
+              "value": "{sjs2.color.fg.basic.secondary}",
+              "type": "color"
+            },
+            "description": {
+              "value": "{sjs2.color.fg.basic.secondary}",
+              "type": "color"
+            },
+            "description-placeholder": {
+              "value": "{sjs2.color.fg.basic.tertiary}",
+              "type": "color"
+            },
+            "separator": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
+            }
+          },
+          "hovered": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            }
+          },
+          "focused": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            }
+          },
+          "dragging": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            }
+          }
+        },
+        "panel-dynamic": {
+          "default": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
+            },
+            "title": {
+              "value": "{sjs2.color.fg.basic.primary}",
+              "type": "color"
+            },
+            "title-placeholder": {
+              "value": "{sjs2.color.fg.basic.secondary}",
+              "type": "color"
+            },
+            "description": {
+              "value": "{sjs2.color.fg.basic.secondary}",
+              "type": "color"
+            },
+            "description-placeholder": {
+              "value": "{sjs2.color.fg.basic.tertiary}",
+              "type": "color"
+            },
+            "separator": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
+            }
+          },
+          "hovered": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            }
+          },
+          "focused": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            }
+          },
+          "dragging": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            }
+          }
+        },
+        "panel-simple": {
+          "default": {
+            "bg": {
+              "value": "{sjs2.color.bg.basic.primary}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
+            },
             "title": {
               "value": "{sjs2.color.fg.basic.primary}",
               "type": "color"
@@ -3135,108 +3251,8 @@
               "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
             },
-            "title": {
-              "value": "{sjs2.color.fg.basic.primary}",
-              "type": "color"
-            },
-            "title-placeholder": {
-              "value": "{sjs2.color.fg.basic.secondary}",
-              "type": "color"
-            },
-            "description": {
-              "value": "{sjs2.color.fg.basic.secondary}",
-              "type": "color"
-            },
-            "description-placeholder": {
-              "value": "{sjs2.color.fg.basic.tertiary}",
-              "type": "color"
-            },
-            "separator": {
+            "border": {
               "value": "{sjs2.color.border.basic.secondary}",
-              "type": "color"
-            }
-          },
-          "hovered": {
-            "bg": {
-              "value": "{sjs2.color.bg.basic.primary}",
-              "type": "color"
-            }
-          },
-          "focused": {
-            "bg": {
-              "value": "{sjs2.color.bg.basic.primary}",
-              "type": "color"
-            }
-          },
-          "disabled": {
-            "bg": {
-              "value": "{sjs2.color.bg.basic.primary}",
-              "type": "color"
-            }
-          },
-          "dragging": {
-            "bg": {
-              "value": "{sjs2.color.bg.basic.primary}",
-              "type": "color"
-            }
-          }
-        },
-        "panel-simple": {
-          "default": {
-            "bg": {
-              "value": "{sjs2.color.bg.basic.primary}",
-              "type": "color"
-            },
-            "title": {
-              "value": "{sjs2.color.fg.basic.primary}",
-              "type": "color"
-            },
-            "title-placeholder": {
-              "value": "{sjs2.color.fg.basic.secondary}",
-              "type": "color"
-            },
-            "description": {
-              "value": "{sjs2.color.fg.basic.secondary}",
-              "type": "color"
-            },
-            "description-placeholder": {
-              "value": "{sjs2.color.fg.basic.tertiary}",
-              "type": "color"
-            },
-            "separator": {
-              "value": "{sjs2.color.border.basic.secondary}",
-              "type": "color"
-            }
-          },
-          "hovered": {
-            "bg": {
-              "value": "{sjs2.color.bg.basic.primary}",
-              "type": "color"
-            }
-          },
-          "focused": {
-            "bg": {
-              "value": "{sjs2.color.bg.basic.primary}",
-              "type": "color"
-            }
-          },
-          "disabled": {
-            "bg": {
-              "value": "{sjs2.color.bg.basic.primary}",
-              "type": "color"
-            }
-          },
-          "dragging": {
-            "bg": {
-              "value": "{sjs2.color.bg.basic.primary}",
-              "type": "color"
-            }
-          }
-        },
-        "panel-dynamic": {
-          "default": {
-            "bg": {
-              "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
             },
             "title": {

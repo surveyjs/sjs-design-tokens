@@ -3158,6 +3158,10 @@
             "separator": {
               "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
+            },
+            "border": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
             }
           },
           "hovered": {
@@ -3210,6 +3214,10 @@
             "separator": {
               "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
+            },
+            "border": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
             }
           },
           "hovered": {
@@ -3260,6 +3268,10 @@
               "type": "color"
             },
             "separator": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
+            },
+            "border": {
               "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
             }
