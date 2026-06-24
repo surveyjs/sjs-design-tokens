@@ -965,6 +965,16 @@
           }
         },
         "question": {
+          "box": {
+            "gap-vertical": {
+              "value": "{sjs2.spacing.x200}",
+              "type": "spacing"
+            },
+            "gap-horizontal": {
+              "value": "{sjs2.spacing.x300}",
+              "type": "spacing"
+            }
+          },
           "header": {
             "padding-left": {
               "value": "{sjs2.spacing.x000}",
@@ -979,7 +989,7 @@
               "type": "spacing"
             },
             "padding-bottom": {
-              "value": "{sjs2.spacing.x200}",
+              "value": "{sjs2.spacing.x000}",
               "type": "spacing"
             },
             "gap-vertical": {

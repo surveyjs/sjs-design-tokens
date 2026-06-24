@@ -409,6 +409,8 @@
       "sjs2.layout.component.label.box.padding-vertical": "faad9be8ed92dcd3edd60629e76c6c64c85c2889",
       "sjs2.layout.component.label.box.gap-vertical": "5949edb4305fd7f93d8a4a24a5acf140c25ebb36",
       "sjs2.layout.component.label.content.gap-horizontal": "986ba9a660cdc8112273a285dfbbfe9dc382cb1d",
+      "sjs2.layout.component.question.box.gap-vertical": "42a4c6ef30b7c75f78741545970ce6d8a8e3d722",
+      "sjs2.layout.component.question.box.gap-horizontal": "0cfb0e27e486e8daa221f17750136d47563af597",
       "sjs2.layout.component.question.header.padding-left": "467dad7a72ddfa910f8d9ca3ec6fcf5287773046",
       "sjs2.layout.component.question.header.padding-right": "f6ab8c13528213ae84b0e2ffe2491db0144a1b63",
       "sjs2.layout.component.question.header.padding-top": "3a3f78cd0e4b35562e203dae2121054b228173c1",
@@ -440,6 +442,7 @@
       "sjs2.layout.component.header.description.padding-horizontal": "cc3e6cbdcc28dd1f82805cef77d5245e8f21d9a3",
       "sjs2.layout.component.header.description.padding-top": "1df7c6f7f94caabc2d2145a11b2f8a28132a1fd2",
       "sjs2.layout.component.header.description.padding-bottom": "098c5e7ca33399396afb094215a55cab50804105",
+      "sjs2.layout.component.header.action-group.gap": "55f84f12846faedd7c587b251650ec5112d24730",
       "sjs2.layout.component.drop.box.padding-horizontal": "2fc9cb9b9dcb94c3f0334b9646609a3f02d03a61",
       "sjs2.layout.component.drop.box.padding-vertical": "16b23315bd5326ee25cae423ec12ca85a5a542ac",
       "sjs2.layout.component.drop.box.gap-vertical": "e9a48ad0f1abee38bb0f4cc8ae29b864e2ecc4f4",
@@ -511,8 +514,7 @@
       "sjs2.radius.component.tooltip": "469ce04425ef58e393e8cdeb07b9b172b67a2458",
       "sjs2.radius.component.stepper-item": "77dde4f1d3e86d0ad47b032e26b2aacbe6fa3656",
       "sjs2.is-panelless": "97aa4292479df3bbcdbf5101fc370367e53c6290",
-      "sjs2.is-mobile": "2ca15886b38f4353fb21246f4473295afb16772f",
-      "sjs2.layout.component.header.action-group.gap": "55f84f12846faedd7c587b251650ec5112d24730"
+      "sjs2.is-mobile": "2ca15886b38f4353fb21246f4473295afb16772f"
     },
     "selectedTokenSets": {
       "base-unit": "source",
@@ -725,6 +727,8 @@
       "sjs2.layout.component.label.box.padding-vertical": "faad9be8ed92dcd3edd60629e76c6c64c85c2889",
       "sjs2.layout.component.label.box.gap-vertical": "5949edb4305fd7f93d8a4a24a5acf140c25ebb36",
       "sjs2.layout.component.label.content.gap-horizontal": "986ba9a660cdc8112273a285dfbbfe9dc382cb1d",
+      "sjs2.layout.component.question.box.gap-vertical": "42a4c6ef30b7c75f78741545970ce6d8a8e3d722",
+      "sjs2.layout.component.question.box.gap-horizontal": "0cfb0e27e486e8daa221f17750136d47563af597",
       "sjs2.layout.component.question.header.padding-left": "467dad7a72ddfa910f8d9ca3ec6fcf5287773046",
       "sjs2.layout.component.question.header.padding-right": "f6ab8c13528213ae84b0e2ffe2491db0144a1b63",
       "sjs2.layout.component.question.header.padding-top": "3a3f78cd0e4b35562e203dae2121054b228173c1",
@@ -756,6 +760,7 @@
       "sjs2.layout.component.header.description.padding-horizontal": "cc3e6cbdcc28dd1f82805cef77d5245e8f21d9a3",
       "sjs2.layout.component.header.description.padding-top": "1df7c6f7f94caabc2d2145a11b2f8a28132a1fd2",
       "sjs2.layout.component.header.description.padding-bottom": "098c5e7ca33399396afb094215a55cab50804105",
+      "sjs2.layout.component.header.action-group.gap": "55f84f12846faedd7c587b251650ec5112d24730",
       "sjs2.layout.component.drop.box.padding-horizontal": "2fc9cb9b9dcb94c3f0334b9646609a3f02d03a61",
       "sjs2.layout.component.drop.box.padding-vertical": "16b23315bd5326ee25cae423ec12ca85a5a542ac",
       "sjs2.layout.component.drop.box.gap-vertical": "e9a48ad0f1abee38bb0f4cc8ae29b864e2ecc4f4",
@@ -827,8 +832,7 @@
       "sjs2.radius.component.tooltip": "469ce04425ef58e393e8cdeb07b9b172b67a2458",
       "sjs2.radius.component.stepper-item": "77dde4f1d3e86d0ad47b032e26b2aacbe6fa3656",
       "sjs2.is-panelless": "97aa4292479df3bbcdbf5101fc370367e53c6290",
-      "sjs2.is-mobile": "2ca15886b38f4353fb21246f4473295afb16772f",
-      "sjs2.layout.component.header.action-group.gap": "55f84f12846faedd7c587b251650ec5112d24730"
+      "sjs2.is-mobile": "2ca15886b38f4353fb21246f4473295afb16772f"
     },
     "selectedTokenSets": {
       "base-unit": "source",
