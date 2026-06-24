@@ -1271,6 +1271,32 @@
               "type": "spacing"
             }
           }
+        },
+        "select-list-item": {
+          "box": {
+            "padding-left": {
+              "value": "{sjs2.spacing.x150}",
+              "type": "spacing"
+            },
+            "padding-right": {
+              "value": "{sjs2.spacing.x150}",
+              "type": "spacing"
+            },
+            "padding-vertical": {
+              "value": "{sjs2.spacing.x150}",
+              "type": "spacing"
+            },
+            "gap": {
+              "value": "{sjs2.spacing.x100}",
+              "type": "spacing"
+            }
+          },
+          "label": {
+            "padding-horizontal": {
+              "value": "{sjs2.spacing.x050}",
+              "type": "spacing"
+            }
+          }
         }
       }
     },
