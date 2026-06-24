@@ -1001,9 +1001,29 @@
               "type": "spacing"
             }
           },
-          "side-header": {
+          "header-side": {
+            "padding-left": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-right": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
             "padding-top": {
               "value": "{sjs2.spacing.x150}",
+              "type": "spacing"
+            },
+            "padding-bottom": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "gap-horizontal": {
+              "value": "{sjs2.spacing.x150}",
+              "type": "spacing"
+            },
+            "gap-vertical": {
+              "value": "{sjs2.spacing.x050}",
               "type": "spacing"
             }
           },
