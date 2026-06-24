@@ -1001,6 +1001,12 @@
               "type": "spacing"
             }
           },
+          "side-header": {
+            "padding-top": {
+              "value": "{sjs2.spacing.x150}",
+              "type": "spacing"
+            }
+          },
           "title": {
             "padding-horizontal": {
               "value": "{sjs2.spacing.x000}",
