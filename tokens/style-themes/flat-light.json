@@ -883,7 +883,7 @@
           },
           "track": {
             "color-0": {
-              "value": "{sjs2.palette.gray.100}",
+              "value": "{sjs2.palette.gray.000}",
               "type": "color"
             }
           }
