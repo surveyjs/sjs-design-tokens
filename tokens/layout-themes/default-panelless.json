@@ -1174,6 +1174,12 @@
               "value": "{sjs2.spacing.x000}",
               "type": "spacing"
             }
+          },
+          "content": {
+            "gap-vertical": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            }
           }
         },
         "menu": {
@@ -1186,6 +1192,12 @@
               "value": "{sjs2.spacing.x000}",
               "type": "spacing"
             },
+            "gap-vertical": {
+              "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            }
+          },
+          "content": {
             "gap-vertical": {
               "value": "{sjs2.spacing.x000}",
               "type": "spacing"
@@ -1272,7 +1284,7 @@
             }
           }
         },
-        "select-list-item": {
+        "drop-item": {
           "box": {
             "padding-left": {
               "value": "{sjs2.spacing.x150}",
@@ -1294,6 +1306,32 @@
           "label": {
             "padding-horizontal": {
               "value": "{sjs2.spacing.x050}",
+              "type": "spacing"
+            }
+          }
+        },
+        "menu-item": {
+          "box": {
+            "padding-left": {
+              "value": "{sjs2.spacing.x150}",
+              "type": "spacing"
+            },
+            "padding-right": {
+              "value": "{sjs2.spacing.x100}",
+              "type": "spacing"
+            },
+            "padding-vertical": {
+              "value": "{sjs2.spacing.x100}",
+              "type": "spacing"
+            },
+            "gap": {
+              "value": "{sjs2.spacing.x100}",
+              "type": "spacing"
+            }
+          },
+          "label": {
+            "padding-horizontal": {
+              "value": "{sjs2.spacing.x000}",
               "type": "spacing"
             }
           }
@@ -1451,6 +1489,10 @@
           "description": "Corner radius of menu container."
         },
         "drop-item": {
+          "value": "{sjs2.radius.x100}",
+          "type": "borderRadius"
+        },
+        "menu-item": {
           "value": "{sjs2.radius.x100}",
           "type": "borderRadius"
         },
