@@ -1175,7 +1175,7 @@
               "type": "spacing"
             }
           },
-          "content": {
+          "content-area": {
             "gap-vertical": {
               "value": "{sjs2.spacing.x000}",
               "type": "spacing"
@@ -1197,9 +1197,17 @@
               "type": "spacing"
             }
           },
-          "content": {
+          "content-area": {
             "gap-vertical": {
               "value": "{sjs2.spacing.x000}",
+              "type": "spacing"
+            },
+            "padding-horizontal": {
+              "value": "{sjs2.spacing.x100}",
+              "type": "spacing"
+            },
+            "padding-vertical": {
+              "value": "{sjs2.spacing.x100}",
               "type": "spacing"
             }
           }

@@ -536,8 +536,10 @@
       "sjs2.layout.component.menu-item.box.padding-vertical": "9ba61bdca9bbf833963d0bfd4405ec60379c69e6",
       "sjs2.layout.component.menu-item.box.gap": "4f5159fb4171399c7db024e7323a0febc8ca44f3",
       "sjs2.layout.component.menu-item.label.padding-horizontal": "79da053aa99f96a0b28495fea76247efdf87c40f",
-      "sjs2.layout.component.drop.content-area.gap-vertical": "abe40571304937f3656ee3e14aa4e2405a4bb58f",
-      "sjs2.layout.component.menu.content-area.gap-vertical": "de8a2e7fa8a477844c29b557c8b6f5fea9b35e08"
+      "sjs2.layout.component.drop.content-area.gap-vertical": "946323c7af5f71b3cf9bccf236d0bb6060cd776e",
+      "sjs2.layout.component.menu.content-area.gap-vertical": "b40e1a9b0aca8cec10d5dbde5de3e3c65901a611",
+      "sjs2.layout.component.menu.content-area.padding-horizontal": "dfdf50bb91d2b05d92732f01701e48fea638a7d7",
+      "sjs2.layout.component.menu.content-area.padding-vertical": "b4a9756ef239f091a857fedc6d9d7cc44eae84e8"
     },
     "selectedTokenSets": {
       "base-unit": "source",
@@ -793,9 +795,13 @@
       "sjs2.layout.component.drop.box.padding-horizontal": "2fc9cb9b9dcb94c3f0334b9646609a3f02d03a61",
       "sjs2.layout.component.drop.box.padding-vertical": "16b23315bd5326ee25cae423ec12ca85a5a542ac",
       "sjs2.layout.component.drop.box.gap-vertical": "e9a48ad0f1abee38bb0f4cc8ae29b864e2ecc4f4",
+      "sjs2.layout.component.drop.content-area.gap-vertical": "946323c7af5f71b3cf9bccf236d0bb6060cd776e",
       "sjs2.layout.component.menu.box.padding-horizontal": "f006d4f61bb5838c829b30493b3dadc0c6fa0d59",
+      "sjs2.layout.component.menu.content-area.padding-horizontal": "dfdf50bb91d2b05d92732f01701e48fea638a7d7",
+      "sjs2.layout.component.menu.content-area.padding-vertical": "b4a9756ef239f091a857fedc6d9d7cc44eae84e8",
       "sjs2.layout.component.menu.box.padding-vertical": "f20a377578b55a326e4acbe9720f13414678e179",
       "sjs2.layout.component.menu.box.gap-vertical": "b5a19f7bb11cc88ce09081abcc079767de4756d6",
+      "sjs2.layout.component.menu.content-area.gap-vertical": "b40e1a9b0aca8cec10d5dbde5de3e3c65901a611",
       "sjs2.layout.component.modal.box.padding-horizontal": "dce21af83bfe0256379e4dca23ac757eb488c4c0",
       "sjs2.layout.component.modal.box.padding-top": "c47705be7c02a878ba1facea9c585328c113bc3c",
       "sjs2.layout.component.modal.box.padding-bottom": "e92c14c3c29ca293fd2e54440f82e56e210f3547",
@@ -872,9 +878,7 @@
       "sjs2.layout.component.menu-item.box.padding-right": "5ca1d58d3b1fcce121e018f0ce623b3ce4179c0c",
       "sjs2.layout.component.menu-item.box.padding-vertical": "9ba61bdca9bbf833963d0bfd4405ec60379c69e6",
       "sjs2.layout.component.menu-item.box.gap": "4f5159fb4171399c7db024e7323a0febc8ca44f3",
-      "sjs2.layout.component.menu-item.label.padding-horizontal": "79da053aa99f96a0b28495fea76247efdf87c40f",
-      "sjs2.layout.component.drop.content.gap-vertical": "3e4059a74e2059e18c433ea6fba28f795b34db0c",
-      "sjs2.layout.component.menu.content.gap-vertical": "981dd866dad9ecfab47f757919f4845b6130aca7"
+      "sjs2.layout.component.menu-item.label.padding-horizontal": "79da053aa99f96a0b28495fea76247efdf87c40f"
     },
     "selectedTokenSets": {
       "base-unit": "source",
