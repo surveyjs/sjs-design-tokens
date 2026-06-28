@@ -17,7 +17,7 @@
             }
           },
           "600": {
-            "value": "#9c40ff",
+            "value": "#19B394",
             "type": "color"
           },
           "700": {
@@ -44,7 +44,8 @@
                   "space": "hsl"
                 }
               }
-            }
+            },
+            "description": "Auto-generated dark version of main brand color."
           }
         }
       },
@@ -86,7 +87,7 @@
         },
         "surface": {
           "survey": {
-            "value": "#161519",
+            "value": "{sjs2.color.component.panel.default.bg}",
             "type": "color",
             "description": "Surface color for the real Survey on the user's side + Preview & Themes tabs."
           },
@@ -163,7 +164,7 @@
               "type": "color"
             },
             "hovered": {
-              "value": "rgba( {sjs2.color.project.brand.600}, {sjs2.opacity.x040} )",
+              "value": "rgba( {sjs2.color.project.brand.600}, {sjs2.opacity.x025} )",
               "type": "color"
             },
             "pressed": {
@@ -459,11 +460,11 @@
             "type": "color"
           },
           "secondary": {
-            "value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x065} )",
+            "value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x060} )",
             "type": "color"
           },
           "tertiary": {
-            "value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x045} )",
+            "value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x040} )",
             "type": "color"
           },
           "primary-disabled": {
@@ -591,7 +592,7 @@
             "type": "color"
           },
           "secondary": {
-            "value": "{sjs2.palette.gray.700}",
+            "value": "{sjs2.palette.gray.750}",
             "type": "color"
           },
           "secondary-overlay": {

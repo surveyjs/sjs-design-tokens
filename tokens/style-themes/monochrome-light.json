@@ -91,11 +91,6 @@
             "type": "color",
             "description": "Surface color for the real Survey on the user's side + Preview & Themes tabs."
           },
-          "survey-panelless": {
-            "value": "{sjs2.color.component.panel.default.bg}",
-            "type": "color",
-            "description": "Surface color for the real Survey on the user's side + Preview & Themes tabs, panelless."
-          },
           "designer": {
             "value": "#1c1b200d",
             "type": "color",

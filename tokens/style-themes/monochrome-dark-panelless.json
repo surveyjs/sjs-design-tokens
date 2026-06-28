@@ -17,7 +17,7 @@
             }
           },
           "600": {
-            "value": "#9c40ff",
+            "value": "#f6f6f6",
             "type": "color"
           },
           "700": {
@@ -44,7 +44,8 @@
                   "space": "hsl"
                 }
               }
-            }
+            },
+            "description": "Auto-generated dark version of main brand color."
           }
         }
       },
@@ -86,7 +87,7 @@
         },
         "surface": {
           "survey": {
-            "value": "#161519",
+            "value": "{sjs2.color.component.panel.default.bg}",
             "type": "color",
             "description": "Surface color for the real Survey on the user's side + Preview & Themes tabs."
           },
@@ -159,7 +160,7 @@
           },
           "surface": {
             "default": {
-              "value": "{sjs2.color.border.basic.secondary}",
+              "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x020} )",
               "type": "color"
             },
             "hovered": {
@@ -179,7 +180,7 @@
               "type": "color"
             },
             "dragging": {
-              "value": "rgba( {sjs2.color.project.brand.600}, {sjs2.opacity.x010} )",
+              "value": "rgba( {sjs2.palette.gray.999}, {sjs2.opacity.x010} )",
               "type": "color"
             }
           },
@@ -507,7 +508,7 @@
             "type": "color"
           },
           "on-primary": {
-            "value": "{sjs2.palette.gray.000}",
+            "value": "{sjs2.palette.gray.900}",
             "type": "color"
           },
           "primary-disabled": {
@@ -591,7 +592,7 @@
             "type": "color"
           },
           "secondary": {
-            "value": "{sjs2.palette.gray.700}",
+            "value": "{sjs2.palette.gray.500}",
             "type": "color"
           },
           "secondary-overlay": {
@@ -619,7 +620,7 @@
             "type": "color"
           },
           "on-primary": {
-            "value": "{sjs2.palette.gray.000}",
+            "value": "{sjs2.palette.gray.900}",
             "type": "color"
           }
         },
@@ -1938,7 +1939,7 @@
         "formbox": {
           "default": {
             "bg": {
-              "value": "{sjs2.color.bg.basic.secondary}",
+              "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
             },
             "border": {
@@ -1968,7 +1969,7 @@
           },
           "focused": {
             "bg": {
-              "value": "{sjs2.color.bg.basic.secondary}",
+              "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
             },
             "border": {
@@ -1978,7 +1979,7 @@
           },
           "invalid": {
             "bg": {
-              "value": "{sjs2.color.bg.basic.secondary}",
+              "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
             },
             "border": {
@@ -1988,7 +1989,7 @@
           },
           "highlighted": {
             "bg": {
-              "value": "{sjs2.color.bg.basic.secondary}",
+              "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
             },
             "border": {
@@ -1998,7 +1999,7 @@
           },
           "design": {
             "bg": {
-              "value": "{sjs2.color.bg.basic.secondary}",
+              "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
             },
             "border": {
@@ -2008,7 +2009,7 @@
           },
           "hovered": {
             "bg": {
-              "value": "{sjs2.color.bg.basic.secondary}",
+              "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
             },
             "border": {
@@ -2018,7 +2019,7 @@
           },
           "invalid-focused": {
             "bg": {
-              "value": "{sjs2.color.bg.basic.secondary}",
+              "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
             },
             "border": {
@@ -2151,7 +2152,7 @@
           "true": {
             "default": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.primary}",
+                "value": "{sjs2.color.bg.basic.secondary}",
                 "type": "color"
               },
               "border": {
@@ -2197,7 +2198,7 @@
           "false": {
             "default": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.secondary}",
+                "value": "{sjs2.color.bg.basic.primary}",
                 "type": "color"
               },
               "border": {
@@ -2227,7 +2228,7 @@
             },
             "hovered": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.secondary-dim}",
+                "value": "{sjs2.color.bg.basic.primary-dim}",
                 "type": "color"
               },
               "border": {
@@ -2237,7 +2238,7 @@
             },
             "design": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.secondary}",
+                "value": "{sjs2.color.bg.basic.primary}",
                 "type": "color"
               },
               "border": {
@@ -2247,7 +2248,7 @@
             },
             "invalid": {
               "bg": {
-                "value": "{sjs2.color.bg.basic.secondary}",
+                "value": "{sjs2.color.bg.basic.primary}",
                 "type": "color"
               },
               "border": {
@@ -2259,15 +2260,15 @@
           "true": {
             "default": {
               "bg": {
-                "value": "{sjs2.color.bg.brand.primary}",
+                "value": "{sjs2.color.bg.basic.primary}",
                 "type": "color"
               },
               "border": {
-                "value": "{sjs2.color.border.brand.primary}",
+                "value": "{sjs2.color.border.basic.secondary}",
                 "type": "color"
               },
               "icon": {
-                "value": "{sjs2.color.fg.brand.on-primary}",
+                "value": "{sjs2.color.fg.basic.primary}",
                 "type": "color"
               }
             },
@@ -2287,15 +2288,15 @@
             },
             "hovered": {
               "bg": {
-                "value": "{sjs2.color.bg.brand.primary-dim}",
+                "value": "{sjs2.color.bg.basic.primary-dim}",
                 "type": "color"
               },
               "border": {
-                "value": "{sjs2.color.bg.brand.primary-dim}",
+                "value": "{sjs2.color.border.basic.secondary}",
                 "type": "color"
               },
               "icon": {
-                "value": "{sjs2.color.fg.brand.on-primary}",
+                "value": "{sjs2.color.fg.basic.primary}",
                 "type": "color"
               }
             },
@@ -2617,10 +2618,6 @@
               "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
             },
-            "border": {
-              "value": "{sjs2.color.border.basic.secondary}",
-              "type": "color"
-            },
             "title": {
               "value": "{sjs2.color.fg.basic.primary}",
               "type": "color"
@@ -2638,6 +2635,10 @@
               "type": "color"
             },
             "separator": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
+            },
+            "border": {
               "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
             }
@@ -3067,10 +3068,6 @@
               "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
             },
-            "border": {
-              "value": "{sjs2.color.border.basic.secondary}",
-              "type": "color"
-            },
             "title": {
               "value": "{sjs2.color.fg.basic.primary}",
               "type": "color"
@@ -3088,6 +3085,10 @@
               "type": "color"
             },
             "separator": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
+            },
+            "border": {
               "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
             }
@@ -3123,10 +3124,6 @@
               "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
             },
-            "border": {
-              "value": "{sjs2.color.border.basic.secondary}",
-              "type": "color"
-            },
             "title": {
               "value": "{sjs2.color.fg.basic.primary}",
               "type": "color"
@@ -3144,6 +3141,10 @@
               "type": "color"
             },
             "separator": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
+            },
+            "border": {
               "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
             }
@@ -3179,10 +3180,6 @@
               "value": "{sjs2.color.bg.basic.primary}",
               "type": "color"
             },
-            "border": {
-              "value": "{sjs2.color.border.basic.secondary}",
-              "type": "color"
-            },
             "title": {
               "value": "{sjs2.color.fg.basic.primary}",
               "type": "color"
@@ -3200,6 +3197,10 @@
               "type": "color"
             },
             "separator": {
+              "value": "{sjs2.color.border.basic.secondary}",
+              "type": "color"
+            },
+            "border": {
               "value": "{sjs2.color.border.basic.secondary}",
               "type": "color"
             }
