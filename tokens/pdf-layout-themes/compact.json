@@ -3,181 +3,181 @@
     "pdf": {
       "radius": {
         "question": {
-          "value": "{sjs2.radius.x000}",
-          "type": "borderRadius"
+          "$value": "{sjs2.radius.x000}",
+          "$type": "borderRadius"
         },
         "matrix": {
-          "value": "{sjs2.radius.x000}",
-          "type": "borderRadius"
+          "$value": "{sjs2.radius.x000}",
+          "$type": "borderRadius"
         },
         "checkbox": {
-          "value": "{sjs2.radius.x000}",
-          "type": "borderRadius"
+          "$value": "{sjs2.radius.x000}",
+          "$type": "borderRadius"
         },
         "radio": {
-          "value": "{sjs2.radius.round}",
-          "type": "borderRadius"
+          "$value": "{sjs2.radius.round}",
+          "$type": "borderRadius"
         },
         "section": {
-          "value": "{sjs2.radius.x000}",
-          "type": "borderRadius"
+          "$value": "{sjs2.radius.x000}",
+          "$type": "borderRadius"
         }
       },
       "border-width": {
         "section": {
-          "value": "{sjs2.border-width.x100}",
-          "type": "borderWidth"
+          "$value": "{sjs2.border-width.x100}",
+          "$type": "borderWidth"
         },
         "question": {
-          "value": "{sjs2.border-width.x100}",
-          "type": "borderWidth"
+          "$value": "{sjs2.border-width.x100}",
+          "$type": "borderWidth"
         },
         "check": {
-          "value": "{sjs2.border-width.x100}",
-          "type": "borderWidth"
+          "$value": "{sjs2.border-width.x100}",
+          "$type": "borderWidth"
         }
       },
       "layout": {
         "page": {
           "padding-top": {
-            "value": "{sjs2.spacing.x550}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x550}",
+            "$type": "spacing"
           },
           "padding-bottom": {
-            "value": "{sjs2.spacing.x550}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x550}",
+            "$type": "spacing"
           },
           "padding-left": {
-            "value": "{sjs2.spacing.x550}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x550}",
+            "$type": "spacing"
           },
           "padding-right": {
-            "value": "{sjs2.spacing.x550}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x550}",
+            "$type": "spacing"
           },
           "gap-vertical": {
-            "value": "{sjs2.spacing.x000}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x000}",
+            "$type": "spacing"
           },
           "gap-horizontal": {
-            "value": "{sjs2.spacing.x000}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x000}",
+            "$type": "spacing"
           },
           "questions-gap-horizontal": {
-            "value": "{sjs2.spacing.x000}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x000}",
+            "$type": "spacing"
           },
           "questions-gap-vertical": {
-            "value": "{sjs2.spacing.x000}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x000}",
+            "$type": "spacing"
           },
           "matrix-gap-horizontal": {
-            "value": "{sjs2.spacing.x000}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x000}",
+            "$type": "spacing"
           },
           "matrix-gap-vertical": {
-            "value": "{sjs2.spacing.x000}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x000}",
+            "$type": "spacing"
           }
         },
         "title": {
           "large-gap": {
-            "value": "{sjs2.spacing.x150}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x150}",
+            "$type": "spacing"
           },
           "large-padding-bottom": {
-            "value": "{sjs2.spacing.x400}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x400}",
+            "$type": "spacing"
           },
           "medium-gap": {
-            "value": "{sjs2.spacing.x100}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x100}",
+            "$type": "spacing"
           },
           "medium-padding-bottom": {
-            "value": "{sjs2.spacing.x300}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x300}",
+            "$type": "spacing"
           },
           "default-gap": {
-            "value": "{sjs2.spacing.x050}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x050}",
+            "$type": "spacing"
           },
           "default-padding-bottom": {
-            "value": "{sjs2.spacing.x150}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x150}",
+            "$type": "spacing"
           }
         },
         "section": {
           "padding-vertical": {
-            "value": "{sjs2.spacing.x100}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x100}",
+            "$type": "spacing"
           },
           "padding-horizontal": {
-            "value": "{sjs2.spacing.x100}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x100}",
+            "$type": "spacing"
           },
           "gap": {
-            "value": "{sjs2.spacing.x050}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x050}",
+            "$type": "spacing"
           }
         },
         "check": {
           "padding-vertical": {
-            "value": "{sjs2.spacing.x000}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x000}",
+            "$type": "spacing"
           },
           "padding-horizontal": {
-            "value": "{sjs2.spacing.x050}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x050}",
+            "$type": "spacing"
           },
           "gap": {
-            "value": "{sjs2.spacing.x100}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x100}",
+            "$type": "spacing"
           }
         },
         "matrix": {
           "padding-vertical": {
-            "value": "{sjs2.spacing.x000}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x000}",
+            "$type": "spacing"
           },
           "padding-horizontal": {
-            "value": "{sjs2.spacing.x050}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x050}",
+            "$type": "spacing"
           },
           "gap": {
-            "value": "{sjs2.spacing.x100}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x100}",
+            "$type": "spacing"
           }
         },
         "question": {
           "padding-vertical": {
-            "value": "{sjs2.spacing.x100}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x100}",
+            "$type": "spacing"
           },
           "padding-horizontal": {
-            "value": "{sjs2.spacing.x100}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x100}",
+            "$type": "spacing"
           },
           "gap": {
-            "value": "{sjs2.spacing.x100}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x100}",
+            "$type": "spacing"
           },
           "labels-gap-vertical": {
-            "value": "{sjs2.spacing.x050}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x050}",
+            "$type": "spacing"
           },
           "items-gap-vertical": {
-            "value": "{sjs2.spacing.x050}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x050}",
+            "$type": "spacing"
           },
           "items-gap-horizontal": {
-            "value": "{sjs2.spacing.x150}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x150}",
+            "$type": "spacing"
           }
         },
         "image-picker": {
           "items-gap-image-check": {
-            "value": "{sjs2.spacing.x000}",
-            "type": "spacing"
+            "$value": "{sjs2.spacing.x000}",
+            "$type": "spacing"
           }
         }
       }

@@ -4,94 +4,94 @@
       "project": {
         "brand": {
           "400": {
-            "value": "{sjs2.color.project.brand.600}",
-            "type": "color",
+            "$value": "{sjs2.color.project.brand.600}",
+            "$type": "color",
             "$extensions": {
               "studio.tokens": {
                 "modify": {
-                  "type": "lighten",
-                  "value": "0.2",
-                  "space": "hsl"
+                  "$type": "lighten",
+                  "$value": "0.2",
+                  "$space": "hsl"
                 }
               }
             },
-            "description": "Auto-generated light version of main brand color."
+            "$description": "Auto-generated light version of main brand color."
           },
           "600": {
-            "value": "rgba(114, 187, 255, 1)",
-            "type": "color",
-            "description": "Main brand color of your project."
+            "$value": "rgba(114, 187, 255, 1)",
+            "$type": "color",
+            "$description": "Main brand color of your project."
           },
           "700": {
-            "value": "{sjs2.color.project.brand.600}",
-            "type": "color",
+            "$value": "{sjs2.color.project.brand.600}",
+            "$type": "color",
             "$extensions": {
               "studio.tokens": {
                 "modify": {
-                  "type": "darken",
-                  "value": "0.15",
-                  "space": "hsl"
+                  "$type": "darken",
+                  "$value": "0.15",
+                  "$space": "hsl"
                 }
               }
             },
-            "description": "Auto-generated dark version of main brand color."
+            "$description": "Auto-generated dark version of main brand color."
           },
           "800": {
-            "value": "{sjs2.color.project.brand.600}",
-            "type": "color",
+            "$value": "{sjs2.color.project.brand.600}",
+            "$type": "color",
             "$extensions": {
               "studio.tokens": {
                 "modify": {
-                  "type": "darken",
-                  "value": "0.25",
-                  "space": "hsl"
+                  "$type": "darken",
+                  "$value": "0.25",
+                  "$space": "hsl"
                 }
               }
             },
-            "description": "Auto-generated dark version of main brand color."
+            "$description": "Auto-generated dark version of main brand color."
           }
         }
       },
       "utility": {
         "body": {
-          "value": "{sjs2.palette.gray.999}",
-          "type": "color",
-          "description": "The very basic page background color."
+          "$value": "{sjs2.palette.gray.999}",
+          "$type": "color",
+          "$description": "The very basic page background color."
         },
         "sheet": {
-          "value": "{sjs2.palette.gray.900}",
-          "type": "color",
-          "description": "Background color for drop, bottomsheet and modal."
+          "$value": "{sjs2.palette.gray.900}",
+          "$type": "color",
+          "$description": "Background color for drop, bottomsheet and modal."
         },
         "a11y": {
-          "value": "rgba( {sjs2.palette.blue.400}, {sjs2.opacity.x040} )",
-          "type": "color",
-          "description": "Tab-focus border color."
+          "$value": "rgba( {sjs2.palette.blue.400}, {sjs2.opacity.x040} )",
+          "$type": "color",
+          "$description": "Tab-focus border color."
         },
         "scrollbar": {
-          "value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x015} )",
-          "type": "color",
-          "description": "Scrollbar color."
+          "$value": "rgba( {sjs2.palette.gray.000}, {sjs2.opacity.x015} )",
+          "$type": "color",
+          "$description": "Scrollbar color."
         },
         "overlay": {
-          "value": "rgba( {sjs2.palette.gray.700}, {sjs2.opacity.x060} )",
-          "type": "color",
-          "description": "Color for overlay behind modal and bottomsheet."
+          "$value": "rgba( {sjs2.palette.gray.700}, {sjs2.opacity.x060} )",
+          "$type": "color",
+          "$description": "Color for overlay behind modal and bottomsheet."
         },
         "toolbox": {
-          "value": "rgba(43, 48, 63, 1)",
-          "type": "color",
-          "description": "Background color for Toolbox panel (left panel)."
+          "$value": "rgba(43, 48, 63, 1)",
+          "$type": "color",
+          "$description": "Background color for Toolbox panel (left panel)."
         },
         "property-grid": {
-          "value": "rgba(43, 48, 63, 1)",
-          "type": "color",
-          "description": "Background color for Property Grid panel (right panel)."
+          "$value": "rgba(43, 48, 63, 1)",
+          "$type": "color",
+          "$description": "Background color for Property Grid panel (right panel)."
         },
         "tabs": {
-          "value": "rgba(43, 48, 63, 1)",
-          "type": "color",
-          "description": "Background color for Tabs panel (top panel above all)."
+          "$value": "rgba(43, 48, 63, 1)",
+          "$type": "color",
+          "$description": "Background color for Tabs panel (top panel above all)."
         },
         "surface": {
           "survey": {
@@ -3300,241 +3300,241 @@
     },
     "opacity": {
       "visible": {
-        "value": "{sjs2.opacity.x100}",
-        "type": "opacity"
+        "$value": "{sjs2.opacity.x100}",
+        "$type": "opacity"
       },
       "hovered": {
-        "value": "{sjs2.opacity.x080}",
-        "type": "opacity"
+        "$value": "{sjs2.opacity.x080}",
+        "$type": "opacity"
       },
       "pressed": {
-        "value": "{sjs2.opacity.x080}",
-        "type": "opacity"
+        "$value": "{sjs2.opacity.x080}",
+        "$type": "opacity"
       },
       "disabled": {
-        "value": "{sjs2.opacity.x025}",
-        "type": "opacity"
+        "$value": "{sjs2.opacity.x025}",
+        "$type": "opacity"
       },
       "hidden": {
-        "value": "{sjs2.opacity.x000}",
-        "type": "opacity"
+        "$value": "{sjs2.opacity.x000}",
+        "$type": "opacity"
       }
     },
     "border-width": {
       "a11y": {
-        "value": "{sjs2.border-width.x400}",
-        "type": "borderWidth"
+        "$value": "{sjs2.border-width.x400}",
+        "$type": "borderWidth"
       }
     },
     "border-spread": {
       "form": {
         "default": {
-          "value": "{sjs2.border-width.x000}",
-          "type": "number"
+          "$value": "{sjs2.border-width.x000}",
+          "$type": "number"
         },
         "hovered": {
-          "value": "{sjs2.border-width.x000}",
-          "type": "number"
+          "$value": "{sjs2.border-width.x000}",
+          "$type": "number"
         },
         "pressed": {
-          "value": "{sjs2.border-width.x000}",
-          "type": "number"
+          "$value": "{sjs2.border-width.x000}",
+          "$type": "number"
         },
         "focused": {
-          "value": "{sjs2.border-width.x200}",
-          "type": "number"
+          "$value": "{sjs2.border-width.x200}",
+          "$type": "number"
         },
         "highlighted": {
-          "value": "{sjs2.border-width.x200}",
-          "type": "number"
+          "$value": "{sjs2.border-width.x200}",
+          "$type": "number"
         },
         "disabled": {
-          "value": "{sjs2.border-width.x100}",
-          "type": "number"
+          "$value": "{sjs2.border-width.x100}",
+          "$type": "number"
         },
         "invalid": {
-          "value": "{sjs2.border-width.x100}",
-          "type": "number"
+          "$value": "{sjs2.border-width.x100}",
+          "$type": "number"
         },
         "invalid-focused": {
-          "value": "{sjs2.border-width.x200}",
-          "type": "number"
+          "$value": "{sjs2.border-width.x200}",
+          "$type": "number"
         },
         "readonly": {
-          "value": "{sjs2.border-width.x000}",
-          "type": "number"
+          "$value": "{sjs2.border-width.x000}",
+          "$type": "number"
         },
         "design": {
-          "value": "{sjs2.border-width.x000}",
-          "type": "number"
+          "$value": "{sjs2.border-width.x000}",
+          "$type": "number"
         }
       },
       "trigger": {
         "default": {
-          "value": "{sjs2.border-width.x100}",
-          "type": "number"
+          "$value": "{sjs2.border-width.x100}",
+          "$type": "number"
         },
         "hovered": {
-          "value": "{sjs2.border-width.x100}",
-          "type": "number"
+          "$value": "{sjs2.border-width.x100}",
+          "$type": "number"
         },
         "pressed": {
-          "value": "{sjs2.border-width.x100}",
-          "type": "number"
+          "$value": "{sjs2.border-width.x100}",
+          "$type": "number"
         },
         "disabled": {
-          "value": "{sjs2.border-width.x100}",
-          "type": "number"
+          "$value": "{sjs2.border-width.x100}",
+          "$type": "number"
         },
         "design": {
-          "value": "{sjs2.border-width.x100}",
-          "type": "number"
+          "$value": "{sjs2.border-width.x100}",
+          "$type": "number"
         },
         "readonly": {
-          "value": "{sjs2.border-width.x100}",
-          "type": "number"
+          "$value": "{sjs2.border-width.x100}",
+          "$type": "number"
         },
         "invalid": {
-          "value": "{sjs2.border-width.x100}",
-          "type": "number"
+          "$value": "{sjs2.border-width.x100}",
+          "$type": "number"
         }
       },
       "surface": {
         "default": {
-          "value": "{sjs2.border-width.x000}",
-          "type": "number"
+          "$value": "{sjs2.border-width.x000}",
+          "$type": "number"
         },
         "hovered": {
-          "value": "{sjs2.border-width.x200}",
-          "type": "number"
+          "$value": "{sjs2.border-width.x200}",
+          "$type": "number"
         },
         "pressed": {
-          "value": "{sjs2.border-width.x200}",
-          "type": "number"
+          "$value": "{sjs2.border-width.x200}",
+          "$type": "number"
         },
         "focused": {
-          "value": "{sjs2.border-width.x200}",
-          "type": "number"
+          "$value": "{sjs2.border-width.x200}",
+          "$type": "number"
         },
         "disabled": {
-          "value": "{sjs2.border-width.x000}",
-          "type": "number"
+          "$value": "{sjs2.border-width.x000}",
+          "$type": "number"
         },
         "dragging": {
-          "value": 4,
-          "type": "number"
+          "$value": 4,
+          "$type": "number"
         }
       },
       "floating": {
         "default": {
-          "value": 0,
-          "type": "number"
+          "$value": 0,
+          "$type": "number"
         }
       }
     },
     "border-blur": {
       "form": {
         "default": {
-          "value": 0,
-          "type": "number"
+          "$value": 0,
+          "$type": "number"
         },
         "hovered": {
-          "value": 0,
-          "type": "number"
+          "$value": 0,
+          "$type": "number"
         },
         "pressed": {
-          "value": 0,
-          "type": "number"
+          "$value": 0,
+          "$type": "number"
         },
         "focused": {
-          "value": 0,
-          "type": "number"
+          "$value": 0,
+          "$type": "number"
         },
         "highlighted": {
-          "value": 0,
-          "type": "number"
+          "$value": 0,
+          "$type": "number"
         },
         "disabled": {
-          "value": 0,
-          "type": "number"
+          "$value": 0,
+          "$type": "number"
         },
         "invalid": {
-          "value": 0,
-          "type": "number"
+          "$value": 0,
+          "$type": "number"
         },
         "invalid-focused": {
-          "value": 0,
-          "type": "number"
+          "$value": 0,
+          "$type": "number"
         },
         "readonly": {
-          "value": 0,
-          "type": "number"
+          "$value": 0,
+          "$type": "number"
         },
         "design": {
-          "value": 0,
-          "type": "number"
+          "$value": 0,
+          "$type": "number"
         }
       },
       "trigger": {
         "default": {
-          "value": 0,
-          "type": "number"
+          "$value": 0,
+          "$type": "number"
         },
         "hovered": {
-          "value": 0,
-          "type": "number"
+          "$value": 0,
+          "$type": "number"
         },
         "pressed": {
-          "value": 0,
-          "type": "number"
+          "$value": 0,
+          "$type": "number"
         },
         "disabled": {
-          "value": 0,
-          "type": "number"
+          "$value": 0,
+          "$type": "number"
         },
         "design": {
-          "value": 0,
-          "type": "number"
+          "$value": 0,
+          "$type": "number"
         },
         "readonly": {
-          "value": 0,
-          "type": "number"
+          "$value": 0,
+          "$type": "number"
         },
         "invalid": {
-          "value": 0,
-          "type": "number"
+          "$value": 0,
+          "$type": "number"
         }
       },
       "surface": {
         "default": {
-          "value": 0,
-          "type": "number"
+          "$value": 0,
+          "$type": "number"
         },
         "hovered": {
-          "value": 0,
-          "type": "number"
+          "$value": 0,
+          "$type": "number"
         },
         "pressed": {
-          "value": 0,
-          "type": "number"
+          "$value": 0,
+          "$type": "number"
         },
         "focused": {
-          "value": 0,
-          "type": "number"
+          "$value": 0,
+          "$type": "number"
         },
         "disabled": {
-          "value": 0,
-          "type": "number"
+          "$value": 0,
+          "$type": "number"
         },
         "dragging": {
-          "value": 12,
-          "type": "number"
+          "$value": 12,
+          "$type": "number"
         }
       },
       "floating": {
         "default": {
-          "value": 20,
-          "type": "number"
+          "$value": 20,
+          "$type": "number"
         }
       }
     },
@@ -3542,212 +3542,212 @@
       "x": {
         "form": {
           "default": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "hovered": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "pressed": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "focused": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "highlighted": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "disabled": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "invalid": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "invalid-focused": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "readonly": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "design": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           }
         },
         "trigger": {
           "default": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "hovered": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "pressed": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "disabled": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "design": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "readonly": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "invalid": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           }
         },
         "surface": {
           "default": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "hovered": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "pressed": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "focused": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "disabled": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "dragging": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           }
         },
         "floating": {
           "default": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           }
         }
       },
       "y": {
         "form": {
           "default": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "hovered": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "pressed": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "focused": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "highlighted": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "disabled": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "invalid": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "invalid-focused": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "readonly": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "design": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           }
         },
         "trigger": {
           "default": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "hovered": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "pressed": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "disabled": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "design": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "readonly": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "invalid": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           }
         },
         "surface": {
           "default": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "hovered": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "pressed": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "focused": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "disabled": {
-            "value": 0,
-            "type": "number"
+            "$value": 0,
+            "$type": "number"
           },
           "dragging": {
-            "value": 6,
-            "type": "number"
+            "$value": 6,
+            "$type": "number"
           }
         },
         "floating": {
           "default": {
-            "value": 6,
-            "type": "number"
+            "$value": 6,
+            "$type": "number"
           }
         }
       }
@@ -3756,210 +3756,210 @@
       "component": {
         "formbox": {
           "default": {
-            "value": [
+            "$value": [
               {
-                "x": "{sjs2.border-offset.x.form.default}",
-                "y": "{sjs2.border-offset.y.form.default}",
-                "blur": "{sjs2.border-blur.form.default}",
-                "spread": "{sjs2.border-spread.form.default}",
-                "color": "{sjs2.color.component.formbox.default.border}",
-                "type": "innerShadow"
+                "$x": "{sjs2.border-offset.x.form.default}",
+                "$y": "{sjs2.border-offset.y.form.default}",
+                "$blur": "{sjs2.border-blur.form.default}",
+                "$spread": "{sjs2.border-spread.form.default}",
+                "$color": "{sjs2.color.component.formbox.default.border}",
+                "$type": "innerShadow"
               },
               {
-                "x": "0",
-                "y": "0",
-                "blur": "0",
-                "spread": "0",
-                "color": "rgba(0,0,0,0)",
-                "type": "innerShadow"
+                "$x": "0",
+                "$y": "0",
+                "$blur": "0",
+                "$spread": "0",
+                "$color": "rgba(0,0,0,0)",
+                "$type": "innerShadow"
               }
             ],
-            "type": "boxShadow"
+            "$type": "boxShadow"
           },
           "hovered": {
-            "value": [
+            "$value": [
               {
-                "x": "{sjs2.border-offset.x.form.hovered}",
-                "y": "{sjs2.border-offset.y.form.hovered}",
-                "blur": "{sjs2.border-blur.form.hovered}",
-                "spread": "{sjs2.border-spread.form.hovered}",
-                "color": "{sjs2.color.component.formbox.hovered.border}",
-                "type": "innerShadow"
+                "$x": "{sjs2.border-offset.x.form.hovered}",
+                "$y": "{sjs2.border-offset.y.form.hovered}",
+                "$blur": "{sjs2.border-blur.form.hovered}",
+                "$spread": "{sjs2.border-spread.form.hovered}",
+                "$color": "{sjs2.color.component.formbox.hovered.border}",
+                "$type": "innerShadow"
               },
               {
-                "x": "0",
-                "y": "0",
-                "blur": "0",
-                "spread": "0",
-                "color": "rgba(0,0,0,0)",
-                "type": "innerShadow"
+                "$x": "0",
+                "$y": "0",
+                "$blur": "0",
+                "$spread": "0",
+                "$color": "rgba(0,0,0,0)",
+                "$type": "innerShadow"
               }
             ],
-            "type": "boxShadow"
+            "$type": "boxShadow"
           },
           "focused": {
-            "value": [
+            "$value": [
               {
-                "x": "{sjs2.border-offset.x.form.focused}",
-                "y": "{sjs2.border-offset.y.form.focused}",
-                "blur": "{sjs2.border-blur.form.focused}",
-                "spread": "{sjs2.border-spread.form.focused}",
-                "color": "{sjs2.color.component.formbox.focused.border}",
-                "type": "dropShadow"
+                "$x": "{sjs2.border-offset.x.form.focused}",
+                "$y": "{sjs2.border-offset.y.form.focused}",
+                "$blur": "{sjs2.border-blur.form.focused}",
+                "$spread": "{sjs2.border-spread.form.focused}",
+                "$color": "{sjs2.color.component.formbox.focused.border}",
+                "$type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
-                "blur": "0",
-                "spread": "0",
-                "color": "rgba(0,0,0,0)",
-                "type": "innerShadow"
+                "$x": "0",
+                "$y": "0",
+                "$blur": "0",
+                "$spread": "0",
+                "$color": "rgba(0,0,0,0)",
+                "$type": "innerShadow"
               }
             ],
-            "type": "boxShadow"
+            "$type": "boxShadow"
           },
           "disabled": {
-            "value": [
+            "$value": [
               {
-                "x": "{sjs2.border-offset.x.form.disabled}",
-                "y": "{sjs2.border-offset.y.form.disabled}",
-                "blur": "{sjs2.border-blur.form.disabled}",
-                "spread": "{sjs2.border-spread.form.disabled}",
-                "color": "{sjs2.color.component.formbox.disabled.border}",
-                "type": "innerShadow"
+                "$x": "{sjs2.border-offset.x.form.disabled}",
+                "$y": "{sjs2.border-offset.y.form.disabled}",
+                "$blur": "{sjs2.border-blur.form.disabled}",
+                "$spread": "{sjs2.border-spread.form.disabled}",
+                "$color": "{sjs2.color.component.formbox.disabled.border}",
+                "$type": "innerShadow"
               },
               {
-                "x": "0",
-                "y": "0",
-                "blur": "0",
-                "spread": "0",
-                "color": "rgba(0,0,0,0)",
-                "type": "innerShadow"
+                "$x": "0",
+                "$y": "0",
+                "$blur": "0",
+                "$spread": "0",
+                "$color": "rgba(0,0,0,0)",
+                "$type": "innerShadow"
               }
             ],
-            "type": "boxShadow"
+            "$type": "boxShadow"
           },
           "invalid": {
-            "value": [
+            "$value": [
               {
-                "x": "{sjs2.border-offset.x.form.invalid}",
-                "y": "{sjs2.border-offset.y.form.invalid}",
-                "blur": "{sjs2.border-blur.form.invalid}",
-                "spread": "{sjs2.border-spread.form.invalid}",
-                "color": "{sjs2.color.component.formbox.invalid.border}",
-                "type": "innerShadow"
+                "$x": "{sjs2.border-offset.x.form.invalid}",
+                "$y": "{sjs2.border-offset.y.form.invalid}",
+                "$blur": "{sjs2.border-blur.form.invalid}",
+                "$spread": "{sjs2.border-spread.form.invalid}",
+                "$color": "{sjs2.color.component.formbox.invalid.border}",
+                "$type": "innerShadow"
               },
               {
-                "x": "0",
-                "y": "0",
-                "blur": "0",
-                "spread": "0",
-                "color": "rgba(0,0,0,0)",
-                "type": "innerShadow"
+                "$x": "0",
+                "$y": "0",
+                "$blur": "0",
+                "$spread": "0",
+                "$color": "rgba(0,0,0,0)",
+                "$type": "innerShadow"
               }
             ],
-            "type": "boxShadow"
+            "$type": "boxShadow"
           },
           "invalid-focused": {
-            "value": [
+            "$value": [
               {
-                "x": "{sjs2.border-offset.x.form.invalid-focused}",
-                "y": "{sjs2.border-offset.y.form.invalid-focused}",
-                "blur": "{sjs2.border-blur.form.invalid-focused}",
-                "spread": "{sjs2.border-spread.form.invalid-focused}",
-                "color": "{sjs2.color.component.formbox.invalid-focused.border}",
-                "type": "dropShadow"
+                "$x": "{sjs2.border-offset.x.form.invalid-focused}",
+                "$y": "{sjs2.border-offset.y.form.invalid-focused}",
+                "$blur": "{sjs2.border-blur.form.invalid-focused}",
+                "$spread": "{sjs2.border-spread.form.invalid-focused}",
+                "$color": "{sjs2.color.component.formbox.invalid-focused.border}",
+                "$type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
-                "blur": "0",
-                "spread": "0",
-                "color": "rgba(0,0,0,0)",
-                "type": "innerShadow"
+                "$x": "0",
+                "$y": "0",
+                "$blur": "0",
+                "$spread": "0",
+                "$color": "rgba(0,0,0,0)",
+                "$type": "innerShadow"
               }
             ],
-            "type": "boxShadow"
+            "$type": "boxShadow"
           },
           "highlighted": {
-            "value": [
+            "$value": [
               {
-                "x": "{sjs2.border-offset.x.form.highlighted}",
-                "y": "{sjs2.border-offset.y.form.highlighted}",
-                "blur": "{sjs2.border-blur.form.highlighted}",
-                "spread": "{sjs2.border-spread.form.highlighted}",
-                "color": "{sjs2.color.component.formbox.highlighted.border}",
-                "type": "dropShadow"
+                "$x": "{sjs2.border-offset.x.form.highlighted}",
+                "$y": "{sjs2.border-offset.y.form.highlighted}",
+                "$blur": "{sjs2.border-blur.form.highlighted}",
+                "$spread": "{sjs2.border-spread.form.highlighted}",
+                "$color": "{sjs2.color.component.formbox.highlighted.border}",
+                "$type": "dropShadow"
               },
               {
-                "x": "0",
-                "y": "0",
-                "blur": "0",
-                "spread": "0",
-                "color": "rgba(0,0,0,0)",
-                "type": "innerShadow"
+                "$x": "0",
+                "$y": "0",
+                "$blur": "0",
+                "$spread": "0",
+                "$color": "rgba(0,0,0,0)",
+                "$type": "innerShadow"
               }
             ],
-            "type": "boxShadow"
+            "$type": "boxShadow"
           },
           "readonly": {
-            "value": [
+            "$value": [
               {
-                "x": "{sjs2.border-offset.x.form.readonly}",
-                "y": "{sjs2.border-offset.y.form.readonly}",
-                "blur": "{sjs2.border-blur.form.readonly}",
-                "spread": "{sjs2.border-spread.form.readonly}",
-                "color": "{sjs2.color.component.formbox.readonly.border}",
-                "type": "innerShadow"
+                "$x": "{sjs2.border-offset.x.form.readonly}",
+                "$y": "{sjs2.border-offset.y.form.readonly}",
+                "$blur": "{sjs2.border-blur.form.readonly}",
+                "$spread": "{sjs2.border-spread.form.readonly}",
+                "$color": "{sjs2.color.component.formbox.readonly.border}",
+                "$type": "innerShadow"
               },
               {
-                "x": "0",
-                "y": "0",
-                "blur": "0",
-                "spread": "0",
-                "color": "rgba(0,0,0,0)",
-                "type": "innerShadow"
+                "$x": "0",
+                "$y": "0",
+                "$blur": "0",
+                "$spread": "0",
+                "$color": "rgba(0,0,0,0)",
+                "$type": "innerShadow"
               }
             ],
-            "type": "boxShadow"
+            "$type": "boxShadow"
           },
           "design": {
-            "value": [
+            "$value": [
               {
-                "x": "{sjs2.border-offset.x.form.design}",
-                "y": "{sjs2.border-offset.y.form.design}",
-                "blur": "{sjs2.border-blur.form.design}",
-                "spread": "{sjs2.border-spread.form.design}",
-                "color": "{sjs2.color.component.formbox.design.border}",
-                "type": "innerShadow"
+                "$x": "{sjs2.border-offset.x.form.design}",
+                "$y": "{sjs2.border-offset.y.form.design}",
+                "$blur": "{sjs2.border-blur.form.design}",
+                "$spread": "{sjs2.border-spread.form.design}",
+                "vcolor": "{sjs2.color.component.formbox.design.border}",
+                "$type": "innerShadow"
               },
               {
-                "x": "0",
-                "y": "0",
-                "blur": "0",
-                "spread": "0",
-                "color": "rgba(0,0,0,0)",
-                "type": "innerShadow"
+                "$x": "0",
+                "$y": "0",
+                "$blur": "0",
+                "$spread": "0",
+                "$color": "rgba(0,0,0,0)",
+                "$type": "innerShadow"
               }
             ],
-            "type": "boxShadow"
+            "$type": "boxShadow"
           },
           "a11y": {
-            "value": {
-              "x": "0",
-              "y": "0",
-              "blur": "0",
-              "spread": "0",
-              "color": "transparent",
-              "type": "dropShadow"
+            "$value": {
+              "$x": "0",
+              "$y": "0",
+              "$blur": "0",
+              "$spread": "0",
+              "$color": "transparent",
+              "$type": "dropShadow"
             },
-            "type": "boxShadow"
+            "$type": "boxShadow"
           }
         },
         "check": {
           "false": {
             "default": {
-              "value": [
+              "$value": [
                 {
                   "x": "{sjs2.border-offset.x.form.default}",
                   "y": "{sjs2.border-offset.y.form.default}",
@@ -3977,10 +3977,10 @@
                   "type": "innerShadow"
                 }
               ],
-              "type": "boxShadow"
+              "$type": "boxShadow"
             },
             "hovered": {
-              "value": [
+              "$value": [
                 {
                   "x": "{sjs2.border-offset.x.form.hovered}",
                   "y": "{sjs2.border-offset.y.form.hovered}",
@@ -3998,10 +3998,10 @@
                   "type": "innerShadow"
                 }
               ],
-              "type": "boxShadow"
+              "$type": "boxShadow"
             },
             "disabled": {
-              "value": [
+              "$value": [
                 {
                   "x": "{sjs2.border-offset.x.form.disabled}",
                   "y": "{sjs2.border-offset.y.form.disabled}",
@@ -4019,10 +4019,10 @@
                   "type": "innerShadow"
                 }
               ],
-              "type": "boxShadow"
+              "$type": "boxShadow"
             },
             "design": {
-              "value": [
+              "$value": [
                 {
                   "x": "{sjs2.border-offset.x.form.design}",
                   "y": "{sjs2.border-offset.y.form.design}",
@@ -4040,10 +4040,10 @@
                   "type": "innerShadow"
                 }
               ],
-              "type": "boxShadow"
+              "$type": "boxShadow"
             },
             "readonly": {
-              "value": [
+              "$value": [
                 {
                   "x": "{sjs2.border-offset.x.form.readonly}",
                   "y": "{sjs2.border-offset.y.form.readonly}",
@@ -4061,10 +4061,10 @@
                   "type": "innerShadow"
                 }
               ],
-              "type": "boxShadow"
+              "$type": "boxShadow"
             },
             "invalid": {
-              "value": [
+              "$value": [
                 {
                   "x": "{sjs2.border-offset.x.form.invalid}",
                   "y": "{sjs2.border-offset.y.form.invalid}",
@@ -4082,12 +4082,12 @@
                   "type": "innerShadow"
                 }
               ],
-              "type": "boxShadow"
+              "$type": "boxShadow"
             }
           },
           "true": {
             "default": {
-              "value": [
+              "$value": [
                 {
                   "x": "{sjs2.border-offset.x.form.default}",
                   "y": "{sjs2.border-offset.y.form.default}",
@@ -4105,10 +4105,10 @@
                   "type": "innerShadow"
                 }
               ],
-              "type": "boxShadow"
+              "$type": "boxShadow"
             },
             "hovered": {
-              "value": [
+              "$value": [
                 {
                   "x": "{sjs2.border-offset.x.form.hovered}",
                   "y": "{sjs2.border-offset.y.form.hovered}",
@@ -4126,10 +4126,10 @@
                   "type": "innerShadow"
                 }
               ],
-              "type": "boxShadow"
+              "$type": "boxShadow"
             },
             "disabled": {
-              "value": [
+              "$value": [
                 {
                   "x": "{sjs2.border-offset.x.form.disabled}",
                   "y": "{sjs2.border-offset.y.form.disabled}",
@@ -4147,18 +4147,18 @@
                   "type": "innerShadow"
                 }
               ],
-              "type": "boxShadow"
+              "$type": "boxShadow"
             }
           },
           "a11y": {
-            "value": "{sjs2.border-effect.a11y}",
-            "type": "boxShadow"
+            "$value": "{sjs2.border-effect.a11y}",
+            "$type": "boxShadow"
           }
         },
         "toggle": {
           "false": {
             "default": {
-              "value": [
+              "$value": [
                 {
                   "x": "{sjs2.border-offset.x.form.default}",
                   "y": "{sjs2.border-offset.y.form.default}",
@@ -4176,10 +4176,10 @@
                   "type": "innerShadow"
                 }
               ],
-              "type": "boxShadow"
+              "$type": "boxShadow"
             },
             "hovered": {
-              "value": [
+              "$value": [
                 {
                   "x": "{sjs2.border-offset.x.form.hovered}",
                   "y": "{sjs2.border-offset.y.form.hovered}",
@@ -4197,10 +4197,10 @@
                   "type": "innerShadow"
                 }
               ],
-              "type": "boxShadow"
+              "$type": "boxShadow"
             },
             "disabled": {
-              "value": [
+              "$value": [
                 {
                   "x": "{sjs2.border-offset.x.form.disabled}",
                   "y": "{sjs2.border-offset.y.form.disabled}",
@@ -4218,12 +4218,12 @@
                   "type": "innerShadow"
                 }
               ],
-              "type": "boxShadow"
+              "$type": "boxShadow"
             }
           },
           "true": {
             "default": {
-              "value": [
+              "$value": [
                 {
                   "x": "{sjs2.border-offset.x.form.default}",
                   "y": "{sjs2.border-offset.y.form.default}",
@@ -4241,10 +4241,10 @@
                   "type": "innerShadow"
                 }
               ],
-              "type": "boxShadow"
+              "$type": "boxShadow"
             },
             "hovered": {
-              "value": [
+              "$value": [
                 {
                   "x": "{sjs2.border-offset.x.form.hovered}",
                   "y": "{sjs2.border-offset.y.form.hovered}",
@@ -4262,10 +4262,10 @@
                   "type": "innerShadow"
                 }
               ],
-              "type": "boxShadow"
+              "$type": "boxShadow"
             },
             "disabled": {
-              "value": [
+              "$value": [
                 {
                   "x": "{sjs2.border-offset.x.form.disabled}",
                   "y": "{sjs2.border-offset.y.form.disabled}",
@@ -4283,7 +4283,7 @@
                   "type": "innerShadow"
                 }
               ],
-              "type": "boxShadow"
+              "$type": "boxShadow"
             }
           },
           "a11y": {
@@ -6953,7 +6953,7 @@
       },
       "trigger": {
         "default": {
-          "value": [
+          "$value": [
             {
               "x": "{sjs2.border-offset.x.trigger.default}",
               "y": "{sjs2.border-offset.y.trigger.default}",
@@ -6971,10 +6971,10 @@
               "type": "dropShadow"
             }
           ],
-          "type": "boxShadow"
+          "$type": "boxShadow"
         },
         "hovered": {
-          "value": [
+          "$value": [
             {
               "x": "{sjs2.border-offset.x.trigger.hovered}",
               "y": "{sjs2.border-offset.y.trigger.hovered}",
@@ -6992,10 +6992,10 @@
               "type": "dropShadow"
             }
           ],
-          "type": "boxShadow"
+          "$type": "boxShadow"
         },
         "pressed": {
-          "value": [
+          "$value": [
             {
               "x": "{sjs2.border-offset.x.trigger.pressed}",
               "y": "{sjs2.border-offset.y.trigger.pressed}",
@@ -7013,10 +7013,10 @@
               "type": "dropShadow"
             }
           ],
-          "type": "boxShadow"
+          "$type": "boxShadow"
         },
         "disabled": {
-          "value": [
+          "$value": [
             {
               "x": "{sjs2.border-offset.x.trigger.disabled}",
               "y": "{sjs2.border-offset.y.trigger.disabled}",
@@ -7034,10 +7034,10 @@
               "type": "dropShadow"
             }
           ],
-          "type": "boxShadow"
+          "$type": "boxShadow"
         },
         "design": {
-          "value": [
+          "$value": [
             {
               "x": "{sjs2.border-offset.x.trigger.design}",
               "y": "{sjs2.border-offset.y.trigger.design}",
@@ -7055,10 +7055,10 @@
               "type": "dropShadow"
             }
           ],
-          "type": "boxShadow"
+          "$type": "boxShadow"
         },
         "readonly": {
-          "value": [
+          "$value": [
             {
               "x": "{sjs2.border-offset.x.trigger.readonly}",
               "y": "{sjs2.border-offset.y.trigger.readonly}",
@@ -7076,10 +7076,10 @@
               "type": "dropShadow"
             }
           ],
-          "type": "boxShadow"
+          "$type": "boxShadow"
         },
         "invalid": {
-          "value": [
+          "$value": [
             {
               "x": "{sjs2.border-offset.x.trigger.invalid}",
               "y": "{sjs2.border-offset.y.trigger.invalid}",
@@ -7097,12 +7097,12 @@
               "type": "dropShadow"
             }
           ],
-          "type": "boxShadow"
+          "$type": "boxShadow"
         }
       },
       "surface": {
         "default": {
-          "value": [
+          "$value": [
             {
               "x": "0",
               "y": "0",
@@ -7120,10 +7120,10 @@
               "type": "dropShadow"
             }
           ],
-          "type": "boxShadow"
+          "$type": "boxShadow"
         },
         "hovered": {
-          "value": [
+          "$value": [
             {
               "x": "{sjs2.border-offset.x.surface.hovered}",
               "y": "{sjs2.border-offset.y.surface.hovered}",
@@ -7141,10 +7141,10 @@
               "type": "dropShadow"
             }
           ],
-          "type": "boxShadow"
+          "$type": "boxShadow"
         },
         "pressed": {
-          "value": [
+          "$value": [
             {
               "x": "{sjs2.border-offset.x.surface.pressed}",
               "y": "{sjs2.border-offset.y.surface.pressed}",
@@ -7162,10 +7162,10 @@
               "type": "dropShadow"
             }
           ],
-          "type": "boxShadow"
+          "$type": "boxShadow"
         },
         "focused": {
-          "value": [
+          "$value": [
             {
               "x": "{sjs2.border-offset.x.surface.focused}",
               "y": "{sjs2.border-offset.y.surface.focused}",
@@ -7183,10 +7183,10 @@
               "type": "dropShadow"
             }
           ],
-          "type": "boxShadow"
+          "$type": "boxShadow"
         },
         "disabled": {
-          "value": [
+          "$value": [
             {
               "x": "{sjs2.border-offset.x.surface.disabled}",
               "y": "{sjs2.border-offset.y.surface.disabled}",
@@ -7204,10 +7204,10 @@
               "type": "dropShadow"
             }
           ],
-          "type": "boxShadow"
+          "$type": "boxShadow"
         },
         "dragging": {
-          "value": [
+          "$value": [
             {
               "x": "{sjs2.border-offset.x.surface.dragging}",
               "y": "{sjs2.border-offset.y.surface.dragging}",
@@ -7225,12 +7225,12 @@
               "type": "dropShadow"
             }
           ],
-          "type": "boxShadow"
+          "$type": "boxShadow"
         }
       },
       "floating": {
         "default": {
-          "value": [
+          "$value": [
             {
               "x": "0",
               "y": "2",
@@ -7256,11 +7256,11 @@
               "type": "dropShadow"
             }
           ],
-          "type": "boxShadow"
+          "$type": "boxShadow"
         }
       },
       "a11y": {
-        "value": [
+        "$value": [
           {
             "x": "0",
             "y": "0",
@@ -7278,7 +7278,7 @@
             "type": "dropShadow"
           }
         ],
-        "type": "boxShadow"
+        "$type": "boxShadow"
       }
     }
   }

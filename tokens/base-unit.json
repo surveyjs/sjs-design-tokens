@@ -2,36 +2,36 @@
   "sjs2": {
     "base-unit": {
       "size": {
-        "value": "8",
-        "type": "baseUnit"
+        "$value": "8",
+        "$type": "number"
       },
       "spacing": {
-        "value": "8",
-        "type": "baseUnit"
+        "$value": "8",
+        "$type": "number"
       },
       "radius": {
-        "value": "8",
-        "type": "baseUnit"
+        "$value": "8",
+        "$type": "number"
       },
       "border-width": {
-        "value": "1",
-        "type": "baseUnit"
+        "$value": "1",
+        "$type": "number"
       },
       "font-size": {
-        "value": "8",
-        "type": "baseUnit"
+        "$value": "8",
+        "$type": "number"
       },
       "line-height": {
-        "value": "8",
-        "type": "baseUnit"
+        "$value": "8",
+        "$type": "number"
       },
       "opacity": {
-        "value": "1%",
-        "type": "baseUnit"
+        "$value": "1%",
+        "$type": "number"
       },
       "scale": {
-        "value": "1%",
-        "type": "baseUnit"
+        "$value": "1%",
+        "$type": "number"
       }
     }
   }
