@@ -3121,11 +3121,11 @@
         "panel-simple": {
           "default": {
             "bg": {
-              "value": "{sjs2.color.bg.basic.primary}",
+              "value": "transparent",
               "type": "color"
             },
             "border": {
-              "value": "{sjs2.color.border.basic.secondary}",
+              "value": "transparent",
               "type": "color"
             },
             "title": {
