@@ -10,7 +10,7 @@
         "type": "spacing"
       },
       "large-horizontal": {
-        "value": "{sjs2.spacing.x500}",
+        "value": "{sjs2.spacing.x200}",
         "type": "spacing"
       },
       "large-vertical": {

@@ -8805,5 +8805,31 @@
       "style-themes/threedimensional-dark-panelless": "enabled"
     },
     "group": "style-themes"
+  },
+  {
+    "id": "dcb6960bc7e282df74dc187b0a0541574f6485f0",
+    "name": "default-mobile",
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {},
+    "selectedTokenSets": {
+      "base-unit": "source",
+      "common": "source",
+      "layout-themes/default-mobile": "enabled",
+      "typography-themes/default": "source"
+    },
+    "group": "layout-themes"
+  },
+  {
+    "id": "55969cdbcaa1bfb513b07aa2199d33277b1ac0fd",
+    "name": "default-panelless-mobile",
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {},
+    "selectedTokenSets": {
+      "base-unit": "source",
+      "common": "source",
+      "layout-themes/default-panelless-mobile": "enabled",
+      "typography-themes/default": "source"
+    },
+    "group": "layout-themes"
   }
 ]
