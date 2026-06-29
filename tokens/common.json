@@ -425,53 +425,45 @@
     "animation": {
       "time": {
         "xs": {
-          "value": {
+          "$value": {
             "duration": "100"
           },
-          "$type": "animationTime"
+          "$type": "duration"
         },
         "s": {
-          "value": {
+          "$value": {
             "duration": "200"
           },
-          "$type": "animationTime"
+          "$type": "duration"
         },
         "m": {
-          "value": {
+          "$value": {
             "duration": "400"
           },
-          "$type": "animationTime"
+          "$type": "duration"
         },
         "l": {
-          "value": {
+          "$value": {
             "duration": "600"
           },
-          "$type": "animationTime"
+          "$type": "duration"
         },
         "xl": {
-          "value": {
+          "$value": {
             "duration": "800"
           },
-          "$type": "animationTime"
+          "$type": "duration"
         }
       },
       "ease": {
         "base": {
-          "value": {
+          "$value": {
             "x1": "0.4",
             "y1": "0.24",
             "x2": "0",
             "y2": "1"
           },
-          "$type": "animationEaseBase"
-        },
-        "spring": {
-          "value": {
-            "stiffness": "400",
-            "damping": "30",
-            "mass": "1"
-          },
-          "$type": "animationEaseSpring"
+          "$type": "cubicBezier"
         }
       }
     },
