@@ -1,0 +1,435 @@
+{
+  "$schema": "sxl-studio/config",
+  "$version": "1.0",
+  "settings": {
+    "remBase": 16
+  },
+  "collections": [
+    {
+      "name": "base-unit",
+      "enabled": true,
+      "hiddenFromPublishing": true,
+      "modes": [
+        {
+          "name": "default",
+          "enabled": true,
+          "files": {
+            "base-unit.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "common",
+      "enabled": true,
+      "hiddenFromPublishing": true,
+      "modes": [
+        {
+          "name": "default",
+          "enabled": true,
+          "files": {
+            "common.json": "enabled"
+          }
+        }
+      ],
+      "ref": [
+        {
+          "type": "local",
+          "collection": "base-unit"
+        }
+      ]
+    },
+    {
+      "name": "palette",
+      "enabled": true,
+      "hiddenFromPublishing": true,
+      "modes": [
+        {
+          "name": "default",
+          "enabled": true,
+          "files": {
+            "palette.json": "enabled"
+          }
+        }
+      ],
+      "ref": [
+        {
+          "type": "local",
+          "collection": "common"
+        },
+        {
+          "type": "local",
+          "collection": "base-unit"
+        }
+      ]
+    },
+    {
+      "name": "typography-themes",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "default",
+          "enabled": true,
+          "files": {
+            "typography-themes/default.json": "enabled"
+          }
+        }
+      ],
+      "ref": [
+        {
+          "type": "local",
+          "collection": "common"
+        },
+        {
+          "type": "local",
+          "collection": "base-unit"
+        }
+      ]
+    },
+    {
+      "name": "pdf-layout-themes",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "compact",
+          "enabled": true,
+          "files": {
+            "pdf-layout-themes/compact.json": "enabled"
+          }
+        },
+        {
+          "name": "spacious",
+          "enabled": true,
+          "files": {
+            "pdf-layout-themes/spacious.json": "enabled"
+          }
+        }
+      ],
+      "ref": [
+        {
+          "type": "local",
+          "collection": "common"
+        },
+        {
+          "type": "local",
+          "collection": "base-unit"
+        }
+      ]
+    },
+    {
+      "name": "layout-themes",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "default",
+          "enabled": true,
+          "files": {
+            "layout-themes/default.json": "enabled"
+          }
+        },
+        {
+          "name": "default-panelless",
+          "enabled": true,
+          "files": {
+            "layout-themes/default-panelless.json": "enabled"
+          }
+        },
+        {
+          "name": "default-mobile",
+          "enabled": true,
+          "files": {
+            "layout-themes/default-mobile.json": "enabled"
+          }
+        },
+        {
+          "name": "default-panelless-mobile",
+          "enabled": true,
+          "files": {
+            "layout-themes/default-panelless-mobile.json": "enabled"
+          }
+        }
+      ],
+      "ref": [
+        {
+          "type": "local",
+          "collection": "typography-themes"
+        },
+        {
+          "type": "local",
+          "collection": "common"
+        },
+        {
+          "type": "local",
+          "collection": "base-unit"
+        }
+      ]
+    },
+    {
+      "name": "style-themes",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "default-light",
+          "enabled": true,
+          "files": {
+            "style-themes/default-light.json": "enabled"
+          }
+        },
+        {
+          "name": "default-dark",
+          "enabled": true,
+          "files": {
+            "style-themes/default-dark.json": "enabled"
+          }
+        },
+        {
+          "name": "soft-light",
+          "enabled": true,
+          "files": {
+            "style-themes/soft-light.json": "enabled"
+          }
+        },
+        {
+          "name": "soft-dark",
+          "enabled": true,
+          "files": {
+            "style-themes/soft-dark.json": "enabled"
+          }
+        },
+        {
+          "name": "contrast-light",
+          "enabled": true,
+          "files": {
+            "style-themes/contrast-light.json": "enabled"
+          }
+        },
+        {
+          "name": "contrast-dark",
+          "enabled": true,
+          "files": {
+            "style-themes/contrast-dark.json": "enabled"
+          }
+        },
+        {
+          "name": "monochrome-light",
+          "enabled": true,
+          "files": {
+            "style-themes/monochrome-light.json": "enabled"
+          }
+        },
+        {
+          "name": "monochrome-dark",
+          "enabled": true,
+          "files": {
+            "style-themes/monochrome-dark.json": "enabled"
+          }
+        },
+        {
+          "name": "borderless-light",
+          "enabled": true,
+          "files": {
+            "style-themes/borderless-light.json": "enabled"
+          }
+        },
+        {
+          "name": "borderless-dark",
+          "enabled": true,
+          "files": {
+            "style-themes/borderless-dark.json": "enabled"
+          }
+        },
+        {
+          "name": "flat-light",
+          "enabled": true,
+          "files": {
+            "style-themes/flat-light.json": "enabled"
+          }
+        },
+        {
+          "name": "flat-dark",
+          "enabled": true,
+          "files": {
+            "style-themes/flat-dark.json": "enabled"
+          }
+        },
+        {
+          "name": "plain-light",
+          "enabled": true,
+          "files": {
+            "style-themes/plain-light.json": "enabled"
+          }
+        },
+        {
+          "name": "plain-dark",
+          "enabled": true,
+          "files": {
+            "style-themes/plain-dark.json": "enabled"
+          }
+        },
+        {
+          "name": "threedimensional-light",
+          "enabled": true,
+          "files": {
+            "style-themes/threedimensional-light.json": "enabled"
+          }
+        },
+        {
+          "name": "threedimensional-dark",
+          "enabled": true,
+          "files": {
+            "style-themes/threedimensional-dark.json": "enabled"
+          }
+        },
+        {
+          "name": "default-light-panelless",
+          "enabled": true,
+          "files": {
+            "style-themes/default-light-panelless.json": "enabled"
+          }
+        },
+        {
+          "name": "default-dark-panelless",
+          "enabled": true,
+          "files": {
+            "style-themes/default-dark-panelless.json": "enabled"
+          }
+        },
+        {
+          "name": "soft-light-panelless",
+          "enabled": true,
+          "files": {
+            "style-themes/soft-light-panelless.json": "enabled"
+          }
+        },
+        {
+          "name": "soft-dark-panelless",
+          "enabled": true,
+          "files": {
+            "style-themes/soft-dark-panelless.json": "enabled"
+          }
+        },
+        {
+          "name": "contrast-light-panelless",
+          "enabled": true,
+          "files": {
+            "style-themes/contrast-light-panelless.json": "enabled"
+          }
+        },
+        {
+          "name": "contrast-dark-panelless",
+          "enabled": true,
+          "files": {
+            "style-themes/contrast-dark-panelless.json": "enabled"
+          }
+        },
+        {
+          "name": "monochrome-light-panelless",
+          "enabled": true,
+          "files": {
+            "style-themes/monochrome-light-panelless.json": "enabled"
+          }
+        },
+        {
+          "name": "monochrome-dark-panelless",
+          "enabled": true,
+          "files": {
+            "style-themes/monochrome-dark-panelless.json": "enabled"
+          }
+        },
+        {
+          "name": "borderless-light-panelless",
+          "enabled": true,
+          "files": {
+            "style-themes/borderless-light-panelless.json": "enabled"
+          }
+        },
+        {
+          "name": "borderless-dark-panelless",
+          "enabled": true,
+          "files": {
+            "style-themes/borderless-dark-panelless.json": "enabled"
+          }
+        },
+        {
+          "name": "flat-light-panelless",
+          "enabled": true,
+          "files": {
+            "style-themes/flat-light-panelless.json": "enabled"
+          }
+        },
+        {
+          "name": "flat-dark-panelless",
+          "enabled": true,
+          "files": {
+            "style-themes/flat-dark-panelless.json": "enabled"
+          }
+        },
+        {
+          "name": "plain-light-panelless",
+          "enabled": true,
+          "files": {
+            "style-themes/plain-light-panelless.json": "enabled"
+          }
+        },
+        {
+          "name": "plain-dark-panelless",
+          "enabled": true,
+          "files": {
+            "style-themes/plain-dark-panelless.json": "enabled"
+          }
+        },
+        {
+          "name": "threedimensional-light-panelless",
+          "enabled": true,
+          "files": {
+            "style-themes/threedimensional-light-panelless.json": "enabled"
+          }
+        },
+        {
+          "name": "threedimensional-dark-panelless",
+          "enabled": true,
+          "files": {
+            "style-themes/threedimensional-dark-panelless.json": "enabled"
+          }
+        }
+      ],
+      "ref": [
+        {
+          "type": "local",
+          "collection": "palette"
+        },
+        {
+          "type": "local",
+          "collection": "common"
+        },
+        {
+          "type": "local",
+          "collection": "base-unit"
+        }
+      ]
+    }
+  ],
+  "compositions": {
+    "outputMode": "component-set",
+    "files": {}
+  },
+  "groups": [
+    {
+      "name": "Tokens Studio sources",
+      "collections": [
+        "base-unit",
+        "common",
+        "palette"
+      ]
+    },
+    {
+      "name": "Tokens Studio themes",
+      "collections": [
+        "typography-themes",
+        "pdf-layout-themes",
+        "layout-themes",
+        "style-themes"
+      ]
+    }
+  ]
+}
