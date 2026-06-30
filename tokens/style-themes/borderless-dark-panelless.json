@@ -5,17 +5,13 @@
         "brand": {
           "400": {
             "$value": "{sjs2.color.project.brand.600}",
-            "$type": "color",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "$type": "lighten",
-                  "$value": "0.2",
-                  "$space": "hsl"
-                }
+              "figma.modify": {
+                "type": "lighten",
+                "space": "hsl",
+                "value": 0.2
               }
-            },
-            "$description": "Auto-generated light version of main brand color."
+            }
           },
           "600": {
             "$value": "rgba(114, 187, 255, 1)",
@@ -24,31 +20,23 @@
           },
           "700": {
             "$value": "{sjs2.color.project.brand.600}",
-            "$type": "color",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "$type": "darken",
-                  "$value": "0.15",
-                  "$space": "hsl"
-                }
+              "figma.modify": {
+                "type": "darken",
+                "space": "hsl",
+                "value": 0.15
               }
-            },
-            "$description": "Auto-generated dark version of main brand color."
+            }
           },
           "800": {
             "$value": "{sjs2.color.project.brand.600}",
-            "$type": "color",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "$type": "darken",
-                  "$value": "0.25",
-                  "$space": "hsl"
-                }
+              "figma.modify": {
+                "type": "darken",
+                "space": "hsl",
+                "value": 0.25
               }
-            },
-            "$description": "Auto-generated dark version of main brand color."
+            }
           }
         }
       },
@@ -7280,6 +7268,7 @@
         ],
         "$type": "boxShadow"
       }
-    }
+    },
+    "$type": "color"
   }
 }
