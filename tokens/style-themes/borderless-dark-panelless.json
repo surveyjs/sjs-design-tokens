@@ -5,6 +5,7 @@
         "brand": {
           "400": {
             "$value": "{sjs2.color.project.brand.600}",
+            "$type": "color",
             "$extensions": {
               "figma.modify": {
                 "type": "lighten",
@@ -20,6 +21,7 @@
           },
           "700": {
             "$value": "{sjs2.color.project.brand.600}",
+            "$type": "color",
             "$extensions": {
               "figma.modify": {
                 "type": "darken",
@@ -30,6 +32,7 @@
           },
           "800": {
             "$value": "{sjs2.color.project.brand.600}",
+            "$type": "color",
             "$extensions": {
               "figma.modify": {
                 "type": "darken",
