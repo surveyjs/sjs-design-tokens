@@ -27,11 +27,11 @@
       },
       "opacity": {
         "$value": "1%",
-        "$type": "number"
+        "$type": "opacity"
       },
       "scale": {
         "$value": "1%",
-        "$type": "number"
+        "$type": "dimension"
       }
     }
   }
