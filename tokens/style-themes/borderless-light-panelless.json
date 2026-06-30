@@ -7,12 +7,10 @@
             "$value": "{sjs2.color.project.brand.600}",
             "$type": "color",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "$type": "lighten",
-                  "$value": "0.2",
-                  "$space": "hsl"
-                }
+              "figma.modify": {
+                "type": "lighten",
+                "value": "0.2",
+                "space": "hsl"
               }
             },
             "$description": "Auto-generated light version of main brand color."
@@ -26,12 +24,10 @@
             "$value": "{sjs2.color.project.brand.600}",
             "$type": "color",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "$type": "darken",
-                  "$value": "0.15",
-                  "$space": "hsl"
-                }
+              "figma.modify": {
+                "type": "darken",
+                "value": "0.15",
+                "space": "hsl"
               }
             },
             "$description": "Auto-generated dark version of main brand color."
@@ -40,12 +36,10 @@
             "$value": "{sjs2.color.project.brand.600}",
             "$type": "color",
             "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "$type": "darken",
-                  "$value": "0.25",
-                  "$space": "hsl"
-                }
+              "figma.modify": {
+                "type": "darken",
+                "value": "0.25",
+                "space": "hsl"
               }
             },
             "$description": "Auto-generated dark version of main brand color."
