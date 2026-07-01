@@ -6,8 +6,7 @@
         "$type": "spacing"
       },
       "medium-vertical": {
-        "$value": "{sjs2.spacing.x300}",
-        "$type": "spacing"
+        "$value": "{sjs2.spacing.x200}"
       },
       "large-horizontal": {
         "$value": "{sjs2.spacing.x200}",
@@ -1612,6 +1611,7 @@
         },
         "$type": "composition"
       }
-    }
+    },
+    "$type": "spacing"
   }
 }

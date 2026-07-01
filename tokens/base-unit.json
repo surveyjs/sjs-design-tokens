@@ -3,35 +3,35 @@
     "base-unit": {
       "size": {
         "$value": "8",
-        "$type": "number"
+        "$type": "baseUnit"
       },
       "spacing": {
         "$value": "8",
-        "$type": "number"
+        "$type": "baseUnit"
       },
       "radius": {
         "$value": "8",
-        "$type": "number"
+        "$type": "baseUnit"
       },
       "border-width": {
         "$value": "1",
-        "$type": "number"
+        "$type": "baseUnit"
       },
       "font-size": {
         "$value": "8",
-        "$type": "number"
+        "$type": "baseUnit"
       },
       "line-height": {
         "$value": "8",
-        "$type": "number"
+        "$type": "baseUnit"
       },
       "opacity": {
         "$value": "1%",
-        "$type": "opacity"
+        "$type": "baseUnit"
       },
       "scale": {
         "$value": "1%",
-        "$type": "dimension"
+        "$type": "baseUnit"
       }
     }
   }

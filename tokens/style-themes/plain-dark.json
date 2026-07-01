@@ -212,8 +212,7 @@
             "$type": "color"
           },
           "tertiary": {
-            "$value": "rgba(36, 36, 36, 1)",
-            "$type": "color"
+            "$value": "#2f2f2f"
           },
           "primary-dim": {
             "$value": "rgba(47, 47, 47, 1)",
@@ -224,8 +223,7 @@
             "$type": "color"
           },
           "tertiary-dim": {
-            "$value": "rgba(47, 47, 47, 1)",
-            "$type": "color"
+            "$value": "#333333"
           },
           "primary-disabled": {
             "$value": "{sjs2.palette.gray.750}",
@@ -7282,6 +7280,7 @@
         ],
         "$type": "boxShadow"
       }
-    }
+    },
+    "$type": "color"
   }
 }
