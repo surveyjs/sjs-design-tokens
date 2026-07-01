@@ -212,8 +212,7 @@
             "$type": "color"
           },
           "tertiary": {
-            "$value": "rgba(36, 36, 36, 1)",
-            "$type": "color"
+            "$value": "#3b3b3b"
           },
           "primary-dim": {
             "$value": "rgba(47, 47, 47, 1)",
@@ -224,8 +223,7 @@
             "$type": "color"
           },
           "tertiary-dim": {
-            "$value": "rgba(47, 47, 47, 1)",
-            "$type": "color"
+            "$value": "#454545"
           },
           "primary-disabled": {
             "$value": "{sjs2.palette.gray.750}",
@@ -872,8 +870,7 @@
           },
           "track": {
             "color-0": {
-              "$value": "{sjs2.palette.gray.900}",
-              "$type": "color"
+              "$value": "{sjs2.color.bg.basic.tertiary}"
             }
           }
         },
@@ -7282,6 +7279,7 @@
         ],
         "$type": "boxShadow"
       }
-    }
+    },
+    "$type": "color"
   }
 }

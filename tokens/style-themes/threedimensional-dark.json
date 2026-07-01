@@ -872,8 +872,7 @@
           },
           "track": {
             "color-0": {
-              "$value": "{sjs2.color.bg.basic.secondary}",
-              "$type": "color"
+              "$value": "{sjs2.color.bg.basic.tertiary}"
             }
           }
         },
@@ -7298,6 +7297,7 @@
         ],
         "$type": "boxShadow"
       }
-    }
+    },
+    "$type": "color"
   }
 }
