@@ -870,7 +870,8 @@
           },
           "track": {
             "color-0": {
-              "$value": "{sjs2.color.bg.basic.tertiary}"
+              "$value": "{sjs2.color.bg.basic.tertiary}",
+              "$type": "color"
             }
           }
         },
