@@ -415,7 +415,7 @@
   },
   "groups": [
     {
-      "name": "Tokens Studio sources",
+      "name": "sources",
       "collections": [
         "base-unit",
         "common",
@@ -423,7 +423,7 @@
       ]
     },
     {
-      "name": "Tokens Studio themes",
+      "name": "themes",
       "collections": [
         "typography-themes",
         "pdf-layout-themes",
