@@ -2,7 +2,7 @@
   "$schema": "sxl-studio/config",
   "$version": "1.0",
   "settings": {
-    "remBase": 16
+    "remBase": 1
   },
   "collections": [
     {
