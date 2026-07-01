@@ -286,115 +286,115 @@
       "font-family": {
         "text": {
           "$value": "Open Sans",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         },
         "code": {
           "$value": "DM Mono",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         },
         "component": {
           "input": {
             "content": {
               "$value": "{sjs2.typography.font-family.text}",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             }
           },
           "question": {
             "title": {
               "$value": "{sjs2.typography.font-family.text}",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "description": {
               "$value": "{sjs2.typography.font-family.text}",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             }
           },
           "page": {
             "title": {
               "$value": "{sjs2.typography.font-family.text}",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "description": {
               "$value": "{sjs2.typography.font-family.text}",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             }
           },
           "header": {
             "title": {
               "$value": "{sjs2.typography.font-family.text}",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "description": {
               "$value": "{sjs2.typography.font-family.text}",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             }
           },
           "panel": {
             "title": {
               "$value": "{sjs2.typography.font-family.text}",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "description": {
               "$value": "{sjs2.typography.font-family.text}",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             }
           },
           "label": {
             "content": {
               "$value": "{sjs2.typography.font-family.text}",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "hint": {
               "$value": "{sjs2.typography.font-family.text}",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             }
           },
           "action": {
             "large": {
               "content": {
                 "$value": "{sjs2.typography.font-family.text}",
-                "$type": "fontFamilies"
+                "$type": "fontFamily"
               }
             },
             "medium": {
               "content": {
                 "$value": "{sjs2.typography.font-family.text}",
-                "$type": "fontFamilies"
+                "$type": "fontFamily"
               }
             },
             "small": {
               "content": {
                 "$value": "{sjs2.typography.font-family.text}",
-                "$type": "fontFamilies"
+                "$type": "fontFamily"
               }
             },
             "x-small": {
               "content": {
                 "$value": "{sjs2.typography.font-family.text}",
-                "$type": "fontFamilies"
+                "$type": "fontFamily"
               }
             },
             "xx-small": {
               "content": {
                 "$value": "{sjs2.typography.font-family.text}",
-                "$type": "fontFamilies"
+                "$type": "fontFamily"
               }
             }
           },
           "caption": {
             "content": {
               "$value": "{sjs2.typography.font-family.text}",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             },
             "hint": {
               "$value": "{sjs2.typography.font-family.text}",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             }
           },
           "message": {
             "content": {
               "$value": "{sjs2.typography.font-family.text}",
-              "$type": "fontFamilies"
+              "$type": "fontFamily"
             }
           }
         }
@@ -402,123 +402,123 @@
       "font-size": {
         "small": {
           "$value": "{sjs2.font-size.x150}",
-          "$type": "fontSizes"
+          "$type": "fontSize"
         },
         "default": {
           "$value": "{sjs2.font-size.x200}",
-          "$type": "fontSizes"
+          "$type": "fontSize"
         },
         "medium": {
           "$value": "{sjs2.font-size.x275}",
-          "$type": "fontSizes"
+          "$type": "fontSize"
         },
         "large": {
           "$value": "{sjs2.font-size.x350}",
-          "$type": "fontSizes"
+          "$type": "fontSize"
         },
         "component": {
           "input": {
             "content": {
               "$value": "{sjs2.typography.font-size.default}",
-              "$type": "fontSizes"
+              "$type": "fontSize"
             }
           },
           "message": {
             "content": {
               "$value": "{sjs2.typography.font-size.default}",
-              "$type": "fontSizes"
+              "$type": "fontSize"
             }
           },
           "question": {
             "title": {
               "$value": "{sjs2.typography.font-size.default}",
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "description": {
               "$value": "{sjs2.typography.font-size.default}",
-              "$type": "fontSizes"
+              "$type": "fontSize"
             }
           },
           "page": {
             "title": {
               "$value": "{sjs2.typography.font-size.medium}",
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "description": {
               "$value": "{sjs2.typography.font-size.default}",
-              "$type": "fontSizes"
+              "$type": "fontSize"
             }
           },
           "header": {
             "title": {
               "$value": "{sjs2.typography.font-size.large}",
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "description": {
               "$value": "{sjs2.typography.font-size.default}",
-              "$type": "fontSizes"
+              "$type": "fontSize"
             }
           },
           "panel": {
             "title": {
               "$value": "{sjs2.typography.font-size.default}",
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "description": {
               "$value": "{sjs2.typography.font-size.default}",
-              "$type": "fontSizes"
+              "$type": "fontSize"
             }
           },
           "label": {
             "content": {
               "$value": "{sjs2.typography.font-size.default}",
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "hint": {
               "$value": "{sjs2.typography.font-size.small}",
-              "$type": "fontSizes"
+              "$type": "fontSize"
             }
           },
           "action": {
             "large": {
               "content": {
                 "$value": "{sjs2.typography.font-size.default}",
-                "$type": "fontSizes"
+                "$type": "fontSize"
               }
             },
             "medium": {
               "content": {
                 "$value": "{sjs2.typography.font-size.default}",
-                "$type": "fontSizes"
+                "$type": "fontSize"
               }
             },
             "small": {
               "content": {
                 "$value": "{sjs2.typography.font-size.default}",
-                "$type": "fontSizes"
+                "$type": "fontSize"
               }
             },
             "x-small": {
               "content": {
                 "$value": "{sjs2.typography.font-size.small}",
-                "$type": "fontSizes"
+                "$type": "fontSize"
               }
             },
             "xx-small": {
               "content": {
                 "$value": "{sjs2.typography.font-size.small}",
-                "$type": "fontSizes"
+                "$type": "fontSize"
               }
             }
           },
           "caption": {
             "content": {
               "$value": "{sjs2.typography.font-size.default}",
-              "$type": "fontSizes"
+              "$type": "fontSize"
             },
             "hint": {
               "$value": "{sjs2.typography.font-size.small}",
-              "$type": "fontSizes"
+              "$type": "fontSize"
             }
           }
         }
@@ -526,123 +526,123 @@
       "line-height": {
         "small": {
           "$value": "{sjs2.line-height.x200}",
-          "$type": "lineHeights"
+          "$type": "lineHeight"
         },
         "default": {
           "$value": "{sjs2.line-height.x300}",
-          "$type": "lineHeights"
+          "$type": "lineHeight"
         },
         "medium": {
           "$value": "{sjs2.line-height.x400}",
-          "$type": "lineHeights"
+          "$type": "lineHeight"
         },
         "large": {
           "$value": "{sjs2.line-height.x500}",
-          "$type": "lineHeights"
+          "$type": "lineHeight"
         },
         "component": {
           "input": {
             "content": {
               "$value": "{sjs2.typography.line-height.default}",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             }
           },
           "question": {
             "title": {
               "$value": "{sjs2.typography.line-height.default}",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "description": {
               "$value": "{sjs2.typography.line-height.default}",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             }
           },
           "page": {
             "title": {
               "$value": "{sjs2.typography.line-height.medium}",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "description": {
               "$value": "{sjs2.typography.line-height.default}",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             }
           },
           "header": {
             "title": {
               "$value": "{sjs2.typography.line-height.large}",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "description": {
               "$value": "{sjs2.typography.line-height.default}",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             }
           },
           "panel": {
             "title": {
               "$value": "{sjs2.typography.line-height.default}",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "description": {
               "$value": "{sjs2.typography.line-height.default}",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             }
           },
           "label": {
             "content": {
               "$value": "{sjs2.typography.line-height.default}",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "hint": {
               "$value": "{sjs2.typography.line-height.small}",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             }
           },
           "action": {
             "large": {
               "content": {
                 "$value": "{sjs2.typography.line-height.default}",
-                "$type": "lineHeights"
+                "$type": "lineHeight"
               }
             },
             "medium": {
               "content": {
                 "$value": "{sjs2.typography.line-height.default}",
-                "$type": "lineHeights"
+                "$type": "lineHeight"
               }
             },
             "small": {
               "content": {
                 "$value": "{sjs2.typography.line-height.default}",
-                "$type": "lineHeights"
+                "$type": "lineHeight"
               }
             },
             "x-small": {
               "content": {
                 "$value": "{sjs2.typography.line-height.small}",
-                "$type": "lineHeights"
+                "$type": "lineHeight"
               }
             },
             "xx-small": {
               "content": {
                 "$value": "{sjs2.typography.line-height.small}",
-                "$type": "lineHeights"
+                "$type": "lineHeight"
               }
             }
           },
           "caption": {
             "content": {
               "$value": "{sjs2.typography.line-height.default}",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             },
             "hint": {
               "$value": "{sjs2.typography.line-height.small}",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             }
           },
           "message": {
             "content": {
               "$value": "{sjs2.typography.line-height.default}",
-              "$type": "lineHeights"
+              "$type": "lineHeight"
             }
           }
         }
@@ -650,115 +650,115 @@
       "font-weight": {
         "basic": {
           "$value": "{sjs2.font-weight.regular}",
-          "$type": "fontWeights"
+          "$type": "fontWeight"
         },
         "strong": {
           "$value": "{sjs2.font-weight.semibold}",
-          "$type": "fontWeights"
+          "$type": "fontWeight"
         },
         "component": {
           "input": {
             "content": {
               "$value": "{sjs2.typography.font-weight.basic}",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             }
           },
           "question": {
             "title": {
               "$value": "{sjs2.typography.font-weight.strong}",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "description": {
               "$value": "{sjs2.typography.font-weight.basic}",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             }
           },
           "page": {
             "title": {
               "$value": "{sjs2.typography.font-weight.strong}",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "description": {
               "$value": "{sjs2.typography.font-weight.basic}",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             }
           },
           "header": {
             "title": {
               "$value": "{sjs2.typography.font-weight.strong}",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "description": {
               "$value": "{sjs2.typography.font-weight.basic}",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             }
           },
           "panel": {
             "title": {
               "$value": "{sjs2.typography.font-weight.strong}",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "description": {
               "$value": "{sjs2.typography.font-weight.basic}",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             }
           },
           "label": {
             "content": {
               "$value": "{sjs2.typography.font-weight.basic}",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "hint": {
               "$value": "{sjs2.typography.font-weight.basic}",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             }
           },
           "action": {
             "large": {
               "content": {
                 "$value": "{sjs2.typography.font-weight.strong}",
-                "$type": "fontWeights"
+                "$type": "fontWeight"
               }
             },
             "medium": {
               "content": {
                 "$value": "{sjs2.typography.font-weight.strong}",
-                "$type": "fontWeights"
+                "$type": "fontWeight"
               }
             },
             "small": {
               "content": {
                 "$value": "{sjs2.typography.font-weight.strong}",
-                "$type": "fontWeights"
+                "$type": "fontWeight"
               }
             },
             "x-small": {
               "content": {
                 "$value": "{sjs2.typography.font-weight.strong}",
-                "$type": "fontWeights"
+                "$type": "fontWeight"
               }
             },
             "xx-small": {
               "content": {
                 "$value": "{sjs2.typography.font-weight.strong}",
-                "$type": "fontWeights"
+                "$type": "fontWeight"
               }
             }
           },
           "caption": {
             "content": {
               "$value": "{sjs2.typography.font-weight.basic}",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             },
             "hint": {
               "$value": "{sjs2.typography.font-weight.basic}",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             }
           },
           "message": {
             "content": {
               "$value": "{sjs2.typography.font-weight.basic}",
-              "$type": "fontWeights"
+              "$type": "fontWeight"
             }
           }
         }

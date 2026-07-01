@@ -470,107 +470,107 @@
     "font-weight": {
       "regular": {
         "$value": "400",
-        "$type": "fontWeights"
+        "$type": "fontWeight"
       },
       "medium": {
         "$value": "500",
-        "$type": "fontWeights"
+        "$type": "fontWeight"
       },
       "semibold": {
         "$value": "600",
-        "$type": "fontWeights"
+        "$type": "fontWeight"
       },
       "bold": {
         "$value": "700",
-        "$type": "fontWeights"
+        "$type": "fontWeight"
       }
     },
     "font-size": {
       "x000": {
         "$value": "{sjs2.base-unit.font-size} * 0",
-        "$type": "fontSizes"
+        "$type": "fontSize"
       },
       "x100": {
         "$value": "{sjs2.base-unit.font-size} * 1",
-        "$type": "fontSizes"
+        "$type": "fontSize"
       },
       "x150": {
         "$value": "{sjs2.base-unit.font-size} * 1.5",
-        "$type": "fontSizes"
+        "$type": "fontSize"
       },
       "x200": {
         "$value": "{sjs2.base-unit.font-size} * 2",
-        "$type": "fontSizes"
+        "$type": "fontSize"
       },
       "x250": {
         "$value": "{sjs2.base-unit.font-size} * 2.5",
-        "$type": "fontSizes"
+        "$type": "fontSize"
       },
       "x275": {
         "$value": "{sjs2.base-unit.font-size} * 2.75",
-        "$type": "fontSizes"
+        "$type": "fontSize"
       },
       "x300": {
         "$value": "{sjs2.base-unit.font-size} * 3",
-        "$type": "fontSizes"
+        "$type": "fontSize"
       },
       "x350": {
         "$value": "{sjs2.base-unit.font-size} * 3.5",
-        "$type": "fontSizes"
+        "$type": "fontSize"
       },
       "x400": {
         "$value": "{sjs2.base-unit.font-size} * 4",
-        "$type": "fontSizes"
+        "$type": "fontSize"
       },
       "x500": {
         "$value": "{sjs2.base-unit.font-size} * 5",
-        "$type": "fontSizes"
+        "$type": "fontSize"
       },
       "x600": {
         "$value": "{sjs2.base-unit.font-size} * 6",
-        "$type": "fontSizes"
+        "$type": "fontSize"
       }
     },
     "line-height": {
       "x000": {
         "$value": "{sjs2.base-unit.line-height} * 0",
-        "$type": "lineHeights"
+        "$type": "lineHeight"
       },
       "x100": {
         "$value": "{sjs2.base-unit.line-height} * 1",
-        "$type": "lineHeights"
+        "$type": "lineHeight"
       },
       "x200": {
         "$value": "{sjs2.base-unit.line-height} * 2",
-        "$type": "lineHeights"
+        "$type": "lineHeight"
       },
       "x250": {
         "$value": "{sjs2.base-unit.line-height} * 2.5",
-        "$type": "lineHeights"
+        "$type": "lineHeight"
       },
       "x275": {
         "$value": "{sjs2.base-unit.line-height} * 2.75",
-        "$type": "lineHeights"
+        "$type": "lineHeight"
       },
       "x300": {
         "$value": "{sjs2.base-unit.line-height} * 3",
-        "$type": "lineHeights"
+        "$type": "lineHeight"
       },
       "x350": {
         "$value": "{sjs2.base-unit.line-height} * 3.5",
-        "$type": "lineHeights"
+        "$type": "lineHeight"
       },
       "x400": {
         "$value": "{sjs2.base-unit.line-height} * 4",
-        "$type": "lineHeights"
+        "$type": "lineHeight"
       },
       "x500": {
         "$value": "{sjs2.base-unit.line-height} * 5",
-        "$type": "lineHeights"
+        "$type": "lineHeight"
       },
       "x600": {
         "$value": "{sjs2.base-unit.line-height} * 6",
-        "$type": "lineHeights"
+        "$type": "lineHeight"
       }
     },
     "text-case": {
