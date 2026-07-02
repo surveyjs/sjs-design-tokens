@@ -215,15 +215,13 @@
           "$value": "#F85F4F"
         },
         "600": {
-          "$value": "#AF496B",
-          "$type": "color"
+          "$value": "#D22D34"
         },
         "700": {
-          "$value": "#973F5C",
-          "$type": "color"
+          "$value": "#9D2228"
         },
         "800": {
-          "$value": "#6C2D42"
+          "$value": "#74191E"
         }
       }
     },
