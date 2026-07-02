@@ -2800,10 +2800,10 @@
           },
           "500": {
             "figmaId": "VariableID:2031:647",
-            "hash": "5847f9ee",
+            "hash": "a1c6ffe7",
             "collectionPath": "palette",
             "modeHashes": {
-              "palette::default": "5847f9ee"
+              "palette::default": "a1c6ffe7"
             },
             "figmaKey": "3d1479b6a0b4a27fe32696bd35204e90fc63c218",
             "tokenType": "color",
@@ -2836,10 +2836,10 @@
           },
           "800": {
             "figmaId": "VariableID:2031:648",
-            "hash": "e9a6a668",
+            "hash": "63d83256",
             "collectionPath": "palette",
             "modeHashes": {
-              "palette::default": "e9a6a668"
+              "palette::default": "63d83256"
             },
             "figmaKey": "f339d4efc55519c38130c70ad23a4bf24244f0df",
             "tokenType": "color",
@@ -2850,10 +2850,10 @@
         "green": {
           "400": {
             "figmaId": "VariableID:173:3430",
-            "hash": "7df9fb63",
+            "hash": "c6bded6c",
             "collectionPath": "palette",
             "modeHashes": {
-              "palette::default": "7df9fb63"
+              "palette::default": "c6bded6c"
             },
             "figmaKey": "4de08fc32b930ca6b6eb6f8c1e8b6ba6ef068a0a",
             "tokenType": "color",
@@ -2862,10 +2862,10 @@
           },
           "500": {
             "figmaId": "VariableID:2031:649",
-            "hash": "7df9fb63",
+            "hash": "63851cab",
             "collectionPath": "palette",
             "modeHashes": {
-              "palette::default": "7df9fb63"
+              "palette::default": "63851cab"
             },
             "figmaKey": "c5a88420b5a1dc47a94f3fedd10ee97c3b4977f5",
             "tokenType": "color",
@@ -2898,10 +2898,10 @@
           },
           "800": {
             "figmaId": "VariableID:2031:650",
-            "hash": "096ed21a",
+            "hash": "46172dd1",
             "collectionPath": "palette",
             "modeHashes": {
-              "palette::default": "096ed21a"
+              "palette::default": "46172dd1"
             },
             "figmaKey": "331c5cd15cc7218ab0c84143d1e2fec2d7923ee9",
             "tokenType": "color",
@@ -2912,10 +2912,10 @@
         "blue": {
           "400": {
             "figmaId": "VariableID:173:3433",
-            "hash": "181f1c97",
+            "hash": "c450d3fe",
             "collectionPath": "palette",
             "modeHashes": {
-              "palette::default": "181f1c97"
+              "palette::default": "c450d3fe"
             },
             "figmaKey": "6a06980cc0f0ce0c7e124e2c74c5db8f0d197c13",
             "tokenType": "color",
@@ -2924,10 +2924,10 @@
           },
           "500": {
             "figmaId": "VariableID:2031:651",
-            "hash": "181f1c97",
+            "hash": "c7205483",
             "collectionPath": "palette",
             "modeHashes": {
-              "palette::default": "181f1c97"
+              "palette::default": "c7205483"
             },
             "figmaKey": "27e0470fcb5fff378d664ba940c301faf079bdd6",
             "tokenType": "color",
@@ -2960,10 +2960,10 @@
           },
           "800": {
             "figmaId": "VariableID:2031:652",
-            "hash": "84b11762",
+            "hash": "55c5818a",
             "collectionPath": "palette",
             "modeHashes": {
-              "palette::default": "84b11762"
+              "palette::default": "55c5818a"
             },
             "figmaKey": "e49bc21dcece4bb9848aaee1d7baaf7fe6002221",
             "tokenType": "color",
@@ -2974,10 +2974,10 @@
         "yellow": {
           "400": {
             "figmaId": "VariableID:173:3436",
-            "hash": "a9b94d4f",
+            "hash": "8af5219b",
             "collectionPath": "palette",
             "modeHashes": {
-              "palette::default": "a9b94d4f"
+              "palette::default": "8af5219b"
             },
             "figmaKey": "a329f3d8fe916a8b4ef874c81944b1f3ce9e31d8",
             "tokenType": "color",
@@ -2986,10 +2986,10 @@
           },
           "500": {
             "figmaId": "VariableID:2031:653",
-            "hash": "a9b94d4f",
+            "hash": "bc6cc4af",
             "collectionPath": "palette",
             "modeHashes": {
-              "palette::default": "a9b94d4f"
+              "palette::default": "bc6cc4af"
             },
             "figmaKey": "5c00dc92d3c9db1489a340f135e9920451e7f029",
             "tokenType": "color",
@@ -3022,10 +3022,10 @@
           },
           "800": {
             "figmaId": "VariableID:2031:654",
-            "hash": "cebf2281",
+            "hash": "431250a4",
             "collectionPath": "palette",
             "modeHashes": {
-              "palette::default": "cebf2281"
+              "palette::default": "431250a4"
             },
             "figmaKey": "43edf57b24bbfe7ce335df27be5c528a209c6882",
             "tokenType": "color",
@@ -3036,10 +3036,10 @@
         "violet": {
           "400": {
             "figmaId": "VariableID:173:3439",
-            "hash": "fce032a9",
+            "hash": "0af3c272",
             "collectionPath": "palette",
             "modeHashes": {
-              "palette::default": "fce032a9"
+              "palette::default": "0af3c272"
             },
             "figmaKey": "2a06f63ae0ff05a6431caa40ed77822801aa6126",
             "tokenType": "color",
@@ -3048,10 +3048,10 @@
           },
           "500": {
             "figmaId": "VariableID:2031:655",
-            "hash": "fce032a9",
+            "hash": "140de0eb",
             "collectionPath": "palette",
             "modeHashes": {
-              "palette::default": "fce032a9"
+              "palette::default": "140de0eb"
             },
             "figmaKey": "29b028f9401c2e9a07b239302979f0a3e3396efc",
             "tokenType": "color",
@@ -3084,10 +3084,10 @@
           },
           "800": {
             "figmaId": "VariableID:2031:656",
-            "hash": "fee091f3",
+            "hash": "78685500",
             "collectionPath": "palette",
             "modeHashes": {
-              "palette::default": "fee091f3"
+              "palette::default": "78685500"
             },
             "figmaKey": "b34100406cd87483409d780f7ec3fda7d9002fde",
             "tokenType": "color",
@@ -3098,10 +3098,10 @@
         "olive": {
           "400": {
             "figmaId": "VariableID:173:3442",
-            "hash": "3c837e47",
+            "hash": "9813983f",
             "collectionPath": "palette",
             "modeHashes": {
-              "palette::default": "3c837e47"
+              "palette::default": "9813983f"
             },
             "figmaKey": "b316df1d63eef51d5bc86aa09694857021e4da91",
             "tokenType": "color",
@@ -3110,10 +3110,10 @@
           },
           "500": {
             "figmaId": "VariableID:2031:657",
-            "hash": "3c837e47",
+            "hash": "165ad761",
             "collectionPath": "palette",
             "modeHashes": {
-              "palette::default": "3c837e47"
+              "palette::default": "165ad761"
             },
             "figmaKey": "37dd6a5b6ad531e28b006a9620e994db2b1861f5",
             "tokenType": "color",
@@ -3146,10 +3146,10 @@
           },
           "800": {
             "figmaId": "VariableID:2031:658",
-            "hash": "c402b7c9",
+            "hash": "c6aa6b64",
             "collectionPath": "palette",
             "modeHashes": {
-              "palette::default": "c402b7c9"
+              "palette::default": "c6aa6b64"
             },
             "figmaKey": "10d3d50be7512ad7095cb5656b830079223dfc8f",
             "tokenType": "color",
@@ -3172,10 +3172,10 @@
           },
           "500": {
             "figmaId": "VariableID:2031:659",
-            "hash": "3fe302af",
+            "hash": "2ffd8295",
             "collectionPath": "palette",
             "modeHashes": {
-              "palette::default": "3fe302af"
+              "palette::default": "2ffd8295"
             },
             "figmaKey": "e6c71b9ee5218e580924145af57d2fc08bf15ea5",
             "tokenType": "color",
@@ -3208,10 +3208,10 @@
           },
           "800": {
             "figmaId": "VariableID:2031:660",
-            "hash": "318c0a15",
+            "hash": "f4033e36",
             "collectionPath": "palette",
             "modeHashes": {
-              "palette::default": "318c0a15"
+              "palette::default": "f4033e36"
             },
             "figmaKey": "8ab0824320a5209c433351597f2dc8e577b5ccd3",
             "tokenType": "color",
@@ -3234,10 +3234,10 @@
           },
           "500": {
             "figmaId": "VariableID:2031:661",
-            "hash": "a6f9f733",
+            "hash": "3a18a249",
             "collectionPath": "palette",
             "modeHashes": {
-              "palette::default": "a6f9f733"
+              "palette::default": "3a18a249"
             },
             "figmaKey": "c7002b4b3d98737d080ce5088e4ea25ef5960c77",
             "tokenType": "color",
@@ -3270,10 +3270,10 @@
           },
           "800": {
             "figmaId": "VariableID:2031:662",
-            "hash": "de6e09da",
+            "hash": "2553e182",
             "collectionPath": "palette",
             "modeHashes": {
-              "palette::default": "de6e09da"
+              "palette::default": "2553e182"
             },
             "figmaKey": "1490947add97553cad0aad076d609e6ce527abc2",
             "tokenType": "color",
