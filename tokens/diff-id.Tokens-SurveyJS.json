@@ -2798,6 +2798,18 @@
             "sourceFile": "palette.json",
             "sourceKind": "file"
           },
+          "500": {
+            "figmaId": "VariableID:2031:647",
+            "hash": "5847f9ee",
+            "collectionPath": "palette",
+            "modeHashes": {
+              "palette::default": "5847f9ee"
+            },
+            "figmaKey": "3d1479b6a0b4a27fe32696bd35204e90fc63c218",
+            "tokenType": "color",
+            "sourceFile": "palette.json",
+            "sourceKind": "file"
+          },
           "600": {
             "figmaId": "VariableID:173:3428",
             "hash": "78b18bee",
@@ -2821,6 +2833,18 @@
             "tokenType": "color",
             "sourceFile": "palette.json",
             "sourceKind": "file"
+          },
+          "800": {
+            "figmaId": "VariableID:2031:648",
+            "hash": "e9a6a668",
+            "collectionPath": "palette",
+            "modeHashes": {
+              "palette::default": "e9a6a668"
+            },
+            "figmaKey": "f339d4efc55519c38130c70ad23a4bf24244f0df",
+            "tokenType": "color",
+            "sourceFile": "palette.json",
+            "sourceKind": "file"
           }
         },
         "green": {
@@ -2832,6 +2856,18 @@
               "palette::default": "7df9fb63"
             },
             "figmaKey": "4de08fc32b930ca6b6eb6f8c1e8b6ba6ef068a0a",
+            "tokenType": "color",
+            "sourceFile": "palette.json",
+            "sourceKind": "file"
+          },
+          "500": {
+            "figmaId": "VariableID:2031:649",
+            "hash": "7df9fb63",
+            "collectionPath": "palette",
+            "modeHashes": {
+              "palette::default": "7df9fb63"
+            },
+            "figmaKey": "c5a88420b5a1dc47a94f3fedd10ee97c3b4977f5",
             "tokenType": "color",
             "sourceFile": "palette.json",
             "sourceKind": "file"
@@ -2859,6 +2895,18 @@
             "tokenType": "color",
             "sourceFile": "palette.json",
             "sourceKind": "file"
+          },
+          "800": {
+            "figmaId": "VariableID:2031:650",
+            "hash": "096ed21a",
+            "collectionPath": "palette",
+            "modeHashes": {
+              "palette::default": "096ed21a"
+            },
+            "figmaKey": "331c5cd15cc7218ab0c84143d1e2fec2d7923ee9",
+            "tokenType": "color",
+            "sourceFile": "palette.json",
+            "sourceKind": "file"
           }
         },
         "blue": {
@@ -2870,6 +2918,18 @@
               "palette::default": "181f1c97"
             },
             "figmaKey": "6a06980cc0f0ce0c7e124e2c74c5db8f0d197c13",
+            "tokenType": "color",
+            "sourceFile": "palette.json",
+            "sourceKind": "file"
+          },
+          "500": {
+            "figmaId": "VariableID:2031:651",
+            "hash": "181f1c97",
+            "collectionPath": "palette",
+            "modeHashes": {
+              "palette::default": "181f1c97"
+            },
+            "figmaKey": "27e0470fcb5fff378d664ba940c301faf079bdd6",
             "tokenType": "color",
             "sourceFile": "palette.json",
             "sourceKind": "file"
@@ -2897,6 +2957,18 @@
             "tokenType": "color",
             "sourceFile": "palette.json",
             "sourceKind": "file"
+          },
+          "800": {
+            "figmaId": "VariableID:2031:652",
+            "hash": "84b11762",
+            "collectionPath": "palette",
+            "modeHashes": {
+              "palette::default": "84b11762"
+            },
+            "figmaKey": "e49bc21dcece4bb9848aaee1d7baaf7fe6002221",
+            "tokenType": "color",
+            "sourceFile": "palette.json",
+            "sourceKind": "file"
           }
         },
         "yellow": {
@@ -2908,6 +2980,18 @@
               "palette::default": "a9b94d4f"
             },
             "figmaKey": "a329f3d8fe916a8b4ef874c81944b1f3ce9e31d8",
+            "tokenType": "color",
+            "sourceFile": "palette.json",
+            "sourceKind": "file"
+          },
+          "500": {
+            "figmaId": "VariableID:2031:653",
+            "hash": "a9b94d4f",
+            "collectionPath": "palette",
+            "modeHashes": {
+              "palette::default": "a9b94d4f"
+            },
+            "figmaKey": "5c00dc92d3c9db1489a340f135e9920451e7f029",
             "tokenType": "color",
             "sourceFile": "palette.json",
             "sourceKind": "file"
@@ -2935,6 +3019,18 @@
             "tokenType": "color",
             "sourceFile": "palette.json",
             "sourceKind": "file"
+          },
+          "800": {
+            "figmaId": "VariableID:2031:654",
+            "hash": "cebf2281",
+            "collectionPath": "palette",
+            "modeHashes": {
+              "palette::default": "cebf2281"
+            },
+            "figmaKey": "43edf57b24bbfe7ce335df27be5c528a209c6882",
+            "tokenType": "color",
+            "sourceFile": "palette.json",
+            "sourceKind": "file"
           }
         },
         "violet": {
@@ -2946,6 +3042,18 @@
               "palette::default": "fce032a9"
             },
             "figmaKey": "2a06f63ae0ff05a6431caa40ed77822801aa6126",
+            "tokenType": "color",
+            "sourceFile": "palette.json",
+            "sourceKind": "file"
+          },
+          "500": {
+            "figmaId": "VariableID:2031:655",
+            "hash": "fce032a9",
+            "collectionPath": "palette",
+            "modeHashes": {
+              "palette::default": "fce032a9"
+            },
+            "figmaKey": "29b028f9401c2e9a07b239302979f0a3e3396efc",
             "tokenType": "color",
             "sourceFile": "palette.json",
             "sourceKind": "file"
@@ -2973,6 +3081,18 @@
             "tokenType": "color",
             "sourceFile": "palette.json",
             "sourceKind": "file"
+          },
+          "800": {
+            "figmaId": "VariableID:2031:656",
+            "hash": "fee091f3",
+            "collectionPath": "palette",
+            "modeHashes": {
+              "palette::default": "fee091f3"
+            },
+            "figmaKey": "b34100406cd87483409d780f7ec3fda7d9002fde",
+            "tokenType": "color",
+            "sourceFile": "palette.json",
+            "sourceKind": "file"
           }
         },
         "olive": {
@@ -2984,6 +3104,18 @@
               "palette::default": "3c837e47"
             },
             "figmaKey": "b316df1d63eef51d5bc86aa09694857021e4da91",
+            "tokenType": "color",
+            "sourceFile": "palette.json",
+            "sourceKind": "file"
+          },
+          "500": {
+            "figmaId": "VariableID:2031:657",
+            "hash": "3c837e47",
+            "collectionPath": "palette",
+            "modeHashes": {
+              "palette::default": "3c837e47"
+            },
+            "figmaKey": "37dd6a5b6ad531e28b006a9620e994db2b1861f5",
             "tokenType": "color",
             "sourceFile": "palette.json",
             "sourceKind": "file"
@@ -3011,6 +3143,18 @@
             "tokenType": "color",
             "sourceFile": "palette.json",
             "sourceKind": "file"
+          },
+          "800": {
+            "figmaId": "VariableID:2031:658",
+            "hash": "c402b7c9",
+            "collectionPath": "palette",
+            "modeHashes": {
+              "palette::default": "c402b7c9"
+            },
+            "figmaKey": "10d3d50be7512ad7095cb5656b830079223dfc8f",
+            "tokenType": "color",
+            "sourceFile": "palette.json",
+            "sourceKind": "file"
           }
         },
         "purple": {
@@ -3022,6 +3166,18 @@
               "palette::default": "3fe302af"
             },
             "figmaKey": "135c9cff41b25151902d910f49279ccd8705f38c",
+            "tokenType": "color",
+            "sourceFile": "palette.json",
+            "sourceKind": "file"
+          },
+          "500": {
+            "figmaId": "VariableID:2031:659",
+            "hash": "3fe302af",
+            "collectionPath": "palette",
+            "modeHashes": {
+              "palette::default": "3fe302af"
+            },
+            "figmaKey": "e6c71b9ee5218e580924145af57d2fc08bf15ea5",
             "tokenType": "color",
             "sourceFile": "palette.json",
             "sourceKind": "file"
@@ -3049,6 +3205,18 @@
             "tokenType": "color",
             "sourceFile": "palette.json",
             "sourceKind": "file"
+          },
+          "800": {
+            "figmaId": "VariableID:2031:660",
+            "hash": "318c0a15",
+            "collectionPath": "palette",
+            "modeHashes": {
+              "palette::default": "318c0a15"
+            },
+            "figmaKey": "8ab0824320a5209c433351597f2dc8e577b5ccd3",
+            "tokenType": "color",
+            "sourceFile": "palette.json",
+            "sourceKind": "file"
           }
         },
         "indianred": {
@@ -3060,6 +3228,18 @@
               "palette::default": "a6f9f733"
             },
             "figmaKey": "fd884629c1f169311b36050a0af98821b64adcb3",
+            "tokenType": "color",
+            "sourceFile": "palette.json",
+            "sourceKind": "file"
+          },
+          "500": {
+            "figmaId": "VariableID:2031:661",
+            "hash": "a6f9f733",
+            "collectionPath": "palette",
+            "modeHashes": {
+              "palette::default": "a6f9f733"
+            },
+            "figmaKey": "c7002b4b3d98737d080ce5088e4ea25ef5960c77",
             "tokenType": "color",
             "sourceFile": "palette.json",
             "sourceKind": "file"
@@ -3084,6 +3264,18 @@
               "palette::default": "de6e09da"
             },
             "figmaKey": "5b3860485903916ffb29a6eceb0e3cf67cc8f092",
+            "tokenType": "color",
+            "sourceFile": "palette.json",
+            "sourceKind": "file"
+          },
+          "800": {
+            "figmaId": "VariableID:2031:662",
+            "hash": "de6e09da",
+            "collectionPath": "palette",
+            "modeHashes": {
+              "palette::default": "de6e09da"
+            },
+            "figmaKey": "1490947add97553cad0aad076d609e6ce527abc2",
             "tokenType": "color",
             "sourceFile": "palette.json",
             "sourceKind": "file"
