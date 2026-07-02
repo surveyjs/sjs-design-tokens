@@ -2800,10 +2800,10 @@
           },
           "500": {
             "figmaId": "VariableID:2031:647",
-            "hash": "a1c6ffe7",
+            "hash": "da89f54f",
             "collectionPath": "palette",
             "modeHashes": {
-              "palette::default": "a1c6ffe7"
+              "palette::default": "da89f54f"
             },
             "figmaKey": "3d1479b6a0b4a27fe32696bd35204e90fc63c218",
             "tokenType": "color",
