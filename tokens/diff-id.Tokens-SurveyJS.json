@@ -8621,7 +8621,22 @@
                 "sourceFile": "layout-themes/default.json",
                 "sourceKind": "file"
               },
-              "padding-vertical": {
+              "gap-vertical": {
+                "figmaId": "VariableID:1879:2277",
+                "hash": "ed80626f",
+                "collectionPath": "layout-themes",
+                "modeHashes": {
+                  "layout-themes::default": "ed80626f",
+                  "layout-themes::default-panelless": "ed80626f",
+                  "layout-themes::default-mobile": "ed80626f",
+                  "layout-themes::default-panelless-mobile": "ed80626f"
+                },
+                "figmaKey": "424635cff548b5887dc1745104c9b79baa1dba86",
+                "tokenType": "spacing",
+                "sourceFile": "layout-themes/default.json",
+                "sourceKind": "file"
+              },
+              "padding-top": {
                 "figmaId": "VariableID:1879:2276",
                 "hash": "c60ab270",
                 "collectionPath": "layout-themes",
@@ -8636,17 +8651,17 @@
                 "sourceFile": "layout-themes/default.json",
                 "sourceKind": "file"
               },
-              "gap-vertical": {
-                "figmaId": "VariableID:1879:2277",
-                "hash": "ed80626f",
+              "padding-bottom": {
+                "figmaId": "VariableID:2087:2643",
+                "hash": "88e75929",
                 "collectionPath": "layout-themes",
                 "modeHashes": {
-                  "layout-themes::default": "ed80626f",
-                  "layout-themes::default-panelless": "ed80626f",
-                  "layout-themes::default-mobile": "ed80626f",
-                  "layout-themes::default-panelless-mobile": "ed80626f"
+                  "layout-themes::default": "88e75929",
+                  "layout-themes::default-panelless": "88e75929",
+                  "layout-themes::default-mobile": "88e75929",
+                  "layout-themes::default-panelless-mobile": "88e75929"
                 },
-                "figmaKey": "424635cff548b5887dc1745104c9b79baa1dba86",
+                "figmaKey": "b8d4e24471d95a725514673784d4caea452e0e7c",
                 "tokenType": "spacing",
                 "sourceFile": "layout-themes/default.json",
                 "sourceKind": "file"
