@@ -8608,13 +8608,13 @@
             "box": {
               "padding-horizontal": {
                 "figmaId": "VariableID:1879:2275",
-                "hash": "a36d8936",
+                "hash": "c7fc9edb",
                 "collectionPath": "layout-themes",
                 "modeHashes": {
-                  "layout-themes::default": "a36d8936",
-                  "layout-themes::default-panelless": "a36d8936",
-                  "layout-themes::default-mobile": "a36d8936",
-                  "layout-themes::default-panelless-mobile": "a36d8936"
+                  "layout-themes::default": "c7fc9edb",
+                  "layout-themes::default-panelless": "c7fc9edb",
+                  "layout-themes::default-mobile": "c7fc9edb",
+                  "layout-themes::default-panelless-mobile": "c7fc9edb"
                 },
                 "figmaKey": "c9a603c33b6bff6bcd476f41cb079d75ab3aef67",
                 "tokenType": "spacing",

@@ -1127,8 +1127,7 @@
         "header": {
           "box": {
             "padding-horizontal": {
-              "$value": "{sjs2.spacing.x500}",
-              "$type": "spacing"
+              "$value": "{sjs2.spacing.large-horizontal}"
             },
             "padding-top": {
               "$value": "{sjs2.spacing.x400}",
