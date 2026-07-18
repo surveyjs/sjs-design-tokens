@@ -419,7 +419,7 @@
               "$type": "spacing"
             },
             "padding-bottom": {
-              "$value": "{sjs2.spacing.x000}",
+              "$value": "{sjs2.spacing.large-vertical}",
               "$type": "spacing"
             },
             "gap-vertical": {
@@ -432,7 +432,11 @@
               "$value": "{sjs2.spacing.large-horizontal}",
               "$type": "spacing"
             },
-            "padding-vertical": {
+            "padding-top": {
+              "$value": "{sjs2.spacing.x500}",
+              "$type": "spacing"
+            },
+            "padding-bottom": {
               "$value": "{sjs2.spacing.x500}",
               "$type": "spacing"
             },
@@ -450,7 +454,11 @@
               "$value": "{sjs2.spacing.large-horizontal}",
               "$type": "spacing"
             },
-            "padding-vertical": {
+            "padding-top": {
+              "$value": "{sjs2.spacing.large-vertical}",
+              "$type": "spacing"
+            },
+            "padding-bottom": {
               "$value": "{sjs2.spacing.large-vertical}",
               "$type": "spacing"
             },
@@ -488,7 +496,11 @@
               "$value": "{sjs2.spacing.large-horizontal}",
               "$type": "spacing"
             },
-            "padding-vertical": {
+            "padding-top": {
+              "$value": "{sjs2.spacing.large-vertical}",
+              "$type": "spacing"
+            },
+            "padding-bottom": {
               "$value": "{sjs2.spacing.large-vertical}",
               "$type": "spacing"
             }
