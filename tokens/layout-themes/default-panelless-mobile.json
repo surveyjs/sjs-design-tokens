@@ -1129,8 +1129,7 @@
               "$value": "{sjs2.spacing.large-horizontal}"
             },
             "padding-top": {
-              "$value": "{sjs2.spacing.x400}",
-              "$type": "spacing"
+              "$value": "{sjs2.spacing.x500}"
             },
             "padding-bottom": {
               "$value": "{sjs2.spacing.x000}",

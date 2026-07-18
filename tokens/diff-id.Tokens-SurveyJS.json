@@ -8638,13 +8638,13 @@
               },
               "padding-top": {
                 "figmaId": "VariableID:1879:2276",
-                "hash": "c60ab270",
+                "hash": "a36d8936",
                 "collectionPath": "layout-themes",
                 "modeHashes": {
-                  "layout-themes::default": "c60ab270",
-                  "layout-themes::default-panelless": "c60ab270",
-                  "layout-themes::default-mobile": "c60ab270",
-                  "layout-themes::default-panelless-mobile": "c60ab270"
+                  "layout-themes::default": "a36d8936",
+                  "layout-themes::default-panelless": "a36d8936",
+                  "layout-themes::default-mobile": "a36d8936",
+                  "layout-themes::default-panelless-mobile": "a36d8936"
                 },
                 "figmaKey": "3629a37272a050a575c50fbea6e57677bf1a9499",
                 "tokenType": "spacing",
