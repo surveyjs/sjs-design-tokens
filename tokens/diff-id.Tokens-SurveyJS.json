@@ -10083,6 +10083,644 @@
                 "sourceKind": "file"
               }
             }
+          },
+          "user": {
+            "bg": {
+              "color-1": {
+                "figmaId": "VariableID:2096:1163",
+                "hash": "15d0171f",
+                "collectionPath": "style-themes",
+                "modeHashes": {
+                  "style-themes::default-light": "15d0171f",
+                  "style-themes::default-dark": "15d0171f",
+                  "style-themes::soft-light": "15d0171f",
+                  "style-themes::soft-dark": "15d0171f",
+                  "style-themes::contrast-light": "15d0171f",
+                  "style-themes::contrast-dark": "15d0171f",
+                  "style-themes::monochrome-light": "15d0171f",
+                  "style-themes::monochrome-dark": "15d0171f",
+                  "style-themes::borderless-light": "15d0171f",
+                  "style-themes::borderless-dark": "15d0171f"
+                },
+                "figmaKey": "66a2a5731ace8adb2a736d65a264b1b431514da1",
+                "tokenType": "color",
+                "sourceFile": "style-themes/default-light.json",
+                "sourceKind": "file"
+              },
+              "color-2": {
+                "figmaId": "VariableID:2096:1164",
+                "hash": "39a746e6",
+                "collectionPath": "style-themes",
+                "modeHashes": {
+                  "style-themes::default-light": "39a746e6",
+                  "style-themes::default-dark": "39a746e6",
+                  "style-themes::soft-light": "39a746e6",
+                  "style-themes::soft-dark": "39a746e6",
+                  "style-themes::contrast-light": "39a746e6",
+                  "style-themes::contrast-dark": "39a746e6",
+                  "style-themes::monochrome-light": "39a746e6",
+                  "style-themes::monochrome-dark": "39a746e6",
+                  "style-themes::borderless-light": "39a746e6",
+                  "style-themes::borderless-dark": "39a746e6"
+                },
+                "figmaKey": "9c2517a8da682aa8a695d908ffcddd19c5a30465",
+                "tokenType": "color",
+                "sourceFile": "style-themes/default-light.json",
+                "sourceKind": "file"
+              },
+              "color-3": {
+                "figmaId": "VariableID:2096:1165",
+                "hash": "58036f98",
+                "collectionPath": "style-themes",
+                "modeHashes": {
+                  "style-themes::default-light": "58036f98",
+                  "style-themes::default-dark": "58036f98",
+                  "style-themes::soft-light": "58036f98",
+                  "style-themes::soft-dark": "58036f98",
+                  "style-themes::contrast-light": "58036f98",
+                  "style-themes::contrast-dark": "58036f98",
+                  "style-themes::monochrome-light": "58036f98",
+                  "style-themes::monochrome-dark": "58036f98",
+                  "style-themes::borderless-light": "58036f98",
+                  "style-themes::borderless-dark": "58036f98"
+                },
+                "figmaKey": "1f72f2289a11469cd8f7684eafad8833a51bd002",
+                "tokenType": "color",
+                "sourceFile": "style-themes/default-light.json",
+                "sourceKind": "file"
+              },
+              "color-4": {
+                "figmaId": "VariableID:2096:1166",
+                "hash": "00dca4aa",
+                "collectionPath": "style-themes",
+                "modeHashes": {
+                  "style-themes::default-light": "00dca4aa",
+                  "style-themes::default-dark": "00dca4aa",
+                  "style-themes::soft-light": "00dca4aa",
+                  "style-themes::soft-dark": "00dca4aa",
+                  "style-themes::contrast-light": "00dca4aa",
+                  "style-themes::contrast-dark": "00dca4aa",
+                  "style-themes::monochrome-light": "00dca4aa",
+                  "style-themes::monochrome-dark": "00dca4aa",
+                  "style-themes::borderless-light": "00dca4aa",
+                  "style-themes::borderless-dark": "00dca4aa"
+                },
+                "figmaKey": "a129fc720db6cff8143f4037fdbc9a90348ae202",
+                "tokenType": "color",
+                "sourceFile": "style-themes/default-light.json",
+                "sourceKind": "file"
+              },
+              "color-5": {
+                "figmaId": "VariableID:2096:1167",
+                "hash": "4d1b306c",
+                "collectionPath": "style-themes",
+                "modeHashes": {
+                  "style-themes::default-light": "4d1b306c",
+                  "style-themes::default-dark": "4d1b306c",
+                  "style-themes::soft-light": "4d1b306c",
+                  "style-themes::soft-dark": "4d1b306c",
+                  "style-themes::contrast-light": "4d1b306c",
+                  "style-themes::contrast-dark": "4d1b306c",
+                  "style-themes::monochrome-light": "4d1b306c",
+                  "style-themes::monochrome-dark": "4d1b306c",
+                  "style-themes::borderless-light": "4d1b306c",
+                  "style-themes::borderless-dark": "4d1b306c"
+                },
+                "figmaKey": "ffd65a723d9103bfc8b592807ece5de825424edd",
+                "tokenType": "color",
+                "sourceFile": "style-themes/default-light.json",
+                "sourceKind": "file"
+              },
+              "color-6": {
+                "figmaId": "VariableID:2096:1168",
+                "hash": "66aa455e",
+                "collectionPath": "style-themes",
+                "modeHashes": {
+                  "style-themes::default-light": "66aa455e",
+                  "style-themes::default-dark": "66aa455e",
+                  "style-themes::soft-light": "66aa455e",
+                  "style-themes::soft-dark": "66aa455e",
+                  "style-themes::contrast-light": "66aa455e",
+                  "style-themes::contrast-dark": "66aa455e",
+                  "style-themes::monochrome-light": "66aa455e",
+                  "style-themes::monochrome-dark": "66aa455e",
+                  "style-themes::borderless-light": "66aa455e",
+                  "style-themes::borderless-dark": "66aa455e"
+                },
+                "figmaKey": "4a19583ab7528f2957ad10fe7799716371ec0d22",
+                "tokenType": "color",
+                "sourceFile": "style-themes/default-light.json",
+                "sourceKind": "file"
+              },
+              "color-7": {
+                "figmaId": "VariableID:2096:1169",
+                "hash": "1693a712",
+                "collectionPath": "style-themes",
+                "modeHashes": {
+                  "style-themes::default-light": "1693a712",
+                  "style-themes::default-dark": "1693a712",
+                  "style-themes::soft-light": "1693a712",
+                  "style-themes::soft-dark": "1693a712",
+                  "style-themes::contrast-light": "1693a712",
+                  "style-themes::contrast-dark": "1693a712",
+                  "style-themes::monochrome-light": "1693a712",
+                  "style-themes::monochrome-dark": "1693a712",
+                  "style-themes::borderless-light": "1693a712",
+                  "style-themes::borderless-dark": "1693a712"
+                },
+                "figmaKey": "1125afa2d061c7f898289e380dd1b8deb057c7a0",
+                "tokenType": "color",
+                "sourceFile": "style-themes/default-light.json",
+                "sourceKind": "file"
+              },
+              "color-8": {
+                "figmaId": "VariableID:2096:1170",
+                "hash": "11dabf3c",
+                "collectionPath": "style-themes",
+                "modeHashes": {
+                  "style-themes::default-light": "11dabf3c",
+                  "style-themes::default-dark": "11dabf3c",
+                  "style-themes::soft-light": "11dabf3c",
+                  "style-themes::soft-dark": "11dabf3c",
+                  "style-themes::contrast-light": "11dabf3c",
+                  "style-themes::contrast-dark": "11dabf3c",
+                  "style-themes::monochrome-light": "11dabf3c",
+                  "style-themes::monochrome-dark": "11dabf3c",
+                  "style-themes::borderless-light": "11dabf3c",
+                  "style-themes::borderless-dark": "11dabf3c"
+                },
+                "figmaKey": "18d283034cf3f2b024752226600d8a9068ae1179",
+                "tokenType": "color",
+                "sourceFile": "style-themes/default-light.json",
+                "sourceKind": "file"
+              },
+              "color-9": {
+                "figmaId": "VariableID:2096:1171",
+                "hash": "3410faa3",
+                "collectionPath": "style-themes",
+                "modeHashes": {
+                  "style-themes::default-light": "3410faa3",
+                  "style-themes::default-dark": "3410faa3",
+                  "style-themes::soft-light": "3410faa3",
+                  "style-themes::soft-dark": "3410faa3",
+                  "style-themes::contrast-light": "3410faa3",
+                  "style-themes::contrast-dark": "3410faa3",
+                  "style-themes::monochrome-light": "3410faa3",
+                  "style-themes::monochrome-dark": "3410faa3",
+                  "style-themes::borderless-light": "3410faa3",
+                  "style-themes::borderless-dark": "3410faa3"
+                },
+                "figmaKey": "efafe4026a43a18d60d88533c602c3bddc997775",
+                "tokenType": "color",
+                "sourceFile": "style-themes/default-light.json",
+                "sourceKind": "file"
+              },
+              "color-0": {
+                "figmaId": "VariableID:2096:1172",
+                "hash": "b3448003",
+                "collectionPath": "style-themes",
+                "modeHashes": {
+                  "style-themes::default-light": "b3448003",
+                  "style-themes::default-dark": "b3448003",
+                  "style-themes::soft-light": "b3448003",
+                  "style-themes::soft-dark": "b3448003",
+                  "style-themes::contrast-light": "b3448003",
+                  "style-themes::contrast-dark": "b3448003",
+                  "style-themes::monochrome-light": "b3448003",
+                  "style-themes::monochrome-dark": "b3448003",
+                  "style-themes::borderless-light": "b3448003",
+                  "style-themes::borderless-dark": "b3448003"
+                },
+                "figmaKey": "58d5cb251bf21fe1119d06aa6202f291464209fa",
+                "tokenType": "color",
+                "sourceFile": "style-themes/default-light.json",
+                "sourceKind": "file"
+              }
+            },
+            "fg": {
+              "on-color-1": {
+                "figmaId": "VariableID:2096:1173",
+                "hash": "8a212c0f",
+                "collectionPath": "style-themes",
+                "modeHashes": {
+                  "style-themes::default-light": "8a212c0f",
+                  "style-themes::default-dark": "8a212c0f",
+                  "style-themes::soft-light": "8a212c0f",
+                  "style-themes::soft-dark": "8a212c0f",
+                  "style-themes::contrast-light": "8a212c0f",
+                  "style-themes::contrast-dark": "8a212c0f",
+                  "style-themes::monochrome-light": "8a212c0f",
+                  "style-themes::monochrome-dark": "8a212c0f",
+                  "style-themes::borderless-light": "8a212c0f",
+                  "style-themes::borderless-dark": "8a212c0f"
+                },
+                "figmaKey": "fd9da6f7f78f7d62f9c0645422f758d96ea12f51",
+                "tokenType": "color",
+                "sourceFile": "style-themes/default-light.json",
+                "sourceKind": "file"
+              },
+              "on-color-2": {
+                "figmaId": "VariableID:2096:1174",
+                "hash": "8a212c0f",
+                "collectionPath": "style-themes",
+                "modeHashes": {
+                  "style-themes::default-light": "8a212c0f",
+                  "style-themes::default-dark": "8a212c0f",
+                  "style-themes::soft-light": "8a212c0f",
+                  "style-themes::soft-dark": "8a212c0f",
+                  "style-themes::contrast-light": "8a212c0f",
+                  "style-themes::contrast-dark": "8a212c0f",
+                  "style-themes::monochrome-light": "8a212c0f",
+                  "style-themes::monochrome-dark": "8a212c0f",
+                  "style-themes::borderless-light": "8a212c0f",
+                  "style-themes::borderless-dark": "8a212c0f"
+                },
+                "figmaKey": "db615cd566f3e803ebd68bc39400dbbb4aa86bc8",
+                "tokenType": "color",
+                "sourceFile": "style-themes/default-light.json",
+                "sourceKind": "file"
+              },
+              "on-color-3": {
+                "figmaId": "VariableID:2096:1175",
+                "hash": "8a212c0f",
+                "collectionPath": "style-themes",
+                "modeHashes": {
+                  "style-themes::default-light": "8a212c0f",
+                  "style-themes::default-dark": "8a212c0f",
+                  "style-themes::soft-light": "8a212c0f",
+                  "style-themes::soft-dark": "8a212c0f",
+                  "style-themes::contrast-light": "8a212c0f",
+                  "style-themes::contrast-dark": "8a212c0f",
+                  "style-themes::monochrome-light": "8a212c0f",
+                  "style-themes::monochrome-dark": "8a212c0f",
+                  "style-themes::borderless-light": "8a212c0f",
+                  "style-themes::borderless-dark": "8a212c0f"
+                },
+                "figmaKey": "cc6ce4568f2f8ab00ddbf90b2fe60cdec44fb8f9",
+                "tokenType": "color",
+                "sourceFile": "style-themes/default-light.json",
+                "sourceKind": "file"
+              },
+              "on-color-4": {
+                "figmaId": "VariableID:2096:1176",
+                "hash": "8a212c0f",
+                "collectionPath": "style-themes",
+                "modeHashes": {
+                  "style-themes::default-light": "8a212c0f",
+                  "style-themes::default-dark": "8a212c0f",
+                  "style-themes::soft-light": "8a212c0f",
+                  "style-themes::soft-dark": "8a212c0f",
+                  "style-themes::contrast-light": "8a212c0f",
+                  "style-themes::contrast-dark": "8a212c0f",
+                  "style-themes::monochrome-light": "8a212c0f",
+                  "style-themes::monochrome-dark": "8a212c0f",
+                  "style-themes::borderless-light": "8a212c0f",
+                  "style-themes::borderless-dark": "8a212c0f"
+                },
+                "figmaKey": "d755734ab93efb405a57af3deae037bde7d52e2a",
+                "tokenType": "color",
+                "sourceFile": "style-themes/default-light.json",
+                "sourceKind": "file"
+              },
+              "on-color-5": {
+                "figmaId": "VariableID:2096:1177",
+                "hash": "54dd44cb",
+                "collectionPath": "style-themes",
+                "modeHashes": {
+                  "style-themes::default-light": "54dd44cb",
+                  "style-themes::default-dark": "54dd44cb",
+                  "style-themes::soft-light": "54dd44cb",
+                  "style-themes::soft-dark": "54dd44cb",
+                  "style-themes::contrast-light": "54dd44cb",
+                  "style-themes::contrast-dark": "54dd44cb",
+                  "style-themes::monochrome-light": "54dd44cb",
+                  "style-themes::monochrome-dark": "54dd44cb",
+                  "style-themes::borderless-light": "54dd44cb",
+                  "style-themes::borderless-dark": "54dd44cb"
+                },
+                "figmaKey": "bbbab7b2f9e152dea1272e057c79dd74d77badb2",
+                "tokenType": "color",
+                "sourceFile": "style-themes/default-light.json",
+                "sourceKind": "file"
+              },
+              "on-color-6": {
+                "figmaId": "VariableID:2096:1178",
+                "hash": "8a212c0f",
+                "collectionPath": "style-themes",
+                "modeHashes": {
+                  "style-themes::default-light": "8a212c0f",
+                  "style-themes::default-dark": "8a212c0f",
+                  "style-themes::soft-light": "8a212c0f",
+                  "style-themes::soft-dark": "8a212c0f",
+                  "style-themes::contrast-light": "8a212c0f",
+                  "style-themes::contrast-dark": "8a212c0f",
+                  "style-themes::monochrome-light": "8a212c0f",
+                  "style-themes::monochrome-dark": "8a212c0f",
+                  "style-themes::borderless-light": "8a212c0f",
+                  "style-themes::borderless-dark": "8a212c0f"
+                },
+                "figmaKey": "7f5b5369fcbce4cec826aa6bcbcb9ceeff2ac678",
+                "tokenType": "color",
+                "sourceFile": "style-themes/default-light.json",
+                "sourceKind": "file"
+              },
+              "on-color-7": {
+                "figmaId": "VariableID:2096:1179",
+                "hash": "8a212c0f",
+                "collectionPath": "style-themes",
+                "modeHashes": {
+                  "style-themes::default-light": "8a212c0f",
+                  "style-themes::default-dark": "8a212c0f",
+                  "style-themes::soft-light": "8a212c0f",
+                  "style-themes::soft-dark": "8a212c0f",
+                  "style-themes::contrast-light": "8a212c0f",
+                  "style-themes::contrast-dark": "8a212c0f",
+                  "style-themes::monochrome-light": "8a212c0f",
+                  "style-themes::monochrome-dark": "8a212c0f",
+                  "style-themes::borderless-light": "8a212c0f",
+                  "style-themes::borderless-dark": "8a212c0f"
+                },
+                "figmaKey": "f5513975b679d4e4e46c928e507da36f8f906da3",
+                "tokenType": "color",
+                "sourceFile": "style-themes/default-light.json",
+                "sourceKind": "file"
+              },
+              "on-color-8": {
+                "figmaId": "VariableID:2096:1180",
+                "hash": "8a212c0f",
+                "collectionPath": "style-themes",
+                "modeHashes": {
+                  "style-themes::default-light": "8a212c0f",
+                  "style-themes::default-dark": "8a212c0f",
+                  "style-themes::soft-light": "8a212c0f",
+                  "style-themes::soft-dark": "8a212c0f",
+                  "style-themes::contrast-light": "8a212c0f",
+                  "style-themes::contrast-dark": "8a212c0f",
+                  "style-themes::monochrome-light": "8a212c0f",
+                  "style-themes::monochrome-dark": "8a212c0f",
+                  "style-themes::borderless-light": "8a212c0f",
+                  "style-themes::borderless-dark": "8a212c0f"
+                },
+                "figmaKey": "40af58754327c9a188ae5b68ebccb8209c4640c4",
+                "tokenType": "color",
+                "sourceFile": "style-themes/default-light.json",
+                "sourceKind": "file"
+              },
+              "on-color-9": {
+                "figmaId": "VariableID:2096:1181",
+                "hash": "8a212c0f",
+                "collectionPath": "style-themes",
+                "modeHashes": {
+                  "style-themes::default-light": "8a212c0f",
+                  "style-themes::default-dark": "8a212c0f",
+                  "style-themes::soft-light": "8a212c0f",
+                  "style-themes::soft-dark": "8a212c0f",
+                  "style-themes::contrast-light": "8a212c0f",
+                  "style-themes::contrast-dark": "8a212c0f",
+                  "style-themes::monochrome-light": "8a212c0f",
+                  "style-themes::monochrome-dark": "8a212c0f",
+                  "style-themes::borderless-light": "8a212c0f",
+                  "style-themes::borderless-dark": "8a212c0f"
+                },
+                "figmaKey": "6ef1d2e89fee0f421494ec6102be17851cdd50de",
+                "tokenType": "color",
+                "sourceFile": "style-themes/default-light.json",
+                "sourceKind": "file"
+              },
+              "on-color-0": {
+                "figmaId": "VariableID:2096:1182",
+                "hash": "8a212c0f",
+                "collectionPath": "style-themes",
+                "modeHashes": {
+                  "style-themes::default-light": "8a212c0f",
+                  "style-themes::default-dark": "8a212c0f",
+                  "style-themes::soft-light": "8a212c0f",
+                  "style-themes::soft-dark": "8a212c0f",
+                  "style-themes::contrast-light": "8a212c0f",
+                  "style-themes::contrast-dark": "8a212c0f",
+                  "style-themes::monochrome-light": "8a212c0f",
+                  "style-themes::monochrome-dark": "8a212c0f",
+                  "style-themes::borderless-light": "8a212c0f",
+                  "style-themes::borderless-dark": "8a212c0f"
+                },
+                "figmaKey": "ac213de44b5b93b2ad701420f208257d22a25537",
+                "tokenType": "color",
+                "sourceFile": "style-themes/default-light.json",
+                "sourceKind": "file"
+              }
+            },
+            "border": {
+              "color-1": {
+                "figmaId": "VariableID:2096:1183",
+                "hash": "e1532efa",
+                "collectionPath": "style-themes",
+                "modeHashes": {
+                  "style-themes::default-light": "e1532efa",
+                  "style-themes::default-dark": "e1532efa",
+                  "style-themes::soft-light": "e1532efa",
+                  "style-themes::soft-dark": "e1532efa",
+                  "style-themes::contrast-light": "e1532efa",
+                  "style-themes::contrast-dark": "e1532efa",
+                  "style-themes::monochrome-light": "e1532efa",
+                  "style-themes::monochrome-dark": "e1532efa",
+                  "style-themes::borderless-light": "e1532efa",
+                  "style-themes::borderless-dark": "e1532efa"
+                },
+                "figmaKey": "30a25ee3efee743e78a362b4531c1450433e0c23",
+                "tokenType": "color",
+                "sourceFile": "style-themes/default-light.json",
+                "sourceKind": "file"
+              },
+              "color-2": {
+                "figmaId": "VariableID:2096:1184",
+                "hash": "0bd5f398",
+                "collectionPath": "style-themes",
+                "modeHashes": {
+                  "style-themes::default-light": "0bd5f398",
+                  "style-themes::default-dark": "0bd5f398",
+                  "style-themes::soft-light": "0bd5f398",
+                  "style-themes::soft-dark": "0bd5f398",
+                  "style-themes::contrast-light": "0bd5f398",
+                  "style-themes::contrast-dark": "0bd5f398",
+                  "style-themes::monochrome-light": "0bd5f398",
+                  "style-themes::monochrome-dark": "0bd5f398",
+                  "style-themes::borderless-light": "0bd5f398",
+                  "style-themes::borderless-dark": "0bd5f398"
+                },
+                "figmaKey": "ce0a2a9d27c0c086551d01c31539efd6e2d26c7e",
+                "tokenType": "color",
+                "sourceFile": "style-themes/default-light.json",
+                "sourceKind": "file"
+              },
+              "color-3": {
+                "figmaId": "VariableID:2096:1185",
+                "hash": "e4874579",
+                "collectionPath": "style-themes",
+                "modeHashes": {
+                  "style-themes::default-light": "e4874579",
+                  "style-themes::default-dark": "e4874579",
+                  "style-themes::soft-light": "e4874579",
+                  "style-themes::soft-dark": "e4874579",
+                  "style-themes::contrast-light": "e4874579",
+                  "style-themes::contrast-dark": "e4874579",
+                  "style-themes::monochrome-light": "e4874579",
+                  "style-themes::monochrome-dark": "e4874579",
+                  "style-themes::borderless-light": "e4874579",
+                  "style-themes::borderless-dark": "e4874579"
+                },
+                "figmaKey": "2ad5adc47f225b9627f80ee7924b9577fffe903b",
+                "tokenType": "color",
+                "sourceFile": "style-themes/default-light.json",
+                "sourceKind": "file"
+              },
+              "color-4": {
+                "figmaId": "VariableID:2096:1186",
+                "hash": "05a94f1d",
+                "collectionPath": "style-themes",
+                "modeHashes": {
+                  "style-themes::default-light": "05a94f1d",
+                  "style-themes::default-dark": "05a94f1d",
+                  "style-themes::soft-light": "05a94f1d",
+                  "style-themes::soft-dark": "05a94f1d",
+                  "style-themes::contrast-light": "05a94f1d",
+                  "style-themes::contrast-dark": "05a94f1d",
+                  "style-themes::monochrome-light": "05a94f1d",
+                  "style-themes::monochrome-dark": "05a94f1d",
+                  "style-themes::borderless-light": "05a94f1d",
+                  "style-themes::borderless-dark": "05a94f1d"
+                },
+                "figmaKey": "3b25e071ece5120ae2d765ed5ddaeb4ca0698950",
+                "tokenType": "color",
+                "sourceFile": "style-themes/default-light.json",
+                "sourceKind": "file"
+              },
+              "color-5": {
+                "figmaId": "VariableID:2096:1187",
+                "hash": "eafbf9fc",
+                "collectionPath": "style-themes",
+                "modeHashes": {
+                  "style-themes::default-light": "eafbf9fc",
+                  "style-themes::default-dark": "eafbf9fc",
+                  "style-themes::soft-light": "eafbf9fc",
+                  "style-themes::soft-dark": "eafbf9fc",
+                  "style-themes::contrast-light": "eafbf9fc",
+                  "style-themes::contrast-dark": "eafbf9fc",
+                  "style-themes::monochrome-light": "eafbf9fc",
+                  "style-themes::monochrome-dark": "eafbf9fc",
+                  "style-themes::borderless-light": "eafbf9fc",
+                  "style-themes::borderless-dark": "eafbf9fc"
+                },
+                "figmaKey": "fd44efefd5dba1670b4717ef806829df0bdb9d59",
+                "tokenType": "color",
+                "sourceFile": "style-themes/default-light.json",
+                "sourceKind": "file"
+              },
+              "color-6": {
+                "figmaId": "VariableID:2096:1188",
+                "hash": "007d249e",
+                "collectionPath": "style-themes",
+                "modeHashes": {
+                  "style-themes::default-light": "007d249e",
+                  "style-themes::default-dark": "007d249e",
+                  "style-themes::soft-light": "007d249e",
+                  "style-themes::soft-dark": "007d249e",
+                  "style-themes::contrast-light": "007d249e",
+                  "style-themes::contrast-dark": "007d249e",
+                  "style-themes::monochrome-light": "007d249e",
+                  "style-themes::monochrome-dark": "007d249e",
+                  "style-themes::borderless-light": "007d249e",
+                  "style-themes::borderless-dark": "007d249e"
+                },
+                "figmaKey": "4d5d6085d4616dad0ff9ff7d0bff2837dd572aaa",
+                "tokenType": "color",
+                "sourceFile": "style-themes/default-light.json",
+                "sourceKind": "file"
+              },
+              "color-7": {
+                "figmaId": "VariableID:2096:1189",
+                "hash": "ef2f927f",
+                "collectionPath": "style-themes",
+                "modeHashes": {
+                  "style-themes::default-light": "ef2f927f",
+                  "style-themes::default-dark": "ef2f927f",
+                  "style-themes::soft-light": "ef2f927f",
+                  "style-themes::soft-dark": "ef2f927f",
+                  "style-themes::contrast-light": "ef2f927f",
+                  "style-themes::contrast-dark": "ef2f927f",
+                  "style-themes::monochrome-light": "ef2f927f",
+                  "style-themes::monochrome-dark": "ef2f927f",
+                  "style-themes::borderless-light": "ef2f927f",
+                  "style-themes::borderless-dark": "ef2f927f"
+                },
+                "figmaKey": "0239e84ff7ff714a7b294ee490c59ddfa86acfda",
+                "tokenType": "color",
+                "sourceFile": "style-themes/default-light.json",
+                "sourceKind": "file"
+              },
+              "color-8": {
+                "figmaId": "VariableID:2096:1190",
+                "hash": "19503617",
+                "collectionPath": "style-themes",
+                "modeHashes": {
+                  "style-themes::default-light": "19503617",
+                  "style-themes::default-dark": "19503617",
+                  "style-themes::soft-light": "19503617",
+                  "style-themes::soft-dark": "19503617",
+                  "style-themes::contrast-light": "19503617",
+                  "style-themes::contrast-dark": "19503617",
+                  "style-themes::monochrome-light": "19503617",
+                  "style-themes::monochrome-dark": "19503617",
+                  "style-themes::borderless-light": "19503617",
+                  "style-themes::borderless-dark": "19503617"
+                },
+                "figmaKey": "725e372a9f6958b566ce5f0289be55c3af653505",
+                "tokenType": "color",
+                "sourceFile": "style-themes/default-light.json",
+                "sourceKind": "file"
+              },
+              "color-9": {
+                "figmaId": "VariableID:2096:1191",
+                "hash": "f60280f6",
+                "collectionPath": "style-themes",
+                "modeHashes": {
+                  "style-themes::default-light": "f60280f6",
+                  "style-themes::default-dark": "f60280f6",
+                  "style-themes::soft-light": "f60280f6",
+                  "style-themes::soft-dark": "f60280f6",
+                  "style-themes::contrast-light": "f60280f6",
+                  "style-themes::contrast-dark": "f60280f6",
+                  "style-themes::monochrome-light": "f60280f6",
+                  "style-themes::monochrome-dark": "f60280f6",
+                  "style-themes::borderless-light": "f60280f6",
+                  "style-themes::borderless-dark": "f60280f6"
+                },
+                "figmaKey": "7a0632afe55ee1649a1dcba2ed8e1f79ba2fc0d4",
+                "tokenType": "color",
+                "sourceFile": "style-themes/default-light.json",
+                "sourceKind": "file"
+              },
+              "color-0": {
+                "figmaId": "VariableID:2096:1192",
+                "hash": "0e01981b",
+                "collectionPath": "style-themes",
+                "modeHashes": {
+                  "style-themes::default-light": "0e01981b",
+                  "style-themes::default-dark": "0e01981b",
+                  "style-themes::soft-light": "0e01981b",
+                  "style-themes::soft-dark": "0e01981b",
+                  "style-themes::contrast-light": "0e01981b",
+                  "style-themes::contrast-dark": "0e01981b",
+                  "style-themes::monochrome-light": "0e01981b",
+                  "style-themes::monochrome-dark": "0e01981b",
+                  "style-themes::borderless-light": "0e01981b",
+                  "style-themes::borderless-dark": "0e01981b"
+                },
+                "figmaKey": "9595bfcc1a4720d48ba63e45bca732417286a29a",
+                "tokenType": "color",
+                "sourceFile": "style-themes/default-light.json",
+                "sourceKind": "file"
+              }
+            }
           }
         },
         "bg": {

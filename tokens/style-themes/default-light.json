@@ -197,6 +197,113 @@
               "$description": "Shadow (or border effect) color for floating elements, such as: tooltip, drop, floating button, notifier, ..."
             }
           }
+        },
+        "user": {
+          "bg": {
+            "color-1": {
+              "$value": "#1570EF"
+            },
+            "color-2": {
+              "$value": "#CA4FFB"
+            },
+            "color-3": {
+              "$value": "#19B35C"
+            },
+            "color-4": {
+              "$value": "#19B394"
+            },
+            "color-5": {
+              "$value": "#F9C50B"
+            },
+            "color-6": {
+              "$value": "#F99130"
+            },
+            "color-7": {
+              "$value": "#F1529C"
+            },
+            "color-8": {
+              "$value": "#8F56F1"
+            },
+            "color-9": {
+              "$value": "#4E6198"
+            },
+            "color-0": {
+              "$value": "#808080"
+            }
+          },
+          "fg": {
+            "on-color-1": {
+              "$value": "{sjs2.palette.gray.000}",
+              "$type": "color"
+            },
+            "on-color-2": {
+              "$value": "{sjs2.palette.gray.000}",
+              "$type": "color"
+            },
+            "on-color-3": {
+              "$value": "{sjs2.palette.gray.000}",
+              "$type": "color"
+            },
+            "on-color-4": {
+              "$value": "{sjs2.palette.gray.000}",
+              "$type": "color"
+            },
+            "on-color-5": {
+              "$value": "{sjs2.palette.gray.999}"
+            },
+            "on-color-6": {
+              "$value": "{sjs2.palette.gray.000}",
+              "$type": "color"
+            },
+            "on-color-7": {
+              "$value": "{sjs2.palette.gray.000}",
+              "$type": "color"
+            },
+            "on-color-8": {
+              "$value": "{sjs2.palette.gray.000}",
+              "$type": "color"
+            },
+            "on-color-9": {
+              "$value": "{sjs2.palette.gray.000}",
+              "$type": "color"
+            },
+            "on-color-0": {
+              "$value": "{sjs2.palette.gray.000}",
+              "$type": "color"
+            }
+          },
+          "border": {
+            "color-1": {
+              "$value": "{sjs2.color.utility.user.bg.color-1}"
+            },
+            "color-2": {
+              "$value": "{sjs2.color.utility.user.bg.color-2}"
+            },
+            "color-3": {
+              "$value": "{sjs2.color.utility.user.bg.color-3}"
+            },
+            "color-4": {
+              "$value": "{sjs2.color.utility.user.bg.color-4}"
+            },
+            "color-5": {
+              "$value": "{sjs2.color.utility.user.bg.color-5}"
+            },
+            "color-6": {
+              "$value": "{sjs2.color.utility.user.bg.color-6}"
+            },
+            "color-7": {
+              "$value": "{sjs2.color.utility.user.bg.color-7}"
+            },
+            "color-8": {
+              "$value": "{sjs2.color.utility.user.bg.color-8}"
+            },
+            "color-9": {
+              "$value": "{sjs2.color.utility.user.bg.color-9}"
+            },
+            "color-0": {
+              "$value": "{sjs2.color.utility.user.bg.color-0}"
+            }
+          }
         }
       },
       "bg": {
