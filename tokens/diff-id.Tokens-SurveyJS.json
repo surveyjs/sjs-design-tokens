@@ -2454,6 +2454,30 @@
           "tokenType": "fontSize",
           "sourceFile": "common.json",
           "sourceKind": "file"
+        },
+        "x125": {
+          "figmaId": "VariableID:2096:1194",
+          "hash": "349005e1",
+          "collectionPath": "common",
+          "modeHashes": {
+            "common::default": "349005e1"
+          },
+          "figmaKey": "80e3e3160cd16c8fa0e90c1dc46a04deee2df7f7",
+          "tokenType": "fontSize",
+          "sourceFile": "common.json",
+          "sourceKind": "file"
+        },
+        "x175": {
+          "figmaId": "VariableID:2096:1195",
+          "hash": "d06a6406",
+          "collectionPath": "common",
+          "modeHashes": {
+            "common::default": "d06a6406"
+          },
+          "figmaKey": "909e79cec22e598eb49f2f6f74d799e635a9aa28",
+          "tokenType": "fontSize",
+          "sourceFile": "common.json",
+          "sourceKind": "file"
         }
       },
       "line-height": {
@@ -2573,6 +2597,42 @@
             "common::default": "48281eec"
           },
           "figmaKey": "2cc4c35741dc24a2bc6e4e6a487112715debc465",
+          "tokenType": "lineHeight",
+          "sourceFile": "common.json",
+          "sourceKind": "file"
+        },
+        "x125": {
+          "figmaId": "VariableID:2096:1196",
+          "hash": "7b34cbe7",
+          "collectionPath": "common",
+          "modeHashes": {
+            "common::default": "7b34cbe7"
+          },
+          "figmaKey": "9602d5c83eb596ce96f9d1b93345f0f3763a2cf5",
+          "tokenType": "lineHeight",
+          "sourceFile": "common.json",
+          "sourceKind": "file"
+        },
+        "x150": {
+          "figmaId": "VariableID:2096:1197",
+          "hash": "4fe1e466",
+          "collectionPath": "common",
+          "modeHashes": {
+            "common::default": "4fe1e466"
+          },
+          "figmaKey": "7752cc5c9857f00800d3de1c8e9898362bb438a6",
+          "tokenType": "lineHeight",
+          "sourceFile": "common.json",
+          "sourceKind": "file"
+        },
+        "x175": {
+          "figmaId": "VariableID:2096:1198",
+          "hash": "9fceaa00",
+          "collectionPath": "common",
+          "modeHashes": {
+            "common::default": "9fceaa00"
+          },
+          "figmaKey": "d38331aa895a2c2019be8a9607cb2de7133a88a3",
           "tokenType": "lineHeight",
           "sourceFile": "common.json",
           "sourceKind": "file"
@@ -3873,6 +3933,18 @@
                 "sourceKind": "file"
               }
             }
+          },
+          "x-small": {
+            "figmaId": "VariableID:2096:1199",
+            "hash": "92a92134",
+            "collectionPath": "typography-themes",
+            "modeHashes": {
+              "typography-themes::default": "92a92134"
+            },
+            "figmaKey": "5c06fa321d84b2b9015c4366d9a0bc25d7d1b31b",
+            "tokenType": "fontSize",
+            "sourceFile": "typography-themes/default.json",
+            "sourceKind": "file"
           }
         },
         "line-height": {
@@ -4181,6 +4253,18 @@
                 "sourceKind": "file"
               }
             }
+          },
+          "x-small": {
+            "figmaId": "VariableID:2096:1200",
+            "hash": "4179e833",
+            "collectionPath": "typography-themes",
+            "modeHashes": {
+              "typography-themes::default": "4179e833"
+            },
+            "figmaKey": "5084b3783a5e454f19e54f23dc8059275511f2bc",
+            "tokenType": "lineHeight",
+            "sourceFile": "typography-themes/default.json",
+            "sourceKind": "file"
           }
         },
         "font-weight": {
@@ -26407,6 +26491,24 @@
               "sourceKind": "file"
             }
           }
+        },
+        "x-small": {
+          "figmaId": "S:608ac22b1b729be20657194acf73476e682ea3a8,",
+          "hash": "4722dbdf:b3",
+          "type": "text",
+          "figmaKey": "608ac22b1b729be20657194acf73476e682ea3a8",
+          "tokenType": "typography",
+          "sourceFile": "typography-themes/default.json",
+          "sourceKind": "file"
+        },
+        "x-small-strong": {
+          "figmaId": "S:be8446274973d217edd8828126b034984c47e913,",
+          "hash": "a7eeeb4f:b3",
+          "type": "text",
+          "figmaKey": "be8446274973d217edd8828126b034984c47e913",
+          "tokenType": "typography",
+          "sourceFile": "typography-themes/default.json",
+          "sourceKind": "file"
         }
       },
       "border-effect": {
