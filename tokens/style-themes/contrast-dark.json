@@ -208,7 +208,7 @@
               "$value": "#F1529C"
             },
             "color-8": {
-              "$value": "#8F56F1"
+              "$value": "#02ADEB"
             },
             "color-9": {
               "$value": "#4E6198"
@@ -7306,6 +7306,7 @@
         ],
         "$type": "shadow"
       }
-    }
+    },
+    "$type": "color"
   }
 }
