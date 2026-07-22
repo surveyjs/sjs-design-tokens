@@ -7,71 +7,122 @@ const THEME_CONFIG = [];
 const styleThemes = ["default", "soft", "contrast", "monochrome", "3d", "borderless", "flat", "plain"];
 const palletes = ["light", "dark"];
 
+function tokenFileExists(tokenPath) {
+  return fs.existsSync(path.join(__dirname, 'tokens', `${tokenPath}.json`));
+}
+
 for (const themeInList of styleThemes) {
   const theme = themeInList === "3d" ? "threedimensional" : themeInList;
   for (const pallete of palletes) {
-    const fileName = `${theme}-${pallete}`;
-    const styleTokenPath = `style-themes/${fileName}`;
-    const styleTokenFilePath = path.join(__dirname, 'tokens', `${styleTokenPath}.json`);
-    if (!fs.existsSync(styleTokenFilePath)) {
+    const baseFileName = `${theme}-${pallete}`;
+    const baseStyleTokenPath = `style-themes/${baseFileName}`;
+    if (!tokenFileExists(baseStyleTokenPath)) {
       // Style theme tokens are required for generating the theme.
       // If missing, skip creating this theme altogether.
       continue;
     }
-    const defaultConfig = {
-      themeName: theme,
-      fileName: fileName,
-      isLight: pallete === "light",
-      colorPalette: pallete,
-      tokenPaths: 
-      [
-        "base-unit", 
-        "common", 
-        "palette", 
-        "layout-themes/default",
-        "size-themes/default", 
-        "radius-themes/default", 
-        "typography-themes/default",
-        styleTokenPath
-      ],
-    };
-    
-    THEME_CONFIG.push(defaultConfig);
-    THEME_CONFIG.push({...defaultConfig, fileName: `${fileName}-panelless`, isPanelless: true});
+
+    for (const isPanelless of [false, true]) {
+      const fileName = isPanelless ? `${baseFileName}-panelless` : baseFileName;
+
+      // Prefer dedicated *-panelless style set when present (config.json / Token Studio modes).
+      // Fall back to the shared style set ($themes.json era had no separate panelless styles).
+      const panellessStyleTokenPath = `style-themes/${baseFileName}-panelless`;
+      const styleTokenPath = isPanelless && tokenFileExists(panellessStyleTokenPath)
+        ? panellessStyleTokenPath
+        : baseStyleTokenPath;
+
+      // Panelless layout is a separate token set (layout-themes/default-panelless).
+      const panellessLayoutTokenPath = 'layout-themes/default-panelless';
+      const layoutTokenPath = isPanelless && tokenFileExists(panellessLayoutTokenPath)
+        ? panellessLayoutTokenPath
+        : 'layout-themes/default';
+
+      THEME_CONFIG.push({
+        themeName: theme,
+        fileName,
+        isLight: pallete === "light",
+        colorPalette: pallete,
+        isPanelless: isPanelless || undefined,
+        tokenPaths: [
+          "base-unit",
+          "common",
+          "palette",
+          layoutTokenPath,
+          "typography-themes/default",
+          styleTokenPath
+        ],
+      });
+    }
   }
 }
 
 // Cache for storing all tokens
 let allTokensCache = {};
 
+// DTCG (W3C) tokens use $value/$type; legacy tokens use value/type.
+function getTokenValue(token) {
+  if (!token || typeof token !== 'object') return undefined;
+  return token.$value !== undefined ? token.$value : token.value;
+}
+
+function getTokenType(token) {
+  if (!token || typeof token !== 'object') return undefined;
+  return token.$type !== undefined ? token.$type : token.type;
+}
+
+function normalizeToken(token) {
+  const value = getTokenValue(token);
+  const type = getTokenType(token);
+  return {
+    ...token,
+    value,
+    type,
+    $extensions: token.$extensions
+  };
+}
+
+function isTokenObject(obj) {
+  return obj && typeof obj === 'object' && !Array.isArray(obj) && getTokenValue(obj) !== undefined;
+}
+
 // Function for recursive traversal of token objects
 function flattenTokens(obj, prefix = '', result = {}) {
   for (const key in obj) {
     if (obj.hasOwnProperty(key)) {
+      // Skip DTCG group metadata ($type, $description, $extensions, ...)
+      if (key.startsWith('$')) {
+        continue;
+      }
+
       const value = obj[key];
       const newPrefix = prefix ? `${prefix}-${key}` : key;
-      
-      if (typeof value === 'object' && value !== null && typeof value.value !== 'string' && !value.type) {
-        // Recursively traverse nested objects
-        flattenTokens(value, newPrefix, result);
-      } else if (value && typeof value === 'object' && (typeof value.value === 'string' || typeof value.value === 'number')) {
-        // This is a token with a scalar value (string or number)
-        result[newPrefix] = value;
-      } else if (value && typeof value === 'object' && Array.isArray(value.value)) {
-        // This is a token with array value (e.g. boxShadow - array of shadow objects)
-        result[newPrefix] = value;
-      } else if (value && typeof value === 'object' && isShadowObject(value.value)) {
-        // This is a token with a single shadow object value
-        result[newPrefix] = value;
-      } else if (value && typeof value === 'object' && isShadowObject(value)) {
+
+      if (!value || typeof value !== 'object') {
+        continue;
+      }
+
+      if (isTokenObject(value)) {
+        const tokenValue = getTokenValue(value);
+        if (typeof tokenValue === 'string' || typeof tokenValue === 'number' || typeof tokenValue === 'boolean') {
+          result[newPrefix] = normalizeToken(value);
+        } else if (Array.isArray(tokenValue) || isShadowObject(tokenValue)) {
+          // shadow / boxShadow token (array or single shadow object)
+          result[newPrefix] = normalizeToken(value);
+        }
+        // Composite tokens (typography, template, ...) are skipped — leaf tokens are exported instead.
+      } else if (isShadowObject(value)) {
         // This is a shadow object, process it
         result[newPrefix] = {
           value: value,
           type: value.type || 'dropShadow'
         };
-      } else if (value && typeof value === 'object' && (value.duration !== undefined || value.x1 !== undefined || value.y1 !== undefined || value.stiffness !== undefined)) {
+      } else if (value.duration !== undefined || value.x1 !== undefined || value.y1 !== undefined || value.stiffness !== undefined) {
         // This is animation or other complex tokens, skip them
         continue;
+      } else {
+        // Recursively traverse nested objects
+        flattenTokens(value, newPrefix, result);
       }
     }
   }
@@ -226,15 +277,30 @@ function isTransparentShadowColor(color) {
   return false;
 }
 
+function getShadowOffsetX(shadowObj) {
+  return shadowObj.offsetX !== undefined ? shadowObj.offsetX : shadowObj.x;
+}
+
+function getShadowOffsetY(shadowObj) {
+  return shadowObj.offsetY !== undefined ? shadowObj.offsetY : shadowObj.y;
+}
+
+function isShadowOffsetValue(value) {
+  return typeof value === 'string' || typeof value === 'number';
+}
+
 function isShadowObject(obj) {
-  return obj && typeof obj === 'object' &&
-    (obj.x !== undefined || obj.y !== undefined || obj.blur !== undefined || obj.spread !== undefined || obj.color !== undefined);
+  // Require scalar offsets so groups like border-offset.{x,y} are not treated as shadows.
+  if (!obj || typeof obj !== 'object' || Array.isArray(obj)) return false;
+  return isShadowOffsetValue(getShadowOffsetX(obj)) && isShadowOffsetValue(getShadowOffsetY(obj));
 }
 
 // Drop placeholder shadows (zero size + fully transparent color), keep zero-size border-effects.
 function isShadowObjectInvisible(shadowObj) {
   if (!shadowObj || typeof shadowObj !== 'object') return true;
-  const { x, y, blur, spread, color } = shadowObj;
+  const x = getShadowOffsetX(shadowObj);
+  const y = getShadowOffsetY(shadowObj);
+  const { blur, spread, color } = shadowObj;
   if (![x, y, blur, spread].every(isZeroShadowDimension)) return false;
   return isTransparentShadowColor(color);
 }
@@ -245,7 +311,9 @@ function processShadowValue(shadowObj, keepIfInvisible = false) {
     return null;
   }
 
-  const { x, y, blur, spread, color, type } = shadowObj;
+  const x = getShadowOffsetX(shadowObj);
+  const y = getShadowOffsetY(shadowObj);
+  const { blur, spread, color, type } = shadowObj;
   
   // Convert shadow properties to CSS string
   let shadowString = '';
@@ -285,7 +353,9 @@ function processShadowValueWithResolution(shadowObj, visited = new Set(), keepIf
     return null;
   }
 
-  const { x, y, blur, spread, color, type } = shadowObj;
+  const x = getShadowOffsetX(shadowObj);
+  const y = getShadowOffsetY(shadowObj);
+  const { blur, spread, color, type } = shadowObj;
   
   // Shadow component references (border-offset, border-blur, border-spread)
   // are emitted as var() references to their own CSS variables.
@@ -317,22 +387,31 @@ function processShadowValueWithResolution(shadowObj, visited = new Set(), keepIf
   return isShadowObjectInvisible(shadowObj) && !keepIfInvisible ? null : result;
 }
 
-// Function for processing color modifications via $extensions.studio.tokens.modify
+// Color mods: $extensions["figma.modify"] (DTCG) or $extensions["studio.tokens"].modify (legacy)
+function getColorModify(tokenData) {
+  const extensions = tokenData && tokenData.$extensions;
+  if (!extensions || typeof extensions !== 'object') return null;
+  if (extensions['figma.modify']) return extensions['figma.modify'];
+  if (extensions['studio.tokens'] && extensions['studio.tokens'].modify) {
+    return extensions['studio.tokens'].modify;
+  }
+  return null;
+}
+
+// Function for processing color modifications via $extensions
 function processColorModifications(tokenData, visited = new Set()) {
   if (!tokenData || typeof tokenData !== 'object') {
     return tokenData;
   }
 
-  // Check if token has color modifications
-  if (tokenData.$extensions && 
-      tokenData.$extensions['studio.tokens'] && 
-      tokenData.$extensions['studio.tokens'].modify) {
-    
-    const modify = tokenData.$extensions['studio.tokens'].modify;
+  const modify = getColorModify(tokenData);
+  const tokenValue = getTokenValue(tokenData);
+
+  if (modify) {
     const { type, value, space } = modify;
     
     // Get the base color value
-    let baseColor = tokenData.value;
+    let baseColor = tokenValue;
     
     // If base color is a reference, convert to CSS variable
     if (typeof baseColor === 'string' && baseColor.includes('{')) {
@@ -370,13 +449,16 @@ function processColorModifications(tokenData, visited = new Set()) {
     }
   }
   
-  return tokenData.value;
+  return tokenValue;
 }
 
 // Function for evaluating token values with recursive reference resolution
 function evaluateTokenValue(value, type, visited = new Set()) {
+  if (typeof value === 'boolean') {
+    return String(value);
+  }
   if (typeof value === 'number') {
-    if (type === 'sizing' || type === 'spacing' || type === 'borderRadius' || type === 'borderWidth' || type === 'baseUnit' || type === 'number') {
+    if (type === 'sizing' || type === 'spacing' || type === 'borderRadius' || type === 'borderWidth' || type === 'baseUnit' || type === 'number' || type === 'dimension') {
       return `${value}px`;
     }
     return String(value);
@@ -415,7 +497,7 @@ function evaluateTokenValue(value, type, visited = new Set()) {
     }
     
     // Add units for certain types
-    if (type === 'sizing' || type === 'spacing' || type === 'borderRadius' || type === 'borderWidth' || type === 'baseUnit') {
+    if (type === 'sizing' || type === 'spacing' || type === 'borderRadius' || type === 'borderWidth' || type === 'baseUnit' || type === 'dimension') {
       if (!processedValue.includes('px') && !processedValue.includes('%') && !processedValue.includes('em') && !processedValue.includes('rem')) {
         // If it's a number, add px
         if (!isNaN(parseFloat(processedValue))) {
@@ -521,19 +603,22 @@ function createTypeScriptFiles() {
     const cssVariables = {};
     for (const [tokenName, tokenData] of Object.entries(allThemeTokens)) {
       const cssVarName = tokenToCSSVariable(tokenName);
-      if (tokenData.value !== undefined && typeof tokenData.value === "string") {
+      const tokenValue = getTokenValue(tokenData);
+      const tokenType = getTokenType(tokenData);
+
+      if (tokenValue !== undefined && (typeof tokenValue === "string" || typeof tokenValue === "number" || typeof tokenValue === "boolean")) {
         // Check for color modifications first
         let processedValue = processColorModifications(tokenData);
 
         // If no modifications were applied, use the original value
-        if (processedValue === tokenData.value) {
-          processedValue = evaluateTokenValue(tokenData.value, tokenData.type);
+        if (processedValue === tokenValue) {
+          processedValue = evaluateTokenValue(tokenValue, tokenType);
         }
 
         cssVariables[cssVarName] = processedValue;
-      } else if (tokenData.value !== undefined && (Array.isArray(tokenData.value) || isShadowObject(tokenData.value))) {
-        // boxShadow token (array or single shadow object) -> CSS box-shadow value
-        cssVariables[cssVarName] = evaluateTokenValue(tokenData.value, tokenData.type);
+      } else if (tokenValue !== undefined && (Array.isArray(tokenValue) || isShadowObject(tokenValue))) {
+        // shadow / boxShadow token (array or single shadow object) -> CSS box-shadow value
+        cssVariables[cssVarName] = evaluateTokenValue(tokenValue, tokenType);
       }
     }
 
