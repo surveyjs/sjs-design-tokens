@@ -61,8 +61,33 @@ for (const themeInList of styleThemes) {
 let allTokensCache = {};
 
 // DTCG (W3C) tokens use $value/$type; legacy tokens use value/type.
+// Important: groups may have a child token literally named "value"
+// (e.g. color.component.input.default.value) — that must not be treated as the group's token value.
+function isPlainObject(obj) {
+  return obj && typeof obj === 'object' && !Array.isArray(obj);
+}
+
+function isLegacyTokenValue(value) {
+  return typeof value === 'string' ||
+    typeof value === 'number' ||
+    typeof value === 'boolean' ||
+    Array.isArray(value) ||
+    isShadowObject(value);
+}
+
+function isTokenObject(obj) {
+  if (!isPlainObject(obj)) return false;
+  // DTCG / W3C Design Tokens
+  if (obj.$value !== undefined) return true;
+  // Legacy token: `value` is a leaf (scalar / shadow), not a nested token group
+  if (obj.value !== undefined && isLegacyTokenValue(obj.value)) return true;
+  // Legacy token with explicit type + object value (composition / typography)
+  if (obj.value !== undefined && obj.type !== undefined) return true;
+  return false;
+}
+
 function getTokenValue(token) {
-  if (!token || typeof token !== 'object') return undefined;
+  if (!isTokenObject(token)) return undefined;
   return token.$value !== undefined ? token.$value : token.value;
 }
 
@@ -80,10 +105,6 @@ function normalizeToken(token) {
     type,
     $extensions: token.$extensions
   };
-}
-
-function isTokenObject(obj) {
-  return obj && typeof obj === 'object' && !Array.isArray(obj) && getTokenValue(obj) !== undefined;
 }
 
 // Function for recursive traversal of token objects
