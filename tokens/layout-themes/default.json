@@ -496,7 +496,8 @@
               "$type": "spacing"
             },
             "padding-top": {
-              "$value": "{sjs2.spacing.x000}"
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
             },
             "padding-bottom": {
               "$value": "{sjs2.spacing.large-vertical}",
@@ -1044,7 +1045,11 @@
               "$value": "{sjs2.spacing.x000}",
               "$type": "spacing"
             },
-            "padding-vertical": {
+            "padding-top": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            },
+            "padding-bottom": {
               "$value": "{sjs2.spacing.x000}",
               "$type": "spacing"
             }
@@ -1127,10 +1132,12 @@
         "header": {
           "box": {
             "padding-horizontal": {
-              "$value": "{sjs2.spacing.large-horizontal}"
+              "$value": "{sjs2.spacing.large-horizontal}",
+              "$type": "spacing"
             },
             "padding-top": {
-              "$value": "{sjs2.spacing.x500}"
+              "$value": "{sjs2.spacing.x500}",
+              "$type": "spacing"
             },
             "padding-bottom": {
               "$value": "{sjs2.spacing.x000}",

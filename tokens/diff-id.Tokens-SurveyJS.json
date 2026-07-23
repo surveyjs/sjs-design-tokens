@@ -8432,7 +8432,7 @@
                 "sourceFile": "layout-themes/default.json",
                 "sourceKind": "file"
               },
-              "padding-vertical": {
+              "padding-top": {
                 "figmaId": "VariableID:1879:2260",
                 "hash": "88e75929",
                 "collectionPath": "layout-themes",
@@ -8443,6 +8443,21 @@
                   "layout-themes::default-panelless-mobile": "88e75929"
                 },
                 "figmaKey": "e65d084562752548e65d957d325adbb3e939de77",
+                "tokenType": "spacing",
+                "sourceFile": "layout-themes/default.json",
+                "sourceKind": "file"
+              },
+              "padding-bottom": {
+                "figmaId": "VariableID:2160:1436",
+                "hash": "88e75929",
+                "collectionPath": "layout-themes",
+                "modeHashes": {
+                  "layout-themes::default": "88e75929",
+                  "layout-themes::default-panelless": "88e75929",
+                  "layout-themes::default-mobile": "88e75929",
+                  "layout-themes::default-panelless-mobile": "88e75929"
+                },
+                "figmaKey": "cbd0ff09fe55ecc2618474a084e711ad0f1e1c37",
                 "tokenType": "spacing",
                 "sourceFile": "layout-themes/default.json",
                 "sourceKind": "file"
