@@ -490,26 +490,6 @@
               "$value": "{sjs2.spacing.x000}",
               "$type": "spacing"
             }
-          },
-          "footer": {
-            "padding-horizontal": {
-              "$value": "{sjs2.spacing.large-horizontal}",
-              "$type": "spacing"
-            },
-            "padding-top": {
-              "$value": "{sjs2.spacing.x000}",
-              "$type": "spacing"
-            },
-            "padding-bottom": {
-              "$value": "{sjs2.spacing.large-vertical}",
-              "$type": "spacing"
-            }
-          },
-          "footer-action-group": {
-            "gap": {
-              "$value": "{sjs2.spacing.x150}",
-              "$type": "spacing"
-            }
           }
         },
         "panel": {
@@ -1172,56 +1152,6 @@
             }
           }
         },
-        "header": {
-          "box": {
-            "padding-horizontal": {
-              "$value": "{sjs2.spacing.large-horizontal}",
-              "$type": "spacing"
-            },
-            "padding-top": {
-              "$value": "{sjs2.spacing.x500}",
-              "$type": "spacing"
-            },
-            "padding-bottom": {
-              "$value": "{sjs2.spacing.x000}",
-              "$type": "spacing"
-            },
-            "gap-vertical": {
-              "$value": "{sjs2.spacing.x100}",
-              "$type": "spacing"
-            }
-          },
-          "title": {
-            "padding-horizontal": {
-              "$value": "{sjs2.spacing.x000}",
-              "$type": "spacing"
-            },
-            "padding-vertical": {
-              "$value": "{sjs2.spacing.x000}",
-              "$type": "spacing"
-            }
-          },
-          "description": {
-            "padding-horizontal": {
-              "$value": "{sjs2.spacing.x000}",
-              "$type": "spacing"
-            },
-            "padding-top": {
-              "$value": "{sjs2.spacing.x000}",
-              "$type": "spacing"
-            },
-            "padding-bottom": {
-              "$value": "{sjs2.spacing.x000}",
-              "$type": "spacing"
-            }
-          },
-          "action-group": {
-            "gap": {
-              "$value": "{sjs2.spacing.x100}",
-              "$type": "spacing"
-            }
-          }
-        },
         "drop": {
           "box": {
             "padding-horizontal": {
@@ -1403,6 +1333,75 @@
             "padding-horizontal": {
               "$value": "{sjs2.spacing.x000}",
               "$type": "spacing"
+            }
+          }
+        },
+        "survey": {
+          "header-action-group": {
+            "gap": {
+              "$value": "{sjs2.spacing.x100}",
+              "$type": "spacing"
+            }
+          },
+          "header": {
+            "gap-vertical": {
+              "$value": "{sjs2.spacing.x100}",
+              "$type": "spacing"
+            },
+            "padding-top": {
+              "$value": "{sjs2.spacing.x500}",
+              "$type": "spacing"
+            },
+            "padding-bottom": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            },
+            "padding-horizontal": {
+              "$value": "{sjs2.spacing.large-horizontal}",
+              "$type": "spacing"
+            }
+          },
+          "title": {
+            "padding-horizontal": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            },
+            "padding-vertical": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            }
+          },
+          "description": {
+            "padding-top": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            },
+            "padding-bottom": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            },
+            "padding-horizontal": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            }
+          },
+          "footer": {
+            "padding-top": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            },
+            "padding-bottom": {
+              "$value": "{sjs2.spacing.large-vertical}",
+              "$type": "spacing"
+            },
+            "padding-horizontal": {
+              "$value": "{sjs2.spacing.large-horizontal}",
+              "$type": "spacing"
+            }
+          },
+          "footer-action-group": {
+            "gap": {
+              "$value": "{sjs2.spacing.x150}"
             }
           }
         }

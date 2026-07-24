@@ -59,6 +59,9 @@
       }
     }
   },
+  "pendingDeletes": {
+    "variables": {}
+  },
   "variables": {
     "sjs2": {
       "base-unit": {
@@ -6589,70 +6592,6 @@
                 "sourceFile": "layout-themes/default.json",
                 "sourceKind": "file"
               }
-            },
-            "footer": {
-              "padding-horizontal": {
-                "figmaId": "VariableID:1879:2178",
-                "hash": "c7fc9edb",
-                "collectionPath": "layout-themes",
-                "modeHashes": {
-                  "layout-themes::default": "c7fc9edb",
-                  "layout-themes::default-panelless": "c7fc9edb",
-                  "layout-themes::default-mobile": "c7fc9edb",
-                  "layout-themes::default-panelless-mobile": "c7fc9edb"
-                },
-                "figmaKey": "be86b365445023ece0f2a365deed1360c6736f71",
-                "tokenType": "spacing",
-                "sourceFile": "layout-themes/default.json",
-                "sourceKind": "file"
-              },
-              "padding-top": {
-                "figmaId": "VariableID:2086:1381",
-                "hash": "88e75929",
-                "collectionPath": "layout-themes",
-                "modeHashes": {
-                  "layout-themes::default": "88e75929",
-                  "layout-themes::default-panelless": "88e75929",
-                  "layout-themes::default-mobile": "88e75929",
-                  "layout-themes::default-panelless-mobile": "88e75929"
-                },
-                "figmaKey": "8e337988227dd854e624f2dc2c847b61c9fd7374",
-                "tokenType": "spacing",
-                "sourceFile": "layout-themes/default.json",
-                "sourceKind": "file"
-              },
-              "padding-bottom": {
-                "figmaId": "VariableID:2086:1382",
-                "hash": "6a441cc4",
-                "collectionPath": "layout-themes",
-                "modeHashes": {
-                  "layout-themes::default": "6a441cc4",
-                  "layout-themes::default-panelless": "6a441cc4",
-                  "layout-themes::default-mobile": "6a441cc4",
-                  "layout-themes::default-panelless-mobile": "6a441cc4"
-                },
-                "figmaKey": "e39ae3157a4ef9793759affff2bb62c67c750532",
-                "tokenType": "spacing",
-                "sourceFile": "layout-themes/default.json",
-                "sourceKind": "file"
-              }
-            },
-            "footer-action-group": {
-              "gap": {
-                "figmaId": "VariableID:1879:2180",
-                "hash": "d30aefd5",
-                "collectionPath": "layout-themes",
-                "modeHashes": {
-                  "layout-themes::default": "d30aefd5",
-                  "layout-themes::default-panelless": "d30aefd5",
-                  "layout-themes::default-mobile": "d30aefd5",
-                  "layout-themes::default-panelless-mobile": "d30aefd5"
-                },
-                "figmaKey": "f1ab696c3256f0d9917c5bda0c5f4df5cfcffe60",
-                "tokenType": "spacing",
-                "sourceFile": "layout-themes/default.json",
-                "sourceKind": "file"
-              }
             }
           },
           "panel": {
@@ -8703,166 +8642,6 @@
               }
             }
           },
-          "header": {
-            "box": {
-              "padding-horizontal": {
-                "figmaId": "VariableID:1879:2275",
-                "hash": "c7fc9edb",
-                "collectionPath": "layout-themes",
-                "modeHashes": {
-                  "layout-themes::default": "c7fc9edb",
-                  "layout-themes::default-panelless": "c7fc9edb",
-                  "layout-themes::default-mobile": "c7fc9edb",
-                  "layout-themes::default-panelless-mobile": "c7fc9edb"
-                },
-                "figmaKey": "c9a603c33b6bff6bcd476f41cb079d75ab3aef67",
-                "tokenType": "spacing",
-                "sourceFile": "layout-themes/default.json",
-                "sourceKind": "file"
-              },
-              "gap-vertical": {
-                "figmaId": "VariableID:1879:2277",
-                "hash": "ed80626f",
-                "collectionPath": "layout-themes",
-                "modeHashes": {
-                  "layout-themes::default": "ed80626f",
-                  "layout-themes::default-panelless": "ed80626f",
-                  "layout-themes::default-mobile": "ed80626f",
-                  "layout-themes::default-panelless-mobile": "ed80626f"
-                },
-                "figmaKey": "424635cff548b5887dc1745104c9b79baa1dba86",
-                "tokenType": "spacing",
-                "sourceFile": "layout-themes/default.json",
-                "sourceKind": "file"
-              },
-              "padding-top": {
-                "figmaId": "VariableID:1879:2276",
-                "hash": "a36d8936",
-                "collectionPath": "layout-themes",
-                "modeHashes": {
-                  "layout-themes::default": "a36d8936",
-                  "layout-themes::default-panelless": "a36d8936",
-                  "layout-themes::default-mobile": "a36d8936",
-                  "layout-themes::default-panelless-mobile": "a36d8936"
-                },
-                "figmaKey": "3629a37272a050a575c50fbea6e57677bf1a9499",
-                "tokenType": "spacing",
-                "sourceFile": "layout-themes/default.json",
-                "sourceKind": "file"
-              },
-              "padding-bottom": {
-                "figmaId": "VariableID:2087:2643",
-                "hash": "88e75929",
-                "collectionPath": "layout-themes",
-                "modeHashes": {
-                  "layout-themes::default": "88e75929",
-                  "layout-themes::default-panelless": "88e75929",
-                  "layout-themes::default-mobile": "88e75929",
-                  "layout-themes::default-panelless-mobile": "88e75929"
-                },
-                "figmaKey": "b8d4e24471d95a725514673784d4caea452e0e7c",
-                "tokenType": "spacing",
-                "sourceFile": "layout-themes/default.json",
-                "sourceKind": "file"
-              }
-            },
-            "title": {
-              "padding-horizontal": {
-                "figmaId": "VariableID:1879:2278",
-                "hash": "88e75929",
-                "collectionPath": "layout-themes",
-                "modeHashes": {
-                  "layout-themes::default": "88e75929",
-                  "layout-themes::default-panelless": "88e75929",
-                  "layout-themes::default-mobile": "88e75929",
-                  "layout-themes::default-panelless-mobile": "88e75929"
-                },
-                "figmaKey": "46bbf765760e18a9455a937f376fe402c7c9021f",
-                "tokenType": "spacing",
-                "sourceFile": "layout-themes/default.json",
-                "sourceKind": "file"
-              },
-              "padding-vertical": {
-                "figmaId": "VariableID:1879:2279",
-                "hash": "88e75929",
-                "collectionPath": "layout-themes",
-                "modeHashes": {
-                  "layout-themes::default": "88e75929",
-                  "layout-themes::default-panelless": "88e75929",
-                  "layout-themes::default-mobile": "88e75929",
-                  "layout-themes::default-panelless-mobile": "88e75929"
-                },
-                "figmaKey": "a2c29aa6cb3d22cacb07a5350c248d469cad2dfe",
-                "tokenType": "spacing",
-                "sourceFile": "layout-themes/default.json",
-                "sourceKind": "file"
-              }
-            },
-            "description": {
-              "padding-horizontal": {
-                "figmaId": "VariableID:1879:2280",
-                "hash": "88e75929",
-                "collectionPath": "layout-themes",
-                "modeHashes": {
-                  "layout-themes::default": "88e75929",
-                  "layout-themes::default-panelless": "88e75929",
-                  "layout-themes::default-mobile": "88e75929",
-                  "layout-themes::default-panelless-mobile": "88e75929"
-                },
-                "figmaKey": "cc3e6cbdcc28dd1f82805cef77d5245e8f21d9a3",
-                "tokenType": "spacing",
-                "sourceFile": "layout-themes/default.json",
-                "sourceKind": "file"
-              },
-              "padding-top": {
-                "figmaId": "VariableID:1879:2281",
-                "hash": "88e75929",
-                "collectionPath": "layout-themes",
-                "modeHashes": {
-                  "layout-themes::default": "88e75929",
-                  "layout-themes::default-panelless": "88e75929",
-                  "layout-themes::default-mobile": "88e75929",
-                  "layout-themes::default-panelless-mobile": "88e75929"
-                },
-                "figmaKey": "1df7c6f7f94caabc2d2145a11b2f8a28132a1fd2",
-                "tokenType": "spacing",
-                "sourceFile": "layout-themes/default.json",
-                "sourceKind": "file"
-              },
-              "padding-bottom": {
-                "figmaId": "VariableID:1879:2282",
-                "hash": "88e75929",
-                "collectionPath": "layout-themes",
-                "modeHashes": {
-                  "layout-themes::default": "88e75929",
-                  "layout-themes::default-panelless": "88e75929",
-                  "layout-themes::default-mobile": "88e75929",
-                  "layout-themes::default-panelless-mobile": "88e75929"
-                },
-                "figmaKey": "098c5e7ca33399396afb094215a55cab50804105",
-                "tokenType": "spacing",
-                "sourceFile": "layout-themes/default.json",
-                "sourceKind": "file"
-              }
-            },
-            "action-group": {
-              "gap": {
-                "figmaId": "VariableID:1947:547",
-                "hash": "ed80626f",
-                "collectionPath": "layout-themes",
-                "modeHashes": {
-                  "layout-themes::default": "ed80626f",
-                  "layout-themes::default-panelless": "ed80626f",
-                  "layout-themes::default-mobile": "ed80626f",
-                  "layout-themes::default-panelless-mobile": "ed80626f"
-                },
-                "figmaKey": "55f84f12846faedd7c587b251650ec5112d24730",
-                "tokenType": "spacing",
-                "sourceFile": "layout-themes/default.json",
-                "sourceKind": "file"
-              }
-            }
-          },
           "drop": {
             "box": {
               "padding-horizontal": {
@@ -9556,6 +9335,230 @@
                   "layout-themes::default-panelless-mobile": "0db1fb25"
                 },
                 "figmaKey": "f0953650bb10b28895f9b0835e2244a08db70fa8",
+                "tokenType": "spacing",
+                "sourceFile": "layout-themes/default.json",
+                "sourceKind": "file"
+              }
+            }
+          },
+          "survey": {
+            "header-action-group": {
+              "gap": {
+                "figmaId": "VariableID:1947:547",
+                "hash": "ed80626f",
+                "collectionPath": "layout-themes",
+                "modeHashes": {
+                  "layout-themes::default": "ed80626f",
+                  "layout-themes::default-panelless": "ed80626f",
+                  "layout-themes::default-mobile": "ed80626f",
+                  "layout-themes::default-panelless-mobile": "ed80626f"
+                },
+                "figmaKey": "55f84f12846faedd7c587b251650ec5112d24730",
+                "tokenType": "spacing",
+                "sourceFile": "layout-themes/default.json",
+                "sourceKind": "file"
+              }
+            },
+            "header": {
+              "gap-vertical": {
+                "figmaId": "VariableID:1879:2277",
+                "hash": "ed80626f",
+                "collectionPath": "layout-themes",
+                "modeHashes": {
+                  "layout-themes::default": "ed80626f",
+                  "layout-themes::default-panelless": "ed80626f",
+                  "layout-themes::default-mobile": "ed80626f",
+                  "layout-themes::default-panelless-mobile": "ed80626f"
+                },
+                "figmaKey": "424635cff548b5887dc1745104c9b79baa1dba86",
+                "tokenType": "spacing",
+                "sourceFile": "layout-themes/default.json",
+                "sourceKind": "file"
+              },
+              "padding-top": {
+                "figmaId": "VariableID:1879:2276",
+                "hash": "a36d8936",
+                "collectionPath": "layout-themes",
+                "modeHashes": {
+                  "layout-themes::default": "a36d8936",
+                  "layout-themes::default-panelless": "a36d8936",
+                  "layout-themes::default-mobile": "a36d8936",
+                  "layout-themes::default-panelless-mobile": "a36d8936"
+                },
+                "figmaKey": "3629a37272a050a575c50fbea6e57677bf1a9499",
+                "tokenType": "spacing",
+                "sourceFile": "layout-themes/default.json",
+                "sourceKind": "file"
+              },
+              "padding-bottom": {
+                "figmaId": "VariableID:2183:1677",
+                "hash": "88e75929",
+                "collectionPath": "layout-themes",
+                "modeHashes": {
+                  "layout-themes::default": "88e75929",
+                  "layout-themes::default-panelless": "88e75929",
+                  "layout-themes::default-mobile": "88e75929",
+                  "layout-themes::default-panelless-mobile": "88e75929"
+                },
+                "figmaKey": "da055bf8830dc6ae64ba863c4abdf8bc030d77bb",
+                "tokenType": "spacing",
+                "sourceFile": "layout-themes/default.json",
+                "sourceKind": "file"
+              },
+              "padding-horizontal": {
+                "figmaId": "VariableID:2183:1678",
+                "hash": "c7fc9edb",
+                "collectionPath": "layout-themes",
+                "modeHashes": {
+                  "layout-themes::default": "c7fc9edb",
+                  "layout-themes::default-panelless": "c7fc9edb",
+                  "layout-themes::default-mobile": "c7fc9edb",
+                  "layout-themes::default-panelless-mobile": "c7fc9edb"
+                },
+                "figmaKey": "94f822fe59d3dc2ba5fc0dff61918b862cd792e3",
+                "tokenType": "spacing",
+                "sourceFile": "layout-themes/default.json",
+                "sourceKind": "file"
+              }
+            },
+            "title": {
+              "padding-vertical": {
+                "figmaId": "VariableID:1879:2279",
+                "hash": "88e75929",
+                "collectionPath": "layout-themes",
+                "modeHashes": {
+                  "layout-themes::default": "88e75929",
+                  "layout-themes::default-panelless": "88e75929",
+                  "layout-themes::default-mobile": "88e75929",
+                  "layout-themes::default-panelless-mobile": "88e75929"
+                },
+                "figmaKey": "a2c29aa6cb3d22cacb07a5350c248d469cad2dfe",
+                "tokenType": "spacing",
+                "sourceFile": "layout-themes/default.json",
+                "sourceKind": "file"
+              },
+              "padding-horizontal": {
+                "figmaId": "VariableID:1879:2278",
+                "hash": "88e75929",
+                "collectionPath": "layout-themes",
+                "modeHashes": {
+                  "layout-themes::default": "88e75929",
+                  "layout-themes::default-panelless": "88e75929",
+                  "layout-themes::default-mobile": "88e75929",
+                  "layout-themes::default-panelless-mobile": "88e75929"
+                },
+                "figmaKey": "46bbf765760e18a9455a937f376fe402c7c9021f",
+                "tokenType": "spacing",
+                "sourceFile": "layout-themes/default.json",
+                "sourceKind": "file"
+              }
+            },
+            "footer-action-group": {
+              "gap": {
+                "figmaId": "VariableID:1879:2180",
+                "hash": "d30aefd5",
+                "collectionPath": "layout-themes",
+                "modeHashes": {
+                  "layout-themes::default": "d30aefd5",
+                  "layout-themes::default-panelless": "d30aefd5",
+                  "layout-themes::default-mobile": "d30aefd5",
+                  "layout-themes::default-panelless-mobile": "d30aefd5"
+                },
+                "figmaKey": "f1ab696c3256f0d9917c5bda0c5f4df5cfcffe60",
+                "tokenType": "spacing",
+                "sourceFile": "layout-themes/default.json",
+                "sourceKind": "file"
+              }
+            },
+            "footer": {
+              "padding-bottom": {
+                "figmaId": "VariableID:2086:1382",
+                "hash": "6a441cc4",
+                "collectionPath": "layout-themes",
+                "modeHashes": {
+                  "layout-themes::default": "6a441cc4",
+                  "layout-themes::default-panelless": "6a441cc4",
+                  "layout-themes::default-mobile": "6a441cc4",
+                  "layout-themes::default-panelless-mobile": "6a441cc4"
+                },
+                "figmaKey": "e39ae3157a4ef9793759affff2bb62c67c750532",
+                "tokenType": "spacing",
+                "sourceFile": "layout-themes/default.json",
+                "sourceKind": "file"
+              },
+              "padding-top": {
+                "figmaId": "VariableID:2086:1381",
+                "hash": "88e75929",
+                "collectionPath": "layout-themes",
+                "modeHashes": {
+                  "layout-themes::default": "88e75929",
+                  "layout-themes::default-panelless": "88e75929",
+                  "layout-themes::default-mobile": "88e75929",
+                  "layout-themes::default-panelless-mobile": "88e75929"
+                },
+                "figmaKey": "8e337988227dd854e624f2dc2c847b61c9fd7374",
+                "tokenType": "spacing",
+                "sourceFile": "layout-themes/default.json",
+                "sourceKind": "file"
+              },
+              "padding-horizontal": {
+                "figmaId": "VariableID:1879:2178",
+                "hash": "c7fc9edb",
+                "collectionPath": "layout-themes",
+                "modeHashes": {
+                  "layout-themes::default": "c7fc9edb",
+                  "layout-themes::default-panelless": "c7fc9edb",
+                  "layout-themes::default-mobile": "c7fc9edb",
+                  "layout-themes::default-panelless-mobile": "c7fc9edb"
+                },
+                "figmaKey": "be86b365445023ece0f2a365deed1360c6736f71",
+                "tokenType": "spacing",
+                "sourceFile": "layout-themes/default.json",
+                "sourceKind": "file"
+              }
+            },
+            "description": {
+              "padding-top": {
+                "figmaId": "VariableID:1879:2281",
+                "hash": "88e75929",
+                "collectionPath": "layout-themes",
+                "modeHashes": {
+                  "layout-themes::default": "88e75929",
+                  "layout-themes::default-panelless": "88e75929",
+                  "layout-themes::default-mobile": "88e75929",
+                  "layout-themes::default-panelless-mobile": "88e75929"
+                },
+                "figmaKey": "1df7c6f7f94caabc2d2145a11b2f8a28132a1fd2",
+                "tokenType": "spacing",
+                "sourceFile": "layout-themes/default.json",
+                "sourceKind": "file"
+              },
+              "padding-bottom": {
+                "figmaId": "VariableID:1879:2282",
+                "hash": "88e75929",
+                "collectionPath": "layout-themes",
+                "modeHashes": {
+                  "layout-themes::default": "88e75929",
+                  "layout-themes::default-panelless": "88e75929",
+                  "layout-themes::default-mobile": "88e75929",
+                  "layout-themes::default-panelless-mobile": "88e75929"
+                },
+                "figmaKey": "098c5e7ca33399396afb094215a55cab50804105",
+                "tokenType": "spacing",
+                "sourceFile": "layout-themes/default.json",
+                "sourceKind": "file"
+              },
+              "padding-horizontal": {
+                "figmaId": "VariableID:1879:2280",
+                "hash": "88e75929",
+                "collectionPath": "layout-themes",
+                "modeHashes": {
+                  "layout-themes::default": "88e75929",
+                  "layout-themes::default-panelless": "88e75929",
+                  "layout-themes::default-mobile": "88e75929",
+                  "layout-themes::default-panelless-mobile": "88e75929"
+                },
+                "figmaKey": "cc3e6cbdcc28dd1f82805cef77d5245e8f21d9a3",
                 "tokenType": "spacing",
                 "sourceFile": "layout-themes/default.json",
                 "sourceKind": "file"
