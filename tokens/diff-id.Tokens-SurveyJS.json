@@ -9491,8 +9491,8 @@
                 "hash": "88e75929",
                 "collectionPath": "layout-themes",
                 "modeHashes": {
-                  "layout-themes::default": "88e75929",
-                  "layout-themes::default-panelless": "88e75929",
+                  "layout-themes::default": "6a441cc4",
+                  "layout-themes::default-panelless": "6a441cc4",
                   "layout-themes::default-mobile": "88e75929",
                   "layout-themes::default-panelless-mobile": "88e75929"
                 },

@@ -1401,7 +1401,8 @@
           },
           "footer-action-group": {
             "gap": {
-              "$value": "{sjs2.spacing.x150}"
+              "$value": "{sjs2.spacing.x150}",
+              "$type": "spacing"
             }
           }
         }
@@ -1673,7 +1674,6 @@
         },
         "$type": "template"
       }
-    },
-    "$type": "spacing"
+    }
   }
 }
