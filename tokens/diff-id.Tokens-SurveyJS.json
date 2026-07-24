@@ -6438,13 +6438,13 @@
               },
               "padding-bottom": {
                 "figmaId": "VariableID:2086:1380",
-                "hash": "a36d8936",
+                "hash": "88e75929",
                 "collectionPath": "layout-themes",
                 "modeHashes": {
-                  "layout-themes::default": "a36d8936",
-                  "layout-themes::default-panelless": "a36d8936",
-                  "layout-themes::default-mobile": "a36d8936",
-                  "layout-themes::default-panelless-mobile": "a36d8936"
+                  "layout-themes::default": "88e75929",
+                  "layout-themes::default-panelless": "88e75929",
+                  "layout-themes::default-mobile": "88e75929",
+                  "layout-themes::default-panelless-mobile": "88e75929"
                 },
                 "figmaKey": "f53eb6acedbf2c275d59c8aa0e85ac36242a64ae",
                 "tokenType": "spacing",

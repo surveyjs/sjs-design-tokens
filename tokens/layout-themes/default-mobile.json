@@ -437,7 +437,7 @@
               "$type": "spacing"
             },
             "padding-bottom": {
-              "$value": "{sjs2.spacing.x500}",
+              "$value": "{sjs2.spacing.x000}",
               "$type": "spacing"
             },
             "gap-horizontal": {
