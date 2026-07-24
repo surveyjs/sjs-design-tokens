@@ -9420,6 +9420,147 @@
                 "sourceKind": "file"
               }
             }
+          },
+          "panel-simple-nested": {
+            "box": {
+              "padding-horizontal": {
+                "figmaId": "VariableID:2183:1480",
+                "hash": "88e75929",
+                "collectionPath": "layout-themes",
+                "modeHashes": {
+                  "layout-themes::default": "88e75929",
+                  "layout-themes::default-panelless": "88e75929",
+                  "layout-themes::default-mobile": "88e75929",
+                  "layout-themes::default-panelless-mobile": "88e75929"
+                },
+                "figmaKey": "24ef67c332205ed07853aebdeb3009adf4bcfc48",
+                "tokenType": "spacing",
+                "sourceFile": "layout-themes/default.json",
+                "sourceKind": "file"
+              },
+              "padding-top": {
+                "figmaId": "VariableID:2183:1481",
+                "hash": "88e75929",
+                "collectionPath": "layout-themes",
+                "modeHashes": {
+                  "layout-themes::default": "88e75929",
+                  "layout-themes::default-panelless": "88e75929",
+                  "layout-themes::default-mobile": "88e75929",
+                  "layout-themes::default-panelless-mobile": "88e75929"
+                },
+                "figmaKey": "37ec94e31a07d6446bb6e37c21ec4da5c4f59238",
+                "tokenType": "spacing",
+                "sourceFile": "layout-themes/default.json",
+                "sourceKind": "file"
+              },
+              "padding-bottom": {
+                "figmaId": "VariableID:2183:1482",
+                "hash": "88e75929",
+                "collectionPath": "layout-themes",
+                "modeHashes": {
+                  "layout-themes::default": "88e75929",
+                  "layout-themes::default-panelless": "88e75929",
+                  "layout-themes::default-mobile": "88e75929",
+                  "layout-themes::default-panelless-mobile": "88e75929"
+                },
+                "figmaKey": "760f971ecfe4987ba85d02f8db221191604f0251",
+                "tokenType": "spacing",
+                "sourceFile": "layout-themes/default.json",
+                "sourceKind": "file"
+              },
+              "gap-vertical": {
+                "figmaId": "VariableID:2183:1483",
+                "hash": "0db1fb25",
+                "collectionPath": "layout-themes",
+                "modeHashes": {
+                  "layout-themes::default": "0db1fb25",
+                  "layout-themes::default-panelless": "0db1fb25",
+                  "layout-themes::default-mobile": "0db1fb25",
+                  "layout-themes::default-panelless-mobile": "0db1fb25"
+                },
+                "figmaKey": "96ec4cb2b857fb5b348ced42f95c3ba7a400fc86",
+                "tokenType": "spacing",
+                "sourceFile": "layout-themes/default.json",
+                "sourceKind": "file"
+              }
+            },
+            "content-area": {
+              "padding-horizontal": {
+                "figmaId": "VariableID:2183:1484",
+                "hash": "88e75929",
+                "collectionPath": "layout-themes",
+                "modeHashes": {
+                  "layout-themes::default": "88e75929",
+                  "layout-themes::default-panelless": "88e75929",
+                  "layout-themes::default-mobile": "88e75929",
+                  "layout-themes::default-panelless-mobile": "88e75929"
+                },
+                "figmaKey": "93a84db91ebbc9f0e4d31ff7234b955fefbc40db",
+                "tokenType": "spacing",
+                "sourceFile": "layout-themes/default.json",
+                "sourceKind": "file"
+              },
+              "padding-top": {
+                "figmaId": "VariableID:2183:1485",
+                "hash": "88e75929",
+                "collectionPath": "layout-themes",
+                "modeHashes": {
+                  "layout-themes::default": "88e75929",
+                  "layout-themes::default-panelless": "88e75929",
+                  "layout-themes::default-mobile": "88e75929",
+                  "layout-themes::default-panelless-mobile": "88e75929"
+                },
+                "figmaKey": "a1245070a89f93b920e04d0a7495b51b7d141fd4",
+                "tokenType": "spacing",
+                "sourceFile": "layout-themes/default.json",
+                "sourceKind": "file"
+              },
+              "padding-bottom": {
+                "figmaId": "VariableID:2183:1486",
+                "hash": "88e75929",
+                "collectionPath": "layout-themes",
+                "modeHashes": {
+                  "layout-themes::default": "88e75929",
+                  "layout-themes::default-panelless": "88e75929",
+                  "layout-themes::default-mobile": "88e75929",
+                  "layout-themes::default-panelless-mobile": "88e75929"
+                },
+                "figmaKey": "b127923aa98a2f96613ba09460e600c8a26dbdfa",
+                "tokenType": "spacing",
+                "sourceFile": "layout-themes/default.json",
+                "sourceKind": "file"
+              },
+              "gap-horizontal": {
+                "figmaId": "VariableID:2183:1487",
+                "hash": "a36d8936",
+                "collectionPath": "layout-themes",
+                "modeHashes": {
+                  "layout-themes::default": "c7fc9edb",
+                  "layout-themes::default-panelless": "a36d8936",
+                  "layout-themes::default-mobile": "c7fc9edb",
+                  "layout-themes::default-panelless-mobile": "a36d8936"
+                },
+                "figmaKey": "f2962413521c32732d4a345d51c94dc934460653",
+                "tokenType": "spacing",
+                "sourceFile": "layout-themes/default.json",
+                "sourceKind": "file"
+              },
+              "gap-vertical": {
+                "figmaId": "VariableID:2183:1488",
+                "hash": "0db1fb25",
+                "collectionPath": "layout-themes",
+                "modeHashes": {
+                  "layout-themes::default": "0db1fb25",
+                  "layout-themes::default-panelless": "0db1fb25",
+                  "layout-themes::default-mobile": "0db1fb25",
+                  "layout-themes::default-panelless-mobile": "0db1fb25"
+                },
+                "figmaKey": "f0953650bb10b28895f9b0835e2244a08db70fa8",
+                "tokenType": "spacing",
+                "sourceFile": "layout-themes/default.json",
+                "sourceKind": "file"
+              }
+            }
           }
         }
       },
