@@ -1427,7 +1427,7 @@
           },
           "footer": {
             "padding-top": {
-              "$value": "{sjs2.spacing.x000}",
+              "$value": "{sjs2.spacing.large-vertical}",
               "$type": "spacing"
             },
             "padding-bottom": {
