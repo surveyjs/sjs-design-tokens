@@ -419,7 +419,7 @@
               "$type": "spacing"
             },
             "padding-bottom": {
-              "$value": "{sjs2.spacing.large-vertical}",
+              "$value": "{sjs2.spacing.x000}",
               "$type": "spacing"
             },
             "gap-vertical": {
@@ -1337,6 +1337,46 @@
           }
         },
         "survey": {
+          "box": {
+            "padding-horizontal": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            },
+            "padding-top": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            },
+            "padding-bottom": {
+              "$value": "{sjs2.spacing.large-vertical}",
+              "$type": "spacing"
+            },
+            "gap-vertical": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            }
+          },
+          "content-area": {
+            "padding-horizontal": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            },
+            "padding-top": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            },
+            "padding-bottom": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            },
+            "gap-horizontal": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            },
+            "gap-vertical": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            }
+          },
           "header": {
             "gap-vertical": {
               "$value": "{sjs2.spacing.x100}",
