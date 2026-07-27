@@ -7240,13 +7240,13 @@
               },
               "padding-top": {
                 "figmaId": "VariableID:1879:2228",
-                "hash": "0db1fb25",
+                "hash": "88e75929",
                 "collectionPath": "layout-themes",
                 "modeHashes": {
-                  "layout-themes::default": "0db1fb25",
-                  "layout-themes::default-panelless": "0db1fb25",
-                  "layout-themes::default-mobile": "0db1fb25",
-                  "layout-themes::default-panelless-mobile": "0db1fb25"
+                  "layout-themes::default": "88e75929",
+                  "layout-themes::default-panelless": "88e75929",
+                  "layout-themes::default-mobile": "88e75929",
+                  "layout-themes::default-panelless-mobile": "88e75929"
                 },
                 "figmaKey": "19e2a7978e29e8f638df273e0b962416c12e6621",
                 "tokenType": "spacing",
@@ -9425,13 +9425,13 @@
               },
               "padding-top": {
                 "figmaId": "VariableID:1879:2276",
-                "hash": "a36d8936",
+                "hash": "88e75929",
                 "collectionPath": "layout-themes",
                 "modeHashes": {
-                  "layout-themes::default": "a36d8936",
-                  "layout-themes::default-panelless": "a36d8936",
-                  "layout-themes::default-mobile": "a36d8936",
-                  "layout-themes::default-panelless-mobile": "a36d8936"
+                  "layout-themes::default": "88e75929",
+                  "layout-themes::default-panelless": "88e75929",
+                  "layout-themes::default-mobile": "88e75929",
+                  "layout-themes::default-panelless-mobile": "88e75929"
                 },
                 "figmaKey": "3629a37272a050a575c50fbea6e57677bf1a9499",
                 "tokenType": "spacing",
@@ -9630,13 +9630,13 @@
               },
               "padding-top": {
                 "figmaId": "VariableID:2190:6147",
-                "hash": "88e75929",
+                "hash": "6a441cc4",
                 "collectionPath": "layout-themes",
                 "modeHashes": {
-                  "layout-themes::default": "88e75929",
-                  "layout-themes::default-panelless": "88e75929",
-                  "layout-themes::default-mobile": "88e75929",
-                  "layout-themes::default-panelless-mobile": "88e75929"
+                  "layout-themes::default": "6a441cc4",
+                  "layout-themes::default-panelless": "6a441cc4",
+                  "layout-themes::default-mobile": "6a441cc4",
+                  "layout-themes::default-panelless-mobile": "6a441cc4"
                 },
                 "figmaKey": "612bddcc161b78c887d7608d26192e1fa239493c",
                 "tokenType": "spacing",
