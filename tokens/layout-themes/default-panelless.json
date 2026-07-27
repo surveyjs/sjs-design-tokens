@@ -423,7 +423,7 @@
               "$type": "spacing"
             },
             "gap-vertical": {
-              "$value": "{sjs2.spacing.x000}",
+              "$value": "{sjs2.spacing.large-vertical}",
               "$type": "spacing"
             }
           },
@@ -433,7 +433,7 @@
               "$type": "spacing"
             },
             "padding-top": {
-              "$value": "{sjs2.spacing.x500}",
+              "$value": "{sjs2.spacing.x000}",
               "$type": "spacing"
             },
             "padding-bottom": {
