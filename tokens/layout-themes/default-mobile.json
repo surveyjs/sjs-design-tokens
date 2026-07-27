@@ -455,7 +455,7 @@
               "$type": "spacing"
             },
             "padding-top": {
-              "$value": "{sjs2.spacing.large-vertical}",
+              "$value": "{sjs2.spacing.x000}",
               "$type": "spacing"
             },
             "padding-bottom": {
@@ -1347,11 +1347,11 @@
               "$type": "spacing"
             },
             "padding-bottom": {
-              "$value": "{sjs2.spacing.large-vertical}",
+              "$value": "{sjs2.spacing.large-vertical} * 2",
               "$type": "spacing"
             },
             "gap-vertical": {
-              "$value": "{sjs2.spacing.x000}",
+              "$value": "{sjs2.spacing.large-vertical}",
               "$type": "spacing"
             }
           },
@@ -1379,11 +1379,11 @@
           },
           "footer": {
             "padding-top": {
-              "$value": "{sjs2.spacing.large-vertical}",
+              "$value": "{sjs2.spacing.x000}",
               "$type": "spacing"
             },
             "padding-bottom": {
-              "$value": "{sjs2.spacing.large-vertical}",
+              "$value": "{sjs2.spacing.x000}",
               "$type": "spacing"
             },
             "padding-horizontal": {

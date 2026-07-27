@@ -1782,6 +1782,30 @@
             "tokenType": "spacing",
             "sourceFile": "common.json",
             "sourceKind": "file"
+          },
+          "x900": {
+            "figmaId": "VariableID:2206:5052",
+            "hash": "cbec112f",
+            "collectionPath": "common",
+            "modeHashes": {
+              "common::default": "cbec112f"
+            },
+            "figmaKey": "971d7e3acbf5f6d00675dd4ffdb42587c6db340c",
+            "tokenType": "spacing",
+            "sourceFile": "common.json",
+            "sourceKind": "file"
+          },
+          "x1000": {
+            "figmaId": "VariableID:2206:5053",
+            "hash": "766177c2",
+            "collectionPath": "common",
+            "modeHashes": {
+              "common::default": "766177c2"
+            },
+            "figmaKey": "07b27949675179a4cec8d22ffd2965a8a260f8f4",
+            "tokenType": "spacing",
+            "sourceFile": "common.json",
+            "sourceKind": "file"
           }
         },
         "medium-horizontal": {
@@ -1842,6 +1866,30 @@
           "figmaKey": "5ec53e9e5f669030b538d2113c4049218fb383a8",
           "tokenType": "spacing",
           "sourceFile": "layout-themes/default.json",
+          "sourceKind": "file"
+        },
+        "x900": {
+          "figmaId": "VariableID:2206:5050",
+          "hash": "a44a1f2d",
+          "collectionPath": "common",
+          "modeHashes": {
+            "common::default": "a44a1f2d"
+          },
+          "figmaKey": "1578756cb25ac94832ac8f704eb483653f516e42",
+          "tokenType": "spacing",
+          "sourceFile": "common.json",
+          "sourceKind": "file"
+        },
+        "x1000": {
+          "figmaId": "VariableID:2206:5051",
+          "hash": "9800b0e0",
+          "collectionPath": "common",
+          "modeHashes": {
+            "common::default": "9800b0e0"
+          },
+          "figmaKey": "acdadd5d6a0210db51a6c098cb0e7dc3a8cf00c7",
+          "tokenType": "spacing",
+          "sourceFile": "common.json",
           "sourceKind": "file"
         }
       },
@@ -6485,13 +6533,13 @@
               },
               "padding-top": {
                 "figmaId": "VariableID:1879:2171",
-                "hash": "6a441cc4",
+                "hash": "88e75929",
                 "collectionPath": "layout-themes",
                 "modeHashes": {
-                  "layout-themes::default": "6a441cc4",
-                  "layout-themes::default-panelless": "6a441cc4",
-                  "layout-themes::default-mobile": "6a441cc4",
-                  "layout-themes::default-panelless-mobile": "6a441cc4"
+                  "layout-themes::default": "88e75929",
+                  "layout-themes::default-panelless": "88e75929",
+                  "layout-themes::default-mobile": "88e75929",
+                  "layout-themes::default-panelless-mobile": "88e75929"
                 },
                 "figmaKey": "c1938f0ddbc1f38eec330e984a2b852ab8709eef",
                 "tokenType": "spacing",
@@ -9473,13 +9521,13 @@
             "footer": {
               "padding-bottom": {
                 "figmaId": "VariableID:2086:1382",
-                "hash": "6a441cc4",
+                "hash": "88e75929",
                 "collectionPath": "layout-themes",
                 "modeHashes": {
-                  "layout-themes::default": "6a441cc4",
-                  "layout-themes::default-panelless": "6a441cc4",
-                  "layout-themes::default-mobile": "6a441cc4",
-                  "layout-themes::default-panelless-mobile": "6a441cc4"
+                  "layout-themes::default": "88e75929",
+                  "layout-themes::default-panelless": "88e75929",
+                  "layout-themes::default-mobile": "88e75929",
+                  "layout-themes::default-panelless-mobile": "88e75929"
                 },
                 "figmaKey": "e39ae3157a4ef9793759affff2bb62c67c750532",
                 "tokenType": "spacing",
@@ -9488,13 +9536,13 @@
               },
               "padding-top": {
                 "figmaId": "VariableID:2086:1381",
-                "hash": "6a441cc4",
+                "hash": "88e75929",
                 "collectionPath": "layout-themes",
                 "modeHashes": {
-                  "layout-themes::default": "6a441cc4",
-                  "layout-themes::default-panelless": "6a441cc4",
-                  "layout-themes::default-mobile": "6a441cc4",
-                  "layout-themes::default-panelless-mobile": "6a441cc4"
+                  "layout-themes::default": "88e75929",
+                  "layout-themes::default-panelless": "88e75929",
+                  "layout-themes::default-mobile": "88e75929",
+                  "layout-themes::default-panelless-mobile": "88e75929"
                 },
                 "figmaKey": "8e337988227dd854e624f2dc2c847b61c9fd7374",
                 "tokenType": "spacing",
@@ -9597,13 +9645,13 @@
               },
               "padding-bottom": {
                 "figmaId": "VariableID:2190:6148",
-                "hash": "6a441cc4",
+                "hash": "fa8c3bee",
                 "collectionPath": "layout-themes",
                 "modeHashes": {
-                  "layout-themes::default": "6a441cc4",
-                  "layout-themes::default-panelless": "6a441cc4",
-                  "layout-themes::default-mobile": "6a441cc4",
-                  "layout-themes::default-panelless-mobile": "6a441cc4"
+                  "layout-themes::default": "fa8c3bee",
+                  "layout-themes::default-panelless": "fa8c3bee",
+                  "layout-themes::default-mobile": "fa8c3bee",
+                  "layout-themes::default-panelless-mobile": "fa8c3bee"
                 },
                 "figmaKey": "562f10f2f8543a0b076625f0c01d8c3d880940d7",
                 "tokenType": "spacing",
@@ -9612,13 +9660,13 @@
               },
               "gap-vertical": {
                 "figmaId": "VariableID:2190:6149",
-                "hash": "88e75929",
+                "hash": "6a441cc4",
                 "collectionPath": "layout-themes",
                 "modeHashes": {
-                  "layout-themes::default": "88e75929",
-                  "layout-themes::default-panelless": "88e75929",
-                  "layout-themes::default-mobile": "88e75929",
-                  "layout-themes::default-panelless-mobile": "88e75929"
+                  "layout-themes::default": "6a441cc4",
+                  "layout-themes::default-panelless": "6a441cc4",
+                  "layout-themes::default-mobile": "6a441cc4",
+                  "layout-themes::default-panelless-mobile": "6a441cc4"
                 },
                 "figmaKey": "aa14a167fba44aa5b175b02d09c224be863ad0dc",
                 "tokenType": "spacing",

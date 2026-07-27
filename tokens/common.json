@@ -259,6 +259,14 @@
         "$value": "{sjs2.base-unit.spacing} * 8",
         "$type": "spacing"
       },
+      "x900": {
+        "$value": "{sjs2.base-unit.spacing} * 9",
+        "$type": "spacing"
+      },
+      "x1000": {
+        "$value": "{sjs2.base-unit.spacing} * 10",
+        "$type": "spacing"
+      },
       "negative": {
         "x025": {
           "$value": "{sjs2.base-unit.spacing} * -0.25",
@@ -314,6 +322,14 @@
         },
         "x800": {
           "$value": "{sjs2.base-unit.spacing} * -8",
+          "$type": "spacing"
+        },
+        "x900": {
+          "$value": "{sjs2.base-unit.spacing} * -9",
+          "$type": "spacing"
+        },
+        "x1000": {
+          "$value": "{sjs2.base-unit.spacing} * -10",
           "$type": "spacing"
         }
       }
