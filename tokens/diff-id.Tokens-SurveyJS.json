@@ -1418,6 +1418,21 @@
             "tokenType": "borderRadius",
             "sourceFile": "layout-themes/default.json",
             "sourceKind": "file"
+          },
+          "panel-simple-nested": {
+            "figmaId": "VariableID:2274:5450",
+            "hash": "8c16674f",
+            "collectionPath": "layout-themes",
+            "modeHashes": {
+              "layout-themes::default": "8c16674f",
+              "layout-themes::default-panelless": "8c16674f",
+              "layout-themes::default-mobile": "8c16674f",
+              "layout-themes::default-panelless-mobile": "8c16674f"
+            },
+            "figmaKey": "f570accaea7fe0a447030a83bcededbbef789aee",
+            "tokenType": "borderRadius",
+            "sourceFile": "layout-themes/default.json",
+            "sourceKind": "file"
           }
         }
       },

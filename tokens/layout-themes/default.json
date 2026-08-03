@@ -1653,23 +1653,23 @@
         },
         "panel": {
           "$value": "{sjs2.radius.x150}",
-          "$type": "borderRadius",
-          "$description": "Corner radius of question-box."
+          "$type": "borderRadius"
         },
         "panel-simple": {
           "$value": "{sjs2.radius.component.panel}",
-          "$type": "borderRadius",
-          "$description": "Corner radius of question-box."
+          "$type": "borderRadius"
+        },
+        "panel-simple-nested": {
+          "$value": "{sjs2.radius.x000}",
+          "$type": "borderRadius"
         },
         "panel-dynamic": {
           "$value": "{sjs2.radius.component.panel}",
-          "$type": "borderRadius",
-          "$description": "Corner radius of question-box."
+          "$type": "borderRadius"
         },
         "panel-nested": {
           "$value": "{sjs2.radius.form}",
-          "$type": "borderRadius",
-          "$description": "Corner radius of nested panel inside the question-box."
+          "$type": "borderRadius"
         },
         "modal": {
           "$value": "{sjs2.radius.x300}",
