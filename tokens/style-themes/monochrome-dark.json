@@ -3330,6 +3330,62 @@
               "$type": "color"
             }
           }
+        },
+        "panel-simple-nested": {
+          "default": {
+            "bg": {
+              "$value": "transparent",
+              "$type": "color"
+            },
+            "title": {
+              "$value": "{sjs2.color.fg.basic.primary}",
+              "$type": "color"
+            },
+            "title-placeholder": {
+              "$value": "{sjs2.color.fg.basic.secondary}",
+              "$type": "color"
+            },
+            "description": {
+              "$value": "{sjs2.color.fg.basic.secondary}",
+              "$type": "color"
+            },
+            "description-placeholder": {
+              "$value": "{sjs2.color.fg.basic.tertiary}",
+              "$type": "color"
+            },
+            "separator": {
+              "$value": "transparent",
+              "$type": "color"
+            },
+            "border": {
+              "$value": "transparent",
+              "$type": "color"
+            }
+          },
+          "hovered": {
+            "bg": {
+              "$value": "{sjs2.color.bg.basic.primary}",
+              "$type": "color"
+            }
+          },
+          "focused": {
+            "bg": {
+              "$value": "{sjs2.color.bg.basic.primary}",
+              "$type": "color"
+            }
+          },
+          "disabled": {
+            "bg": {
+              "$value": "{sjs2.color.bg.basic.primary}",
+              "$type": "color"
+            }
+          },
+          "dragging": {
+            "bg": {
+              "$value": "{sjs2.color.bg.basic.primary}",
+              "$type": "color"
+            }
+          }
         }
       }
     },
