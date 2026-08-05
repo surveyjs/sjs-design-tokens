@@ -2873,30 +2873,6 @@
             }
           }
         },
-        "header": {
-          "default": {
-            "title": {
-              "$value": "{sjs2.color.fg.basic.primary}",
-              "$type": "color"
-            },
-            "title-placeholder": {
-              "$value": "{sjs2.color.fg.basic.secondary}",
-              "$type": "color"
-            },
-            "description": {
-              "$value": "{sjs2.color.fg.basic.secondary}",
-              "$type": "color"
-            },
-            "description-placeholder": {
-              "$value": "{sjs2.color.fg.basic.tertiary}",
-              "$type": "color"
-            },
-            "bg": {
-              "$value": "transparent",
-              "$type": "color"
-            }
-          }
-        },
         "boolean-item": {
           "false": {
             "default": {
@@ -3447,6 +3423,30 @@
           "dragging": {
             "bg": {
               "$value": "{sjs2.color.bg.basic.primary}",
+              "$type": "color"
+            }
+          }
+        },
+        "survey-header": {
+          "default": {
+            "title": {
+              "$value": "{sjs2.color.fg.basic.primary}",
+              "$type": "color"
+            },
+            "title-placeholder": {
+              "$value": "{sjs2.color.fg.basic.secondary}",
+              "$type": "color"
+            },
+            "description": {
+              "$value": "{sjs2.color.fg.basic.secondary}",
+              "$type": "color"
+            },
+            "description-placeholder": {
+              "$value": "{sjs2.color.fg.basic.tertiary}",
+              "$type": "color"
+            },
+            "bg": {
+              "$value": "transparent",
               "$type": "color"
             }
           }

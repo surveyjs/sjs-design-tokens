@@ -152,26 +152,6 @@
             "$type": "typography"
           }
         },
-        "header": {
-          "title": {
-            "$value": {
-              "fontFamily": "{sjs2.typography.font-family.component.header.title}",
-              "fontWeight": "{sjs2.typography.font-weight.component.header.title}",
-              "fontSize": "{sjs2.typography.font-size.component.header.title}",
-              "lineHeight": "{sjs2.typography.line-height.component.header.title}"
-            },
-            "$type": "typography"
-          },
-          "description": {
-            "$value": {
-              "fontFamily": "{sjs2.typography.font-family.component.header.description}",
-              "fontWeight": "{sjs2.typography.font-weight.component.header.description}",
-              "fontSize": "{sjs2.typography.font-size.component.header.description}",
-              "lineHeight": "{sjs2.typography.line-height.component.header.description}"
-            },
-            "$type": "typography"
-          }
-        },
         "panel": {
           "title": {
             "$value": {
@@ -299,6 +279,26 @@
             },
             "$type": "typography"
           }
+        },
+        "survey-header": {
+          "title": {
+            "$value": {
+              "fontFamily": "{sjs2.typography.font-family.component.survey-header.title}",
+              "fontWeight": "{sjs2.typography.font-weight.component.survey-header.title}",
+              "fontSize": "{sjs2.typography.font-size.component.survey-header.title}",
+              "lineHeight": "{sjs2.typography.line-height.component.survey-header.title}"
+            },
+            "$type": "typography"
+          },
+          "description": {
+            "$value": {
+              "fontFamily": "{sjs2.typography.font-family.component.survey-header.description}",
+              "fontWeight": "{sjs2.typography.font-weight.component.survey-header.description}",
+              "fontSize": "{sjs2.typography.font-size.component.survey-header.description}",
+              "lineHeight": "{sjs2.typography.line-height.component.survey-header.description}"
+            },
+            "$type": "typography"
+          }
         }
       },
       "font-family": {
@@ -328,16 +328,6 @@
             }
           },
           "page": {
-            "title": {
-              "$value": "{sjs2.typography.font-family.text}",
-              "$type": "fontFamily"
-            },
-            "description": {
-              "$value": "{sjs2.typography.font-family.text}",
-              "$type": "fontFamily"
-            }
-          },
-          "header": {
             "title": {
               "$value": "{sjs2.typography.font-family.text}",
               "$type": "fontFamily"
@@ -411,6 +401,16 @@
           },
           "message": {
             "content": {
+              "$value": "{sjs2.typography.font-family.text}",
+              "$type": "fontFamily"
+            }
+          },
+          "survey-header": {
+            "title": {
+              "$value": "{sjs2.typography.font-family.text}",
+              "$type": "fontFamily"
+            },
+            "description": {
               "$value": "{sjs2.typography.font-family.text}",
               "$type": "fontFamily"
             }
@@ -467,16 +467,6 @@
               "$type": "fontSize"
             }
           },
-          "header": {
-            "title": {
-              "$value": "{sjs2.typography.font-size.large}",
-              "$type": "fontSize"
-            },
-            "description": {
-              "$value": "{sjs2.typography.font-size.default}",
-              "$type": "fontSize"
-            }
-          },
           "panel": {
             "title": {
               "$value": "{sjs2.typography.font-size.default}",
@@ -536,6 +526,16 @@
             },
             "hint": {
               "$value": "{sjs2.typography.font-size.small}",
+              "$type": "fontSize"
+            }
+          },
+          "survey-header": {
+            "title": {
+              "$value": "{sjs2.typography.font-size.large}",
+              "$type": "fontSize"
+            },
+            "description": {
+              "$value": "{sjs2.typography.font-size.default}",
               "$type": "fontSize"
             }
           }
@@ -588,16 +588,6 @@
               "$type": "lineHeight"
             }
           },
-          "header": {
-            "title": {
-              "$value": "{sjs2.typography.line-height.large}",
-              "$type": "lineHeight"
-            },
-            "description": {
-              "$value": "{sjs2.typography.line-height.default}",
-              "$type": "lineHeight"
-            }
-          },
           "panel": {
             "title": {
               "$value": "{sjs2.typography.line-height.default}",
@@ -662,6 +652,16 @@
           },
           "message": {
             "content": {
+              "$value": "{sjs2.typography.line-height.default}",
+              "$type": "lineHeight"
+            }
+          },
+          "survey-header": {
+            "title": {
+              "$value": "{sjs2.typography.line-height.large}",
+              "$type": "lineHeight"
+            },
+            "description": {
               "$value": "{sjs2.typography.line-height.default}",
               "$type": "lineHeight"
             }
@@ -707,16 +707,6 @@
               "$type": "fontWeight"
             }
           },
-          "header": {
-            "title": {
-              "$value": "{sjs2.typography.font-weight.strong}",
-              "$type": "fontWeight"
-            },
-            "description": {
-              "$value": "{sjs2.typography.font-weight.basic}",
-              "$type": "fontWeight"
-            }
-          },
           "panel": {
             "title": {
               "$value": "{sjs2.typography.font-weight.strong}",
@@ -781,6 +771,16 @@
           },
           "message": {
             "content": {
+              "$value": "{sjs2.typography.font-weight.basic}",
+              "$type": "fontWeight"
+            }
+          },
+          "survey-header": {
+            "title": {
+              "$value": "{sjs2.typography.font-weight.strong}",
+              "$type": "fontWeight"
+            },
+            "description": {
               "$value": "{sjs2.typography.font-weight.basic}",
               "$type": "fontWeight"
             }
