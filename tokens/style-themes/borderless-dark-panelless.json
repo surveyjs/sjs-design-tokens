@@ -2673,6 +2673,10 @@
             "bg": {
               "$value": "{sjs2.color.bg.basic.primary}",
               "$type": "color"
+            },
+            "title": {
+              "$value": "{sjs2.color.fg.basic.primary-dim}",
+              "$type": "color"
             }
           },
           "focused": {
@@ -3105,6 +3109,10 @@
             "bg": {
               "$value": "{sjs2.color.bg.basic.primary}",
               "$type": "color"
+            },
+            "title": {
+              "$value": "{sjs2.color.fg.basic.primary-dim}",
+              "$type": "color"
             }
           },
           "focused": {
@@ -3134,26 +3142,6 @@
             },
             "border": {
               "$value": "transparent",
-              "$type": "color"
-            },
-            "title": {
-              "$value": "{sjs2.color.fg.basic.primary}",
-              "$type": "color"
-            },
-            "title-placeholder": {
-              "$value": "{sjs2.color.fg.basic.secondary}",
-              "$type": "color"
-            },
-            "description": {
-              "$value": "{sjs2.color.fg.basic.secondary}",
-              "$type": "color"
-            },
-            "description-placeholder": {
-              "$value": "{sjs2.color.fg.basic.tertiary}",
-              "$type": "color"
-            },
-            "separator": {
-              "$value": "{sjs2.color.border.basic.secondary}",
               "$type": "color"
             }
           },
@@ -3217,6 +3205,10 @@
             "bg": {
               "$value": "{sjs2.color.bg.basic.primary}",
               "$type": "color"
+            },
+            "title": {
+              "$value": "{sjs2.color.fg.basic.primary-dim}",
+              "$type": "color"
             }
           },
           "focused": {
@@ -3245,26 +3237,6 @@
               "$type": "color"
             },
             "border": {
-              "$value": "transparent",
-              "$type": "color"
-            },
-            "title": {
-              "$value": "{sjs2.color.fg.basic.primary}",
-              "$type": "color"
-            },
-            "title-placeholder": {
-              "$value": "{sjs2.color.fg.basic.secondary}",
-              "$type": "color"
-            },
-            "description": {
-              "$value": "{sjs2.color.fg.basic.secondary}",
-              "$type": "color"
-            },
-            "description-placeholder": {
-              "$value": "{sjs2.color.fg.basic.tertiary}",
-              "$type": "color"
-            },
-            "separator": {
               "$value": "transparent",
               "$type": "color"
             }
