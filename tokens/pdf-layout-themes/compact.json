@@ -166,7 +166,7 @@
             "$type": "spacing"
           }
         },
-        "check": {
+        "labeled-item": {
           "padding-vertical": {
             "$value": "{sjs2.spacing.x000}",
             "$type": "spacing"
