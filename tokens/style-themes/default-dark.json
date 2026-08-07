@@ -579,6 +579,10 @@
           "tertiary-disabled": {
             "$value": "rgba( {sjs2.color.fg.basic.primary}, {sjs2.opacity.x025} )",
             "$type": "color"
+          },
+          "primary-dim": {
+            "$value": "{sjs2.color.fg.basic.primary}",
+            "$type": "color"
           }
         },
         "neutral": {
@@ -596,6 +600,10 @@
           },
           "primary-disabled": {
             "$value": "rgba( {sjs2.color.fg.neutral.primary}, {sjs2.opacity.x025} )",
+            "$type": "color"
+          },
+          "primary-dim": {
+            "$value": "{sjs2.color.fg.basic.primary-muted}",
             "$type": "color"
           }
         },
