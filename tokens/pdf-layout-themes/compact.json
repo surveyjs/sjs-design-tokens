@@ -120,20 +120,6 @@
             "$type": "spacing"
           }
         },
-        "check": {
-          "padding-vertical": {
-            "$value": "{sjs2.spacing.x000}",
-            "$type": "spacing"
-          },
-          "padding-horizontal": {
-            "$value": "{sjs2.spacing.x050}",
-            "$type": "spacing"
-          },
-          "gap": {
-            "$value": "{sjs2.spacing.x100}",
-            "$type": "spacing"
-          }
-        },
         "matrix": {
           "padding-vertical": {
             "$value": "{sjs2.spacing.x000}",
@@ -177,6 +163,20 @@
         "image-picker": {
           "items-gap-image-check": {
             "$value": "{sjs2.spacing.x000}",
+            "$type": "spacing"
+          }
+        },
+        "check": {
+          "padding-vertical": {
+            "$value": "{sjs2.spacing.x000}",
+            "$type": "spacing"
+          },
+          "padding-horizontal": {
+            "$value": "{sjs2.spacing.x050}",
+            "$type": "spacing"
+          },
+          "gap": {
+            "$value": "{sjs2.spacing.x100}",
             "$type": "spacing"
           }
         }
