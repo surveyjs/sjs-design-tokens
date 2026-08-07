@@ -2715,6 +2715,12 @@
               "$value": "{sjs2.color.fg.basic.tertiary}",
               "$type": "color"
             }
+          },
+          "hovered": {
+            "title": {
+              "$value": "{sjs2.color.fg.basic.primary-dim}",
+              "$type": "color"
+            }
           }
         },
         "page": {
