@@ -1445,6 +1445,74 @@
               "$type": "spacing"
             }
           }
+        },
+        "matrix": {
+          "box": {
+            "padding-top": {
+              "$value": "{sjs2.spacing.x300}",
+              "$type": "spacing"
+            },
+            "padding-bottom": {
+              "$value": "{sjs2.spacing.x300}",
+              "$type": "spacing"
+            },
+            "gap-vertical": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            },
+            "padding-left": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            },
+            "padding-right": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            }
+          },
+          "row": {
+            "padding-top": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            },
+            "padding-bottom": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            },
+            "gap-horizontal": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            },
+            "padding-left": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            },
+            "padding-right": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            }
+          },
+          "cell": {
+            "padding-top": {
+              "$value": "{sjs2.spacing.x100}",
+              "$type": "spacing"
+            },
+            "padding-bottom": {
+              "$value": "{sjs2.spacing.x100}",
+              "$type": "spacing"
+            },
+            "gap-horizontal": {
+              "$value": "{sjs2.spacing.x100}",
+              "$type": "spacing"
+            },
+            "padding-left": {
+              "$value": "{sjs2.spacing.x100}",
+              "$type": "spacing"
+            },
+            "padding-right": {
+              "$value": "{sjs2.spacing.x100}",
+              "$type": "spacing"
+            }
+          }
         }
       }
     },
