@@ -17,6 +17,13 @@ if not exist "..\survey-library\packages\survey-core\src\default-theme" (
     ) else (
         echo Error copying base-theme.ts.
     )
+    echo Copying base-theme.scss...
+    xcopy "build\base-theme.scss" "..\survey-library\packages\survey-core\src\default-theme\" /Y /I
+    if %errorlevel% equ 0 (
+        echo base-theme.scss copied successfully.
+    ) else (
+        echo Error copying base-theme.scss.
+    )
 )
 
 if exist "build\themes" (

@@ -549,6 +549,24 @@ function tokenToCSSVariable(tokenName) {
   return `--${tokenName.replace(/\./g, '-').toLowerCase()}`;
 }
 
+const VARIABLES_PER_RULE = 300;
+
+function buildBaseThemeCss(cssVariables) {
+  const themeRootClass = "sd-theme-root";
+  const names = Object.keys(cssVariables);
+  const rules = [];
+
+  for (let i = 0; i < names.length; i += VARIABLES_PER_RULE) {
+    const declarations = names
+      .slice(i, i + VARIABLES_PER_RULE)
+      .map((name) => `  ${name}: ${cssVariables[name]};`)
+      .join("\n");
+    rules.push(`:where(.${themeRootClass}) {\n${declarations}\n}`);
+  }
+
+  return rules.join("\n");
+}
+
 // Function for loading all tokens
 function loadAllTokens() {
   const tokensDir = path.join(__dirname, 'tokens');
@@ -696,6 +714,13 @@ export default ${JSON.stringify(outputObject, null, 2)};
   writeThemeTsFile(baseTsPath, "base", baseThemeConfig, baseCssVariables);
   console.log(`Created TypeScript file: ${baseTsPath}`);
 
+  const baseScssPath = path.join(buildDir, "base-theme.scss");
+  const scssContent = `// Auto-generated theme: base
+${buildBaseThemeCss(baseCssVariables)}
+`;
+  fs.writeFileSync(baseScssPath, scssContent);
+  console.log(`Created SCSS file: ${baseScssPath}`);
+
   // Process each theme configuration
   for (const themeConfig of THEME_CONFIG) {
     const { objectName, themeName, tokenPaths } = themeConfig;
@@ -757,5 +782,6 @@ module.exports = {
   processColorModifications,
   tokenToCSSVariable,
   loadAllTokens,
-  createTypeScriptFiles
+  createTypeScriptFiles,
+  buildBaseThemeCss
 }; 
