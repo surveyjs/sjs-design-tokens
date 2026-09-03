@@ -1527,7 +1527,7 @@
               "$type": "spacing"
             },
             "padding-left": {
-              "$value": "{sjs2.spacing.x100}",
+              "$value": "{sjs2.spacing.large-horizontal}",
               "$type": "spacing"
             },
             "padding-right": {
@@ -1553,17 +1553,17 @@
               "$type": "spacing"
             },
             "padding-right": {
-              "$value": "{sjs2.spacing.x100}",
+              "$value": "{sjs2.spacing.large-horizontal}",
               "$type": "spacing"
             }
           },
           "header-cell": {
             "padding-top": {
-              "$value": "{sjs2.spacing.x100}",
+              "$value": "{sjs2.spacing.x150}",
               "$type": "spacing"
             },
             "padding-bottom": {
-              "$value": "{sjs2.spacing.x100}",
+              "$value": "{sjs2.spacing.x150}",
               "$type": "spacing"
             },
             "gap-horizontal": {
@@ -1581,11 +1581,11 @@
           },
           "header-cell-left": {
             "padding-top": {
-              "$value": "{sjs2.spacing.x100}",
+              "$value": "{sjs2.spacing.x150}",
               "$type": "spacing"
             },
             "padding-bottom": {
-              "$value": "{sjs2.spacing.x100}",
+              "$value": "{sjs2.spacing.x150}",
               "$type": "spacing"
             },
             "gap-horizontal": {
@@ -1593,7 +1593,7 @@
               "$type": "spacing"
             },
             "padding-left": {
-              "$value": "{sjs2.spacing.x100}",
+              "$value": "{sjs2.spacing.large-horizontal}",
               "$type": "spacing"
             },
             "padding-right": {
@@ -1603,11 +1603,11 @@
           },
           "header-cell-right": {
             "padding-top": {
-              "$value": "{sjs2.spacing.x100}",
+              "$value": "{sjs2.spacing.x150}",
               "$type": "spacing"
             },
             "padding-bottom": {
-              "$value": "{sjs2.spacing.x100}",
+              "$value": "{sjs2.spacing.x150}",
               "$type": "spacing"
             },
             "gap-horizontal": {
@@ -1619,7 +1619,7 @@
               "$type": "spacing"
             },
             "padding-right": {
-              "$value": "{sjs2.spacing.x100}",
+              "$value": "{sjs2.spacing.large-horizontal}",
               "$type": "spacing"
             }
           },
