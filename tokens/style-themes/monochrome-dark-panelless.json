@@ -3497,6 +3497,14 @@
               }
             }
           }
+        },
+        "matrix": {
+          "default": {
+            "separator": {
+              "$value": "transparent",
+              "$type": "color"
+            }
+          }
         }
       }
     },
@@ -3526,6 +3534,16 @@
       "a11y": {
         "$value": "{sjs2.border-width.x400}",
         "$type": "borderWidth"
+      },
+      "component": {
+        "matrix": {
+          "default": {
+            "separator": {
+              "$value": "{sjs2.border-width.x000}",
+              "$type": "borderWidth"
+            }
+          }
+        }
       }
     },
     "border-spread": {
