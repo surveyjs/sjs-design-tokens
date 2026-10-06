@@ -440,46 +440,63 @@
     },
     "animation": {
       "time": {
-        "xs": {
-          "$value": {
-            "duration": "100"
-          },
-          "$type": "animationTime"
+        "x000": {
+          "$value": "0ms",
+          "$type": "duration"
         },
-        "s": {
-          "$value": {
-            "duration": "200"
-          },
-          "$type": "animationTime"
+        "x100": {
+          "$value": "100ms",
+          "$type": "duration"
         },
-        "m": {
-          "$value": {
-            "duration": "400"
-          },
-          "$type": "animationTime"
+        "x150": {
+          "$value": "150ms",
+          "$type": "duration"
         },
-        "l": {
-          "$value": {
-            "duration": "600"
-          },
-          "$type": "animationTime"
+        "x200": {
+          "$value": "200ms",
+          "$type": "duration"
         },
-        "xl": {
-          "$value": {
-            "duration": "800"
-          },
-          "$type": "animationTime"
+        "x250": {
+          "$value": "250ms",
+          "$type": "duration"
+        },
+        "x300": {
+          "$value": "300ms",
+          "$type": "duration"
+        },
+        "x350": {
+          "$value": "350ms",
+          "$type": "duration"
+        },
+        "x400": {
+          "$value": "400ms",
+          "$type": "duration"
+        },
+        "x450": {
+          "$value": "450ms",
+          "$type": "duration"
+        },
+        "x500": {
+          "$value": "500ms",
+          "$type": "duration"
+        },
+        "x600": {
+          "$value": "600ms",
+          "$type": "duration"
+        },
+        "x700": {
+          "$value": "700ms",
+          "$type": "duration"
+        },
+        "x800": {
+          "$value": "800ms",
+          "$type": "duration"
         }
       },
       "ease": {
         "base": {
-          "$value": {
-            "x1": "0.4",
-            "y1": "0.24",
-            "x2": "0",
-            "y2": "1"
-          },
-          "$type": "animationEaseBase"
+          "$value": "cubic-bezier(0.4, 0.24, 0, 1)",
+          "$type": "cubicBezier"
         }
       }
     },
