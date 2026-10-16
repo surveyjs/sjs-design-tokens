@@ -1667,6 +1667,132 @@
               "$type": "spacing"
             }
           }
+        },
+        "panel-matrix": {
+          "box": {
+            "padding-horizontal": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            },
+            "padding-top": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            },
+            "padding-bottom": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            },
+            "gap-vertical": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            }
+          },
+          "content-area": {
+            "padding-horizontal": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            },
+            "padding-top": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            },
+            "padding-bottom": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            },
+            "gap-horizontal": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            },
+            "gap-vertical": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            }
+          },
+          "header": {
+            "padding-left": {
+              "$value": "{sjs2.spacing.large-horizontal}",
+              "$type": "spacing"
+            },
+            "padding-right": {
+              "$value": "{sjs2.spacing.large-horizontal}",
+              "$type": "spacing"
+            },
+            "padding-top": {
+              "$value": "{sjs2.spacing.medium-vertical}",
+              "$type": "spacing"
+            },
+            "padding-bottom": {
+              "$value": "{sjs2.spacing.medium-vertical}",
+              "$type": "spacing"
+            },
+            "gap-vertical": {
+              "$value": "{sjs2.spacing.x050}",
+              "$type": "spacing"
+            },
+            "gap-horizontal": {
+              "$value": "{sjs2.spacing.x150}",
+              "$type": "spacing"
+            }
+          },
+          "title": {
+            "padding-horizontal": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            },
+            "padding-vertical": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            }
+          },
+          "description": {
+            "padding-horizontal": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            },
+            "padding-top": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            },
+            "padding-bottom": {
+              "$value": "{sjs2.spacing.x000}",
+              "$type": "spacing"
+            }
+          },
+          "footer": {
+            "padding-left": {
+              "$value": "{sjs2.spacing.large-horizontal}",
+              "$type": "spacing"
+            },
+            "padding-right": {
+              "$value": "{sjs2.spacing.large-horizontal}",
+              "$type": "spacing"
+            },
+            "padding-top": {
+              "$value": "{sjs2.spacing.medium-vertical}",
+              "$type": "spacing"
+            },
+            "padding-bottom": {
+              "$value": "{sjs2.spacing.medium-vertical}",
+              "$type": "spacing"
+            },
+            "gap": {
+              "$value": "{sjs2.spacing.x300}",
+              "$type": "spacing"
+            }
+          },
+          "footer-action-group": {
+            "gap": {
+              "$value": "{sjs2.spacing.x150}",
+              "$type": "spacing"
+            }
+          },
+          "header-action-group": {
+            "gap": {
+              "$value": "{sjs2.spacing.x150}",
+              "$type": "spacing"
+            }
+          }
         }
       }
     },
