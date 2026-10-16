@@ -197,75 +197,165 @@
     "spacing": {
       "x000": {
         "$value": "{sjs2.base-unit.spacing} * 0",
-        "$type": "spacing"
+        "$type": "spacing",
+        "$extensions": {
+          "figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
       },
       "x025": {
         "$value": "{sjs2.base-unit.spacing} * 0.25",
-        "$type": "spacing"
+        "$type": "spacing",
+        "$extensions": {
+          "figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
       },
       "x050": {
         "$value": "{sjs2.base-unit.spacing} * 0.50",
-        "$type": "spacing"
+        "$type": "spacing",
+        "$extensions": {
+          "figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
       },
       "x075": {
         "$value": "{sjs2.base-unit.spacing} * 0.75",
-        "$type": "spacing"
+        "$type": "spacing",
+        "$extensions": {
+          "figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
       },
       "x100": {
         "$value": "{sjs2.base-unit.spacing} * 1",
-        "$type": "spacing"
+        "$type": "spacing",
+        "$extensions": {
+          "figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
       },
       "x125": {
         "$value": "{sjs2.base-unit.spacing} * 1.25",
-        "$type": "spacing"
+        "$type": "spacing",
+        "$extensions": {
+          "figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
       },
       "x150": {
         "$value": "{sjs2.base-unit.spacing} * 1.5",
-        "$type": "spacing"
+        "$type": "spacing",
+        "$extensions": {
+          "figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
       },
       "x200": {
         "$value": "{sjs2.base-unit.spacing} * 2",
-        "$type": "spacing"
+        "$type": "spacing",
+        "$extensions": {
+          "figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
       },
       "x250": {
         "$value": "{sjs2.base-unit.spacing} * 2.50",
-        "$type": "spacing"
+        "$type": "spacing",
+        "$extensions": {
+          "figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
       },
       "x300": {
         "$value": "{sjs2.base-unit.spacing} * 3",
-        "$type": "spacing"
+        "$type": "spacing",
+        "$extensions": {
+          "figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
       },
       "x400": {
         "$value": "{sjs2.base-unit.spacing} * 4",
-        "$type": "spacing"
+        "$type": "spacing",
+        "$extensions": {
+          "figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
       },
       "x500": {
         "$value": "{sjs2.base-unit.spacing} * 5",
-        "$type": "spacing"
+        "$type": "spacing",
+        "$extensions": {
+          "figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
       },
       "x550": {
         "$value": "{sjs2.base-unit.spacing} * 5.5",
-        "$type": "spacing"
+        "$type": "spacing",
+        "$extensions": {
+          "figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
       },
       "x600": {
         "$value": "{sjs2.base-unit.spacing} * 6",
-        "$type": "spacing"
+        "$type": "spacing",
+        "$extensions": {
+          "figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
       },
       "x700": {
         "$value": "{sjs2.base-unit.spacing} * 7",
-        "$type": "spacing"
+        "$type": "spacing",
+        "$extensions": {
+          "figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
       },
       "x800": {
         "$value": "{sjs2.base-unit.spacing} * 8",
-        "$type": "spacing"
+        "$type": "spacing",
+        "$extensions": {
+          "figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
       },
       "x900": {
         "$value": "{sjs2.base-unit.spacing} * 9",
-        "$type": "spacing"
+        "$type": "spacing",
+        "$extensions": {
+          "figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
       },
       "x1000": {
         "$value": "{sjs2.base-unit.spacing} * 10",
-        "$type": "spacing"
+        "$type": "spacing",
+        "$extensions": {
+          "figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
       },
       "negative": {
         "x025": {
