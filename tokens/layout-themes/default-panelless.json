@@ -557,6 +557,10 @@
             "gap-horizontal": {
               "$value": "{sjs2.spacing.x300}",
               "$type": "spacing"
+            },
+            "gap": {
+              "$value": "{sjs2.spacing.x300}",
+              "$type": "spacing"
             }
           },
           "title": {
@@ -767,6 +771,10 @@
             "gap-horizontal": {
               "$value": "{sjs2.spacing.x300}",
               "$type": "spacing"
+            },
+            "gap": {
+              "$value": "{sjs2.spacing.x300}",
+              "$type": "spacing"
             }
           },
           "title": {
@@ -891,6 +899,10 @@
               "$type": "spacing"
             },
             "gap-horizontal": {
+              "$value": "{sjs2.spacing.x300}",
+              "$type": "spacing"
+            },
+            "gap": {
               "$value": "{sjs2.spacing.x300}",
               "$type": "spacing"
             }
@@ -1731,6 +1743,10 @@
               "$type": "spacing"
             },
             "gap-horizontal": {
+              "$value": "{sjs2.spacing.x300}",
+              "$type": "spacing"
+            },
+            "gap": {
               "$value": "{sjs2.spacing.x300}",
               "$type": "spacing"
             }
